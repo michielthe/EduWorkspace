@@ -55,12 +55,15 @@
     return fetchJSON(m.file_cau_hoi).then(function (d) { subjects[m.ma_mon] = d; return d; });
   }
   function findSubject(ma) { return (registry.mon || []).filter(function (m) { return m.ma_mon === ma; })[0]; }
-  function chapLabel(ch) { var n = (ch.ten.match(/\d+/) || ["?"])[0]; return (ch.nhom === "PerfectEN" ? "E" : "") + n; }
-  function chapShort(ch) { return ch.ten.replace(/^(Chương|PerfectEN)\s*\d+\s*-\s*/, ""); }
+  function chapLabel(ch, pos) { var n = (ch.ten.match(/\d+(?:-\d+)?/) || [String(pos)])[0]; return (ch.nhom === "PerfectEN" ? "E" : "") + n; }
+  function chapShort(ch) { return ch.ten.replace(/^(Chương|PerfectEN)\s*\d+(?:-\d+)?\s*-\s*/, ""); }
+  /* khu: "hien-tai" = môn của người dùng, "tong" = môn của người khác. Thiếu thì là "hien-tai". */
+  function khuOf(m) { return m && m.khu === "tong" ? "tong" : "hien-tai"; }
+  function khuOfCode(ma) { return khuOf(findSubject(ma)); }
   function initials(t) { var w = t.split(/\s+/).filter(function (x) { return /[A-Za-zÀ-ỹ0-9]/.test(x); }); return w.length > 1 ? (w[0][0] + w[1][0]).toUpperCase() : t.slice(0, 3).toUpperCase(); }
 
   /* ---------- Điều hướng ---------- */
-  var ROUTES = { "trang-chu": home, "trac-nghiem": quizRoute, "tai-lieu": docs };
+  var ROUTES = { "trang-chu": home, "trac-nghiem": function () { quizRoute("hien-tai"); }, "trac-nghiem-tong": function () { quizRoute("tong"); }, "tai-lieu": docs };
   function route() {
     var r = (location.hash || "").replace("#", "");
     if (!ROUTES[r]) r = "trang-chu";
@@ -80,7 +83,8 @@
         var nQ = 0, nC = 0;
         list.forEach(function (d) { if (!d) return; d.chuong.forEach(function (c) { if (c.cau.length) { nC++; nQ += c.cau.length; } }); });
         var nDoc = reg.mon.reduce(function (s, m) { return s + (m.tai_lieu || []).length; }, 0);
-        var qNames = withQ.map(function (m) { return m.ten; }).join(", ");
+        function names(k) { return withQ.filter(function (m) { return khuOf(m) === k; }).map(function (m) { return m.ten; }).join(", "); }
+        var qNames = names("hien-tai"), qTong = names("tong");
         var nodes = "", N = 7, dur = 2.8, delay = 0.35;
         for (var i = 0; i < N; i++) {
           var t = delay + dur * (i / (N - 1)) * 0.98;
@@ -89,7 +93,7 @@
         var h = '<section class="hero">'
           + '<div class="net run" aria-hidden="true"><div class="net-nodes">' + nodes + '</div><span class="packet"><i></i><i></i><i></i><i></i></span></div>'
           + "<h1>Ôn tập Học kỳ 3 bằng trắc nghiệm</h1>"
-          + "<p>Trang tự học: làm trắc nghiệm theo từng chương để nhớ bài, mở lại bản tóm tắt khi cần. Hiện có câu hỏi cho môn " + esc(qNames || "chưa có") + ".</p>"
+          + "<p>Trang tự học: làm trắc nghiệm theo từng chương để nhớ bài, mở lại bản tóm tắt khi cần. Hiện có câu hỏi cho môn " + esc(qNames || "chưa có") + "." + (qTong ? " Mục Trắc nghiệm Tổng có thêm môn " + esc(qTong) + "." : "") + "</p>"
           + '<div class="row-actions"><a class="btn primary" href="#trac-nghiem">Làm trắc nghiệm</a><a class="btn" href="#tai-lieu">Xem tài liệu</a></div>'
           + "</section>"
           + '<div class="facts">'
@@ -113,20 +117,25 @@
   function feature(i, t, d) { return '<div class="panel feature" style="--c:' + wire(i) + '"><h3><i aria-hidden="true"></i>' + esc(t) + "</h3><p>" + esc(d) + "</p></div>"; }
 
   /* ================= TRẮC NGHIỆM ================= */
-  function quizRoute() {
+  function quizRoute(khu) {
     render('<p class="loading">Đang tải...</p>', "loading");
     getRegistry().then(function () {
+      if (quiz.khu !== khu) return subjectsView(khu);
       if (quiz.view === "quiz" && quiz.s) return renderQuiz(0);
       if (quiz.view === "ketqua" && quiz.s) return results();
       if (quiz.view === "chuong" && quiz.mon) return chapters(quiz.mon);
-      subjectsView();
+      subjectsView(khu);
     }).catch(function (e) { render(errorBox(e), "err"); });
   }
 
-  function subjectsView() {
-    quiz = { view: "mon" };
-    var h = '<div class="stack"><h1>Trắc nghiệm môn học</h1><p class="muted">Chọn môn để xem các chương.</p></div><div class="panel list">';
-    registry.mon.forEach(function (m, i) {
+  function subjectsView(khu) {
+    khu = khu === "tong" ? "tong" : "hien-tai";
+    quiz = { view: "mon", khu: khu };
+    var list = registry.mon.filter(function (m) { return khuOf(m) === khu; });
+    var h = '<div class="stack"><h1>' + (khu === "tong" ? "Trắc nghiệm Tổng" : "Trắc nghiệm môn học") + '</h1><p class="muted">'
+      + (khu === "tong" ? "Các môn học khác (làm giúp người khác). Chọn môn để xem các chương." : "Chọn môn để xem các chương.") + '</p></div><div class="panel list">';
+    if (!list.length) h += '<div class="item" aria-disabled="true"><span class="item-body"><span class="item-meta">Chưa có môn nào</span></span></div>';
+    list.forEach(function (m, i) {
       var ok = !!m.file_cau_hoi;
       h += '<button class="item" style="--c:' + wire(i) + '" data-mon="' + esc(m.ma_mon) + '"' + (ok ? "" : " disabled") + ">"
         + '<span class="badge">' + esc(initials(m.ten)) + "</span>"
@@ -139,7 +148,7 @@
     main.querySelectorAll(".item[data-mon]").forEach(function (b) {
       b.addEventListener("click", function () { chapters(b.getAttribute("data-mon")); top(); });
     });
-    registry.mon.filter(function (m) { return m.file_cau_hoi; }).forEach(function (m) {
+    list.filter(function (m) { return m.file_cau_hoi; }).forEach(function (m) {
       getSubject(m).then(function (d) {
         var n = 0, c = 0; d.chuong.forEach(function (ch) { if (ch.cau.length) { c++; n += ch.cau.length; } });
         var el = main.querySelector('[data-meta="' + m.ma_mon + '"]'); if (el) el.textContent = c + " chương, " + n + " câu";
@@ -150,11 +159,13 @@
   }
 
   function chapters(ma) {
-    var m = findSubject(ma); if (!m) return subjectsView();
-    quiz = { view: "chuong", mon: ma };
+    var m = findSubject(ma); if (!m) return subjectsView(quiz.khu);
+    var khu = khuOf(m);
+    quiz = { view: "chuong", mon: ma, khu: khu };
     render('<p class="loading">Đang tải câu hỏi...</p>', "loading");
     getSubject(m).then(function (d) {
-      var shuffleOn = load("xao-tron") === true, groups = [], idx = 0;
+      var shuffleOn = load("xao-tron") === true, groups = [], idx = 0, posIn = {};
+      d.chuong.forEach(function (ch, ci) { posIn[ch.id] = ci + 1; });
       d.chuong.forEach(function (ch) {
         var g = groups.filter(function (x) { return x.name === ch.nhom; })[0];
         if (!g) { g = { name: ch.nhom || "Khác", items: [] }; groups.push(g); }
@@ -180,14 +191,14 @@
             meter = '<span class="meter"><i style="width:' + (last.dung * 100 / last.tong) + '%"></i></span>';
           }
           h += '<button class="item" style="--c:' + wire(idx++) + '" data-ch="' + esc(ch.id) + '"' + (n ? "" : " disabled") + ">"
-            + '<span class="badge">' + esc(chapLabel(ch)) + "</span>"
+            + '<span class="badge">' + esc(chapLabel(ch, posIn[ch.id])) + "</span>"
             + '<span class="item-body"><span class="item-name">' + esc(chapShort(ch)) + '</span><span class="item-meta">' + meta + "</span>" + meter + "</span>"
             + (n ? '<span class="item-go">' + (prog ? "Làm tiếp" : "Làm bài") + "</span>" : "") + "</button>";
         });
         h += "</div></section>";
       });
       render(h, "chuong:" + ma);
-      document.getElementById("ve-mon").onclick = function () { subjectsView(); top(); };
+      document.getElementById("ve-mon").onclick = function () { subjectsView(khu); top(); };
       document.getElementById("xao-tron").addEventListener("change", function (e) { store("xao-tron", e.target.checked); });
       main.querySelectorAll(".item[data-ch]").forEach(function (b) {
         b.addEventListener("click", function () {
@@ -199,7 +210,7 @@
       });
     }).catch(function (e) {
       render('<div class="crumbs"><button class="link-btn" id="ve-mon">Tất cả môn</button></div>' + errorBox(e), "err");
-      document.getElementById("ve-mon").onclick = subjectsView;
+      document.getElementById("ve-mon").onclick = function () { subjectsView(khu); };
     });
   }
 
@@ -227,7 +238,7 @@
   }
 
   function resumeView(d, ch, p) {
-    quiz = { view: "chuong", mon: d.ma_mon };
+    quiz = { view: "chuong", mon: d.ma_mon, khu: khuOfCode(d.ma_mon) };
     var done = p.picks.filter(function (x) { return x !== null; }).length;
     var h = '<div class="crumbs"><button class="link-btn" id="ve-chuong">' + esc(d.mon) + "</button><span>/</span><span>" + esc(chapShort(ch)) + "</span></div>"
       + '<section class="panel resume-box"><h2>' + esc(ch.ten) + "</h2>"
@@ -239,7 +250,7 @@
     document.getElementById("ve-chuong").onclick = function () { chapters(d.ma_mon); };
     document.getElementById("lam-tiep").onclick = function () {
       var byId = {}; ch.cau.forEach(function (q) { byId[q.id] = q; });
-      quiz = { view: "quiz", mon: d.ma_mon, s: { d: d, ch: ch, cur: p.cur, retry: !!p.retry, streak: p.streak || 0,
+      quiz = { view: "quiz", mon: d.ma_mon, khu: khuOfCode(d.ma_mon), s: { d: d, ch: ch, cur: p.cur, retry: !!p.retry, streak: p.streak || 0,
         items: p.ids.map(function (id, i) { return { q: byId[id], order: p.orders[i], pick: p.picks[i] }; }) } };
       renderQuiz(0);
     };
@@ -249,7 +260,7 @@
   function start(d, ch, onlyIds) {
     var qs = onlyIds ? ch.cau.filter(function (q) { return onlyIds.indexOf(q.id) >= 0; }) : ch.cau.slice();
     if (load("xao-tron") === true) qs = shuffle(qs);
-    quiz = { view: "quiz", mon: d.ma_mon, s: { d: d, ch: ch, cur: 0, retry: !!onlyIds, streak: 0,
+    quiz = { view: "quiz", mon: d.ma_mon, khu: khuOfCode(d.ma_mon), s: { d: d, ch: ch, cur: 0, retry: !!onlyIds, streak: 0,
       items: qs.map(function (q) { return { q: q, order: shuffle([0, 1, 2, 3]), pick: null }; }) } };
     save();
     renderQuiz(0);
@@ -420,7 +431,7 @@
       var h = '<div class="stack"><h1>Tài liệu môn học</h1><p class="muted">Bản tóm tắt PDF theo chương. Bấm để mở trong tab mới.</p></div>';
       reg.mon.forEach(function (m, mi) {
         var list = m.tai_lieu || [];
-        h += '<section class="stack"><div class="section-title" style="--c:' + wire(mi) + '">' + esc(m.ten) + '</div><div class="panel list">';
+        h += '<section class="stack"><div class="section-title" style="--c:' + wire(mi) + '">' + esc(m.ten) + (khuOf(m) === "tong" ? " (môn học khác)" : "") + '</div><div class="panel list">';
         if (!list.length) h += '<div class="item" aria-disabled="true"><span class="item-body"><span class="item-meta">Chưa có tài liệu</span></span></div>';
         list.forEach(function (t, i) {
           h += '<a class="item" style="--c:' + wire(i) + '" href="' + esc(t.file) + '" target="_blank" rel="noopener"><span class="doc-icon" aria-hidden="true">PDF</span>'

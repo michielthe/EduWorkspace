@@ -1,0 +1,3702 @@
+{
+  "mon": "Vi sinh vật học",
+  "ma_mon": "vi-sinh",
+  "phien_ban": 1,
+  "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Chương 1 - Mở đầu Vi sinh vật học",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Theo slide, vì sao vi sinh vật được xem là mô hình ưu việt để nghiên cứu các quá trình sống của tế bào?",
+          "dap_an": [
+            "Nuôi được ở mật độ rất cao, thời gian thế hệ ngắn, dễ dùng cho sinh hóa, di truyền",
+            "Có cấu trúc tế bào đơn giản nên dễ quan sát hơn mọi sinh vật khác trong phòng thí nghiệm",
+            "Có bộ gen lớn nhất trong các nhóm sinh vật nên dễ phân tích bằng các phương pháp di truyền",
+            "Không đòi hỏi vô trùng khi nuôi cấy nên thao tác trong phòng thí nghiệm rất đơn giản"
+          ],
+          "giai_thich": "Ý nghĩa khoa học của vi sinh vật nằm ở mật độ nuôi cao, thời gian thế hệ ngắn và tiện cho nghiên cứu sinh hóa, di truyền. Vi sinh vật có bộ gen nhỏ chứ không lớn, và việc nuôi cấy luôn cần vô trùng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Ý nghĩa thực tiễn của vi sinh vật học được slide nêu ở những lĩnh vực nào?",
+          "dap_an": [
+            "Y học, nông nghiệp và công nghiệp",
+            "Y học, quốc phòng và giao thông",
+            "Nông nghiệp, xây dựng và viễn thông",
+            "Công nghiệp, giáo dục và du lịch"
+          ],
+          "giai_thich": "Slide chỉ ra vai trò quan trọng của vi sinh vật trong y học, nông nghiệp và công nghiệp.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Sáu đặc tính sống của tế bào vi sinh vật theo slide gồm đặc tính nào sau đây mà KHÔNG nằm trong danh sách?",
+          "dap_an": [
+            "Quang hợp",
+            "Phân hóa",
+            "Giao tiếp",
+            "Di động"
+          ],
+          "giai_thich": "Sáu đặc tính gồm biến dưỡng, sinh sản, phân hóa, giao tiếp, di động, tiến hóa và di truyền. Quang hợp chỉ có ở một số nhóm nên không là đặc tính chung.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Việc tế bào lấy hóa chất từ môi trường, biến đổi chúng và thải chất thải ra ngoài thể hiện đặc tính nào, và vì sao tế bào được gọi là hệ thống mở?",
+          "dap_an": [
+            "Biến dưỡng, vì có trao đổi vật chất liên tục với môi trường",
+            "Phân hóa, vì tế bào tạo ra cấu trúc mới khi cần thiết",
+            "Giao tiếp, vì tế bào tiết và hấp thu các chất hóa học",
+            "Sinh sản, vì hóa chất được chuyển thành tế bào mới"
+          ],
+          "giai_thich": "Biến dưỡng (metabolism) là quá trình lấy chất từ môi trường, biến đổi trong tế bào rồi thải ra, nên tế bào là hệ thống mở. Sinh sản là việc chuyển hóa chất thành tế bào mới dưới sự điều khiển của tế bào có trước.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Bào tử (spore) là ví dụ cho đặc tính sống nào?",
+          "dap_an": [
+            "Phân hóa: tạo cấu trúc tế bào mới, thường nằm trong chu kỳ sống",
+            "Sinh sản: hóa chất từ môi trường chuyển thành tế bào mới",
+            "Di động: tế bào tự di chuyển bằng cơ quan vận động",
+            "Giao tiếp: tế bào tương tác bằng các chất hóa học"
+          ],
+          "giai_thich": "Phân hóa (differentiation) là tạo cấu trúc tế bào mới như bào tử, thường nằm trong chu kỳ sống của tế bào.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Tế bào giao tiếp và tương tác với nhau chủ yếu bằng cách nào?",
+          "dap_an": [
+            "Bằng các chất hóa học tiết ra hoặc hấp thu vào",
+            "Bằng tín hiệu điện truyền qua màng tế bào",
+            "Bằng sự trao đổi trực tiếp các bào quan",
+            "Bằng bức xạ ánh sáng phát ra từ tế bào"
+          ],
+          "giai_thich": "Theo slide, giao tiếp của tế bào vi sinh vật chủ yếu qua các chất hóa học tiết ra hoặc hấp thu vào.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Cây phát sinh chủng loại cho thấy điều gì?",
+          "dap_an": [
+            "Quan hệ tiến hóa giữa các tế bào",
+            "Thứ tự xuất hiện của các bệnh truyền nhiễm",
+            "Mức độ chịu nhiệt của từng nhóm vi sinh vật",
+            "Cách phân chia môi trường nuôi cấy theo thành phần"
+          ],
+          "giai_thich": "Đặc tính tiến hóa và di truyền thể hiện ở chỗ tế bào xuất hiện đặc tính sinh học mới; cây phát sinh chủng loại biểu diễn quan hệ tiến hóa giữa các tế bào.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Hai chức năng cơ bản của tế bào vi sinh vật là gì?",
+          "dap_an": [
+            "Chuyển hóa vật chất và mã hóa thông tin",
+            "Chuyển hóa vật chất và vận động",
+            "Mã hóa thông tin và phân loại",
+            "Sinh sản và tạo bào tử"
+          ],
+          "giai_thich": "Slide nêu hai chức năng: chuyển hóa vật chất (cần ATP và tiền chất đại phân tử) và mã hóa thông tin (DNA → RNA → protein).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.2; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Trong chức năng chuyển hóa vật chất, tế bào cần những gì?",
+          "dap_an": [
+            "Năng lượng (ATP) và tiền chất của đại phân tử như đường, amino acid, acid béo",
+            "Năng lượng (ATP) và các đại phân tử có sẵn như protein, DNA, RNA từ môi trường",
+            "Chỉ ánh sáng và CO2 để tổng hợp toàn bộ vật liệu cấu thành tế bào",
+            "Chỉ các tiền chất đường và amino acid vì năng lượng lấy từ bên ngoài"
+          ],
+          "giai_thich": "Biến dưỡng cung cấp năng lượng giữ cấu trúc ổn định và các tiền chất (đường, amino acid, acid béo...) để tổng hợp hợp chất cấu trúc. Tế bào cần cả năng lượng lẫn tiền chất.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.2; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Thông tin di truyền ở tế bào đi theo chiều nào, và các giai đoạn tương ứng là gì?",
+          "dap_an": [
+            "DNA → RNA → protein: nhân đôi, phiên mã, dịch mã",
+            "RNA → DNA → protein: phiên mã, nhân đôi, dịch mã",
+            "DNA → protein → RNA: dịch mã, phiên mã, nhân đôi",
+            "Protein → RNA → DNA: dịch mã, phiên mã, nhân đôi"
+          ],
+          "giai_thich": "DNA tự nhân đôi (replication), phiên mã thành RNA (transcription) rồi RNA dịch mã thành protein (translation).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.2; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Quá trình RNA được dùng để tổng hợp chuỗi polypeptide gọi là gì?",
+          "dap_an": [
+            "Dịch mã (translation)",
+            "Phiên mã (transcription)",
+            "Nhân đôi (replication)",
+            "Biến nạp (transformation)"
+          ],
+          "giai_thich": "Translation (dịch mã) là bước RNA dịch thành protein. Transcription là DNA thành RNA.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2.2; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Slide Chương 1 nêu những dạng tế bào hay cấu trúc sống nào?",
+          "dap_an": [
+            "Tiền nhân (prokaryote), nhân thật (eukaryote) và virus",
+            "Vi khuẩn, vi khuẩn cổ (Archaea) và sinh vật nhân thật (Eukarya)",
+            "Tế bào tiền nhân, tế bào nhân thật và prion",
+            "Vi khuẩn, nấm men và các loài tảo đơn bào"
+          ],
+          "giai_thich": "Ba dạng được liệt kê là tế bào tiền nhân, tế bào nhân thật và virus. Ba giới (Bacteria, Archaea, Eukarya) là cách phân khác, dựa vào rRNA.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Ba giới sinh vật trong slide được phân chia dựa trên tiêu chí nào?",
+          "dap_an": [
+            "Trình tự nucleotide của rRNA",
+            "Hình dạng và kích thước tế bào",
+            "Nguồn năng lượng và nguồn carbon",
+            "Có hay không có thành tế bào"
+          ],
+          "giai_thich": "Phân loại ba giới (Bacteria, Archaea, Eukarya) dựa trên trình tự nucleotide của rRNA.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Nhóm nào sau đây thuộc giới Archaea theo sơ đồ cây phát sinh trong slide?",
+          "dap_an": [
+            "Methanogens",
+            "Cyanobacteria",
+            "Proteobacteria",
+            "Slime molds"
+          ],
+          "giai_thich": "Archaea gồm methanogens, extreme halophiles và hyperthermophiles. Cyanobacteria và Proteobacteria thuộc Bacteria, slime molds thuộc Eukarya.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Trên hình slide, thanh tỉ lệ của tế bào prokaryote và eukaryote lần lượt là bao nhiêu?",
+          "dap_an": [
+            "0,5 µm và 10 µm",
+            "10 µm và 0,5 µm",
+            "0,5 µm và 1 µm",
+            "1 µm và 100 µm"
+          ],
+          "giai_thich": "Hình (a) prokaryote có thanh 0,5 µm, hình (b) eukaryote có thanh 10 µm, phản ánh eukaryote lớn hơn nhiều.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Cấu trúc nào có trên hình tế bào eukaryote mà KHÔNG có trên hình prokaryote của slide?",
+          "dap_an": [
+            "Nhân có màng nhân và lưới nội chất",
+            "Ribosome",
+            "Màng sinh chất",
+            "Tế bào chất"
+          ],
+          "giai_thich": "Prokaryote chỉ có nucleoid, ribosome, màng và thành tế bào. Eukaryote có nhân, lưới nội chất, ty thể, lục lạp.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Hiểu biết hiện có về vi sinh vật chủ yếu dựa trên loại nghiên cứu nào?",
+          "dap_an": [
+            "Chủng thuần trong phòng thí nghiệm",
+            "Quần xã tự nhiên quan sát trực tiếp",
+            "Mẫu bệnh phẩm lấy từ người",
+            "Mô phỏng trên máy tính"
+          ],
+          "giai_thich": "Slide nhấn mạnh hầu hết kiến thức dựa trên chủng thuần, dù trong tự nhiên vi sinh vật gắn chặt với yếu tố sinh thái.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Vai trò nào sau đây của vi sinh vật nằm trong lĩnh vực nông nghiệp theo slide?",
+          "dap_an": [
+            "Cố định đạm cho cây trồng",
+            "Tạo phô mai và yaourt",
+            "Sản xuất kháng sinh",
+            "Tạo khí methane làm nhiên liệu"
+          ],
+          "giai_thich": "Cố định đạm, tuần hoàn dinh dưỡng trong đất và giúp gia súc tiêu hóa cỏ rơm là vai trò nông nghiệp. Phô mai thuộc thực phẩm, kháng sinh thuộc y tế, methane thuộc năng lượng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Vi sinh vật tạo khí methane được slide xếp vào lĩnh vực nào?",
+          "dap_an": [
+            "Năng lượng",
+            "Môi trường",
+            "Công nghiệp",
+            "Thực phẩm"
+          ],
+          "giai_thich": "Tạo methane làm nhiên liệu và tạo H2 từ ánh sáng hoặc nguồn vô cơ, hữu cơ được xếp vào lĩnh vực năng lượng tái sinh.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Đóng góp nào sau đây thuộc lĩnh vực thực phẩm?",
+          "dap_an": [
+            "Lên men bia, rượu, phô mai, yaourt và kéo dài thời gian bảo quản",
+            "Phân hủy chất thải và cải thiện môi trường ô nhiễm thuốc trừ sâu",
+            "Sản xuất kháng sinh và ổn định hệ vi khuẩn đường ruột",
+            "Tạo dung môi hữu cơ, vitamin và sinh khối cho công nghiệp"
+          ],
+          "giai_thich": "Thực phẩm gồm lên men, bảo quản và phụ gia. Các ý còn lại thuộc môi trường, y tế và công nghiệp.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Theo quan điểm ASM nêu trong slide, ý nào đúng?",
+          "dap_an": [
+            "Đa dạng thật sự của vi sinh vật phần lớn chưa được biết",
+            "Phần lớn vi sinh vật đã được phân lập và mô tả đầy đủ",
+            "Vi sinh vật chỉ quan trọng trong y học và công nghiệp",
+            "Vi sinh vật không cần thiết cho các quá trình duy trì sự sống"
+          ],
+          "giai_thich": "Một trong bốn ý của ASM: đa dạng thật sự phần lớn chưa biết, nên tác động và lợi ích tiềm năng chưa được khám phá hết.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4.3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Phân ngành nào sau đây thuộc Nhóm II (ứng dụng) theo Table 1.3?",
+          "dap_an": [
+            "Immunology (miễn dịch học)",
+            "Biochemistry (sinh hóa)",
+            "Systematics (hệ thống học)",
+            "Molecular biology (sinh học phân tử)"
+          ],
+          "giai_thich": "Nhóm I (cơ bản) gồm physiology, genetics, biochemistry, systematics, virology, molecular biology, ecology. Immunology thuộc nhóm ứng dụng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Systematics (hệ thống học) có trọng tâm gì?",
+          "dap_an": [
+            "Phân loại và danh pháp",
+            "Enzyme và phản ứng hóa học trong tế bào",
+            "Nucleic acid và protein",
+            "Gen, tính di truyền và biến dị"
+          ],
+          "giai_thich": "Systematics tập trung vào phân loại và danh pháp. Biochemistry là enzyme, molecular biology là nucleic acid và protein, genetics là gen.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Phân ngành nào nghiên cứu virus và các hạt dưới virus?",
+          "dap_an": [
+            "Virology",
+            "Immunology",
+            "Ecology",
+            "Aquatic microbiology"
+          ],
+          "giai_thich": "Virology (virus học) nghiên cứu virus và các hạt dưới virus.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Ai được slide ghi nhận là người mô tả vi sinh vật đầu tiên và vào năm nào?",
+          "dap_an": [
+            "Hooke, năm 1665, qua cấu trúc sinh sản của nấm mốc",
+            "Leeuwenhoek, năm 1665, qua việc quan sát vi khuẩn",
+            "Hooke, năm 1684, qua việc quan sát vi khuẩn",
+            "Pasteur, năm 1665, qua việc quan sát nấm men"
+          ],
+          "giai_thich": "Hooke (1665) mô tả vi sinh vật đầu tiên (cấu trúc sinh sản của nấm mốc). Leeuwenhoek là người đầu tiên thấy vi khuẩn.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-26",
+          "hoi": "Ai là người phát hiện nội bào tử và đặt nền cho phân loại vi khuẩn?",
+          "dap_an": [
+            "Cohn",
+            "Koch",
+            "Lister",
+            "Fleming"
+          ],
+          "giai_thich": "Cohn (1828–1898) phát hiện nội bào tử, đặt nền phân loại vi khuẩn và dùng bông gòn nút bình để tránh nhiễm môi trường.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6.2; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-27",
+          "hoi": "Lister (1867) được ghi nhận cho phát minh nào?",
+          "dap_an": [
+            "Nguyên tắc vô trùng trong phẫu thuật",
+            "Vi sinh vật học của lên men lactic",
+            "Quy tắc xác định nguyên nhân gây bệnh",
+            "Phát hiện penicillin"
+          ],
+          "giai_thich": "Lister đề ra nguyên tắc vô trùng trong phẫu thuật (1867). Lên men lactic và nấm men là công trình của Pasteur, penicillin do Fleming.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-28",
+          "hoi": "Thí nghiệm bình cổ cong của Pasteur (1864) chứng minh điều gì?",
+          "dap_an": [
+            "Vi sinh vật không tự phát sinh mà vào từ bụi, không khí",
+            "Nấm men là nguyên nhân của lên men cồn",
+            "Vi sinh vật gây bệnh truyền nhiễm cho người",
+            "Vi khuẩn chỉ sống được trong môi trường kỵ khí"
+          ],
+          "giai_thich": "Dịch đã khử trùng trong bình cổ cong vẫn vô trùng nhiều năm vì bụi bị giữ ở chỗ cong; nghiêng bình cho bụi chạm dịch thì vi sinh vật mọc. Đó là bằng chứng chống thuyết phát sinh ngẫu nhiên.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6.3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-29",
+          "hoi": "Trong thí nghiệm bình cổ cong, vì sao dịch nuôi vẫn vô trùng sau nhiều năm dù cổ bình để hở?",
+          "dap_an": [
+            "Bụi mang vi sinh vật bị giữ lại ở chỗ cong của cổ bình",
+            "Không khí trong bình đã bị rút hết sau khi đun sôi dịch",
+            "Cổ bình được bịt bằng bông gòn vô trùng để lọc không khí",
+            "Dịch nuôi chứa chất diệt khuẩn tự nhiên sinh ra khi nguội"
+          ],
+          "giai_thich": "Pasteur kéo cổ bình thành hình cong, đầu để hở; dịch nguội từ từ, bụi và vi sinh vật bị giữ ở chỗ cong. Nút bông là kỹ thuật của Cohn, không phải bình cổ cong.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-30",
+          "hoi": "Bước đối chứng (nghiêng bình cho bụi chạm dịch) trong thí nghiệm của Pasteur cho kết quả gì?",
+          "dap_an": [
+            "Vi sinh vật mọc trong dịch sau một thời gian ngắn",
+            "Dịch vẫn vô trùng vì đã được đun trước đó",
+            "Dịch bị đục nhưng không phát hiện vi sinh vật nào",
+            "Dịch đông đặc lại do phản ứng hóa học với bụi"
+          ],
+          "giai_thich": "Khi bụi mang vi sinh vật chạm dịch vô trùng, vi sinh vật phát triển trong dịch, chứng minh nguồn vi sinh vật là từ bên ngoài.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6.3; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-31",
+          "hoi": "Quy tắc Koch (1884) có bao nhiêu bước, và bước nào là bước cuối cùng?",
+          "dap_an": [
+            "4 bước; bước cuối là phân lập lại vi sinh vật và phải giống ban đầu",
+            "4 bước; bước cuối là gây bệnh cho sinh vật khỏe",
+            "3 bước; bước cuối là nuôi cấy trên môi trường vô trùng",
+            "5 bước; bước cuối là xác định trình tự DNA của vi sinh vật"
+          ],
+          "giai_thich": "Bốn bước: có mặt ở mọi ca bệnh; nuôi chủng thuần; gây bệnh tương tự khi cho vào sinh vật khỏe; phân lập lại phải giống ban đầu.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.4; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-32",
+          "hoi": "Điều kiện nào KHÔNG thuộc quy tắc Koch?",
+          "dap_an": [
+            "Vi sinh vật phải sinh ra độc tố có thể tinh chế được",
+            "Có mặt ở mọi ca bệnh, không có ở sinh vật khỏe mạnh",
+            "Nuôi cấy được trên môi trường vô trùng, tách khỏi cơ thể động vật",
+            "Gây triệu chứng tương tự khi cho vào sinh vật khỏe"
+          ],
+          "giai_thich": "Bốn điều kiện của Koch gồm ba ý còn lại và việc phân lập lại. Việc tinh chế độc tố không có trong quy tắc.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.4; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-33",
+          "hoi": "Koch phát hiện nguyên nhân bệnh nào, vào năm nào?",
+          "dap_an": [
+            "Bệnh lao, 1882",
+            "Bệnh than, 1857",
+            "Bệnh dại, 1884",
+            "Bệnh lao, 1928"
+          ],
+          "giai_thich": "Koch phát hiện nguyên nhân gây bệnh lao năm 1882 và đưa ra quy tắc Koch năm 1884.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-34",
+          "hoi": "Cặp phát minh nào đúng với Fleming và Waksman, Schatz?",
+          "dap_an": [
+            "Penicillin (1929); streptomycin (1944)",
+            "Streptomycin (1929); penicillin (1944)",
+            "Penicillin (1944); biến nạp (1928)",
+            "Quy tắc Koch (1884); penicillin (1929)"
+          ],
+          "giai_thich": "Fleming phát hiện penicillin năm 1929, Waksman và Schatz phát hiện streptomycin năm 1944.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-35",
+          "hoi": "Tatum và Lederberg (1946) phát hiện hiện tượng nào, còn Griffith (1928) phát hiện hiện tượng nào?",
+          "dap_an": [
+            "Giao nạp ở vi khuẩn; biến nạp ở pneumococcus",
+            "Biến nạp ở vi khuẩn; giao nạp ở pneumococcus",
+            "Tải nạp ở vi khuẩn; biến nạp ở nấm men",
+            "Operon ở vi khuẩn; transposon ở pneumococcus"
+          ],
+          "giai_thich": "Griffith (1928): biến nạp ở pneumococcus. Tatum, Lederberg (1946): sự giao nạp ở vi khuẩn.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-36",
+          "hoi": "Ai được ghi nhận với phát hiện transposable element (1951) và ai với Archaea (1977)?",
+          "dap_an": [
+            "McClintock; Woese và Fox",
+            "Woese và Fox; McClintock",
+            "Brock; Venter",
+            "McClintock; Stetter"
+          ],
+          "giai_thich": "Bảng lịch sử: 1951 McClintock phát hiện transposable element; 1977 Woese, Fox phát hiện Archaea.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-37",
+          "hoi": "Năm 1944, Avery, Leod và Carty chứng minh điều gì?",
+          "dap_an": [
+            "DNA là vật liệu di truyền",
+            "Cấu trúc xoắn kép của DNA",
+            "Quan niệm operon",
+            "Sự giao nạp ở vi khuẩn"
+          ],
+          "giai_thich": "1944: DNA là vật liệu di truyền. Cấu trúc DNA là công trình của Watson, Crick, Franklin (1953). Operon do Jacob, Perrin, Sanchez, Monod (1960).",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.1; slide Ch 1-Mod"
+        },
+        {
+          "id": "c1-38",
+          "hoi": "Năm Leeuwenhoek phát hiện vi khuẩn được ghi thế nào trong slide, và lưu ý gì được nêu?",
+          "dap_an": [
+            "Bảng lịch sử ghi 1684, slide khác ghi 1676 kèm chú thích khác nhau theo tài liệu",
+            "Mọi slide đều thống nhất ghi năm 1684 và không có chú thích nào khác",
+            "Bảng lịch sử ghi 1665, trùng với năm Hooke mô tả vi sinh vật đầu tiên",
+            "Slide ghi 1648 vì ông sinh năm 1632 nên mọi mốc đều khớp nhau"
+          ],
+          "giai_thich": "Bảng lịch sử slide 21 ghi 1684, slide 24 ghi 1676 kèm chú thích khác nhau theo tài liệu. Chú thích “1648” trong hình mâu thuẫn năm sinh nên là lỗi cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6.1 và Lưu ý (slide 21, 24, 25); slide Ch 1-Mod"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nhom": "Bài giảng",
+      "ten": "Chương 2 - Tế bào vi sinh vật",
+      "cau": [
+        {
+          "id": "c2-01",
+          "hoi": "Nước chiếm bao nhiêu trọng lượng tế bào theo slide?",
+          "dap_an": [
+            "70–90%",
+            "30–40%",
+            "50–60%",
+            "95–99%"
+          ],
+          "giai_thich": "Nước chiếm 70–90% trọng lượng tế bào; nước hơi phân cực nên hòa tan các phân tử phân cực.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-02",
+          "hoi": "Vì sao nước làm các phân tử không phân cực kết tụ lại?",
+          "dap_an": [
+            "Nước hơi phân cực nên đẩy phân tử không phân cực kết tụ, tạo màng ngăn",
+            "Nước tạo liên kết cộng hóa trị với phân tử không phân cực",
+            "Nước tích điện dương mạnh nên hút các phân tử không phân cực",
+            "Nước phân giải phân tử không phân cực thành các đơn phân"
+          ],
+          "giai_thich": "Nước hòa tan chất phân cực và làm chất không phân cực kết tụ thành màng ngăn phân tử phân cực ra vào tế bào (tương tác kỵ nước).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-03",
+          "hoi": "Bốn loại liên kết hay tương tác trong hệ sinh học nêu ở slide là gì?",
+          "dap_an": [
+            "Liên kết hydrogen, liên kết cộng hóa trị, tương tác kỵ nước, tương tác tĩnh điện",
+            "Liên kết hydrogen, liên kết ion, liên kết peptide, liên kết glycoside",
+            "Liên kết cộng hóa trị, liên kết ester, liên kết ether, tương tác Van der Waals",
+            "Liên kết peptide, liên kết phosphodiester, liên kết ester, tương tác kỵ nước"
+          ],
+          "giai_thich": "Slide nêu bốn loại: hydrogen, cộng hóa trị, tương tác kỵ nước và tương tác tĩnh điện. Peptide, glycoside, ester... là các liên kết cụ thể của từng đại phân tử.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-04",
+          "hoi": "Đại phân tử chiếm tỉ lệ cao nhất trong tế bào vi sinh vật theo bảng slide là gì?",
+          "dap_an": [
+            "Protein (55%)",
+            "Nucleic acid (23,6%)",
+            "Lipid (9,1%)",
+            "Polysaccharide (5%)"
+          ],
+          "giai_thich": "Protein chiếm 55%, nucleic acid 23,6% (trong đó RNA 20,5%, DNA 3,1%), lipid 9,1% và polysaccharide 5%.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-05",
+          "hoi": "Trong nucleic acid của tế bào, thành phần nào chiếm phần lớn?",
+          "dap_an": [
+            "RNA (20,5%)",
+            "DNA (20,5%)",
+            "RNA (3,1%)",
+            "DNA và RNA bằng nhau"
+          ],
+          "giai_thich": "Nucleic acid gồm DNA 3,1% và RNA 20,5%, nên RNA chiếm phần lớn.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-06",
+          "hoi": "Liên kết nối các amino acid trong chuỗi protein và liên kết nối các đơn phân trong polysaccharide lần lượt là gì?",
+          "dap_an": [
+            "Liên kết peptide; liên kết glycoside",
+            "Liên kết glycoside; liên kết peptide",
+            "Liên kết ester; liên kết ether",
+            "Liên kết hydrogen; liên kết cộng hóa trị"
+          ],
+          "giai_thich": "Protein là chuỗi amino acid nối bằng liên kết peptide; polysaccharide gồm đường nối bằng liên kết glycoside.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-07",
+          "hoi": "Polysaccharide nào sau đây KHÔNG nằm trong danh sách quan trọng của slide?",
+          "dap_an": [
+            "Chitosan",
+            "Cellulose",
+            "Glycogen",
+            "Peptidoglycan"
+          ],
+          "giai_thich": "Slide nêu cellulose, glycogen, tinh bột và peptidoglycan là các polysaccharide quan trọng.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-08",
+          "hoi": "Các polysaccharide khác nhau chủ yếu do những yếu tố nào?",
+          "dap_an": [
+            "Hướng liên kết glycoside (α, β), loại đơn phân và tổ hợp đơn phân",
+            "Số lượng nhóm phosphate gắn vào mỗi đơn phân đường trong mạch",
+            "Trình tự các base nitric phân bố dọc theo mạch polysaccharide",
+            "Số liên kết disulfide nối giữa các chuỗi polysaccharide kề nhau"
+          ],
+          "giai_thich": "Slide: polysaccharide khác nhau do hướng liên kết glycoside (α, β), khác đơn phân và tổ hợp đơn phân.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-09",
+          "hoi": "DNA và RNA khác nhau ở thành phần nào của nucleotide, và về số mạch?",
+          "dap_an": [
+            "Loại đường; DNA mạch đôi, RNA chỉ có mạch đơn",
+            "Loại phosphate; DNA mạch đơn, RNA mạch đôi",
+            "Loại đường; cả hai đều mạch đôi",
+            "Số base nitric; cả hai đều mạch đơn"
+          ],
+          "giai_thich": "Nucleotide gồm đường, phosphate và base. DNA và RNA khác ở đường. DNA mạch đôi (A–T, G–C), RNA chỉ mạch đơn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-10",
+          "hoi": "Trong DNA mạch đôi, các cặp base nào bắt cặp với nhau?",
+          "dap_an": [
+            "A–T và G–C, nối bằng liên kết hydrogen",
+            "A–G và T–C, nối bằng liên kết hydrogen",
+            "A–U và G–C, nối bằng liên kết cộng hóa trị",
+            "A–T và G–C, nối bằng liên kết peptide"
+          ],
+          "giai_thich": "Hai mạch bổ sung với nhau qua các cặp A–T và G–C, nối bằng liên kết hydrogen. A–U xảy ra trong RNA.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-11",
+          "hoi": "Cấu trúc bậc 2 của protein được duy trì chủ yếu nhờ gì?",
+          "dap_an": [
+            "Liên kết hydrogen, tạo dạng xoắn hoặc phiến",
+            "Liên kết peptide giữa các amino acid",
+            "Liên kết disulfide (–SH) giữa các chuỗi",
+            "Sự kết hợp của nhiều polypeptide"
+          ],
+          "giai_thich": "Bậc 1 là trình tự amino acid, bậc 2 là xoắn hoặc phiến nhờ liên kết hydrogen, bậc 3 là cuộn gấp, bậc 4 là nhiều polypeptide kết hợp.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-12",
+          "hoi": "Cấu trúc nào của protein được hình thành khi nhiều chuỗi polypeptide kết hợp với nhau?",
+          "dap_an": [
+            "Bậc 4",
+            "Bậc 3",
+            "Bậc 2",
+            "Bậc 1"
+          ],
+          "giai_thich": "Bậc 4 là cấu trúc nhiều polypeptide kết hợp. Bậc 3 là cuộn gấp trong một chuỗi.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-13",
+          "hoi": "Đồng phân quang học nào chiếm ưu thế trong hệ sống?",
+          "dap_an": [
+            "Dạng D của đường và dạng L của amino acid",
+            "Dạng L của đường và dạng D của amino acid",
+            "Dạng D của cả đường và amino acid",
+            "Dạng L của cả đường và amino acid"
+          ],
+          "giai_thich": "Trong hệ sống chiếm ưu thế là đồng phân D của đường và L của amino acid.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-14",
+          "hoi": "Giới hạn độ phân giải của kính hiển vi quang học và kính hiển vi điện tử lần lượt là bao nhiêu?",
+          "dap_an": [
+            "0,2 µm và 0,2 nm",
+            "0,2 nm và 0,2 µm",
+            "2 µm và 2 nm",
+            "0,2 mm và 0,2 µm"
+          ],
+          "giai_thich": "KHV quang học phân giải 0,2 µm; KHV điện tử dùng electron nên đạt 0,2 nm.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-15",
+          "hoi": "Với thị kính 10× và vật kính dầu 100×, độ phóng đại tổng cộng là bao nhiêu?",
+          "dap_an": [
+            "1000×",
+            "100×",
+            "400×",
+            "10 000×"
+          ],
+          "giai_thich": "Độ phóng đại bằng thị kính nhân vật kính: 10 × 100 = 1000×. Vật kính 10× cho 100×, vật kính 40× cho 400×.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-16",
+          "hoi": "Loại kính nào cần chỉ số khúc xạ khác nhau giữa tế bào và môi trường xung quanh, nhờ phase ring trong vật kính?",
+          "dap_an": [
+            "Kính tương phản pha",
+            "Kính nền sáng",
+            "Kính nền tối",
+            "Kính huỳnh quang"
+          ],
+          "giai_thich": "Tương phản pha khuếch đại tín hiệu nhờ phase ring. Nền sáng thường cần nhuộm, nền tối chỉ thu ánh sáng tán xạ.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-17",
+          "hoi": "Kính nền tối (dark-field) tạo ảnh bằng cách nào?",
+          "dap_an": [
+            "Chỉ ánh sáng tán xạ từ mẫu vào thấu kính nên nền tối",
+            "Chất nhuộm huỳnh quang phát sáng khi bị bước sóng kích thích",
+            "Mẫu tối trên nền sáng sau khi được nhuộm màu tương phản",
+            "Chùm electron xuyên qua mẫu mỏng để tạo ảnh phóng đại"
+          ],
+          "giai_thich": "Kính nền tối là kính tương phản, chỉ ánh sáng tán xạ từ mẫu vào thấu kính nên nền tối.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-18",
+          "hoi": "DAPI được dùng với kính nào, và nhuộm thành phần nào?",
+          "dap_an": [
+            "Huỳnh quang, nhuộm DNA",
+            "Nền sáng, nhuộm protein",
+            "Nền tối, nhuộm vách tế bào",
+            "Tương phản pha, nhuộm lipid"
+          ],
+          "giai_thich": "Kính huỳnh quang dùng chất nhuộm huỳnh quang, ví dụ DAPI nhuộm DNA của E. coli.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-19",
+          "hoi": "Nhuộm Gram thuộc loại nhuộm nào, và mục đích là gì?",
+          "dap_an": [
+            "Nhuộm phân biệt, để phát hiện khác biệt giữa Gram dương và Gram âm",
+            "Nhuộm đơn, để làm mọi tế bào bắt cùng một màu như nhau",
+            "Nhuộm âm bản, để tạo nền tối bao quanh tế bào trong suốt",
+            "Nhuộm huỳnh quang, để nhìn thấy DNA của tế bào sống"
+          ],
+          "giai_thich": "Nhuộm Gram là differential staining, phân biệt Gram dương và Gram âm.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-20",
+          "hoi": "Thứ tự các bước nhuộm Gram là gì?",
+          "dap_an": [
+            "Crystal violet, iodine, tẩy bằng cồn, safranin",
+            "Crystal violet, tẩy bằng cồn, iodine, safranin",
+            "Safranin, iodine, tẩy bằng cồn, crystal violet",
+            "Iodine, crystal violet, safranin, tẩy bằng cồn"
+          ],
+          "giai_thich": "Phủ crystal violet 1 phút, iodine 1 phút, tẩy cồn khoảng 20 giây rồi nhuộm đối chiếu bằng safranin 1–2 phút.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-21",
+          "hoi": "Sau bước tẩy bằng cồn khoảng 20 giây, tế bào nào còn giữ màu tím?",
+          "dap_an": [
+            "Gram dương",
+            "Gram âm",
+            "Cả hai loại",
+            "Không loại nào"
+          ],
+          "giai_thich": "Sau tẩy cồn, Gram dương vẫn tím, Gram âm mất màu; sau safranin Gram âm hồng đến đỏ.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-22",
+          "hoi": "Một tiêu bản nhuộm Gram có tế bào hình que màu hồng đỏ. Điều gì đúng?",
+          "dap_an": [
+            "Tế bào Gram âm, đã mất màu tím ở bước tẩy cồn rồi bắt safranin",
+            "Tế bào Gram dương, đã giữ crystal violet ở bước tẩy cồn",
+            "Tế bào Gram âm, vì không bắt crystal violet ngay từ đầu",
+            "Tế bào Gram dương, vì bắt safranin mạnh hơn crystal violet"
+          ],
+          "giai_thich": "Ở bước 1–2 mọi tế bào đều tím. Gram âm mất màu khi tẩy cồn nên bắt safranin thành hồng đỏ.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-23",
+          "hoi": "Bước nào trước khi nhuộm Gram giúp tế bào dính vào lam kính?",
+          "dap_an": [
+            "Phết mỏng, để khô rồi cố định bằng nhiệt",
+            "Ngâm mẫu trong cồn 70 độ",
+            "Phủ iodine lên mẫu khô",
+            "Nhỏ dầu soi kính lên mẫu ướt"
+          ],
+          "giai_thich": "Chuẩn bị gồm phết mẫu thành lớp mỏng, để khô trong không khí, cố định bằng nhiệt (hơ qua lửa). Dầu chỉ nhỏ khi quan sát với vật kính 100×.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-24",
+          "hoi": "Vì sao tế bào vi sinh vật nhỏ thường tăng trưởng nhanh hơn?",
+          "dap_an": [
+            "Tỉ lệ bề mặt/thể tích lớn nên trao đổi chất với môi trường nhanh",
+            "Tỉ lệ bề mặt/thể tích nhỏ nên giữ lại được nhiều chất dinh dưỡng hơn",
+            "Bộ gen chứa ít DNA hơn nên quá trình nhân đôi diễn ra nhanh hơn",
+            "Không có màng tế bào chất nên các chất ra vào tự do hơn"
+          ],
+          "giai_thich": "Surface-to-volume ratio lớn giúp trao đổi chất nhanh, tăng trưởng nhanh hơn, tiến hóa rộng rãi hơn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 3; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-25",
+          "hoi": "Quy luật bề mặt/thể tích giới hạn kích thước tế bào tối thiểu ở mức nào theo slide?",
+          "dap_an": [
+            "Khoảng 0,15 µm",
+            "Khoảng 1,5 µm",
+            "Khoảng 0,015 µm",
+            "Khoảng 15 µm"
+          ],
+          "giai_thich": "Slide nêu giới hạn tối thiểu khoảng 0,15 µm (ký hiệu µ bị mất trong slide, đã hiểu là µm).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 3 và Lưu ý; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-26",
+          "hoi": "Màng tế bào chất của Archaea khác Bacteria và Eukarya ở điểm nào?",
+          "dap_an": [
+            "Lipid màng có liên kết ether, còn hai nhóm kia có liên kết ester",
+            "Lipid màng có liên kết ester, còn hai nhóm kia có liên kết ether",
+            "Màng chỉ có một lớp phospholipid thay cho hai lớp như hai nhóm kia",
+            "Màng không chứa protein xuyên màng nên không vận chuyển được chất"
+          ],
+          "giai_thich": "Archaea có lipid màng liên kết ether; Bacteria và Eukarya liên kết ester.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-27",
+          "hoi": "Trong màng phospholipid kép, phần nào hướng ra mặt ngoài của màng?",
+          "dap_an": [
+            "Nhóm glycerol ưa nước",
+            "Acid béo kỵ nước",
+            "Protein vận chuyển không phân cực",
+            "Cholesterol ở mọi trường hợp"
+          ],
+          "giai_thich": "Nhóm glycerol ưa nước ở mặt ngoài, acid béo kỵ nước nằm bên trong.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-28",
+          "hoi": "Phân tử phân cực hoặc tích điện qua màng tế bào chất bằng cách nào?",
+          "dap_an": [
+            "Nhờ protein xuyên màng được tế bào điều hòa",
+            "Khuếch tán tự do qua lớp acid béo",
+            "Hòa tan trong lớp phospholipid kép",
+            "Đi qua các lỗ porin của màng tế bào chất"
+          ],
+          "giai_thich": "Phân tử phân cực, tích điện chỉ qua màng nhờ protein xuyên màng; tế bào điều hòa các protein này để kiểm soát vận chuyển. Porin nằm ở màng ngoài của Gram âm.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-29",
+          "hoi": "Chức năng nào sau đây KHÔNG thuộc bốn chức năng của màng tế bào chất?",
+          "dap_an": [
+            "Tổng hợp peptidoglycan thành lớp vách dày",
+            "Hàng rào ngăn cản khuếch tán",
+            "Định vị protein vận chuyển, tạo năng lượng, hướng hóa",
+            "Tham gia lưu trữ năng lượng"
+          ],
+          "giai_thich": "Bốn chức năng: hàng rào, định vị protein, lưu trữ năng lượng, vận chuyển hoặc tiết protein. Tổng hợp vách không nằm trong danh sách.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-30",
+          "hoi": "Ba kiểu protein vận chuyển được nêu là gì?",
+          "dap_an": [
+            "Đơn chuyển, đồng chuyển, đối chuyển",
+            "Đơn chuyển, đồng chuyển, chuyển vị nhóm",
+            "Đơn giản, chuyển vị nhóm, ABC",
+            "Đồng chuyển, đối chuyển, ABC"
+          ],
+          "giai_thich": "Uniporter, symporter, antiporter là ba kiểu protein vận chuyển. Đơn giản, chuyển vị nhóm, ABC là ba hệ thống vận chuyển.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-31",
+          "hoi": "Hệ thống vận chuyển nào làm thay đổi cấu trúc hóa học của cơ chất khi vào tế bào?",
+          "dap_an": [
+            "Chuyển vị nhóm",
+            "Đơn giản",
+            "ABC",
+            "Khuếch tán thụ động"
+          ],
+          "giai_thich": "Chuyển vị nhóm gắn phosphate vào glucose tạo glucose 6-P (nguồn phosphate là PEP, qua Enz I, HPr, Enz II). Hai hệ thống kia không đổi cấu trúc cơ chất.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-32",
+          "hoi": "Hệ thống ABC có đặc điểm nào sau đây theo slide?",
+          "dap_an": [
+            "Phức hợp 3 thành phần, dùng ATP, có protein gắn cơ chất ở chu chất",
+            "Gồm một protein xuyên màng, dùng PEP, không có protein ở chu chất",
+            "Gồm 3 enzyme Enz I, HPr, Enz II, đổi cấu trúc cơ chất",
+            "Dùng gradient proton, vận chuyển lactose và sulfate"
+          ],
+          "giai_thich": "ABC là phức hợp 3 thành phần dùng ATP và protein gắn cơ chất ở chu chất, không đổi cấu trúc cơ chất. Slide ghi chỉ có ở Gram âm (cần kiểm tra lại).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4 và Lưu ý; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-33",
+          "hoi": "Ở chuỗi truyền điện tử trên màng, chất nhận điện tử cuối cùng trong dạng (a) và (b) của hình slide 47 là gì?",
+          "dap_an": [
+            "(a) O2 tạo H2O; (b) nitrate bị khử thành nitrite",
+            "(a) nitrate bị khử thành nitrite; (b) O2 tạo H2O",
+            "(a) CO2 tạo methane; (b) sulfate tạo sulfide",
+            "(a) O2 tạo H2O2; (b) nitrite tạo khí nitrogen"
+          ],
+          "giai_thich": "Hình slide 47: dạng (a) chất nhận cuối là O2 (tạo H2O), dạng (b) là nitrate với nitrate reductase, NO3– thành NO2–.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4 và Lưu ý (slide 47); slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-34",
+          "hoi": "Vách tế bào của vi khuẩn Gram dương và Gram âm khác nhau thế nào?",
+          "dap_an": [
+            "Gram dương: peptidoglycan dày; Gram âm: mỏng và có màng ngoài",
+            "Gram dương: peptidoglycan mỏng có màng ngoài; Gram âm: dày",
+            "Cả hai đều dày nhưng chỉ Gram âm có màng ngoài",
+            "Gram dương có LPS; Gram âm không có peptidoglycan"
+          ],
+          "giai_thich": "Gram dương có lớp peptidoglycan dày, Gram âm có lớp mỏng và màng ngoài chứa LPS.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-35",
+          "hoi": "Nhóm sinh vật nào không có peptidoglycan trong vách?",
+          "dap_an": [
+            "Archaea",
+            "Vi khuẩn Gram dương",
+            "Vi khuẩn Gram âm",
+            "Vi khuẩn lam"
+          ],
+          "giai_thich": "Archaea không có peptidoglycan; eukaryote có vách bằng cellulose và chitin.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-36",
+          "hoi": "Hai đơn phân tạo mạch đường của peptidoglycan là gì?",
+          "dap_an": [
+            "NAG và NAM",
+            "NAG và NADH",
+            "NAM và DAP",
+            "Glucose và muramic acid"
+          ],
+          "giai_thich": "Peptidoglycan gồm N-acetylglucosamine (NAG) và N-acetylmuramic acid (NAM), nối chéo bằng đoạn amino acid ngắn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-37",
+          "hoi": "Phản ứng transpeptidation trong tổng hợp vách có vai trò gì?",
+          "dap_an": [
+            "Nối chéo pentapeptide của các mạch glycan kề nhau (D-Ala với DAP)",
+            "Nối NAG với NAM để kéo dài mỗi mạch glycan của peptidoglycan",
+            "Vận chuyển NAG và NAM từ tế bào chất ra ngoài màng tế bào",
+            "Thủy phân liên kết peptide để cắt vách khi tế bào phân chia"
+          ],
+          "giai_thich": "Pentapeptide ở mạch kề nhau được nối chéo bằng transpeptidation (D-Ala đầu mạch bị cắt, nối với DAP mạch kề).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 5 (slide 57); slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-38",
+          "hoi": "Đặc điểm nào đúng với màng ngoài của vi khuẩn Gram âm?",
+          "dap_an": [
+            "Chứa LPS gây độc, thấm hơn màng tế bào chất và có porin",
+            "Chứa LPS gây độc, thấm kém hơn màng tế bào chất và không có porin",
+            "Chỉ có phospholipid kép, không chứa protein hay LPS đặc trưng",
+            "Có porin cho đại phân tử đi qua tự do, thấm kém hơn màng chất"
+          ],
+          "giai_thich": "Màng ngoài chứa LPS đặc trưng gây độc, thấm cao hơn màng tế bào chất; porin tạo lỗ nhỏ cho chất phân tử lượng nhỏ qua, không cho đại phân tử qua.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-39",
+          "hoi": "Enzyme thủy phân, protein vận chuyển và thụ quan hóa học của vi khuẩn Gram âm được giữ lại ở đâu?",
+          "dap_an": [
+            "Vùng chu chất (periplasm)",
+            "Tế bào chất",
+            "Bên ngoài màng ngoài",
+            "Bên trong màng tế bào chất"
+          ],
+          "giai_thich": "Các protein tiết được giữ ở chu chất, nằm giữa màng tế bào chất và màng ngoài.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-40",
+          "hoi": "Thành phần nào của tiên mao đóng vai trò công tắc động cơ?",
+          "dap_an": [
+            "Protein Mot và Fli",
+            "Filament flagellin",
+            "Hook",
+            "Vòng L và P"
+          ],
+          "giai_thich": "Hình slide 60 gồm filament (flagellin), hook, các vòng L, P, MS, protein Mot và Fli (công tắc động cơ).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6 (slide 60); slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-41",
+          "hoi": "Kiểu chuyển động nào của vi khuẩn xảy ra khi chùm tiên mao bung ra?",
+          "dap_an": [
+            "Dừng và đổi hướng",
+            "Tiến thẳng",
+            "Lui thẳng",
+            "Xoay tại chỗ cố định"
+          ],
+          "giai_thich": "Hai kiểu: tiến hoặc lui theo đường thẳng tùy chiều quay, và dừng rồi đổi hướng (bung chùm tiên mao).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-42",
+          "hoi": "Pili và fimbriae có vai trò gì?",
+          "dap_an": [
+            "Gắn vào bề mặt mô vật chủ hoặc virus",
+            "Tạo nội bào tử khi thiếu dinh dưỡng",
+            "Dự trữ polymer carbon",
+            "Giữ DNA dạng siêu xoắn trong tế bào chất"
+          ],
+          "giai_thich": "Khuẩn mao (pili) và tua viền (fimbriae) giúp nhận diện và bám dính vào bề mặt mô chủ hoặc virus.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-43",
+          "hoi": "Lớp S là gì và có ở nhóm nào?",
+          "dap_an": [
+            "Lớp protein kết tinh, hầu hết Archaea và một số vi khuẩn",
+            "Lớp polysaccharide ngoại bào, chỉ có ở vi khuẩn gây bệnh",
+            "Lớp lipid ngoài cùng của Gram âm",
+            "Lớp peptidoglycan mỏng của vi khuẩn Gram dương"
+          ],
+          "giai_thich": "Lớp S là lớp protein kết tinh cho phân tử phân cực nhỏ đi qua và giúp chống phòng vệ của chủ; glycocalyx mới là polysaccharide ngoại bào.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-44",
+          "hoi": "Chất nào sau đây là chất dự trữ phosphate của vi khuẩn?",
+          "dap_an": [
+            "Polyphosphate",
+            "Glycogen",
+            "Poly-β-hydroxybutyrate",
+            "Dipicolinic acid"
+          ],
+          "giai_thich": "Dự trữ carbon: glycogen, poly-alkanoic acid (như PHB). Dự trữ phosphate: polyphosphate.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-45",
+          "hoi": "Vì sao nội bào tử bền nhiệt cao?",
+          "dap_an": [
+            "Nhờ dipicolinic acid và ion calcium",
+            "Nhờ lớp peptidoglycan dày hơn tế bào sinh dưỡng",
+            "Nhờ chứa nhiều nước trong tế bào chất",
+            "Nhờ lớp S bao quanh tế bào"
+          ],
+          "giai_thich": "Nội bào tử phân hóa từ tế bào sinh dưỡng khi môi trường bất lợi, bền nhiệt nhờ dipicolinic acid và Ca2+.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-46",
+          "hoi": "Bộ gen vi khuẩn có đặc điểm nào sau đây?",
+          "dap_an": [
+            "Một phân tử DNA vòng, siêu xoắn trong tế bào chất, dài khoảng 1 mm",
+            "Nhiều nhiễm sắc thể thẳng nằm trong nhân có màng bao bọc",
+            "Một phân tử DNA vòng, siêu xoắn trong tế bào chất, dài khoảng 1 µm",
+            "Một phân tử DNA mạch đơn thẳng gắn với histone trong nhân"
+          ],
+          "giai_thich": "Bộ gen vi khuẩn là DNA vòng, gấp khúc, siêu xoắn (nucleoid), dài khoảng 1 mm trong tế bào đường kính 2–3 µm.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide Ch 2-HoangMod2"
+        },
+        {
+          "id": "c2-47",
+          "hoi": "Vi khuẩn trao đổi DNA giữa các tế bào bằng những cách nào?",
+          "dap_an": [
+            "Giao nạp, tải nạp, biến nạp",
+            "Giao nạp, nảy chồi, phân đôi",
+            "Biến nạp, phiên mã, dịch mã",
+            "Tải nạp, nội bào tử, tiếp hợp pili"
+          ],
+          "giai_thich": "Slide nêu ba cách trao đổi DNA: giao nạp (conjugation), tải nạp (transduction) và biến nạp (transformation).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide Ch 2-HoangMod2"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Chương 3 - Sinh lý vi sinh vật",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Nguyên tố nào chiếm tỉ lệ cao nhất trong sinh khối khô của tế bào?",
+          "dap_an": [
+            "Carbon (50%)",
+            "Oxy (50%)",
+            "Nitrogen (50%)",
+            "Hydrogen (50%)"
+          ],
+          "giai_thich": "Theo bảng slide: C 50%, O 17%, N 13%, H 8,2%, P 2,5%, S 1,8%, Se < 0,01%.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Thứ tự đúng từ cao đến thấp của các nguyên tố C, O, N, H, P, S trong sinh khối khô là gì?",
+          "dap_an": [
+            "C, O, N, H, P, S",
+            "C, N, O, H, P, S",
+            "C, O, H, N, S, P",
+            "O, C, N, H, S, P"
+          ],
+          "giai_thich": "Giá trị theo slide: C 50, O 17, N 13, H 8,2, P 2,5, S 1,8 (%).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Nguồn nitrogen và nguồn lưu huỳnh thường dùng của tế bào là gì?",
+          "dap_an": [
+            "N: N2, NH3, đạm hữu cơ; S: SO42–",
+            "N: NO3–; S: H2S bắt buộc",
+            "N: chỉ NH3; S: lưu huỳnh hữu cơ",
+            "N: N2 bắt buộc; S: SO32–"
+          ],
+          "giai_thich": "Slide nêu nguồn N gồm N2, NH3, đạm hữu cơ; nguồn S là SO42–; nguồn P là PO43– hoặc lân hữu cơ.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Nguyên tố nào sau đây là nguyên tố vi lượng theo slide?",
+          "dap_an": [
+            "Mo (molybdenum)",
+            "Mg",
+            "K",
+            "Ca"
+          ],
+          "giai_thich": "Đa lượng: C, H, O, N, P, S, K, Mg, Na, Ca, Fe. Vi lượng: Cr, Co, Cu, Mn, Mo, Ni, Se, W, V, Zn.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Môi trường nuôi cấy được phân thành xác định hay không xác định dựa vào tiêu chí nào?",
+          "dap_an": [
+            "Thành phần",
+            "Tính chất vật lý",
+            "Nguồn gốc thành phần",
+            "Tính chất thành phần"
+          ],
+          "giai_thich": "Bốn tiêu chí: nguồn gốc (tự nhiên/tổng hợp), tính chất thành phần (đơn giản/phức tạp), thành phần (xác định/không xác định), tính chất vật lý (lỏng/rắn/bán rắn).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "Khi cấy ria (streak) trên đĩa agar, vị trí nào cho khuẩn lạc đơn?",
+          "dap_an": [
+            "Cuối đường cấy",
+            "Đầu đường cấy",
+            "Giữa đĩa nơi giao nhau các đường",
+            "Mép đĩa khi dùng que cấy lạnh"
+          ],
+          "giai_thich": "Đầu đường cấy mọc dày, cuối đường cấy cho khuẩn lạc đơn (isolated colonies).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Quá trình oxy hóa là gì, và chất cho điện tử được gọi là gì?",
+          "dap_an": [
+            "Lấy đi điện tử; chất bị oxy hóa",
+            "Thêm điện tử; chất bị khử",
+            "Lấy đi điện tử; chất bị khử",
+            "Thêm điện tử; chất bị oxy hóa"
+          ],
+          "giai_thich": "Oxy hóa là lấy điện tử (và proton) khỏi hợp chất; chất cho điện tử là chất bị oxy hóa.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Điện tử di chuyển theo hướng nào trong tháp điện tử?",
+          "dap_an": [
+            "Từ chất thế khử thấp sang chất thế khử cao",
+            "Từ chất thế khử cao sang chất thế khử thấp",
+            "Từ O2 sang NAD+",
+            "Từ cặp có E0' dương nhất sang cặp âm nhất"
+          ],
+          "giai_thich": "Chất thế khử thấp có khuynh hướng cho điện tử, thế khử cao có khuynh hướng nhận, nên điện tử đi từ thấp lên cao.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Trong các cặp oxy hóa khử sau, cặp nào có thế khử E0' cao nhất?",
+          "dap_an": [
+            "½ O2/H2O (+0,82 V)",
+            "NO3–/NO2– (+0,42 V)",
+            "NAD+/NADH (–0,32 V)",
+            "2H+/H2 (–0,42 V)"
+          ],
+          "giai_thich": "Giá trị slide 12: CO2/glucose –0,43 V; 2H+/H2 –0,42 V; NAD+/NADH –0,32 V; NO3–/NO2– +0,42 V; ½ O2/H2O +0,82 V.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Chất nào sau đây là chất cho điện tử mạnh nhất (thế khử thấp nhất) trong bảng slide?",
+          "dap_an": [
+            "Cặp CO2/glucose (–0,43 V)",
+            "Cặp NAD+/NADH (–0,32 V)",
+            "Cặp NO3–/NO2– (+0,42 V)",
+            "Cặp ½ O2/H2O (+0,82 V)"
+          ],
+          "giai_thich": "Thế khử càng thấp thì khuynh hướng cho điện tử càng mạnh; CO2/glucose là âm nhất (–0,43 V).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Phosphoryl hóa cơ chất khác phosphoryl hóa oxy hóa ở điểm nào?",
+          "dap_an": [
+            "Phosphoryl hóa cơ chất tạo ATP trực tiếp từ cơ chất, không cần động lực proton",
+            "Phosphoryl hóa cơ chất tạo ATP nhờ động lực proton và ATPase sau chuỗi truyền điện tử",
+            "Phosphoryl hóa cơ chất chỉ xảy ra khi ATP được tạo từ ánh sáng qua hệ quang",
+            "Phosphoryl hóa cơ chất chỉ xảy ra khi NADH được oxy hóa trong chu trình Calvin"
+          ],
+          "giai_thich": "Phosphoryl hóa cơ chất tạo ATP trực tiếp từ cơ chất (lên men, đường phân). Phosphoryl hóa oxy hóa dùng động lực proton và ATPase (hô hấp).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Điểm khác biệt chính giữa hô hấp và lên men là gì?",
+          "dap_an": [
+            "Hô hấp có chuỗi truyền điện tử với chất nhận cuối bên ngoài, lên men chuyển điện tử cho chất hữu cơ",
+            "Hô hấp tạo ATP bằng phosphoryl hóa cơ chất, còn lên men dùng chuỗi truyền điện tử",
+            "Hô hấp luôn dùng O2 làm chất nhận cuối, còn lên men luôn dùng CO2 làm chất nhận",
+            "Hô hấp chỉ xảy ra ở prokaryote, còn lên men chỉ xảy ra ở eukaryote nhân thật"
+          ],
+          "giai_thich": "Hô hấp: điện tử qua chuỗi truyền đến chất nhận cuối (O2, NO3–...), ATP tạo bằng phosphoryl hóa oxy hóa. Lên men: điện tử chuyển sang sản phẩm lên men hữu cơ, ATP bằng phosphoryl hóa cơ chất. Hô hấp kỵ khí không dùng O2.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "Ba bước của quá trình lên men theo slide theo thứ tự là gì?",
+          "dap_an": [
+            "Chuẩn bị, oxy hóa, khử",
+            "Oxy hóa, chuẩn bị, khử",
+            "Chuẩn bị, khử, oxy hóa",
+            "Khử, oxy hóa, tái tạo ATP"
+          ],
+          "giai_thich": "Đường phân Embden–Meyerhof: chuẩn bị; oxy hóa (glyceraldehyde 3-P, phosphoryl hóa cơ chất, tạo pyruvate); khử (pyruvate nhận điện tử từ NADH tái tạo NAD).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "Ở bước khử của lên men, pyruvate hoặc dẫn xuất của nó có vai trò gì?",
+          "dap_an": [
+            "Nhận điện tử từ NADH để tái tạo NAD+",
+            "Cho điện tử cho NAD+ tạo NADH",
+            "Tạo ATP bằng phosphoryl hóa oxy hóa",
+            "Là chất nhận điện tử cuối cùng là O2"
+          ],
+          "giai_thich": "Pyruvate hoặc dẫn xuất nhận điện tử từ NADH để tái tạo NAD, giúp đường phân tiếp tục.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "Hô hấp hiếu khí oxy hóa hoàn toàn một glucose thu được bao nhiêu ATP theo slide?",
+          "dap_an": [
+            "38 ATP",
+            "2 ATP",
+            "8 ATP",
+            "15 ATP"
+          ],
+          "giai_thich": "Hình slide 20: đường phân 8 ATP cộng TCA 15 × 2 = 38 ATP/glucose.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Trong hô hấp hiếu khí, sản phẩm nào được tạo khi glucose đi qua đường phân, TCA và chuỗi truyền điện tử?",
+          "dap_an": [
+            "CO2, đồng thời NAD thành NADH và FAD thành FADH2 trước khi vào chuỗi truyền điện tử",
+            "Ethanol và CO2, đồng thời NADH bị oxy hóa lại thành NAD trong đường phân",
+            "Lactate, đồng thời NAD+ được tái tạo nhờ phosphoryl hóa cơ chất",
+            "CO2 và H2S, đồng thời ATP được tạo trực tiếp từ cơ chất không cần chuỗi"
+          ],
+          "giai_thich": "Glucose → pyruvate → TCA → CO2, tạo NADH, FADH2 rồi truyền điện tử qua chuỗi.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Động lực proton (proton motive force) được dùng cho việc nào?",
+          "dap_an": [
+            "Vận chuyển ion, quay tiên mao và tổng hợp ATP nhờ ATPase",
+            "Chỉ dùng để tổng hợp ATP nhờ ATPase, không dùng cho việc nào khác",
+            "Cố định CO2 trong chu trình Calvin và cố định N2 bằng nitrogenase",
+            "Khử độc các dạng oxy độc tính thành nước nhờ catalase và peroxidase"
+          ],
+          "giai_thich": "Gradient proton là trạng thái tích năng lượng của màng, dùng cho vận chuyển ion, quay tiên mao và tổng hợp ATP.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Theo cách phân loại slide, phân loại biến dưỡng dựa vào hai tiêu chí nào?",
+          "dap_an": [
+            "Nguồn năng lượng và nguồn carbon",
+            "Nguồn nitrogen và nguồn oxy",
+            "Chất nhận điện tử cuối và nguồn nitrogen",
+            "Nhiệt độ sống và nguồn carbon"
+          ],
+          "giai_thich": "Nguồn năng lượng: ánh sáng (quang năng) hay hóa chất (hóa năng). Nguồn C: CO2 (tự dưỡng) hay hợp chất hữu cơ (dị dưỡng).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "Sinh vật dùng ánh sáng làm năng lượng và chất hữu cơ làm nguồn carbon thuộc nhóm nào?",
+          "dap_an": [
+            "Quang năng dị dưỡng",
+            "Quang năng tự dưỡng",
+            "Hóa năng vô cơ",
+            "Hóa năng hữu cơ"
+          ],
+          "giai_thich": "Quang năng dị dưỡng (photoheterotroph): ánh sáng và chất hữu cơ, chỉ làm phản ứng sáng để thu năng lượng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "Chemolithotroph (hóa năng vô cơ) dùng nguồn năng lượng và nguồn carbon điển hình nào?",
+          "dap_an": [
+            "Oxy hóa chất vô cơ; CO2 (đa số)",
+            "Oxy hóa chất hữu cơ; CO2",
+            "Ánh sáng; chất hữu cơ",
+            "Oxy hóa chất vô cơ; chất hữu cơ bắt buộc"
+          ],
+          "giai_thich": "Hóa năng vô cơ: oxy hóa chất vô cơ, đa số dùng CO2 (tự dưỡng bằng chu trình Calvin).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Sinh vật nào sau đây là quang năng tự dưỡng không sinh oxy?",
+          "dap_an": [
+            "Vi khuẩn quang năng lục và tía, dùng chất cho điện tử như H2S",
+            "Tảo và vi khuẩn lam, dùng H2O làm chất cho điện tử và tạo O2",
+            "Vi khuẩn hydrogen, oxy hóa H2 để lấy năng lượng và cố định CO2",
+            "Vi khuẩn sinh methane, dùng CO2 làm chất nhận điện tử cuối"
+          ],
+          "giai_thich": "Quang hợp không sinh oxy: vi khuẩn lục và tía, chất cho điện tử không phải H2O (H2S, Fe2+, H2...), dùng bacteriochlorophyll.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Đặc điểm nào là của quang hợp sinh oxy?",
+          "dap_an": [
+            "Hai loại chlorophyll, hai hệ quang, chất cho điện tử là H2O",
+            "Một hệ quang duy nhất, chất cho điện tử là H2S thay cho H2O",
+            "Dòng điện tử vòng kín với bacteriochlorophyll, không tạo O2 ra",
+            "Không có sơ đồ Z và không tạo NADPH, chỉ tạo ATP bằng dòng vòng"
+          ],
+          "giai_thich": "Quang hợp sinh oxy (tảo, vi khuẩn lam) có hai hệ quang II và I, dòng điện tử không vòng (sơ đồ Z), cho điện tử từ H2O.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Trong sơ đồ Z, điện tử đi qua các thành phần theo thứ tự nào để tạo NADPH?",
+          "dap_an": [
+            "Hệ quang II, chuỗi truyền, hệ quang I, ferredoxin, NADP+",
+            "Hệ quang I, chuỗi truyền, hệ quang II, ferredoxin, NADP+",
+            "Hệ quang II, ferredoxin, hệ quang I, chuỗi truyền, NADP+",
+            "Ferredoxin, hệ quang II, chuỗi truyền, hệ quang I, NADP+"
+          ],
+          "giai_thich": "Thứ tự: hệ quang II → chuỗi truyền → hệ quang I → ferredoxin (Fd) → NADP+ tạo NADPH.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Lực khử NADPH ở vi khuẩn quang năng không sinh oxy được tạo bằng cách nào?",
+          "dap_an": [
+            "Truyền điện tử ngược, cần ATP",
+            "Từ H2O qua hệ quang II",
+            "Từ chu trình TCA",
+            "Trực tiếp từ ánh sáng không cần ATP"
+          ],
+          "giai_thich": "Vì dòng điện tử vòng chỉ tạo ATP nên lực khử CO2 (NADPH) tạo bằng truyền điện tử ngược, tiêu tốn ATP.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Enzyme gắn CO2 vào ribulose bisphosphate trong chu trình Calvin là gì?",
+          "dap_an": [
+            "RuBisCO",
+            "Nitrogenase",
+            "ATPase",
+            "Catalase"
+          ],
+          "giai_thich": "Chu trình Calvin gắn CO2 vào ribulose bisphosphate nhờ RuBisCO, khử bằng ATP và NADPH, tái sinh chất nhận.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-26",
+          "hoi": "Tổng hợp một glucose từ 6 CO2 trong chu trình Calvin cần bao nhiêu NADPH và ATP theo slide?",
+          "dap_an": [
+            "12 NADPH và 18 ATP",
+            "6 NADPH và 12 ATP",
+            "18 NADPH và 12 ATP",
+            "12 NADPH và 38 ATP"
+          ],
+          "giai_thich": "Slide: 1 glucose từ 6 CO2 cần 12 NADPH (slide ghi 12 NADP, hiểu là NADPH) và 18 ATP.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3 và Lưu ý; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-27",
+          "hoi": "Nhóm nào sau đây thuộc vi khuẩn hóa năng vô cơ?",
+          "dap_an": [
+            "Vi khuẩn hydrogen, lưu huỳnh, oxy hóa sắt và oxy hóa nitrogen",
+            "Vi khuẩn quang năng lục và vi khuẩn quang năng tía không sinh oxy",
+            "Vi khuẩn lactic và vi khuẩn propionic lên men đường thành acid",
+            "Tảo lục và vi khuẩn lam quang hợp sinh oxy bằng hai hệ quang"
+          ],
+          "giai_thich": "Hóa năng vô cơ oxy hóa H2, sulfide, S, ammonium, nitrite, Fe2+; gồm các nhóm hydrogen, lưu huỳnh, sắt, nitrogen.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-28",
+          "hoi": "Hô hấp kỵ khí khác hô hấp hiếu khí ở điểm nào?",
+          "dap_an": [
+            "Chất nhận điện tử cuối không phải O2 và thu ít ATP hơn hiếu khí",
+            "Không có chuỗi truyền điện tử, ATP chỉ tạo bằng phosphoryl hóa cơ chất",
+            "Chất nhận điện tử cuối là sản phẩm lên men hữu cơ, thu ít ATP hơn",
+            "Có chuỗi truyền điện tử nhưng thu nhiều ATP hơn so với hô hấp hiếu khí"
+          ],
+          "giai_thich": "Hô hấp kỵ khí vẫn có chuỗi truyền điện tử và động lực proton nhưng chất nhận cuối không phải O2 và ít ATP hơn.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-29",
+          "hoi": "Vi khuẩn phản nitrate hóa dùng chất nhận điện tử cuối nào, và sản phẩm tạo thành là gì?",
+          "dap_an": [
+            "NO3–; tạo N2 (kỵ khí tùy ý)",
+            "SO42–; tạo H2S (kỵ khí bắt buộc)",
+            "CO2; tạo methane",
+            "O2; tạo H2O"
+          ],
+          "giai_thich": "Phản nitrate hóa: NO3– là chất nhận, hình slide 48 cho thấy sản phẩm N2, vi khuẩn kỵ khí tùy ý.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3 (slide 48); slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-30",
+          "hoi": "Nhóm vi sinh vật nào dùng CO2 làm chất nhận điện tử cuối?",
+          "dap_an": [
+            "Vi khuẩn sinh methane và vi khuẩn sinh acetate đồng hình",
+            "Vi khuẩn khử sulfate, kỵ khí bắt buộc trong trầm tích",
+            "Vi khuẩn phản nitrate hóa, kỵ khí tùy ý trong đất ẩm",
+            "Vi khuẩn oxy hóa sắt, hiếu khí trong môi trường acid"
+          ],
+          "giai_thich": "Bảng slide: NO3– cho phản nitrate hóa; SO42– cho khử sulfate; CO2 cho methanogen và homoacetogen.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-31",
+          "hoi": "Hiện tượng cộng dưỡng (syntrophy) là gì?",
+          "dap_an": [
+            "Loài lên men phụ thuộc loài khác tiêu thụ sản phẩm lên men, truyền điện tử (hydrogen)",
+            "Hai loài cùng cạnh tranh một nguồn carbon và loài mạnh hơn loại loài yếu",
+            "Một loài tiết kháng sinh ức chế để loại bỏ loài lân cận trong môi trường",
+            "Hai loài trao đổi DNA với nhau bằng giao nạp để chia sẻ gen chuyển hóa"
+          ],
+          "giai_thich": "Lên men không thuận lợi nhiệt động học nên sản phẩm phải được tiêu thụ ngay; hydrogen truyền giữa hai loài.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-32",
+          "hoi": "Dị hóa (catabolism) khác đồng hóa (anabolism) ra sao?",
+          "dap_an": [
+            "Dị hóa tạo năng lượng cho tế bào; đồng hóa thu năng lượng để tạo đơn phân tổng hợp đại phân tử",
+            "Dị hóa thu năng lượng để tổng hợp đại phân tử; đồng hóa tạo năng lượng cho tế bào",
+            "Dị hóa tổng hợp đại phân tử từ đơn phân; đồng hóa phân giải đại phân tử thành đơn phân",
+            "Dị hóa chỉ xảy ra trong lên men còn đồng hóa chỉ xảy ra trong hô hấp hiếu khí"
+          ],
+          "giai_thich": "Dị hóa là các quá trình biến dưỡng tạo năng lượng. Đồng hóa thu năng lượng để tạo đơn phân dùng tổng hợp đại phân tử.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-33",
+          "hoi": "Khi nồng độ NH3 cao, tế bào đồng hóa NH3 bằng enzyme nào?",
+          "dap_an": [
+            "Glutamate dehydrogenase",
+            "Glutamine synthetase – glutamate synthase",
+            "Nitrogenase",
+            "Transaminase"
+          ],
+          "giai_thich": "Nhiều NH3: glutamate dehydrogenase. Ít NH3: glutamine synthetase – glutamate synthase. Nitrogenase cố định N2.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-34",
+          "hoi": "Cố định N2 thành NH3 do enzyme nào thực hiện, và enzyme này nhạy với gì?",
+          "dap_an": [
+            "Nitrogenase, bị O2 bất hoạt",
+            "Nitrogenase, cần O2 để hoạt động",
+            "Glutamine synthetase, bị NH3 ức chế",
+            "Catalase, bị H2O2 bất hoạt"
+          ],
+          "giai_thich": "Cố định N2 thành NH3 nhờ nitrogenase và enzyme này bị O2 bất hoạt.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-35",
+          "hoi": "Gluconeogenesis là quá trình nào?",
+          "dap_an": [
+            "Tổng hợp glucose từ các chất không phải carbohydrate",
+            "Phân giải glucose thành pyruvate qua con đường Embden–Meyerhof",
+            "Phân giải glycogen dự trữ thành các phân tử glucose tự do",
+            "Tổng hợp glucose từ CO2 nhờ chu trình Calvin khi quang hợp"
+          ],
+          "giai_thich": "Gluconeogenesis tổng hợp glucose từ chất không phải carbohydrate (phosphoenolpyruvate từ TCA, qua glucose 6-P và UDP-glucose).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-36",
+          "hoi": "Purine và pyrimidine khác nhau ở cách tổng hợp nucleotide thế nào?",
+          "dap_an": [
+            "Purine thêm dần nguyên tử vào khung đường–phosphate; pyrimidine tổng hợp base trước rồi gắn đường",
+            "Purine tổng hợp base trước rồi mới gắn đường; pyrimidine thêm dần nguyên tử vào khung đường–phosphate",
+            "Cả purine lẫn pyrimidine đều tổng hợp base trước rồi mới gắn vào khung đường–phosphate",
+            "Cả purine lẫn pyrimidine đều thêm dần từng nguyên tử vào khung đường–phosphate"
+          ],
+          "giai_thich": "Purine (A, G) xây từng nguyên tử trên khung đường–phosphate; pyrimidine (C, T, U) tổng hợp trước rồi mới gắn đường.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-37",
+          "hoi": "Acid béo được tổng hợp bằng cách nào theo slide?",
+          "dap_an": [
+            "Thêm dần acetyl-CoA tạo mạch dài, có ACP hỗ trợ",
+            "Thêm dần glucose tạo mạch dài, có biotin hỗ trợ",
+            "Cắt ngắn mạch hydrocarbon bằng RuBisCO",
+            "Chuyển amin từ glutamate vào khung carbon"
+          ],
+          "giai_thich": "Acid béo tổng hợp bằng cách thêm dần acetyl-CoA, có acyl carrier protein (ACP) hỗ trợ.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-38",
+          "hoi": "Một quần thể bắt đầu với 1000 tế bào, phân đôi 4 lần ở pha hàm mũ. Số tế bào là bao nhiêu?",
+          "dap_an": [
+            "16 000",
+            "4000",
+            "8000",
+            "32 000"
+          ],
+          "giai_thich": "N = N0 × 2^n = 1000 × 2^4 = 16 000. Sai thường gặp là nhân với n hoặc dùng 2^3.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-39",
+          "hoi": "Một quần thể tăng từ 10^3 lên 10^6 tế bào trong 10 giờ ở pha hàm mũ. Thời gian thế hệ g xấp xỉ bao nhiêu? (n = 3,3 (log N – log N0))",
+          "dap_an": [
+            "Khoảng 1 giờ",
+            "Khoảng 3,3 giờ",
+            "Khoảng 10 giờ",
+            "Khoảng 0,3 giờ"
+          ],
+          "giai_thich": "n = 3,3 × (6 – 3) = 9,9 ≈ 10 thế hệ; g = t/n = 10/10 = 1 giờ.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-40",
+          "hoi": "Công thức xác định thời gian thế hệ g theo slide là gì?",
+          "dap_an": [
+            "g = t/n",
+            "g = n/t",
+            "g = t × n",
+            "g = 1/(t × n)"
+          ],
+          "giai_thich": "Thời gian thế hệ g = t/n; tốc độ phân chia v = 1/g (h–1).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-41",
+          "hoi": "Tế bào có g = 2 giờ thì tốc độ phân chia v bằng bao nhiêu?",
+          "dap_an": [
+            "0,5 h–1",
+            "2 h–1",
+            "0,2 h–1",
+            "1,5 h–1"
+          ],
+          "giai_thich": "v = 1/g = 1/2 = 0,5 h–1. Sai thường gặp: lấy v = g.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-42",
+          "hoi": "Muốn xác định cả tế bào sống và chết bằng kính hiển vi thì dùng phương pháp nào?",
+          "dap_an": [
+            "Đếm trực tiếp bằng buồng đếm",
+            "Đếm khuẩn lạc trên đĩa",
+            "Đo độ đục",
+            "MPN"
+          ],
+          "giai_thich": "Đếm trực tiếp bằng kính hiển vi (buồng đếm) đếm cả tế bào sống lẫn chết; đếm khuẩn lạc chỉ tính tế bào sống.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-43",
+          "hoi": "Một đĩa có 159 khuẩn lạc ở độ pha loãng 10^3. Mật độ tế bào sống trong mẫu gốc (CFU/ml) xấp xỉ bao nhiêu theo hình slide 68?",
+          "dap_an": [
+            "1,59 × 10^5",
+            "1,59 × 10^3",
+            "1,59 × 10^2",
+            "1,59 × 10^6"
+          ],
+          "giai_thich": "159 × 10^3 = 1,59 × 10^5 CFU/ml (hình slide 68). Cần nhớ nhân với hệ số pha loãng.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5 (slide 68); slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-44",
+          "hoi": "Phương pháp đo độ đục có hạn chế gì?",
+          "dap_an": [
+            "Chỉ tuyến tính với số tế bào trong một khoảng nhất định",
+            "Chỉ đếm được tế bào còn sống mà không tính tế bào chết",
+            "Không đo được ở mật độ tế bào cao trong dịch nuôi",
+            "Cần phải cân khối lượng khô của tế bào trước khi đo"
+          ],
+          "giai_thich": "Độ hấp thụ (OD hoặc Klett) chỉ tuyến tính với số tế bào trong một khoảng nhất định.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-45",
+          "hoi": "MPN (Most Probable Number) dựa trên nguyên tắc nào?",
+          "dap_an": [
+            "Pha loãng, ủ, đếm số ống dương tính rồi tra bảng thống kê MPN",
+            "Pha loãng, cấy trải, đếm khuẩn lạc trên đĩa agar rồi nhân hệ số pha loãng",
+            "Sấy khô sinh khối, cân khối lượng khô rồi quy đổi ra số tế bào",
+            "Đo độ hấp thụ của dịch nuôi bằng máy quang rồi tra đường chuẩn"
+          ],
+          "giai_thich": "MPN: pha loãng, ủ, đếm ống dương tính (ví dụ 3 × 3 ống), tra bảng MPN kèm khoảng tin cậy 95%.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-46",
+          "hoi": "Bốn pha của đường cong tăng trưởng nuôi cấy mẻ theo thứ tự là gì?",
+          "dap_an": [
+            "Tiềm tàng, hàm mũ, ổn định, chết",
+            "Hàm mũ, tiềm tàng, ổn định, chết",
+            "Tiềm tàng, ổn định, hàm mũ, chết",
+            "Hàm mũ, ổn định, chết, tiềm tàng"
+          ],
+          "giai_thich": "Nuôi cấy mẻ có 4 pha: lag, exponential, stationary, death.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-47",
+          "hoi": "Chemostat khác nuôi cấy mẻ ở điểm nào?",
+          "dap_an": [
+            "Duy trì pha hàm mũ và trạng thái ổn định nhờ pha loãng liên tục",
+            "Không bổ sung môi trường mới và không rút dịch nuôi trong suốt quá trình",
+            "Luôn trải qua đủ bốn pha là tiềm tàng, hàm mũ, ổn định và chết",
+            "Số tế bào tăng liên tục theo hàm mũ mà không có chất giới hạn"
+          ],
+          "giai_thich": "Chemostat là nuôi cấy liên tục: pha hàm mũ kéo dài, ở trạng thái ổn định nồng độ chất giới hạn và số tế bào không đổi.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-48",
+          "hoi": "Nếu tốc độ pha loãng trong chemostat gần 1,0 h–1 (hình slide 77) thì điều gì có thể xảy ra?",
+          "dap_an": [
+            "Tế bào bị rửa trôi (washout)",
+            "Số tế bào tăng gấp đôi liên tục",
+            "Nồng độ chất giới hạn giảm về 0",
+            "Quần thể chuyển sang pha chết ngay"
+          ],
+          "giai_thich": "Pha loãng quá nhanh khiến tế bào không kịp phân chia bù lại và bị đẩy ra khỏi bình (washout).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5 (slide 77); slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-49",
+          "hoi": "1 mol ATP tạo ra từ dị hóa ứng với bao nhiêu sinh khối khô theo slide?",
+          "dap_an": [
+            "9–10 g",
+            "1 g",
+            "90–100 g",
+            "0,9–1,0 g"
+          ],
+          "giai_thich": "Slide nêu 1 mol ATP từ dị hóa tạo 9–10 g sinh khối khô.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-50",
+          "hoi": "Vi sinh vật vi hiếu khí (microaerophile) có đặc điểm nào?",
+          "dap_an": [
+            "Cần O2 ở nồng độ thấp hơn mức có trong không khí",
+            "Chỉ sống được khi hoàn toàn không có O2 trong môi trường",
+            "Sống được cả khi có và không có O2, không cần O2 để sống",
+            "Cần O2 ở nồng độ cao hơn mức có trong không khí"
+          ],
+          "giai_thich": "Năm nhóm theo oxy: hiếu khí bắt buộc, kỵ khí, kỵ khí tùy ý, vi hiếu khí, kỵ khí chịu được oxy.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-51",
+          "hoi": "Enzyme nào sau đây khử độc oxy bằng cách phân hủy hydrogen peroxide?",
+          "dap_an": [
+            "Catalase",
+            "Nitrogenase",
+            "RuBisCO",
+            "ATPase"
+          ],
+          "giai_thich": "Enzyme khử độc: catalase, peroxidase, superoxide dismutase, superoxide reductase. O2 tạo O2–, H2O2, OH• rồi H2O.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-52",
+          "hoi": "Thứ tự các dạng oxy độc tính khi O2 bị khử từng bước là gì?",
+          "dap_an": [
+            "Superoxide, hydrogen peroxide, gốc hydroxyl, nước",
+            "Hydrogen peroxide, superoxide, gốc hydroxyl, nước",
+            "Superoxide, gốc hydroxyl, hydrogen peroxide, nước",
+            "Gốc hydroxyl, superoxide, hydrogen peroxide, nước"
+          ],
+          "giai_thich": "Slide: O2 thành superoxide (O2–), H2O2, OH• rồi H2O.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-53",
+          "hoi": "Nuôi vi khuẩn kỵ khí trong phòng thí nghiệm thường dùng dụng cụ nào theo slide?",
+          "dap_an": [
+            "Bình kín (GasPak)",
+            "Máy lắc hiếu khí",
+            "Nồi hấp ướt",
+            "Màng lọc phân tử"
+          ],
+          "giai_thich": "Hình slide 80: nuôi kỵ khí bằng bình kín GasPak.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5 (slide 80); slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-54",
+          "hoi": "Chất diệt khuẩn (bactericidal) khác chất ức chế tăng trưởng (bacteriostatic) ra sao?",
+          "dap_an": [
+            "Diệt khuẩn làm chết tế bào; ức chế chỉ ngừng tăng trưởng",
+            "Diệt khuẩn chỉ ngừng tăng trưởng; ức chế làm chết tế bào",
+            "Cả hai đều làm chết tế bào nhưng ở nhiệt độ khác nhau",
+            "Diệt khuẩn dùng cho mô sống; ức chế dùng cho vật liệu không sống"
+          ],
+          "giai_thich": "Bactericidal diệt tế bào, bacteriostatic chỉ ức chế tăng trưởng. Disinfectant/antiseptic là cách phân loại theo nơi dùng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-55",
+          "hoi": "Thời gian giảm thập phân là gì?",
+          "dap_an": [
+            "Thời gian làm số tế bào giảm 10 lần ở một nhiệt độ cho trước",
+            "Thời gian làm số tế bào tăng gấp 10 lần ở pha hàm mũ",
+            "Thời gian để toàn bộ tế bào trong quần thể bị tiêu diệt",
+            "Thời gian cần để hạ nhiệt độ môi trường xuống thấp 10 độ"
+          ],
+          "giai_thich": "Tốc độ chết phụ thuộc nhiệt độ và thời gian theo hàm mũ; thời gian giảm thập phân là thời gian làm số tế bào giảm 10 lần.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 6; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-56",
+          "hoi": "Tia tử ngoại khác tia gamma ở điểm nào về ứng dụng?",
+          "dap_an": [
+            "UV không xuyên thấu nên sát trùng bề mặt; gamma xuyên thấu cao",
+            "UV xuyên thấu cao nên bảo quản thực phẩm; gamma chỉ sát trùng bề mặt",
+            "Cả UV và gamma đều chỉ sát trùng được bề mặt, không xuyên thấu",
+            "UV dùng cho thực phẩm và dụng cụ y tế; gamma dùng cho không khí"
+          ],
+          "giai_thich": "UV không xuyên thấu, dùng cho bề mặt, không khí, chất lỏng không hấp thụ UV. Gamma và X xuyên thấu cao nên dùng bảo quản thực phẩm, dụng cụ y tế.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-57",
+          "hoi": "Khi nào dùng phương pháp lọc để khử trùng?",
+          "dap_an": [
+            "Khi môi trường có phân tử sinh học nhạy nhiệt",
+            "Khi cần diệt bào tử bằng nhiệt độ cao",
+            "Khi cần sát trùng bề mặt bàn thí nghiệm",
+            "Khi môi trường có độ nhớt rất cao"
+          ],
+          "giai_thich": "Màng lọc phân tử loại vi sinh vật mà không dùng nhiệt, phù hợp môi trường nhạy nhiệt.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-58",
+          "hoi": "Disinfectant và antiseptic khác nhau thế nào?",
+          "dap_an": [
+            "Disinfectant dùng trên vật liệu không sống; antiseptic dùng trên mô sống",
+            "Disinfectant dùng trên mô sống; antiseptic dùng trên vật liệu không sống",
+            "Disinfectant chỉ ức chế; antiseptic luôn diệt khuẩn",
+            "Disinfectant dùng cho vi khuẩn; antiseptic dùng cho virus"
+          ],
+          "giai_thich": "Chất sát khuẩn (disinfectant) dùng trên vật liệu không sống; chất kháng khuẩn (antiseptic) dùng trên mô sống.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-59",
+          "hoi": "MIC là gì?",
+          "dap_an": [
+            "Nồng độ ức chế tối thiểu",
+            "Nồng độ diệt tối thiểu",
+            "Số tế bào tối thiểu",
+            "Thời gian ức chế tối thiểu"
+          ],
+          "giai_thich": "MIC là nồng độ ức chế tối thiểu của chất kháng khuẩn.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-60",
+          "hoi": "Ba cách vi khuẩn kháng kháng sinh theo slide gồm cách nào sau đây?",
+          "dap_an": [
+            "Không có mục tiêu, thuốc không thấm vào tế bào, enzyme làm mất hoạt tính thuốc",
+            "Tạo thêm vách tế bào, tạo nội bào tử, giảm tốc độ phân chia của tế bào",
+            "Tăng nhiệt độ sinh trưởng, tăng pH môi trường, thay đổi hình dạng tế bào",
+            "Tăng số tiên mao, tạo glycocalyx, tạo lớp S bao quanh tế bào"
+          ],
+          "giai_thich": "Kháng thuốc do (1) không có mục tiêu, (2) thuốc không thấm, (3) enzyme làm mất hoạt tính thuốc.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-61",
+          "hoi": "Chất đồng dạng nhân tố tăng trưởng hoạt động bằng cơ chế nào?",
+          "dap_an": [
+            "Có cấu trúc giống nhân tố tăng trưởng nên chiếm chỗ của nó",
+            "Phá hủy vách tế bào bằng cách thủy phân peptidoglycan",
+            "Làm biến tính protein và màng tế bào do tác dụng nhiệt",
+            "Gây tổn thương DNA trực tiếp giống tác dụng của tia tử ngoại"
+          ],
+          "giai_thich": "Ví dụ: sulfanilamide giống p-aminobenzoic acid, 5-fluorouracil giống uracil, 5-bromouracil giống thymine (hình slide 95).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Ch 3-Mod"
+        },
+        {
+          "id": "c3-62",
+          "hoi": "Chất nào sau đây là chất đồng dạng của thymine?",
+          "dap_an": [
+            "5-bromouracil",
+            "5-fluorouracil",
+            "Sulfanilamide",
+            "p-aminobenzoic acid"
+          ],
+          "giai_thich": "5-bromouracil giống thymine; 5-fluorouracil giống uracil; sulfanilamide giống p-aminobenzoic acid.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 6 (slide 95); slide Ch 3-Mod"
+        }
+      ]
+    },
+    {
+      "id": "c41",
+      "nhom": "Bài giảng",
+      "ten": "Chương 4-1 - Di truyền học vi sinh vật",
+      "cau": [
+        {
+          "id": "c41-01",
+          "hoi": "Dòng thông tin di truyền ở prokaryote đi theo chiều nào, và khác eukaryote ở điểm nào?",
+          "dap_an": [
+            "DNA → RNA → protein; eukaryote có thêm pre-mRNA cần cắt nối",
+            "DNA → protein → RNA; eukaryote có thêm bước phiên mã ngược",
+            "RNA → DNA → protein; eukaryote có thêm bước nhân đôi RNA",
+            "DNA → RNA → protein; prokaryote có thêm pre-mRNA cần cắt nối"
+          ],
+          "giai_thich": "Prokaryote: DNA → RNA → protein. Eukaryote: DNA → pre-mRNA → RNA đã cắt nối → protein.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-02",
+          "hoi": "Protein điều hòa DNA-binding thường gắn vào phần nào của xoắn kép DNA?",
+          "dap_an": [
+            "Khe lớn",
+            "Khe nhỏ",
+            "Khung đường–phosphate",
+            "Đầu 3' của mạch"
+          ],
+          "giai_thich": "Xoắn kép có khe nhỏ và khe lớn; DNA-binding protein gắn vào khe lớn.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-03",
+          "hoi": "Enzyme nào làm DNA vòng ở vi khuẩn có dạng siêu xoắn hoặc vòng mở?",
+          "dap_an": [
+            "Topoisomerase (gyrase) II và I",
+            "DNA polymerase III",
+            "Ligase",
+            "Primase"
+          ],
+          "giai_thich": "Siêu xoắn hoặc vòng mở do topoisomerase (gyrase) II và I.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-04",
+          "hoi": "Nhóm DNA nào ở eukaryote mã hóa histone, immunoglobulin, rRNA và tRNA?",
+          "dap_an": [
+            "DNA lặp lại trung bình",
+            "DNA một bản sao",
+            "DNA vệ tinh",
+            "DNA ti thể"
+          ],
+          "giai_thich": "Ba nhóm: một bản sao (mã hóa protein); lặp lại trung bình (histone, immunoglobulin, rRNA, tRNA); vệ tinh (20% tổng DNA, chức năng chưa rõ).",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-05",
+          "hoi": "Enzyme cắt giới hạn khác enzyme biến đổi ở điểm nào?",
+          "dap_an": [
+            "Enzyme cắt giới hạn cắt DNA ngoại sinh; enzyme biến đổi biến đổi DNA nội sinh tại cùng trình tự",
+            "Enzyme cắt giới hạn biến đổi DNA nội sinh; enzyme biến đổi cắt DNA ngoại sinh tại cùng trình tự",
+            "Cả hai đều cắt DNA ngoại sinh nhưng nhận diện hai trình tự nhận biết khác nhau",
+            "Enzyme cắt giới hạn chỉ có ở eukaryote; enzyme biến đổi chỉ có ở prokaryote"
+          ],
+          "giai_thich": "Hệ thống giới hạn: enzyme cắt nhận diện và cắt DNA ngoại sinh, enzyme biến đổi (methyl hóa) bảo vệ DNA nội sinh tại trình tự đó.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-06",
+          "hoi": "Điểm nóng chảy của DNA phụ thuộc chủ yếu vào yếu tố nào?",
+          "dap_an": [
+            "Thành phần GC",
+            "Thành phần AT",
+            "Chiều dài nhiễm sắc thể",
+            "Số bản sao của DNA"
+          ],
+          "giai_thich": "Thành phần GC quyết định điểm nóng chảy (hình slide 11).",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-07",
+          "hoi": "Sao chép DNA theo cơ chế nào, và enzyme chính tổng hợp mạch mới ở vi khuẩn?",
+          "dap_an": [
+            "Bán bảo thủ; DNA polymerase III",
+            "Bảo toàn; DNA polymerase I",
+            "Bán bảo thủ; RNA polymerase",
+            "Bảo toàn; DNA polymerase III"
+          ],
+          "giai_thich": "Sao chép bán bảo thủ; DNA polymerase III tổng hợp theo chiều 5'→3'.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-08",
+          "hoi": "Mạch sau (lagging) được tổng hợp như thế nào?",
+          "dap_an": [
+            "Thành các đoạn Okazaki rồi nối bằng ligase",
+            "Liên tục theo hướng đi vào chẻ ba sao chép",
+            "Nhờ RNA polymerase tổng hợp liên tục",
+            "Theo chiều 3'→5' liên tục không cần primer"
+          ],
+          "giai_thich": "Mạch sau tổng hợp gián đoạn thành đoạn Okazaki (primase, pol III, pol I, ligase), đi ra khỏi chẻ ba.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-09",
+          "hoi": "Trình tự bảo tồn nào ở promoter prokaryote được RNA polymerase nhận diện?",
+          "dap_an": [
+            "Vùng –10 và –35",
+            "Vùng +10 và +35",
+            "Vùng –1 và –5",
+            "Hộp TATA ở –25 và +25"
+          ],
+          "giai_thich": "Promoter có hai trình tự bảo tồn –10 và –35 trên mạch mã; sigma giúp nhận diện.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-10",
+          "hoi": "Vai trò của nhân tố sigma trong phiên mã ở vi khuẩn là gì?",
+          "dap_an": [
+            "Giúp RNA polymerase nhận diện promoter và rời enzyme khi phiên mã bắt đầu",
+            "Giúp RNA polymerase nhận diện điểm kết thúc và rời DNA khi phiên mã xong",
+            "Cắt các intron khỏi pre-mRNA rồi nối hai exon lại với nhau",
+            "Gắn mũ 5'-cap và đuôi poly-A vào đầu mRNA vừa phiên mã"
+          ],
+          "giai_thich": "Sigma tương tác với enzyme lõi và DNA, nhận diện promoter, rời khỏi enzyme khi phiên mã bắt đầu.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-11",
+          "hoi": "mRNA ở prokaryote có đặc điểm nào so với eukaryote?",
+          "dap_an": [
+            "Polycistronic, không có intron",
+            "Monocistronic, có intron",
+            "Polycistronic, có mũ 5'-cap và poly-A",
+            "Monocistronic, không có intron nhưng có poly-A"
+          ],
+          "giai_thich": "Prokaryote có mRNA polycistronic; eukaryote có pre-mRNA với exon, intron, thêm 5'-cap và poly-A.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-12",
+          "hoi": "Intron ở eukaryote được cắt bởi cấu trúc nào?",
+          "dap_an": [
+            "Spliceosome (ribozyme)",
+            "Ribosome",
+            "Topoisomerase",
+            "Primase"
+          ],
+          "giai_thich": "Intron (5'-GU...A...AG-3') được spliceosome/ribozyme cắt đầu 5', 3' rồi nối hai exon.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-13",
+          "hoi": "Mã di truyền có bao nhiêu bộ ba, và mã khởi đầu là gì?",
+          "dap_an": [
+            "64 bộ ba; AUG",
+            "61 bộ ba; AUG",
+            "64 bộ ba; UAA",
+            "20 bộ ba; AUG"
+          ],
+          "giai_thich": "Có 64 bộ ba; khởi đầu AUG; kết thúc UAA, UAG, UGA.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-14",
+          "hoi": "Bộ ba nào KHÔNG phải mã kết thúc?",
+          "dap_an": [
+            "AUG",
+            "UAA",
+            "UAG",
+            "UGA"
+          ],
+          "giai_thich": "Mã kết thúc là UAA, UAG, UGA. AUG là mã khởi đầu.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-15",
+          "hoi": "Aminoacyl-tRNA synthetase có vai trò gì?",
+          "dap_an": [
+            "Nhận diện anticodon của tRNA và gắn đúng amino acid",
+            "Nối amino acid thành chuỗi peptide trên ribosome",
+            "Cắt peptide khỏi tRNA ở codon kết thúc",
+            "Gắn tRNA vào vị trí P của ribosome"
+          ],
+          "giai_thich": "Mỗi tRNA có một synthetase riêng nhận diện anticodon và gắn amino acid vào đầu nhận.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-16",
+          "hoi": "Ribosome của prokaryote và eukaryote gồm các tiểu phần nào?",
+          "dap_an": [
+            "30S + 50S; 40S + 60S",
+            "40S + 60S; 30S + 50S",
+            "30S + 60S; 40S + 50S",
+            "50S + 70S; 60S + 80S"
+          ],
+          "giai_thich": "Prokaryote 30S và 50S, eukaryote 40S và 60S.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-17",
+          "hoi": "Ở prokaryote, tiểu phần 30S gắn vào mRNA nhờ trình tự nào?",
+          "dap_an": [
+            "Shine-Dalgarno, bổ sung với đầu 3' của 16S rRNA",
+            "Mũ 5'-cap, giúp 40S nhận diện AUG đầu tiên",
+            "Đuôi poly-A ở đầu 3' của mRNA vừa tạo thành",
+            "Promoter với hai vùng bảo tồn –10 và –35"
+          ],
+          "giai_thich": "Prokaryote dùng Shine-Dalgarno bổ sung 16S rRNA; eukaryote dùng mũ 5' và dịch AUG đầu tiên.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-18",
+          "hoi": "Ba vị trí của ribosome E, P, A lần lượt chứa gì?",
+          "dap_an": [
+            "E: tRNA không còn amino acid; P: tRNA mang chuỗi peptide; A: tRNA mang amino acid mới",
+            "E: tRNA mang amino acid mới; P: tRNA mang chuỗi peptide; A: tRNA không còn amino acid",
+            "E: tRNA mang chuỗi peptide; P: tRNA mang amino acid mới; A: tRNA không còn amino acid",
+            "E: mRNA sắp dịch mã; P: tRNA mang chuỗi peptide; A: rRNA của tiểu phần lớn"
+          ],
+          "giai_thich": "E (exit) tRNA đã hết amino acid, P (peptidyl) mang chuỗi peptide, A (acceptor) mang amino acid tiếp theo.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-19",
+          "hoi": "Ở codon kết thúc, điều gì xảy ra?",
+          "dap_an": [
+            "Release factor cắt peptide khỏi tRNA, ribosome tách khỏi mRNA",
+            "Một tRNA đặc biệt mang amino acid cuối vào vị trí A để hoàn tất chuỗi",
+            "Ribosome đảo chiều và đọc lại mRNA từ đầu 3' về đầu 5'",
+            "Peptide được cắt khỏi tRNA nhờ spliceosome rồi ribosome rời mRNA"
+          ],
+          "giai_thich": "Codon kết thúc không có tRNA; release factor làm peptide rời tRNA và hai tiểu phần ribosome tách khỏi mRNA.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-20",
+          "hoi": "Gen gối đầu (overlapping gene) là gì?",
+          "dap_an": [
+            "Một vùng DNA mã hóa hai gen theo hai khung đọc khác nhau",
+            "Hai gen nằm liền kề trên DNA và dùng chung một promoter",
+            "Một gen có hai bản sao nằm ở hai vị trí trên nhiễm sắc thể",
+            "Một gen bị ngắt thành nhiều đoạn bởi các intron dài"
+          ],
+          "giai_thich": "Gen gối đầu là hai gen dùng chung một đoạn DNA nhưng đọc theo hai khung (ví dụ ΦX174).",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-21",
+          "hoi": "Biến đổi sau dịch mã nào là cộng hóa trị?",
+          "dap_an": [
+            "Gắn nhóm phosphate, methyl hoặc đường",
+            "Gắn phân tử nhỏ không cộng hóa trị",
+            "Tương tác với polypeptide khác",
+            "Chaperone giúp cuộn gấp"
+          ],
+          "giai_thich": "Cộng hóa trị: gắn phosphate, methyl, đường. Không cộng hóa trị: gắn phân tử nhỏ, tương tác polypeptide khác, chaperone.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 1; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-22",
+          "hoi": "Trong kiểm soát âm, repressor làm gì?",
+          "dap_an": [
+            "Gắn vào operator, ngăn tạo mRNA",
+            "Gắn vào enhancer, tăng cường phiên mã",
+            "Gắn vào mRNA, ngăn dịch mã",
+            "Gắn vào CAP-binding site, kích hoạt promoter"
+          ],
+          "giai_thich": "Repressor gắn operator làm không tạo mRNA (kiểm soát âm). Activator gắn activator-binding site (kiểm soát dương).",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-23",
+          "hoi": "Co-repressor khác inducer ở điểm nào?",
+          "dap_an": [
+            "Co-repressor kích hoạt repressor; inducer làm repressor bất hoạt",
+            "Co-repressor làm repressor bất hoạt; inducer kích hoạt repressor",
+            "Cả co-repressor lẫn inducer đều kích hoạt repressor gắn operator",
+            "Co-repressor gắn vào operator còn inducer gắn vào promoter"
+          ],
+          "giai_thich": "Co-repressor kích hoạt repressor gây ức chế (arg operon); inducer bất hoạt repressor, cảm ứng biểu hiện (lac operon).",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-24",
+          "hoi": "Mal operon là ví dụ của kiểu điều hòa nào?",
+          "dap_an": [
+            "Kiểm soát dương nhờ activator",
+            "Kiểm soát âm nhờ repressor",
+            "RNA đối nghĩa",
+            "Attenuation"
+          ],
+          "giai_thich": "Mal operon là ví dụ của activator gắn vào activator-binding site. Lac, arg là kiểm soát âm.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-25",
+          "hoi": "micF và ompF minh họa cơ chế điều hòa nào?",
+          "dap_an": [
+            "RNA đối nghĩa",
+            "Attenuation",
+            "Hệ hai thành phần",
+            "Quorum sensing"
+          ],
+          "giai_thich": "micF là RNA ngắn bổ sung với đầu 5' của mRNA ompF, điều hòa ompF.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-26",
+          "hoi": "Trong catabolite repression ở E. coli, CAP hoạt động cùng chất nào?",
+          "dap_an": [
+            "cAMP, nồng độ phụ thuộc glucose",
+            "cGMP, nồng độ phụ thuộc lactose",
+            "ATP, nồng độ phụ thuộc oxy",
+            "NADH, nồng độ phụ thuộc pyruvate"
+          ],
+          "giai_thich": "CAP tương tác với cAMP, gắn CAP-binding site ở promoter, xúc tiến mRNA; cAMP phụ thuộc nồng độ glucose.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-27",
+          "hoi": "Khi glucose dồi dào ở E. coli, kết quả nào xảy ra?",
+          "dap_an": [
+            "cAMP thấp nên CAP kém hoạt động, enzyme biến dưỡng đường khác bị ức chế tổng hợp",
+            "cAMP cao nên CAP hoạt động mạnh, enzyme biến dưỡng đường khác tăng tổng hợp",
+            "cAMP cao nên CAP hoạt hóa promoter, phiên mã lac operon tăng mạnh",
+            "cAMP không đổi nên CAP gắn vào mọi promoter của tế bào"
+          ],
+          "giai_thich": "Glucose ức chế tổng hợp enzyme biến dưỡng đường khác; cAMP thấp nên phức CAP–cAMP không hoạt hóa promoter.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 2 và Lưu ý (slide 55); slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-28",
+          "hoi": "Attenuation (điều hòa giảm số lượng) xảy ra ở loại operon nào?",
+          "dap_an": [
+            "Operon tổng hợp amino acid, ví dụ trp",
+            "Operon phân giải đường, ví dụ lac",
+            "Operon phân giải maltose, ví dụ mal",
+            "Operon tạo tiên mao"
+          ],
+          "giai_thich": "Attenuation ở prokaryote, operon tổng hợp amino acid như trp; gen leader mã hóa polypeptide giàu amino acid mục tiêu.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-29",
+          "hoi": "Khi THIẾU amino acid trong attenuation, điều gì xảy ra?",
+          "dap_an": [
+            "Ribosome dừng ở leader, mRNA tạo stem-loop khác nên phiên mã tiếp tục",
+            "Dịch mã leader xong nên mRNA tạo stem-loop báo hiệu dừng phiên mã",
+            "Repressor gắn vào operator nên toàn bộ operon ngừng phiên mã",
+            "Phức CAP–cAMP gắn vào promoter nên phiên mã tăng cường"
+          ],
+          "giai_thich": "Thiếu amino acid ribosome dừng, mRNA tạo stem-loop khác, phiên mã tiếp tục. Đủ amino acid dẫn tới stem-loop báo dừng.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-30",
+          "hoi": "Quorum sensing dựa trên tín hiệu nào ở Vibrio fischeri?",
+          "dap_an": [
+            "AHL (acylated homoserine lactone) tích lũy theo mật độ tế bào",
+            "cAMP tích lũy theo nồng độ glucose trong môi trường nuôi",
+            "Phosphate tích lũy theo nồng độ nitrogen trong môi trường",
+            "Ánh sáng tích lũy theo độ sâu của lớp nước chứa tế bào"
+          ],
+          "giai_thich": "AHL tích lũy khi mật độ cao, hoạt hóa activator, bật lux operon (luciferase) phát sáng.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-31",
+          "hoi": "Hệ hai thành phần gồm hai protein nào?",
+          "dap_an": [
+            "Protein cảm biến (kinase) và protein điều hòa đáp ứng",
+            "Protein repressor và protein activator của cùng một operon",
+            "Nhân tố sigma và enzyme lõi của RNA polymerase vi khuẩn",
+            "Enzyme transposase và enzyme integrase của yếu tố di động"
+          ],
+          "giai_thich": "Sensor tự phosphoryl hóa khi có tín hiệu rồi chuyển phosphate cho response regulator; phosphatase loại phosphate.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-32",
+          "hoi": "MCP (methyl-accepting chemotaxis protein) làm gì trong hướng hóa?",
+          "dap_an": [
+            "Gắn chất dẫn dụ hoặc xua đuổi, rồi làm đảo chiều quay tiên mao",
+            "Gắn trực tiếp vào DNA để điều hòa phiên mã các gen tiên mao",
+            "Vận chuyển cơ chất vào tế bào chất bằng cách dùng ATP",
+            "Phân giải chất xua đuổi trong vùng chu chất của tế bào"
+          ],
+          "giai_thich": "MCP gắn trực tiếp hoặc gián tiếp với hợp chất, qua loạt tương tác trong tế bào chất làm đảo chiều quay tiên mao.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 2; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-33",
+          "hoi": "Thể khuyết dưỡng (auxotroph) khác thể nguyên dưỡng (prototroph) thế nào?",
+          "dap_an": [
+            "Khuyết dưỡng cần bổ sung một chất mà nguyên dưỡng tự tổng hợp được",
+            "Khuyết dưỡng tự tổng hợp được mọi chất mà nguyên dưỡng cần bổ sung",
+            "Khuyết dưỡng chỉ gặp ở sinh vật nhân thật, nguyên dưỡng ở vi khuẩn",
+            "Nguyên dưỡng luôn mang plasmid kháng thuốc còn khuyết dưỡng thì không"
+          ],
+          "giai_thich": "Auxotroph mất khả năng tự tổng hợp một chất (ví dụ Thr–), prototroph tự tổng hợp được.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 3; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-34",
+          "hoi": "Ký hiệu nào đúng cho kiểu hình mất khả năng tự tổng hợp threonine?",
+          "dap_an": [
+            "Thr–",
+            "thr+",
+            "ThrC",
+            "ΔThr gen"
+          ],
+          "giai_thich": "Quy ước: kiểu gen viết thường in nghiêng (hisC), kiểu hình viết hoa chữ đầu kèm dấu +/– (Thr–).",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 3; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-35",
+          "hoi": "Đột biến nào làm xuất hiện codon dừng sớm, tạo protein cụt?",
+          "dap_an": [
+            "Nonsense",
+            "Missense",
+            "Silent",
+            "Đột biến trung tính"
+          ],
+          "giai_thich": "Nonsense tạo codon dừng, missense đổi amino acid, silent không đổi amino acid.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 3; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-36",
+          "hoi": "Đột biến chèn hoặc mất một cặp base gây hệ quả nào?",
+          "dap_an": [
+            "Lệch khung dịch mã",
+            "Đổi đúng một amino acid",
+            "Không ảnh hưởng đến protein",
+            "Làm gen nhân đôi"
+          ],
+          "giai_thich": "Chèn làm khung đọc +1, mất làm –1 (hình slide 72), gây lệch khung dịch mã.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 3; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-37",
+          "hoi": "5-bromouracil gây đột biến theo cách nào?",
+          "dap_an": [
+            "Là chất đồng dạng với base nên bị gắn nhầm vào DNA khi sao chép",
+            "Làm hỏng vách tế bào nên DNA bị thay đổi do mất áp suất",
+            "Ức chế trực tiếp RNA polymerase nên gen không được phiên mã",
+            "Cắt DNA tại trình tự đặc hiệu giống như enzyme giới hạn"
+          ],
+          "giai_thich": "5-bromouracil là chất đồng dạng (giống thymine), là nguồn đột biến hóa chất.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 3; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-38",
+          "hoi": "Kỹ thuật cấy đóng dấu bằng nhung (replica plating) dùng để làm gì?",
+          "dap_an": [
+            "Chọn thể khuyết dưỡng, vì nó không mọc trên môi trường tối thiểu",
+            "Đếm số tế bào sống có trong mẫu dựa trên số khuẩn lạc mọc",
+            "Cắt DNA tại các trình tự chuyên biệt bằng enzyme giới hạn",
+            "Đo độ đục của dịch nuôi để ước lượng sinh khối tế bào"
+          ],
+          "giai_thich": "Từ đĩa đầy đủ in sang đĩa tối thiểu và đầy đủ; thể khuyết dưỡng không mọc trên môi trường tối thiểu.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 3 (slide 68, 70); slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-39",
+          "hoi": "Tái tổ hợp tương đồng ở vi khuẩn do protein nào xúc tác?",
+          "dap_an": [
+            "RecA",
+            "Integrase",
+            "Transposase",
+            "Gyrase"
+          ],
+          "giai_thich": "RecA xúc tác tái tổ hợp tương đồng; recombinase chuyên biệt cho tái tổ hợp chuyên biệt trình tự.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 3; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-40",
+          "hoi": "Bổ trợ di truyền (complementation) chỉ xảy ra khi nào?",
+          "dap_an": [
+            "Hai đột biến không nằm cùng một gen",
+            "Hai đột biến nằm cùng một gen",
+            "Hai plasmid cùng ORI",
+            "Hai tế bào có trao đổi DNA bằng tiếp hợp"
+          ],
+          "giai_thich": "Bổ trợ là bổ trợ kiểu hình, không trao đổi DNA, chỉ khi đột biến ở hai gen khác nhau; dùng xác định hai đột biến có cùng gen hay không.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 3; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-41",
+          "hoi": "Trong biến nạp, DNA đi vào tế bào dưới dạng nào?",
+          "dap_an": [
+            "Một mạch đơn, mạch còn lại bị nuclease thủy phân ở bề mặt tế bào",
+            "Hai mạch nguyên vẹn đi qua cầu giao nạp do pilus tạo thành",
+            "DNA được đóng gói trong vỏ virus rồi bơm vào tế bào nhận",
+            "RNA được phiên mã ngược thành DNA bên trong tế bào nhận"
+          ],
+          "giai_thich": "DNA gắn DNA-binding protein trên vách, nuclease thủy phân một mạch, mạch còn lại vào tế bào rồi tái tổ hợp nhờ RecA.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 4; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-42",
+          "hoi": "Tải nạp chuyên biệt khác tải nạp chung ở điểm nào?",
+          "dap_an": [
+            "Chuyên biệt chỉ chuyển vài gen nhất định do virus cắt không chính xác; chung chuyển gen bất kỳ",
+            "Chuyên biệt chuyển gen bất kỳ do vỏ virus lắp ngẫu nhiên; chung chỉ chuyển vài gen nhất định",
+            "Chuyên biệt xảy ra qua pilus giữa hai tế bào; chung xảy ra khi nhận DNA trần",
+            "Chuyên biệt chỉ xảy ra ở E. coli còn chung chỉ xảy ra ở nấm men"
+          ],
+          "giai_thich": "Tải nạp chuyên biệt: virus cắt không chính xác nên chỉ mang vài gen cạnh vị trí gắn. Tải nạp chung: DNA vi khuẩn bị phân đoạn rồi lắp ngẫu nhiên vào vỏ virus.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 4; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-43",
+          "hoi": "Giao nạp ở E. coli cần cấu trúc nào để hai tế bào tiếp xúc?",
+          "dap_an": [
+            "Pilus do plasmid xúc tiến tổng hợp",
+            "Tiên mao",
+            "Nội bào tử",
+            "Glycocalyx"
+          ],
+          "giai_thich": "Plasmid xúc tiến tổng hợp pilus, tạo cầu giao nạp; plasmid sao chép cuộn vòng chuyển sang tế bào nhận.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 4; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-44",
+          "hoi": "Chủng Hfr có đặc điểm gì?",
+          "dap_an": [
+            "Yếu tố F gắn vào nhiễm sắc thể nhờ trình tự IS, chuyển gen nằm hạ lưu oriT",
+            "Yếu tố F tồn tại tự do dạng plasmid, chỉ chuyển chính nó sang tế bào nhận",
+            "Tế bào đã mất hoàn toàn yếu tố F nên không chuyển được DNA nào",
+            "Tế bào mang nhiều plasmid R nên chuyển nhiều gen kháng kháng sinh"
+          ],
+          "giai_thich": "Hfr: F gắn vào NST, khi giao nạp mang gen NST nằm hạ lưu oriT sang tế bào nhận.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 4; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-45",
+          "hoi": "Giao nạp gián đoạn và tải nạp gián đoạn dùng cho mục đích nào?",
+          "dap_an": [
+            "Giao nạp xác định trật tự gen sơ bộ; tải nạp xác định chính xác các gen liên kết chặt",
+            "Giao nạp xác định trật tự gen chính xác; tải nạp xác định sơ bộ các gen xa nhau",
+            "Cả hai đều xác định trình tự base chi tiết của gen được chuyển",
+            "Cả hai đều dùng để đo kích thước của plasmid được chuyển sang"
+          ],
+          "giai_thich": "Giao nạp gián đoạn lập bản đồ sơ bộ, tải nạp gián đoạn xác định chính xác trật tự các gen gần nhau.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 4; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-46",
+          "hoi": "Plasmid R có đặc điểm nào?",
+          "dap_an": [
+            "Mang transposon kháng kháng sinh, kháng đồng thời đến 5 loại",
+            "Chỉ mang gen tạo độc tố và không có gen kháng kháng sinh",
+            "Chỉ có một bản sao và không lan sang các tế bào khác",
+            "Chỉ mang gen biến dưỡng thuốc trừ sâu và dung môi công nghiệp"
+          ],
+          "giai_thich": "Plasmid R mang các transposon mỗi loại cho kháng một kháng sinh, kháng đồng thời đến 5 loại, lan nhanh qua giao nạp.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 5; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-47",
+          "hoi": "Hai plasmid cùng tồn tại trong một tế bào khi nào?",
+          "dap_an": [
+            "Khi tương thích, ORI khác nhau",
+            "Khi cùng ORI",
+            "Khi cùng gen kháng thuốc",
+            "Khi cùng kích thước"
+          ],
+          "giai_thich": "Một tế bào chứa nhiều plasmid nếu tương thích (ORI khác nhau).",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 5; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-48",
+          "hoi": "Transposon (Tn) khác trình tự xen (IS) ở điểm nào?",
+          "dap_an": [
+            "Tn = IS + gen khác",
+            "IS = Tn + gen khác",
+            "Tn không có transposase",
+            "IS luôn mang gen kháng thuốc"
+          ],
+          "giai_thich": "Trình tự xen (IS) chỉ mang gen transposase; gen chuyển vị (Tn) gồm IS cộng thêm gen khác.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 5; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-49",
+          "hoi": "Enzyme nào nhận diện, cắt và nối DNA trong chuyển vị?",
+          "dap_an": [
+            "Transposase",
+            "Integrase của phage λ",
+            "Ligase",
+            "RecA"
+          ],
+          "giai_thich": "Bên trong IS/Tn mã hóa transposase; hai đầu có trình tự lặp lại.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 5; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-50",
+          "hoi": "Chuyển vị sao chép (replicative) khác chuyển vị bảo toàn (conservative) thế nào?",
+          "dap_an": [
+            "Sao chép: một bản ở lại, một bản chuyển đi; bảo toàn: cắt khỏi chỗ cũ, không tăng bản sao",
+            "Sao chép: cắt khỏi chỗ cũ, không tăng bản sao; bảo toàn: một bản ở lại, một bản chuyển đi",
+            "Cả hai kiểu chuyển vị đều làm tăng số bản sao của transposon trong tế bào",
+            "Sao chép cần RecA để tái tổ hợp; bảo toàn cần integrase để sát nhập"
+          ],
+          "giai_thich": "Chuyển vị sao chép tăng số bản sao, chuyển vị bảo toàn thì gen rời vị trí cũ sang vị trí mới.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 5; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-51",
+          "hoi": "Tn5 và Tn10 mang gen kháng loại kháng sinh nào?",
+          "dap_an": [
+            "Tn5: neomycin, kanamycin; Tn10: tetracycline",
+            "Tn5: tetracycline; Tn10: neomycin, kanamycin",
+            "Tn5: ampicillin; Tn10: chloramphenicol",
+            "Cả hai đều kháng tetracycline"
+          ],
+          "giai_thich": "Tn5 kháng neomycin, kanamycin; Tn10 kháng tetracycline.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 5; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-52",
+          "hoi": "Integron khác transposon thông thường ở điểm nào?",
+          "dap_an": [
+            "Tiếp nhận và biểu hiện gen ngoại lai nhờ integrase chuyên biệt vị trí",
+            "Chỉ nhân đôi trình tự đích mà không tiếp nhận thêm gen ngoại lai",
+            "Chỉ có ở sinh vật nhân thật và không có ở vi khuẩn",
+            "Không có promoter nên gen ngoại lai không được biểu hiện"
+          ],
+          "giai_thich": "Integron mã hóa integrase, cắt và gắn DNA ngoại lai vào trình tự nhận diện nằm dưới một promoter.",
+          "kho": true,
+          "nguon": "TT Chương 4-1, mục 5; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-53",
+          "hoi": "Đảo đoạn có thể dẫn tới hệ quả gì?",
+          "dap_an": [
+            "Biểu hiện một gen hoàn toàn khác nếu đoạn bị đảo chứa promoter",
+            "Mất toàn bộ các gen nằm trong đoạn DNA bị đảo ngược",
+            "Làm tăng gấp đôi số bản sao của các gen trong đoạn bị đảo",
+            "Tạo codon kết thúc sớm trong mọi gen nằm ở đoạn bị đảo"
+          ],
+          "giai_thich": "Đảo đoạn là đột biến đảo ngược trình tự DNA; nếu chứa promoter thì gen kề được biểu hiện khác.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 5; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-54",
+          "hoi": "Kiểu giao phối ở Saccharomyces cerevisiae do cơ chế nào quy định?",
+          "dap_an": [
+            "Cơ chế hộp (cassette) ở locus MAT",
+            "Plasmid giao phối",
+            "Phiên mã ngược",
+            "Tải nạp bởi virus"
+          ],
+          "giai_thich": "Gen a và α có đồng thời ở hai vị trí; gen nào sao chép gắn vào hộp MAT thì quyết định kiểu giao phối.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 6; slide Ch 4-1-Mod"
+        },
+        {
+          "id": "c41-55",
+          "hoi": "Gen ti thể và diệp lạp di truyền như thế nào?",
+          "dap_an": [
+            "Độc lập với gen của nhân",
+            "Theo quy luật như gen nhân",
+            "Chỉ qua giao tử đực",
+            "Qua plasmid R"
+          ],
+          "giai_thich": "Bộ gen ti thể, diệp lạp mã hóa rRNA, tRNA dùng trong bào quan, được nhân đôi và truyền cho hậu thế, di truyền độc lập với gen nhân.",
+          "kho": false,
+          "nguon": "TT Chương 4-1, mục 6; slide Ch 4-1-Mod"
+        }
+      ]
+    },
+    {
+      "id": "c42",
+      "nhom": "Bài giảng",
+      "ten": "Chương 4-2 - Kỹ thuật di truyền",
+      "cau": [
+        {
+          "id": "c42-01",
+          "hoi": "Tạo dòng phân tử (molecular cloning) nhằm mục đích gì?",
+          "dap_an": [
+            "Phân lập và làm thuần một gen",
+            "Phân loại vi sinh vật theo rRNA",
+            "Đếm số tế bào trong mẫu",
+            "Khử trùng môi trường nuôi cấy"
+          ],
+          "giai_thich": "Tạo dòng phân tử dùng kỹ thuật di truyền để phân lập và làm thuần một gen.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 1; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-02",
+          "hoi": "Thứ tự đúng các bước của tạo dòng phân tử là gì?",
+          "dap_an": [
+            "Tách và phân đoạn DNA, gắn vào vector, biến nạp tạo ngân hàng DNA, chọn dòng, nuôi cấy",
+            "Gắn vào vector, tách và phân đoạn DNA, chọn dòng, biến nạp tạo ngân hàng DNA, nuôi cấy",
+            "Biến nạp tạo ngân hàng DNA, tách và phân đoạn DNA, gắn vào vector, chọn dòng, nuôi cấy",
+            "Tách và phân đoạn DNA, biến nạp, gắn vào vector, nuôi cấy dòng, chọn dòng mục tiêu"
+          ],
+          "giai_thich": "Tách và phân đoạn DNA nguồn, gắn vào vector, biến nạp để có ngân hàng DNA, phát hiện và làm thuần dòng mục tiêu, nuôi cấy để ly trích và nghiên cứu.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 1; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-03",
+          "hoi": "Ngân hàng DNA (DNA library) là gì?",
+          "dap_an": [
+            "Tập hợp các DNA tái tổ hợp được giữ trong tế bào chủ",
+            "Kho lưu trữ các enzyme cắt giới hạn và enzyme ligase đã tinh chế",
+            "Bộ sưu tập các chủng vi khuẩn thuần đã được phân lập và định danh",
+            "Tập hợp các cặp mồi PCR đã được tổng hợp hóa học sẵn sàng sử dụng"
+          ],
+          "giai_thich": "Biến nạp và giữ DNA tái tổ hợp trong tế bào chủ tạo ngân hàng DNA.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 1; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-04",
+          "hoi": "Vector tạo dòng khác vector biểu hiện ở điểm nào?",
+          "dap_an": [
+            "Vector tạo dòng để lưu trữ, nhân bản, thao tác gen; vector biểu hiện để tạo sản phẩm của gen",
+            "Vector tạo dòng để tạo protein tái tổ hợp; vector biểu hiện để lưu trữ, nhân bản gen",
+            "Vector tạo dòng chỉ dùng được cho tế bào chủ là sinh vật nhân thật",
+            "Vector biểu hiện không cần promoter vì gen được tế bào chủ tự phiên mã"
+          ],
+          "giai_thich": "Vector tạo dòng chuyển và lưu trữ gen tái tổ hợp; vector biểu hiện tạo sản phẩm ở mức phiên mã, dịch mã.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-05",
+          "hoi": "Đặc điểm nào đúng với plasmid dùng làm vector tạo dòng?",
+          "dap_an": [
+            "Tự sao chép độc lập, có dấu hiệu chọn lọc và polycloning site",
+            "Luôn chỉ có một bản sao trong mỗi tế bào chủ được biến nạp",
+            "Chỉ vào được tế bào chủ thông qua hiện tượng tải nạp do phage",
+            "Không mang dấu hiệu di truyền chọn lọc nào để phát hiện tế bào"
+          ],
+          "giai_thich": "Plasmid vector chuyển bằng biến nạp, tự sao chép độc lập, có thể đa bản sao, mang marker chọn lọc và polycloning site.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-06",
+          "hoi": "Vector phage λ được cải tiến thế nào?",
+          "dap_an": [
+            "Loại bỏ khoảng 1/3 bộ gen, chỉ giữ vùng xâm nhập, tự sao và lắp ráp",
+            "Thêm vào khoảng 1/3 bộ gen của E. coli để mang được DNA lớn hơn",
+            "Bỏ hoàn toàn vùng lắp ráp để phage không tạo được virion mới",
+            "Chuyển bộ gen thành DNA mạch đơn vòng để tăng hiệu suất chuyển gen"
+          ],
+          "giai_thich": "Phage λ bị loại 1/3 bộ gen; DNA ngoại lai nhân bản cùng phage; chứa ít trình tự nhận biết enzyme giới hạn.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-07",
+          "hoi": "Cosmid kết hợp ưu điểm của những thành phần nào?",
+          "dap_an": [
+            "Plasmid và phage λ (vị trí cos)",
+            "Plasmid và YAC",
+            "Phage M13 và YAC",
+            "Phage T4 và plasmid"
+          ],
+          "giai_thich": "Cosmid là plasmid chứa vị trí cos của phage λ để lắp vào phần tử phage, hiệu suất chuyển gen cao.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-08",
+          "hoi": "YAC là gì?",
+          "dap_an": [
+            "Nhiễm sắc thể nhân tạo của nấm men, sao chép như nhiễm sắc thể nấm men",
+            "Plasmid vi khuẩn mang gen kháng thuốc, sao chép độc lập trong tế bào E. coli",
+            "Phage mạch đơn dạng sợi thường dùng để giải trình tự DNA trong phòng thí nghiệm",
+            "Vector dùng để chuyển gen vào tế bào thực vật nhờ vi khuẩn sống trong đất"
+          ],
+          "giai_thich": "YAC sao chép như nhiễm sắc thể nấm men; slide ghi 10 kb mang DNA 200–800 kb (số liệu cần kiểm tra lại).",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2 và Lưu ý; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-09",
+          "hoi": "Phage M13 thường được dùng cho mục đích nào?",
+          "dap_an": [
+            "Giải trình tự DNA",
+            "Biểu hiện gen ở thực vật",
+            "Chuyển gen ở hữu nhũ",
+            "Nuôi cấy kỵ khí"
+          ],
+          "giai_thich": "M13 có bộ gen mạch đơn, thường dùng giải trình tự DNA.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-10",
+          "hoi": "Ưu điểm của Bacillus subtilis làm tế bào chủ là gì?",
+          "dap_an": [
+            "Không gây bệnh, không tạo nội độc tố và tiết protein ra ngoài",
+            "Plasmid rất ổn định và là tế bào chủ phổ biến nhất",
+            "Là vi sinh vật cơ hội gây bệnh nhưng tiết rất nhiều enzyme",
+            "Là eukaryote được nghiên cứu di truyền kỹ nhất trong các chủ"
+          ],
+          "giai_thich": "B. subtilis không gây bệnh, không nội độc tố, tiết protein nhưng plasmid không ổn định. E. coli là chủ phổ biến nhất.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-11",
+          "hoi": "E. coli có đặc điểm nào khi dùng làm tế bào chủ?",
+          "dap_an": [
+            "Phổ biến nhất, là vi sinh vật cơ hội gây bệnh và không tiết enzyme",
+            "Phổ biến nhất, không bao giờ gây bệnh và tiết nhiều protein ra ngoài",
+            "Là sinh vật nhân thật được nghiên cứu di truyền kỹ nhất hiện nay",
+            "Không gây bệnh, không tạo nội độc tố nhưng plasmid không ổn định"
+          ],
+          "giai_thich": "E. coli: chủ phổ biến nhất, cơ hội gây bệnh, không tiết enzyme.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-12",
+          "hoi": "Saccharomyces cerevisiae được dùng làm tế bào chủ để làm gì?",
+          "dap_an": [
+            "Biểu hiện gen eukaryote",
+            "Tạo vector phage",
+            "Tổng hợp oligonucleotide",
+            "Khuếch đại DNA bằng nhiệt"
+          ],
+          "giai_thich": "Nấm men là eukaryote được nghiên cứu di truyền kỹ nhất, dùng biểu hiện gen eukaryote.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 2; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-13",
+          "hoi": "Với gen ngoại lai biểu hiện trong tế bào chủ vi khuẩn, phương pháp tuyển chọn nào KHÔNG được slide nêu?",
+          "dap_an": [
+            "Lai khuẩn lạc",
+            "Lai miễn dịch (Western blotting)",
+            "Hoạt tính enzyme",
+            "Bổ trợ đột biến"
+          ],
+          "giai_thich": "Nếu gen biểu hiện: lai miễn dịch, hoạt tính enzyme, bổ trợ đột biến. Lai khuẩn lạc dành cho gen không biểu hiện.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 3; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-14",
+          "hoi": "Lai khuẩn lạc và lai plaque khác nhau ở điểm nào?",
+          "dap_an": [
+            "Lai khuẩn lạc: vector plasmid; lai plaque: vector phage",
+            "Lai khuẩn lạc: vector phage; lai plaque: vector plasmid",
+            "Cả hai dùng cho vector biểu hiện",
+            "Lai khuẩn lạc đo enzyme; lai plaque đo độ đục"
+          ],
+          "giai_thich": "Colony hybridization dùng khi vector là plasmid; plaque hybridization khi vector là phage.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 3; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-15",
+          "hoi": "Promoter thường dùng trong vector biểu hiện ở E. coli là gì?",
+          "dap_an": [
+            "lac và trp (cơ chế tắt mở)",
+            "Promoter của phage T4 gen muộn",
+            "Promoter SV40 sớm",
+            "Promoter của gen int"
+          ],
+          "giai_thich": "Gen ngoại lai do promoter mạnh được RNA polymerase chủ nhận diện kiểm soát, thường lac, trp.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 3; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-16",
+          "hoi": "Oligonucleotide hóa học được tổng hợp ngắn nhất ra sao theo slide?",
+          "dap_an": [
+            "Đoạn DNA ngắn khoảng 30–35 base, gắn từng nucleotide lên giá thể rắn",
+            "Đoạn DNA dài hàng nghìn base, tạo ra nhờ DNA polymerase chịu nhiệt",
+            "Đoạn RNA dài hàng trăm base, tạo ra nhờ phản ứng phiên mã ngược",
+            "Đoạn DNA dài hàng chục kb, được cắt ra từ plasmid tái tổ hợp"
+          ],
+          "giai_thich": "Tổng hợp hóa học tạo đoạn ngắn 30–35 base: nucleotide đầu gắn lên giá thể rắn có lỗ rồi gắn tuần tự.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 4; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-17",
+          "hoi": "PCR khuếch đại một đoạn DNA lên khoảng bao nhiêu lần, và dùng enzyme nào?",
+          "dap_an": [
+            "Khoảng 10^6 lần, nhờ Taq DNA polymerase chịu nhiệt",
+            "Khoảng 10^3 lần, nhờ DNA polymerase I của E. coli",
+            "Khoảng 10^6 lần, nhờ RNA polymerase của phage T7",
+            "Chỉ khoảng 2 lần mỗi chu kỳ nhưng không bao giờ vượt 10^3 lần"
+          ],
+          "giai_thich": "PCR khuếch đại đoạn DNA lên 10^6 lần bằng Taq polymerase chịu nhiệt qua 25–30 chu kỳ.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 4; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-18",
+          "hoi": "Thứ tự ba bước một chu kỳ PCR là gì?",
+          "dap_an": [
+            "Biến tính, bắt cặp mồi–khuôn, kéo dài",
+            "Bắt cặp mồi, biến tính, kéo dài",
+            "Kéo dài, biến tính, bắt cặp mồi",
+            "Biến tính, kéo dài, bắt cặp mồi"
+          ],
+          "giai_thich": "Mỗi chu kỳ biến tính tạo mạch đơn, bắt cặp mồi–khuôn, rồi kéo dài bằng Taq polymerase.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 4; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-19",
+          "hoi": "Cặp mồi PCR được thiết kế dựa vào đâu, và dài bao nhiêu nucleotide?",
+          "dap_an": [
+            "Trình tự hai đầu đoạn cần khuếch đại; 19–30 nucleotide",
+            "Trình tự giữa đoạn cần khuếch đại; 100–200 nucleotide",
+            "Trình tự plasmid vector; 5–10 nucleotide",
+            "Trình tự promoter; 40–50 nucleotide"
+          ],
+          "giai_thich": "Cặp mồi 19–30 nucleotide tổng hợp theo trình tự nucleotide ở hai đầu đoạn DNA cần khuếch đại.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 4; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-20",
+          "hoi": "Một phản ứng PCR 25 chu kỳ lý tưởng tăng số bản sao khoảng bao nhiêu lần so với ban đầu?",
+          "dap_an": [
+            "Khoảng 3,4 × 10^7 lần (2^25)",
+            "Khoảng 25 lần",
+            "Khoảng 625 lần",
+            "Khoảng 10^3 lần"
+          ],
+          "giai_thich": "Mỗi chu kỳ nhân đôi nên sau 25 chu kỳ là 2^25 ≈ 3,4 × 10^7 lý thuyết; slide nêu mức khoảng 10^6 lần thực tế. Sai thường gặp là nhân tuyến tính.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 4; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-21",
+          "hoi": "Thư viện cDNA được tạo từ nguyên liệu nào, bằng phản ứng nào?",
+          "dap_an": [
+            "mRNA, bằng phiên mã ngược",
+            "DNA bộ gen, bằng PCR",
+            "tRNA, bằng dịch mã",
+            "rRNA, bằng cắt giới hạn"
+          ],
+          "giai_thich": "Trích ly mRNA từ cơ quan, mô, tế bào rồi tạo cDNA bằng phản ứng phiên mã ngược.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 5; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-22",
+          "hoi": "Vì sao thường dùng cDNA để biểu hiện gen eukaryote trong vi khuẩn?",
+          "dap_an": [
+            "cDNA không có intron nên vi khuẩn không phải cắt nối intron",
+            "cDNA dài hơn gen gốc nên được vi khuẩn biểu hiện dễ dàng hơn",
+            "cDNA có sẵn promoter của vi khuẩn nên gắn vào vector là biểu hiện",
+            "cDNA mang trình tự Shine-Dalgarno của eukaryote nên gắn được ribosome"
+          ],
+          "giai_thich": "cDNA được tạo từ mRNA đã cắt nối nên không có intron; cần vector có promoter mạnh và trình tự gắn ribosome của vi khuẩn.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 5; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-23",
+          "hoi": "Phương pháp biểu hiện gen eukaryote dung hợp với gen prokaryote nhằm mục đích gì?",
+          "dap_an": [
+            "Tận dụng tín hiệu biểu hiện của prokaryote rồi cắt bỏ phần polypeptide prokaryote",
+            "Giữ nguyên phần polypeptide prokaryote trong sản phẩm cuối để ổn định protein",
+            "Làm tăng số bản sao của plasmid mang gen eukaryote trong tế bào chủ",
+            "Ngăn không cho gen eukaryote bị phiên mã nhầm trong tế bào chủ"
+          ],
+          "giai_thich": "Gắn gen eukaryote với gen prokaryote rồi cắt bỏ phần polypeptide prokaryote khỏi protein dung hợp.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 5; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-24",
+          "hoi": "Đột biến điểm (site-directed mutagenesis) tạo ra kết quả gì?",
+          "dap_an": [
+            "Thay một amino acid chuyên biệt trên phân tử protein",
+            "Làm mất một đoạn lớn của gen mã hóa protein",
+            "Chèn thêm một transposon vào giữa gen mã hóa protein",
+            "Đảo ngược trình tự của toàn bộ gen mã hóa protein"
+          ],
+          "giai_thich": "Dùng oligonucleotide có 1 base biến đổi; kết quả là thay một amino acid chuyên biệt, kiểm tra quan hệ cấu trúc bậc một – chức năng.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 5; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-25",
+          "hoi": "Đột biến hộp (cassette mutagenesis) khác đột biến điểm ở điểm nào?",
+          "dap_an": [
+            "Thay cả một đoạn DNA bằng DNA tổng hợp đã đổi một hoặc vài cặp base",
+            "Chỉ thay đúng một base nhờ oligonucleotide có một base biến đổi",
+            "Chèn một gen kháng kháng sinh vào giữa gen để làm bất hoạt gen",
+            "Dùng tia UV chiếu lên tế bào để tạo đột biến ngẫu nhiên"
+          ],
+          "giai_thich": "Cassette: lấy một đoạn DNA ra khỏi gen và thay bằng DNA tổng hợp đã đổi một hoặc vài cặp base.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 5; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-26",
+          "hoi": "Đột biến phá vỡ gen nghĩa là gì?",
+          "dap_an": [
+            "Thay một đoạn DNA trong gen bằng đoạn mang tính kháng kháng sinh",
+            "Thay đúng một base trong gen bằng một base khác bằng oligonucleotide",
+            "Xóa toàn bộ vùng promoter nằm ở phía trước gen cần nghiên cứu",
+            "Nối hai gen khác nhau lại thành một gen dung hợp duy nhất"
+          ],
+          "giai_thich": "Đột biến phá vỡ gen thay một đoạn DNA trong gen gốc bằng đoạn mang tính kháng kháng sinh, tiện cho chọn lọc.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 5; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-27",
+          "hoi": "Sản phẩm nào sau đây là protein hữu nhũ tái tổ hợp sản xuất bằng vi sinh vật?",
+          "dap_an": [
+            "Insulin",
+            "Penicillin",
+            "Ethanol",
+            "Methane"
+          ],
+          "giai_thich": "Slide nêu insulin, vắc xin tái tổ hợp, vắc xin DNA, cytokine. Penicillin, ethanol, methane không phải protein.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 6; slide Ch 4-2-Mod"
+        },
+        {
+          "id": "c42-28",
+          "hoi": "Ứng dụng nào sau đây KHÔNG nằm trong danh sách của slide?",
+          "dap_an": [
+            "Sản xuất kháng thể đơn dòng bằng hybridoma",
+            "Tạo thực vật, động vật chuyển gen",
+            "Liệu pháp gen chữa bệnh di truyền",
+            "Phân lập gen vi sinh để xử lý môi trường"
+          ],
+          "giai_thich": "Slide nêu sản xuất sản phẩm trao đổi chất, vắc xin, protein hữu nhũ, sinh vật chuyển gen, xử lý môi trường, thuốc điều hòa biểu hiện gen, liệu pháp gen.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Kỹ thuật di truyền, mục 6; slide Ch 4-2-Mod"
+        }
+      ]
+    },
+    {
+      "id": "c43",
+      "nhom": "Bài giảng",
+      "ten": "Chương 4-2 - Virus",
+      "cau": [
+        {
+          "id": "c43-01",
+          "hoi": "Ai chứng minh tác nhân gây bệnh khảm thuốc lá là chất độc sống có thể nhân lên (Contagium vivum fluidum)?",
+          "dap_an": [
+            "Martinus Beijerinck (1898)",
+            "Adolf Mayer (1883)",
+            "Dimitri Ivanovski (1892)",
+            "Charles Chamberland (1884)"
+          ],
+          "giai_thich": "Mayer thấy bệnh lây qua dịch ép lá; Chamberland chế màng lọc sứ; Ivanovski dùng màng lọc; Beijerinck (1898) chứng minh tác nhân là chất độc sống nhân lên được.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 1; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-02",
+          "hoi": "Màng lọc bằng sứ do ai chế ra, vào năm nào?",
+          "dap_an": [
+            "Chamberland, 1884",
+            "Ivanovski, 1892",
+            "Mayer, 1883",
+            "Twort, 1915"
+          ],
+          "giai_thich": "Chamberland chế ra màng lọc sứ năm 1884 để tách vi khuẩn nhỏ nhất.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 1; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-03",
+          "hoi": "Ai đặt tên virus của vi khuẩn là bacteriophage?",
+          "dap_an": [
+            "Twort (1915) và d'Hérelle (1917), đặt tên là bacteriophage",
+            "Beijerinck (1898), khi chứng minh chất độc sống nhân lên được",
+            "Mayer (1883), khi nghiên cứu bệnh khảm của cây thuốc lá",
+            "Ivanovski (1892), khi dùng màng lọc với bệnh khảm thuốc lá"
+          ],
+          "giai_thich": "Twort (1915) và d'Hérelle (1917) phát hiện virus của vi khuẩn và đặt tên bacteriophage.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 1; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-04",
+          "hoi": "Điều gì cho phép quan sát hình dạng virus?",
+          "dap_an": [
+            "Kính hiển vi điện tử",
+            "Màng lọc sứ",
+            "Kính hiển vi nền sáng",
+            "Nhuộm Gram"
+          ],
+          "giai_thich": "Màng lọc đem lại khái niệm ban đầu; kính hiển vi điện tử cho thấy hình dạng.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 1; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-05",
+          "hoi": "Virus được định nghĩa thế nào?",
+          "dap_an": [
+            "Yếu tố di truyền không tế bào, nucleic acid được bọc bởi vỏ protein",
+            "Tế bào nhỏ nhất, có màng sinh chất, ribosome và bộ gen riêng",
+            "Phân tử protein có khả năng tự nhân đôi trong tế bào chủ",
+            "Vi khuẩn rất nhỏ không có thành tế bào nên lọt được màng lọc"
+          ],
+          "giai_thich": "Virus là yếu tố di truyền không tế bào, chỉ nhân bản được trong tế bào chủ; ngoài tế bào gọi là virion.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 1; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-06",
+          "hoi": "Capsid, nucleocapsid và virion khác nhau thế nào?",
+          "dap_an": [
+            "Capsid là vỏ protein; nucleocapsid là capsid cùng bộ gen; virion là hạt virus ngoài tế bào chủ",
+            "Capsid là vỏ cùng bộ gen; nucleocapsid là vỏ protein; virion là dạng trong tế bào chủ",
+            "Capsid là màng bao; nucleocapsid là capsid không bộ gen; virion là bộ gen trần",
+            "Cả ba đều là tên gọi khác nhau của cùng một bộ gen virus"
+          ],
+          "giai_thich": "Capsid gồm capsomere; nucleocapsid là phức hợp capsid và bộ gen; virion là virus ngoài tế bào chủ.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 1; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-07",
+          "hoi": "Capsid của virus có các dạng cấu trúc nào?",
+          "dap_an": [
+            "Chuỗi xoắn hoặc vỏ 20 mặt",
+            "Hình que hoặc hình cầu có tiên mao",
+            "Hình tròn có vách peptidoglycan",
+            "Hình sợi có lớp S"
+          ],
+          "giai_thich": "Capsid cấu tạo từ capsomere tạo hình chuỗi xoắn hoặc vỏ 20 mặt.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 1; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-08",
+          "hoi": "Virus động vật khác phage ở điểm nào về cấu trúc?",
+          "dap_an": [
+            "Có thể có màng bao nguồn gốc từ màng tế bào chủ",
+            "Luôn có cấu trúc đuôi giúp bơm bộ gen vào tế bào chủ",
+            "Luôn không có vỏ protein mà chỉ có màng bao lipid",
+            "Không có bộ gen riêng mà dùng bộ gen của tế bào chủ"
+          ],
+          "giai_thich": "Virus động vật có thể có màng bao (envelope) từ màng chủ; spike do bộ gen virus mã hóa.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-09",
+          "hoi": "Kỹ thuật plaque dùng để làm gì?",
+          "dap_an": [
+            "Định lượng virus (vòng tan)",
+            "Phân loại virus theo Baltimore",
+            "Tách capsid",
+            "Nhuộm bộ gen"
+          ],
+          "giai_thich": "Virus nuôi trong tế bào chủ và định lượng bằng kỹ thuật plaque (vòng tan).",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 1; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-10",
+          "hoi": "Các bước nhân bản của virus trong tế bào chủ theo thứ tự là gì?",
+          "dap_an": [
+            "Bám dính, xâm nhập, gen sớm, sao chép bộ gen, gen muộn, lắp vỏ và nạp bộ gen, phóng thích",
+            "Xâm nhập, bám dính, gen muộn, sao chép bộ gen, gen sớm, lắp vỏ và nạp bộ gen, phóng thích",
+            "Bám dính, xâm nhập, sao chép bộ gen, lắp vỏ, gen sớm, gen muộn, nạp bộ gen, phóng thích",
+            "Gen sớm, bám dính, xâm nhập, gen muộn, sao chép bộ gen, lắp vỏ, nạp bộ gen, phóng thích"
+          ],
+          "giai_thich": "Chuỗi: nhận diện/bám dính → xâm nhập → biểu hiện gen sớm → sao chép → gen muộn tạo protein vỏ → lắp vỏ và nạp bộ gen → phóng thích.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 2; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-11",
+          "hoi": "Trong đường cong tăng trưởng một bước, hai pha là gì?",
+          "dap_an": [
+            "Pha tiềm tàng (có thể kéo dài) và pha trưởng thành (rất nhanh)",
+            "Pha tiềm tàng (có thể kéo dài) và pha chết (rất nhanh)",
+            "Pha hàm mũ (có thể kéo dài) và pha ổn định (rất nhanh)",
+            "Pha lag (rất nhanh) và pha stationary (có thể kéo dài)"
+          ],
+          "giai_thich": "One-step-growth curve gồm latent phase và maturation phase.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 2; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-12",
+          "hoi": "Hệ số nhân (burst size) là gì?",
+          "dap_an": [
+            "Số virion phóng thích từ một tế bào",
+            "Số tế bào bị nhiễm trong quần thể",
+            "Thời gian một chu kỳ nhân bản",
+            "Số capsomere trong một virion"
+          ],
+          "giai_thich": "Burst size là số phần tử virus được phóng thích từ 1 tế bào.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 2; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-13",
+          "hoi": "Thời gian một chu kỳ nhân bản của phage và virus động vật khác nhau thế nào?",
+          "dap_an": [
+            "Phage 20–60 phút; virus động vật 8–40 giờ",
+            "Phage 8–40 giờ; virus động vật 20–60 phút",
+            "Cả hai đều 20–60 phút",
+            "Phage 2–6 giờ; virus động vật 1–4 ngày"
+          ],
+          "giai_thich": "Chu kỳ nhân bản 20–60 phút ở phage, 8–40 giờ ở virus động vật.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 2; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-14",
+          "hoi": "Gen sớm (early gene) của virus có đặc điểm nào?",
+          "dap_an": [
+            "Biểu hiện trước khi sao chép bộ gen, phiên mã ngay sau khi xâm nhập",
+            "Mã hóa các protein vỏ capsid và được biểu hiện sau khi sao chép bộ gen",
+            "Biểu hiện sau khi sao chép bộ gen và tạo ra protein muộn cho virion",
+            "Chỉ có ở virus RNA mà không có ở virus DNA hay phage"
+          ],
+          "giai_thich": "Gen sớm mã hóa protein sớm, biểu hiện trước sao chép bộ gen; gen muộn mã hóa protein vỏ và biểu hiện sau.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 2; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-15",
+          "hoi": "Bộ gen ssRNA+ có đặc điểm nào?",
+          "dap_an": [
+            "Trình tự tương ứng với mRNA",
+            "Trình tự bổ sung với mRNA",
+            "Luôn là DNA",
+            "Luôn mạch kép"
+          ],
+          "giai_thich": "ssRNA+ có trình tự giống mRNA; ssRNA– có trình tự bổ sung với mRNA.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 2; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-16",
+          "hoi": "Hệ thống phân loại chính thức của ICTV áp dụng đến cấp nào?",
+          "dap_an": [
+            "Từ bộ (order) đến chi (genus)",
+            "Từ giới đến loài",
+            "Từ họ đến loài",
+            "Từ bộ đến dưới loài"
+          ],
+          "giai_thich": "Chính thức chỉ từ bộ đến chi; loài và dưới loài chưa chính thức.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 2; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-17",
+          "hoi": "Hậu tố tên họ (Family) virus theo ICTV là gì?",
+          "dap_an": [
+            "-viridae",
+            "-virales",
+            "-virinae",
+            "-virus"
+          ],
+          "giai_thich": "Bộ: -virales; họ: -viridae; họ phụ: -virinae; chi: -virus.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 2; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-18",
+          "hoi": "Phage MS2 có đặc điểm nào?",
+          "dap_an": [
+            "Bộ gen ssRNA+ 3569 base mã hóa 4 protein, xâm nhiễm E. coli F+ qua pilus",
+            "Bộ gen dsDNA 39,9 kb mã hóa nhiều protein, xâm nhiễm E. coli qua LamB",
+            "Bộ gen ssDNA vòng 5386 base mã hóa protein, xâm nhiễm E. coli qua pilus",
+            "Bộ gen RNA mạch kép chia thành nhiều đoạn, xâm nhiễm E. coli qua pilus"
+          ],
+          "giai_thich": "MS2: ssRNA+ 3569 base; 4 protein gồm RNA replicase, vỏ, protein làm tan tế bào và protein trưởng thành.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 3; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-19",
+          "hoi": "Vai trò của RNA replicase ở MS2 là gì?",
+          "dap_an": [
+            "Tổng hợp ssRNA– làm khuôn để nhân bản các sợi ssRNA+",
+            "Phiên mã ngược RNA của phage thành DNA trong tế bào chủ",
+            "Cắt polyprotein thành các protein vỏ và protein trưởng thành",
+            "Sát nhập bộ gen của phage vào nhiễm sắc thể của tế bào chủ"
+          ],
+          "giai_thich": "RNA replicase tổng hợp ssRNA– làm khuôn để nhân bản các sợi ssRNA+.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 3; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-20",
+          "hoi": "ΦX174 sao chép bộ gen bằng cơ chế nào?",
+          "dap_an": [
+            "Cuộn vòng (rolling circle) qua dạng kép RF",
+            "Sao chép bán bảo thủ hai chiều rồi tạo concatemer",
+            "Phiên mã ngược từ RNA trung gian rồi sát nhập",
+            "Nảy chồi qua màng tế bào mà không làm tan tế bào"
+          ],
+          "giai_thich": "ΦX174: protein A tạo vết đứt ở mạch +, kéo dài đầu 3' trên khuôn mạch –, đủ một bộ gen thì cắt và nối.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 3; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-21",
+          "hoi": "Phiên mã của ΦX174 thực hiện trên khuôn nào?",
+          "dap_an": [
+            "Mạch – của DNA dạng RF",
+            "Mạch + của DNA dạng đơn",
+            "RNA của virus",
+            "DNA bộ gen chủ"
+          ],
+          "giai_thich": "Phiên mã trên mạch – của RF DNA (dạng kép).",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 3; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-22",
+          "hoi": "Phage M13 thoát khỏi tế bào bằng cách nào?",
+          "dap_an": [
+            "Nảy chồi, không làm tan tế bào",
+            "Làm tan tế bào bằng protein lysozyme",
+            "Phá vỡ màng nhân",
+            "Qua ẩm bào"
+          ],
+          "giai_thich": "M13 thoát bằng nảy chồi; tế bào bị nhiễm không chết, chỉ giảm tốc độ tăng trưởng.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 3; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-23",
+          "hoi": "Bộ gen của phage T7 có kích thước và đặc điểm nào?",
+          "dap_an": [
+            "dsDNA thẳng 39,9 kb, có trình tự lặp lại ở hai đầu",
+            "dsDNA vòng khoảng 5,2 kb, không có trình tự lặp lại",
+            "ssRNA thẳng khoảng 3,6 kb, mã hóa 4 protein của virus",
+            "dsDNA thẳng khoảng 169 kb, chứa hydroxymethyl cytosine"
+          ],
+          "giai_thich": "T7: dsDNA thẳng 39,9 kb với trình tự lặp lại ở hai đầu và gen gối đầu.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 4; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-24",
+          "hoi": "T7 vô hiệu hóa hệ thống giới hạn của chủ và chiếm quyền phiên mã bằng cách nào?",
+          "dap_an": [
+            "Gen sớm tạo RNA polymerase của virus và protein bất hoạt RNA polymerase chủ",
+            "Phân hủy toàn bộ DNA của tế bào chủ ngay sau khi xâm nhập",
+            "Sát nhập bộ gen vào nhiễm sắc thể chủ rồi dùng enzyme chủ",
+            "Tạo nhân tố sigma của chủ bị biến đổi để nhận promoter của phage"
+          ],
+          "giai_thich": "Một số gen sớm ức chế hệ thống giới hạn, tạo RNA polymerase của T7 và hai protein bất hoạt RNA polymerase chủ.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 4; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-25",
+          "hoi": "Concatemer ở T7 là gì và được xử lý ra sao?",
+          "dap_an": [
+            "Nhiều bộ gen nối liên tiếp, được endonuclease cắt thành các bộ gen riêng",
+            "Một bộ gen đóng vòng lớn, được ligase của virus cắt thành các đoạn",
+            "Phức hợp nhiều capsomere nối với nhau để tạo vỏ capsid của virion",
+            "Một phân tử RNA rất dài được phiên mã liên tục từ nhiều gen sớm"
+          ],
+          "giai_thich": "Hai đầu bắt cặp tạo concatemer nhiều bộ gen nối nhau; endonuclease của phage cắt tại trình tự chuyên biệt.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 4; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-26",
+          "hoi": "Vì sao DNA phage T4 hầu như không bị enzyme giới hạn của chủ cắt?",
+          "dap_an": [
+            "Chứa 5-hydroxymethyl cytosine (có glycosyl hóa) thay cho cytosine",
+            "Chứa uracil thay cho thymine nên enzyme chủ không nhận ra",
+            "Có mũ 5'-cap ở hai đầu bảo vệ DNA khỏi enzyme giới hạn",
+            "Được bao bởi màng bao nguồn gốc từ màng tế bào chủ"
+          ],
+          "giai_thich": "T4 dùng 5-hydroxymethyl cytosine, một số được glycosyl hóa, nên enzyme giới hạn chủ khó cắt.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 4; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-27",
+          "hoi": "Cơ chế nạp đầy (head-full packaging) của T4 dẫn đến hệ quả nào?",
+          "dap_an": [
+            "Hai đầu bộ gen có trình tự lặp lại, khác nhau giữa các virion",
+            "Mọi virion đều có bộ gen giống hệt nhau về hai đầu",
+            "Bộ gen luôn đóng vòng ngay khi được nạp vào đầu virion",
+            "Bộ gen hoàn toàn không chứa trình tự lặp lại nào"
+          ],
+          "giai_thich": "Cắt không chuyên biệt vị trí và nạp đầy làm xuất hiện trình tự lặp lại hai đầu; ở các T4 khác nhau có thể khác nhau.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 4; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-28",
+          "hoi": "Cách biểu hiện gen của phage T4 chia theo thời gian thành các nhóm nào?",
+          "dap_an": [
+            "Gen sớm, giữa, muộn",
+            "Gen sớm và muộn",
+            "Gen vỏ và gen đuôi",
+            "Gen tan và gen tiềm tan"
+          ],
+          "giai_thich": "T4 có gen sớm, giữa và muộn; promoter sớm do σ và RNA polymerase chủ nhận diện.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 4; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-29",
+          "hoi": "Chu trình tan và chu trình tiềm tan khác nhau thế nào?",
+          "dap_an": [
+            "Tan: kiểm soát chủ, sao chép, lắp ráp, phóng thích; tiềm tan: sát nhập bộ gen vào chủ",
+            "Tan: sát nhập bộ gen vào chủ; tiềm tan: lắp ráp rồi phóng thích ngay",
+            "Cả hai chu trình đều phóng thích virion ngay sau khi lắp ráp xong",
+            "Chu trình tiềm tan luôn giết tế bào chủ còn chu trình tan thì không"
+          ],
+          "giai_thich": "Chu trình tan tạo virion mới và phá tế bào; chu trình tiềm tan sát nhập bộ gen, sao chép cùng chủ, có thể chuyển sang tan khi được cảm ứng.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-30",
+          "hoi": "Trình tự cos của phage λ là gì?",
+          "dap_an": [
+            "Hai đầu 5' đơn bổ sung nhau dài 12 nu, giúp bộ gen đóng vòng",
+            "Trình tự nhận diện của integrase trên DNA phage và DNA chủ",
+            "Promoter của gen cI để phiên mã cI repressor trong tiềm tan",
+            "Trình tự gắn với thụ quan LamB trên bề mặt của E. coli"
+          ],
+          "giai_thich": "Bộ gen λ thẳng có hai đầu 5' đơn bổ sung nhau dài 12 nu (cos), trong chủ đóng vòng, 48,5 kb.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-31",
+          "hoi": "Phage λ nhận diện thụ quan nào trên bề mặt E. coli?",
+          "dap_an": [
+            "LamB",
+            "Pilus F",
+            "Porin OmpF",
+            "Flagellin"
+          ],
+          "giai_thich": "Sợi đuôi của λ nhận diện và gắn vào LamB.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-32",
+          "hoi": "cI repressor của phage λ có vai trò gì?",
+          "dap_an": [
+            "Gắn OR, OL ức chế các gen của λ, giữ phage ở chu trình tiềm tan",
+            "Hoạt hóa phiên mã các gen muộn để phage vào chu trình tan",
+            "Cắt DNA phage ra khỏi nhiễm sắc thể của tế bào chủ E. coli",
+            "Tổng hợp các protein vỏ để lắp ráp thành virion mới"
+          ],
+          "giai_thich": "cI gắn OR và OL ức chế biểu hiện các gen λ, đưa phage vào tiềm tan.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-33",
+          "hoi": "Phiên mã cI cần phức protein nào để hoạt hóa promoter PE?",
+          "dap_an": [
+            "cII và cIII",
+            "cro và cI",
+            "int và xis",
+            "RecA và LexA"
+          ],
+          "giai_thich": "Promoter PE cần phức cII và cIII mới cho phép phiên mã cI.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-34",
+          "hoi": "Việc sát nhập và tách DNA λ ra khỏi nhiễm sắc thể E. coli cần các protein nào?",
+          "dap_an": [
+            "Sát nhập nhờ integrase; tách nhờ excisionase (xis) cùng integrase",
+            "Sát nhập nhờ transposase; tách nhờ ligase của tế bào chủ",
+            "Sát nhập nhờ RecA; tách nhờ cI repressor của phage",
+            "Sát nhập nhờ excisionase; tách nhờ integrase riêng lẻ"
+          ],
+          "giai_thich": "Integrase (gen int) nhận diện trình tự att trên DNA phage và E. coli; tách cần excisionase (gen xis) cộng integrase.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-35",
+          "hoi": "Tác nhân gây tổn thương DNA làm phage λ lysogen chuyển sang chu trình tan nhờ cơ chế nào?",
+          "dap_an": [
+            "RecA có hoạt tính protease với cI nên phân hủy cI",
+            "RecA làm tăng tổng hợp cI nên phage ở lại tiềm tan",
+            "Integrase cắt cI repressor nên các gen muộn được bật",
+            "cII ức chế cro nên phage chuyển sang chu trình tan"
+          ],
+          "giai_thich": "Tổn thương DNA cảm ứng RecA hoạt tính protease phân hủy cI repressor, phage không về tiềm tan nữa.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-36",
+          "hoi": "Phage Mu có đặc điểm nổi bật nào?",
+          "dap_an": [
+            "Phage ôn hòa chuyển vị, gây đột biến bất hoạt chèn khi gắn vào bộ gen chủ",
+            "Phage RNA mạch đơn, gây tan tế bào chủ nhờ protein lysis",
+            "Phage mạch đơn dạng sợi, thoát khỏi tế bào bằng nảy chồi",
+            "Phage chỉ ở chu trình tan, không bao giờ gắn vào bộ gen chủ"
+          ],
+          "giai_thich": "Mu (mutator phage) gây đột biến bất hoạt chèn, chuyển vị sao chép vào nhiều vị trí nhờ transposase.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-37",
+          "hoi": "Bộ gen Mu có điểm gì lạ?",
+          "dap_an": [
+            "Chứa DNA của tế bào chủ ở hai đầu: 50–150 bp đầu 5' và 1–2 kb đầu 3'",
+            "Chỉ chứa DNA của riêng phage Mu, không lẫn DNA của tế bào chủ",
+            "Là RNA mạch kép được chia thành nhiều đoạn riêng biệt nhau",
+            "Luôn đóng vòng bằng hai đầu bổ sung nhau dài 12 nu như phage λ"
+          ],
+          "giai_thich": "Bộ gen 39 kb gồm 37,2 kb của Mu cộng DNA chủ ở hai đầu.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 5; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-38",
+          "hoi": "Virus động vật xâm nhiễm tế bào chủ bằng phương thức nào?",
+          "dap_an": [
+            "Ẩm bào cùng vỏ capsid",
+            "Bơm DNA qua đuôi",
+            "Qua pilus",
+            "Qua thụ quan LamB"
+          ],
+          "giai_thich": "Virus động vật xâm nhiễm bằng ẩm bào cùng capsid; phage bơm DNA qua đuôi.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-39",
+          "hoi": "Cơ chế khởi mào (initiation) trong cảm ứng ung thư là gì?",
+          "dap_an": [
+            "Hoạt hóa proto-oncogene thành oncogene hoặc bất hoạt tumor suppressor gene",
+            "Các biến đổi môi trường cảm ứng tế bào tiềm ẩn thành tế bào ung thư",
+            "Virus làm tan tế bào chủ rồi lan sang các tế bào bình thường kề bên",
+            "Virus sát nhập bộ gen vào ti thể và làm tăng sinh bào quan này"
+          ],
+          "giai_thich": "Khởi mào tạo tế bào ung thư tiềm tàng; tiến triển (promotion) là biến đổi môi trường cảm ứng thành tế bào ung thư.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-40",
+          "hoi": "Poliovirus thuộc nhóm nào, và gen của nó mã hóa gì?",
+          "dap_an": [
+            "Picornavirus ssRNA+, một polyprotein được cắt thành khoảng 20 protein",
+            "Rhabdovirus ssRNA–, bộ gen mã hóa khoảng 8 protein riêng lẻ",
+            "Orthomyxovirus, bộ gen gồm 8 đoạn RNA mã hóa 10 protein",
+            "Retrovirus ssRNA+, bộ gen có các vùng gag, pol và env"
+          ],
+          "giai_thich": "Picornavirus: ssRNA+ làm mRNA, một polyprotein cắt thành ~20 protein sau dịch mã.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-41",
+          "hoi": "Protease của poliovirus có tác dụng gì ngoài việc cắt polyprotein?",
+          "dap_an": [
+            "Bất hoạt cap-binding protein nên ức chế tổng hợp protein của chủ",
+            "Thực hiện phiên mã ngược RNA bộ gen thành DNA mạch kép",
+            "Tạo màng bao quanh nucleocapsid khi nảy chồi ra khỏi tế bào",
+            "Gắn protein VPg vào đầu 5' của RNA bộ gen virus"
+          ],
+          "giai_thich": "Protease virus bất hoạt cap-binding protein, ức chế sinh tổng hợp protein của tế bào chủ.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-42",
+          "hoi": "Rabies và vesicular stomatitis thuộc nhóm virus nào?",
+          "dap_an": [
+            "Rhabdovirus (ssRNA–)",
+            "Picornavirus (ssRNA+)",
+            "Papovavirus (dsDNA)",
+            "Retrovirus (ssRNA+)"
+          ],
+          "giai_thich": "Rhabdovirus hình que 70×175 nm, có màng bao, chứa RNA polymerase.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-43",
+          "hoi": "Bộ gen của virus cúm A có đặc điểm nào?",
+          "dap_an": [
+            "ssRNA– chia 8 đoạn, mã hóa 10 protein",
+            "ssRNA+ nguyên vẹn mã hóa polyprotein",
+            "dsDNA vòng 5243 bp",
+            "dsDNA thẳng 152,2 kb"
+          ],
+          "giai_thich": "Influenza A: ssRNA– phân đoạn thành 8 đoạn, mã hóa 10 protein.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-44",
+          "hoi": "Hemagglutinin và neuraminidase của virus cúm có chức năng gì?",
+          "dap_an": [
+            "HA kết tụ hồng cầu; NA thủy phân sialic acid ở màng tế bào chủ",
+            "HA thủy phân sialic acid ở màng chủ; NA làm kết tụ hồng cầu",
+            "HA thực hiện phiên mã ngược; NA cắt polyprotein thành protein",
+            "HA và NA đều là các RNA polymerase phụ thuộc RNA của virus"
+          ],
+          "giai_thich": "HA là kháng nguyên làm kết tụ hồng cầu; NA thủy phân sialic acid ngăn nó xuất hiện trong virion.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-45",
+          "hoi": "SV40 nhân bản ở đâu, và protein T làm gì?",
+          "dap_an": [
+            "Sao chép trong nhân; protein T gắn ORI, tạo phức replicase",
+            "Sao chép trong tế bào chất; protein T là capsid",
+            "Sao chép trong nhân; protein T cắt polyprotein",
+            "Sao chép trong tế bào chất; protein T là RTase"
+          ],
+          "giai_thich": "SV40 sao chép trong nhân; hai protein T từ mRNA pha sớm gắn ORI, cảm ứng phức replicase.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-46",
+          "hoi": "Herpesvirus sao chép DNA theo cơ chế nào?",
+          "dap_an": [
+            "Cuộn vòng sau khi DNA nối hai đầu thành vòng trong nhân",
+            "Phiên mã ngược từ RNA trung gian rồi sát nhập vào nhân",
+            "Sao chép lệch pha với primer là protein của virus",
+            "Sao chép trong tế bào chất, tạo inclusion body riêng"
+          ],
+          "giai_thich": "Herpes: nucleocapsid vào nhân, DNA nối hai đầu thành vòng, sao chép cuộn vòng.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-47",
+          "hoi": "Pox virus (vaccinia) khác các virus DNA khác ở điểm nào?",
+          "dap_an": [
+            "Sao chép trong tế bào chất, tạo inclusion body và mang RNA polymerase riêng",
+            "Sao chép trong nhân của tế bào chủ, chỉ dùng DNA polymerase của chủ",
+            "Không có bộ gen DNA mà chỉ có bộ gen RNA mạch đơn dương như picornavirus",
+            "Là virus RNA phân đoạn và chỉ dùng RNA polymerase có sẵn của tế bào chủ"
+          ],
+          "giai_thich": "Pox virus là virus phức tạp nhất, lớn nhất, nhân bản ở tế bào chất, RNA polymerase nằm trong virus.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-48",
+          "hoi": "Adenovirus sao chép bộ gen dùng primer gì?",
+          "dap_an": [
+            "Protein của virus gắn cộng hóa trị ở đầu 5' của bộ gen",
+            "RNA primer do primase của tế bào chủ tổng hợp ra",
+            "tRNA của tế bào chủ gắn vào vị trí bắt đầu sao chép",
+            "Oligonucleotide ngắn do virion mang sẵn trong vỏ capsid"
+          ],
+          "giai_thich": "Adenovirus có protein gắn cộng hóa trị ở đầu 5' làm primer, dùng DNA polymerase của virus.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-49",
+          "hoi": "Retrovirus có ba vùng gen và ba enzyme nào?",
+          "dap_an": [
+            "gag, pol, env; RTase, integrase, protease",
+            "gag, pol, env; RNA replicase, ligase, protease",
+            "cI, cro, int; RTase, integrase, protease",
+            "gag, pol, env; helicase, primase, ligase"
+          ],
+          "giai_thich": "gag mã hóa capsid, pol mã hóa RTase và integrase, env mã hóa protein màng bao; virion chứa RTase, integrase, protease.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-50",
+          "hoi": "Thứ tự đúng các bước nhân bản của retrovirus trong tế bào chủ là gì?",
+          "dap_an": [
+            "Xâm nhập, phiên mã ngược, sát nhập bằng integrase, phiên mã, lắp ráp, phóng thích",
+            "Xâm nhập, sát nhập, phiên mã ngược, phiên mã, lắp ráp, phóng thích",
+            "Phiên mã, xâm nhập, phiên mã ngược, sát nhập, lắp ráp, phóng thích",
+            "Xâm nhập, phiên mã, sát nhập, phiên mã ngược, phóng thích, lắp ráp"
+          ],
+          "giai_thich": "RNA → cDNA → dsDNA nhờ RTase, sát nhập nhờ integrase, phiên mã tạo mRNA và ssRNA+, lắp ráp, phóng thích.",
+          "kho": true,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        },
+        {
+          "id": "c43-51",
+          "hoi": "Bộ gen của hepadnavirus (ví dụ HBV) có đặc điểm nào?",
+          "dap_an": [
+            "DNA mạch kép không hoàn toàn, một protein của virion giúp hoàn tất",
+            "ssRNA+ có đuôi polyA, dùng RTase để tạo bản sao qua DNA",
+            "dsDNA vòng siêu xoắn có chứa intron, sao chép trong nhân",
+            "ssDNA vòng mạch đơn, sao chép theo cơ chế cuộn vòng"
+          ],
+          "giai_thich": "Hepadnavirus có DNA mạch kép không hoàn toàn; sau khi vào chủ một protein của virion giúp hoàn tất.",
+          "kho": false,
+          "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 # Web học tập - Học kỳ 3 (26-27)
 
-Website ôn tập gồm 3 mục: Trang chủ, Trắc nghiệm môn học, Tài liệu môn học.
+Website ôn tập gồm 4 mục: Trang chủ, Trắc nghiệm (môn của mình), Trắc nghiệm Tổng (môn học khác), Tài liệu môn học.
 Đưa nguyên thư mục này lên GitHub (GitHub Pages) để chạy. Tên file và thư mục không dấu, phân biệt chữ hoa/thường.
 
 ## Cấu trúc
 
 ```
 web-hoc-tap/
-├─ index.html              trang web duy nhất (3 mục)
+├─ index.html              trang web duy nhất (4 mục)
 ├─ giao-dien/
 │  ├─ style.css            giao diện dùng chung      
 │  └─ app.js               code dùng chung cho mọi môn
@@ -20,6 +20,7 @@ web-hoc-tap/
 
 ## Thêm hoặc sửa nội dung
 - Sửa câu hỏi: sửa file `du-lieu/<ma-mon>.json`, kiểm tra bằng một trang "JSON validator" rồi đưa lên lại.
+- Mỗi môn có trường `khu`: `"hien-tai"` (hiện ở Trắc nghiệm, mặc định nếu thiếu) hoặc `"tong"` (môn học khác, hiện ở Trắc nghiệm Tổng).
 - Thêm môn có câu hỏi: đặt file `<ma-mon>.json` vào `du-lieu/`, rồi điền `file_cau_hoi` của môn đó trong `danh-sach-mon.json`.
 - Thêm tài liệu: chép PDF vào `tai-lieu/<ma-mon>/`, rồi thêm một dòng vào mảng `tai_lieu` của môn đó, dạng
   `{ "ten": "Chương 1 - Tổng quan mạng máy tính", "loai": "Tóm tắt", "file": "tai-lieu/mang-may-tinh/chuong-01-tong-quan-mang-may-tinh.pdf" }`.

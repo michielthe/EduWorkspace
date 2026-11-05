@@ -1,9 +1,10 @@
 {
-  "phien_ban": 1,
+  "phien_ban": 2,
   "mon": [
     {
       "ma_mon": "mang-may-tinh",
       "ten": "Mạng máy tính",
+      "khu": "hien-tai",
       "file_cau_hoi": "du-lieu/mang-may-tinh.json",
       "tai_lieu": [
         {
@@ -71,26 +72,68 @@
     {
       "ma_mon": "xac-suat-thong-ke",
       "ten": "Xác suất thống kê",
+      "khu": "hien-tai",
       "file_cau_hoi": null,
       "tai_lieu": []
     },
     {
       "ma_mon": "vat-ly-dai-cuong-2",
       "ten": "Vật lý đại cương 2",
+      "khu": "hien-tai",
       "file_cau_hoi": null,
       "tai_lieu": []
     },
     {
       "ma_mon": "toan-hoc-to-hop",
       "ten": "Toán học tổ hợp",
+      "khu": "hien-tai",
       "file_cau_hoi": null,
       "tai_lieu": []
     },
     {
       "ma_mon": "oop",
       "ten": "OOP",
-      "file_cau_hoi": null,
+      "khu": "hien-tai",
+      "file_cau_hoi": "du-lieu/oop.json",
       "tai_lieu": []
+    },
+    {
+      "ma_mon": "vi-sinh",
+      "ten": "Vi sinh vật học",
+      "khu": "tong",
+      "file_cau_hoi": "du-lieu/vi-sinh.json",
+      "tai_lieu": [
+        {
+          "ten": "Chương 1 - Mở đầu Vi sinh vật học",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/vi-sinh/tt-chuong-01-mo-dau-vi-sinh-vat-hoc.pdf"
+        },
+        {
+          "ten": "Chương 2 - Tế bào vi sinh vật",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/vi-sinh/tt-chuong-02-te-bao-vi-sinh-vat.pdf"
+        },
+        {
+          "ten": "Chương 3 - Sinh lý vi sinh vật",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/vi-sinh/tt-chuong-03-sinh-ly-vi-sinh-vat.pdf"
+        },
+        {
+          "ten": "Chương 4-1 - Di truyền học vi sinh vật",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/vi-sinh/tt-chuong-04-1-di-truyen-hoc-vi-sinh-vat.pdf"
+        },
+        {
+          "ten": "Chương 4-2 - Kỹ thuật di truyền",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/vi-sinh/tt-chuong-04-2-ky-thuat-di-truyen.pdf"
+        },
+        {
+          "ten": "Chương 4-2 - Virus",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/vi-sinh/tt-chuong-04-2-virus.pdf"
+        }
+      ]
     }
   ]
 }

@@ -250,8 +250,8 @@ main{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px
 @media (max-width:600px){
   .topnav-inner{flex-wrap:wrap;gap:2px 12px;padding-block:8px 6px}
   .tabs{margin-left:0;width:100%}
-  .tab{flex:1;text-align:center;padding:8px 4px;font-size:.9rem}
-  .tab[aria-current="page"]::after{left:24%;right:24%}
+  .tab{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px 3px;font-size:.82rem;line-height:1.2;white-space:normal}
+  .tab[aria-current="page"]::after{left:18%;right:18%}
   main{padding-block:26px 56px}
   .facts{gap:8px}
   .fact{padding:12px}

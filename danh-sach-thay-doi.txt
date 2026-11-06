@@ -1,16 +1,7 @@
-Cập nhật 2026-11-05 22:10 - Thêm môn Vi sinh vật học vào "Trắc nghiệm Tổng"
+Cập nhật 2026-11-06 13:45 - Thêm môn Triết học Mác - Lênin vào "Trắc nghiệm Tổng"
 
 File đã đổi (kéo nội dung bên trong thư mục này lên GitHub, ghi đè):
-- index.html: thêm mục "Trắc nghiệm Tổng" (#trac-nghiem-tong) vào thanh điều hướng.
-- giao-dien/app.js:
-  + Trường "khu" trong danh sách môn ("hien-tai" hoặc "tong", thiếu thì là "hien-tai").
-  + Trang Trắc nghiệm Tổng dùng chung code với Trắc nghiệm, chỉ lọc môn theo khu.
-  + Trang chủ nhắc môn ở mục Trắc nghiệm Tổng; trang Tài liệu ghi "(môn học khác)".
-  + Nhãn chương hiểu dạng 4-1, 4-2 (trước đó bị cắt thành "4" và tên còn dư "1 - ").
-  + Chương không có số trong tên (OOP) lấy số thứ tự thay cho dấu "?".
-  + Sửa nút "Tất cả môn" ở màn lỗi tải chương.
-- giao-dien/style.css: thanh điều hướng điện thoại cho 4 mục (chữ nhỏ hơn, cho xuống dòng).
-- du-lieu/danh-sach-mon.json: phien_ban 2, thêm "khu" cho mọi môn, thêm môn vi-sinh (khu tong) và 6 tài liệu.
-- du-lieu/vi-sinh.json: file câu hỏi Vi sinh (6 chương, 281 câu), không sửa nội dung.
-- tai-lieu/vi-sinh/: 6 PDF tóm tắt đổi tên không dấu.
-- README.md: ghi chú trường khu và 4 mục.
+- du-lieu/danh-sach-mon.json: thêm môn triet-hoc (khu tong, 3 chương) và 3 tài liệu.
+- du-lieu/triet-hoc.json: file câu hỏi Triết học (3 chương, 187 câu), không sửa nội dung.
+- tai-lieu/triet-hoc/: 3 PDF tóm tắt đổi tên không dấu.
+Không đổi code (index.html, app.js, style.css giữ nguyên).

@@ -134,6 +134,29 @@
           "file": "tai-lieu/vi-sinh/tt-chuong-04-2-virus.pdf"
         }
       ]
+    },
+    {
+      "ma_mon": "triet-hoc",
+      "ten": "Triết học Mác - Lênin",
+      "khu": "tong",
+      "file_cau_hoi": "du-lieu/triet-hoc.json",
+      "tai_lieu": [
+        {
+          "ten": "Chương 1 - Khái luận về triết học và triết học Mác - Lênin",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/triet-hoc/tt-chuong-01-khai-luan-ve-triet-hoc-va-triet-hoc-mac-lenin.pdf"
+        },
+        {
+          "ten": "Chương 2 - Chủ nghĩa duy vật biện chứng",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/triet-hoc/tt-chuong-02-chu-nghia-duy-vat-bien-chung.pdf"
+        },
+        {
+          "ten": "Chương 3 - Chủ nghĩa duy vật lịch sử",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/triet-hoc/tt-chuong-03-chu-nghia-duy-vat-lich-su.pdf"
+        }
+      ]
     }
   ]
 }

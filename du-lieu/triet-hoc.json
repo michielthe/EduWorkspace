@@ -1,0 +1,2459 @@
+{
+  "mon": "Triết học Mác - Lênin",
+  "ma_mon": "triet-hoc",
+  "phien_ban": 1,
+  "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Chương 1 - Khái luận về triết học và triết học Mác - Lênin",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Triết học xuất hiện vào khoảng thời gian nào?",
+          "dap_an": [
+            "Thế kỷ VIII đến VI trước Công nguyên",
+            "Thế kỷ XV đến XVIII sau Công nguyên",
+            "Thế kỷ I đến V sau Công nguyên",
+            "Khoảng 4 triệu năm trước"
+          ],
+          "giai_thich": "Slide nêu triết học ra đời khoảng thế kỷ VIII – VI tr.CN; còn xã hội loài người có từ gần 4 triệu năm trước.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Triết học xuất hiện trong chế độ xã hội nào?",
+          "dap_an": [
+            "Chiếm hữu nô lệ",
+            "Cộng sản nguyên thủy",
+            "Phong kiến",
+            "Tư bản chủ nghĩa"
+          ],
+          "giai_thich": "Triết học ra đời thời kỳ xã hội chiếm hữu nô lệ ở cả phương Đông và phương Tây.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Trung tâm văn minh cổ đại nào sau đây là nơi triết học xuất hiện đầu tiên?",
+          "dap_an": [
+            "Trung Quốc, Ấn Độ, Hy Lạp",
+            "Ai Cập, La Mã, Ba Tư",
+            "Nhật Bản, Hàn Quốc, Thái Lan",
+            "Anh, Pháp, Đức"
+          ],
+          "giai_thich": "Slide nêu triết học xuất hiện ở Trung Quốc, Ấn Độ, Hy Lạp.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Theo người Hy Lạp, từ “Philosophia” có nghĩa là gì?",
+          "dap_an": [
+            "Yêu mến sự thông thái",
+            "Chiêm ngưỡng chân lý",
+            "Hiểu biết thiên – địa – nhân",
+            "Nghệ thuật tranh luận"
+          ],
+          "giai_thich": "Philosophia = philo (yêu mến) + sophia (thông thái).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.b"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Ở Ấn Độ, thuật ngữ triết học (darshana) mang nghĩa nào?",
+          "dap_an": [
+            "Chiêm ngưỡng, con đường suy ngẫm dẫn đến lẽ phải",
+            "Yêu mến sự thông thái, khát vọng tìm chân lý",
+            "Hiểu biết sâu sắc về trời, đất và con người",
+            "Khoa học tổng hợp của mọi lĩnh vực tri thức"
+          ],
+          "giai_thich": "Darshana nghĩa là chiêm ngưỡng, hàm ý tri thức dựa trên lý trí.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.b"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Ở Trung Quốc, triết học gắn với sự hiểu biết về những yếu tố nào?",
+          "dap_an": [
+            "Thiên – địa – nhân",
+            "Âm – dương – ngũ hành",
+            "Tứ đại: đất, nước, lửa, gió",
+            "Nho – Phật – Lão"
+          ],
+          "giai_thich": "Triết học Trung Quốc là hiểu biết sâu sắc về toàn bộ thế giới thiên – địa – nhân và định hướng nhân sinh quan.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1; slide I.1.b"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Theo bài giảng, triết học là gì?",
+          "dap_an": [
+            "Hệ thống tri thức lý luận phổ quát nhất về thế giới và vị thế, khả năng của con người",
+            "Hệ thống tri thức thực nghiệm chuyên sâu về một lĩnh vực riêng của tự nhiên",
+            "Tập hợp các tín điều về thế giới siêu nhiên và đời sống sau khi con người chết",
+            "Phương pháp tranh luận tìm chân lý bằng cách phát hiện mâu thuẫn trong lập luận"
+          ],
+          "giai_thich": "Định nghĩa trong slide: tri thức lý luận phổ quát nhất của con người về thế giới; về vị thế và khả năng của con người trong thế giới ấy.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.b"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Nguồn gốc nhận thức của triết học là gì?",
+          "dap_an": [
+            "Có vốn hiểu biết, tư duy trừu tượng và năng lực khái quát",
+            "Xuất hiện chế độ tư hữu về tư liệu sản xuất và giai cấp",
+            "Phân công lao động xã hội và xuất hiện lao động trí óc",
+            "Của cải dư thừa làm xuất hiện nhà nước đầu tiên"
+          ],
+          "giai_thich": "Nguồn gốc nhận thức: có vốn hiểu biết, tư duy trừu tượng, rút ra cái chung. Các đáp án còn lại thuộc nguồn gốc xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Yếu tố nào sau đây thuộc nguồn gốc xã hội của triết học?",
+          "dap_an": [
+            "Phân công lao động, tư hữu, giai cấp và lao động trí óc",
+            "Có vốn hiểu biết và phát triển tư duy trừu tượng",
+            "Năng lực khái quát và rút ra được cái chung",
+            "Sự tích lũy tri thức của con người qua thực tiễn"
+          ],
+          "giai_thich": "Nguồn gốc xã hội gồm phân công lao động, của cải dư thừa – tư hữu, giai cấp – nhà nước, lao động trí óc.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Ở thời Hy Lạp cổ đại, đối tượng của triết học là gì?",
+          "dap_an": [
+            "Triết học tự nhiên, bao gồm mọi tri thức",
+            "Triết học kinh viện",
+            "Quy luật chung nhất của tự nhiên, xã hội, tư duy",
+            "Một khoa học riêng như cơ học"
+          ],
+          "giai_thich": "Hy Lạp cổ đại: triết học tự nhiên bao gồm tất cả tri thức con người có được.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Triết học thời Trung cổ có đặc điểm nào?",
+          "dap_an": [
+            "Là triết học kinh viện, mang tính tôn giáo",
+            "Là triết học tự nhiên bao gồm mọi tri thức",
+            "Tách ra thành các môn khoa học cụ thể",
+            "Là khoa học của mọi khoa học"
+          ],
+          "giai_thich": "Thời Trung cổ: triết học kinh viện, tôn giáo.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Thời Phục hưng – cận đại, quan hệ giữa triết học và các khoa học là gì?",
+          "dap_an": [
+            "Các khoa học riêng (cơ học, toán, vật lý…) tách khỏi triết học",
+            "Triết học bao gồm toàn bộ khoa học như thời Hy Lạp",
+            "Triết học trở thành công cụ phục vụ cho tôn giáo",
+            "Triết học sáp nhập hoàn toàn với khoa học tự nhiên"
+          ],
+          "giai_thich": "Thời kỳ này triết học tách ra thành các môn khoa học riêng.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Ai là đỉnh cao của quan niệm “triết học là khoa học của mọi khoa học”?",
+          "dap_an": [
+            "Hêghen (triết học cổ điển Đức)",
+            "Aristotle (Hy Lạp)",
+            "Đêcáctơ (thế kỷ XVII)",
+            "Mác (thế kỷ XIX)"
+          ],
+          "giai_thich": "Slide nêu triết học cổ điển Đức, đỉnh cao ở Hêghen.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Đối tượng của triết học Mác là gì?",
+          "dap_an": [
+            "Quy luật chung nhất của tự nhiên, xã hội, tư duy trên lập trường duy vật biện chứng",
+            "Mọi tri thức về giới tự nhiên như toán học, vật lý, thiên văn học",
+            "Các học thuyết tôn giáo về thế giới siêu nhiên và cuộc sống sau khi chết",
+            "Quy luật đặc thù của từng lĩnh vực khoa học cụ thể riêng biệt"
+          ],
+          "giai_thich": "Triết học Mác nghiên cứu quy luật chung nhất của tự nhiên, xã hội và tư duy.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Ba thành phần chủ yếu của thế giới quan là gì?",
+          "dap_an": [
+            "Tri thức, niềm tin, lý tưởng",
+            "Tri thức, tình cảm, ý chí",
+            "Cảm giác, tri giác, biểu tượng",
+            "Khái niệm, phán đoán, suy lý"
+          ],
+          "giai_thich": "Slide: thành phần chủ yếu của thế giới quan là tri thức, niềm tin và lý tưởng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Một thế giới quan bền vững thể hiện ở điều kiện nào?",
+          "dap_an": [
+            "Tri thức và niềm tin thống nhất với nhau",
+            "Có thật nhiều tri thức khoa học",
+            "Có niềm tin tuyệt đối vào giới siêu nhiên",
+            "Có nhiều quan điểm khác nhau cùng tồn tại"
+          ],
+          "giai_thich": "Thế giới quan bền vững là thế giới quan có tri thức và niềm tin thống nhất.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Thế giới quan nào thể hiện qua các câu chuyện thần thoại, đan xen thực và ảo, thần và người?",
+          "dap_an": [
+            "Thế giới quan huyền thoại",
+            "Thế giới quan tôn giáo",
+            "Thế giới quan triết học",
+            "Thế giới quan khoa học"
+          ],
+          "giai_thich": "Đặc điểm nêu trong slide là của thế giới quan huyền thoại.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Thế giới quan tôn giáo có đặc điểm nào?",
+          "dap_an": [
+            "Tuyệt đối hóa niềm tin, giới siêu nhiên, hướng về đời sống sau khi chết",
+            "Chứng minh quan điểm về thế giới bằng luận cứ lý luận chặt chẽ",
+            "Phản ánh hiện thực khách quan dựa trên thành tựu khoa học",
+            "Thể hiện qua thần thoại, trật tự không gian thời gian tự phát"
+          ],
+          "giai_thich": "Slide nêu thế giới quan tôn giáo: tuyệt đối hóa niềm tin, giới siêu nhiên, hướng về cuộc sống sau khi chết.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Thế giới quan nào được sử dụng chung nhất, phổ biến nhất trong mọi ngành khoa học và đời sống xã hội?",
+          "dap_an": [
+            "Thế giới quan triết học",
+            "Thế giới quan huyền thoại",
+            "Thế giới quan tôn giáo",
+            "Thế giới quan thực nghiệm"
+          ],
+          "giai_thich": "Slide: thế giới quan chung nhất, phổ biến nhất là thế giới quan triết học.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Vấn đề cơ bản của triết học là gì?",
+          "dap_an": [
+            "Quan hệ giữa vật chất và ý thức, tư duy và tồn tại",
+            "Quan hệ giữa cá nhân và xã hội trong lịch sử",
+            "Quan hệ giữa lực lượng sản xuất và quan hệ sản xuất",
+            "Quan hệ giữa chất và lượng trong sự vận động"
+          ],
+          "giai_thich": "Vấn đề cơ bản: quan hệ giữa vật chất và ý thức; tư duy và tồn tại.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Mặt bản thể luận của vấn đề cơ bản của triết học trả lời câu hỏi nào?",
+          "dap_an": [
+            "Ý thức và vật chất cái nào có trước, cái nào quyết định cái nào",
+            "Con người có khả năng nhận thức được thế giới hay không",
+            "Thế giới vận động và phát triển hay đứng im tĩnh tại",
+            "Bản chất con người là sinh học hay xã hội"
+          ],
+          "giai_thich": "Bản thể luận hỏi cái nào có trước, cái nào quyết định cái nào; nhận thức luận hỏi con người có nhận thức được thế giới không.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Mặt nhận thức luận của vấn đề cơ bản của triết học là gì?",
+          "dap_an": [
+            "Con người có khả năng nhận thức được thế giới hay không",
+            "Vật chất có trước hay ý thức có trước trong thế giới",
+            "Ý thức hay vật chất quyết định lẫn nhau như thế nào",
+            "Thế giới có thống nhất ở tính vật chất hay không"
+          ],
+          "giai_thich": "Mặt thứ hai của vấn đề cơ bản là khả năng nhận thức thế giới của con người.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Quan điểm cho rằng vật chất có trước, quyết định ý thức thuộc trường phái nào?",
+          "dap_an": [
+            "Chủ nghĩa duy vật (nhất nguyên duy vật)",
+            "Chủ nghĩa duy tâm",
+            "Nhị nguyên luận",
+            "Thuyết bất khả tri"
+          ],
+          "giai_thich": "VC1 – YT2, vật chất quyết định → bản chất thế giới là vật chất.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Quan điểm cho rằng vật chất và ý thức song song tồn tại, đều là bản nguyên của thế giới là gì?",
+          "dap_an": [
+            "Nhị nguyên luận",
+            "Nhất nguyên duy vật",
+            "Nhất nguyên duy tâm",
+            "Thuyết hoài nghi"
+          ],
+          "giai_thich": "Slide gọi quan điểm này là nhị nguyên.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Chủ nghĩa duy vật chất phác có đặc điểm nào?",
+          "dap_an": [
+            "Đồng nhất vật chất với một hay vài chất cụ thể: nước, lửa, không khí",
+            "Đồng nhất vật chất với khối lượng của các vật thể",
+            "Thống nhất thế giới quan duy vật với phương pháp biện chứng",
+            "Nhìn thế giới trong trạng thái cơ giới, biệt lập, tĩnh tại"
+          ],
+          "giai_thich": "Duy vật chất phác ra đời từ cổ đại, đồng nhất vật chất với một số chất cụ thể.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.b"
+        },
+        {
+          "id": "c1-26",
+          "hoi": "Chủ nghĩa duy vật siêu hình thể hiện rõ vào thời kỳ nào?",
+          "dap_an": [
+            "Từ thế kỷ XV đến thế kỷ XVIII",
+            "Thời cổ đại",
+            "Giữa thế kỷ XIX",
+            "Đầu thế kỷ XX"
+          ],
+          "giai_thich": "Slide: duy vật siêu hình thể hiện rõ từ thế kỷ XV đến XVIII.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.b"
+        },
+        {
+          "id": "c1-27",
+          "hoi": "Triết gia nào sau đây tiêu biểu cho chủ nghĩa duy vật siêu hình?",
+          "dap_an": [
+            "Spinôza, Điđơrô, Đêcáctơ",
+            "Hêghen, Phoiơbắc, Cantơ",
+            "Talét, Hêraclít, Đêmôcrit",
+            "Mác, Ăngghen, Lênin"
+          ],
+          "giai_thich": "Slide nêu Spinôza, Điđơrô, Đêcáctơ là tiêu biểu cho duy vật siêu hình.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide I.2.b"
+        },
+        {
+          "id": "c1-28",
+          "hoi": "Chủ nghĩa duy vật biện chứng do ai xây dựng và vào thời gian nào?",
+          "dap_an": [
+            "Mác và Ăngghen, những năm 40 thế kỷ XIX",
+            "Hêghen và Phoiơbắc, đầu thế kỷ XIX",
+            "Lênin, vào những năm đầu thế kỷ XX",
+            "Đêcáctơ và Spinôza, vào thế kỷ XVII"
+          ],
+          "giai_thich": "Mác và Ăngghen xây dựng vào những năm 40 thế kỷ XIX, Lênin phát triển.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.b"
+        },
+        {
+          "id": "c1-29",
+          "hoi": "Chủ nghĩa duy tâm chủ quan thừa nhận điều gì là thứ nhất?",
+          "dap_an": [
+            "Ý thức của con người",
+            "Tinh thần khách quan tồn tại độc lập với con người",
+            "Vật chất",
+            "Cả vật chất và ý thức"
+          ],
+          "giai_thich": "Duy tâm chủ quan: ý thức con người là thứ nhất (sự vật tồn tại do cảm giác, tri giác của con người).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.b"
+        },
+        {
+          "id": "c1-30",
+          "hoi": "Chủ nghĩa duy tâm khách quan thừa nhận điều gì là thứ nhất?",
+          "dap_an": [
+            "Tinh thần khách quan, có trước và độc lập với con người",
+            "Cảm giác và tri giác riêng của từng cá nhân con người",
+            "Vật chất tồn tại khách quan bên ngoài ý thức con người",
+            "Trực giác thiên bẩm của mỗi cá nhân trong xã hội"
+          ],
+          "giai_thich": "Duy tâm khách quan: ý thức (tinh thần khách quan) có trước và tồn tại độc lập với con người.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.b"
+        },
+        {
+          "id": "c1-31",
+          "hoi": "Quan điểm “bất khả tri” có nội dung gì?",
+          "dap_an": [
+            "Phủ nhận khả năng nhận thức thế giới của con người",
+            "Thừa nhận khả năng nhận thức thế giới của con người",
+            "Nghi ngờ khả năng nhận thức thế giới của con người",
+            "Cho rằng thế giới do thượng đế tạo ra và quyết định"
+          ],
+          "giai_thich": "Khả tri thừa nhận; bất khả tri phủ nhận; hoài nghi nghi ngờ.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c1-32",
+          "hoi": "Thuyết hoài nghi đối với khả năng nhận thức thế giới là gì?",
+          "dap_an": [
+            "Nghi ngờ khả năng nhận thức thế giới của con người",
+            "Phủ nhận khả năng nhận thức thế giới của con người",
+            "Thừa nhận đầy đủ khả năng nhận thức thế giới",
+            "Cho rằng nhận thức là do thượng đế ban cho con người"
+          ],
+          "giai_thich": "Hoài nghi: nghi ngờ khả năng nhận thức thế giới của con người.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c1-33",
+          "hoi": "Trong lịch sử triết học, “biện chứng” còn có nghĩa nào khác với nghĩa phương pháp tư duy?",
+          "dap_an": [
+            "Nghệ thuật tranh luận tìm chân lý bằng cách phát hiện mâu thuẫn trong lập luận",
+            "Triết học là khoa học siêu cảm tính, phi thực nghiệm, tách rời thực tế",
+            "Học thuyết về thế giới siêu nhiên, vượt khỏi kinh nghiệm cảm tính",
+            "Phương pháp nhìn sự vật trong trạng thái tĩnh tại, cô lập, tách rời"
+          ],
+          "giai_thich": "Slide: biện chứng là nghệ thuật tranh luận; siêu hình là triết học siêu cảm tính, phi thực nghiệm.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3; slide I.3.a"
+        },
+        {
+          "id": "c1-34",
+          "hoi": "Phương pháp siêu hình nhận thức đối tượng như thế nào?",
+          "dap_an": [
+            "Ở trạng thái cô lập, tách rời, tĩnh tại",
+            "Trong các mối liên hệ phổ biến của sự vật",
+            "Ở trạng thái vận động và phát triển liên tục",
+            "Trong sự thống nhất giữa vật chất và ý thức"
+          ],
+          "giai_thich": "Siêu hình: cô lập, tách rời, tĩnh; biện chứng: liên hệ phổ biến, vận động phát triển.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide I.3.a"
+        },
+        {
+          "id": "c1-35",
+          "hoi": "Phương pháp biện chứng nhận thức đối tượng như thế nào?",
+          "dap_an": [
+            "Trong liên hệ phổ biến, ở trạng thái vận động, phát triển",
+            "Ở trạng thái cô lập, tách rời từng đối tượng khỏi nhau",
+            "Ở trạng thái tĩnh tại, không có sự thay đổi về chất",
+            "Chỉ thông qua cảm giác trực tiếp của từng cá nhân"
+          ],
+          "giai_thich": "Biện chứng xem xét sự vật trong mối liên hệ phổ biến và vận động, phát triển.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide I.3.a"
+        },
+        {
+          "id": "c1-36",
+          "hoi": "Ba hình thức phát triển của phép biện chứng trong lịch sử theo thứ tự là gì?",
+          "dap_an": [
+            "Tự phát, duy tâm, duy vật",
+            "Duy tâm, tự phát, duy vật",
+            "Duy vật, duy tâm, tự phát",
+            "Tự phát, duy vật, duy tâm"
+          ],
+          "giai_thich": "Slide: phép biện chứng tự phát, duy tâm, duy vật.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c1-37",
+          "hoi": "Phép biện chứng tự phát có đặc điểm nào?",
+          "dap_an": [
+            "Xuất hiện thời cổ đại, mang tính trực kiến, thiếu thực nghiệm",
+            "Do Cantơ khởi đầu và Hêghen hoàn thiện về mặt hệ thống",
+            "Do Mác và Ăngghen xây dựng trên nền tảng duy vật",
+            "Bắt đầu từ tinh thần và kết thúc ở tinh thần tuyệt đối"
+          ],
+          "giai_thich": "Biện chứng tự phát ở thời cổ đại, thấy vũ trụ biến hóa vô tận nhưng chỉ là trực kiến.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c1-38",
+          "hoi": "Ai là người khởi đầu và ai hoàn thiện phép biện chứng duy tâm?",
+          "dap_an": [
+            "Cantơ khởi đầu, Hêghen hoàn thiện",
+            "Hêghen khởi đầu, Cantơ hoàn thiện",
+            "Phoiơbắc khởi đầu, Hêghen hoàn thiện",
+            "Cantơ khởi đầu, Mác hoàn thiện"
+          ],
+          "giai_thich": "Slide: Cantơ (1724–1804) khởi đầu; Hêghen (1770–1831) hoàn thiện.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c1-39",
+          "hoi": "Điểm hạn chế căn bản của phép biện chứng duy tâm là gì?",
+          "dap_an": [
+            "Bắt đầu từ tinh thần, kết thúc ở tinh thần; hiện thực chỉ là phản ánh của ý niệm",
+            "Không trình bày nội dung của phương pháp biện chứng một cách hệ thống",
+            "Nhìn sự vật tĩnh tại, cô lập, không có sự vận động và phát triển",
+            "Chỉ là trực kiến thiên tài, chưa có kết quả thực nghiệm khoa học minh chứng"
+          ],
+          "giai_thich": "Biện chứng duy tâm đã có hệ thống nhưng xuất phát từ tinh thần, hiện thực chỉ là phản ánh của ý niệm.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c1-40",
+          "hoi": "Công lao của Mác và Ăngghen đối với phép biện chứng là gì?",
+          "dap_an": [
+            "Thống nhất duy vật với biện chứng, kế thừa hạt nhân hợp lý của biện chứng duy tâm",
+            "Khởi đầu phép biện chứng duy tâm và phát hiện ra mâu thuẫn trong tư duy",
+            "Hoàn thiện phép biện chứng tự phát bằng thực nghiệm khoa học cổ đại",
+            "Đưa ra phương pháp siêu hình dựa trên toán học và vật lý học cổ điển"
+          ],
+          "giai_thich": "Biện chứng duy vật kế thừa hạt nhân hợp lý của biện chứng duy tâm và thống nhất duy vật với biện chứng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c1-41",
+          "hoi": "Tiền đề lý luận nào đã hình thành quan niệm duy vật về lịch sử của chủ nghĩa Mác?",
+          "dap_an": [
+            "Kinh tế chính trị cổ điển Anh",
+            "Triết học cổ điển Đức",
+            "Chủ nghĩa xã hội không tưởng Pháp",
+            "Thuyết tiến hóa của Darwin"
+          ],
+          "giai_thich": "Kinh tế chính trị cổ điển Anh (Xmít, Ricácđô) → quan niệm duy vật về lịch sử. Triết học cổ điển Đức → thế giới quan, phương pháp luận; CNXH không tưởng Pháp → CNXH khoa học.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide II.1.a"
+        },
+        {
+          "id": "c1-42",
+          "hoi": "Tiền đề lý luận của chủ nghĩa xã hội khoa học là gì?",
+          "dap_an": [
+            "Chủ nghĩa xã hội không tưởng Pháp",
+            "Triết học cổ điển Đức",
+            "Kinh tế chính trị cổ điển Anh",
+            "Thuyết tế bào của Schwann"
+          ],
+          "giai_thich": "Slide: CNXH không tưởng Pháp là tiền đề lý luận ra đời CNXH khoa học.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide II.1.a"
+        },
+        {
+          "id": "c1-43",
+          "hoi": "Phát minh nào của Darwin là tiền đề khoa học tự nhiên của triết học Mác?",
+          "dap_an": [
+            "Thuyết tiến hóa",
+            "Thuyết tế bào",
+            "Định luật bảo toàn và chuyển hóa năng lượng",
+            "Hiện tượng phóng xạ"
+          ],
+          "giai_thich": "Thuyết tiến hóa của Darwin; thuyết tế bào của Schwann; bảo toàn năng lượng của Mayer.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide II.1.a"
+        },
+        {
+          "id": "c1-44",
+          "hoi": "Cặp nhà khoa học – phát minh nào đúng theo slide?",
+          "dap_an": [
+            "Mayer – bảo toàn, chuyển hóa năng lượng",
+            "Schwann – thuyết tiến hóa của sinh vật",
+            "Darwin – thuyết tế bào của sinh vật",
+            "Mayer – thuyết tiến hóa của sinh vật"
+          ],
+          "giai_thich": "Mayer: bảo toàn và chuyển hóa năng lượng; Darwin: tiến hóa; Schwann: tế bào.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide II.1.a"
+        },
+        {
+          "id": "c1-45",
+          "hoi": "Ba thời kỳ hình thành, phát triển triết học Mác (Mác và Ăngghen) theo mốc thời gian nào?",
+          "dap_an": [
+            "1841–1844, 1844–1848, 1848–1895",
+            "1818–1841, 1841–1848, 1848–1883",
+            "1844–1848, 1848–1871, 1871–1895",
+            "1841–1848, 1848–1871, 1871–1924"
+          ],
+          "giai_thich": "Slide nêu 1841–1844, 1844–1848, 1848–1895.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide II.1.b"
+        },
+        {
+          "id": "c1-46",
+          "hoi": "Điểm nổi bật của thời kỳ 1841–1844 là gì?",
+          "dap_an": [
+            "Chuyển từ duy tâm, dân chủ cách mạng sang duy vật và lập trường vô sản",
+            "Đề xuất nguyên lý duy vật biện chứng và duy vật lịch sử hoàn chỉnh",
+            "Bổ sung, phát triển toàn diện lý luận triết học của chủ nghĩa Mác",
+            "Lênin bảo vệ, phát triển triết học Mác trong thời đại đế quốc"
+          ],
+          "giai_thich": "1841–1844: bước chuyển sang duy vật và lập trường vô sản.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide II.1.b"
+        },
+        {
+          "id": "c1-47",
+          "hoi": "Nội dung chủ yếu của bước ngoặt cách mạng trong triết học do Mác và Ăngghen thực hiện là gì?",
+          "dap_an": [
+            "Sáng tạo ra chủ nghĩa duy vật lịch sử",
+            "Khởi đầu phép biện chứng duy tâm",
+            "Hoàn thiện chủ nghĩa duy vật chất phác",
+            "Phát hiện thuyết tiến hóa"
+          ],
+          "giai_thich": "Vận dụng quan điểm duy vật biện chứng vào xã hội → chủ nghĩa duy vật lịch sử, nội dung chủ yếu của bước ngoặt.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide II.1.c"
+        },
+        {
+          "id": "c1-48",
+          "hoi": "Giai đoạn 1907–1917 của Lênin gắn với sự kiện nào?",
+          "dap_an": [
+            "Phát triển toàn diện triết học Mác, chuẩn bị và thực hiện cách mạng XHCN đầu tiên",
+            "Bảo vệ triết học Mác, chuẩn bị thành lập đảng mácxít ở nước Nga",
+            "Tổng kết kinh nghiệm thực tiễn cách mạng, xây dựng chủ nghĩa xã hội",
+            "Chuẩn bị cho cuộc cách mạng dân chủ tư sản lần thứ nhất ở Nga"
+          ],
+          "giai_thich": "1893–1907: bảo vệ, chuẩn bị; 1907–1917: phát triển toàn diện, cách mạng XHCN; 1917–1924: tổng kết, xây dựng CNXH.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide II.1.d"
+        },
+        {
+          "id": "c1-49",
+          "hoi": "Hoàn cảnh nào thúc đẩy Lênin phát triển triết học Mác?",
+          "dap_an": [
+            "Chủ nghĩa đế quốc xuất hiện, cách mạng chuyển sang Nga, khủng hoảng thế giới quan trong vật lý",
+            "Cách mạng công nghiệp phát triển mạnh vào những năm 40 của thế kỷ XIX ở Tây Âu",
+            "Sự ra đời của triết học cổ điển Đức với hệ thống biện chứng của Hêghen",
+            "Sự phát triển của chủ nghĩa xã hội không tưởng ở nước Pháp thế kỷ XIX"
+          ],
+          "giai_thich": "Cuối XIX, đầu XX: CNTB sinh ra CNĐQ, cách mạng chuyển sang Nga, khủng hoảng thế giới quan.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide II.1.d"
+        },
+        {
+          "id": "c1-50",
+          "hoi": "Triết học Mác – Lênin giải quyết mối quan hệ nào trên lập trường duy vật biện chứng?",
+          "dap_an": [
+            "Mối quan hệ giữa vật chất và ý thức",
+            "Mối quan hệ giữa cá nhân và xã hội",
+            "Mối quan hệ giữa giai cấp và dân tộc",
+            "Mối quan hệ giữa lượng và chất"
+          ],
+          "giai_thich": "Đối tượng triết học Mác – Lênin: giải quyết quan hệ vật chất – ý thức trên lập trường duy vật biện chứng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide II.2.b"
+        },
+        {
+          "id": "c1-51",
+          "hoi": "Chức năng cơ bản nào sau đây của triết học Mác – Lênin giúp con người hình thành quan điểm khoa học và xác định thái độ, cách thức hoạt động?",
+          "dap_an": [
+            "Chức năng thế giới quan",
+            "Chức năng phương pháp luận",
+            "Chức năng tôn giáo",
+            "Chức năng thực nghiệm"
+          ],
+          "giai_thich": "Chức năng thế giới quan giúp nhận thức đúng thế giới và bản thân, hình thành quan điểm khoa học.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c1-52",
+          "hoi": "Chức năng phương pháp luận của triết học Mác – Lênin trang bị cho con người điều gì?",
+          "dap_an": [
+            "Hệ thống khái niệm, phạm trù, quy luật làm công cụ nhận thức",
+            "Hệ thống niềm tin vào giới siêu nhiên và thần linh",
+            "Các tri thức chuyên sâu của một ngành khoa học cụ thể",
+            "Hệ thống chuẩn mực ứng xử đạo đức trong xã hội"
+          ],
+          "giai_thich": "Phương pháp luận trang bị khái niệm, phạm trù, quy luật; phát triển tư duy cấp độ phạm trù, quy luật.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c1-53",
+          "hoi": "Vai trò của triết học Mác – Lênin đối với sự nghiệp ở Việt Nam là gì?",
+          "dap_an": [
+            "Cơ sở lý luận khoa học của xây dựng CNXH và đổi mới theo định hướng XHCN",
+            "Công cụ nghiên cứu duy nhất về lịch sử xã hội thời cổ đại",
+            "Học thuyết thay thế hoàn toàn các khoa học cụ thể hiện đại",
+            "Lý luận chỉ có giá trị trong phạm vi khoa học tự nhiên"
+          ],
+          "giai_thich": "Slide: cơ sở lý luận khoa học của công cuộc xây dựng CNXH và đổi mới theo định hướng XHCN.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6; slide II.3"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nhom": "Bài giảng",
+      "ten": "Chương 2 - Chủ nghĩa duy vật biện chứng",
+      "cau": [
+        {
+          "id": "c2-01",
+          "hoi": "Định nghĩa vật chất “là một phạm trù triết học dùng để chỉ thực tại khách quan…” là của ai?",
+          "dap_an": [
+            "V.I.Lênin",
+            "Ph.Ăngghen",
+            "C.Mác",
+            "Đêmôcrit"
+          ],
+          "giai_thich": "Slide: Định nghĩa vật chất của V.I.Lênin (1908).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c2-02",
+          "hoi": "Ý nào KHÔNG nằm trong ba ý của định nghĩa vật chất của Lênin?",
+          "dap_an": [
+            "Vật chất là tổng số khối lượng của các nguyên tử",
+            "Vật chất là phạm trù triết học",
+            "Vật chất là thực tại khách quan, không lệ thuộc ý thức",
+            "Vật chất khi tác động vào giác quan thì đem lại cảm giác"
+          ],
+          "giai_thich": "Ba ý: phạm trù triết học; thực tại khách quan; tác động vào giác quan đem lại cảm giác. Đồng nhất vật chất với khối lượng là sai lầm của duy vật siêu hình.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c2-03",
+          "hoi": "Chủ nghĩa duy tâm quan niệm thế nào về vật chất?",
+          "dap_an": [
+            "Thừa nhận sự vật vật chất tồn tại nhưng phủ định tính khách quan của chúng",
+            "Phủ nhận hoàn toàn sự tồn tại của mọi sự vật, hiện tượng vật chất",
+            "Đồng nhất vật chất với nguyên tử, hạt nhỏ nhất không thể chia",
+            "Coi vật chất là nguồn gốc duy nhất sinh ra mọi ý thức"
+          ],
+          "giai_thich": "Slide: duy tâm thừa nhận sự tồn tại của sự vật nhưng phủ định đặc tính tồn tại khách quan.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c2-04",
+          "hoi": "Thuyết tứ đại của Ấn Độ cổ đại gồm những yếu tố nào?",
+          "dap_an": [
+            "Đất, nước, lửa, gió",
+            "Kim, mộc, thủy, hỏa, thổ",
+            "Âm và dương",
+            "Nguyên tử và chân không"
+          ],
+          "giai_thich": "Tứ đại: đất, nước, lửa, gió; ngũ hành: kim, mộc, thủy, hỏa, thổ.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c2-05",
+          "hoi": "Thuyết Ngũ hành coi năm yếu tố nào là khởi nguyên của mọi vật?",
+          "dap_an": [
+            "Kim, Mộc, Thủy, Hỏa, Thổ",
+            "Đất, nước, lửa, gió, khí",
+            "Âm, dương, thiên, địa, nhân",
+            "Kim, Mộc, Thủy, Hỏa, Phong"
+          ],
+          "giai_thich": "Slide: thuyết Ngũ hành gồm Kim, Mộc, Thủy, Hỏa, Thổ.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c2-06",
+          "hoi": "Thuyết Âm – Dương cho rằng điều gì?",
+          "dap_an": [
+            "Hai lực lượng đối lập nhưng gắn bó trong mọi vật, khởi nguyên của biến hóa",
+            "Mọi vật do năm yếu tố Kim, Mộc, Thủy, Hỏa, Thổ cấu tạo nên",
+            "Mọi vật do bốn yếu tố đất, nước, lửa, gió cấu tạo nên",
+            "Mọi vật do các nguyên tử bất biến, không thẩm thấu cấu tạo nên"
+          ],
+          "giai_thich": "Thuyết Âm – Dương: hai lực lượng âm dương đối lập nhưng gắn bó trong mọi vật.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c2-07",
+          "hoi": "Theo thuyết nguyên tử cổ đại, nguyên tử có đặc điểm nào?",
+          "dap_an": [
+            "Hạt nhỏ nhất, đặc, không thẩm thấu, không khác nhau về chất",
+            "Hạt có thể chia nhỏ vô hạn và khác nhau về chất",
+            "Hạt do thượng đế tạo ra, có khả năng tự suy nghĩ",
+            "Hạt mềm, thẩm thấu được và có thể biến đổi thành chất khác"
+          ],
+          "giai_thich": "Slide nêu các đặc điểm của nguyên tử: nhỏ nhất, đặc, không thẩm thấu, không khác nhau về chất, vĩnh viễn, đa dạng về hình dáng và trật tự.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c2-08",
+          "hoi": "Hạn chế chung của chủ nghĩa duy vật cổ đại về vật chất là gì?",
+          "dap_an": [
+            "Đồng nhất vật chất với một dạng vật thể cụ thể",
+            "Phủ nhận tính khách quan của vật chất",
+            "Cho rằng ý thức có trước và sinh ra vật chất",
+            "Phủ nhận hoàn toàn khả năng nhận thức thế giới"
+          ],
+          "giai_thich": "Hạn chế: lấy một vật chất cụ thể để giải thích toàn bộ thế giới; còn mang tính trực quan, giả định.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c2-09",
+          "hoi": "Hạn chế của chủ nghĩa duy vật thế kỷ XV – XVIII về vật chất là gì?",
+          "dap_an": [
+            "Đồng nhất vật chất với khối lượng, tách khỏi vận động, không gian",
+            "Đồng nhất vật chất với nước, một chất cụ thể duy nhất của thế giới",
+            "Phủ nhận hoàn toàn sự tồn tại của nguyên tử trong giới tự nhiên",
+            "Coi vật chất do ý thức tuyệt đối sinh ra và chi phối hoàn toàn"
+          ],
+          "giai_thich": "Hạn chế phương pháp luận siêu hình: đồng nhất vật chất với khối lượng, tách khỏi vận động, không gian và thời gian.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide I.1.a"
+        },
+        {
+          "id": "c2-10",
+          "hoi": "Ba phát minh vật lý cuối thế kỷ XIX – đầu XX nào đã gây khủng hoảng quan niệm vật chất?",
+          "dap_an": [
+            "Tia X (Rơn-ghen), phóng xạ (Béc-cơ-ren), điện tử (Tômxơn)",
+            "Thuyết tiến hóa, thuyết tế bào, bảo toàn năng lượng",
+            "Thuyết nguyên tử, thuyết âm dương, thuyết ngũ hành",
+            "Máy hơi nước, động cơ điện, động cơ đốt trong"
+          ],
+          "giai_thich": "Slide: Rơn-ghen 1895, Béc-cơ-ren 1896, Tômxơn 1897.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide I.1.b"
+        },
+        {
+          "id": "c2-11",
+          "hoi": "Tia X được phát hiện vào năm nào?",
+          "dap_an": [
+            "1895",
+            "1896",
+            "1897",
+            "1908"
+          ],
+          "giai_thich": "Rơn-ghen phát hiện tia X năm 1895; Béc-cơ-ren (1896); Tômxơn (1897).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide I.1.b"
+        },
+        {
+          "id": "c2-12",
+          "hoi": "Theo Lênin, điều gì “tiêu tan” trong cuộc khủng hoảng vật lý?",
+          "dap_an": [
+            "Giới hạn hiểu biết của con người về vật chất",
+            "Bản thân vật chất tồn tại khách quan",
+            "Nguyên tử, hạt nhỏ nhất cấu tạo nên vật",
+            "Toàn bộ nền triết học duy vật trước đó"
+          ],
+          "giai_thich": "Lênin: không phải vật chất tiêu tan, chỉ có giới hạn hiểu biết của con người về vật chất là tiêu tan.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.b"
+        },
+        {
+          "id": "c2-13",
+          "hoi": "Lênin nhận định thế nào về tình hình vật lý học đầu thế kỷ XX?",
+          "dap_an": [
+            "Không khủng hoảng, mà là cách mạng trong khoa học tự nhiên",
+            "Khủng hoảng thật sự và đã bác bỏ khái niệm vật chất cũ",
+            "Chứng minh chủ nghĩa duy tâm là hoàn toàn đúng đắn",
+            "Làm sụp đổ thuyết nguyên tử và cả triết học duy vật"
+          ],
+          "giai_thich": "Slide: vật lý học không bị khủng hoảng mà là cách mạng trong khoa học tự nhiên.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.b"
+        },
+        {
+          "id": "c2-14",
+          "hoi": "Lênin định nghĩa vật chất bằng phương pháp nào?",
+          "dap_an": [
+            "Đối lập vật chất với phạm trù ý thức",
+            "Liệt kê các chất cấu tạo nên vật chất",
+            "Quy vật chất về một nguyên tố",
+            "Chỉ dựa vào thí nghiệm vật lý"
+          ],
+          "giai_thich": "Lênin tìm phương pháp định nghĩa mới thông qua đối lập với phạm trù ý thức.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c2-15",
+          "hoi": "Ý nghĩa của định nghĩa vật chất của Lênin là gì?",
+          "dap_an": [
+            "Giải quyết đúng, triệt để cả hai mặt vấn đề cơ bản của triết học",
+            "Chỉ giải quyết được mặt bản thể luận của vấn đề cơ bản",
+            "Chỉ giải quyết được mặt nhận thức luận của vấn đề cơ bản",
+            "Thay thế hoàn toàn các khoa học tự nhiên cụ thể"
+          ],
+          "giai_thich": "Slide: giải quyết đúng đắn và triệt để cả hai mặt vấn đề cơ bản.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.c"
+        },
+        {
+          "id": "c2-16",
+          "hoi": "Vận động theo nghĩa chung nhất là gì?",
+          "dap_an": [
+            "Mọi sự biến đổi nói chung",
+            "Sự di chuyển vị trí trong không gian",
+            "Sự biến đổi về lượng",
+            "Sự thay đổi về mặt cơ học"
+          ],
+          "giai_thich": "Vận động theo nghĩa chung nhất là mọi sự biến đổi nói chung; là phương thức tồn tại của vật chất.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c2-17",
+          "hoi": "Vận động của vật chất có đặc điểm nào?",
+          "dap_an": [
+            "Là thuộc tính cố hữu, tự thân và phổ biến",
+            "Do một lực lượng bên ngoài thúc đẩy mới xảy ra",
+            "Chỉ xảy ra ở một số ít dạng vật chất",
+            "Chỉ là sự di chuyển vị trí cơ học đơn giản"
+          ],
+          "giai_thich": "Vận động là thuộc tính cố hữu; vận động là tự thân và mang tính phổ biến.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c2-18",
+          "hoi": "Đứng im được hiểu như thế nào?",
+          "dap_an": [
+            "Vận động trong thăng bằng, mang tính tương đối và tạm thời",
+            "Trạng thái hoàn toàn không có bất kỳ sự vận động nào",
+            "Trạng thái tuyệt đối, vĩnh viễn của mọi vật chất",
+            "Sự chuyển hóa hoàn toàn thành một sự vật khác"
+          ],
+          "giai_thich": "Đứng im là một dạng vận động, nó còn là nó chứ chưa chuyển hóa thành cái khác; tương đối, tạm thời.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c2-19",
+          "hoi": "Không gian là hình thức tồn tại của vật chất xét về mặt nào?",
+          "dap_an": [
+            "Quảng tính, sự cùng tồn tại, trật tự, kết cấu, tác động lẫn nhau",
+            "Độ dài diễn biến, sự kế tiếp của các quá trình vận động",
+            "Khối lượng, năng lượng và mức độ vận động của các sự vật",
+            "Tốc độ, nhịp điệu và quy mô của sự thay đổi các sự vật"
+          ],
+          "giai_thich": "Không gian: quảng tính…; thời gian: độ dài diễn biến, sự kế tiếp.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c2-20",
+          "hoi": "Thời gian là hình thức tồn tại của vật chất xét về mặt nào?",
+          "dap_an": [
+            "Độ dài diễn biến, sự kế tiếp của các quá trình",
+            "Quảng tính, trật tự, kết cấu của sự vật",
+            "Khối lượng, kích thước của các sự vật",
+            "Mức độ phức tạp của các hiện tượng"
+          ],
+          "giai_thich": "Thời gian xét về mặt độ dài diễn biến và sự kế tiếp của các quá trình.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c2-21",
+          "hoi": "Theo bài giảng, vật chất có mấy chiều không gian và mấy chiều thời gian?",
+          "dap_an": [
+            "Ba chiều không gian, một chiều thời gian",
+            "Hai chiều không gian, một chiều thời gian",
+            "Ba chiều không gian, hai chiều thời gian",
+            "Bốn chiều không gian, không có thời gian"
+          ],
+          "giai_thich": "Slide: vật chất có ba chiều không gian và một chiều thời gian.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 1; slide I.1.d"
+        },
+        {
+          "id": "c2-22",
+          "hoi": "Thế giới thống nhất ở điểm nào?",
+          "dap_an": [
+            "Tính vật chất của nó",
+            "Ý thức của con người",
+            "Sự sáng tạo của thượng đế",
+            "Sự giống nhau về hình dạng của các sự vật"
+          ],
+          "giai_thich": "Bản chất thế giới là vật chất; thế giới thống nhất ở tính vật chất.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.e"
+        },
+        {
+          "id": "c2-23",
+          "hoi": "Quan điểm nào đúng với tính thống nhất vật chất của thế giới?",
+          "dap_an": [
+            "Thế giới vật chất không do ai sinh ra, không tự mất đi, vĩnh viễn, vô tận",
+            "Thế giới vật chất do ý thức tuyệt đối sinh ra và chi phối",
+            "Thế giới vật chất có điểm khởi đầu và điểm kết thúc xác định",
+            "Chỉ có giới tự nhiên là vật chất, xã hội thì không phải"
+          ],
+          "giai_thich": "Slide nêu thế giới vật chất không do ai sinh ra và cũng không tự mất đi.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide I.1.e"
+        },
+        {
+          "id": "c2-24",
+          "hoi": "Theo chủ nghĩa duy vật siêu hình, nguồn gốc của ý thức là gì?",
+          "dap_an": [
+            "Ý thức cũng là một dạng vật chất đặc biệt do vật chất sản sinh ra",
+            "Ý thức là bản thể đầu tiên, tồn tại vĩnh viễn trong thế giới",
+            "Ý thức là kết quả của thực tiễn xã hội – lịch sử",
+            "Ý thức do thượng đế ban cho con người từ khi sinh ra"
+          ],
+          "giai_thich": "Duy vật siêu hình coi ý thức là dạng vật chất đặc biệt (quan điểm dung tục).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c2-25",
+          "hoi": "Theo chủ nghĩa duy vật biện chứng, ý thức là kết quả của:",
+          "dap_an": [
+            "Tiến hóa lâu dài của tự nhiên và thực tiễn xã hội – lịch sử",
+            "Chỉ do quá trình tiến hóa lâu dài của giới tự nhiên",
+            "Chỉ do hoạt động sinh lý của riêng bộ óc người",
+            "Do ý niệm tuyệt đối sinh ra trước thế giới"
+          ],
+          "giai_thich": "Ý thức là kết quả của quá trình tiến hóa lâu dài của giới tự nhiên và thực tiễn xã hội – lịch sử.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c2-26",
+          "hoi": "Nguồn gốc tự nhiên của ý thức gồm những yếu tố nào?",
+          "dap_an": [
+            "Bộ óc người và thế giới khách quan",
+            "Lao động và ngôn ngữ",
+            "Bộ óc người và ngôn ngữ",
+            "Thế giới khách quan và lao động"
+          ],
+          "giai_thich": "Nguồn gốc tự nhiên: bộ óc người, thế giới khách quan. Nguồn gốc xã hội: lao động, ngôn ngữ.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c2-27",
+          "hoi": "Nguồn gốc xã hội của ý thức gồm những yếu tố cơ bản nào?",
+          "dap_an": [
+            "Lao động và ngôn ngữ",
+            "Bộ óc người và thế giới khách quan",
+            "Giai cấp và nhà nước",
+            "Tư hữu và phân công lao động"
+          ],
+          "giai_thich": "Cơ bản và trực tiếp nhất là lao động và ngôn ngữ.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c2-28",
+          "hoi": "Bộ óc người có khoảng bao nhiêu tế bào thần kinh theo slide?",
+          "dap_an": [
+            "14 – 15 tỷ",
+            "1 – 2 tỷ",
+            "140 – 150 tỷ",
+            "14 – 15 triệu"
+          ],
+          "giai_thich": "Slide: bộ óc người gồm 14 – 15 tỷ tế bào thần kinh.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c2-29",
+          "hoi": "Hình thức phản ánh cao nhất của thế giới vật chất là gì?",
+          "dap_an": [
+            "Ý thức",
+            "Phản xạ không điều kiện",
+            "Phản ánh sinh học",
+            "Tính kích thích, cảm ứng"
+          ],
+          "giai_thich": "Ý thức là hình thức phản ánh đặc trưng chỉ có ở con người và là hình thức cao nhất.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c2-30",
+          "hoi": "Ngôn ngữ có vai trò gì đối với ý thức?",
+          "dap_an": [
+            "Là cái vỏ vật chất của ý thức",
+            "Là nguồn gốc tự nhiên của ý thức",
+            "Là sản phẩm phụ của bộ óc",
+            "Là đối tượng được phản ánh"
+          ],
+          "giai_thich": "Slide: ngôn ngữ là cái vỏ vật chất của ý thức; ra đời từ nhu cầu lao động.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c2-31",
+          "hoi": "Lao động đã tác động đến sự hình thành ý thức như thế nào?",
+          "dap_an": [
+            "Hoàn thiện cơ thể, giác quan; làm sự vật bộc lộ thuộc tính quan sát được",
+            "Chỉ tạo ra ngôn ngữ mà không tác động đến cơ thể con người",
+            "Thay thế hoàn toàn chức năng phản ánh của bộ óc người",
+            "Chỉ cung cấp thức ăn, không liên quan đến sự hình thành ý thức"
+          ],
+          "giai_thich": "Lao động thay đổi cấu trúc cơ thể, hoàn thiện giác quan; làm sự vật bộc lộ kết cấu, thuộc tính.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide I.2.a"
+        },
+        {
+          "id": "c2-32",
+          "hoi": "Bản chất của ý thức là gì?",
+          "dap_an": [
+            "Quá trình phản ánh tích cực, sáng tạo hiện thực khách quan của óc người",
+            "Bản thể đầu tiên của thế giới, có trước và sinh ra vật chất",
+            "Bản sao nguyên xi, thụ động của các sự vật được phản ánh",
+            "Một dạng vật chất đặc biệt tồn tại bên ngoài bộ óc người"
+          ],
+          "giai_thich": "Ý thức là hình ảnh chủ quan của thế giới khách quan, mang bản chất lịch sử – xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide I.2.b"
+        },
+        {
+          "id": "c2-33",
+          "hoi": "Các lớp cấu trúc của ý thức gồm những gì?",
+          "dap_an": [
+            "Tri thức, tình cảm, niềm tin, ý chí",
+            "Tự ý thức, tiềm thức, vô thức",
+            "Cảm giác, tri giác, biểu tượng",
+            "Khái niệm, phán đoán, suy lý"
+          ],
+          "giai_thich": "Lớp cấu trúc: tri thức, tình cảm, niềm tin, ý chí. Cấp độ: tự ý thức, tiềm thức, vô thức.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide I.2.c"
+        },
+        {
+          "id": "c2-34",
+          "hoi": "Các cấp độ của ý thức gồm những gì?",
+          "dap_an": [
+            "Tự ý thức, tiềm thức, vô thức",
+            "Tri thức, tình cảm, niềm tin, ý chí",
+            "Cảm giác, tri giác, biểu tượng",
+            "Tri thức, niềm tin, lý tưởng"
+          ],
+          "giai_thich": "Slide phân biệt các lớp cấu trúc và các cấp độ của ý thức.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide I.2.c"
+        },
+        {
+          "id": "c2-35",
+          "hoi": "Theo chủ nghĩa duy vật biện chứng, quan hệ vật chất – ý thức là gì?",
+          "dap_an": [
+            "Vật chất quyết định ý thức; ý thức tác động trở lại vật chất",
+            "Ý thức quyết định vật chất và chi phối toàn bộ thế giới",
+            "Vật chất quyết định ý thức, còn ý thức không tác động trở lại",
+            "Vật chất và ý thức tồn tại song song, độc lập với nhau"
+          ],
+          "giai_thich": "Duy vật biện chứng: vật chất quyết định, ý thức tác động trở lại.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c2-36",
+          "hoi": "Vật chất quyết định ý thức về những mặt nào?",
+          "dap_an": [
+            "Nguồn gốc, nội dung, bản chất, vận động và phát triển",
+            "Chỉ quyết định nguồn gốc của ý thức mà thôi",
+            "Chỉ quyết định nội dung của ý thức mà thôi",
+            "Chỉ quyết định bản chất của ý thức mà thôi"
+          ],
+          "giai_thich": "Slide: vật chất quyết định nguồn gốc, nội dung, bản chất, sự vận động và phát triển của ý thức.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c2-37",
+          "hoi": "Ý thức tác động trở lại vật chất bằng cách nào?",
+          "dap_an": [
+            "Thông qua hoạt động thực tiễn của con người",
+            "Trực tiếp thay đổi các sự vật vật chất",
+            "Thông qua cảm giác của giác quan",
+            "Độc lập hoàn toàn, không cần thực tiễn"
+          ],
+          "giai_thich": "Ý thức tác động trở lại vật chất thông qua hoạt động thực tiễn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c2-38",
+          "hoi": "Ý nghĩa phương pháp luận từ quan hệ vật chất – ý thức là gì?",
+          "dap_an": [
+            "Xuất phát từ thực tế khách quan, tôn trọng khách quan, phát huy năng động chủ quan",
+            "Chỉ cần tin vào ý chí con người là có thể làm được mọi việc, kể cả điều trái quy luật",
+            "Chỉ dựa vào điều kiện vật chất, bỏ qua hoàn toàn vai trò tích cực của con người",
+            "Tách rời khách quan với chủ quan, mỗi bên hành động riêng rẽ trong thực tiễn"
+          ],
+          "giai_thich": "Slide: xuất phát từ thực tế khách quan; tôn trọng khách quan kết hợp phát huy tính năng động chủ quan; chống thụ động, trì trệ.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 3; slide I.3.b"
+        },
+        {
+          "id": "c2-39",
+          "hoi": "Phép biện chứng duy vật là gì?",
+          "dap_an": [
+            "Học thuyết về quy luật phổ biến của vận động, phát triển của tự nhiên, xã hội, tư duy",
+            "Học thuyết về quy luật riêng của từng khoa học cụ thể trong xã hội loài người",
+            "Nghệ thuật tranh luận để tìm ra chân lý bằng cách phát hiện mâu thuẫn của đối phương",
+            "Phương pháp nhìn nhận mọi sự vật ở trạng thái cô lập, tĩnh tại và tách rời nhau"
+          ],
+          "giai_thich": "Slide: học thuyết về những quy luật phổ biến của sự vận động và phát triển của tự nhiên, xã hội loài người và tư duy.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.1.b"
+        },
+        {
+          "id": "c2-40",
+          "hoi": "Biện chứng khách quan là gì?",
+          "dap_an": [
+            "Biện chứng của thế giới vật chất",
+            "Tư duy biện chứng",
+            "Biện chứng trong tranh luận",
+            "Biện chứng của ý thức"
+          ],
+          "giai_thich": "Biện chứng khách quan: biện chứng của thế giới vật chất; chủ quan: tư duy biện chứng.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.1.a"
+        },
+        {
+          "id": "c2-41",
+          "hoi": "Hai nguyên lý cơ bản của phép biện chứng duy vật là gì?",
+          "dap_an": [
+            "Mối liên hệ phổ biến và sự phát triển",
+            "Chất – lượng và mâu thuẫn",
+            "Phủ định của phủ định và mâu thuẫn",
+            "Cái chung và cái riêng"
+          ],
+          "giai_thich": "Hai nguyên lý: mối liên hệ phổ biến, sự phát triển.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.2.a"
+        },
+        {
+          "id": "c2-42",
+          "hoi": "Tính chất của mối liên hệ phổ biến là gì?",
+          "dap_an": [
+            "Khách quan, phổ biến, đa dạng phong phú",
+            "Chủ quan, phổ biến, kế thừa",
+            "Khách quan, kế thừa, đa dạng",
+            "Chủ quan, đa dạng, tạm thời"
+          ],
+          "giai_thich": "Mối liên hệ phổ biến: khách quan, phổ biến, đa dạng phong phú. Sự phát triển còn có tính kế thừa.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide II.2.a"
+        },
+        {
+          "id": "c2-43",
+          "hoi": "Quan điểm toàn diện yêu cầu điều gì?",
+          "dap_an": [
+            "Xem sự vật trong mối liên hệ, có trọng tâm; tránh phiến diện, chiết trung",
+            "Chỉ cần xem xét một mặt cơ bản nhất của sự vật là đủ",
+            "Xem xét mọi mối liên hệ ngang nhau, không phân biệt vai trò từng mối",
+            "Xem xét sự vật hoàn toàn tách rời hoàn cảnh và điều kiện cụ thể"
+          ],
+          "giai_thich": "Nội dung quan điểm toàn diện nêu trong slide.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.2.a"
+        },
+        {
+          "id": "c2-44",
+          "hoi": "Phát triển là gì theo phép biện chứng duy vật?",
+          "dap_an": [
+            "Quá trình vận động đi lên từ thấp đến cao, đơn giản đến phức tạp",
+            "Sự tăng lên đơn thuần về lượng của các sự vật, hiện tượng",
+            "Sự biến đổi nói chung của mọi sự vật, hiện tượng bất kỳ",
+            "Sự lặp lại như cũ ở mức độ hoàn toàn không thay đổi"
+          ],
+          "giai_thich": "Phát triển là quá trình vận động đi lên; khác quan điểm siêu hình chỉ tăng giảm về lượng.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.2.a"
+        },
+        {
+          "id": "c2-45",
+          "hoi": "Phát triển có tính chất nào sau đây mà mối liên hệ phổ biến KHÔNG có?",
+          "dap_an": [
+            "Tính kế thừa",
+            "Tính khách quan",
+            "Tính phổ biến",
+            "Tính đa dạng, phong phú"
+          ],
+          "giai_thich": "Tính chất của sự phát triển: khách quan, phổ biến, kế thừa, đa dạng phong phú; mối liên hệ: khách quan, phổ biến, đa dạng phong phú.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide II.2.a"
+        },
+        {
+          "id": "c2-46",
+          "hoi": "Cái chung, cái riêng, cái đơn nhất: “cái riêng” là gì?",
+          "dap_an": [
+            "Một sự vật, hiện tượng, một quá trình nhất định",
+            "Những mặt tồn tại phổ biến ở nhiều sự vật, hiện tượng",
+            "Đặc tính chỉ tồn tại ở một sự vật, không lặp lại",
+            "Thuộc tính bản chất của một nhóm sự vật"
+          ],
+          "giai_thich": "Cái riêng: một sự vật, hiện tượng nhất định; cái chung: tồn tại ở nhiều sự vật; cái đơn nhất: chỉ có ở một sự vật.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.2.b"
+        },
+        {
+          "id": "c2-47",
+          "hoi": "Mối quan hệ nào đúng giữa cái riêng và cái chung?",
+          "dap_an": [
+            "Cái chung chỉ tồn tại trong cái riêng",
+            "Cái chung tồn tại độc lập với cái riêng",
+            "Cái chung phong phú hơn cái riêng",
+            "Cái riêng là bộ phận của cái chung"
+          ],
+          "giai_thich": "Cái chung chỉ tồn tại trong cái riêng; cái riêng phong phú hơn, cái chung sâu sắc hơn; cái riêng là cái toàn bộ.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.2.b"
+        },
+        {
+          "id": "c2-48",
+          "hoi": "Nguyên nhân là gì?",
+          "dap_an": [
+            "Sự tác động lẫn nhau giữa các mặt, các sự vật tạo ra biến đổi nhất định",
+            "Những biến đổi xuất hiện do sự tác động giữa các sự vật",
+            "Mối liên hệ không bản chất do hoàn cảnh bên ngoài quy định",
+            "Cái đang tồn tại thực tế và khách quan trong hiện tại"
+          ],
+          "giai_thich": "Nguyên nhân tạo ra biến đổi; kết quả là biến đổi do tác động đó.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.2.b"
+        },
+        {
+          "id": "c2-49",
+          "hoi": "Quan hệ nhân – quả có đặc điểm nào?",
+          "dap_an": [
+            "Tất yếu khách quan; nguyên nhân, kết quả có thể chuyển hóa nhau",
+            "Chỉ do ý thức chủ quan của con người quy định nên",
+            "Một nguyên nhân chỉ sinh ra duy nhất một kết quả mà thôi",
+            "Nguyên nhân và kết quả không bao giờ chuyển hóa cho nhau"
+          ],
+          "giai_thich": "Quan hệ nhân – quả tất yếu, khách quan; có thể chuyển hóa lẫn nhau.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide II.2.b"
+        },
+        {
+          "id": "c2-50",
+          "hoi": "Cái tất nhiên là gì?",
+          "dap_an": [
+            "Mối liên hệ bản chất, do nguyên nhân bên trong quy định, phải xảy ra",
+            "Mối liên hệ không bản chất do hoàn cảnh bên ngoài quy định",
+            "Cái hiện chưa xảy ra nhưng sẽ xảy ra khi có điều kiện",
+            "Cái chỉ có ở một sự vật và không lặp lại ở vật khác"
+          ],
+          "giai_thich": "Tất nhiên: bản chất, bên trong; ngẫu nhiên: không bản chất, bên ngoài, có thể xuất hiện hoặc không.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide II.2.b"
+        },
+        {
+          "id": "c2-51",
+          "hoi": "Mối quan hệ giữa tất nhiên và ngẫu nhiên là gì?",
+          "dap_an": [
+            "Ngẫu nhiên là hình thức biểu hiện của tất nhiên",
+            "Tất nhiên là hình thức biểu hiện của ngẫu nhiên",
+            "Hai cái hoàn toàn tách biệt, không liên quan nhau",
+            "Ngẫu nhiên là cái không có bất cứ nguyên nhân nào"
+          ],
+          "giai_thich": "Cái tất nhiên thể hiện qua nhiều cái ngẫu nhiên; ngẫu nhiên là hình thức biểu hiện của tất nhiên.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide II.2.b"
+        },
+        {
+          "id": "c2-52",
+          "hoi": "Khả năng là gì?",
+          "dap_an": [
+            "Cái chưa xảy ra nhưng sẽ xảy ra khi có điều kiện thích hợp",
+            "Cái đang có, đang tồn tại thực tế trong thế giới khách quan",
+            "Cái không bao giờ xảy ra dù có điều kiện thích hợp",
+            "Cái chỉ tồn tại trong ý thức của riêng con người"
+          ],
+          "giai_thich": "Khả năng: cái chưa xảy ra nhưng sẽ xảy ra khi có điều kiện; hiện thực: cái đang tồn tại.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide II.2.b"
+        },
+        {
+          "id": "c2-53",
+          "hoi": "Quy luật là gì?",
+          "dap_an": [
+            "Mối liên hệ khách quan, phổ biến, bản chất, tất nhiên, lặp lại",
+            "Mối liên hệ ngẫu nhiên, chỉ xảy ra một lần giữa các sự vật",
+            "Ý muốn chủ quan của con người áp đặt lên mọi sự vật",
+            "Sự thay đổi thuần túy về lượng của các sự vật, hiện tượng"
+          ],
+          "giai_thich": "Định nghĩa quy luật trong slide.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-54",
+          "hoi": "Ba quy luật cơ bản của phép biện chứng duy vật là gì?",
+          "dap_an": [
+            "Lượng – chất; thống nhất và đấu tranh các mặt đối lập; phủ định của phủ định",
+            "Nhân – quả; tất nhiên – ngẫu nhiên; khả năng – hiện thực",
+            "Cái chung – cái riêng; nội dung – hình thức; bản chất – hiện tượng",
+            "Mối liên hệ phổ biến; sự phát triển; thực tiễn và nhận thức"
+          ],
+          "giai_thich": "Ba quy luật cơ bản theo slide.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-55",
+          "hoi": "Quy luật lượng – chất chỉ ra điều gì?",
+          "dap_an": [
+            "Cách thức của sự vận động, phát triển",
+            "Nguồn gốc và động lực của sự phát triển",
+            "Khuynh hướng của sự phát triển",
+            "Mối liên hệ giữa các sự vật"
+          ],
+          "giai_thich": "Lượng – chất: cách thức; mâu thuẫn: nguồn gốc, động lực; phủ định của phủ định: khuynh hướng.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-56",
+          "hoi": "“Độ” là gì trong quy luật lượng – chất?",
+          "dap_an": [
+            "Giới hạn mà trong đó lượng đổi chưa làm chất đổi",
+            "Điểm mà tại đó lượng phá vỡ chất cũ của sự vật",
+            "Giai đoạn chuyển hóa cơ bản về chất của sự vật",
+            "Mức độ lớn nhỏ về quy mô của sự vật"
+          ],
+          "giai_thich": "Độ: giới hạn lượng đổi chưa dẫn đến chất đổi; điểm nút: giới hạn phá vỡ độ; bước nhảy: chuyển hóa cơ bản về chất.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-57",
+          "hoi": "“Điểm nút” là gì?",
+          "dap_an": [
+            "Giới hạn mà tại đó lượng đổi phá vỡ độ cũ, làm chất đổi",
+            "Giới hạn mà trong đó lượng đổi chưa làm chất đổi",
+            "Giai đoạn chuyển hóa cơ bản về chất của sự vật",
+            "Chất mới xuất hiện sau khi sự vật thay đổi"
+          ],
+          "giai_thich": "Điểm nút phá vỡ độ cũ, chuyển sang chất mới.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-58",
+          "hoi": "Quy luật nào được xem là hạt nhân của phép biện chứng?",
+          "dap_an": [
+            "Thống nhất và đấu tranh của các mặt đối lập",
+            "Chuyển hóa từ lượng thành chất và ngược lại",
+            "Phủ định của phủ định trong sự phát triển",
+            "Quan hệ nhân – quả giữa các sự vật"
+          ],
+          "giai_thich": "Slide: quy luật này có vị trí là hạt nhân của phép biện chứng; chỉ ra nguồn gốc, động lực.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-59",
+          "hoi": "Nguồn gốc của sự phát triển là gì?",
+          "dap_an": [
+            "Đấu tranh giữa các mặt đối lập để giải quyết mâu thuẫn",
+            "Sự tăng lên đơn thuần về lượng của sự vật, hiện tượng",
+            "Sự tác động thuần túy đến từ bên ngoài sự vật",
+            "Sự thống nhất tạm thời giữa các mặt đối lập"
+          ],
+          "giai_thich": "Mâu thuẫn, trực tiếp là sự đấu tranh của các mặt đối lập, là nguồn gốc của sự phát triển.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-60",
+          "hoi": "Phân loại mâu thuẫn theo vai trò gồm những loại nào?",
+          "dap_an": [
+            "Mâu thuẫn chủ yếu và thứ yếu",
+            "Bên trong và bên ngoài",
+            "Đối kháng và không đối kháng",
+            "Cơ bản và không cơ bản"
+          ],
+          "giai_thich": "Vai trò: chủ yếu – thứ yếu; quan hệ giữa các mặt đối lập: bên trong – bên ngoài; tính chất lợi ích giai cấp: đối kháng – không đối kháng.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-61",
+          "hoi": "Phủ định biện chứng có đặc điểm nào?",
+          "dap_an": [
+            "Tự phủ định, tự phát triển, có tính kế thừa",
+            "Phủ định sạch trơn, xóa bỏ hoàn toàn cái cũ",
+            "Do tác động thuần túy từ bên ngoài sự vật",
+            "Không có tính chu kỳ và không có kế thừa"
+          ],
+          "giai_thich": "Phủ định biện chứng: tự phủ định, khách quan, kế thừa, phổ biến, đa dạng, chu kỳ, tự sàng lọc.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-62",
+          "hoi": "Quy luật phủ định của phủ định khái quát sự phát triển theo hình thức nào?",
+          "dap_an": [
+            "Đường xoáy trôn ốc",
+            "Đường thẳng",
+            "Vòng tròn khép kín",
+            "Đường gấp khúc không có quy luật"
+          ],
+          "giai_thich": "Slide: phát triển tiến lên nhưng theo đường xoáy trôn ốc.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide II.2.c"
+        },
+        {
+          "id": "c2-63",
+          "hoi": "Lý luận nhận thức duy vật biện chứng có nguyên tắc nào sau đây?",
+          "dap_an": [
+            "Lấy thực tiễn làm tiêu chuẩn kiểm tra hình ảnh đúng, sai",
+            "Cho rằng nhận thức là sao chép nguyên xi sự vật",
+            "Cho rằng ý thức có trước và sinh ra vật chất",
+            "Phủ nhận khả năng nhận thức được thế giới"
+          ],
+          "giai_thich": "Ba nguyên tắc: thế giới vật chất tồn tại khách quan; cảm giác, ý thức là hình ảnh chủ quan; thực tiễn là tiêu chuẩn kiểm tra.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide III.2.a"
+        },
+        {
+          "id": "c2-64",
+          "hoi": "Thực tiễn theo triết học Mác – Lênin là gì?",
+          "dap_an": [
+            "Hoạt động vật chất, cảm tính, lịch sử – xã hội nhằm cải tạo tự nhiên, xã hội",
+            "Hoạt động của tinh thần nói chung của con người trong xã hội",
+            "Hoạt động sáng tạo ra vũ trụ của thượng đế toàn năng, toàn tri",
+            "Riêng hoạt động sản xuất vật chất ra của cải của con người"
+          ],
+          "giai_thich": "Slide nêu định nghĩa thực tiễn: hoạt động vật chất, cảm tính, lịch sử – xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide III.2.b"
+        },
+        {
+          "id": "c2-65",
+          "hoi": "Các dạng hoạt động thực tiễn cơ bản gồm những gì?",
+          "dap_an": [
+            "Sản xuất vật chất, chính trị – xã hội, thực nghiệm khoa học",
+            "Cảm giác, tri giác, biểu tượng của nhận thức con người",
+            "Khái niệm, phán đoán, suy lý của tư duy trừu tượng",
+            "Sản xuất tinh thần, hoạt động tôn giáo và nghệ thuật"
+          ],
+          "giai_thich": "Ba dạng thực tiễn: sản xuất vật chất (cơ bản nhất), chính trị – xã hội, thực nghiệm khoa học.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide III.2.b"
+        },
+        {
+          "id": "c2-66",
+          "hoi": "Vai trò nào KHÔNG thuộc vai trò của thực tiễn đối với nhận thức?",
+          "dap_an": [
+            "Là chủ thể sáng tạo ra thế giới vật chất",
+            "Là cơ sở, động lực của nhận thức",
+            "Là mục đích của nhận thức",
+            "Là tiêu chuẩn kiểm tra chân lý"
+          ],
+          "giai_thich": "Thực tiễn có ba vai trò: cơ sở, động lực; mục đích; tiêu chuẩn kiểm tra chân lý.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide III.2.b"
+        },
+        {
+          "id": "c2-67",
+          "hoi": "Nhận thức cảm tính gồm những hình thức nào theo thứ tự từ thấp đến cao?",
+          "dap_an": [
+            "Cảm giác, tri giác, biểu tượng",
+            "Tri giác, cảm giác, biểu tượng",
+            "Biểu tượng, tri giác, cảm giác",
+            "Cảm giác, biểu tượng, tri giác"
+          ],
+          "giai_thich": "Cảm giác (đơn giản nhất) → tri giác → biểu tượng (cao nhất, phức tạp nhất).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide III.2.c"
+        },
+        {
+          "id": "c2-68",
+          "hoi": "Nhận thức lý tính gồm những hình thức nào?",
+          "dap_an": [
+            "Khái niệm, phán đoán, suy lý",
+            "Cảm giác, tri giác, biểu tượng",
+            "Tri thức, niềm tin, ý chí",
+            "Quy nạp, diễn dịch, thực nghiệm"
+          ],
+          "giai_thich": "Nhận thức lý tính: khái niệm, phán đoán, suy lý (quy nạp, diễn dịch).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide III.2.c"
+        },
+        {
+          "id": "c2-69",
+          "hoi": "Hai loại suy luận chính của suy lý là gì?",
+          "dap_an": [
+            "Quy nạp và diễn dịch",
+            "Phân tích và tổng hợp",
+            "Phán đoán và khái niệm",
+            "Cảm tính và lý tính"
+          ],
+          "giai_thich": "Slide nêu hai loại suy luận chính: quy nạp và diễn dịch.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide III.2.c"
+        },
+        {
+          "id": "c2-70",
+          "hoi": "Chân lý theo triết học Mác – Lênin là gì?",
+          "dap_an": [
+            "Tri thức phù hợp hiện thực khách quan, được thực tiễn kiểm nghiệm",
+            "Tri thức được số đông trong xã hội thừa nhận là đúng",
+            "Tri thức phù hợp với niềm tin riêng của từng cá nhân",
+            "Tri thức mang lại lợi ích thiết thực cho con người"
+          ],
+          "giai_thich": "Định nghĩa chân lý trong slide.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide III.2.d"
+        },
+        {
+          "id": "c2-71",
+          "hoi": "Các tính chất của chân lý theo slide là gì?",
+          "dap_an": [
+            "Khách quan, cụ thể, tương đối và tuyệt đối",
+            "Chủ quan, trừu tượng, bất biến, tuyệt đối",
+            "Khách quan, bất biến, trừu tượng, tuyệt đối",
+            "Chủ quan, cụ thể, tương đối, cố định"
+          ],
+          "giai_thich": "Chân lý có tính khách quan, tính cụ thể, tính tương đối và tuyệt đối.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide III.2.d"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Chương 3 - Chủ nghĩa duy vật lịch sử",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Sản xuất xã hội gồm ba phương diện nào, trong đó phương diện nào là cơ sở, quyết định?",
+          "dap_an": [
+            "Sản xuất vật chất, sản xuất tinh thần, sản xuất ra bản thân con người; sản xuất vật chất là cơ sở",
+            "Sản xuất vật chất, sản xuất tinh thần, sản xuất ra bản thân con người; sản xuất tinh thần là cơ sở",
+            "Sản xuất vật chất, sản xuất tinh thần, sản xuất ra bản thân con người; sản xuất con người là cơ sở",
+            "Sản xuất công nghiệp, nông nghiệp, dịch vụ; sản xuất công nghiệp là cơ sở"
+          ],
+          "giai_thich": "Slide I.1: sản xuất vật chất là cơ sở, quyết định.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.1"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Sản xuất vật chất là gì?",
+          "dap_an": [
+            "Quá trình con người dùng công cụ tác động vào tự nhiên, cải biến vật chất để tạo của cải",
+            "Quá trình sáng tạo ra các giá trị tinh thần phục vụ nhu cầu tồn tại của xã hội",
+            "Quá trình sản xuất và tái sản xuất ra bản thân con người trong xã hội",
+            "Quá trình trao đổi, mua bán hàng hóa trên thị trường giữa các cá nhân"
+          ],
+          "giai_thich": "Định nghĩa sản xuất vật chất trong slide I.1.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.1"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Ý nghĩa phương pháp luận của vai trò sản xuất vật chất là gì?",
+          "dap_an": [
+            "Nhận thức, cải tạo xã hội phải xuất phát từ sản xuất vật chất, không lấy tinh thần giải thích tinh thần",
+            "Muốn phát triển xã hội phải bắt đầu từ việc nâng cao đời sống tinh thần của người dân trước hết",
+            "Muốn phát triển xã hội phải bắt đầu từ việc cải cách thể chế chính trị của nhà nước trước hết",
+            "Muốn phát triển xã hội phải bắt đầu từ việc giáo dục tư tưởng cho toàn thể người dân trước hết"
+          ],
+          "giai_thich": "Slide: xét đến cùng, không thể dùng tinh thần giải thích đời sống tinh thần.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.1"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Phương thức sản xuất là gì?",
+          "dap_an": [
+            "Cách thức con người thực hiện sản xuất vật chất ở giai đoạn lịch sử nhất định",
+            "Tập hợp toàn bộ các công cụ lao động đang được sử dụng trong xã hội",
+            "Tổng thể các quan hệ xã hội đang tồn tại trong một thời kỳ lịch sử",
+            "Hệ thống tư tưởng xã hội hình thành trên cơ sở của đời sống kinh tế"
+          ],
+          "giai_thich": "Phương thức sản xuất là sự thống nhất giữa LLSX ở trình độ nhất định và QHSX tương ứng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.2.A"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Lực lượng sản xuất gồm những yếu tố nào?",
+          "dap_an": [
+            "Người lao động và tư liệu sản xuất",
+            "Tư liệu sản xuất và quan hệ sở hữu",
+            "Người lao động và quan hệ phân phối",
+            "Công cụ lao động và quan hệ quản lý"
+          ],
+          "giai_thich": "LLSX gồm người lao động và tư liệu sản xuất (tư liệu lao động, đối tượng lao động).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.2.A"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "Tư liệu lao động gồm những gì?",
+          "dap_an": [
+            "Công cụ lao động và phương tiện lao động",
+            "Đối tượng lao động và công cụ lao động",
+            "Người lao động và công cụ lao động",
+            "Phương tiện lao động và đối tượng lao động"
+          ],
+          "giai_thich": "Tư liệu sản xuất = tư liệu lao động (công cụ, phương tiện lao động) + đối tượng lao động.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide I.2.A"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Quan hệ sản xuất gồm những mặt nào?",
+          "dap_an": [
+            "Quan hệ sở hữu, quản lý, phân phối",
+            "Quan hệ giữa người lao động, công cụ, đối tượng",
+            "Quan hệ giữa tư liệu sản xuất, sản phẩm, thị trường",
+            "Quan hệ giữa giai cấp, dân tộc, nhân loại"
+          ],
+          "giai_thich": "Slide: QHSX gồm quan hệ sở hữu, quản lý và phân phối.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.2.A"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Tính chất của lực lượng sản xuất được biểu hiện như thế nào?",
+          "dap_an": [
+            "Tính chất cá nhân hoặc xã hội trong sử dụng tư liệu sản xuất",
+            "Trình độ của công cụ lao động trong quá trình sản xuất",
+            "Trình độ phân công lao động xã hội trong sản xuất",
+            "Kinh nghiệm và kỹ năng của người lao động trực tiếp"
+          ],
+          "giai_thich": "Tính chất: cá nhân hoặc xã hội; còn trình độ gồm công cụ, tổ chức lao động, ứng dụng khoa học, kỹ năng, phân công lao động.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide I.2.A"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Khoa học trở thành lực lượng sản xuất trực tiếp có biểu hiện nào?",
+          "dap_an": [
+            "Rút ngắn khoảng cách từ phát minh đến ứng dụng, có thể phát triển vượt trước",
+            "Thay thế hoàn toàn người lao động trong mọi khâu của quá trình sản xuất",
+            "Làm cho công cụ lao động mất hết vai trò trong quá trình sản xuất xã hội",
+            "Chỉ tác động gián tiếp vào sản xuất thông qua lĩnh vực giáo dục đào tạo"
+          ],
+          "giai_thich": "Slide nêu khoa học thâm nhập vào các yếu tố sản xuất, rút ngắn khoảng cách đến ứng dụng, phát triển vượt trước.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.2.A"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Quy luật cơ bản nhất của sự vận động và phát triển lịch sử xã hội là gì?",
+          "dap_an": [
+            "QHSX phù hợp với trình độ phát triển của LLSX",
+            "Cơ sở hạ tầng quyết định kiến trúc thượng tầng của xã hội",
+            "Tồn tại xã hội quyết định ý thức xã hội của con người",
+            "Đấu tranh giai cấp là động lực trực tiếp của lịch sử"
+          ],
+          "giai_thich": "Slide: đây là quy luật cơ bản nhất của sự vận động, phát triển lịch sử xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.2.B"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Trong mối quan hệ LLSX – QHSX, yếu tố nào quyết định?",
+          "dap_an": [
+            "Lực lượng sản xuất",
+            "Quan hệ sản xuất",
+            "Kiến trúc thượng tầng",
+            "Quan hệ phân phối"
+          ],
+          "giai_thich": "LLSX quyết định QHSX; QHSX tác động trở lại.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.2.B"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Vì sao lực lượng sản xuất quyết định quan hệ sản xuất?",
+          "dap_an": [
+            "Vì LLSX là nội dung của sản xuất, năng động, cách mạng, luôn phát triển",
+            "Vì LLSX là hình thức xã hội của quá trình sản xuất vật chất",
+            "Vì LLSX có tính ổn định và độc lập tương đối về bản chất",
+            "Vì LLSX do nhà nước và hệ thống pháp luật quy định ra"
+          ],
+          "giai_thich": "LLSX là nội dung, năng động, cách mạng. QHSX là hình thức, ổn định.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide I.2.B"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "Vì sao quan hệ sản xuất tác động trở lại lực lượng sản xuất?",
+          "dap_an": [
+            "Vì QHSX là hình thức xã hội của sản xuất, độc lập tương đối và ổn định",
+            "Vì QHSX là nội dung năng động, thường xuyên phát triển của sản xuất",
+            "Vì QHSX luôn biến đổi nhanh hơn mọi yếu tố của sản xuất",
+            "Vì QHSX do công cụ lao động quy định hoàn toàn"
+          ],
+          "giai_thich": "Slide: QHSX là hình thức xã hội, có tính độc lập tương đối và ổn định về bản chất.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide I.2.B"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "Sự tác động của QHSX đối với LLSX diễn ra theo hướng nào?",
+          "dap_an": [
+            "Hai chiều: thúc đẩy hoặc kìm hãm sự phát triển của LLSX",
+            "Chỉ một chiều là thúc đẩy sự phát triển của LLSX",
+            "Chỉ một chiều là kìm hãm sự phát triển của LLSX",
+            "Hoàn toàn không tác động gì đến sự phát triển của LLSX"
+          ],
+          "giai_thich": "Sự tác động diễn ra hai chiều hướng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.2.B"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "Trong xã hội có đối kháng giai cấp, mâu thuẫn LLSX – QHSX biểu hiện về mặt xã hội thành gì?",
+          "dap_an": [
+            "Mâu thuẫn giai cấp, giải quyết bằng đấu tranh giai cấp, đỉnh cao là cách mạng xã hội",
+            "Mâu thuẫn dân tộc, giải quyết bằng cách thống nhất lãnh thổ quốc gia",
+            "Mâu thuẫn giữa cá nhân và xã hội, giải quyết bằng giáo dục đạo đức",
+            "Mâu thuẫn giữa tồn tại xã hội và ý thức xã hội, giải quyết bằng cải cách"
+          ],
+          "giai_thich": "Slide: biểu hiện về mặt xã hội là mâu thuẫn giai cấp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.2.B"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Ý nghĩa của quy luật QHSX phù hợp trình độ LLSX là gì?",
+          "dap_an": [
+            "Phát triển kinh tế phải bắt đầu từ phát triển LLSX; thay QHSX phải căn cứ trình độ LLSX",
+            "Thay đổi QHSX bằng mệnh lệnh hành chính, không cần căn cứ trình độ LLSX",
+            "Phát triển kiến trúc thượng tầng trước rồi mới phát triển lực lượng sản xuất",
+            "Chỉ cần thay đổi quan hệ sản xuất là đủ để phát triển xã hội"
+          ],
+          "giai_thich": "Slide: không phải kết quả của mệnh lệnh hành chính; chống chủ quan, duy ý chí.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide I.2.B"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Cơ sở hạ tầng là gì?",
+          "dap_an": [
+            "Toàn bộ quan hệ sản xuất của xã hội, hợp thành cơ cấu kinh tế",
+            "Toàn bộ lực lượng sản xuất của xã hội ở một thời kỳ",
+            "Toàn bộ tư tưởng xã hội cùng các thiết chế tương ứng",
+            "Toàn bộ thiết chế chính trị và pháp luật của nhà nước"
+          ],
+          "giai_thich": "Slide: CSHT là toàn bộ QHSX trong sự vận động hiện thực, hợp thành cơ cấu kinh tế.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.3.A"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Các yếu tố cấu thành cơ sở hạ tầng gồm những loại QHSX nào?",
+          "dap_an": [
+            "QHSX thống trị, tàn dư, mầm mống",
+            "QHSX sở hữu, quản lý, phân phối",
+            "QHSX cơ bản, thứ yếu",
+            "QHSX đối kháng, không đối kháng"
+          ],
+          "giai_thich": "CSHT gồm QHSX thống trị, QHSX tàn dư, QHSX mầm mống.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide I.3.A"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "Kiến trúc thượng tầng gồm những yếu tố nào?",
+          "dap_an": [
+            "Các hình thái tư tưởng xã hội và thiết chế xã hội tương ứng",
+            "Các quan hệ sản xuất thống trị, tàn dư và quan hệ mầm mống",
+            "Người lao động cùng với tư liệu sản xuất của xã hội",
+            "Chỉ riêng các cơ quan quyền lực của bộ máy nhà nước"
+          ],
+          "giai_thich": "KTTT là toàn bộ tư tưởng xã hội với các thiết chế xã hội tương ứng.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide I.3.A"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "Quan hệ giữa cơ sở hạ tầng và kiến trúc thượng tầng là gì?",
+          "dap_an": [
+            "CSHT quyết định KTTT; KTTT tác động trở lại CSHT",
+            "KTTT quyết định CSHT; CSHT tác động trở lại KTTT",
+            "Hai mặt hoàn toàn độc lập với nhau, không tác động",
+            "CSHT chịu tác động của KTTT nhưng không quyết định KTTT"
+          ],
+          "giai_thich": "Quy luật CSHT – KTTT: CSHT quyết định KTTT, KTTT tác động trở lại to lớn.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.3.B"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Bộ phận nào của kiến trúc thượng tầng có vai trò lớn nhất trong tác động trở lại CSHT?",
+          "dap_an": [
+            "Kiến trúc thượng tầng chính trị",
+            "Triết học",
+            "Đạo đức",
+            "Nghệ thuật"
+          ],
+          "giai_thich": "KTTT chính trị phản ánh trực tiếp CSHT, là biểu hiện tập trung của kinh tế.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide I.3.B"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Nếu kiến trúc thượng tầng tác động cùng chiều quy luật kinh tế khách quan thì kết quả là gì?",
+          "dap_an": [
+            "Thúc đẩy xã hội phát triển",
+            "Kìm hãm xã hội phát triển",
+            "Không có kết quả",
+            "Làm CSHT biến mất"
+          ],
+          "giai_thich": "KTTT tác động hai chiều: cùng chiều quy luật kinh tế thì thúc đẩy, ngược lại thì kìm hãm.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.3.B"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Ba yếu tố cơ bản tác động biện chứng tạo nên sự vận động, phát triển của lịch sử xã hội là gì?",
+          "dap_an": [
+            "LLSX, QHSX (CSHT), KTTT",
+            "Giai cấp, dân tộc, nhân loại",
+            "Tồn tại xã hội, ý thức xã hội, nhà nước",
+            "Cá nhân, xã hội, lãnh tụ"
+          ],
+          "giai_thich": "Slide I.4.b: LLSX – QHSX (CSHT) – KTTT.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.4.b"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Hình thái kinh tế – xã hội dùng để chỉ điều gì?",
+          "dap_an": [
+            "Xã hội ở nấc thang lịch sử nhất định, có kiểu QHSX đặc trưng, hợp với LLSX và KTTT tương ứng",
+            "Chỉ riêng lực lượng sản xuất của một thời đại lịch sử nhất định trong xã hội",
+            "Chỉ riêng thể chế chính trị của một xã hội trong một giai đoạn lịch sử",
+            "Chỉ riêng hệ tư tưởng của giai cấp thống trị trong một xã hội nhất định"
+          ],
+          "giai_thich": "Định nghĩa hình thái KT-XH trong slide I.4.a.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.4.a"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Sự phát triển của các hình thái KT-XH được xem là quá trình gì?",
+          "dap_an": [
+            "Lịch sử – tự nhiên",
+            "Ngẫu nhiên",
+            "Do ý chí con người quyết định",
+            "Do thượng đế sắp đặt"
+          ],
+          "giai_thich": "Tên mục I.4: sự phát triển các hình thái KT-XH là một quá trình lịch sử – tự nhiên.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide I.4"
+        },
+        {
+          "id": "c3-26",
+          "hoi": "Theo định nghĩa của Lênin, giai cấp khác nhau về những điểm nào?",
+          "dap_an": [
+            "Địa vị trong hệ thống sản xuất, quan hệ với tư liệu sản xuất, vai trò tổ chức lao động",
+            "Màu da, ngôn ngữ, dân tộc và địa vị chính trị của mỗi cá nhân trong xã hội",
+            "Trình độ học vấn, chuyên môn và mức thu nhập hằng tháng của mỗi người",
+            "Tôn giáo, tín ngưỡng và phong tục tập quán của từng cộng đồng người"
+          ],
+          "giai_thich": "Định nghĩa giai cấp của Lênin trong slide II.1.a.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide II.1.a"
+        },
+        {
+          "id": "c3-27",
+          "hoi": "Nguyên nhân trực tiếp dẫn đến sự ra đời của giai cấp là gì?",
+          "dap_an": [
+            "Sự xuất hiện chế độ tư hữu về tư liệu sản xuất",
+            "Sự phát triển của LLSX làm năng suất lao động tăng",
+            "Sự xuất hiện của nhà nước trong xã hội",
+            "Sự phân công lao động trí óc và chân tay"
+          ],
+          "giai_thich": "Sâu xa: LLSX phát triển, năng suất tăng; trực tiếp: chế độ tư hữu.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide II.1.a"
+        },
+        {
+          "id": "c3-28",
+          "hoi": "Nguyên nhân sâu xa của sự xuất hiện giai cấp là gì?",
+          "dap_an": [
+            "Sự phát triển của LLSX làm năng suất lao động tăng",
+            "Sự xuất hiện chế độ tư hữu về tư liệu sản xuất",
+            "Mâu thuẫn giai cấp ngày càng gay gắt",
+            "Sự xuất hiện của nhà nước và pháp luật"
+          ],
+          "giai_thich": "Slide: nguyên nhân sâu xa là sự phát triển của LLSX tạo tiền đề chiếm đoạt lao động.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide II.1.a"
+        },
+        {
+          "id": "c3-29",
+          "hoi": "Kết cấu giai cấp gồm những thành phần nào?",
+          "dap_an": [
+            "Giai cấp cơ bản, giai cấp không cơ bản, tầng lớp và nhóm xã hội",
+            "Giai cấp thống trị, giai cấp bị trị và các lực lượng trung gian",
+            "Thị tộc, bộ lạc, bộ tộc cùng các hình thức cộng đồng người",
+            "Cá nhân, gia đình, tập thể và các tổ chức cộng đồng"
+          ],
+          "giai_thich": "Slide II.1.a nêu giai cấp cơ bản, không cơ bản, tầng lớp và nhóm xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide II.1.a"
+        },
+        {
+          "id": "c3-30",
+          "hoi": "Vai trò của đấu tranh giai cấp trong xã hội có giai cấp là gì?",
+          "dap_an": [
+            "Là động lực trực tiếp, quan trọng, không phải động lực duy nhất",
+            "Là động lực duy nhất của lịch sử trong mọi xã hội có giai cấp",
+            "Không có vai trò gì đối với sự vận động, phát triển của xã hội",
+            "Chỉ là yếu tố phá hoại, làm cho xã hội suy thoái, lạc hậu"
+          ],
+          "giai_thich": "Slide: không phải động lực duy nhất mà là động lực trực tiếp và quan trọng.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide II.1.b"
+        },
+        {
+          "id": "c3-31",
+          "hoi": "Thứ tự đúng của các hình thức cộng đồng người trước khi hình thành dân tộc là gì?",
+          "dap_an": [
+            "Thị tộc, bộ lạc, bộ tộc",
+            "Bộ lạc, thị tộc, bộ tộc",
+            "Bộ tộc, bộ lạc, thị tộc",
+            "Thị tộc, bộ tộc, bộ lạc"
+          ],
+          "giai_thich": "Slide II.2.a: thị tộc → bộ lạc → bộ tộc.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide II.2.a"
+        },
+        {
+          "id": "c3-32",
+          "hoi": "Cơ sở kinh tế của bộ lạc là gì?",
+          "dap_an": [
+            "Chế độ công hữu về đất đai và công cụ sản xuất",
+            "Chế độ tư hữu về đất đai và công cụ sản xuất",
+            "Chế độ chiếm hữu nô lệ về sức lao động",
+            "Chế độ phong kiến chiếm hữu ruộng đất"
+          ],
+          "giai_thich": "Slide: cơ sở kinh tế của bộ lạc là công hữu về đất đai và công cụ sản xuất.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide II.2.a"
+        },
+        {
+          "id": "c3-33",
+          "hoi": "Bộ tộc hình thành khi xã hội có đặc điểm nào?",
+          "dap_an": [
+            "Xã hội phân chia giai cấp; nhiều bộ lạc liên kết, không cùng huyết thống",
+            "Xã hội cộng sản nguyên thủy, chưa phân chia thành các giai cấp",
+            "Các thành viên có cùng tổ tiên, cùng huyết thống và tiếng nói",
+            "Xã hội chưa có nhà nước và chưa có lãnh thổ ổn định"
+          ],
+          "giai_thich": "Bộ tộc gắn với chiếm hữu nô lệ hoặc phong kiến; công việc xã hội thuộc về nhà nước.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide II.2.a"
+        },
+        {
+          "id": "c3-34",
+          "hoi": "Dân tộc theo nghĩa hẹp (ethnie) chỉ điều gì?",
+          "dap_an": [
+            "Cộng đồng tộc người (dân tộc đa số và thiểu số)",
+            "Quốc gia dân tộc với nhà nước thống nhất",
+            "Một giai cấp trong xã hội có đối kháng",
+            "Một thị tộc cùng huyết thống, cùng tổ tiên"
+          ],
+          "giai_thich": "Nghĩa rộng (nation): quốc gia dân tộc; nghĩa hẹp (ethnie): cộng đồng tộc người.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide II.2.b"
+        },
+        {
+          "id": "c3-35",
+          "hoi": "Ở châu Âu, dân tộc hình thành gắn liền với điều gì?",
+          "dap_an": [
+            "Sự ra đời của chủ nghĩa tư bản",
+            "Chế độ chiếm hữu nô lệ",
+            "Cuộc đấu tranh chống ngoại xâm",
+            "Chế độ cộng sản nguyên thủy"
+          ],
+          "giai_thich": "Slide: châu Âu gắn với CNTB; phương Đông ra đời sớm; Việt Nam gắn với chống ngoại xâm.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide II.2.b"
+        },
+        {
+          "id": "c3-36",
+          "hoi": "Dân tộc Việt Nam được hình thành như thế nào theo slide?",
+          "dap_an": [
+            "Rất sớm, gắn với chống ngoại xâm, từ khi nước Đại Việt giành độc lập",
+            "Gắn liền với sự ra đời của chủ nghĩa tư bản ở Việt Nam",
+            "Chỉ hình thành sau khi thực dân Pháp xâm lược nước ta",
+            "Chỉ hình thành sau cuộc Cách mạng tháng Tám năm 1945"
+          ],
+          "giai_thich": "Dân tộc Việt Nam hình thành rất sớm, gắn với chống ngoại xâm, cải tạo thiên nhiên.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide II.2.b"
+        },
+        {
+          "id": "c3-37",
+          "hoi": "Mối quan hệ giai cấp – dân tộc: điều nào đúng?",
+          "dap_an": [
+            "Đấu tranh giải phóng dân tộc là điều kiện, tiền đề giải phóng giai cấp",
+            "Dân tộc quyết định khuynh hướng và tính chất của giai cấp",
+            "Giải phóng giai cấp là tiền đề để giải phóng dân tộc",
+            "Giai cấp và dân tộc là hai vấn đề hoàn toàn không liên quan"
+          ],
+          "giai_thich": "Giai cấp quyết định dân tộc; vấn đề dân tộc ảnh hưởng quan trọng đến giai cấp.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide II.3"
+        },
+        {
+          "id": "c3-38",
+          "hoi": "Nguyên nhân trực tiếp dẫn tới sự xuất hiện nhà nước là gì?",
+          "dap_an": [
+            "Mâu thuẫn giai cấp gay gắt, không thể điều hòa được",
+            "Sự phát triển của lực lượng sản xuất trong xã hội",
+            "Sự xuất hiện của ý thức xã hội trong cộng đồng",
+            "Sự tồn tại của chế độ thị tộc nguyên thủy"
+          ],
+          "giai_thich": "Sâu xa: phát triển LLSX, tư hữu; trực tiếp: mâu thuẫn giai cấp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide III.1.a"
+        },
+        {
+          "id": "c3-39",
+          "hoi": "Đặc trưng của nhà nước gồm những gì?",
+          "dap_an": [
+            "Quản lý cư dân theo lãnh thổ, có quyền lực cưỡng chế, có hệ thống thuế khóa",
+            "Quản lý cư dân theo huyết thống, có tù trưởng đứng đầu cộng đồng",
+            "Công hữu toàn bộ tư liệu sản xuất của cộng đồng người trong xã hội",
+            "Không có giai cấp, không có cơ quan cưỡng chế chuyên nghiệp"
+          ],
+          "giai_thich": "Slide III.1.b nêu ba đặc trưng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide III.1.b"
+        },
+        {
+          "id": "c3-40",
+          "hoi": "Bản chất của nhà nước là gì?",
+          "dap_an": [
+            "Tổ chức chính trị của giai cấp thống trị về kinh tế, bảo vệ trật tự, đàn áp giai cấp khác",
+            "Tổ chức phi giai cấp, đại diện cho lợi ích chung của toàn thể nhân dân lao động",
+            "Tổ chức do các tù trưởng, tộc trưởng của các thị tộc cùng lập nên từ xưa",
+            "Tổ chức do thượng đế sắp đặt để cai quản và dẫn dắt toàn thể loài người"
+          ],
+          "giai_thich": "Slide III.1.c.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide III.1.c"
+        },
+        {
+          "id": "c3-41",
+          "hoi": "Nhà nước vô sản khác các kiểu nhà nước trước ở điểm nào?",
+          "dap_an": [
+            "Là nhà nước đặc biệt, của số đông thống trị số ít",
+            "Là công cụ thống trị của giai cấp bóc lột nắm quyền",
+            "Là nhà nước không có chức năng nào trong xã hội",
+            "Là nhà nước phong kiến phân quyền kiểu Trung cổ"
+          ],
+          "giai_thich": "Slide: nhà nước vô sản là kiểu nhà nước đặc biệt, của số đông thống trị số ít.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide III.1.e"
+        },
+        {
+          "id": "c3-42",
+          "hoi": "Hình thức nhà nước phong kiến thời Trung cổ gồm những loại nào?",
+          "dap_an": [
+            "Phong kiến tập quyền và phong kiến phân quyền",
+            "Quân chủ chủ nô và cộng hòa dân chủ chủ nô",
+            "Cộng hòa đại nghị và cộng hòa tổng thống",
+            "Quân chủ lập hiến và liên bang"
+          ],
+          "giai_thich": "Slide III.1.e.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide III.1.e"
+        },
+        {
+          "id": "c3-43",
+          "hoi": "Nguồn gốc sâu xa của cách mạng xã hội là gì?",
+          "dap_an": [
+            "Mâu thuẫn giữa LLSX tiến bộ và QHSX lỗi thời, lạc hậu",
+            "Cuộc đấu tranh giữa các giai cấp trong xã hội",
+            "Thời cơ cách mạng xuất hiện trong hoàn cảnh cụ thể",
+            "Mâu thuẫn giữa các dân tộc trong cộng đồng quốc tế"
+          ],
+          "giai_thich": "Sâu xa: LLSX – QHSX; trực tiếp (xã hội có giai cấp): đấu tranh giai cấp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide III.2.a"
+        },
+        {
+          "id": "c3-44",
+          "hoi": "Cách mạng xã hội khác đảo chính ở điểm nào?",
+          "dap_an": [
+            "Cách mạng thay đổi căn bản chế độ xã hội; đảo chính thì không",
+            "Đảo chính làm thay đổi căn bản về chất toàn bộ đời sống xã hội",
+            "Đảo chính luôn luôn là đỉnh cao của cuộc đấu tranh giai cấp",
+            "Cách mạng chỉ làm thay đổi một vài bộ phận của đời sống xã hội"
+          ],
+          "giai_thich": "Slide III.2.b.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide III.2.b"
+        },
+        {
+          "id": "c3-45",
+          "hoi": "Cải cách xã hội khác cách mạng xã hội ở điểm nào?",
+          "dap_an": [
+            "Cải cách chỉ tạo thay đổi bộ phận, lĩnh vực riêng lẻ",
+            "Cải cách làm thay đổi căn bản toàn bộ đời sống xã hội",
+            "Cải cách luôn thay thế hoàn toàn chính quyền cũ bằng mới",
+            "Cải cách luôn là đỉnh cao của đấu tranh giai cấp"
+          ],
+          "giai_thich": "Slide: cải cách chỉ tạo những thay đổi bộ phận, lĩnh vực riêng lẻ.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide III.2.b"
+        },
+        {
+          "id": "c3-46",
+          "hoi": "Tồn tại xã hội là gì?",
+          "dap_an": [
+            "Toàn bộ sinh hoạt vật chất và điều kiện sinh hoạt vật chất của xã hội",
+            "Toàn bộ quan điểm, tư tưởng và tình cảm của xã hội trong lịch sử",
+            "Toàn bộ thiết chế chính trị, pháp luật của nhà nước trong xã hội",
+            "Toàn bộ tâm lý xã hội và hệ tư tưởng của các giai cấp"
+          ],
+          "giai_thich": "Slide IV.1.a.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide IV.1.a"
+        },
+        {
+          "id": "c3-47",
+          "hoi": "Yếu tố cơ bản nào của tồn tại xã hội là quan trọng nhất?",
+          "dap_an": [
+            "Phương thức sản xuất vật chất",
+            "Điều kiện tự nhiên, địa lý",
+            "Dân số và mật độ dân số",
+            "Quan hệ gia đình"
+          ],
+          "giai_thich": "Ba yếu tố: phương thức sản xuất vật chất, điều kiện tự nhiên – địa lý, dân số và mật độ dân số; phương thức sản xuất là cơ bản nhất.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide IV.1.b"
+        },
+        {
+          "id": "c3-48",
+          "hoi": "Ý thức xã hội được kết cấu theo hai cách nào trong slide?",
+          "dap_an": [
+            "Tâm lý xã hội – hệ tư tưởng; ý thức thông thường – ý thức lý luận",
+            "Tri thức – niềm tin; cảm giác – tri giác của con người",
+            "Ý thức chính trị – ý thức pháp quyền trong đời sống xã hội",
+            "Ý thức cá nhân – ý thức tập thể trong đời sống cộng đồng"
+          ],
+          "giai_thich": "Slide IV.2.b nêu hai cách phân chia.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide IV.2.b"
+        },
+        {
+          "id": "c3-49",
+          "hoi": "Hình thái ý thức xã hội nào sau đây được nêu trong slide?",
+          "dap_an": [
+            "Chính trị, pháp quyền, đạo đức, khoa học, thẩm mỹ, tôn giáo, triết học",
+            "Ý thức dân tộc, ý thức giai cấp, ý thức nhân loại, ý thức cá nhân",
+            "Ý thức cảm tính, ý thức lý tính và ý thức thực tiễn của con người",
+            "Ý thức vật chất, ý thức tinh thần và ý thức xã hội của cộng đồng"
+          ],
+          "giai_thich": "Slide IV.2.d liệt kê 7 hình thái.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide IV.2.d"
+        },
+        {
+          "id": "c3-50",
+          "hoi": "Tính độc lập tương đối của ý thức xã hội biểu hiện ở điểm nào?",
+          "dap_an": [
+            "Thường lạc hậu, có thể vượt trước, kế thừa, tác động qua lại và tác động trở lại",
+            "Hoàn toàn độc lập với tồn tại xã hội, không bị tồn tại xã hội quyết định",
+            "Luôn luôn đi trước tồn tại xã hội trong mọi hoàn cảnh lịch sử cụ thể",
+            "Chỉ phụ thuộc vào tồn tại xã hội mà không có tác động trở lại gì"
+          ],
+          "giai_thich": "Slide IV.3.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide IV.3"
+        },
+        {
+          "id": "c3-51",
+          "hoi": "Tồn tại xã hội và ý thức xã hội: cái nào quyết định cái nào?",
+          "dap_an": [
+            "Tồn tại xã hội quyết định ý thức xã hội",
+            "Ý thức xã hội quyết định tồn tại xã hội",
+            "Hai cái quyết định lẫn nhau như nhau",
+            "Hai cái không liên quan"
+          ],
+          "giai_thich": "Tồn tại xã hội quyết định nội dung, tính chất, xu hướng của ý thức xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide IV.3"
+        },
+        {
+          "id": "c3-52",
+          "hoi": "Theo C.Mác, con người là gì?",
+          "dap_an": [
+            "Thực thể sinh học – xã hội",
+            "Thực thể chỉ có bản tính xã hội",
+            "Thực thể chỉ có bản tính tự nhiên",
+            "Thực thể do thượng đế sáng tạo"
+          ],
+          "giai_thich": "Slide V.1: con người là thực thể sinh vật – xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide V.1"
+        },
+        {
+          "id": "c3-53",
+          "hoi": "Theo C.Mác, bản chất con người là gì?",
+          "dap_an": [
+            "Tổng hòa các quan hệ xã hội",
+            "Bản năng sinh học",
+            "Tư duy trừu tượng",
+            "Lao động bản năng"
+          ],
+          "giai_thich": "Trong tính hiện thực của nó, bản chất con người là tổng hòa các quan hệ xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide V.1"
+        },
+        {
+          "id": "c3-54",
+          "hoi": "Bản chất con người có đặc điểm nào?",
+          "dap_an": [
+            "Không cố định, bất biến mà thay đổi cùng sự thay đổi của xã hội",
+            "Cố định, bất biến qua mọi thời đại và mọi hoàn cảnh lịch sử",
+            "Không phụ thuộc vào điều kiện lịch sử cụ thể mà con người sống",
+            "Chỉ do yếu tố bẩm sinh, di truyền của mỗi người quyết định"
+          ],
+          "giai_thich": "Slide: bản chất con người vận động, thay đổi cùng xã hội.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide V.1"
+        },
+        {
+          "id": "c3-55",
+          "hoi": "Con người vừa là sản phẩm vừa là gì của lịch sử?",
+          "dap_an": [
+            "Chủ thể của lịch sử",
+            "Nạn nhân của lịch sử",
+            "Người quan sát lịch sử",
+            "Nhân tố phụ của lịch sử"
+          ],
+          "giai_thich": "Lao động và sáng tạo là thuộc tính xã hội tối cao, nên con người là chủ thể của lịch sử.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide V.1"
+        },
+        {
+          "id": "c3-56",
+          "hoi": "Thực chất của hiện tượng tha hóa con người là gì?",
+          "dap_an": [
+            "Lao động của con người bị tha hóa",
+            "Bản năng sinh học bị mất",
+            "Con người mất ý thức",
+            "Tự nhiên bị tàn phá"
+          ],
+          "giai_thich": "Lao động và sản phẩm lao động biến thành lực lượng đối lập, nô dịch con người.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide V.2"
+        },
+        {
+          "id": "c3-57",
+          "hoi": "Nguyên nhân của hiện tượng tha hóa con người là gì?",
+          "dap_an": [
+            "Chế độ tư hữu về tư liệu sản xuất",
+            "Sự phát triển của khoa học",
+            "Sự tăng dân số",
+            "Điều kiện tự nhiên"
+          ],
+          "giai_thich": "Slide V.2: nguyên nhân là chế độ tư hữu; tha hóa chỉ có trong xã hội phân chia giai cấp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide V.2"
+        },
+        {
+          "id": "c3-58",
+          "hoi": "Tư tưởng căn bản về giải phóng con người theo slide là gì?",
+          "dap_an": [
+            "Giải phóng toàn xã hội khỏi bóc lột; tự do mỗi người là điều kiện cho mọi người",
+            "Chỉ cần giải phóng một giai cấp là đủ để giải phóng toàn thể xã hội loài người",
+            "Giải phóng cá nhân bằng cách tách khỏi mọi quan hệ xã hội mà họ đang có",
+            "Chỉ cần giải phóng con người về mặt tinh thần là đã đủ cho sự phát triển"
+          ],
+          "giai_thich": "Slide V.2.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide V.2"
+        },
+        {
+          "id": "c3-59",
+          "hoi": "Quan điểm Mác – Lênin về mối quan hệ cá nhân và xã hội là gì?",
+          "dap_an": [
+            "Thực thể xã hội mang tính cá nhân; cá nhân và xã hội không tách rời",
+            "Xã hội quan trọng hơn hết, cá nhân không có vai trò gì",
+            "Cá nhân quan trọng hơn hết, xã hội không có vai trò gì",
+            "Cá nhân và xã hội hoàn toàn đối lập nhau trong lịch sử"
+          ],
+          "giai_thich": "Slide V.3.a: tránh đề cao quá mức mặt cá nhân hoặc mặt xã hội.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide V.3"
+        },
+        {
+          "id": "c3-60",
+          "hoi": "Theo quan điểm Mác – Lênin, ai là chủ thể sáng tạo chân chính, động lực phát triển của lịch sử?",
+          "dap_an": [
+            "Quần chúng nhân dân",
+            "Lãnh tụ",
+            "Các vĩ nhân",
+            "Các vua chúa"
+          ],
+          "giai_thich": "Quần chúng nhân dân là chủ thể sáng tạo chân chính, động lực của lịch sử.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide V.3.b"
+        },
+        {
+          "id": "c3-61",
+          "hoi": "Tuyệt đối hóa vai trò của lãnh tụ dẫn đến hậu quả gì?",
+          "dap_an": [
+            "Tệ sùng bái cá nhân, coi nhẹ quần chúng nhân dân",
+            "Xem thường sáng kiến của từng cá nhân trong xã hội",
+            "Đề cao vai trò sáng tạo của đông đảo dân chúng",
+            "Làm tăng năng suất lao động của toàn xã hội"
+          ],
+          "giai_thich": "Slide: tuyệt đối hóa lãnh tụ → sùng bái cá nhân; tuyệt đối hóa quần chúng → xem thường sáng kiến cá nhân.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide V.3.b"
+        },
+        {
+          "id": "c3-62",
+          "hoi": "Theo Hồ Chí Minh, chữ “người” theo nghĩa rộng là gì?",
+          "dap_an": [
+            "Đồng bào cả nước",
+            "Gia đình, anh em, họ hàng",
+            "Cả loài người",
+            "Chỉ bạn bè"
+          ],
+          "giai_thich": "Hồ Chí Minh: nghĩa hẹp là gia đình, họ hàng; nghĩa rộng là đồng bào cả nước; rộng nữa là cả loài người.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide V.4"
+        },
+        {
+          "id": "c3-63",
+          "hoi": "Con người trong chiến lược phát triển ở Việt Nam được xác định là gì?",
+          "dap_an": [
+            "Vừa là mục tiêu vừa là động lực của sự phát triển",
+            "Chỉ là mục tiêu của sự phát triển đất nước",
+            "Chỉ là động lực của sự phát triển đất nước",
+            "Không phải là yếu tố trung tâm của chiến lược phát triển"
+          ],
+          "giai_thich": "Slide V.4.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide V.4"
+        }
+      ]
+    }
+  ]
+}

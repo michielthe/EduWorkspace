@@ -73,42 +73,15 @@
       "ma_mon": "xac-suat-thong-ke",
       "ten": "Xác suất thống kê",
       "khu": "hien-tai",
-      "file_cau_hoi": "du-lieu/xac-suat-thong-ke.json",
-      "tai_lieu": [
-        {
-          "ten": "Chương 1 - Đại cương về xác suất",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/xac-suat-thong-ke/tt-chuong-01-dai-cuong-ve-xac-suat.pdf"
-        },
-        {
-          "ten": "Chương 2 BNN - Biến ngẫu nhiên",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/xac-suat-thong-ke/tt-chuong-02-bnn-bien-ngau-nhien.pdf"
-        },
-        {
-          "ten": "Chương 2 PP - Các phân phối xác suất thường dùng",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/xac-suat-thong-ke/tt-chuong-02-pp-cac-phan-phoi-xac-suat-thuong-dung.pdf"
-        }
-      ]
+      "file_cau_hoi": null,
+      "tai_lieu": []
     },
     {
       "ma_mon": "vat-ly-dai-cuong-2",
       "ten": "Vật lý đại cương 2",
       "khu": "hien-tai",
-      "file_cau_hoi": "du-lieu/vat-ly-dai-cuong-2.json",
-      "tai_lieu": [
-        {
-          "ten": "Chương 1 - Tĩnh điện trường trong chân không",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/vat-ly-dai-cuong-2/tt-chuong-01-tinh-dien-truong-trong-chan-khong.pdf"
-        },
-        {
-          "ten": "Chương 2 - Vật dẫn trong tĩnh điện trường",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/vat-ly-dai-cuong-2/tt-chuong-02-vat-dan-trong-tinh-dien-truong.pdf"
-        }
-      ]
+      "file_cau_hoi": null,
+      "tai_lieu": []
     },
     {
       "ma_mon": "toan-hoc-to-hop",
@@ -190,6 +163,11 @@
           "ten": "Chương 4-2 - Virus",
           "loai": "Tóm tắt",
           "file": "tai-lieu/vi-sinh/tt-chuong-04-2-virus.pdf"
+        },
+        {
+          "ten": "Thực tập - Vi sinh cơ sở",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/vi-sinh/tt-thuc-tap-vi-sinh-co-so.pdf"
         }
       ]
     },
@@ -213,90 +191,6 @@
           "ten": "Chương 3 - Chủ nghĩa duy vật lịch sử",
           "loai": "Tóm tắt",
           "file": "tai-lieu/triet-hoc/tt-chuong-03-chu-nghia-duy-vat-lich-su.pdf"
-        }
-      ]
-    },
-    {
-      "ma_mon": "hoa-dai-cuong-2",
-      "ten": "Hóa đại cương 2",
-      "khu": "tong",
-      "file_cau_hoi": "du-lieu/hoa-dai-cuong-2.json",
-      "tai_lieu": [
-        {
-          "ten": "Chương 4 - Cân bằng hóa học",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-04-can-bang-hoa-hoc.pdf"
-        },
-        {
-          "ten": "Chương 5 - Cân bằng ion trong dung dịch (acid-base)",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-05-can-bang-ion-trong-dung-dich-acid-base.pdf"
-        },
-        {
-          "ten": "Chương 6 - Điện hóa học",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-06-dien-hoa-hoc.pdf"
-        }
-      ]
-    },
-    {
-      "ma_mon": "sinh-hoa-co-so",
-      "ten": "Sinh hóa cơ sở",
-      "khu": "tong",
-      "file_cau_hoi": "du-lieu/sinh-hoa-co-so.json",
-      "tai_lieu": [
-        {
-          "ten": "Chương 1 - Nước và dung dịch đệm",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-01-nuoc-va-dung-dich-dem.pdf"
-        },
-        {
-          "ten": "Chương 2 - Amino acid, protein và enzyme",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-02-amino-acid-protein-va-enzyme.pdf"
-        },
-        {
-          "ten": "Chương 3 - Carbohydrate",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-03-carbohydrate.pdf"
-        },
-        {
-          "ten": "Chương 4 - Lipid",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-04-lipid.pdf"
-        },
-        {
-          "ten": "Chương 5 - Trao đổi chất và năng lượng sinh học",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-05-trao-doi-chat-va-nang-luong-sinh-hoc.pdf"
-        },
-        {
-          "ten": "Chương 6 - Chuyển hóa carbohydrate",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-06-chuyen-hoa-carbohydrate.pdf"
-        }
-      ]
-    },
-    {
-      "ma_mon": "sinh-hoc-phan-tu",
-      "ten": "Sinh học phân tử đại cương",
-      "khu": "tong",
-      "file_cau_hoi": "du-lieu/sinh-hoc-phan-tu.json",
-      "tai_lieu": [
-        {
-          "ten": "Chương 1 - Đại phân tử sinh học và liên kết, tương tác hóa học",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-01-dai-phan-tu-sinh-hoc-va-lien-ket-tuong-tac-hoa-hoc.pdf"
-        },
-        {
-          "ten": "Chương 2 - Tính ổn định DNA - Sao chép và sửa sai",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-02-tinh-on-dinh-dna-sao-chep-va-sua-sai.pdf"
-        },
-        {
-          "ten": "Chương 3 - Tính biến động DNA - Tái tổ hợp, chuyển vị, plasmid",
-          "loai": "Tóm tắt",
-          "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-03-tinh-bien-dong-dna-tai-to-hop-chuyen-vi-plasmid.pdf"
         }
       ]
     }

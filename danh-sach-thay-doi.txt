@@ -1,20 +1,6 @@
-BIG UPDATE 2026-11-07 21:05 - gộp các bản chưa đưa lên GitHub
-
-GitHub hiện đã có đến bản 2026-11-06-1345 (môn Triết học). Thư mục này gộp 4 bản sau, mỗi file lấy phiên bản mới nhất:
-  2026-11-07-0005  Toán học tổ hợp
-  2026-11-07-0040  Hiển thị công thức bằng KaTeX
-  2026-11-07-0055  Câu hỏi Toán học tổ hợp có LaTeX
-  2026-11-07-2050  5 môn mới (Vật lý ĐC 2, Xác suất thống kê, Hóa ĐC 2, Sinh hóa cơ sở, Sinh học phân tử)
-Sau khi đưa lên, 4 thư mục trên không cần nữa (bạn tự xóa nếu muốn).
-
-CÁCH ĐƯA LÊN: kéo NỘI DUNG BÊN TRONG thư mục này (không kéo chính thư mục big-update) lên repo GitHub (Add file -> Upload files, ghi đè), đợi 1-2 phút, mở lại bằng Ctrl+F5. 56 file, khoảng 3 MB. Nếu GitHub từ chối vì quá nhiều file một lần, đưa lên theo từng thư mục con: giao-dien, du-lieu, thu-vien, tai-lieu, rồi index.html và README.md.
-
-NỘI DUNG:
-- index.html: nạp KaTeX.
-- giao-dien/app.js: hiển thị công thức LaTeX ($...$, $$...$$), nhãn chương "4-1", "2-BNN", "Bài N", "Tuần N", trang Trắc nghiệm Tổng đã có từ bản trước.
-- giao-dien/style.css: kiểu công thức, thanh điều hướng điện thoại.
-- thu-vien/katex/: KaTeX 0.16.11 (22 file, gồm font).
-- du-lieu/danh-sach-mon.json: thêm Hóa ĐC 2, Sinh hóa cơ sở, Sinh học phân tử (khu tong); khai báo câu hỏi và tài liệu cho Toán tổ hợp, Vật lý ĐC 2, Xác suất thống kê.
-- du-lieu/: toan-hoc-to-hop.json (bản 2, có LaTeX), vat-ly-dai-cuong-2.json, xac-suat-thong-ke.json, hoa-dai-cuong-2.json, sinh-hoa-co-so.json, sinh-hoc-phan-tu.json.
-- tai-lieu/: 23 PDF tóm tắt (toan-hoc-to-hop 6, sinh-hoa-co-so 6, hoa-dai-cuong-2 3, sinh-hoc-phan-tu 3, xac-suat-thong-ke 3, vat-ly-dai-cuong-2 2).
-- README.md: quy ước công thức và 4 mục.
+Cập nhật 2026-11-07 21:50 - Vi sinh: thêm chương Thực tập
+- du-lieu/vi-sinh.json: thêm "Chương Thực tập - Vi sinh cơ sở" (56 câu, 16 câu khó); tổng 337 câu. Các câu cũ không đổi.
+- du-lieu/danh-sach-mon.json: thêm tài liệu "Thực tập - Vi sinh cơ sở" vào môn Vi sinh.
+- tai-lieu/vi-sinh/tt-thuc-tap-vi-sinh-co-so.pdf: file tóm tắt mới.
+- giao-dien/app.js: chương Thực tập hiện nhãn "TT" và tên gọn đúng.
+Đưa nội dung thư mục này lên GitHub (giữ nguyên cấu trúc), đợi 1-2 phút rồi Ctrl+F5.

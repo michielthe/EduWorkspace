@@ -76,10 +76,11 @@
   }
   function findSubject(ma) { return (registry.mon || []).filter(function (m) { return m.ma_mon === ma; })[0]; }
   function chapLabel(ch, pos) {
+    if (/^Chương\s+Thực tập/i.test(ch.ten)) return "TT";
     var m = ch.ten.match(/(\d+(?:-\d+)?)(?:\s+([A-ZĐ]{2,4})\b)?/), n = m ? m[1] + (m[2] ? "-" + m[2] : "") : String(pos);
     return (ch.nhom === "PerfectEN" ? "E" : "") + n;
   }
-  function chapShort(ch) { return ch.ten.replace(/^(Chương|Bài|Tuần|PerfectEN)\s*\d+(?:-\d+)?(?:\s+[A-ZĐ]{2,4})?\s*-\s*/, ""); }
+  function chapShort(ch) { return ch.ten.replace(/^Chương\s+(?=Thực tập)/, "").replace(/^(Chương|Bài|Tuần|PerfectEN)\s*\d+(?:-\d+)?(?:\s+[A-ZĐ]{2,4})?\s*-\s*/, ""); }
   /* khu: "hien-tai" = môn của người dùng, "tong" = môn của người khác. Thiếu thì là "hien-tai". */
   function khuOf(m) { return m && m.khu === "tong" ? "tong" : "hien-tai"; }
   function khuOfCode(ma) { return khuOf(findSubject(ma)); }

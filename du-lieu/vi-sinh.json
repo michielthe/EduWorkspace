@@ -1,7 +1,7 @@
 {
   "mon": "Vi sinh vật học",
   "ma_mon": "vi-sinh",
-  "phien_ban": 1,
+  "phien_ban": 2,
   "chuong": [
     {
       "id": "c1",
@@ -3695,6 +3695,741 @@
           "giai_thich": "Hepadnavirus có DNA mạch kép không hoàn toàn; sau khi vào chủ một protein của virion giúp hoàn tất.",
           "kho": false,
           "nguon": "TT Chương 4-2 Virus, mục 6; slide Ch 4-2-VIRUS"
+        }
+      ]
+    },
+    {
+      "id": "ctt",
+      "nhom": "Bài giảng",
+      "ten": "Chương Thực tập - Vi sinh cơ sở",
+      "cau": [
+        {
+          "id": "ctt-01",
+          "hoi": "Khi dùng nồi hấp (autoclave), thao tác nào sau đây là đúng?",
+          "dap_an": [
+            "Đủ thời gian khử trùng thì tắt điện và chờ áp suất về 0 mới mở nồi",
+            "Đủ thời gian khử trùng thì xả nhanh hơi để mở nồi ngay cho kịp",
+            "Đủ thời gian khử trùng thì mở nắp ngay khi nhiệt độ còn 100 độ C",
+            "Đủ thời gian khử trùng thì để nguyên điện và mở van xả từ từ"
+          ],
+          "giai_thich": "Đổi áp suất đột ngột làm hỏng môi trường hoặc gây tai nạn, nên phải chờ nhiệt độ hoặc áp suất hạ về 0. Cũng cần kiểm tra đủ nước trước khi hấp vì thiếu nước làm cháy điện trở.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 2; tài liệu thực tập trang 4"
+        },
+        {
+          "id": "ctt-02",
+          "hoi": "Chế độ khử trùng chuẩn của nồi hấp trong tài liệu là",
+          "dap_an": [
+            "121 độ C, 1 atm",
+            "100 độ C, 0 atm",
+            "112 độ C, 0,5 atm",
+            "134 độ C, 1 atm"
+          ],
+          "giai_thich": "Ở hơi nước bão hòa, 1 atm (10 pound) tương ứng 121 độ C; 0,5 atm là 112, 1,5 atm là 128, 2 atm là 134 độ C. Thời gian chỉ bắt đầu tính khi đạt 121 độ C hoặc 1 atm.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 2; tài liệu thực tập trang 7"
+        },
+        {
+          "id": "ctt-03",
+          "hoi": "Vì sao phải xả hơi trong khi nâng nhiệt của nồi hấp?",
+          "dap_an": [
+            "Để đuổi không khí, vì không khí còn lại làm nhiệt độ thấp hơn mức ứng với áp suất",
+            "Để giảm áp suất trong nồi xuống dưới mức an toàn trước khi bắt đầu hấp",
+            "Để làm nguội bớt môi trường nuôi cấy trước khi bắt đầu tính thời gian",
+            "Để hơi nước ngưng tụ nhiều hơn trên nút bông và gói giấy của các ống"
+          ],
+          "giai_thich": "Không khí còn lại làm hơi nước không bão hòa nên nhiệt độ thực tế thấp hơn so với áp suất hiển thị, khử trùng kém. Vì vậy mở van xả khoảng 5 phút khi áp suất đạt 0,5 atm.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 2; tài liệu thực tập trang 7-8"
+        },
+        {
+          "id": "ctt-04",
+          "hoi": "Tủ sấy trong phòng thí nghiệm vi sinh được dùng để khử trùng",
+          "dap_an": [
+            "Dụng cụ (không chứa môi trường) ở 160 độ C trong 1 giờ",
+            "Môi trường lỏng đã pha ở 121 độ C trong 15 phút",
+            "Dụng cụ có buộc thun ở 100 độ C trong 30 phút",
+            "Môi trường đặc đã pha ở 160 độ C trong 1 giờ"
+          ],
+          "giai_thich": "Tủ sấy dùng nhiệt khô, chỉ cho dụng cụ ráo nước, không buộc thun hoặc dây nhựa, không chứa môi trường. 121 độ C là nhiệt ẩm của nồi hấp.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 1; tài liệu thực tập trang 4"
+        },
+        {
+          "id": "ctt-05",
+          "hoi": "Điều nào sau đây đúng với tủ ấm (incubator)?",
+          "dap_an": [
+            "Chỉ nuôi cấy vi sinh vật ở nhiệt độ mong muốn, không dùng sấy dụng cụ",
+            "Dùng sấy khô dụng cụ thủy tinh vừa mới rửa ướt xong để dùng ngay",
+            "Dùng khử trùng bằng nhiệt khô các dụng cụ ở 160 độ C trong 1 giờ",
+            "Dùng sấy các mẫu vật cần bảo quản lâu dài ở nhiệt độ cao liên tục"
+          ],
+          "giai_thich": "Tủ ấm duy trì nhiệt độ nuôi cấy; sấy dụng cụ hay mẫu vật làm bằng tủ sấy.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 1; tài liệu thực tập trang 5"
+        },
+        {
+          "id": "ctt-06",
+          "hoi": "Cách bảo quản vật kính x100 sau khi dùng dầu cèdre là",
+          "dap_an": [
+            "Chùi ngay bằng xylol (xylene), dùng giấy chuyên dụng của kính hiển vi",
+            "Chùi bằng cồn 70 độ rồi để khô tự nhiên suốt qua đêm cho sạch hẳn",
+            "Chùi bằng giấy thấm rồi che kính cẩn thận bằng nắp chụp bụi",
+            "Rửa bằng nước cất rồi lau thật kỹ bằng giấy vệ sinh mềm"
+          ],
+          "giai_thich": "Tuyệt đối không dùng cồn hoặc giấy vệ sinh, giấy thấm vì làm trầy kính; dầu cèdre chỉ dùng với vật kính x100 và phải chùi ngay, không để qua ngày.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 1 và 5; tài liệu thực tập trang 4-5, 17"
+        },
+        {
+          "id": "ctt-07",
+          "hoi": "Que gạt thủy tinh (etaloir) được xử lý vô trùng tại chỗ bằng cách",
+          "dap_an": [
+            "Nhúng cồn đốt một lần, không nhúng lại sau khi đốt",
+            "Đốt đỏ trực tiếp trên ngọn đèn cồn như que cấy",
+            "Nhúng cồn rồi đốt hai ba lần liên tiếp cho kỹ",
+            "Ngâm trong cồn 96 độ suốt buổi thực hành"
+          ],
+          "giai_thich": "Que gạt làm bằng thủy tinh nên không đốt trực tiếp trên lửa. Khi cần vô trùng tuyệt đối thì gói giấy và khử trùng 121 độ C/1 atm/15 phút hoặc 160 độ C/1 giờ.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 2; tài liệu thực tập trang 6, 10"
+        },
+        {
+          "id": "ctt-08",
+          "hoi": "Que cấy vòng bằng kim loại được khử trùng như thế nào?",
+          "dap_an": [
+            "Đốt đỏ trực tiếp, đặt giữa lửa xanh và lửa đỏ, nghiêng 45 độ",
+            "Nhúng cồn đốt một lần, để nguội, rồi mới dùng cấy giống vi sinh vật",
+            "Hơ nhẹ qua ngọn lửa đèn cồn cho đến khi que đã ấm lên một chút",
+            "Ngâm trong cồn 70 độ vài phút rồi lau khô nhẹ bằng bông gòn"
+          ],
+          "giai_thich": "Que cấy làm bằng kim loại không oxid hóa nên đốt trực tiếp trên lửa đèn cồn cao 8-10 cm, lướt từ đầu que lên thân cho nóng đỏ.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 2; tài liệu thực tập trang 6"
+        },
+        {
+          "id": "ctt-09",
+          "hoi": "Khử trùng đầu típ và pipetman được thực hiện như thế nào?",
+          "dap_an": [
+            "Đầu típ hấp 121 độ C trong 15 phút; pipetman không khử trùng bằng nhiệt",
+            "Đầu típ đốt qua lửa đèn cồn; pipetman hấp 121 độ C trong 15 phút",
+            "Cả hai đều hấp 121 độ C/1 atm trong 15 phút trong nồi hấp",
+            "Cả hai đều sấy khô ở 160 độ C trong 1 giờ bằng tủ sấy"
+          ],
+          "giai_thich": "Đầu típ xếp hộp rồi khử trùng 121 độ C/1 atm/15 phút, không đốt trực tiếp. Pipetman (pipettor) không được khử trùng bằng nhiệt hoặc đốt vì làm hư dụng cụ.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 2; tài liệu thực tập trang 6"
+        },
+        {
+          "id": "ctt-10",
+          "hoi": "Khi làm môi trường đặc, thứ tự đúng khi pha chế là",
+          "dap_an": [
+            "Đun agar tan trong nước trước rồi mới cho hóa chất hay đường vào",
+            "Cho hóa chất vào nước trước rồi mới thêm agar vào sau khi đun sôi",
+            "Trộn agar và hóa chất cùng lúc rồi đun sôi trực tiếp cho tan",
+            "Cho agar vào môi trường sau khi môi trường đã khử trùng xong"
+          ],
+          "giai_thich": "Môi trường lỏng chỉ cần hòa các chất trong nước ấm; riêng môi trường đặc phải đun agar tan trước. Sau đó chỉnh pH, phân phối rồi khử trùng.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 3; tài liệu thực tập trang 9"
+        },
+        {
+          "id": "ctt-11",
+          "hoi": "Lượng môi trường cho vào ống nghiệm để làm thạch nghiêng là khoảng",
+          "dap_an": [
+            "1/4 ống nghiệm",
+            "1/2 ống nghiệm",
+            "2/3 ống nghiệm",
+            "3/4 ống nghiệm"
+          ],
+          "giai_thich": "Thạch nghiêng cần khoảng 1/4 ống; thạch sâu cần 1/2 hoặc 2/3 ống. Với bình nuôi thì cho khoảng 1/2 đến 2/3 bình.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 3; tài liệu thực tập trang 9"
+        },
+        {
+          "id": "ctt-12",
+          "hoi": "Sau khi khử trùng ống thạch nghiêng, thao tác đúng là",
+          "dap_an": [
+            "Để yên 5 phút rồi mới đặt nghiêng, mép thạch ở khoảng 1/2 đến 2/3 ống",
+            "Đặt nghiêng ngay khi còn nóng để thạch đông lại nhanh hơn trong ống",
+            "Để lạnh 24 giờ trong tủ mát rồi mới đặt nghiêng cho thạch không đọng nước",
+            "Lắc ngang nhè nhẹ cho thạch dàn đều khắp ống rồi mới đặt nghiêng"
+          ],
+          "giai_thich": "Chờ 5 phút để tránh đọng nước do hơi nước. Lắc ngang nhẹ là thao tác của đổ môi trường vào hộp lồng, không phải của thạch nghiêng.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 3; tài liệu thực tập trang 9"
+        },
+        {
+          "id": "ctt-13",
+          "hoi": "Môi trường đặc có hàm lượng agar khoảng",
+          "dap_an": [
+            "1,5-2%",
+            "0,35-0,7%",
+            "5-10%",
+            "10-20%"
+          ],
+          "giai_thich": "Môi trường đặc có agar 1,5-2% (hoặc gelatin 10-20%); môi trường bán lỏng có agar 0,35-0,7%.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 3; tài liệu thực tập trang 9"
+        },
+        {
+          "id": "ctt-14",
+          "hoi": "Môi trường Czapek-Dox dùng để nuôi cấy nhóm vi sinh vật nào?",
+          "dap_an": [
+            "Nấm mốc",
+            "Vi khuẩn",
+            "Nấm men",
+            "Xạ khuẩn"
+          ],
+          "giai_thich": "Cao thịt-pepton cho vi khuẩn; Hansen cho nấm men; Gause cho xạ khuẩn; Czapek-Dox (NaNO3, K2HPO4, saccharose...) cho nấm mốc.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 3; tài liệu thực tập trang 10"
+        },
+        {
+          "id": "ctt-15",
+          "hoi": "Môi trường Gause dùng nuôi xạ khuẩn có nguồn carbon chính là",
+          "dap_an": [
+            "Tinh bột tan 20 g/L",
+            "Glucose 50 g/L",
+            "Saccharose 30 g/L",
+            "Pepton 10 g/L"
+          ],
+          "giai_thich": "Gause (pH 7,2) chứa tinh bột tan 20 g/L; Hansen chứa glucose 50 g/L; Czapek-Dox chứa saccharose 30 g/L.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 3; tài liệu thực tập trang 10"
+        },
+        {
+          "id": "ctt-16",
+          "hoi": "Môi trường cao thịt-pepton (1 lít) gồm các thành phần với khối lượng",
+          "dap_an": [
+            "Cao thịt 3 g, pepton 10 g, NaCl 5 g, agar 20 g",
+            "Cao thịt 10 g, pepton 3 g, NaCl 5 g, agar 20 g",
+            "Cao thịt 3 g, pepton 10 g, NaCl 20 g, agar 5 g",
+            "Cao thịt 5 g, pepton 10 g, NaCl 3 g, agar 15 g"
+          ],
+          "giai_thich": "Công thức của tài liệu: cao thịt 3 g, pepton 10 g, NaCl 5 g, agar 20 g trong 1000 mL nước, dùng nuôi cấy vi khuẩn.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 3; tài liệu thực tập trang 10; bộ đề câu 15"
+        },
+        {
+          "id": "ctt-17",
+          "hoi": "Phân loại môi trường theo công dụng gồm",
+          "dap_an": [
+            "Môi trường chọn lọc và môi trường kiểm định",
+            "Môi trường tự nhiên và môi trường tổng hợp",
+            "Môi trường lỏng và môi trường đặc",
+            "Môi trường tổng hợp và môi trường bán lỏng"
+          ],
+          "giai_thich": "Chọn lọc ưu tiên sự phát triển của một loài; kiểm định phân biệt đặc điểm như khả năng lên men hay sinh indol. Các cách phân loại còn lại theo thành phần hoặc tính chất lý học.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 3; tài liệu thực tập trang 9"
+        },
+        {
+          "id": "ctt-18",
+          "hoi": "Giống thuần khiết được phân lập từ",
+          "dap_an": [
+            "Khuẩn lạc tạo nên từ một tế bào riêng rẽ (CFU)",
+            "Mọi khuẩn lạc mọc trên cùng một đĩa petri",
+            "Dịch nuôi cấy đã pha loãng mà chưa trải đĩa",
+            "Một nhóm khuẩn lạc cùng màu và cùng kích thước"
+          ],
+          "giai_thich": "CFU (Colony-Forming Unit) là khuẩn lạc từ một tế bào. Ba bước phân lập: tạo khuẩn lạc riêng rẽ, tách riêng giống cần lấy, rồi thuần khiết giống đã phân lập.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 5; tài liệu thực tập trang 12; bộ đề câu 11"
+        },
+        {
+          "id": "ctt-19",
+          "hoi": "Phương pháp phân lập phù hợp nhất cho nấm mốc và xạ khuẩn dạng sợi là",
+          "dap_an": [
+            "Cắt ngọn hoặc cấy điểm",
+            "Pha loãng rồi trải đĩa bằng que gạt",
+            "Ria bốn vùng bằng que cấy vòng",
+            "Đếm khuẩn lạc trên phòng đếm hồng cầu"
+          ],
+          "giai_thich": "Trải và ria dùng cho vi sinh vật đơn bào (vi khuẩn, nấm men). Nấm mốc, xạ khuẩn dùng cắt ngọn (gõ ngược lên nóc ống cho bào tử rơi) hoặc cấy điểm ba điểm.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 5; tài liệu thực tập trang 12-13; bộ đề câu 10"
+        },
+        {
+          "id": "ctt-20",
+          "hoi": "Khi ria phân lập vi khuẩn, thao tác đúng là",
+          "dap_an": [
+            "Cà dịch ở một góc hộp, đốt que rồi ria lần lượt qua các vùng I, II, III, IV",
+            "Hút 0,1 mL dịch vào giữa hộp rồi dàn đều từ tâm ra bìa bằng que gạt",
+            "Cấy bào tử vào ba điểm trên mặt thạch rồi gõ ngược ống lên nóc",
+            "Chấm que móc vào vết mốc rồi chuyển sang ống thạch nghiêng và gõ nhẹ"
+          ],
+          "giai_thich": "Ria dùng que cấy vòng đã đốt đỏ và để nguội. Cách dàn đều bằng que gạt là phương pháp trải, còn gõ ngược lên nóc ống thuộc cắt ngọn và cấy điểm.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 5; tài liệu thực tập trang 12; bộ đề câu 11"
+        },
+        {
+          "id": "ctt-21",
+          "hoi": "Trong phương pháp cắt ngọn khi phân lập nấm mốc, thao tác \"đánh ngược lưng móc lên nóc trong ống nghiệm\" nhằm",
+          "dap_an": [
+            "Cho bào tử rơi xuống mặt thạch nghiêng",
+            "Làm que cấy nguội nhanh hơn trước khi cấy",
+            "Loại bỏ bọt khí khỏi môi trường thạch",
+            "Khử trùng que cấy bằng cách chạm vào thành ống"
+          ],
+          "giai_thich": "Que cấy móc gạt nhẹ lên hệ sợi hoặc bào tử; gõ ngược lên nóc ống để bào tử rơi xuống thạch. Sau 2-3 (5) ngày ủ, nếu còn lẫn thì cấy chuyền đến khi thuần khiết.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 5; tài liệu thực tập trang 12"
+        },
+        {
+          "id": "ctt-22",
+          "hoi": "Trên đĩa phân lập nấm mốc, kết quả được xem là đạt khi",
+          "dap_an": [
+            "Chỉ còn một loại tơ hoặc bào tử nấm mốc cần phân lập",
+            "Có nhiều loại tơ khác nhau nhưng chúng cùng một màu sắc",
+            "Khuẩn lạc đã mọc lan đến đường kính 3 cm sau 2-3 ngày",
+            "Có lẫn vi khuẩn nhưng mật độ vi khuẩn ở mức thấp"
+          ],
+          "giai_thich": "Nếu còn lẫn nấm khác hoặc vi khuẩn thì phải cấy chuyền tiếp cho đến khi chỉ còn loại mong muốn.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 5; tài liệu thực tập trang 13"
+        },
+        {
+          "id": "ctt-23",
+          "hoi": "Ở khuẩn lạc xạ khuẩn, khuẩn ty cơ chất có chức năng",
+          "dap_an": [
+            "Cắm sâu vào môi trường để hấp thu dinh dưỡng",
+            "Mọc trên bề mặt tạo lớp phấn của khuẩn lạc",
+            "Tạo bào tử vô tính để phát tán trong không khí",
+            "Hình thành thể bình và đính bào tử"
+          ],
+          "giai_thich": "Khuẩn ty khí sinh mọc trên bề mặt tạo mặt khuẩn lạc; khuẩn ty cơ chất cắm vào môi trường hấp thu dinh dưỡng và có thể tiết sắc tố khác màu với khuẩn ty khí sinh.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 5; tài liệu thực tập trang 14"
+        },
+        {
+          "id": "ctt-24",
+          "hoi": "Khi quan sát hiển vi vi khuẩn ở trạng thái sống, điều chỉnh kính đúng là",
+          "dap_an": [
+            "Hạ tụ quang và đóng bớt chắn sáng, dùng vật kính x10 rồi x40",
+            "Nâng tụ quang tối đa, mở chắn sáng, dùng vật kính x100 nhúng dầu",
+            "Nâng tụ quang tối đa và nhỏ dầu cèdre lên lamelle",
+            "Hạ tụ quang tối đa và dùng vật kính x100 không dầu"
+          ],
+          "giai_thich": "Mẫu sống quan sát với x10 để tìm rồi x40; dùng x100 nhúng dầu cèdre cho mẫu đã nhuộm với tụ quang nâng sát mẫu và mở chắn sáng.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 6; tài liệu thực tập trang 16-17"
+        },
+        {
+          "id": "ctt-25",
+          "hoi": "Khi đậy lamelle lên giọt nước để tránh bọt khí, thao tác đúng là",
+          "dap_an": [
+            "Nghiêng lamelle khoảng 45 độ rồi hạ từ từ xuống",
+            "Đặt thẳng lamelle xuống và ấn mạnh cho phẳng",
+            "Nhỏ thêm nước lên trên lamelle sau khi đậy",
+            "Kẹp lamelle bằng kẹp rồi hơ qua lửa"
+          ],
+          "giai_thich": "Hạ lamelle nghiêng 45 độ giúp đuổi không khí ra ngoài. Sau khi quan sát mẫu sống phải ngâm tiêu bản vào dung dịch khử trùng như Javel hay cồn 70 độ.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 6; tài liệu thực tập trang 17"
+        },
+        {
+          "id": "ctt-26",
+          "hoi": "Để quan sát tơ nấm mốc và xạ khuẩn dưới kính hiển vi, tài liệu dùng thuốc nhuộm",
+          "dap_an": [
+            "Xanh cotton lactophenol",
+            "Tím kết tinh và lugol",
+            "Xanh methylen 0,001%",
+            "Safranin kết hợp cồn tẩy"
+          ],
+          "giai_thich": "Tơ nấm được rửa nhẹ trong nước xà phòng loãng rồi đặt vào giọt xanh cotton lactophenol, khều cho sợi tách rời và quan sát ở x10, x40.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 6; tài liệu thực tập trang 18"
+        },
+        {
+          "id": "ctt-27",
+          "hoi": "Trong nhuộm Gram, vi khuẩn Gram dương sau khi tẩy cồn",
+          "dap_an": [
+            "Vẫn giữ màu tím kết tinh",
+            "Mất màu tím và bắt màu hồng của safranin",
+            "Mất màu tím và không bắt màu nào",
+            "Chuyển sang màu nâu của lugol"
+          ],
+          "giai_thich": "Gram dương giữ màu tím, Gram âm mất màu tím rồi bắt màu hồng của safranin nhuộm bổ sung. Chủng mẫu: Bacillus sp. (Gram dương) và E. coli (Gram âm).",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 7; tài liệu thực tập trang 21; bộ đề câu 3"
+        },
+        {
+          "id": "ctt-28",
+          "hoi": "Thứ tự đúng các bước trong nhuộm Gram là",
+          "dap_an": [
+            "Tím kết tinh, lugol, rửa nước, tẩy cồn, safranin",
+            "Safranin, lugol, rửa nước, tẩy cồn, tím kết tinh",
+            "Tím kết tinh, tẩy cồn, lugol, safranin, rửa nước",
+            "Lugol, tím kết tinh, rửa nước, safranin, tẩy cồn"
+          ],
+          "giai_thich": "Cố định vết bôi bằng cách hơ nhẹ qua lửa, nhuộm tím kết tinh 1 phút, lugol 1 phút 30 giây, rửa nước, tẩy cồn, rửa nước, nhuộm safranin 1 phút, rửa nước rồi xem x100 nhúng dầu.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 7; tài liệu thực tập trang 21; bộ đề câu 3"
+        },
+        {
+          "id": "ctt-29",
+          "hoi": "Khi tẩy cồn trong nhuộm Gram, thời điểm dừng đúng là",
+          "dap_an": [
+            "Khi giọt cồn chảy ở mép dưới vừa mất màu tím",
+            "Sau đúng 1 phút bất kể giọt cồn còn màu hay không",
+            "Khi toàn bộ vết bôi đã khô hoàn toàn",
+            "Khi giọt cồn ở mép dưới chuyển sang màu hồng"
+          ],
+          "giai_thich": "Để nghiêng tiêu bản, cho cồn chảy từ mép trên và quan sát mép dưới cho đến khi giọt cồn vừa mất màu tím; tẩy quá lâu làm cả Gram dương bị mất màu.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 7; tài liệu thực tập trang 21; bộ đề câu 3"
+        },
+        {
+          "id": "ctt-30",
+          "hoi": "Trắc vi vật kính (TVVK) có đặc điểm",
+          "dap_an": [
+            "Thước dài 1 mm chia 100 vạch, mỗi vạch 10 micromet",
+            "Thước dài 1 cm chia 100 vạch, mỗi vạch 100 micromet",
+            "Thước 100 vạch nhưng chiều dài mỗi vạch không xác định",
+            "Thước dài 1 mm chia 10 vạch, mỗi vạch 100 micromet"
+          ],
+          "giai_thich": "Thước 100 vạch với chiều dài vạch không xác định là trắc vi thị kính (TVTK), cần hiệu chỉnh bằng TVVK cho từng vật kính x4, x10, x40, x100.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 8; tài liệu thực tập trang 23; bộ đề câu 4"
+        },
+        {
+          "id": "ctt-31",
+          "hoi": "Với vật kính x40, 12 vạch của trắc vi thị kính trùng khít 8 vạch của trắc vi vật kính (1 vạch TVVK = 10 micromet). Độ dài một vạch TVTK là",
+          "dap_an": [
+            "6,67 micromet",
+            "15 micromet",
+            "80 micromet",
+            "0,667 micromet"
+          ],
+          "giai_thich": "Độ dài 1 vạch TVTK = (số vạch TVVK x 10 micromet)/số vạch TVTK = 8 x 10/12 = 6,67 micromet. Đảo tỉ số cho kết quả 15.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 8; tài liệu thực tập trang 23"
+        },
+        {
+          "id": "ctt-32",
+          "hoi": "Theo ví dụ của tài liệu (vật kính x40, 15 vạch TVTK = 10 vạch TVVK), tế bào dài 3 vạch TVTK có kích thước gần nhất là",
+          "dap_an": [
+            "20 micromet",
+            "30 micromet",
+            "4,5 micromet",
+            "2 micromet"
+          ],
+          "giai_thich": "Một vạch TVTK = 10 x 10/15 = 6,67 micromet nên 3 vạch dài 20 micromet.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 8; tài liệu thực tập trang 23-24"
+        },
+        {
+          "id": "ctt-33",
+          "hoi": "Thể tích của một ô nhỏ trong phòng đếm hồng cầu (diện tích 1/400 mm2, độ sâu 1/10 mm) là",
+          "dap_an": [
+            "1/4000 mm3",
+            "1/400 mm3",
+            "1/40 mm3",
+            "1/16000 mm3"
+          ],
+          "giai_thich": "Thể tích = diện tích x độ sâu = 1/400 x 1/10 = 1/4000 mm3, nên nhân 4000 và 10^3 để quy đổi ra tế bào/mL.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 9; tài liệu thực tập trang 25"
+        },
+        {
+          "id": "ctt-34",
+          "hoi": "Đếm nấm men trên phòng đếm được 250 tế bào trong 5 ô lớn (80 ô nhỏ), mẫu pha loãng 10^2 lần. Mật độ tế bào (tế bào/mL) gần nhất là",
+          "dap_an": [
+            "1,25 x 10^9",
+            "1,25 x 10^6",
+            "1,25 x 10^7",
+            "2 x 10^10"
+          ],
+          "giai_thich": "N = a/b x 4000 x 10^3 x 10^n = 250/80 x 4000 x 1000 x 100 = 1,25 x 10^9 tế bào/mL. Bỏ hệ số 10^3 (đổi mm3 sang mL), bỏ độ pha loãng hoặc dùng b = 5 đều cho kết quả sai.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 9; tài liệu thực tập trang 25-26; bộ đề câu 9"
+        },
+        {
+          "id": "ctt-35",
+          "hoi": "Khi đếm bằng phòng đếm hồng cầu, số tế bào mỗi ô lớn nên nằm trong khoảng",
+          "dap_an": [
+            "10-100",
+            "1-10",
+            "100-300",
+            "30-300"
+          ],
+          "giai_thich": "Khoảng 10-100 tế bào mỗi ô lớn đảm bảo độ chính xác; 30-300 là khoảng khuẩn lạc phù hợp trên đĩa petri của vi khuẩn và nấm men.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 9; tài liệu thực tập trang 26"
+        },
+        {
+          "id": "ctt-36",
+          "hoi": "Khoảng số khuẩn lạc phù hợp để tính kết quả trên một đĩa petri của vi khuẩn và nấm men, nấm mốc lần lượt là",
+          "dap_an": [
+            "30-300 và 15-150",
+            "15-150 và 30-300",
+            "10-100 và 10-100",
+            "300-3000 và 150-1500"
+          ],
+          "giai_thich": "Vi khuẩn và nấm men chọn đĩa có 30-300 khuẩn lạc; nấm mốc 15-150. Chọn độ pha loãng có số khuẩn lạc nằm trong khoảng này để tính.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 9; tài liệu thực tập trang 26; bộ đề câu 12"
+        },
+        {
+          "id": "ctt-37",
+          "hoi": "Theo ví dụ của tài liệu, độ pha loãng 10^-2 cho hai đĩa có 168 và 215 khuẩn lạc, độ pha loãng kế tiếp cho 35 và 52 khuẩn lạc (cấy 0,1 mL). Kết quả báo cáo là",
+          "dap_an": [
+            "2,1 x 10^5 CFU/mL",
+            "1,2 x 10^5 CFU/mL",
+            "2,1 x 10^4 CFU/mL",
+            "1,9 x 10^5 CFU/mL"
+          ],
+          "giai_thich": "N = 470/[(2 + 0,1 x 2) x 10^-2 x 0,1] = 213636 nên báo cáo 2,1 x 10^5 CFU/mL. Dùng n1 + n2 = 4 là sai vì n2 được nhân 0,1; quên thể tích cấy cho kết quả nhỏ hơn 10 lần.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 9; tài liệu thực tập trang 26; bộ đề câu 12"
+        },
+        {
+          "id": "ctt-38",
+          "hoi": "Trong công thức tính CFU/mL theo TCVN và ISO, đại lượng d là",
+          "dap_an": [
+            "Độ pha loãng đầu tiên được chọn để tính",
+            "Độ pha loãng cuối cùng được chọn để tính",
+            "Tổng số đĩa được chọn để tính",
+            "Số khuẩn lạc trung bình của mỗi đĩa"
+          ],
+          "giai_thich": "N = tổng C/[(n1 + 0,1 n2) x d x v] với n1, n2 là số đĩa ở độ pha loãng đầu tiên và kế tiếp, d là độ pha loãng đầu tiên chọn, v là thể tích cấy (mL).",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 9; tài liệu thực tập trang 26"
+        },
+        {
+          "id": "ctt-39",
+          "hoi": "Ống Durham trong phương pháp MPN có tác dụng",
+          "dap_an": [
+            "Bẫy khí sinh ra từ sự lên men của vi khuẩn",
+            "Giữ môi trường không bị bay hơi trong lúc ủ",
+            "Cung cấp oxy cho vi khuẩn hiếu khí trong ống",
+            "Ngăn vi khuẩn lạ xâm nhập vào ống nghiệm"
+          ],
+          "giai_thich": "Khí (CO2) tạo thành được bẫy thành bọt ở đáy ống Durham úp ngược trong ống nghiệm lớn. Ống vô trùng chưa cấy không có vi sinh vật nên không sinh khí và không có không khí bên trong.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 10; tài liệu thực tập trang 27; bộ đề câu 6"
+        },
+        {
+          "id": "ctt-40",
+          "hoi": "Với phương pháp MPN ba độ pha loãng, mỗi độ pha loãng dùng 3 ống thì tổng số ống nghiệm và thể tích mẫu cấy vào mỗi ống là",
+          "dap_an": [
+            "9 ống và 1 mL mẫu cho mỗi ống",
+            "3 ống và 9 mL mẫu cho mỗi ống",
+            "9 ống và 9 mL mẫu cho mỗi ống",
+            "27 ống và 1 mL mẫu cho mỗi ống"
+          ],
+          "giai_thich": "Mỗi ống chứa ống Durham và 9 mL môi trường đã khử trùng, thêm chính xác 1 mL mẫu (pha loãng bậc 10); 3 độ pha loãng x 3 ống = 9 ống.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 10; tài liệu thực tập trang 27; bộ đề câu 2"
+        },
+        {
+          "id": "ctt-41",
+          "hoi": "Trong thí nghiệm MPN, số ống dương tính ở các độ pha loãng 10^0, 10^-1, 10^-2, 10^-3, 10^-4 lần lượt là 3, 3, 2, 1, 0. Chỉ số MPN/mL (tra bảng Mac Crady) là",
+          "dap_an": [
+            "110",
+            "15",
+            "150",
+            "1,1 x 10^3"
+          ],
+          "giai_thich": "Chọn tổ hợp 3-3-2 (cấp 1, có nhiều ống dương nhất) ở đầu dãy, tra được 110 và nhân với độ pha loãng của dãy đầu (10^0) cho 110 MPN/mL. Chọn nhầm tổ hợp thấp hơn hoặc nhân sai hệ số pha loãng làm kết quả lệch hàng chục lần.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 10; tài liệu thực tập trang 28, 33; bộ đề câu 2"
+        },
+        {
+          "id": "ctt-42",
+          "hoi": "Số ống dương tính ở các độ pha loãng 10^0 đến 10^-4 là 2, 2, 1, 1, 0 (mỗi độ 3 ống). Chỉ số MPN/mL theo quy tắc chọn tổ hợp cấp 1 là",
+          "dap_an": [
+            "74",
+            "2,8",
+            "20",
+            "0,74"
+          ],
+          "giai_thich": "Trong các tổ hợp 2-2-1 (cấp 3), 2-1-1 (cấp 2) và 1-1-0 (cấp 1) chỉ 1-1-0 thuộc cấp 1 nên chọn: MPN = 0,74, tổ hợp này bắt đầu từ độ pha loãng 10^-2 nên nhân 10^2 cho 74 MPN/mL. Quên nhân độ pha loãng cho 0,74.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 10; tài liệu thực tập trang 28, 33"
+        },
+        {
+          "id": "ctt-43",
+          "hoi": "Trong MPN, khi chọn tổ hợp từ ba độ pha loãng liên tiếp, thứ tự ưu tiên là",
+          "dap_an": [
+            "Cấp 1, rồi cấp 2, cấp 3, cuối cùng cấp 0",
+            "Cấp 0, rồi cấp 1, cấp 2, cuối cùng cấp 3",
+            "Cấp 3, rồi cấp 2, cấp 1, cuối cùng cấp 0",
+            "Cấp 1, rồi cấp 0, cấp 2, cuối cùng cấp 3"
+          ],
+          "giai_thich": "Cấp 1 có xác suất cao nhất. Nếu có nhiều tổ hợp cùng cấp thì chọn tổ hợp có tổng số ống dương tính cao nhất.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 10; tài liệu thực tập trang 27-28; bộ đề câu 2"
+        },
+        {
+          "id": "ctt-44",
+          "hoi": "Vi khuẩn kỵ khí bắt buộc bị chết trong môi trường có oxy vì",
+          "dap_an": [
+            "Không tổng hợp được catalase nên tích tụ H2O2 trong tế bào",
+            "Không có ty thể nên không sử dụng được oxy cho hô hấp",
+            "Thiếu enzyme thủy phân tinh bột ngoại bào để lấy dinh dưỡng",
+            "Không chịu được áp suất thẩm thấu cao của môi trường"
+          ],
+          "giai_thich": "Thiếu catalase nên H2O2 tích tụ gây ngộ độc. Kỵ khí không bắt buộc sống được cả khi có và không có oxy.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 11; tài liệu thực tập trang 29; bộ đề câu 14"
+        },
+        {
+          "id": "ctt-45",
+          "hoi": "Trong ống thạch sâu, vùng thiếu oxy ở đáy ống chỉ có",
+          "dap_an": [
+            "Nhóm kỵ khí hoạt động",
+            "Nhóm hiếu khí bắt buộc",
+            "Nhóm kỵ khí không bắt buộc",
+            "Nhóm hiếu khí và kỵ khí không bắt buộc"
+          ],
+          "giai_thich": "Vùng nhiều oxy: hiếu khí và một số kỵ khí không bắt buộc; vùng ít oxy: kỵ khí không bắt buộc; vùng thiếu oxy: chỉ kỵ khí.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 11; tài liệu thực tập trang 29; bộ đề câu 14"
+        },
+        {
+          "id": "ctt-46",
+          "hoi": "Dung dịch dùng để phát hiện vòng phân giải tinh bột hay cellulose quanh khuẩn lạc là",
+          "dap_an": [
+            "Lugol hoặc dung dịch iod (I2/KI)",
+            "Safranin kết hợp cồn tẩy",
+            "Xanh methylen 0,001%",
+            "Tím kết tinh với ammonium oxalat"
+          ],
+          "giai_thich": "Iod làm nền môi trường có tinh bột chuyển xanh tím (hoặc nâu đỏ với cellulose); vùng enzyme đã phân giải cơ chất trong suốt, không bắt màu.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 12; tài liệu thực tập trang 30; bộ đề câu 1, 8"
+        },
+        {
+          "id": "ctt-47",
+          "hoi": "Khuẩn lạc có đường kính 3,0 cm, vòng trong suốt có đường kính lớn nhất 4,2 cm. Bán kính vòng phân giải là",
+          "dap_an": [
+            "0,6 cm",
+            "1,2 cm",
+            "2,1 cm",
+            "3,6 cm"
+          ],
+          "giai_thich": "Bán kính vòng phân giải = 1/2 đường kính vòng trong suốt - 1/2 đường kính khuẩn lạc = 2,1 - 1,5 = 0,6 cm. Lấy hiệu hai đường kính (1,2 cm) là quên chia đôi.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 12; tài liệu thực tập trang 30; bộ đề câu 8"
+        },
+        {
+          "id": "ctt-48",
+          "hoi": "Hàm lượng cơ chất tinh bột hay cellulose thay cho đường trong môi trường khảo sát phân giải là",
+          "dap_an": [
+            "1% (10 g/L)",
+            "0,1% (1 g/L)",
+            "5% (50 g/L)",
+            "2% (20 g/L)"
+          ],
+          "giai_thich": "Môi trường dinh dưỡng thay đường bằng tinh bột hoặc cellulose với hàm lượng 1% (10 g/L); cấy Streptomyces sp. hoặc Aspergillus sp. vào giữa hộp và nuôi 4-5 ngày.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 12; tài liệu thực tập trang 30"
+        },
+        {
+          "id": "ctt-49",
+          "hoi": "Trong khảo sát ảnh hưởng của áp suất thẩm thấu, Bacillus sp. và Saccharomyces sp. được cấy lần lượt vào môi trường có",
+          "dap_an": [
+            "NaCl 0,5% và 15%; sucrose 5% và 50%",
+            "NaCl 5% và 50%; sucrose 0,5% và 15%",
+            "NaCl 0,5% và 5%; sucrose 15% và 50%",
+            "NaCl 15% và 50%; sucrose 0,5% và 5%"
+          ],
+          "giai_thich": "Muối làm tăng áp suất thẩm thấu cho thí nghiệm với vi khuẩn (0,5% và 15% NaCl); đường cho thí nghiệm với nấm men (5% và 50% sucrose). Vi khuẩn kỵ khí không bắt buộc chịu muối trên 10%, cực đại 15-20%.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 13; tài liệu thực tập trang 31; bộ đề câu 13"
+        },
+        {
+          "id": "ctt-50",
+          "hoi": "Phần lớn vi sinh vật sống trong môi trường",
+          "dap_an": [
+            "Nhược trương (nồng độ chất tan ngoài thấp hơn bên trong tế bào)",
+            "Ưu trương (nồng độ chất tan ngoài cao hơn bên trong tế bào)",
+            "Đẳng trương với tế bào ở mọi nồng độ chất tan bên ngoài",
+            "Có nồng độ muối trên 10% là điều kiện thông thường"
+          ],
+          "giai_thich": "Thêm muối hay đường làm tăng áp suất thẩm thấu; chỉ một số vi sinh vật đặc biệt chịu được môi trường ưu trương.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 13; tài liệu thực tập trang 31; bộ đề câu 13"
+        },
+        {
+          "id": "ctt-51",
+          "hoi": "Cấy chuyền định kỳ trên thạch để giữ giống có hạn chế là",
+          "dap_an": [
+            "Chỉ giữ ngắn hạn (vài tuần đến 1-2 tháng), cấy nhiều lần có thể thoái hóa giống",
+            "Chỉ áp dụng được cho nấm mốc dạng sợi mà không áp dụng cho vi khuẩn",
+            "Làm tăng số lượng bào tử nên giống ngày càng mạnh và ổn định hơn",
+            "Bắt buộc phải bảo quản ở nhiệt độ âm sâu trong suốt thời gian giữ giống"
+          ],
+          "giai_thich": "Để kéo dài thời gian, có thể đặt ống ở nhiệt độ thấp (12-15 độ C) hoặc phủ lớp dầu khoáng (paraffin lỏng, glyceryl) cho môi trường chậm khô và sinh vật chậm biến dưỡng.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 14; tài liệu thực tập trang 32; bộ đề câu 5"
+        },
+        {
+          "id": "ctt-52",
+          "hoi": "Nguyên tắc chung của các phương pháp giữ giống vi sinh vật là",
+          "dap_an": [
+            "Làm chậm hô hấp, trao đổi chất và ngăn sinh sản",
+            "Tăng tốc độ sinh sản để luôn có giống mới",
+            "Diệt hết tế bào sinh dưỡng và chỉ giữ bào tử",
+            "Cấy chuyền liên tục mỗi ngày sang môi trường mới"
+          ],
+          "giai_thich": "Giữ giống gồm hai bước: chọn chủng ở điều kiện và giai đoạn tối ưu (khuẩn lạc đều, không nhiễm tạp), rồi chọn phương pháp thích hợp (ngắn hạn hoặc dài hạn).",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 14; tài liệu thực tập trang 32"
+        },
+        {
+          "id": "ctt-53",
+          "hoi": "Làm phòng ẩm để cấy nấm mốc nhằm mục đích",
+          "dap_an": [
+            "Tạo môi trường ẩm để nấm mốc phát triển thuận lợi",
+            "Giữ môi trường vô trùng tuyệt đối trong lúc ủ",
+            "Làm nấm mốc ngừng sinh bào tử sau một tuần",
+            "Giảm lượng agar trong môi trường nuôi cấy"
+          ],
+          "giai_thich": "Giấy lọc và lamelle đặt trong petri rồi hấp khử trùng; đổ môi trường lên một nửa dọc theo lamelle, cấy nấm mốc 1-2 điểm, thấm ướt giấy lọc, đóng kín, gói giấy ủ khoảng 1 tuần. Nội dung này chỉ có trong bộ đề.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 15 (ghi chú); bộ đề câu 7"
+        },
+        {
+          "id": "ctt-54",
+          "hoi": "Mục đích khảo sát khả năng phân giải cellulose của xạ khuẩn là",
+          "dap_an": [
+            "Bổ sung nguồn giống có khả năng ứng dụng sản xuất chế phẩm vi sinh",
+            "Xác định xạ khuẩn thuộc nhóm Gram dương hay Gram âm",
+            "Đếm số tế bào sống của xạ khuẩn có trong một mililit mẫu",
+            "Đo kích thước đường kính khuẩn ty của xạ khuẩn dưới kính"
+          ],
+          "giai_thich": "Cellulose là polymer hữu cơ phổ biến nhất trong tự nhiên; vi sinh vật phân giải cellulose có vai trò trong dệt, giấy, chất tẩy rửa, xử lý rác thải, phân bón hữu cơ vi sinh.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 12; bộ đề câu 1"
+        },
+        {
+          "id": "ctt-55",
+          "hoi": "Về mặt sử dụng dụng cụ, vì sao phải dùng trắc vi vật kính khi đo kích thước vi sinh vật?",
+          "dap_an": [
+            "Để biết chính xác độ dài một vạch TVTK ở từng vật kính",
+            "Để thay thế hoàn toàn trắc vi thị kính trong lúc đo mẫu",
+            "Để tăng độ phóng đại của vật kính x100 khi quan sát mẫu",
+            "Để nhuộm màu mẫu vi sinh vật trước khi tiến hành đo"
+          ],
+          "giai_thich": "Độ dài vạch TVTK thay đổi theo vật kính nên cần hiệu chỉnh bằng TVVK (mỗi vạch 10 micromet); sau đó thay TVVK bằng lam mẫu đã nhuộm để đo.",
+          "kho": true,
+          "nguon": "TT Thực tập, mục 8; tài liệu thực tập trang 23; bộ đề câu 4"
+        },
+        {
+          "id": "ctt-56",
+          "hoi": "Khi cố định vết bôi vi khuẩn trước khi nhuộm Gram, cách làm đúng là",
+          "dap_an": [
+            "Chờ vết bôi khô tự nhiên rồi hơ nhẹ qua lửa đèn cồn",
+            "Đốt trực tiếp trên lửa đến khi vết bôi cháy khô",
+            "Nhỏ cồn 96 độ lên vết bôi rồi để khô trong tủ ấm",
+            "Rửa nước ngay rồi nhuộm tím kết tinh"
+          ],
+          "giai_thich": "Hơ nhẹ qua lửa (tránh đốt trực tiếp) để vi khuẩn bám vào phiến kính; đốt trực tiếp làm biến dạng tế bào.",
+          "kho": false,
+          "nguon": "TT Thực tập, mục 7; tài liệu thực tập trang 21; bộ đề câu 3"
         }
       ]
     }

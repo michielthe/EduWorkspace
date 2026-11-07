@@ -191,6 +191,11 @@ main{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px
 .qnum b{color:var(--ink);font-size:1.5rem}
 .tag{font-size:.78rem;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--hard-soft);color:var(--hard)}
 .qtext{font-size:1.15rem;font-weight:500;line-height:1.55}
+/* Công thức toán (KaTeX) */
+.katex{font-size:1.1em;text-indent:0}
+.katex-display{margin:.7em 0;overflow-x:auto;overflow-y:hidden;padding:.15em 0}
+.qtext,.opt .txt,.explain,.review-item{overflow-wrap:anywhere}
+.tex-raw{font-size:.9em;background:var(--sunk);border-radius:4px;padding:0 4px}
 .opts{display:flex;flex-direction:column;gap:10px}
 .opt{--c:var(--w-or);position:relative;display:flex;align-items:flex-start;gap:14px;width:100%;text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:13px 44px 13px 13px;cursor:pointer;line-height:1.5;
   transition:border-color .2s,background .25s,transform .2s var(--ease),opacity .3s}

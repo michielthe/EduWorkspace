@@ -14,6 +14,7 @@ web-hoc-tap/
 ├─ du-lieu/
 │  ├─ danh-sach-mon.json   danh sách môn học
 │  └─ <ma-mon>.json        câu hỏi của từng môn (vd: mang-may-tinh.json)
+├─ thu-vien/katex/         thư viện hiển thị công thức (KaTeX)
 └─ tai-lieu/
    └─ <ma-mon>/            file PDF tóm tắt của môn đó (chỉ tóm tắt tự làm)
 ```
@@ -53,6 +54,13 @@ web-hoc-tap/
 ```
 - `id` câu không trùng và không đổi khi sửa (tính năng "làm tiếp" ghi nhớ theo id).
 - Website tự đảo thứ tự đáp án khi hiển thị.
+
+## Công thức toán
+Trong `hoi`, `dap_an`, `giai_thich` có thể viết công thức bằng LaTeX, hiển thị bằng KaTeX (bản chép sẵn trong `thu-vien/katex/`, không cần mạng).
+- Trong dòng: `$...$`. Riêng một dòng: `$$...$$` (chỉ nên dùng trong `hoi` và `giai_thich`).
+- Trong file JSON phải viết hai dấu gạch ngược, ví dụ `"Tính $\\sum_{k=0}^{5}\\binom{5}{k}^2$"`.
+- Dấu đô la thật viết là `\\$`. Chuỗi có `$` mà không đóng cặp thì hiện nguyên chữ. Công thức lỗi hiện mã màu đỏ.
+- Câu không có dấu `$` hiển thị y như cũ.
 
 ## Lưu ý
 - Mở `index.html` bằng cách bấm đúp sẽ KHÔNG đọc được file .json (trình duyệt chặn). Xem trên GitHub Pages hoặc chạy server nhỏ (vd: VS Code + Live Server).

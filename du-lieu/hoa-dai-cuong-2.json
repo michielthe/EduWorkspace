@@ -1,0 +1,1042 @@
+{
+  "mon": "Hóa đại cương 2",
+  "ma_mon": "hoa-dai-cuong-2",
+  "phien_ban": 1,
+  "chuong": [
+    {
+      "id": "c4",
+      "nhom": "Bài giảng",
+      "ten": "Chương 4 - Cân bằng hóa học",
+      "cau": [
+        {
+          "id": "c4-01",
+          "hoi": "Ở trạng thái cân bằng hóa học của một phản ứng thuận nghịch trong hệ kín, điều nào sau đây đúng?",
+          "dap_an": [
+            "Hai phản ứng thuận, nghịch cùng xảy ra với tốc độ bằng nhau nên nồng độ giữ nguyên",
+            "Cả hai phản ứng đã dừng hẳn nên nồng độ các chất không còn thay đổi",
+            "Nồng độ tác chất luôn bằng nồng độ sản phẩm khi hệ đạt trạng thái cân bằng",
+            "Hằng số tốc độ thuận luôn bằng hằng số tốc độ nghịch khi hệ đạt cân bằng"
+          ],
+          "giai_thich": "Cân bằng hóa học là cân bằng động: $v_t = v_n$ nên nồng độ không đổi theo thời gian dù hai phản ứng vẫn xảy ra. Nồng độ hai bên không nhất thiết bằng nhau; điều kiện cân bằng là $k_t[A] = k_n[B]$, tức $[B]/[A] = k_t/k_n$ chứ $k_t$ không cần bằng $k_n$.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.1; slide Chương 4, trang 3"
+        },
+        {
+          "id": "c4-02",
+          "hoi": "Với phản ứng $\\mathrm{CaCO_3(s) \\rightleftharpoons CaO(s) + CO_2(g)}$, biểu thức hằng số cân bằng $K_c$ đúng là",
+          "dap_an": [
+            "$K_c = [\\mathrm{CO_2}]$",
+            "$K_c = \\dfrac{[\\mathrm{CaO}][\\mathrm{CO_2}]}{[\\mathrm{CaCO_3}]}$",
+            "$K_c = \\dfrac{[\\mathrm{CO_2}]}{[\\mathrm{CaCO_3}]}$",
+            "$K_c = [\\mathrm{CaO}][\\mathrm{CO_2}]$"
+          ],
+          "giai_thich": "Nồng độ chất rắn (và lỏng tinh khiết) là hằng số nên được gộp vào $K_c$ và không viết trong biểu thức. Chỉ còn khí $\\mathrm{CO_2}$, nên $K_c = [\\mathrm{CO_2}]$ và $K_p = P_{\\mathrm{CO_2}}$, không phụ thuộc lượng $\\mathrm{CaO}$ hay $\\mathrm{CaCO_3}$.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2, Cân bằng dị thể; slide Chương 4, trang 16"
+        },
+        {
+          "id": "c4-03",
+          "hoi": "Với phản ứng $2\\mathrm{SO_2(g)} + \\mathrm{O_2(g)} \\rightleftharpoons 2\\mathrm{SO_3(g)}$, mối liên hệ đúng giữa $K_p$ và $K_c$ là",
+          "dap_an": [
+            "$K_p = K_c(RT)^{-1}$",
+            "$K_p = K_c(RT)^{2}$",
+            "$K_p = K_c(RT)^{1}$",
+            "$K_p = K_c$"
+          ],
+          "giai_thich": "Dùng $K_p = K_c(RT)^{\\Delta n}$ với $\\Delta n$ là hiệu số mol khí sản phẩm trừ tác chất: $\\Delta n = 2 - (2+1) = -1$, nên $K_p = K_c(RT)^{-1}$. Chỉ khi $\\Delta n = 0$ thì $K_p = K_c$.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2, Hằng số cân bằng và áp suất; slide Chương 4, trang 9"
+        },
+        {
+          "id": "c4-04",
+          "hoi": "Phản ứng $\\mathrm{N_2(g)} + 3\\mathrm{H_2(g)} \\rightleftharpoons 2\\mathrm{NH_3(g)}$ ở $200\\ ^\\circ\\mathrm{C}$ có $K_p = 4{,}3 \\cdot 10^{-4}$. Giá trị $K_c$ gần nhất là bao nhiêu? (R = 0,08206 L.atm/(mol.K))",
+          "dap_an": [
+            "$0{,}65$",
+            "$2{,}9 \\cdot 10^{-7}$",
+            "$0{,}017$",
+            "$4{,}3 \\cdot 10^{-4}$"
+          ],
+          "giai_thich": "$\\Delta n = 2 - 4 = -2$, $T = 473\\ \\mathrm{K}$. $K_c = K_p/(RT)^{\\Delta n} = K_p(RT)^2 = 4{,}3 \\cdot 10^{-4} \\times (0{,}08206 \\times 473)^2 \\approx 0{,}65$. Chia thay vì nhân (nhầm dấu của $\\Delta n$) cho kết quả rất nhỏ.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3 (Ví dụ 2); slide Chương 4, trang 17"
+        },
+        {
+          "id": "c4-05",
+          "hoi": "Ở một nhiệt độ, $K_c = 0{,}211$ cho phản ứng $\\mathrm{N_2O_4 \\rightleftharpoons 2NO_2}$. Hằng số cân bằng của phản ứng $2\\mathrm{NO_2 \\rightleftharpoons N_2O_4}$ ở cùng nhiệt độ là",
+          "dap_an": [
+            "$4{,}74$",
+            "$0{,}211$",
+            "$-0{,}211$",
+            "$0{,}0445$"
+          ],
+          "giai_thich": "Phản ứng đảo có hằng số nghịch đảo: $K' = 1/K = 1/0{,}211 \\approx 4{,}74$. Bình phương chỉ dùng khi nhân hệ số phản ứng lên 2.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2, Mối liên hệ của hằng số cân bằng; slide Chương 4, trang 11"
+        },
+        {
+          "id": "c4-06",
+          "hoi": "Biết $\\mathrm{H_2 + \\tfrac{1}{2}O_2 \\rightleftharpoons H_2O}$ có $K_c(1) = 5{,}0$. Hằng số cân bằng của phản ứng $2\\mathrm{H_2} + \\mathrm{O_2} \\rightleftharpoons 2\\mathrm{H_2O}$ ở cùng nhiệt độ là",
+          "dap_an": [
+            "$25$",
+            "$10$",
+            "$2{,}24$",
+            "$0{,}04$"
+          ],
+          "giai_thich": "Nhân hệ số phản ứng lên $n$ lần thì $K$ lũy thừa $n$: $K(2) = [K(1)]^2 = 5^2 = 25$. Nhân với 2 ($10$) và lấy căn ($2{,}24$) là các nhầm lẫn thường gặp; $0{,}04 = 1/25$ ứng với phản ứng đảo.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2, Mối liên hệ của hằng số cân bằng; slide Chương 4, trang 12"
+        },
+        {
+          "id": "c4-07",
+          "hoi": "Cho $\\mathrm{N_2 + \\tfrac{1}{2}O_2 \\rightleftharpoons N_2O}$ có $K_c(2) = 2{,}7 \\cdot 10^{-18}$ và $\\mathrm{N_2 + O_2 \\rightleftharpoons 2NO}$ có $K_c(3) = 4{,}7 \\cdot 10^{-31}$. Hằng số cân bằng của $\\mathrm{N_2O + \\tfrac{1}{2}O_2 \\rightleftharpoons 2NO}$ là",
+          "dap_an": [
+            "$1{,}7 \\cdot 10^{-13}$",
+            "$1{,}3 \\cdot 10^{-48}$",
+            "$5{,}7 \\cdot 10^{12}$",
+            "$254$"
+          ],
+          "giai_thich": "Phản ứng cần tìm bằng (3) trừ (2), nên $K_c(1) = K_c(3)/K_c(2) = 4{,}7 \\cdot 10^{-31}/2{,}7 \\cdot 10^{-18} \\approx 1{,}7 \\cdot 10^{-13}$. Nhân hai hằng số chỉ dùng khi cộng hai phản ứng.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.2 (Ví dụ); slide Chương 4, trang 14"
+        },
+        {
+          "id": "c4-08",
+          "hoi": "Phản ứng $\\mathrm{H_2(g) + I_2(g) \\rightleftharpoons 2HI(g)}$ có $K_c = 54{,}3$ ở $430\\ ^\\circ\\mathrm{C}$. Bình $1\\ \\mathrm{L}$ chứa $0{,}243\\ \\mathrm{mol\\ H_2}$, $0{,}146\\ \\mathrm{mol\\ I_2}$ và $1{,}98\\ \\mathrm{mol\\ HI}$. Hỗn hợp sẽ biến đổi như thế nào?",
+          "dap_an": [
+            "Đi theo chiều nghịch vì $Q_c \\approx 111 > K_c$",
+            "Đi theo chiều thuận vì $Q_c \\approx 111 > K_c$",
+            "Đã cân bằng vì $Q_c \\approx 111$",
+            "Đi theo chiều nghịch vì $Q_c \\approx 111 < K_c$"
+          ],
+          "giai_thich": "$Q_c = [\\mathrm{HI}]^2/([\\mathrm{H_2}][\\mathrm{I_2}]) = 1{,}98^2/(0{,}243 \\times 0{,}146) \\approx 111$, lớn hơn $K_c = 54{,}3$. Khi $Q > K$ phản ứng đi chiều nghịch, HI phân hủy tạo $\\mathrm{H_2}$ và $\\mathrm{I_2}$ cho đến khi $Q = K$.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3, Dự đoán chiều phản ứng; slide Chương 4, trang 20"
+        },
+        {
+          "id": "c4-09",
+          "hoi": "Với $K_c = 54{,}3$ cho $\\mathrm{H_2 + I_2 \\rightleftharpoons 2HI}$, nồng độ đầu $[\\mathrm{H_2}] = 0{,}00623$, $[\\mathrm{I_2}] = 0{,}00414$, $[\\mathrm{HI}] = 0{,}0224\\ \\mathrm{M}$. Giá trị $Q_c$ và chiều phản ứng là",
+          "dap_an": [
+            "$Q_c \\approx 19{,}5$, phản ứng đi theo chiều thuận",
+            "$Q_c \\approx 19{,}5$, phản ứng đi theo chiều nghịch",
+            "$Q_c \\approx 0{,}0514$, phản ứng đi theo chiều thuận",
+            "$Q_c \\approx 38{,}9$, phản ứng đi theo chiều nghịch"
+          ],
+          "giai_thich": "$Q_c = 0{,}0224^2/(0{,}00623 \\times 0{,}00414) \\approx 19{,}5 < 54{,}3$ nên sản phẩm còn thiếu, phản ứng đi chiều thuận. Lấy nghịch đảo thương số là lỗi hay gặp khi viết tử/mẫu ngược.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3 (Ví dụ 3); slide Chương 4, trang 22"
+        },
+        {
+          "id": "c4-10",
+          "hoi": "Cho $\\mathrm{H_2 + I_2 \\rightleftharpoons 2HI}$, $K_c = 54{,}3$. Nồng độ đầu $[\\mathrm{H_2}] = [\\mathrm{I_2}] = 0{,}5\\ \\mathrm{M}$, chưa có HI. Nồng độ HI lúc cân bằng gần nhất là",
+          "dap_an": [
+            "$0{,}787\\ \\mathrm{M}$",
+            "$0{,}393\\ \\mathrm{M}$",
+            "$0{,}107\\ \\mathrm{M}$",
+            "$1\\ \\mathrm{M}$"
+          ],
+          "giai_thich": "Đặt $x$ là lượng $\\mathrm{H_2}$ phản ứng: $[\\mathrm{HI}] = 2x$, $[\\mathrm{H_2}] = [\\mathrm{I_2}] = 0{,}5 - x$. Lấy căn $K_c$: $2x/(0{,}5-x) = \\sqrt{54{,}3} = 7{,}37$ nên $x \\approx 0{,}393\\ \\mathrm{M}$ và $[\\mathrm{HI}] = 2x \\approx 0{,}787\\ \\mathrm{M}$. Giá trị $x$ là lượng phản ứng chứ chưa phải $[\\mathrm{HI}]$; $0{,}107$ là nồng độ mỗi chất đầu còn lại.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.3, Nồng độ lúc cân bằng; slide Chương 4, trang 30"
+        },
+        {
+          "id": "c4-11",
+          "hoi": "Phản ứng $\\mathrm{PCl_5 \\rightleftharpoons PCl_3 + Cl_2}$ có $K_c = 0{,}0454$. Ban đầu chỉ có $[\\mathrm{PCl_5}] = 0{,}100\\ \\mathrm{M}$. Độ phân li của $\\mathrm{PCl_5}$ lúc cân bằng gần nhất là",
+          "dap_an": [
+            "$48{,}4\\ \\%$",
+            "$67{,}4\\ \\%$",
+            "$4{,}54\\ \\%$",
+            "$9{,}08\\ \\%$"
+          ],
+          "giai_thich": "Bảng ICE: $K_c = x^2/(0{,}100 - x) = 0{,}0454$ dẫn đến $x^2 + 0{,}0454x - 0{,}00454 = 0$, nghiệm dương $x \\approx 0{,}0484\\ \\mathrm{M}$, độ phân li $x/0{,}100 \\approx 48{,}4\\ \\%$. Bỏ $x$ ở mẫu số (gần đúng $x \\approx \\sqrt{K_c c_0} = 0{,}0674$) cho $67{,}4\\ \\%$ là sai vì $K_c$ không đủ nhỏ.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III, Bài 1; slide Chương 4, trang 30"
+        },
+        {
+          "id": "c4-12",
+          "hoi": "Phản ứng $\\mathrm{NO + O_3 \\rightarrow NO_2 + O_2}$ ở $298\\ \\mathrm{K}$ có $\\Delta G^\\circ = -198{,}5\\ \\mathrm{kJ}$. Hằng số cân bằng $K$ gần nhất là",
+          "dap_an": [
+            "$6{,}1 \\cdot 10^{34}$",
+            "$1{,}6 \\cdot 10^{-35}$",
+            "$1{,}3 \\cdot 10^{80}$",
+            "$198$"
+          ],
+          "giai_thich": "$\\Delta G^\\circ = -RT\\ln K$ nên $\\ln K = 198500/(8{,}314 \\times 298) = 80{,}1$ và $K = e^{80{,}1} \\approx 6{,}1 \\cdot 10^{34}$. Đổi dấu cho $K$ rất nhỏ; dùng $\\log_{10}$ thay cho $\\ln$ cho giá trị quá lớn.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.3, Từ đại lượng nhiệt động; slide Chương 4, trang 28"
+        },
+        {
+          "id": "c4-13",
+          "hoi": "Nếu $\\Delta G^\\circ > 0$ cho một phản ứng ở nhiệt độ $T$ thì kết luận nào đúng về hằng số cân bằng?",
+          "dap_an": [
+            "$K < 1$, cân bằng nghiêng về phía tác chất",
+            "$K > 1$, cân bằng nghiêng về phía sản phẩm",
+            "$K = 1$ vì $\\Delta G = 0$ tại cân bằng",
+            "$K$ không xác định được từ $\\Delta G^\\circ$"
+          ],
+          "giai_thich": "Từ $\\ln K = -\\Delta G^\\circ/(RT)$: $\\Delta G^\\circ > 0$ cho $\\ln K < 0$ nên $K < 1$. $\\Delta G = 0$ tại cân bằng nhưng $\\Delta G^\\circ$ (trạng thái chuẩn) khác $\\Delta G$.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3, Liên hệ giữa cân bằng và năng lượng tự do; slide Chương 4, trang 23"
+        },
+        {
+          "id": "c4-14",
+          "hoi": "Tổng hợp $\\mathrm{NH_3}$: $\\Delta H^\\circ = -92{,}2\\ \\mathrm{kJ}$, $\\Delta S^\\circ = -198{,}7\\ \\mathrm{J/K}$ (coi không đổi theo nhiệt độ). Giá trị $K_p$ ở $298\\ \\mathrm{K}$ gần nhất là",
+          "dap_an": [
+            "$6{,}1 \\cdot 10^{5}$",
+            "$1{,}7 \\cdot 10^{-6}$",
+            "$3{,}5 \\cdot 10^{26}$",
+            "$1{,}5 \\cdot 10^{16}$"
+          ],
+          "giai_thich": "$\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ = -92{,}2 - 298 \\times (-0{,}1987) = -33\\ \\mathrm{kJ}$ (đổi $\\Delta S$ sang kJ/K). $\\ln K = 33000/(8{,}314 \\times 298)$ nên $K_p \\approx 6{,}1 \\cdot 10^{5}$. Đổi dấu $\\Delta G^\\circ$ cho $K$ rất nhỏ; bỏ qua số hạng $T\\Delta S$ hoặc nhầm dấu của nó cho kết quả lệch hẳn.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần III, Bài 3; slide Chương 4, trang 27"
+        },
+        {
+          "id": "c4-15",
+          "hoi": "Dùng $\\Delta H^\\circ = -92{,}2\\ \\mathrm{kJ}$ không đổi và $K_p(298\\ \\mathrm{K}) = 6{,}04 \\cdot 10^{5}$ cho $\\mathrm{N_2 + 3H_2 \\rightleftharpoons 2NH_3}$. Hằng số cân bằng ở $673\\ \\mathrm{K}$ gần nhất là (van't Hoff)",
+          "dap_an": [
+            "$6 \\cdot 10^{-4}$",
+            "$6{,}1 \\cdot 10^{14}$",
+            "$1{,}4 \\cdot 10^{6}$",
+            "$6{,}1 \\cdot 10^{5}$"
+          ],
+          "giai_thich": "$\\ln(K_2/K_1) = -\\dfrac{\\Delta H^\\circ}{R}\\left(\\dfrac{1}{T_2} - \\dfrac{1}{T_1}\\right) = \\dfrac{92200}{8{,}314}\\left(\\dfrac{1}{673} - \\dfrac{1}{298}\\right) = -20{,}74$ nên $K_2 \\approx 6 \\cdot 10^{-4}$. Phản ứng tỏa nhiệt nên $K$ giảm khi tăng nhiệt độ; đổi dấu cho $K$ tăng sai chiều.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III, Bài 4; slide Chương 4, trang 27"
+        },
+        {
+          "id": "c4-16",
+          "hoi": "Cho $2\\mathrm{H_2S(g)} + \\mathrm{O_2(g)} \\rightleftharpoons 2\\mathrm{S(s)} + 2\\mathrm{H_2O(g)}$ đang cân bằng. Khi thêm $\\mathrm{O_2}$ vào hệ (nhiệt độ, thể tích không đổi), điều gì xảy ra?",
+          "dap_an": [
+            "Cân bằng chuyển sang phải, $\\mathrm{H_2O}$ tăng còn $\\mathrm{H_2S}$ giảm",
+            "Cân bằng chuyển sang trái, $\\mathrm{H_2O}$ giảm còn $\\mathrm{H_2S}$ tăng",
+            "Cân bằng không đổi vì $\\mathrm{O_2}$ đóng vai trò chất xúc tác",
+            "Cân bằng chuyển sang phải nhưng $\\mathrm{H_2S}$ cũng tăng theo"
+          ],
+          "giai_thich": "Thêm tác chất làm hệ chống lại bằng cách tiêu thụ nó: cân bằng chuyển sang phải, $\\mathrm{H_2S}$ bị tiêu thụ (giảm) còn $\\mathrm{H_2O}$ tạo thêm (tăng).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4, Ảnh hưởng của nồng độ; slide Chương 4, trang 34"
+        },
+        {
+          "id": "c4-17",
+          "hoi": "Trong cân bằng $2\\mathrm{H_2S(g)} + \\mathrm{O_2(g)} \\rightleftharpoons 2\\mathrm{S(s)} + 2\\mathrm{H_2O(g)}$, thêm một lượng $\\mathrm{S(s)}$ rắn vào bình thì",
+          "dap_an": [
+            "Cân bằng không đổi vì S rắn không có mặt trong biểu thức $K$",
+            "Cân bằng chuyển sang trái làm $[\\mathrm{H_2S}]$ tăng thêm nữa",
+            "Cân bằng chuyển sang phải làm $[\\mathrm{H_2O}]$ tăng thêm nữa",
+            "Giá trị $K$ giảm vì lượng sản phẩm rắn trong hệ đã tăng lên"
+          ],
+          "giai_thich": "Nồng độ chất rắn tinh khiết là hằng số, nên thêm hay bớt rắn không đổi $Q$ và không làm dịch chuyển cân bằng; $K = [\\mathrm{H_2O}]^2/([\\mathrm{H_2S}]^2[\\mathrm{O_2}])$ không chứa $\\mathrm{S}$.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.4, Ảnh hưởng của nồng độ; slide Chương 4, trang 34"
+        },
+        {
+          "id": "c4-18",
+          "hoi": "Biểu thức hằng số cân bằng $K_c$ đúng của $2\\mathrm{H_2S(g)} + \\mathrm{O_2(g)} \\rightleftharpoons 2\\mathrm{S(s)} + 2\\mathrm{H_2O(g)}$ là",
+          "dap_an": [
+            "$K_c = \\dfrac{[\\mathrm{H_2O}]^2}{[\\mathrm{H_2S}]^2[\\mathrm{O_2}]}$",
+            "$K_c = \\dfrac{[\\mathrm{S}]^2[\\mathrm{H_2O}]^2}{[\\mathrm{H_2S}]^2[\\mathrm{O_2}]}$",
+            "$K_c = \\dfrac{[\\mathrm{H_2O}]}{[\\mathrm{H_2S}][\\mathrm{O_2}]}$",
+            "$K_c = \\dfrac{[\\mathrm{H_2S}]^2[\\mathrm{O_2}]}{[\\mathrm{H_2O}]^2}$"
+          ],
+          "giai_thich": "Bỏ chất rắn $\\mathrm{S}$, hệ số làm số mũ: tử là sản phẩm khí $[\\mathrm{H_2O}]^2$, mẫu là $[\\mathrm{H_2S}]^2[\\mathrm{O_2}]$. Viết ngược tử/mẫu hoặc quên số mũ là lỗi thường gặp.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.2; slide Chương 4, trang 6"
+        },
+        {
+          "id": "c4-19",
+          "hoi": "Với cân bằng $\\mathrm{PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)}$ ở nhiệt độ không đổi, tăng áp suất (giảm thể tích) làm cân bằng",
+          "dap_an": [
+            "Dịch chuyển sang trái (về phía ít mol khí hơn)",
+            "Dịch chuyển sang phải (về phía nhiều mol khí hơn)",
+            "Không dịch chuyển vì $\\Delta n_{khi} \\neq 0$ là không đủ để đổi cân bằng",
+            "Dịch chuyển sang phải và $K$ tăng"
+          ],
+          "giai_thich": "Vế trái có $1$ mol khí, vế phải có $2$ mol khí. Tăng áp suất dịch cân bằng về phía số mol khí ít hơn, tức sang trái; $K$ chỉ phụ thuộc nhiệt độ nên không đổi.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4, Ảnh hưởng của áp suất; slide Chương 4, trang 38"
+        },
+        {
+          "id": "c4-20",
+          "hoi": "Phản ứng nào sau đây không bị dịch chuyển cân bằng khi thay đổi áp suất (nhiệt độ không đổi)?",
+          "dap_an": [
+            "$\\mathrm{H_2(g) + F_2(g) \\rightleftharpoons 2HF(g)}$",
+            "$\\mathrm{CO(g) + 2H_2(g) \\rightleftharpoons CH_3OH(g)}$",
+            "$\\mathrm{N_2O_4(g) \\rightleftharpoons 2NO_2(g)}$",
+            "$2\\mathrm{SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)}$"
+          ],
+          "giai_thich": "Chỉ khi tổng số mol khí hai vế bằng nhau ($\\Delta n_{khi} = 0$) thì áp suất không ảnh hưởng: $\\mathrm{H_2 + F_2 \\rightleftharpoons 2HF}$ có $2 = 2$. Ba phản ứng còn lại có $\\Delta n = -2$, $+1$, $-1$.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4, Ảnh hưởng của áp suất; slide Chương 4, trang 37"
+        },
+        {
+          "id": "c4-21",
+          "hoi": "Với phản ứng $\\mathrm{CaO(s) + H_2O(g) \\rightleftharpoons Ca(OH)_2(aq)}$ có $\\Delta H^\\circ = -82\\ \\mathrm{kJ}$, khi tăng nhiệt độ cân bằng",
+          "dap_an": [
+            "Dịch chuyển sang trái vì phản ứng thuận tỏa nhiệt",
+            "Dịch chuyển sang phải vì phản ứng thuận tỏa nhiệt",
+            "Không dịch chuyển vì nhiệt độ không đổi $K$",
+            "Dịch chuyển sang phải vì $\\Delta H^\\circ < 0$ làm $K$ tăng"
+          ],
+          "giai_thich": "Tăng nhiệt độ ưu tiên chiều thu nhiệt. Phản ứng thuận có $\\Delta H^\\circ < 0$ (tỏa nhiệt) nên chiều nghịch thu nhiệt, cân bằng sang trái và $K$ giảm. Nhiệt độ là yếu tố duy nhất làm thay đổi $K$.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4, Ảnh hưởng của nhiệt độ; slide Chương 4, trang 40"
+        },
+        {
+          "id": "c4-22",
+          "hoi": "Khi tăng nhiệt độ, phản ứng nào sau đây chuyển dịch sang phải?",
+          "dap_an": [
+            "$\\mathrm{CaCO_3(s) \\rightleftharpoons CaO(s) + CO_2(g)}$, $\\Delta H^\\circ = +178\\ \\mathrm{kJ}$",
+            "$\\mathrm{CaO(s) + H_2O(g) \\rightleftharpoons Ca(OH)_2(aq)}$, $\\Delta H^\\circ = -82\\ \\mathrm{kJ}$",
+            "$\\mathrm{N_2 + 3H_2 \\rightleftharpoons 2NH_3}$, $\\Delta H^\\circ = -92{,}2\\ \\mathrm{kJ}$",
+            "$4\\mathrm{NH_3 + 5O_2 \\rightleftharpoons 4NO + 6H_2O}$, $\\Delta H^\\circ = -906\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "Chỉ phản ứng thu nhiệt ($\\Delta H^\\circ > 0$) chuyển sang phải khi tăng nhiệt độ. Ba phản ứng còn lại tỏa nhiệt nên chuyển sang trái.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4, Ảnh hưởng của nhiệt độ; slide Chương 4, trang 40"
+        },
+        {
+          "id": "c4-23",
+          "hoi": "Thêm chất xúc tác vào hệ đang cân bằng sẽ gây ra điều gì?",
+          "dap_an": [
+            "Hệ đạt cân bằng nhanh hơn, còn $K$ và thành phần cân bằng giữ nguyên",
+            "Cân bằng chuyển sang phải và giá trị $K$ tăng lên đáng kể",
+            "Cân bằng chuyển sang chiều thu nhiệt của phản ứng thuận",
+            "Giá trị $K$ giảm vì năng lượng hoạt hóa của phản ứng giảm"
+          ],
+          "giai_thich": "Xúc tác giảm năng lượng hoạt hóa của cả phản ứng thuận và nghịch như nhau nên chỉ rút ngắn thời gian đạt cân bằng; không đổi $K$ và không đổi thành phần tại cân bằng.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4, Hiệu ứng của chất xúc tác; slide Chương 4, trang 41"
+        },
+        {
+          "id": "c4-24",
+          "hoi": "Một hệ khí đang cân bằng trong bình kín thể tích không đổi. Thêm khí trơ (helium) vào bình thì",
+          "dap_an": [
+            "Cân bằng không dịch chuyển vì nồng độ các chất không thay đổi",
+            "Cân bằng dịch về phía ít mol khí vì áp suất tổng của bình tăng",
+            "Cân bằng dịch về phía nhiều mol khí vì áp suất tổng của bình tăng",
+            "Giá trị $K$ tăng vì áp suất tổng của bình đã tăng lên"
+          ],
+          "giai_thich": "Ở thể tích không đổi, khí trơ không đổi nồng độ hay áp suất riêng phần của các chất trong cân bằng, nên $Q$ vẫn bằng $K$. Áp suất tổng tăng không phải là yếu tố tác động lên cân bằng trong trường hợp này.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.4, Ảnh hưởng của áp suất; slide Chương 4, trang 37"
+        },
+        {
+          "id": "c4-25",
+          "hoi": "Yếu tố nào sau đây làm thay đổi giá trị hằng số cân bằng $K$ của một phản ứng?",
+          "dap_an": [
+            "Nhiệt độ",
+            "Nồng độ tác chất",
+            "Áp suất của hệ",
+            "Chất xúc tác"
+          ],
+          "giai_thich": "Chỉ nhiệt độ làm thay đổi $K$ (thông qua $\\ln K = -\\Delta H^\\circ/RT + \\Delta S^\\circ/R$). Nồng độ, áp suất chỉ làm dịch chuyển cân bằng (đổi $Q$ so với $K$), còn xúc tác không đổi $K$.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4; slide Chương 4, trang 37"
+        },
+        {
+          "id": "c4-26",
+          "hoi": "Một phản ứng tỏa nhiệt có $K_c = 100$ ở $300\\ \\mathrm{K}$. Tăng nhiệt độ lên $400\\ \\mathrm{K}$ thì $K_c$ sẽ",
+          "dap_an": [
+            "Giảm xuống (nhỏ hơn 100)",
+            "Tăng lên (lớn hơn 100)",
+            "Không đổi vì $K$ không phụ thuộc nhiệt độ",
+            "Bằng 1 vì cân bằng bị phá vỡ"
+          ],
+          "giai_thich": "Với $\\Delta H^\\circ < 0$, phương trình van't Hoff cho $K$ giảm khi $T$ tăng (cân bằng dịch sang chiều thu nhiệt, tức chiều nghịch).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3; slide Chương 4, trang 27"
+        },
+        {
+          "id": "c4-27",
+          "hoi": "Giá trị $K_c = 100$ (so với $K_c = 0{,}01$) cho biết điều gì về một phản ứng?",
+          "dap_an": [
+            "Ở cân bằng sản phẩm chiếm ưu thế, nhưng chưa cho biết tốc độ phản ứng",
+            "Phản ứng này xảy ra nhanh hơn phản ứng có hằng số $K_c = 0{,}01$",
+            "Ở cân bằng tác chất chiếm ưu thế, hầu như chưa chuyển thành sản phẩm",
+            "Phản ứng chỉ có thể xảy ra khi có mặt chất xúc tác trong hệ"
+          ],
+          "giai_thich": "$K \\gg 1$ nghĩa là cân bằng nghiêng về sản phẩm, $K \\ll 1$ nghiêng về tác chất. $K$ là đại lượng nhiệt động, không phản ánh tốc độ phản ứng (động học).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2, Giá trị của hằng số cân bằng; slide Chương 4, trang 10"
+        },
+        {
+          "id": "c4-28",
+          "hoi": "Với $4\\mathrm{NH_3(g)} + 5\\mathrm{O_2(g)} \\rightleftharpoons 4\\mathrm{NO(g)} + 6\\mathrm{H_2O(g)}$, biểu thức liên hệ $K_p$ và $K_c$ là",
+          "dap_an": [
+            "$K_p = K_c(RT)^{1}$",
+            "$K_p = K_c(RT)^{-1}$",
+            "$K_p = K_c(RT)^{10}$",
+            "$K_p = K_c$"
+          ],
+          "giai_thich": "$\\Delta n = (4 + 6) - (4 + 5) = +1$ nên $K_p = K_c(RT)^{+1}$. Lấy hệ số một vế ($10$) thay vì hiệu số, hoặc đổi dấu, là lỗi thường gặp.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2; slide Chương 4, trang 9"
+        },
+        {
+          "id": "c4-29",
+          "hoi": "Ở $800\\ ^\\circ\\mathrm{C}$, $\\mathrm{CaCO_3(s) \\rightleftharpoons CaO(s) + CO_2(g)}$ có $K_p = 0{,}236\\ \\mathrm{atm}$ (giả định). $K_c$ tương ứng (mol/L) gần nhất là",
+          "dap_an": [
+            "$2{,}68 \\cdot 10^{-3}$",
+            "$20{,}8$",
+            "$0{,}236$",
+            "$3{,}04 \\cdot 10^{-5}$"
+          ],
+          "giai_thich": "$K_p = P_{\\mathrm{CO_2}}$ và $K_c = [\\mathrm{CO_2}]$, với $\\Delta n = +1$: $K_c = K_p/(RT) = 0{,}236/(0{,}08206 \\times 1073) \\approx 2{,}68 \\cdot 10^{-3}$. Nhân với $RT$ thay vì chia hay dùng $T$ theo $^\\circ\\mathrm{C}$ đều cho kết quả sai.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III, Bài 7; slide Chương 4, trang 16"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "nhom": "Bài giảng",
+      "ten": "Chương 5 - Cân bằng ion trong dung dịch",
+      "cau": [
+        {
+          "id": "c5-01",
+          "hoi": "Dung dịch $\\mathrm{CH_3COOH}$ $0{,}01\\ \\mathrm{M}$ ($K_a = 1{,}8 \\cdot 10^{-5}$) có pH gần nhất là",
+          "dap_an": [
+            "$3{,}38$",
+            "$2$",
+            "$4{,}74$",
+            "$10{,}6$"
+          ],
+          "giai_thich": "$K_a = x^2/(0{,}01 - x)$ cho $x = [\\mathrm{H^+}] \\approx 4{,}15 \\cdot 10^{-4}$, pH $= 3{,}38$, độ phân li $\\alpha \\approx 4{,}15\\ \\%$. pH $=2$ là coi acid yếu phân li hoàn toàn; $14-\\mathrm{pH}$ là pOH.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.3; slide Chương 5, trang 24"
+        },
+        {
+          "id": "c5-02",
+          "hoi": "Với dung dịch acid yếu $\\mathrm{CH_3COOH}$ $0{,}01\\ \\mathrm{M}$, khi pha loãng 10 lần thì độ phân li $\\alpha$",
+          "dap_an": [
+            "Tăng lên (khoảng $\\sqrt{10}$ lần nếu $\\alpha$ nhỏ)",
+            "Giảm đi",
+            "Không đổi",
+            "Tăng đúng 10 lần"
+          ],
+          "giai_thich": "Theo định luật pha loãng Ostwald, $\\alpha \\approx \\sqrt{K_a/C}$ khi $\\alpha$ nhỏ, nên $C$ giảm 10 lần thì $\\alpha$ tăng khoảng $\\sqrt{10} \\approx 3{,}16$ lần, nhưng $[\\mathrm{H^+}]$ vẫn giảm.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.3; slide Chương 5, trang 25"
+        },
+        {
+          "id": "c5-03",
+          "hoi": "Dung dịch $\\mathrm{NH_4Cl}$ $0{,}05\\ \\mathrm{M}$ ($K_b(\\mathrm{NH_3}) = 1{,}8 \\cdot 10^{-5}$) có pH gần nhất là",
+          "dap_an": [
+            "$5{,}28$",
+            "$7$",
+            "$8{,}72$",
+            "$1{,}3$"
+          ],
+          "giai_thich": "$\\mathrm{NH_4^+}$ là acid liên hợp: $K_a = K_w/K_b = 5{,}56 \\cdot 10^{-10}$. $[\\mathrm{H^+}] \\approx \\sqrt{K_a C} = 5{,}27 \\cdot 10^{-6}$, pH $\\approx 5{,}28$. Muối của base yếu và acid mạnh cho môi trường acid; $14-\\mathrm{pH}$ là pOH.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.4; slide Chương 5, trang 29"
+        },
+        {
+          "id": "c5-04",
+          "hoi": "Muối nào sau đây khi hòa tan vào nước cho dung dịch có pH > 7?",
+          "dap_an": [
+            "$\\mathrm{CH_3COONa}$",
+            "$\\mathrm{NH_4Cl}$",
+            "$\\mathrm{NaCl}$",
+            "$\\mathrm{KNO_3}$"
+          ],
+          "giai_thich": "Anion $\\mathrm{CH_3COO^-}$ là base liên hợp của acid yếu nên thủy phân tạo $\\mathrm{OH^-}$. $\\mathrm{NH_4Cl}$ cho môi trường acid; $\\mathrm{NaCl}$ và $\\mathrm{KNO_3}$ (từ acid và base mạnh) trung tính.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.4; slide Chương 5, trang 28"
+        },
+        {
+          "id": "c5-05",
+          "hoi": "Dung dịch đệm gồm $0{,}1\\ \\mathrm{M\\ CH_3COOH}$ và $0{,}1\\ \\mathrm{M\\ CH_3COONa}$ ($\\mathrm{p}K_a = 4{,}74$). pH của dung dịch đệm là",
+          "dap_an": [
+            "$4{,}74$",
+            "$2{,}87$",
+            "$7{,}00$",
+            "$9{,}26$"
+          ],
+          "giai_thich": "Henderson–Hasselbalch: $\\mathrm{pH} = \\mathrm{p}K_a + \\log([\\mathrm{A^-}]/[\\mathrm{HA}]) = 4{,}74 + \\log 1 = 4{,}74$. $9{,}26$ là $14 - \\mathrm{p}K_a$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.5; slide Chương 5, trang 33"
+        },
+        {
+          "id": "c5-06",
+          "hoi": "Thêm $0{,}01$ mol HCl vào $1\\ \\mathrm{L}$ dung dịch đệm $0{,}1\\ \\mathrm{M\\ CH_3COOH}$ / $0{,}1\\ \\mathrm{M\\ CH_3COONa}$ (thể tích không đổi, $\\mathrm{p}K_a = 4{,}74$). pH mới gần nhất là",
+          "dap_an": [
+            "$4{,}65$",
+            "$4{,}83$",
+            "$2{,}00$",
+            "$4{,}74$"
+          ],
+          "giai_thich": "HCl phản ứng với $\\mathrm{CH_3COO^-}$ tạo $\\mathrm{CH_3COOH}$: muối còn $0{,}09$, acid thành $0{,}11$. $\\mathrm{pH} = 4{,}74 + \\log(0{,}09/0{,}11) \\approx 4{,}65$. Đổi tỉ số hoặc cộng thay vì trừ cho $4{,}83$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.5; slide Chương 5, trang 34"
+        },
+        {
+          "id": "c5-07",
+          "hoi": "Dung dịch đệm phosphate có $\\mathrm{p}K_{a2} = 7{,}21$ ($\\mathrm{H_2PO_4^-}/\\mathrm{HPO_4^{2-}}$). Để đệm có pH $= 7{,}4$ thì tỉ số $[\\mathrm{HPO_4^{2-}}]/[\\mathrm{H_2PO_4^-}]$ gần nhất là",
+          "dap_an": [
+            "$1{,}55$",
+            "$0{,}646$",
+            "$1$",
+            "$7{,}4/7{,}21$"
+          ],
+          "giai_thich": "$7{,}4 = 7{,}21 + \\log(\\text{base}/\\text{acid})$ nên tỉ số $= 10^{0{,}19} \\approx 1{,}55$. Đảo tỉ số cho $0{,}646$.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.5; slide Chương 5, trang 36"
+        },
+        {
+          "id": "c5-08",
+          "hoi": "Dung dịch đệm hoạt động hiệu quả nhất (khả năng đệm lớn nhất) khi",
+          "dap_an": [
+            "$\\mathrm{pH} \\approx \\mathrm{p}K_a$, nồng độ acid và base liên hợp xấp xỉ bằng nhau",
+            "$\\mathrm{pH} = 7$, với mọi hệ đệm đều có khả năng đệm lớn nhất tại đó",
+            "Chỉ chứa acid yếu mà không chứa base liên hợp của nó trong hệ",
+            "Base liên hợp có nồng độ gấp $100$ lần nồng độ của acid yếu"
+          ],
+          "giai_thich": "Khả năng đệm cực đại khi $[\\mathrm{A^-}] = [\\mathrm{HA}]$, tức $\\mathrm{pH} = \\mathrm{p}K_a$; vùng đệm hiệu quả là $\\mathrm{p}K_a \\pm 1$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.5; slide Chương 5, trang 35"
+        },
+        {
+          "id": "c5-09",
+          "hoi": "Độ tan của khí trong nước theo định luật Henry $C = k_H P$. Khi áp suất riêng phần của khí tăng gấp đôi (nhiệt độ không đổi) thì độ tan",
+          "dap_an": [
+            "Tăng gấp đôi",
+            "Giảm một nửa",
+            "Không đổi",
+            "Tăng gấp bốn"
+          ],
+          "giai_thich": "Độ tan tỉ lệ thuận với áp suất riêng phần của khí: $C = k_H P$, nên $P$ gấp đôi thì $C$ gấp đôi.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.1; slide Chương 5, trang 5"
+        },
+        {
+          "id": "c5-10",
+          "hoi": "Hòa tan $18\\ \\mathrm{g}$ glucose ($180{,}16\\ \\mathrm{g/mol}$) vào $100\\ \\mathrm{g}$ nước ở nhiệt độ có $P^\\circ_{\\mathrm{H_2O}} = 23{,}76\\ \\mathrm{mmHg}$. Áp suất hơi bão hòa của dung dịch (Raoult) gần nhất là",
+          "dap_an": [
+            "$23{,}34\\ \\mathrm{mmHg}$",
+            "$0{,}42\\ \\mathrm{mmHg}$",
+            "$24{,}18\\ \\mathrm{mmHg}$",
+            "$23{,}76\\ \\mathrm{mmHg}$"
+          ],
+          "giai_thich": "$n_{glu} = 0{,}0999$, $n_{H_2O} = 5{,}551$, $x_{H_2O} = 0{,}9823$. $P = x_{H_2O}P^\\circ \\approx 23{,}34\\ \\mathrm{mmHg}$, thấp hơn nước nguyên chất. Chất tan không bay hơi làm giảm áp suất hơi.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.2; slide Chương 5, trang 9"
+        },
+        {
+          "id": "c5-11",
+          "hoi": "Dung dịch đường (không điện li) $0{,}5\\ \\mathrm{mol/kg}$ trong nước có $K_b = 0{,}512\\ \\mathrm{^\\circ C \\cdot kg/mol}$. Nhiệt độ sôi ở $1\\ \\mathrm{atm}$ gần nhất là",
+          "dap_an": [
+            "$100{,}3\\ \\mathrm{^\\circ C}$",
+            "$99{,}74\\ \\mathrm{^\\circ C}$",
+            "$100{,}5\\ \\mathrm{^\\circ C}$",
+            "$0{,}256\\ \\mathrm{^\\circ C}$"
+          ],
+          "giai_thich": "$\\Delta T_b = K_b m = 0{,}512 \\times 0{,}5 = 0{,}256$ nên $T_b = 100{,}3\\ ^\\circ\\mathrm{C}$. Chất tan không bay hơi làm nhiệt độ sôi tăng.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.2; slide Chương 5, trang 11"
+        },
+        {
+          "id": "c5-12",
+          "hoi": "Dung dịch NaCl $0{,}1\\ \\mathrm{mol/kg}$ (điện li hoàn toàn, $i = 2$, $K_f = 1{,}86\\ \\mathrm{^\\circ C \\cdot kg/mol}$) bắt đầu đông đặc ở",
+          "dap_an": [
+            "$-0{,}372\\ \\mathrm{^\\circ C}$",
+            "$-0{,}186\\ \\mathrm{^\\circ C}$",
+            "$0{,}372\\ \\mathrm{^\\circ C}$",
+            "$-3{,}72\\ \\mathrm{^\\circ C}$"
+          ],
+          "giai_thich": "$\\Delta T_f = iK_f m = 2 \\times 1{,}86 \\times 0{,}1 = 0{,}372$, nên điểm đông đặc $= -0{,}372\\ ^\\circ\\mathrm{C}$. Quên hệ số $i$ cho $-0{,}186$.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.2; slide Chương 5, trang 12"
+        },
+        {
+          "id": "c5-13",
+          "hoi": "Áp suất thẩm thấu $\\Pi = CRT$ của dung dịch glucose $0{,}2\\ \\mathrm{M}$ ở $25\\ ^\\circ\\mathrm{C}$ gần nhất là",
+          "dap_an": [
+            "$4{,}89\\ \\mathrm{atm}$",
+            "$0{,}41\\ \\mathrm{atm}$",
+            "$24{,}5\\ \\mathrm{atm}$",
+            "$9{,}78\\ \\mathrm{atm}$"
+          ],
+          "giai_thich": "$\\Pi = CRT = 0{,}2 \\times 0{,}08206 \\times 298 \\approx 4{,}89\\ \\mathrm{atm}$ (dùng $T$ theo kelvin). Dùng $25$ thay vì $298\\ \\mathrm{K}$ cho kết quả sai nhiều.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.2; slide Chương 5, trang 14"
+        },
+        {
+          "id": "c5-14",
+          "hoi": "Trộn để có $[\\mathrm{Pb^{2+}}] = 0{,}0010$ và $[\\mathrm{I^-}] = 0{,}0010\\ \\mathrm{M}$ (giả sử). Với $K_{sp}(\\mathrm{PbI_2}) = 7{,}1 \\cdot 10^{-9}$, kết luận đúng là",
+          "dap_an": [
+            "$Q = 1 \\cdot 10^{-9} < K_{sp}$, chưa có kết tủa",
+            "$Q = 1 \\cdot 10^{-9} > K_{sp}$, có kết tủa",
+            "$Q = K_{sp}$, vừa bão hòa",
+            "Không so sánh được vì $\\mathrm{PbI_2}$ tan hoàn toàn"
+          ],
+          "giai_thich": "$Q = [\\mathrm{Pb^{2+}}][\\mathrm{I^-}]^2 = 10^{-3} \\times (10^{-3})^2 = 1 \\cdot 10^{-9} < 7{,}1 \\cdot 10^{-9}$: dung dịch chưa bão hòa, không kết tủa. Nhớ bình phương nồng độ $\\mathrm{I^-}$ theo hệ số.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.6; slide Chương 5, trang 42"
+        },
+        {
+          "id": "c5-15",
+          "hoi": "$K_{sp}(\\mathrm{AgCl}) = 1{,}8 \\cdot 10^{-10}$, $M = 143{,}32\\ \\mathrm{g/mol}$. Độ tan của AgCl trong nước tinh khiết (g/L) gần nhất là",
+          "dap_an": [
+            "$1{,}92 \\cdot 10^{-3}\\ \\mathrm{g/L}$",
+            "$1{,}34 \\cdot 10^{-5}\\ \\mathrm{g/L}$",
+            "$2{,}58 \\cdot 10^{-8}\\ \\mathrm{g/L}$",
+            "$3{,}85 \\cdot 10^{-3}\\ \\mathrm{g/L}$"
+          ],
+          "giai_thich": "$S = \\sqrt{K_{sp}} = 1{,}34 \\cdot 10^{-5}\\ \\mathrm{mol/L}$ nên $S = 1{,}34 \\cdot 10^{-5} \\times 143{,}32 \\approx 1{,}92 \\cdot 10^{-3}\\ \\mathrm{g/L}$ (slide ghi $1{,}87 \\cdot 10^{-3}$, chênh do làm tròn). Quên đổi sang g/L cho $1{,}34 \\cdot 10^{-5}$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.6; slide Chương 5, trang 44"
+        },
+        {
+          "id": "c5-16",
+          "hoi": "Độ tan của AgCl trong dung dịch $\\mathrm{AgNO_3}$ $0{,}1\\ \\mathrm{M}$ (mol/L) gần nhất là",
+          "dap_an": [
+            "$1{,}8 \\cdot 10^{-9}\\ \\mathrm{M}$",
+            "$1{,}34 \\cdot 10^{-5}\\ \\mathrm{M}$",
+            "$1{,}8 \\cdot 10^{-11}\\ \\mathrm{M}$",
+            "$0{,}1\\ \\mathrm{M}$"
+          ],
+          "giai_thich": "Hiệu ứng ion chung: $[\\mathrm{Cl^-}] = S$, $[\\mathrm{Ag^+}] \\approx 0{,}1$ nên $S = K_{sp}/0{,}1 = 1{,}8 \\cdot 10^{-9}\\ \\mathrm{M}$, nhỏ hơn nhiều so với trong nước.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.6; slide Chương 5, trang 45"
+        },
+        {
+          "id": "c5-17",
+          "hoi": "$\\mathrm{Ag_2CrO_4}$ có $K_{sp} = 1{,}1 \\cdot 10^{-12}$. Độ tan mol $S$ trong nước gần nhất là",
+          "dap_an": [
+            "$6{,}5 \\cdot 10^{-5}\\ \\mathrm{M}$",
+            "$1 \\cdot 10^{-6}\\ \\mathrm{M}$",
+            "$4{,}5 \\cdot 10^{-4}\\ \\mathrm{M}$",
+            "$2{,}8 \\cdot 10^{-13}\\ \\mathrm{M}$"
+          ],
+          "giai_thich": "$K_{sp} = [\\mathrm{Ag^+}]^2[\\mathrm{CrO_4^{2-}}] = (2S)^2 S = 4S^3$ nên $S = (K_{sp}/4)^{1/3} \\approx 6{,}5 \\cdot 10^{-5}\\ \\mathrm{M}$. $\\sqrt{K_{sp}}$ chỉ đúng cho muối $1\\!:\\!1$.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.6; slide Chương 5, trang 46"
+        },
+        {
+          "id": "c5-18",
+          "hoi": "Thêm dung dịch $\\mathrm{NH_3}$ đặc vào kết tủa AgCl thì kết tủa tan ra do",
+          "dap_an": [
+            "Tạo phức tan $[\\mathrm{Ag(NH_3)_2}]^+$ làm giảm $[\\mathrm{Ag^+}]$",
+            "$\\mathrm{NH_3}$ làm tăng $K_{sp}$ của AgCl",
+            "Hiệu ứng ion chung với $\\mathrm{Cl^-}$",
+            "Phản ứng oxi hóa–khử tạo $\\mathrm{Ag}$"
+          ],
+          "giai_thich": "$\\mathrm{Ag^+}$ tạo phức bền với $\\mathrm{NH_3}$, kéo cân bằng hòa tan sang phải. $K_{sp}$ chỉ đổi theo nhiệt độ.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.7; slide Chương 5, trang 49"
+        },
+        {
+          "id": "c5-19",
+          "hoi": "Cặp acid–base liên hợp nào sau đây đúng?",
+          "dap_an": [
+            "$\\mathrm{NH_4^+}/\\mathrm{NH_3}$",
+            "$\\mathrm{H_2SO_4}/\\mathrm{SO_4^{2-}}$",
+            "$\\mathrm{H_3O^+}/\\mathrm{OH^-}$",
+            "$\\mathrm{HCl}/\\mathrm{Cl_2}$"
+          ],
+          "giai_thich": "Cặp liên hợp hơn kém nhau đúng một $\\mathrm{H^+}$: $\\mathrm{NH_4^+}$ cho $\\mathrm{H^+}$ thành $\\mathrm{NH_3}$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.1; slide Chương 5, trang 3"
+        },
+        {
+          "id": "c5-20",
+          "hoi": "Ở $25\\ ^\\circ\\mathrm{C}$, dung dịch có $[\\mathrm{OH^-}] = 1 \\cdot 10^{-3}\\ \\mathrm{M}$ có pH là",
+          "dap_an": [
+            "$11$",
+            "$3$",
+            "$10$",
+            "$12$"
+          ],
+          "giai_thich": "$\\mathrm{pOH} = 3$ nên $\\mathrm{pH} = 14 - 3 = 11$ (vì $K_w = 10^{-14}$). Nhầm với $\\mathrm{pOH}$ cho $3$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.1; slide Chương 5, trang 4"
+        },
+        {
+          "id": "c5-21",
+          "hoi": "Chuẩn độ $25\\ \\mathrm{mL}$ $\\mathrm{CH_3COOH}$ $0{,}1\\ \\mathrm{M}$ bằng NaOH $0{,}1\\ \\mathrm{M}$. Tại điểm tương đương, pH",
+          "dap_an": [
+            "Lớn hơn 7, vì muối $\\mathrm{CH_3COONa}$ tạo thành thủy phân cho môi trường base",
+            "Bằng 7, vì acid và base đã trung hòa nhau hoàn toàn tại điểm này",
+            "Nhỏ hơn 7, vì trong dung dịch vẫn còn dư một lượng acid yếu",
+            "Bằng $\\mathrm{p}K_a$ của acid, vì lúc này hai dạng có nồng độ bằng nhau"
+          ],
+          "giai_thich": "Tại điểm tương đương chỉ còn $\\mathrm{CH_3COO^-}$ là base yếu nên pH $\\approx 8{,}7$. pH $= \\mathrm{p}K_a$ tại điểm nửa tương đương, không phải tại điểm tương đương.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.8; slide Chương 5, trang 54"
+        },
+        {
+          "id": "c5-22",
+          "hoi": "Chuẩn độ acid yếu bằng base mạnh, tại điểm nửa tương đương (đã thêm một nửa lượng base cần), pH bằng",
+          "dap_an": [
+            "$\\mathrm{p}K_a$ của acid",
+            "7",
+            "$14 - \\mathrm{p}K_a$",
+            "$\\mathrm{p}K_a + 1$"
+          ],
+          "giai_thich": "Khi một nửa acid đã đổi thành base liên hợp thì $[\\mathrm{A^-}] = [\\mathrm{HA}]$ nên $\\mathrm{pH} = \\mathrm{p}K_a + \\log 1 = \\mathrm{p}K_a$ (ví dụ $4{,}74$ với acid acetic).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.8; slide Chương 5, trang 53"
+        },
+        {
+          "id": "c5-23",
+          "hoi": "Một dung dịch có pH $= 4$. Nồng độ $[\\mathrm{OH^-}]$ ở $25\\ ^\\circ\\mathrm{C}$ là",
+          "dap_an": [
+            "$1 \\cdot 10^{-10}\\ \\mathrm{M}$",
+            "$1 \\cdot 10^{-4}\\ \\mathrm{M}$",
+            "$1 \\cdot 10^{-14}\\ \\mathrm{M}$",
+            "$4 \\cdot 10^{-10}\\ \\mathrm{M}$"
+          ],
+          "giai_thich": "$[\\mathrm{H^+}] = 10^{-4}$ nên $[\\mathrm{OH^-}] = K_w/[\\mathrm{H^+}] = 10^{-14}/10^{-4} = 10^{-10}\\ \\mathrm{M}$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.1; slide Chương 5, trang 4"
+        },
+        {
+          "id": "c5-24",
+          "hoi": "Dung dịch $\\mathrm{NH_3}$ $0{,}1\\ \\mathrm{M}$ ($K_b = 1{,}8 \\cdot 10^{-5}$) có pH gần nhất là",
+          "dap_an": [
+            "$11{,}1$",
+            "$2{,}88$",
+            "$13{,}00$",
+            "$1{,}00$"
+          ],
+          "giai_thich": "$K_b = x^2/(0{,}1 - x)$ cho $[\\mathrm{OH^-}] = x \\approx 1{,}33 \\cdot 10^{-3}$, $\\mathrm{pOH} = 2{,}88$ và pH $= 14 - \\mathrm{pOH} \\approx 11{,}1$. Quên đổi pOH sang pH cho $2{,}88$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.3; slide Chương 5, trang 26"
+        },
+        {
+          "id": "c5-25",
+          "hoi": "Nồng độ $[\\mathrm{Ag^+}]$ tối thiểu để bắt đầu kết tủa AgCl từ dung dịch $[\\mathrm{Cl^-}] = 0{,}01\\ \\mathrm{M}$ ($K_{sp} = 1{,}8 \\cdot 10^{-10}$) là",
+          "dap_an": [
+            "$1{,}8 \\cdot 10^{-8}\\ \\mathrm{M}$",
+            "$1{,}8 \\cdot 10^{-12}\\ \\mathrm{M}$",
+            "$1{,}3 \\cdot 10^{-5}\\ \\mathrm{M}$",
+            "$1{,}8 \\cdot 10^{-10}\\ \\mathrm{M}$"
+          ],
+          "giai_thich": "$\\mathrm{AgCl}$ kết tủa khi $[\\mathrm{Ag^+}][\\mathrm{Cl^-}] > K_{sp}$, nên $[\\mathrm{Ag^+}] > 1{,}8 \\cdot 10^{-10}/0{,}01 = 1{,}8 \\cdot 10^{-8}\\ \\mathrm{M}$.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.6; slide Chương 5, trang 43"
+        },
+        {
+          "id": "c5-26",
+          "hoi": "Hòa tan $\\mathrm{NaCl}$ vào dung dịch bão hòa $\\mathrm{AgCl}$ thì lượng AgCl rắn",
+          "dap_an": [
+            "Kết tủa tăng thêm do hiệu ứng ion chung làm giảm độ tan của AgCl",
+            "Kết tủa giảm đi do hằng số $K_{sp}$ của AgCl giảm xuống",
+            "Kết tủa không đổi vì NaCl không có liên quan đến cân bằng này",
+            "Kết tủa tan thêm vì $\\mathrm{Cl^-}$ tạo phức tan với $\\mathrm{Ag^+}$"
+          ],
+          "giai_thich": "$\\mathrm{Cl^-}$ thêm vào đẩy cân bằng $\\mathrm{AgCl(s) \\rightleftharpoons Ag^+ + Cl^-}$ sang trái nên AgCl kết tủa thêm; $K_{sp}$ không đổi ở nhiệt độ cố định.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.6; slide Chương 5, trang 45"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "nhom": "Bài giảng",
+      "ten": "Chương 6 - Điện hóa học",
+      "cau": [
+        {
+          "id": "c6-01",
+          "hoi": "Trong pin Galvani, quá trình oxi hóa xảy ra ở điện cực nào và đó là điện cực mang dấu nào?",
+          "dap_an": [
+            "Anode, là cực âm",
+            "Cathode, là cực âm",
+            "Anode, là cực dương",
+            "Cathode, là cực dương"
+          ],
+          "giai_thich": "Ở pin Galvani, anode là nơi xảy ra oxi hóa, electron đi ra mạch ngoài nên là cực âm; cathode xảy ra khử, là cực dương. (Ở bình điện phân, dấu hai cực đảo lại.)",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1; slide Chương 6, trang 4"
+        },
+        {
+          "id": "c6-02",
+          "hoi": "Pin Daniell $\\mathrm{Zn|Zn^{2+}(1\\,M)||Cu^{2+}(1\\,M)|Cu}$ với $E^\\circ(\\mathrm{Cu^{2+}/Cu}) = +0{,}34\\ \\mathrm{V}$, $E^\\circ(\\mathrm{Zn^{2+}/Zn}) = -0{,}76\\ \\mathrm{V}$ có suất điện động chuẩn",
+          "dap_an": [
+            "$1{,}1\\ \\mathrm{V}$",
+            "$-0{,}42\\ \\mathrm{V}$",
+            "$-1{,}1\\ \\mathrm{V}$",
+            "$0{,}72\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "$E^\\circ_{pin} = E^\\circ_{cathode} - E^\\circ_{anode} = 0{,}34 - (-0{,}76) = 1{,}1\\ \\mathrm{V}$. Không nhân hệ số vào $E^\\circ$ vì đây là đại lượng cường độ.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2; slide Chương 6, trang 12"
+        },
+        {
+          "id": "c6-03",
+          "hoi": "Biết $E^\\circ(\\mathrm{Ag^+/Ag}) = 0{,}80\\ \\mathrm{V}$ và $E^\\circ(\\mathrm{Zn^{2+}/Zn}) = -0{,}76\\ \\mathrm{V}$. Phát biểu đúng là",
+          "dap_an": [
+            "$\\mathrm{Zn}$ khử được $\\mathrm{Ag^+}$ vì $E^\\circ$ của Ag cao hơn",
+            "$\\mathrm{Ag}$ khử được $\\mathrm{Zn^{2+}}$",
+            "$\\mathrm{Zn^{2+}}$ là chất oxi hóa mạnh hơn $\\mathrm{Ag^+}$",
+            "Không có phản ứng xảy ra giữa hai cặp"
+          ],
+          "giai_thich": "$E^\\circ$ càng lớn thì dạng oxi hóa càng mạnh, dạng khử càng yếu. $\\mathrm{Ag^+}$ oxi hóa $\\mathrm{Zn}$ thành $\\mathrm{Zn^{2+}}$, $E^\\circ_{pin} = 0{,}80 + 0{,}76 = 1{,}56\\ \\mathrm{V} > 0$.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2; slide Chương 6, trang 14"
+        },
+        {
+          "id": "c6-04",
+          "hoi": "Với $n = 2$, $E^\\circ_{pin} = 1{,}10\\ \\mathrm{V}$ và $F = 96485\\ \\mathrm{C/mol}$, $\\Delta G^\\circ$ của phản ứng pin Daniell là",
+          "dap_an": [
+            "$-212{,}3\\ \\mathrm{kJ}$",
+            "$-106{,}1\\ \\mathrm{kJ}$",
+            "$212{,}3\\ \\mathrm{kJ}$",
+            "$-2{,}123 \\cdot 10^{5}\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "$\\Delta G^\\circ = -nFE^\\circ = -2 \\times 96485 \\times 1{,}10 \\approx -2{,}123 \\cdot 10^{5}\\ \\mathrm{J} = -212{,}3\\ \\mathrm{kJ}$. Quên $n$ cho $-106$; $\\Delta G^\\circ < 0$ khi $E^\\circ > 0$ (phản ứng tự diễn ra).",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.3; slide Chương 6, trang 21"
+        },
+        {
+          "id": "c6-05",
+          "hoi": "Pin $\\mathrm{Cu|Cu^{2+}(1\\,M)||Ag^+(1\\,M)|Ag}$ với $E^\\circ(\\mathrm{Ag^+/Ag}) = 0{,}80\\ \\mathrm{V}$, $E^\\circ(\\mathrm{Cu^{2+}/Cu}) = 0{,}34\\ \\mathrm{V}$ có $E^\\circ_{pin}$ và hằng số cân bằng $K$ ở $298\\ \\mathrm{K}$ ($n = 2$) là",
+          "dap_an": [
+            "$E^\\circ = 0{,}46\\ \\mathrm{V}$, $K \\approx 3{,}6 \\cdot 10^{15}$",
+            "$E^\\circ = 0{,}46\\ \\mathrm{V}$, $K \\approx 6 \\cdot 10^{7}$",
+            "$E^\\circ = 1{,}14\\ \\mathrm{V}$, $K \\approx 3{,}5 \\cdot 10^{38}$",
+            "$E^\\circ = -0{,}46\\ \\mathrm{V}$, $K \\approx 2{,}8 \\cdot 10^{-16}$"
+          ],
+          "giai_thich": "$E^\\circ = 0{,}80 - 0{,}34 = 0{,}46\\ \\mathrm{V}$. $\\log K = nE^\\circ/0{,}05916 = 2 \\times 0{,}46/0{,}05916 = 15{,}55$ nên $K \\approx 3{,}6 \\cdot 10^{15}$. Bỏ $n$ cho $K$ nhỏ hơn rất nhiều.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.3; slide Chương 6, trang 23"
+        },
+        {
+          "id": "c6-06",
+          "hoi": "Pin Daniell có $[\\mathrm{Zn^{2+}}] = 1{,}0\\ \\mathrm{M}$ và $[\\mathrm{Cu^{2+}}] = 0{,}001\\ \\mathrm{M}$ ($E^\\circ = 1{,}10\\ \\mathrm{V}$, $n = 2$, $298\\ \\mathrm{K}$). Suất điện động $E$ gần nhất là",
+          "dap_an": [
+            "$1{,}01\\ \\mathrm{V}$",
+            "$1{,}19\\ \\mathrm{V}$",
+            "$1{,}1\\ \\mathrm{V}$",
+            "$0{,}923\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "$Q = [\\mathrm{Zn^{2+}}]/[\\mathrm{Cu^{2+}}] = 1/0{,}001 = 10^3$. Nernst: $E = E^\\circ - \\dfrac{0{,}05916}{n}\\log Q = 1{,}10 - 0{,}02958 \\times 3 \\approx 1{,}01\\ \\mathrm{V}$. Pha loãng $\\mathrm{Cu^{2+}}$ (tác chất) làm $E$ giảm.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.4; slide Chương 6, trang 28"
+        },
+        {
+          "id": "c6-07",
+          "hoi": "Với phương trình Nernst ở $298\\ \\mathrm{K}$, hệ số $\\dfrac{RT}{F}\\ln \\to \\dfrac{0{,}05916}{n}\\log$ có được nhờ",
+          "dap_an": [
+            "Đổi $\\ln$ sang $\\log_{10}$ và thay $R$, $T = 298\\ \\mathrm{K}$, $F$ bằng giá trị số",
+            "Giả định $n = 1$ cho mọi phản ứng oxi hóa–khử đang xét trong pin",
+            "Đổi nhiệt độ $T$ sang thang độ C trước khi thay vào công thức",
+            "Bỏ qua hệ số hoạt độ và cho rằng nhiệt độ không ảnh hưởng đến $E$"
+          ],
+          "giai_thich": "$\\dfrac{RT}{F} \\times 2{,}303 = \\dfrac{8{,}314 \\times 298 \\times 2{,}303}{96485} \\approx 0{,}05916\\ \\mathrm{V}$; $n$ vẫn xuất hiện ở mẫu.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.4; slide Chương 6, trang 27"
+        },
+        {
+          "id": "c6-08",
+          "hoi": "Điện cực hydro $\\mathrm{2H^+ + 2e^- \\rightarrow H_2}$ ($P_{\\mathrm{H_2}} = 1\\ \\mathrm{atm}$) ở pH $= 3$ ($298\\ \\mathrm{K}$) có điện thế",
+          "dap_an": [
+            "$-0{,}177\\ \\mathrm{V}$",
+            "$0{,}177\\ \\mathrm{V}$",
+            "$0\\ \\mathrm{V}$",
+            "$-0{,}0887\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "$E = 0 - \\dfrac{0{,}05916}{2}\\log\\dfrac{1}{[\\mathrm{H^+}]^2} = -0{,}05916\\ \\mathrm{pH} = -0{,}05916 \\times 3 \\approx -0{,}177\\ \\mathrm{V}$ (theo thang điện cực hydro chuẩn).",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.4; slide Chương 6, trang 30"
+        },
+        {
+          "id": "c6-09",
+          "hoi": "Ở pin nồng độ $\\mathrm{Ag|Ag^+(0{,}01\\,M)||Ag^+(1\\,M)|Ag}$, nhận xét đúng là",
+          "dap_an": [
+            "Cực có $\\mathrm{Ag^+}$ đậm đặc hơn là cathode; $E^\\circ = 0$ nhưng $E > 0$",
+            "Cực có $\\mathrm{Ag^+}$ loãng hơn là cathode; $E^\\circ = 0$ nhưng $E > 0$",
+            "Pin không sinh dòng điện vì cả hai cực đều làm bằng cùng kim loại",
+            "Pin có $E^\\circ \\neq 0$ vì nồng độ hai dung dịch ở hai cực khác nhau"
+          ],
+          "giai_thich": "Hai nửa pin cùng cặp nên $E^\\circ = 0$. Chỉ chênh nồng độ: $E = 0{,}05916\\log(1/0{,}01) = 0{,}118\\ \\mathrm{V}$; $\\mathrm{Ag^+}$ đậm đặc bị khử (cathode), cực loãng bị oxi hóa.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.4; slide Chương 6, trang 31"
+        },
+        {
+          "id": "c6-10",
+          "hoi": "Trong bình điện phân, cathode là cực",
+          "dap_an": [
+            "Âm, tại đó xảy ra sự khử",
+            "Dương, tại đó xảy ra sự khử",
+            "Âm, tại đó xảy ra sự oxi hóa",
+            "Dương, tại đó xảy ra sự oxi hóa"
+          ],
+          "giai_thich": "Điện phân cưỡng bức bằng nguồn ngoài: cathode nối cực âm nguồn, xảy ra khử; anode nối cực dương, xảy ra oxi hóa. Luôn đúng: cathode là khử.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.5; slide Chương 6, trang 36"
+        },
+        {
+          "id": "c6-11",
+          "hoi": "Điện phân dung dịch $\\mathrm{AgNO_3}$ với dòng $1{,}5\\ \\mathrm{A}$ trong $30$ phút. Khối lượng Ag bám lên cathode ($M = 107{,}87$, $F = 96485$) gần nhất là",
+          "dap_an": [
+            "$3{,}02\\ \\mathrm{g}$",
+            "$6{,}04\\ \\mathrm{g}$",
+            "$0{,}0503\\ \\mathrm{g}$",
+            "$0{,}028\\ \\mathrm{g}$"
+          ],
+          "giai_thich": "$q = It = 1{,}5 \\times 1800 = 2700\\ \\mathrm{C}$, $n_e = q/F = 0{,}02798$, $m = n_e \\times 107{,}87/1 \\approx 3{,}02\\ \\mathrm{g}$ (Ag$^+$ nhận $1\\ e^-$). Quên đổi phút ra giây cho kết quả nhỏ 60 lần.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.5; slide Chương 6, trang 39"
+        },
+        {
+          "id": "c6-12",
+          "hoi": "Dòng $2{,}0\\ \\mathrm{A}$ chạy $1$ giờ qua dung dịch $\\mathrm{CuSO_4}$. Khối lượng Cu ($M = 63{,}55$) thu được ở cathode gần nhất là",
+          "dap_an": [
+            "$2{,}37\\ \\mathrm{g}$",
+            "$4{,}74\\ \\mathrm{g}$",
+            "$1{,}19\\ \\mathrm{g}$",
+            "$142\\ \\mathrm{g}$"
+          ],
+          "giai_thich": "$q = 2 \\times 3600 = 7200\\ \\mathrm{C}$, $n_e = 0{,}07462$, $n_{Cu} = n_e/2$, $m = 2{,}37\\ \\mathrm{g}$ (Cu$^{2+}$ nhận $2\\ e^-$). Quên chia $2$ cho kết quả gấp đôi.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.5; slide Chương 6, trang 40"
+        },
+        {
+          "id": "c6-13",
+          "hoi": "Điện phân dung dịch NaCl bằng dòng $5\\ \\mathrm{A}$. Thời gian để thu được $0{,}0933\\ \\mathrm{mol\\ Cl_2}$ ở anode gần nhất là",
+          "dap_an": [
+            "$60\\ \\mathrm{min}$",
+            "$30\\ \\mathrm{min}$",
+            "$120\\ \\mathrm{min}$",
+            "$3601\\ \\mathrm{min}$"
+          ],
+          "giai_thich": "$2\\mathrm{Cl^-} \\rightarrow \\mathrm{Cl_2} + 2e^-$ nên $n_e = 2 \\times 0{,}0933$, $t = n_e F/I = 3601\\ \\mathrm{s} \\approx 60\\ \\mathrm{min}$.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.5; slide Chương 6, trang 41"
+        },
+        {
+          "id": "c6-14",
+          "hoi": "Trong dãy hoạt động điện hóa, kim loại nào sau đây khử được $\\mathrm{Cu^{2+}}$ trong dung dịch ($E^\\circ_{\\mathrm{Cu^{2+}/Cu}} = +0{,}34\\ \\mathrm{V}$)?",
+          "dap_an": [
+            "$\\mathrm{Fe}$ ($E^\\circ = -0{,}44\\ \\mathrm{V}$)",
+            "$\\mathrm{Ag}$ ($E^\\circ = +0{,}80\\ \\mathrm{V}$)",
+            "$\\mathrm{Au}$ ($E^\\circ = +1{,}50\\ \\mathrm{V}$)",
+            "$\\mathrm{Hg}$ ($E^\\circ = +0{,}85\\ \\mathrm{V}$)"
+          ],
+          "giai_thich": "Chỉ kim loại có $E^\\circ$ thấp hơn cặp $\\mathrm{Cu^{2+}/Cu}$ mới bị $\\mathrm{Cu^{2+}}$ oxi hóa. Các kim loại còn lại có $E^\\circ$ cao hơn nên không phản ứng.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2; slide Chương 6, trang 15"
+        },
+        {
+          "id": "c6-15",
+          "hoi": "Phản ứng $\\mathrm{Cr_2O_7^{2-} + 6Fe^{2+} + 14H^+ \\rightarrow 2Cr^{3+} + 6Fe^{3+} + 7H_2O}$ có $n = 6$, $E^\\circ(\\mathrm{Cr_2O_7^{2-}/Cr^{3+}}) = 1{,}33\\ \\mathrm{V}$, $E^\\circ(\\mathrm{Fe^{3+}/Fe^{2+}}) = 0{,}77\\ \\mathrm{V}$. Giá trị $\\log K$ ở $298\\ \\mathrm{K}$ gần nhất là",
+          "dap_an": [
+            "$56{,}8$",
+            "$9{,}47$",
+            "$18{,}9$",
+            "$-56{,}8$"
+          ],
+          "giai_thich": "$E^\\circ_{pin} = 1{,}33 - 0{,}77 = 0{,}56\\ \\mathrm{V}$; $\\log K = nE^\\circ/0{,}05916 = 6 \\times 0{,}56/0{,}05916 \\approx 56{,}8$. Phải dùng $n = 6$ electron trao đổi (không phải hệ số $\\mathrm{Cr_2O_7^{2-}}$).",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.3 (Ví dụ); slide Chương 6, trang 24"
+        },
+        {
+          "id": "c6-16",
+          "hoi": "Ý nghĩa của dấu $E^\\circ_{pin}$ đối với phản ứng tổng cộng ở điều kiện chuẩn là",
+          "dap_an": [
+            "$E^\\circ_{pin} > 0$ thì phản ứng tự xảy ra theo chiều viết, $\\Delta G^\\circ < 0$",
+            "$E^\\circ_{pin} > 0$ thì phản ứng không tự xảy ra, $\\Delta G^\\circ > 0$",
+            "$E^\\circ_{pin} = 0$ thì pin có suất điện động cực đại ở mọi nồng độ",
+            "$E^\\circ_{pin} < 0$ thì hằng số cân bằng $K$ của phản ứng lớn hơn 1"
+          ],
+          "giai_thich": "Từ $\\Delta G^\\circ = -nFE^\\circ = -RT\\ln K$: $E^\\circ > 0 \\Leftrightarrow \\Delta G^\\circ < 0 \\Leftrightarrow K > 1$.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.3; slide Chương 6, trang 22"
+        },
+        {
+          "id": "c6-17",
+          "hoi": "Cặp oxi hóa–khử nào có dạng oxi hóa mạnh nhất (khử mạnh nhất về phía chất oxi hóa) trong các cặp: $\\mathrm{MnO_4^-/Mn^{2+}}$ ($1{,}51$), $\\mathrm{Cr_2O_7^{2-}/Cr^{3+}}$ ($1{,}33$), $\\mathrm{Fe^{3+}/Fe^{2+}}$ ($0{,}77$), $\\mathrm{I_2/I^-}$ ($0{,}54$)?",
+          "dap_an": [
+            "$\\mathrm{MnO_4^-}$",
+            "$\\mathrm{Cr_2O_7^{2-}}$",
+            "$\\mathrm{Fe^{3+}}$",
+            "$\\mathrm{I_2}$"
+          ],
+          "giai_thich": "Dạng oxi hóa có $E^\\circ$ càng lớn thì càng dễ bị khử, nên là chất oxi hóa càng mạnh: $1{,}51\\ \\mathrm{V}$ của $\\mathrm{MnO_4^-}$ là cao nhất.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2; slide Chương 6, trang 14"
+        },
+        {
+          "id": "c6-18",
+          "hoi": "Ở pin Galvani đang hoạt động, cầu muối có tác dụng",
+          "dap_an": [
+            "Trung hòa điện tích hai nửa pin và khép kín mạch nhờ ion di chuyển",
+            "Cho electron chảy trực tiếp từ dung dịch này sang dung dịch kia",
+            "Làm tăng giá trị suất điện động chuẩn $E^\\circ$ của pin lên cao hơn",
+            "Làm giảm nồng độ các ion ở cả hai cực của pin trong lúc hoạt động"
+          ],
+          "giai_thich": "Electron chạy qua dây dẫn ngoài; cầu muối cho ion di chuyển để cân bằng điện tích tích tụ ở hai nửa pin và khép kín mạch.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1; slide Chương 6, trang 6"
+        },
+        {
+          "id": "c6-19",
+          "hoi": "Khi pin Daniell phóng điện lâu dài thì suất điện động $E$",
+          "dap_an": [
+            "Giảm dần đến $0$ khi hệ đạt cân bằng $Q = K$",
+            "Tăng dần vì lượng sản phẩm trong hai nửa pin tăng lên",
+            "Không đổi vì $E^\\circ$ là hằng số ở nhiệt độ cố định",
+            "Đổi dấu rồi tăng dần theo chiều ngược lại của phản ứng"
+          ],
+          "giai_thich": "Theo Nernst, $Q$ tăng dần trong lúc phóng điện cho tới $Q = K$, lúc đó $E = 0$ và $\\Delta G = 0$ (pin \"hết\").",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.4; slide Chương 6, trang 29"
+        },
+        {
+          "id": "c6-20",
+          "hoi": "Pin Ni–Ag: $E^\\circ(\\mathrm{Ni^{2+}/Ni}) = -0{,}28\\ \\mathrm{V}$, $E^\\circ(\\mathrm{Ag^+/Ag}) = 0{,}80\\ \\mathrm{V}$. Phương trình pin và $E^\\circ$ đúng là",
+          "dap_an": [
+            "$\\mathrm{Ni + 2Ag^+ \\rightarrow Ni^{2+} + 2Ag}$, $E^\\circ = 1{,}08\\ \\mathrm{V}$",
+            "$\\mathrm{Ni + Ag^+ \\rightarrow Ni^{2+} + Ag}$, $E^\\circ = 1{,}08\\ \\mathrm{V}$",
+            "$\\mathrm{Ni + 2Ag^+ \\rightarrow Ni^{2+} + 2Ag}$, $E^\\circ = 0{,}52\\ \\mathrm{V}$",
+            "$\\mathrm{Ag + Ni^{2+} \\rightarrow Ag^+ + Ni}$, $E^\\circ = 1{,}08\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Ni bị oxi hóa (anode), Ag$^+$ bị khử (cathode): $E^\\circ = 0{,}80 - (-0{,}28) = 1{,}08\\ \\mathrm{V}$. Cân bằng electron cần $2\\ \\mathrm{Ag^+}$ cho mỗi Ni; không nhân hệ số vào $E^\\circ$.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2; slide Chương 6, trang 13"
+        },
+        {
+          "id": "c6-21",
+          "hoi": "Trong điện phân dung dịch $\\mathrm{CuSO_4}$ với điện cực trơ, sản phẩm ở anode chủ yếu là",
+          "dap_an": [
+            "$\\mathrm{O_2}$ (nước bị oxi hóa)",
+            "$\\mathrm{Cu}$",
+            "$\\mathrm{H_2}$",
+            "$\\mathrm{SO_2}$"
+          ],
+          "giai_thich": "Anion $\\mathrm{SO_4^{2-}}$ không bị oxi hóa trong nước; ở anode là $2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H^+} + 4e^-$. Cu tạo ra ở cathode.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.5; slide Chương 6, trang 37"
+        },
+        {
+          "id": "c6-22",
+          "hoi": "Biết $E^\\circ_{pin} = +0{,}30\\ \\mathrm{V}$ cho phản ứng có $n = 1$. Hằng số cân bằng $K$ ở $298\\ \\mathrm{K}$ gần nhất là",
+          "dap_an": [
+            "$1{,}2 \\cdot 10^{5}$",
+            "$1{,}4 \\cdot 10^{10}$",
+            "$8{,}5 \\cdot 10^{-6}$",
+            "$5{,}1$"
+          ],
+          "giai_thich": "$\\log K = nE^\\circ/0{,}05916 = 0{,}30/0{,}05916 = 5{,}07$ nên $K \\approx 1{,}2 \\cdot 10^{5}$.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.3; slide Chương 6, trang 23"
+        },
+        {
+          "id": "c6-23",
+          "hoi": "Một pin có $E = 0$ khi hoạt động thì",
+          "dap_an": [
+            "Hệ đã đạt cân bằng ($Q = K$), $\\Delta G = 0$",
+            "Pin vẫn cung cấp công cực đại",
+            "$E^\\circ = 0$ và $Q = 1$ luôn đúng",
+            "Phản ứng pin chuyển sang chiều ngược"
+          ],
+          "giai_thich": "$E = 0 \\Leftrightarrow \\Delta G = -nFE = 0 \\Leftrightarrow Q = K$. $E^\\circ$ có thể vẫn khác $0$.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.4; slide Chương 6, trang 29"
+        }
+      ]
+    }
+  ]
+}

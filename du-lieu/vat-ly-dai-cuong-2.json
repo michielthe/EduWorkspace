@@ -1,0 +1,996 @@
+{
+  "mon": "Vật lý đại cương 2",
+  "ma_mon": "vat-ly-dai-cuong-2",
+  "phien_ban": 1,
+  "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Chương 1 - Tĩnh điện trường trong chân không",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Hai điện tích điểm $q_1 = 2\\ \\mu\\mathrm{C}$ và $q_2 = 3\\ \\mu\\mathrm{C}$ đặt trong chân không cách nhau $30\\ \\mathrm{cm}$. Độ lớn lực tĩnh điện giữa chúng là bao nhiêu?",
+          "dap_an": [
+            "$0{,}6\\ \\mathrm{N}$",
+            "$0{,}18\\ \\mathrm{N}$",
+            "$6000\\ \\mathrm{N}$",
+            "$0{,}3\\ \\mathrm{N}$"
+          ],
+          "giai_thich": "Đổi $r = 0{,}3\\ \\mathrm{m}$ và $q$ sang culông: $F = k\\frac{|q_1q_2|}{r^2} = 9 \\cdot 10^{9}\\frac{2 \\cdot 10^{-6} \\cdot 3 \\cdot 10^{-6}}{0{,}3^2} = 0{,}6\\ \\mathrm{N}$. Quên bình phương khoảng cách cho $1{,}8\\ \\mathrm{N}$; để $r$ bằng $30$ (đơn vị cm) mà không đổi sang mét cho kết quả sai hàng nghìn lần.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2, Định luật Coulomb; slide Chương 1, trang 18"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Khoảng cách giữa hai điện tích điểm tăng lên gấp đôi (độ lớn điện tích không đổi, cùng môi trường). Lực tĩnh điện giữa chúng thay đổi thế nào?",
+          "dap_an": [
+            "Giảm 4 lần",
+            "Giảm 2 lần",
+            "Tăng 2 lần",
+            "Giảm 8 lần"
+          ],
+          "giai_thich": "Lực Coulomb tỉ lệ nghịch với bình phương khoảng cách: $F \\sim 1/r^2$, nên khi $r$ tăng gấp đôi thì $F$ giảm $2^2 = 4$ lần.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2, Định luật Coulomb; slide Chương 1, trang 18"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Trong nguyên tử hydro, electron và proton cách nhau $5{,}3 \\cdot 10^{-11}\\ \\mathrm{m}$. Lực tĩnh điện giữa chúng khoảng bao nhiêu lần lớn hơn lực hấp dẫn?",
+          "dap_an": [
+            "Khoảng $10^{39}$ lần",
+            "Khoảng $10^{9}$ lần",
+            "Khoảng $10^{19}$ lần",
+            "Khoảng $10^{-39}$ lần (lực điện nhỏ hơn)"
+          ],
+          "giai_thich": "Lực điện $F = k e^2/r^2 \\approx 8{,}2 \\cdot 10^{-8}\\ \\mathrm{N}$ còn lực hấp dẫn $G m_e m_p/r^2 \\approx 3{,}6 \\cdot 10^{-47}\\ \\mathrm{N}$, tỉ số khoảng $2 \\cdot 10^{39}$, nên lực hấp dẫn bỏ qua được so với lực điện.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.6; slide Chương 1, trang 18"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Hai điện tích $q_1 = 24\\ \\mu\\mathrm{C}$ tại $x = 3\\ \\mathrm{m}$ và $q_2 = 6\\ \\mu\\mathrm{C}$ tại gốc toạ độ. Điện tích $q_3$ đặt ở đâu trên trục $x$ để hợp lực lên nó bằng 0?",
+          "dap_an": [
+            "$x = 1\\ \\mathrm{m}$",
+            "$x = 1{,}5\\ \\mathrm{m}$",
+            "$x = 2\\ \\mathrm{m}$",
+            "$x = -1\\ \\mathrm{m}$"
+          ],
+          "giai_thich": "Hai điện tích cùng dấu nên điểm cân bằng nằm giữa chúng. Cân bằng: $\\frac{q_2}{x^2} = \\frac{q_1}{(3-x)^2}$ nên $\\frac{3-x}{x} = \\sqrt{q_1/q_2} = 2$, suy ra $x = 1\\ \\mathrm{m}$. Điểm chính giữa $1{,}5\\ \\mathrm{m}$ chỉ đúng khi hai điện tích bằng nhau.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III, Bài 1; slide Chương 1, trang 74"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Hai điện tích dương $4q$ và $q$ đặt cố định ở hai đầu thanh dài $30\\ \\mathrm{cm}$. Hạt thứ ba tự do đứng cân bằng cách điện tích $4q$ một đoạn bao nhiêu?",
+          "dap_an": [
+            "$20\\ \\mathrm{cm}$",
+            "$15\\ \\mathrm{cm}$",
+            "$10\\ \\mathrm{cm}$",
+            "$24\\ \\mathrm{cm}$"
+          ],
+          "giai_thich": "Điều kiện cân bằng $\\frac{4q}{x^2} = \\frac{q}{(d-x)^2}$ cho $d - x = x/2$, nên $x = 2d/3 = 20\\ \\mathrm{cm}$. Hạt nằm gần điện tích nhỏ hơn.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III, Bài 6; file bài tập Chương 1, bài 6"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Lực điện trường tác dụng lên điện tích thử $q_0$ liên hệ với cường độ điện trường $\\vec{E}$ bằng hệ thức nào?",
+          "dap_an": [
+            "$\\vec{F} = q_0 \\vec{E}$",
+            "$\\vec{F} = \\vec{E}/q_0$",
+            "$\\vec{F} = q_0 E^2$",
+            "$\\vec{F} = k q_0 /E$"
+          ],
+          "giai_thich": "Cường độ điện trường định nghĩa là $\\vec{E} = \\vec{F}/q_0$, suy ra $\\vec{F} = q_0\\vec{E}$ (cùng chiều $\\vec{E}$ nếu $q_0 > 0$, ngược chiều nếu $q_0 < 0$).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3, Vectơ cường độ điện trường; slide Chương 1, trang 29"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Điện tích điểm $q = +3\\ \\mu\\mathrm{C}$ gây ra cường độ điện trường $4 \\cdot 10^{6}\\ \\mathrm{V/m}$ tại điểm P. Khoảng cách từ P đến $q$ là bao nhiêu?",
+          "dap_an": [
+            "$8{,}22\\ \\mathrm{cm}$",
+            "$6{,}75\\ \\mathrm{cm}$",
+            "$67{,}5\\ \\mathrm{cm}$",
+            "$11{,}6\\ \\mathrm{cm}$"
+          ],
+          "giai_thich": "Từ $E = kq/r^2$ có $r = \\sqrt{kq/E} = \\sqrt{6{,}75 \\cdot 10^{-3}} = 8{,}22 \\cdot 10^{-2}\\ \\mathrm{m}$. Giá trị $6{,}75$ là $r^2$ (chưa lấy căn); $11{,}6\\ \\mathrm{cm}$ là $r\\sqrt{2}$.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.10; slide Chương 1, trang 31"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Hai điện tích $q_1 = 3\\ \\mu\\mathrm{C}$ và $q_2 = -6\\ \\mu\\mathrm{C}$ đặt tại A, B cách nhau $30\\ \\mathrm{cm}$. Độ lớn cường độ điện trường tại trung điểm O của AB là bao nhiêu?",
+          "dap_an": [
+            "$3{,}6 \\cdot 10^{6}\\ \\mathrm{V/m}$",
+            "$1{,}2 \\cdot 10^{6}\\ \\mathrm{V/m}$",
+            "$2{,}68 \\cdot 10^{6}\\ \\mathrm{V/m}$",
+            "$9 \\cdot 10^{5}\\ \\mathrm{V/m}$"
+          ],
+          "giai_thich": "Hai điện tích trái dấu nên tại điểm giữa hai vectơ $\\vec{E}_1$, $\\vec{E}_2$ cùng chiều, độ lớn cộng lại: $E_1 = 1{,}2 \\cdot 10^{6}$, $E_2 = 2{,}4 \\cdot 10^{6}$, $E = 3{,}6 \\cdot 10^{6}\\ \\mathrm{V/m}$. Trừ độ lớn là sai (chỉ làm khi cùng dấu); hợp vuông góc cũng sai vì hai vectơ cùng phương.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.11; slide Chương 1, trang 33"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Hai điện tích $q_1 = 3\\ \\mu\\mathrm{C}$ và $q_2 = -6\\ \\mu\\mathrm{C}$ đặt tại A, B cách nhau $30\\ \\mathrm{cm}$. Điểm $M$ trên đường thẳng AB mà cường độ điện trường tổng hợp bằng 0 nằm ở đâu?",
+          "dap_an": [
+            "Ngoài đoạn AB, về phía A, cách A khoảng $72{,}4\\ \\mathrm{cm}$",
+            "Ngoài đoạn AB, về phía B, cách B khoảng $72{,}4\\ \\mathrm{cm}$",
+            "Trong đoạn AB, cách A khoảng $10\\ \\mathrm{cm}$",
+            "Ngoài đoạn AB, về phía A, cách A khoảng $30\\ \\mathrm{cm}$"
+          ],
+          "giai_thich": "Hai điện tích trái dấu nên điểm triệt tiêu nằm ngoài đoạn AB, gần điện tích có độ lớn nhỏ hơn (A). Đặt $AM = x$: $\\left(\\frac{x+30}{x}\\right)^2 = \\frac{|q_2|}{q_1} = 2$ nên $x = \\frac{30}{\\sqrt{2}-1} = 72{,}4\\ \\mathrm{cm}$.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, VD 1.11; slide Chương 1, trang 34"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Hai điện tích $q_1 = 3\\ \\mu\\mathrm{C}$ và $q_2 = -3\\ \\mu\\mathrm{C}$ đặt tại A, B cách nhau $20\\ \\mathrm{cm}$. Điểm M có $MA = MB = 10\\sqrt{2}\\ \\mathrm{cm}$ (M nhìn AB dưới góc $90^\\circ$). Độ lớn $E_M$ bằng bao nhiêu?",
+          "dap_an": [
+            "$1{,}91 \\cdot 10^{6}\\ \\mathrm{V/m}$",
+            "$2{,}7 \\cdot 10^{6}\\ \\mathrm{V/m}$",
+            "$1{,}35 \\cdot 10^{6}\\ \\mathrm{V/m}$",
+            "$3{,}82 \\cdot 10^{6}\\ \\mathrm{V/m}$"
+          ],
+          "giai_thich": "Mỗi điện tích gây $E_1 = E_2 = k\\frac{3 \\cdot 10^{-6}}{(0{,}1\\sqrt{2})^2} = 1{,}35 \\cdot 10^{6}\\ \\mathrm{V/m}$. Hai vectơ vuông góc nên $E = \\sqrt{E_1^2 + E_2^2} = E_1\\sqrt{2} = 1{,}91 \\cdot 10^{6}\\ \\mathrm{V/m}$. Cộng thẳng hai độ lớn hoặc đặt $E = E_1$ đều sai.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.12; slide Chương 1, trang 35"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Đoạn dây thẳng AB dài $L$ mang điện đều với mật độ dài $\\lambda > 0$. Điểm O nằm trên đường thẳng chứa AB, cách đầu gần A một đoạn $a$. Cường độ điện trường tại O là gì?",
+          "dap_an": [
+            "$E = k\\lambda\\left(\\frac{1}{a} - \\frac{1}{L+a}\\right)$",
+            "$E = k\\lambda\\left(\\frac{1}{a} + \\frac{1}{L+a}\\right)$",
+            "$E = k\\lambda L / a^2$",
+            "$E = k\\lambda \\ln\\frac{L+a}{a}$"
+          ],
+          "giai_thich": "Lấy phần tử $dx$ cách O khoảng $x$: $dE = k\\lambda dx/x^2$ cùng chiều với mọi phần tử, nên $E = k\\lambda\\int_a^{L+a}\\frac{dx}{x^2} = k\\lambda\\left(\\frac{1}{a}-\\frac{1}{L+a}\\right)$. Biểu thức có $\\ln$ là điện thế, không phải điện trường.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.13; slide Chương 1, trang 37"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Vòng tròn bán kính $R$ mang điện tích $Q$ phân bố đều. Cường độ điện trường tại tâm O của vòng bằng bao nhiêu?",
+          "dap_an": [
+            "$0$",
+            "$kQ/R^2$",
+            "$kQ/(2R^2)$",
+            "$2kQ/R^2$"
+          ],
+          "giai_thich": "Mỗi phần tử $dq$ có phần tử đối xứng qua tâm gây điện trường cùng độ lớn, ngược chiều, nên tổng hợp bằng 0. Công thức trên trục $E = kQx/(x^2+R^2)^{3/2}$ cho $E = 0$ khi $x = 0$.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.13 (vòng tròn); slide Chương 1, trang 38"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Tấm kim loại phẳng rất rộng, tích điện đều. Hình chữ nhật $2\\ \\mathrm{m} \\times 5\\ \\mathrm{m}$ trên tấm chứa $4\\ \\mu\\mathrm{C}$. Cường độ điện trường tại điểm cách tấm $20\\ \\mathrm{cm}$ là bao nhiêu?",
+          "dap_an": [
+            "$22599\\ \\mathrm{V/m}$",
+            "$45198\\ \\mathrm{V/m}$",
+            "$9 \\cdot 10^{5}\\ \\mathrm{V/m}$",
+            "$5650\\ \\mathrm{V/m}$"
+          ],
+          "giai_thich": "Mật độ mặt $\\sigma = q/S = 0{,}4\\ \\mu\\mathrm{C/m^2}$. Mặt phẳng vô hạn tạo điện trường đều $E = \\sigma/(2\\varepsilon_0) = 2{,}26 \\cdot 10^{4}\\ \\mathrm{V/m}$, không phụ thuộc khoảng cách. Giá trị $\\sigma/\\varepsilon_0$ là trường bên trong hai mặt phẳng song song.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III, Bài 17; slide Chương 1, trang 39"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Hai mặt phẳng song song vô hạn mang điện đều với mật độ $+\\sigma$ và $-3\\sigma$. Độ lớn cường độ điện trường trong khoảng giữa hai mặt là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{2\\sigma}{\\varepsilon_0}$",
+            "$\\frac{\\sigma}{\\varepsilon_0}$",
+            "$\\frac{4\\sigma}{\\varepsilon_0}$",
+            "$\\frac{3\\sigma}{2\\varepsilon_0}$"
+          ],
+          "giai_thich": "Mỗi mặt gây $\\frac{|\\sigma_i|}{2\\varepsilon_0}$; giữa hai mặt khác dấu hai trường cùng chiều nên $E = \\frac{\\sigma + 3\\sigma}{2\\varepsilon_0} = \\frac{2\\sigma}{\\varepsilon_0}$. Bên ngoài hai trường ngược chiều, $E = \\frac{3\\sigma - \\sigma}{2\\varepsilon_0} = \\frac{\\sigma}{\\varepsilon_0}$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3, điện trường của mặt phẳng; slide Chương 1, trang 41"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Điện tích $q = -1\\ \\mu\\mathrm{C}$ đặt tại tâm mặt cầu bán kính $1\\ \\mathrm{m}$. Điện thông qua mặt cầu là bao nhiêu?",
+          "dap_an": [
+            "$-1{,}13 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$",
+            "$1{,}13 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$",
+            "$-8992\\ \\mathrm{V\\cdot m}$",
+            "$0\\ \\mathrm{V\\cdot m}$"
+          ],
+          "giai_thich": "Pháp tuyến hướng ra còn $\\vec{E}$ hướng vào nên $\\cos\\alpha = -1$: $\\Phi = -E \\cdot 4\\pi R^2 = -9 \\cdot 10^{3} \\cdot 4\\pi = -1{,}13 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$, cũng là $q/\\varepsilon_0$. Điện thông của điện tích âm là âm; bằng 0 chỉ khi điện tích nằm ngoài mặt.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.15; slide Chương 1, trang 44"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Phát biểu nào về định lý Gauss cho mặt kín $(S)$ là đúng?",
+          "dap_an": [
+            "Điện thông chỉ phụ thuộc tổng điện tích bên trong mặt, điện tích ngoài mặt không góp",
+            "Điện thông phụ thuộc cả điện tích nằm ngoài mặt vì chúng cũng tạo điện trường",
+            "Điện thông phụ thuộc vào hình dạng và kích thước của mặt kín đã chọn",
+            "Điện thông của mọi mặt kín đều bằng 0 vì đường sức đi vào rồi đi ra"
+          ],
+          "giai_thich": "Định lý Gauss: $\\Phi = \\sum q_{trong}/\\varepsilon_0$. Điện tích ngoài mặt có đường sức đi vào mặt rồi đi ra, đóng góp ròng bằng 0 vào điện thông, dù vẫn có mặt trong $\\vec{E}$ tại các điểm của mặt.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4, Định lý Gauss; slide Chương 1, trang 46"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Ba điện tích $q_1 = -2\\ \\mu\\mathrm{C}$, $q_2 = 3\\ \\mu\\mathrm{C}$, $q_3 = -1\\ \\mu\\mathrm{C}$ đặt thẳng hàng tại A, B, C với $AB = BC = 10\\ \\mathrm{cm}$. Mặt cầu tâm M (cách A $10\\ \\mathrm{cm}$ về phía ngoài), bán kính $15\\ \\mathrm{cm}$ chỉ chứa $q_1$. Điện thông qua mặt cầu là bao nhiêu?",
+          "dap_an": [
+            "$-2{,}26 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$",
+            "$0\\ \\mathrm{V\\cdot m}$",
+            "$1{,}13 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$",
+            "$2{,}26 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$"
+          ],
+          "giai_thich": "Chỉ tính điện tích nằm trong mặt: $\\Phi = q_1/\\varepsilon_0 = -2 \\cdot 10^{-6}/8{,}85 \\cdot 10^{-12} = -2{,}26 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$. Điện tích ngoài mặt cầu không góp. Kết quả 0 là của mặt cầu bán kính $5\\ \\mathrm{cm}$ (rỗng) hoặc $50\\ \\mathrm{cm}$ (chứa cả ba, tổng bằng 0).",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III, Bài 9; slide Chương 1, trang 79"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Hộp chữ nhật $0{,}4 \\times 0{,}4 \\times 0{,}6\\ \\mathrm{m}$, mặt trái ở $x = 0{,}4\\ \\mathrm{m}$, chiều dài $0{,}6\\ \\mathrm{m}$ dọc trục $x$, trong điện trường $\\vec{E} = (3 + 2x^2)\\vec{i}\\ \\mathrm{V/m}$. Điện thông qua hộp là bao nhiêu?",
+          "dap_an": [
+            "$0{,}2688\\ \\mathrm{V\\cdot m}$",
+            "$1{,}331\\ \\mathrm{V\\cdot m}$",
+            "$0{,}531\\ \\mathrm{V\\cdot m}$",
+            "$0\\ \\mathrm{V\\cdot m}$"
+          ],
+          "giai_thich": "Các mặt bên song song $\\vec{E}$ nên không có thông lượng. Mặt trái ($x = 0{,}4$, pháp tuyến $-\\vec{i}$): $-(3+0{,}32) \\cdot 0{,}16 = -0{,}53$. Mặt phải ($x = 1{,}0$): $(3+2) \\cdot 0{,}16 = 0{,}80$. Tổng $0{,}2688\\ \\mathrm{V\\cdot m}$ (nên có điện tích $\\varepsilon_0\\Phi = 2{,}38 \\cdot 10^{-12}\\ \\mathrm{C}$). Cộng hai độ lớn mà không để dấu cho đáp án sai.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, VD 1.16; slide Chương 1, trang 45"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Quả cầu đặc bán kính $R$, điện tích $Q$ phân bố đều trong thể tích. So sánh cường độ điện trường tại $r = R/2$ với tại mặt cầu $r = R$.",
+          "dap_an": [
+            "Bằng một nửa: $E(R/2) = E(R)/2$",
+            "Bằng một phần tư: $E(R/2) = E(R)/4$",
+            "Bằng 0 vì ở bên trong quả cầu",
+            "Gấp 4 lần vì gần tâm hơn"
+          ],
+          "giai_thich": "Bên trong khối cầu đặc: $E = kQr/R^3$, tỉ lệ thuận với $r$. Tại $r = R/2$: $E = \\frac{kQ}{2R^2}$, bằng một nửa giá trị $kQ/R^2$ ở mặt. Trường bằng 0 trong lòng chỉ đúng với vỏ/vật dẫn, không đúng với khối tích điện đều.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, VD 1.17; slide Chương 1, trang 48"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Mặt trụ rỗng dài vô hạn bán kính $R$ mang điện đều với mật độ dài $\\lambda$. Cường độ điện trường tại điểm cách trục $r < R$ là bao nhiêu?",
+          "dap_an": [
+            "$0$",
+            "$\\frac{\\lambda}{2\\pi\\varepsilon_0 r}$",
+            "$\\frac{\\lambda r}{2\\pi\\varepsilon_0 R^2}$",
+            "$\\frac{\\lambda}{2\\pi\\varepsilon_0 R}$"
+          ],
+          "giai_thich": "Mặt Gauss trụ bán kính $r < R$ không chứa điện tích ($Q_{trong} = 0$) nên $E \\cdot 2\\pi rh = 0$, $E = 0$. Công thức $\\frac{\\lambda}{2\\pi\\varepsilon_0 r}$ đúng cho $r > R$; công thức có $R^2$ là khối trụ đặc.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.18; slide Chương 1, trang 49"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Dây thẳng dài vô hạn mang điện đều $\\lambda = -6 \\cdot 10^{-9}\\ \\mathrm{C/m}$. Độ lớn cường độ điện trường tại điểm cách dây $20\\ \\mathrm{cm}$ là bao nhiêu?",
+          "dap_an": [
+            "$540\\ \\mathrm{V/m}$",
+            "$270\\ \\mathrm{V/m}$",
+            "$2700\\ \\mathrm{V/m}$",
+            "$1350\\ \\mathrm{V/m}$"
+          ],
+          "giai_thich": "Gauss với mặt trụ bán kính $r$: $E = \\frac{|\\lambda|}{2\\pi\\varepsilon_0 r} = \\frac{2k|\\lambda|}{r} = \\frac{2 \\cdot 9 \\cdot 10^{9} \\cdot 6 \\cdot 10^{-9}}{0{,}2} = 540\\ \\mathrm{V/m}$, hướng về phía dây. Điện trường dây dài giảm theo $1/r$, không theo $1/r^2$.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III, Bài 16; slide Chương 1, trang 81-82"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Điện trường của dây thẳng dài vô hạn và của điện tích điểm giảm theo khoảng cách $r$ như thế nào?",
+          "dap_an": [
+            "Dây dài: tỉ lệ $1/r$; điện tích điểm: tỉ lệ $1/r^2$",
+            "Dây dài: tỉ lệ $1/r^2$; điện tích điểm: tỉ lệ $1/r$",
+            "Cả hai đều tỉ lệ $1/r^2$",
+            "Dây dài: không đổi theo $r$; điện tích điểm: tỉ lệ $1/r$"
+          ],
+          "giai_thich": "Dây dài vô hạn: $E = \\lambda/(2\\pi\\varepsilon_0 r) \\sim 1/r$. Điện tích điểm: $E = kq/r^2 \\sim 1/r^2$. Điện trường không đổi theo $r$ chỉ là của mặt phẳng vô hạn.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.18 và VD 1.27; slide Chương 1, trang 49"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Điện tích $q_0 = 1\\ \\mu\\mathrm{C}$ di chuyển trong điện trường của ba điện tích điểm, từ M ($V_M = -75000\\ \\mathrm{V}$) đến N ($V_N = -15000\\ \\mathrm{V}$). Công của lực điện trường là bao nhiêu?",
+          "dap_an": [
+            "$-0{,}06\\ \\mathrm{J}$",
+            "$0{,}06\\ \\mathrm{J}$",
+            "$-0{,}09\\ \\mathrm{J}$",
+            "$-60000\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "Công $A_{MN} = q_0(V_M - V_N) = 10^{-6} \\cdot (-75000 + 15000) = -0{,}06\\ \\mathrm{J}$ (âm vì $q_0$ đi lên nơi có điện thế cao hơn). Lấy $V_N - V_M$ cho dấu ngược; quên $q_0 = 10^{-6}$ cho giá trị $-6 \\cdot 10^{4}$.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III, Bài 9; slide Chương 1, trang 79"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Thế năng tương tác $W = kqq_0/r$ của hai điện tích điểm là âm khi nào?",
+          "dap_an": [
+            "Khi hai điện tích trái dấu ($qq_0 < 0$)",
+            "Khi hai điện tích cùng dấu",
+            "Khi khoảng cách $r$ rất lớn",
+            "Khi hai điện tích có độ lớn bằng nhau"
+          ],
+          "giai_thich": "Với gốc thế năng ở vô cùng, $W = kqq_0/r$ mang dấu của $qq_0$: dương nếu cùng dấu (đẩy nhau), âm nếu trái dấu (hút nhau). Khi $r \\to \\infty$ thì $W \\to 0$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.5, Thế năng tương tác; slide Chương 1, trang 54"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Điện tích $q = 10\\ \\mu\\mathrm{C}$ đặt tại O; điện tích $q_0 = -1\\ \\mu\\mathrm{C}$ đi qua A ($OA = 20\\ \\mathrm{cm}$) và B ($OB = 30\\ \\mathrm{cm}$) theo chiều dương. Tại A động năng $q_0$ là $1\\ \\mathrm{J}$. Động năng tại B là bao nhiêu?",
+          "dap_an": [
+            "$0{,}85\\ \\mathrm{J}$",
+            "$1{,}15\\ \\mathrm{J}$",
+            "$1\\ \\mathrm{J}$",
+            "$0{,}55\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "Bảo toàn năng lượng: $K_B = K_A + W_A - W_B = 1 + (-0{,}45) - (-0{,}30) = 0{,}85\\ \\mathrm{J}$ ($q$ hút $q_0$ nên đi ra xa thì thế năng tăng, động năng giảm). Đổi dấu hiệu $W_A - W_B$ cho $1{,}15\\ \\mathrm{J}$.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.21; slide Chương 1, trang 55"
+        },
+        {
+          "id": "c1-26",
+          "hoi": "Điện tích $q = 4 \\cdot 10^{-9}\\ \\mathrm{C}$ đi qua A, B với động năng $6 \\cdot 10^{-7}\\ \\mathrm{J}$ và $10{,}8 \\cdot 10^{-7}\\ \\mathrm{J}$; $V_A = 200\\ \\mathrm{V}$. Điện thế $V_B$ bằng bao nhiêu?",
+          "dap_an": [
+            "$80\\ \\mathrm{V}$",
+            "$320\\ \\mathrm{V}$",
+            "$-80\\ \\mathrm{V}$",
+            "$12\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Bảo toàn năng lượng: $K_A + qV_A = K_B + qV_B$ nên $V_B = V_A + \\frac{K_A - K_B}{q} = 200 + \\frac{(6-10{,}8) \\cdot 10^{-7}}{4 \\cdot 10^{-9}} = 80\\ \\mathrm{V}$. Động năng tăng nghĩa là điện thế phải giảm (với $q > 0$).",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III, Bài 13; slide Chương 1, trang 80"
+        },
+        {
+          "id": "c1-27",
+          "hoi": "$q_1 = 2\\ \\mu\\mathrm{C}$ đặt tại gốc O, $q_2 = -6\\ \\mu\\mathrm{C}$ đặt tại $(0;\\ 3\\ \\mathrm{m})$. Điện thế tại $P(4\\ \\mathrm{m};\\ 0)$ là bao nhiêu?",
+          "dap_an": [
+            "$-6300\\ \\mathrm{V}$",
+            "$15300\\ \\mathrm{V}$",
+            "$-13500\\ \\mathrm{V}$",
+            "$6300\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Điện thế là đại lượng đại số: $V_P = k\\frac{q_1}{OP} + k\\frac{q_2}{MP}$ với $OP = 4$, $MP = 5\\ \\mathrm{m}$ (tam giác $3$-$4$-$5$): $4500 - 10800 = -6300\\ \\mathrm{V}$. Bỏ dấu của $q_2$ cho $+6300$ hoặc $15300$.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.23; slide Chương 1, trang 61"
+        },
+        {
+          "id": "c1-28",
+          "hoi": "Vòng tròn bán kính $R = 10\\ \\mathrm{cm}$ mang điện đều $Q = 10\\ \\mu\\mathrm{C}$. Điện thế tại tâm O bằng bao nhiêu?",
+          "dap_an": [
+            "$9 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$0\\ \\mathrm{V}$",
+            "$9 \\cdot 10^{6}\\ \\mathrm{V}$",
+            "$4{,}02 \\cdot 10^{5}\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Mọi phần tử $dq$ cách tâm đúng $R$ nên $V_O = kQ/R = 9 \\cdot 10^{9} \\cdot 10^{-5}/0{,}1 = 9 \\cdot 10^{5}\\ \\mathrm{V}$ (điện thế là đại lượng vô hướng nên không triệt tiêu như điện trường). $V = 0$ ở tâm là nhầm với $E = 0$.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, VD 1.25; slide Chương 1, trang 65"
+        },
+        {
+          "id": "c1-29",
+          "hoi": "Vòng tròn bán kính $R = 10\\ \\mathrm{cm}$, điện tích $Q = 10\\ \\mu\\mathrm{C}$. Điện thế tại điểm M trên trục, cách tâm $x = 20\\ \\mathrm{cm}$ là bao nhiêu?",
+          "dap_an": [
+            "$4{,}02 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$4{,}5 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$9 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$3 \\cdot 10^{5}\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Mọi phần tử cách M khoảng $r = \\sqrt{x^2 + R^2} = \\sqrt{0{,}05}\\ \\mathrm{m}$ nên $V_M = \\frac{kQ}{\\sqrt{x^2+R^2}} = \\frac{9 \\cdot 10^{4}}{0{,}2236} = 4{,}02 \\cdot 10^{5}\\ \\mathrm{V}$. Dùng $x$ thay cho khoảng cách thực $r$ cho $4{,}5 \\cdot 10^{5}\\ \\mathrm{V}$.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, VD 1.25; slide Chương 1, trang 65"
+        },
+        {
+          "id": "c1-30",
+          "hoi": "Đoạn dây AB dài $l = 20\\ \\mathrm{cm}$ mang điện đều $\\lambda = 20\\ \\mu\\mathrm{C/m}$ nằm trên đường thẳng qua O, $OA = a = 10\\ \\mathrm{cm}$. Điện thế tại O là bao nhiêu?",
+          "dap_an": [
+            "$1{,}978 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$1{,}248 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$3{,}6 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$1{,}2 \\cdot 10^{5}\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Phần tử $dy$ cách O khoảng $y$: $dV = k\\lambda dy/y$. Tích phân từ $a$ đến $a + l$ cho $V = k\\lambda\\ln\\frac{a+l}{a} = 9 \\cdot 10^{9} \\cdot 20 \\cdot 10^{-6} \\cdot \\ln 3 \\approx 1{,}98 \\cdot 10^{5}\\ \\mathrm{V}$. Dùng $\\ln 2$ là lấy tỉ số $l/a$ sai.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, VD 1.24; slide Chương 1, trang 64"
+        },
+        {
+          "id": "c1-31",
+          "hoi": "Mối liên hệ nào đúng giữa điện trường và điện thế?",
+          "dap_an": [
+            "$E_x = -\\frac{\\partial V}{\\partial x}$, $\\vec{E}$ hướng về nơi điện thế thấp",
+            "$E_x = +\\frac{\\partial V}{\\partial x}$, $\\vec{E}$ hướng về nơi điện thế cao",
+            "$E_x = -\\int V\\,dx$, $\\vec{E}$ hướng về nơi điện thế thấp",
+            "$V = -\\frac{\\partial E_x}{\\partial x}$, $\\vec{E}$ hướng về nơi điện thế thấp"
+          ],
+          "giai_thich": "Công vi phân $dA = q_0\\vec{E}\\cdot d\\vec{s} = -q_0 dV$ cho $E_x = -\\partial V/\\partial x$, tức hình chiếu của $\\vec{E}$ bằng độ giảm điện thế trên một đơn vị dài và $\\vec{E}$ hướng về nơi điện thế thấp.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.6, Mối liên hệ giữa E và V; slide Chương 1, trang 68"
+        },
+        {
+          "id": "c1-32",
+          "hoi": "Điện thế trong không gian là $V = 5x - 3x^2y + 2yz^2$ (SI). Độ lớn cường độ điện trường tại $P(1;\\ 0;\\ -2)$ là bao nhiêu?",
+          "dap_an": [
+            "$\\sqrt{50} \\approx 7{,}07\\ \\mathrm{V/m}$",
+            "$\\sqrt{50 + 16} \\approx 8{,}12\\ \\mathrm{V/m}$",
+            "$5\\ \\mathrm{V/m}$",
+            "$0\\ \\mathrm{V/m}$"
+          ],
+          "giai_thich": "$E_x = -\\partial V/\\partial x = 6xy - 5 = -5$; $E_y = 3x^2 - 2z^2 = 3 - 8 = -5$; $E_z = -4yz = 0$ tại $P$. Vậy $E = \\sqrt{25 + 25 + 0} = 7{,}07\\ \\mathrm{V/m}$. Mỗi thành phần phải lấy đủ dấu âm của đạo hàm.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III, Bài 30; slide Chương 1, trang 68-69"
+        },
+        {
+          "id": "c1-33",
+          "hoi": "Dây thẳng dài vô hạn mang điện đều $\\lambda < 0$. Điểm M cách dây $r_M$, điểm N cách dây $r_N > r_M$ (cùng phía). Dấu của $V_M - V_N$ là gì?",
+          "dap_an": [
+            "Âm: $V_M < V_N$",
+            "Dương: $V_M > V_N$",
+            "Bằng 0: $V_M = V_N$",
+            "Chưa đủ dữ kiện"
+          ],
+          "giai_thich": "Điện thế quanh điện tích âm thấp hơn khi lại gần: $V_M - V_N = \\int_{r_M}^{r_N}E_r\\,dr = 2k\\lambda\\ln\\frac{r_N}{r_M} < 0$ vì $\\lambda < 0$ và $\\ln(r_N/r_M) > 0$. Điện trường của dây dài không đều (giảm theo $1/r$).",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, VD 1.27 (Gauss + tích phân E); slide Chương 1, trang 70"
+        },
+        {
+          "id": "c1-34",
+          "hoi": "Hai mặt cầu đồng tâm $R_1 = 10\\ \\mathrm{cm}$ (điện tích $Q_1 = 5 \\cdot 10^{-8}\\ \\mathrm{C}$) và $R_2 = 20\\ \\mathrm{cm}$ ($Q_2 = -5 \\cdot 10^{-8}\\ \\mathrm{C}$). Hiệu điện thế $V_1 - V_2$ là bao nhiêu?",
+          "dap_an": [
+            "$2250\\ \\mathrm{V}$",
+            "$0\\ \\mathrm{V}$",
+            "$6750\\ \\mathrm{V}$",
+            "$4500\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Trong khoảng $R_1 < r < R_2$ chỉ $Q_1$ gây điện trường: $E = kQ_1/r^2$. Do đó $V_1 - V_2 = \\int_{R_1}^{R_2}E\\,dr = kQ_1\\left(\\frac{1}{R_1}-\\frac{1}{R_2}\\right) = 9 \\cdot 10^{9} \\cdot 5 \\cdot 10^{-8} \\cdot 5 = 2250\\ \\mathrm{V}$. Hiệu bằng 0 chỉ khi hai mặt đẳng thế, nhưng ở đây $E \\neq 0$ giữa hai mặt.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, VD 1.28; slide Chương 1, trang 72"
+        },
+        {
+          "id": "c1-35",
+          "hoi": "Quỹ đạo tròn của electron quanh proton trong hydro có $R = 5 \\cdot 10^{-11}\\ \\mathrm{m}$. Vận tốc dài của electron là bao nhiêu?",
+          "dap_an": [
+            "$2{,}25 \\cdot 10^{6}\\ \\mathrm{m/s}$",
+            "$1{,}6 \\cdot 10^{-19}\\ \\mathrm{m/s}$",
+            "$2{,}25 \\cdot 10^{9}\\ \\mathrm{m/s}$",
+            "$5{,}1 \\cdot 10^{12}\\ \\mathrm{m/s}$"
+          ],
+          "giai_thich": "Lực Coulomb đóng vai trò lực hướng tâm: $k e^2/R^2 = m v^2/R$ nên $v = e\\sqrt{k/(mR)} = 2{,}25 \\cdot 10^{6}\\ \\mathrm{m/s}$. Giá trị $5{,}1 \\cdot 10^{12}$ là $v^2$ (chưa lấy căn).",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III, Bài 24; file bài tập Chương 1, bài 24"
+        },
+        {
+          "id": "c1-36",
+          "hoi": "Điện tích $Q = 0{,}7\\ \\mathrm{nC}$ phân bố đều trên nửa đường tròn tâm O, bán kính $R = 20\\ \\mathrm{cm}$. Điện thế tại O là bao nhiêu?",
+          "dap_an": [
+            "$31{,}5\\ \\mathrm{V}$",
+            "$63\\ \\mathrm{V}$",
+            "$0\\ \\mathrm{V}$",
+            "$158\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Mọi phần tử $dq$ đều cách O đúng $R$ nên $V_O = kQ/R = 9 \\cdot 10^{9} \\cdot 0{,}7 \\cdot 10^{-9}/0{,}2 = 31{,}5\\ \\mathrm{V}$. Đáp số $63\\ \\mathrm{V}$ trong file bài tập không khớp phép tính này (nhiều khả năng đề ghi nhầm).",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III, Bài 11; file bài tập Chương 1, bài 11"
+        },
+        {
+          "id": "c1-37",
+          "hoi": "Điện thông gửi qua mỗi mặt của hình lập phương cạnh $50\\ \\mathrm{cm}$ có điện tích $q = 5\\ \\mu\\mathrm{C}$ đặt ở tâm là bao nhiêu?",
+          "dap_an": [
+            "$94162\\ \\mathrm{V\\cdot m}$",
+            "$5{,}65 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$",
+            "$70621\\ \\mathrm{V\\cdot m}$",
+            "$23540\\ \\mathrm{V\\cdot m}$"
+          ],
+          "giai_thich": "Điện thông toàn phần $q/\\varepsilon_0 = 5{,}65 \\cdot 10^{5}\\ \\mathrm{V\\cdot m}$ chia đều cho 6 mặt do đối xứng: $9{,}42 \\cdot 10^{4}\\ \\mathrm{V\\cdot m}$ mỗi mặt. Nếu dịch $q$ ra khỏi tâm (vẫn trong hộp) thì điện thông qua từng mặt thay đổi nhưng tổng vẫn là $q/\\varepsilon_0$.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III (dạng đề giữa kỳ), Gauss; file bài tập, đề 2025"
+        },
+        {
+          "id": "c1-38",
+          "hoi": "Mặt đẳng thế và đường sức của điện trường tĩnh có quan hệ gì?",
+          "dap_an": [
+            "Đường sức vuông góc mặt đẳng thế, công trên mặt đó bằng 0",
+            "Đường sức nằm ngay trên mặt đẳng thế, công trên mặt đó bằng 0",
+            "Đường sức song song mặt đẳng thế, công trên mặt đó khác 0",
+            "Không có quan hệ cố định, tuỳ từng loại điện trường cụ thể"
+          ],
+          "giai_thich": "Trên mặt đẳng thế $V = \\text{const}$ nên $A_{MN} = q_0(V_M - V_N) = 0$, tức $\\vec{E}\\cdot d\\vec{s} = 0$, suy ra $\\vec{E} \\perp d\\vec{s}$: đường sức vuông góc với mặt đẳng thế.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.6, Mặt đẳng thế; slide Chương 1, trang 66"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nhom": "Bài giảng",
+      "ten": "Chương 2 - Vật dẫn trong tĩnh điện trường",
+      "cau": [
+        {
+          "id": "c2-01",
+          "hoi": "Khi vật dẫn ở trạng thái cân bằng điện, phát biểu nào đúng?",
+          "dap_an": [
+            "Điện trường bên trong vật dẫn bằng 0 và vật dẫn là vật đẳng thế",
+            "Điện trường bên trong vật dẫn khác 0 nhưng điện thế bằng 0",
+            "Điện tích phân bố đều khắp thể tích vật dẫn",
+            "Điện thế trong vật dẫn giảm dần từ tâm ra mặt"
+          ],
+          "giai_thich": "Ở cân bằng điện, các điện tích tự do đứng yên nên $\\vec{E} = 0$ trong vật dẫn, do đó $V = \\text{const}$ (đẳng thế) và điện tích chỉ phân bố trên mặt ngoài.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1; slide Chương 2, trang 3"
+        },
+        {
+          "id": "c2-02",
+          "hoi": "Vật dẫn không đối xứng được tích điện và ở cân bằng. Điện tích tập trung chủ yếu ở đâu?",
+          "dap_an": [
+            "Chỗ có bán kính cong nhỏ nhất (mũi nhọn)",
+            "Chỗ có bán kính cong lớn nhất (nơi phẳng)",
+            "Đều khắp thể tích vật dẫn",
+            "Ở tâm hình học của vật dẫn"
+          ],
+          "giai_thich": "Vật dẫn không đối xứng thì mật độ điện tích mặt lớn nhất ở nơi có bán kính cong nhỏ nhất, nên điện trường mặt ở mũi nhọn rất mạnh (cơ sở của hiệu ứng mũi nhọn, cột thu lôi).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1; slide Chương 2, trang 3"
+        },
+        {
+          "id": "c2-03",
+          "hoi": "Quả cầu thép rỗng, tâm O, được tích điện $Q < 0$. Phát biểu nào là sai?",
+          "dap_an": [
+            "Điện thế tại tâm O lớn hơn điện thế ở bề mặt quả cầu",
+            "Cường độ điện trường trong lòng quả cầu bằng 0",
+            "Điện tích phân bố đều trên mặt ngoài quả cầu",
+            "Không có điện tích phân bố trong lòng vật liệu thép"
+          ],
+          "giai_thich": "Vật dẫn cân bằng là vật đẳng thế nên điện thế tại tâm bằng điện thế mặt, không lớn hơn. Ba nhận xét còn lại đều đúng cho quả cầu dẫn đối xứng.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1, câu hỏi cuối mục; slide Chương 2, trang 8"
+        },
+        {
+          "id": "c2-04",
+          "hoi": "Vỏ cầu dẫn rỗng, cô lập, bán kính trong $19\\ \\mathrm{cm}$ và ngoài $21\\ \\mathrm{cm}$, mang điện tích $Q = 10^{-6}\\ \\mathrm{C}$. Điện thế tại điểm cách tâm $20\\ \\mathrm{cm}$ (trong thành vỏ) là bao nhiêu?",
+          "dap_an": [
+            "$42857\\ \\mathrm{V}$",
+            "$45000\\ \\mathrm{V}$",
+            "$47368\\ \\mathrm{V}$",
+            "$0\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Thành vỏ và lòng vỏ đều là vật dẫn đẳng thế, điện tích nằm hết ở mặt ngoài $R_2 = 21\\ \\mathrm{cm}$, nên $V = kQ/R_2 = 9 \\cdot 10^{9} \\cdot 10^{-6}/0{,}21 = 4{,}29 \\cdot 10^{4}\\ \\mathrm{V}$ (còn $E = 0$). Dùng $r = 20\\ \\mathrm{cm}$ trong $kQ/r$ là nhầm với điểm bên ngoài.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 1; slide Chương 2, trang 28-30"
+        },
+        {
+          "id": "c2-05",
+          "hoi": "Vỏ cầu dẫn rỗng, $R_2 = 21\\ \\mathrm{cm}$, điện tích $Q = 10^{-6}\\ \\mathrm{C}$. Điện trường và điện thế tại điểm cách tâm $30\\ \\mathrm{cm}$ lần lượt là bao nhiêu?",
+          "dap_an": [
+            "$10^{5}\\ \\mathrm{V/m}$ và $30000\\ \\mathrm{V}$",
+            "$10^{5}\\ \\mathrm{V/m}$ và $42857\\ \\mathrm{V}$",
+            "$0$ và $30000\\ \\mathrm{V}$",
+            "$3 \\cdot 10^{4}\\ \\mathrm{V/m}$ và $30000\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Ngoài vỏ ($r > R_2$) vỏ như điện tích điểm: $E = kQ/r^2 = 9 \\cdot 10^{9} \\cdot 10^{-6}/0{,}09 = 10^{5}\\ \\mathrm{V/m}$ và $V = kQ/r = 30000\\ \\mathrm{V}$. Giá trị $42857\\ \\mathrm{V}$ là điện thế trên và trong vỏ.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 1; slide Chương 2, trang 30"
+        },
+        {
+          "id": "c2-06",
+          "hoi": "Quả cầu dẫn rỗng cô lập, bán kính ngoài $20\\ \\mathrm{cm}$, được tích điện đến điện thế $4500\\ \\mathrm{V}$. Điện tích trên quả cầu là bao nhiêu?",
+          "dap_an": [
+            "$1 \\cdot 10^{-7}\\ \\mathrm{C}$",
+            "$2 \\cdot 10^{-8}\\ \\mathrm{C}$",
+            "$2{,}5 \\cdot 10^{-6}\\ \\mathrm{C}$",
+            "$8{,}1 \\cdot 10^{12}\\ \\mathrm{C}$"
+          ],
+          "giai_thich": "Với $V = kQ/R$ ta có $Q = VR/k = 4500 \\cdot 0{,}2/(9 \\cdot 10^{9}) = 10^{-7}\\ \\mathrm{C}$. Nhớ $V$ tỉ lệ với $1/R$ chứ không phải $1/R^2$.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 2; file bài tập Chương 2, bài 2"
+        },
+        {
+          "id": "c2-07",
+          "hoi": "Quả cầu rỗng cô lập mang điện thế $4500\\ \\mathrm{V}$ được bao quanh bên trong bởi quả cầu dẫn trung hòa, đồng tâm. Điện thế của quả cầu trung hòa đó là bao nhiêu?",
+          "dap_an": [
+            "$4500\\ \\mathrm{V}$",
+            "$0\\ \\mathrm{V}$",
+            "$3375\\ \\mathrm{V}$",
+            "$6000\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Quả cầu trung hòa nằm trong lòng vỏ, nơi $E = 0$, nên đẳng thế với vỏ: $V' = 4500\\ \\mathrm{V}$. Trung hòa không có nghĩa điện thế bằng 0.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 2; file bài tập Chương 2, bài 2"
+        },
+        {
+          "id": "c2-08",
+          "hoi": "Hai quả cầu dẫn $R_1 = 5\\ \\mathrm{cm}$, $R_2 = 2\\ \\mathrm{cm}$, rất xa nhau, nối bằng dây dẫn mảnh; tổng điện tích $70\\ \\mathrm{nC}$. Điện tích quả cầu lớn là bao nhiêu?",
+          "dap_an": [
+            "$50\\ \\mathrm{nC}$",
+            "$20\\ \\mathrm{nC}$",
+            "$35\\ \\mathrm{nC}$",
+            "$25\\ \\mathrm{nC}$"
+          ],
+          "giai_thich": "Cân bằng điện: $V_1 = V_2$ nên $Q_1/R_1 = Q_2/R_2$ và $Q_1 + Q_2 = 70\\ \\mathrm{nC}$, suy ra $Q_1 = 70 \\cdot 5/7 = 50\\ \\mathrm{nC}$, $Q_2 = 20\\ \\mathrm{nC}$. Chia đôi $35\\ \\mathrm{nC}$ là sai vì quả lớn chứa nhiều điện tích hơn.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần II, VD 2.1; slide Chương 2, trang 6"
+        },
+        {
+          "id": "c2-09",
+          "hoi": "Hai quả cầu bán kính $R_1 = 8\\ \\mathrm{cm}$ và $R_2 = 5\\ \\mathrm{cm}$, rất xa nhau, nối bằng dây mảnh, được tích tổng $13 \\cdot 10^{-8}\\ \\mathrm{C}$. Điện tích quả cầu $R_2$ nhận được là bao nhiêu?",
+          "dap_an": [
+            "$5 \\cdot 10^{-8}\\ \\mathrm{C}$",
+            "$8 \\cdot 10^{-8}\\ \\mathrm{C}$",
+            "$6{,}5 \\cdot 10^{-8}\\ \\mathrm{C}$",
+            "$8{,}1 \\cdot 10^{-8}\\ \\mathrm{C}$"
+          ],
+          "giai_thich": "Ở cân bằng $Q_2 = QR_2/(R_1 + R_2) = 13 \\cdot 10^{-8} \\cdot 5/13 = 5 \\cdot 10^{-8}\\ \\mathrm{C}$. Nhầm $R_2$ với $R_1$ cho $8 \\cdot 10^{-8}\\ \\mathrm{C}$.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 14; file bài tập Chương 2, bài 14"
+        },
+        {
+          "id": "c2-10",
+          "hoi": "Hai quả cầu dẫn $R_1 \\neq R_2$ nối bằng dây dẫn ở cân bằng điện. Tỉ số cường độ điện trường trên bề mặt $E_1/E_2$ bằng bao nhiêu?",
+          "dap_an": [
+            "$R_2/R_1$",
+            "$R_1/R_2$",
+            "$R_1^2/R_2^2$",
+            "$1$"
+          ],
+          "giai_thich": "Từ $V_1 = V_2$: $Q_1/Q_2 = R_1/R_2$. Do $E_i = kQ_i/R_i^2$ nên $E_1/E_2 = \\frac{Q_1}{Q_2}\\frac{R_2^2}{R_1^2} = \\frac{R_2}{R_1}$: quả cầu nhỏ có điện trường mặt lớn hơn.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần II, VD 2.2; slide Chương 2, trang 7"
+        },
+        {
+          "id": "c2-11",
+          "hoi": "Quả cầu kim loại bán kính $10\\ \\mathrm{cm}$ có điện thế $300\\ \\mathrm{V}$. Mật độ điện mặt $\\sigma$ của nó là bao nhiêu?",
+          "dap_an": [
+            "$2{,}65 \\cdot 10^{-8}\\ \\mathrm{C/m^2}$",
+            "$2{,}65 \\cdot 10^{-7}\\ \\mathrm{C/m^2}$",
+            "$3{,}33 \\cdot 10^{-7}\\ \\mathrm{C/m^2}$",
+            "$3{,}34 \\cdot 10^{-7}\\ \\mathrm{C/m^2}$"
+          ],
+          "giai_thich": "Có $V = kQ/R$ và $\\sigma = Q/(4\\pi R^2)$ nên $\\sigma = \\frac{V}{4\\pi k R} = \\frac{\\varepsilon_0 V}{R} = 8{,}85 \\cdot 10^{-12} \\cdot 300/0{,}1 = 2{,}66 \\cdot 10^{-8}\\ \\mathrm{C/m^2}$. Nhân thêm $4\\pi$ là lẫn với điện dung.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần III, Bài 6; file bài tập Chương 2, bài 6"
+        },
+        {
+          "id": "c2-12",
+          "hoi": "Điện tích $Q = 3\\ \\mu\\mathrm{C}$ đặt ở tâm vỏ cầu dẫn A (điện tích toàn phần $-1\\ \\mu\\mathrm{C}$). Điện tích ở mặt ngoài vỏ A là bao nhiêu?",
+          "dap_an": [
+            "$+2\\ \\mu\\mathrm{C}$",
+            "$-3\\ \\mu\\mathrm{C}$",
+            "$-1\\ \\mu\\mathrm{C}$",
+            "$+3\\ \\mu\\mathrm{C}$"
+          ],
+          "giai_thich": "Hưởng ứng toàn phần: mặt trong vỏ A là $-3\\ \\mu\\mathrm{C}$ (trái dấu, bằng $Q$). Tổng điện tích vỏ là $-1$ nên mặt ngoài $= -1 - (-3) = +2\\ \\mu\\mathrm{C}$.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 10; file bài tập Chương 2, bài 10"
+        },
+        {
+          "id": "c2-13",
+          "hoi": "Vỏ cầu B ngoài cùng được nối đất bao quanh vỏ A và điện tích $Q = 3\\ \\mu\\mathrm{C}$ ở tâm; vỏ A có điện tích toàn phần $-1\\ \\mu\\mathrm{C}$. Điện tích toàn phần của vỏ B là bao nhiêu?",
+          "dap_an": [
+            "$-2\\ \\mu\\mathrm{C}$",
+            "$0$",
+            "$+2\\ \\mu\\mathrm{C}$",
+            "$-3\\ \\mu\\mathrm{C}$"
+          ],
+          "giai_thich": "Điện tích bên trong vỏ B là $3 - 1 = 2\\ \\mu\\mathrm{C}$ nên mặt trong B là $-2\\ \\mu\\mathrm{C}$. Nối đất thì mặt ngoài B không có điện tích dư (mất điện thế $V_B = 0$), nên điện tích toàn phần của B là $-2\\ \\mu\\mathrm{C}$.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần III, Bài 10; file bài tập Chương 2, bài 10"
+        },
+        {
+          "id": "c2-14",
+          "hoi": "Giữa vỏ A (bán kính $1\\ \\mathrm{m}$) và vỏ B nối đất (bán kính $3\\ \\mathrm{m}$) chỉ có điện tích tổng bên trong $2\\ \\mu\\mathrm{C}$ gây điện trường. Hiệu điện thế $V_A - V_B$ là bao nhiêu?",
+          "dap_an": [
+            "$12000\\ \\mathrm{V}$",
+            "$24000\\ \\mathrm{V}$",
+            "$6000\\ \\mathrm{V}$",
+            "$18000\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Giữa hai vỏ $E = k(2 \\cdot 10^{-6})/r^2$ nên $V_A - V_B = k \\cdot 2 \\cdot 10^{-6}\\left(\\frac{1}{1} - \\frac{1}{3}\\right) = 12000\\ \\mathrm{V}$. Dùng $3\\ \\mu\\mathrm{C}$ thay cho tổng $2\\ \\mu\\mathrm{C}$ cho $18000\\ \\mathrm{V}$.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần III, Bài 10; file bài tập Chương 2, bài 10"
+        },
+        {
+          "id": "c2-15",
+          "hoi": "Quả cầu dẫn mang điện tích $-6\\ \\mu\\mathrm{C}$ đặt ở tâm vỏ cầu dẫn có điện tích toàn phần $+1\\ \\mu\\mathrm{C}$. Điện tích mặt ngoài vỏ ở trạng thái cân bằng là bao nhiêu?",
+          "dap_an": [
+            "$-5\\ \\mu\\mathrm{C}$",
+            "$+1\\ \\mu\\mathrm{C}$",
+            "$+6\\ \\mu\\mathrm{C}$",
+            "$-6\\ \\mu\\mathrm{C}$"
+          ],
+          "giai_thich": "Mặt trong vỏ là $+6\\ \\mu\\mathrm{C}$, vỏ có tổng $+1$ nên mặt ngoài $= 1 - 6 = -5\\ \\mu\\mathrm{C}$, cũng bằng tổng điện tích của cả hệ.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 21; file bài tập Chương 2, bài 21"
+        },
+        {
+          "id": "c2-16",
+          "hoi": "Quả cầu A (bán kính $a$) mang $+2Q$; vỏ cầu B (bán kính trong $b$, ngoài $c$) mang $-Q$, đồng tâm. Điện tích ở mặt ngoài vỏ B là bao nhiêu?",
+          "dap_an": [
+            "$+Q$",
+            "$-Q$",
+            "$-2Q$",
+            "$0$"
+          ],
+          "giai_thich": "Mặt trong B bằng $-2Q$ (để $E = 0$ trong thành B). Tổng của B là $-Q$ nên mặt ngoài $= -Q - (-2Q) = +Q$. Ngoài vỏ $E = kQ/r^2$.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 16; file bài tập Chương 2, bài 16"
+        },
+        {
+          "id": "c2-17",
+          "hoi": "Ba vỏ cầu mỏng đồng tâm: $R_1 = 2\\ \\mathrm{cm}$, $Q_1 = 3\\ \\mu\\mathrm{C}$; $R_2 = 5\\ \\mathrm{cm}$, $Q_2 = 3\\ \\mu\\mathrm{C}$; $R_3 = 7\\ \\mathrm{cm}$, $Q_3 = -5\\ \\mu\\mathrm{C}$. Điện thế vỏ thứ ba ($V_\\infty = 0$) là bao nhiêu?",
+          "dap_an": [
+            "$1{,}29 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$-6{,}43 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$3{,}86 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$7{,}71 \\cdot 10^{5}\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Ngoài các vỏ, trường do tổng điện tích $Q_1 + Q_2 + Q_3 = 1\\ \\mu\\mathrm{C}$ gây ra, nên $V_3 = k\\frac{1 \\cdot 10^{-6}}{0{,}07} = 1{,}29 \\cdot 10^{5}\\ \\mathrm{V}$. Chỉ dùng $Q_3$ là bỏ sót điện tích các vỏ trong.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần III, Bài 8; slide Chương 2, trang 32"
+        },
+        {
+          "id": "c2-18",
+          "hoi": "Với ba vỏ cầu mỏng đồng tâm ($R_1 = 2$, $R_2 = 5$, $R_3 = 7\\ \\mathrm{cm}$; $Q_1 = 3$, $Q_2 = 3$, $Q_3 = -5\\ \\mu\\mathrm{C}$), điện tích toàn phần trên mặt ngoài vỏ thứ hai là bao nhiêu?",
+          "dap_an": [
+            "$6\\ \\mu\\mathrm{C}$",
+            "$3\\ \\mu\\mathrm{C}$",
+            "$1\\ \\mu\\mathrm{C}$",
+            "$0$"
+          ],
+          "giai_thich": "Mặt trong vỏ 2 $= -Q_1 = -3\\ \\mu\\mathrm{C}$; mặt ngoài vỏ 2 $= Q_2 + Q_1 = 6\\ \\mu\\mathrm{C}$ (bằng tổng điện tích các vỏ 1 và 2).",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 8; slide Chương 2, trang 34"
+        },
+        {
+          "id": "c2-19",
+          "hoi": "Vỏ dẫn (lồng Faraday) bao quanh một vùng không gian có tác dụng gì?",
+          "dap_an": [
+            "Che chắn ảnh hưởng điện của vật bên ngoài lên vật bên trong",
+            "Che chắn ảnh hưởng điện của vật bên trong lên vật bên ngoài",
+            "Che chắn cả hai chiều như nhau",
+            "Làm điện trường trong vỏ mạnh hơn điện trường ngoài"
+          ],
+          "giai_thich": "Vỏ dẫn làm điện trường trong lòng vỏ chỉ do điện tích bên trong quyết định, nên chắn được ảnh hưởng điện từ bên ngoài vào trong. Điện tích bên trong vẫn hưởng ứng lên vỏ và gây trường ra ngoài (trừ khi vỏ được nối đất).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.2, Màn chắn điện; slide Chương 2, trang 11"
+        },
+        {
+          "id": "c2-20",
+          "hoi": "Công thức điện dung $C$ của vật dẫn cô lập định nghĩa theo $Q$ và $V$ là gì, và nó phụ thuộc yếu tố nào?",
+          "dap_an": [
+            "$C = Q/V$, chỉ phụ thuộc hình dạng và kích thước vật dẫn",
+            "$C = QV$, phụ thuộc điện tích $Q$",
+            "$C = Q/V$, tỉ lệ thuận với điện thế $V$ của vật dẫn",
+            "$C = V/Q$, phụ thuộc môi trường nhưng không phụ thuộc hình dạng"
+          ],
+          "giai_thich": "Tỉ số $Q/V$ của một vật dẫn cô lập không đổi dù tích điện nhiều hay ít, chỉ phụ thuộc hình dạng, kích thước (và môi trường). Nếu $Q$ tăng gấp đôi thì $V$ cũng gấp đôi.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3; slide Chương 2, trang 12"
+        },
+        {
+          "id": "c2-21",
+          "hoi": "Điện dung của quả cầu dẫn bán kính $12\\ \\mathrm{cm}$ đặt trong chân không là bao nhiêu?",
+          "dap_an": [
+            "$1{,}33 \\cdot 10^{-11}\\ \\mathrm{F}$",
+            "$1{,}6 \\cdot 10^{-12}\\ \\mathrm{F}$",
+            "$1{,}06 \\cdot 10^{-12}\\ \\mathrm{F}$",
+            "$9{,}27 \\cdot 10^{-10}\\ \\mathrm{F}$"
+          ],
+          "giai_thich": "Với $V = kQ/R$ ta có $C = Q/V = 4\\pi\\varepsilon_0 R = 4\\pi \\cdot 8{,}85 \\cdot 10^{-12} \\cdot 0{,}12 = 1{,}33 \\cdot 10^{-11}\\ \\mathrm{F}$ (khoảng $13{,}3\\ \\mathrm{pF}$). Điện dung tỉ lệ thuận với $R$.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3, Điện dung vật dẫn (VD 2.3); slide Chương 2, trang 12"
+        },
+        {
+          "id": "c2-22",
+          "hoi": "Tụ phẳng gồm hai bản hình vuông cạnh $10\\ \\mathrm{cm}$ cách nhau $0{,}75\\ \\mathrm{mm}$ (không khí), đặt hiệu điện thế $150\\ \\mathrm{V}$. Điện tích của tụ là bao nhiêu?",
+          "dap_an": [
+            "$1{,}77 \\cdot 10^{-8}\\ \\mathrm{C}$",
+            "$1{,}18 \\cdot 10^{-10}\\ \\mathrm{C}$",
+            "$2{,}66 \\cdot 10^{-6}\\ \\mathrm{C}$",
+            "$1{,}77 \\cdot 10^{-7}\\ \\mathrm{C}$"
+          ],
+          "giai_thich": "Điện dung $C = \\varepsilon_0 S/d = 8{,}85 \\cdot 10^{-12} \\cdot 0{,}01/(0{,}75 \\cdot 10^{-3}) = 1{,}18 \\cdot 10^{-10}\\ \\mathrm{F}$ nên $Q = CU = 1{,}77 \\cdot 10^{-8}\\ \\mathrm{C}$. Cần đổi diện tích $S = 0{,}1^2 = 0{,}01\\ \\mathrm{m^2}$ chứ không phải cạnh $0{,}1\\ \\mathrm{m}$.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần III, bảng \"còn lại\" (bài 24); slide Chương 2, trang 36"
+        },
+        {
+          "id": "c2-23",
+          "hoi": "Nơ-ron được xem như tụ phẳng, màng có $\\varepsilon = 3$, dày $10\\ \\mathrm{nm}$, diện tích $10^{-10}\\ \\mathrm{m^2}$. Điện dung của nơ-ron là bao nhiêu?",
+          "dap_an": [
+            "$2{,}7 \\cdot 10^{-13}\\ \\mathrm{F}$",
+            "$8{,}8 \\cdot 10^{-14}\\ \\mathrm{F}$",
+            "$2{,}7 \\cdot 10^{-16}\\ \\mathrm{F}$",
+            "$2{,}7 \\cdot 10^{-29}\\ \\mathrm{F}$"
+          ],
+          "giai_thich": "$C = \\varepsilon_0\\varepsilon S/d = 3 \\cdot 8{,}85 \\cdot 10^{-12} \\cdot 10^{-10}/(10 \\cdot 10^{-9}) = 2{,}7 \\cdot 10^{-13}\\ \\mathrm{F}$. Bỏ hệ số $\\varepsilon$ cho giá trị nhỏ hơn 3 lần; điện dung tỉ lệ nghịch với $d$.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần II, VD 2.3 (nơ-ron); slide Chương 2, trang 14"
+        },
+        {
+          "id": "c2-24",
+          "hoi": "Tụ trụ bán kính trong $R_1$, ngoài $R_2 = 2R_1$. Muốn tăng điện dung, tăng chiều cao $h$ thêm 10% hay tăng $R_1$ thêm 10% (giữ $R_2$)?",
+          "dap_an": [
+            "Tăng $R_1$ thêm 10%, vì $C$ tăng khoảng 16% so với 10%",
+            "Tăng $h$ thêm 10%, vì $C$ tăng khoảng 16% so với 10%",
+            "Hai cách như nhau, đều tăng đúng 10%",
+            "Tăng $R_1$ thêm 10% làm điện dung giảm"
+          ],
+          "giai_thich": "$C = \\frac{2\\pi\\varepsilon_0 h}{\\ln(R_2/R_1)}$. Tăng $h$ thêm 10% thì $C \\times 1{,}1$. Tăng $R_1$ thành $1{,}1R_1$ thì $\\ln(2/1{,}1)$ nhỏ đi nên $C'/C = \\ln 2/\\ln(2/1{,}1) \\approx 1{,}16$.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần II, VD 2.4 (tụ trụ); slide Chương 2, trang 18"
+        },
+        {
+          "id": "c2-25",
+          "hoi": "Tụ trụ cao $h$, bán kính trong $R_1 = 2\\ \\mathrm{cm}$, ngoài $R_2 = 5\\ \\mathrm{cm}$ (không khí) có $C = 2{,}73\\ \\mathrm{pF}$. Chiều cao $h$ là bao nhiêu?",
+          "dap_an": [
+            "$4{,}5\\ \\mathrm{cm}$",
+            "$12{,}3\\ \\mathrm{cm}$",
+            "$2{,}25\\ \\mathrm{cm}$",
+            "$4{,}91\\ \\mathrm{cm}$"
+          ],
+          "giai_thich": "Từ $C = \\frac{2\\pi\\varepsilon_0 h}{\\ln(R_2/R_1)}$: $h = \\frac{C\\ln 2{,}5}{2\\pi\\varepsilon_0} = \\frac{2{,}73 \\cdot 10^{-12} \\cdot 0{,}916}{5{,}56 \\cdot 10^{-11}} = 0{,}045\\ \\mathrm{m} = 4{,}5\\ \\mathrm{cm}$. Dùng $R_2/R_1$ thay cho $\\ln(R_2/R_1)$ là nhầm công thức.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III (dạng đề giữa kỳ, đề 2019); file bài tập Chương 2, đề 2019"
+        },
+        {
+          "id": "c2-26",
+          "hoi": "Tụ cầu có $R_1 = 15\\ \\mathrm{cm}$, $R_2 = 18\\ \\mathrm{cm}$, giữa hai bản là điện môi $\\varepsilon = 5$. Điện dung của tụ là bao nhiêu?",
+          "dap_an": [
+            "$5 \\cdot 10^{-10}\\ \\mathrm{F}$",
+            "$1 \\cdot 10^{-10}\\ \\mathrm{F}$",
+            "$4{,}55 \\cdot 10^{-11}\\ \\mathrm{F}$",
+            "$2 \\cdot 10^{-11}\\ \\mathrm{F}$"
+          ],
+          "giai_thich": "$C = 4\\pi\\varepsilon_0\\varepsilon\\frac{R_1R_2}{R_2 - R_1} = 4\\pi \\cdot 8{,}85 \\cdot 10^{-12} \\cdot 5 \\cdot \\frac{0{,}15 \\cdot 0{,}18}{0{,}03} = 5 \\cdot 10^{-10}\\ \\mathrm{F}$. Mẫu số là hiệu bán kính, không phải tổng; thiếu $\\varepsilon$ cho giá trị nhỏ hơn 5 lần.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, Bài 11; file bài tập Chương 2, bài 11"
+        },
+        {
+          "id": "c2-27",
+          "hoi": "Tụ trụ ($R_1 = 20\\ \\mathrm{cm}$, $R_2 = 40\\ \\mathrm{cm}$) cần cao $h$ bằng bao nhiêu để có cùng điện dung với tụ cầu cùng bán kính hai bản?",
+          "dap_an": [
+            "$0{,}555\\ \\mathrm{m}$",
+            "$0{,}4\\ \\mathrm{m}$",
+            "$0{,}8\\ \\mathrm{m}$",
+            "$0{,}277\\ \\mathrm{m}$"
+          ],
+          "giai_thich": "Cho $\\frac{2\\pi\\varepsilon_0 h}{\\ln 2} = 4\\pi\\varepsilon_0\\frac{R_1R_2}{R_2 - R_1}$ nên $h = 2\\ln 2 \\cdot \\frac{0{,}08}{0{,}2} = 0{,}555\\ \\mathrm{m}$. Thiếu hệ số 2 (do $4\\pi$ so với $2\\pi$) cho $0{,}277\\ \\mathrm{m}$.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần III, Bài 3; file bài tập Chương 2, bài 3"
+        },
+        {
+          "id": "c2-28",
+          "hoi": "Tụ cầu có $R_1 = 1\\ \\mathrm{cm}$, $R_2 = 4\\ \\mathrm{cm}$, hiệu điện thế giữa hai bản $3000\\ \\mathrm{V}$. Cường độ điện trường tại điểm cách tâm $3\\ \\mathrm{cm}$ là bao nhiêu?",
+          "dap_an": [
+            "$44444\\ \\mathrm{V/m}$",
+            "$50000\\ \\mathrm{V/m}$",
+            "$1333\\ \\mathrm{V/m}$",
+            "$1 \\cdot 10^{5}\\ \\mathrm{V/m}$"
+          ],
+          "giai_thich": "Từ $U = kQ(1/R_1 - 1/R_2)$ tìm $Q = 3000/(9 \\cdot 10^{9} \\cdot 75) = 4{,}44 \\cdot 10^{-9}\\ \\mathrm{C}$, sau đó $E = kQ/r^2 = 4{,}44 \\cdot 10^{4}\\ \\mathrm{V/m}$. Điện trường không đều nên không dùng $U/d$ như tụ phẳng.",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần III, Bài 7; file bài tập Chương 2, bài 7"
+        },
+        {
+          "id": "c2-29",
+          "hoi": "Tụ điện chứa năng lượng $450\\ \\mathrm{J}$ khi điện tích $8 \\cdot 10^{-2}\\ \\mathrm{C}$. Hiệu điện thế giữa hai bản là bao nhiêu?",
+          "dap_an": [
+            "$11250\\ \\mathrm{V}$",
+            "$5625\\ \\mathrm{V}$",
+            "$56250\\ \\mathrm{V}$",
+            "$0{,}0178\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Từ $W = \\frac{1}{2}QU$ ta có $U = 2W/Q = 2 \\cdot 450/(8 \\cdot 10^{-2}) = 11250\\ \\mathrm{V}$ (khi đó $C = Q^2/(2W) = 7{,}1\\ \\mu\\mathrm{F}$). Quên hệ số 2 cho $5625\\ \\mathrm{V}$.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần II, VD 2.4 (năng lượng); slide Chương 2, trang 23"
+        },
+        {
+          "id": "c2-30",
+          "hoi": "Tụ điện $C = 5\\ \\mu\\mathrm{F}$ được tích điện ở hiệu điện thế $6\\ \\mathrm{V}$. Năng lượng điện trường của tụ là bao nhiêu?",
+          "dap_an": [
+            "$9 \\cdot 10^{-5}\\ \\mathrm{J}$",
+            "$1{,}8 \\cdot 10^{-4}\\ \\mathrm{J}$",
+            "$1{,}5 \\cdot 10^{-5}\\ \\mathrm{J}$",
+            "$90\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "$W = \\frac{1}{2}CU^2 = \\frac{1}{2} \\cdot 5 \\cdot 10^{-6} \\cdot 36 = 9 \\cdot 10^{-5}\\ \\mathrm{J}$. Quên hệ số $\\frac{1}{2}$ hoặc quên bình phương $U$ đều cho đáp số sai.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III, bảng \"còn lại\" (bài 13); file bài tập Chương 2, bài 13"
+        },
+        {
+          "id": "c2-31",
+          "hoi": "Quả cầu kim loại bán kính $20\\ \\mathrm{cm}$ mang điện tích $6 \\cdot 10^{-8}\\ \\mathrm{C}$ trong không khí. Năng lượng điện trường của nó là bao nhiêu?",
+          "dap_an": [
+            "$8{,}1 \\cdot 10^{-5}\\ \\mathrm{J}$",
+            "$1{,}6 \\cdot 10^{-4}\\ \\mathrm{J}$",
+            "$1350\\ \\mathrm{J}$",
+            "$4 \\cdot 10^{-4}\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "$W = \\frac{Q^2}{2C} = \\frac{kQ^2}{2R} = \\frac{9 \\cdot 10^{9} \\cdot (6 \\cdot 10^{-8})^2}{2 \\cdot 0{,}2} = 8{,}1 \\cdot 10^{-5}\\ \\mathrm{J}$. Năng lượng tỉ lệ với $1/R$, không phải $1/R^2$.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần II, VD 2.5; slide Chương 2, trang 25"
+        },
+        {
+          "id": "c2-32",
+          "hoi": "Tụ phẳng đã tích điện, ngắt khỏi nguồn, rồi tăng khoảng cách giữa hai bản thêm $50\\%$. Năng lượng của tụ thay đổi thế nào?",
+          "dap_an": [
+            "Tăng 50%",
+            "Giảm 50%",
+            "Giảm 33%",
+            "Không đổi"
+          ],
+          "giai_thich": "Ngắt nguồn nên $Q$ không đổi. $C = \\varepsilon_0 S/d$ giảm khi $d$ tăng, còn $W = Q^2/(2C) = \\frac{Q^2 d}{2\\varepsilon_0 S}$ tỉ lệ thuận với $d$, nên $W$ tăng thêm $50\\%$ (công ngoài thực hiện để kéo hai bản ra xa).",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần I mục 2.4 và Phần III (bảng còn lại, bài 23); slide Chương 2, trang 35"
+        },
+        {
+          "id": "c2-33",
+          "hoi": "Mật độ năng lượng điện trường trong môi trường có hằng số điện môi $\\varepsilon$ được tính bằng công thức nào?",
+          "dap_an": [
+            "$w_e = \\frac{1}{2}\\varepsilon_0\\varepsilon E^2$",
+            "$w_e = \\varepsilon_0\\varepsilon E^2$",
+            "$w_e = \\frac{1}{2}\\varepsilon_0\\varepsilon E$",
+            "$w_e = \\frac{1}{2}\\frac{E^2}{\\varepsilon_0\\varepsilon}$"
+          ],
+          "giai_thich": "Từ $W = \\frac{1}{2}CU^2$ của tụ phẳng với $C = \\varepsilon_0\\varepsilon S/d$ và $U = Ed$ ta được $W = \\frac{1}{2}\\varepsilon_0\\varepsilon E^2 (Sd)$, nên mật độ $w_e = \\frac{1}{2}\\varepsilon_0\\varepsilon E^2$ (đơn vị $\\mathrm{J/m^3}$).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4, Năng lượng điện trường; slide Chương 2, trang 24"
+        },
+        {
+          "id": "c2-34",
+          "hoi": "Tụ phẳng (không khí) nạp $20\\ \\mathrm{V}$ rồi ngắt nguồn, sau đó lấp đầy điện môi $\\varepsilon' = 5$ (khoảng cách không đổi). So sánh điện trường $E'$ giữa hai bản và năng lượng $W'$ so với trước khi đưa điện môi vào.",
+          "dap_an": [
+            "$E'$ giảm 5 lần, $W'$ giảm 5 lần",
+            "$E'$ không đổi, $W'$ tăng 5 lần",
+            "$E'$ giảm 5 lần, $W'$ tăng 5 lần",
+            "$E'$ tăng 5 lần, $W'$ giảm 5 lần"
+          ],
+          "giai_thich": "Ngắt nguồn nên $Q$ không đổi, $C' = \\varepsilon' C$. Điện thế $U' = Q/C' = U/5$ nên $E' = U'/d = E/5$, và $W' = Q^2/(2C') = W/5$ (các hệ thức này tự suy ra từ công thức tụ phẳng).",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần III (dạng đề giữa kỳ, đề 2025); file bài tập Chương 2, đề 2025"
+        },
+        {
+          "id": "c2-35",
+          "hoi": "Tụ phẳng đang nối với nguồn có hiệu điện thế không đổi $U$. Lấp đầy khoảng giữa hai bản bằng điện môi $\\varepsilon$. Điều gì đúng?",
+          "dap_an": [
+            "Điện tích $Q$ tăng $\\varepsilon$ lần, điện trường $E$ không đổi",
+            "Điện tích $Q$ giữ nguyên, điện trường $E$ giảm $\\varepsilon$ lần",
+            "Điện tích $Q$ tăng $\\varepsilon$ lần, điện trường $E$ tăng $\\varepsilon$ lần",
+            "Điện tích $Q$ giảm $\\varepsilon$ lần, điện trường $E$ không đổi"
+          ],
+          "giai_thich": "Nối nguồn thì $U$ không đổi và $d$ không đổi nên $E = U/d$ không đổi. Điện dung tăng $\\varepsilon$ lần nên $Q = CU$ tăng $\\varepsilon$ lần, và $W = \\frac{1}{2}CU^2$ cũng tăng $\\varepsilon$ lần (tự suy ra từ $C = \\varepsilon_0\\varepsilon S/d$).",
+          "kho": true,
+          "nguon": "TT Chương 2, Phần I, mục 2.4 (đưa điện môi vào tụ); suy ra từ slide Chương 2, trang 13"
+        },
+        {
+          "id": "c2-36",
+          "hoi": "Tụ phẳng không khí có cạnh $5\\ \\mathrm{mm}$, khoảng cách $d = 1\\ \\mu\\mathrm{m}$. Khi $d$ giảm còn $0{,}4\\ \\mu\\mathrm{m}$ thì điện dung thay đổi thế nào?",
+          "dap_an": [
+            "Tăng 2,5 lần",
+            "Giảm 2,5 lần",
+            "Tăng 6,25 lần",
+            "Không đổi vì diện tích không đổi"
+          ],
+          "giai_thich": "Điện dung $C = \\varepsilon_0 S/d$ tỉ lệ nghịch với $d$: $C'/C = 1/0{,}4 = 2{,}5$. (Ban đầu $C = \\varepsilon_0 a^2/d = 2{,}21 \\cdot 10^{-10}\\ \\mathrm{F}$.) Tỉ lệ $6{,}25$ là $(1/0{,}4)^2$.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần III (dạng đề giữa kỳ, đề 2025); file bài tập Chương 2, đề 2025"
+        },
+        {
+          "id": "c2-37",
+          "hoi": "Quả cầu dẫn $R = 50\\ \\mathrm{cm}$, $Q = 5 \\cdot 10^{-5}\\ \\mathrm{C}$. Điện thế tại tâm quả cầu bằng bao nhiêu?",
+          "dap_an": [
+            "$9 \\cdot 10^{5}\\ \\mathrm{V}$",
+            "$0\\ \\mathrm{V}$",
+            "$1{,}8 \\cdot 10^{6}\\ \\mathrm{V}$",
+            "$3 \\cdot 10^{5}\\ \\mathrm{V}$"
+          ],
+          "giai_thich": "Vật dẫn là vật đẳng thế: điện thế ở tâm bằng điện thế mặt $V = kQ/R = 9 \\cdot 10^{9} \\cdot 5 \\cdot 10^{-5}/0{,}5 = 9 \\cdot 10^{5}\\ \\mathrm{V}$, dù $E = 0$ ở tâm.",
+          "kho": false,
+          "nguon": "TT Chương 2, Phần II, mục 2.1; slide Chương 2, trang 31"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2064 @@
+{
+  "mon": "Toán học tổ hợp",
+  "ma_mon": "toan-hoc-to-hop",
+  "phien_ban": 2,
+  "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Tuần 1 - Tổng quan, phương pháp chứng minh, tập hợp và ánh xạ",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Để chứng minh mệnh đề $P(n)$ đúng với mọi $n \\in \\mathbb{N}$ có $n \\ge m$ bằng quy nạp, bước cơ sở là gì?",
+          "dap_an": [
+            "Chứng minh $P(m)$ đúng",
+            "Chứng minh $P(1)$ đúng",
+            "Chứng minh $P(m+1)$ đúng",
+            "Chứng minh $P(m) \\Rightarrow P(m+1)$"
+          ],
+          "giai_thich": "Khi mệnh đề chỉ xét $n \\ge m$ thì phần tử nhỏ nhất là m, nên bước cơ sở kiểm tra $P(m)$. Bước $P(k) \\Rightarrow P(k+1)$ là bước quy nạp, không phải cơ sở.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 1.1 (Phương pháp quy nạp); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Trong quy nạp mạnh, bước quy nạp được thực hiện như thế nào (với k lớn hơn các giá trị cơ sở)?",
+          "dap_an": [
+            "Giả sử $P(1)$, …, $P(k-1)$ đều đúng rồi chứng minh $P(k)$",
+            "Giả sử chỉ $P(k-1)$ đúng rồi chứng minh $P(k)$",
+            "Giả sử $P(k)$ đúng rồi chứng minh $P(1)$, …, $P(k-1)$",
+            "Giả sử $P(k)$ đúng rồi chứng minh $P(k+1)$ và $P(k+2)$"
+          ],
+          "giai_thich": "Quy nạp mạnh dùng cả các mệnh đề $P(1)$, …, $P(k-1)$ làm giả thiết quy nạp, không chỉ mệnh đề ngay trước.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 1.1 (Quy nạp mạnh); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Chứng minh bằng phương pháp phản chứng một mệnh đề P được thực hiện theo cách nào?",
+          "dap_an": [
+            "Giả sử phủ định của P đúng rồi suy ra điều mâu thuẫn",
+            "Giả sử P đúng rồi suy ra điều mâu thuẫn",
+            "Kiểm tra P với vài giá trị rồi khái quát",
+            "Giả sử P đúng rồi chứng minh phủ định của P cũng đúng"
+          ],
+          "giai_thich": "Phản chứng bắt đầu từ phủ định P̄, nếu từ đó suy ra mâu thuẫn thì P̄ sai, tức P đúng.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 1.2 (Phương pháp phản chứng); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Phát biểu nào về thứ tự trong tập hợp và bộ (dãy) là đúng?",
+          "dap_an": [
+            "$\\{1, 2, 3\\} = \\{3, 1, 2\\}$ nhưng $(1, 2, 3) \\ne (3, 1, 2)$",
+            "$\\{1, 2, 3\\} \\ne \\{3, 1, 2\\}$ và $(1, 2, 3) \\ne (3, 1, 2)$",
+            "$\\{1, 2, 3\\} = \\{3, 1, 2\\}$ và $(1, 2, 3) = (3, 1, 2)$",
+            "$\\{1, 2, 3\\} \\ne \\{3, 1, 2\\}$ nhưng $(1, 2, 3) = (3, 1, 2)$"
+          ],
+          "giai_thich": "Tập hợp không có tính thứ tự, còn bộ ba $(a, b, c)$, chuỗi và dãy số thì có.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 2.1 (Tập hợp); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Tập X có 5 phần tử. Tập $\\wp(X)$ gồm tất cả các tập con của X (kể cả tập rỗng) có bao nhiêu phần tử?",
+          "dap_an": [
+            "32",
+            "25",
+            "31",
+            "10"
+          ],
+          "giai_thich": "$|\\wp(X)| = 2^{|X|} = 2^5 = 32$. Giá trị 31 là khi bỏ tập rỗng, 25 là $5^{2}$, 10 chỉ là số tập con 2 phần tử.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 2.1 và Bài 6; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Với $A = \\{a, b\\}$, tập $A^{3} = A \\times A \\times A$ có bao nhiêu phần tử?",
+          "dap_an": [
+            "8",
+            "6",
+            "9",
+            "3"
+          ],
+          "giai_thich": "$A^{3}$ gồm các bộ ba $(a_{1}, a_{2}, a_{3})$ với mỗi $a_{i} \\in A$ nên có $2\\cdot2\\cdot2 = 8$ phần tử. Con số 9 là $3^{2}$, 6 là $2\\cdot3$.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 2.1 (Tích Descartes); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Ánh xạ $f : \\mathbb{N} \\to \\mathbb{N}$, $f(n) = n^{2}$ thuộc loại nào?",
+          "dap_an": [
+            "Đơn ánh nhưng không toàn ánh",
+            "Toàn ánh nhưng không đơn ánh",
+            "Song ánh",
+            "Không đơn ánh và không toàn ánh"
+          ],
+          "giai_thich": "$n^{2} = m^{2}$ với n, $m \\ge 0$ thì n = m nên f đơn ánh; số 2 không là bình phương của số tự nhiên nào nên f không toàn ánh.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 2.2 và Ví dụ 8; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Ánh xạ nào sau đây (từ $\\mathbb{Z}$ vào $\\mathbb{Z}$) là song ánh?",
+          "dap_an": [
+            "$f(x) = x + 2$",
+            "$f(x) = 2x$",
+            "$f(x) = x^{2}$",
+            "$f(x) = |x|$"
+          ],
+          "giai_thich": "$f(x) = x + 2$ có ánh xạ ngược $g(x) = x - 2$. $f(x) = 2x$ không toàn ánh (không nhận số lẻ), còn $x^{2}$ và $|x|$ không đơn ánh vì $f(-1) = f(1)$.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 2.2 (Mệnh đề 2) và Ví dụ 8; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Cho $f : A \\to B$ và $g : B \\to C$ đều là toàn ánh. Khi đó $g\\circ f : A \\to C$ là gì?",
+          "dap_an": [
+            "Toàn ánh",
+            "Đơn ánh",
+            "Song ánh",
+            "Chưa kết luận được loại nào"
+          ],
+          "giai_thich": "Với $z \\in C$ có $y \\in B$ để $g(y) = z$, rồi có $x \\in A$ để $f(x) = y$, nên $(g\\circ f)(x) = z$. Hợp của hai toàn ánh luôn là toàn ánh, nhưng chưa chắc đơn ánh.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 2.2 (Mệnh đề 1) và Bài 5; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Cho A, B là tập hữu hạn và $f : A \\to B$ là đơn ánh, biết $|B| = 7$. Điều nào chắc chắn đúng?",
+          "dap_an": [
+            "$|A| \\le 7$",
+            "$|A| \\ge 7$",
+            "$|A| = 7$",
+            "$|A| \\ne 7$"
+          ],
+          "giai_thich": "Đơn ánh gửi các phần tử khác nhau của A đến các phần tử khác nhau của B nên $|A| \\le |B|$. Đây là điều kiện ngược với toàn ánh $(|A| \\ge |B|)$.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 2.3 (Kết quả về tập hữu hạn); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Tính tổng 1 + 2 + 4 + 8 + 16 + 32.",
+          "dap_an": [
+            "63",
+            "64",
+            "62",
+            "31"
+          ],
+          "giai_thich": "Theo công thức $1 + 2 + \\dots + 2^{n} = 2^{n+1} - 1$ với n = 5: $2^{6} - 1 = 63$. Giá trị 64 là $2^{6}$ (quên trừ 1).",
+          "kho": false,
+          "nguon": "TT Tuần 1, Ví dụ 1(a); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Tính $S = 1\\cdot2 + 2\\cdot3 + 3\\cdot4 + 4\\cdot5 + 5\\cdot6 + 6\\cdot7$.",
+          "dap_an": [
+            "112",
+            "56",
+            "91",
+            "168"
+          ],
+          "giai_thich": "$\\sum k(k+1) = \\frac{n(n+1)(n+2)}{3}$ với n = 6 là $\\frac{6\\cdot7\\cdot8}{3} = 112$. Con số 56 nhầm chia 6, 91 là tổng các bình phương $1^{2}+\\dots+6^{2}$, 168 nhầm chia 2.",
+          "kho": false,
+          "nguon": "TT Tuần 1, Ví dụ 1(b); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Khi chứng minh $n^{3} + 2n$ chia hết cho 3 bằng quy nạp, ta tách $(k+1)^{3} + 2(k+1) = (k^{3} + 2k) + 3(k^{2} + k + 1)$. Nhờ giả thiết quy nạp, ta kết luận số hạng nào chia hết cho 3?",
+          "dap_an": [
+            "$k^{3} + 2k$",
+            "$k^{2} + k + 1$",
+            "$(k+1)^{3}$",
+            "$k^{2} + k$"
+          ],
+          "giai_thich": "Giả thiết quy nạp cho biết $k^{3} + 2k$ chia hết cho 3; số hạng $3(k^{2}+k+1)$ hiển nhiên chia hết cho 3. Các biểu thức $k^{2}+k+1$, $(k+1)^{3}$, $k^{2}+k$ không luôn chia hết cho 3.",
+          "kho": true,
+          "nguon": "TT Tuần 1, Ví dụ 2; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Trong các giá trị $n \\in \\{1, 2, 3, 4\\}$, giá trị nào thỏa $2^{n} > n^{2}$?",
+          "dap_an": [
+            "Chỉ n = 1",
+            "Chỉ n = 2",
+            "Chỉ n = 3",
+            "Chỉ n = 4"
+          ],
+          "giai_thich": "$n=1$: 2>1 đúng; $n=2$: 4>4 sai; $n=3$: 8>9 sai; $n=4$: 16>16 sai. Bất đẳng thức chỉ đúng trở lại từ n = 5 (32>25), nên bước cơ sở phải là n = 5.",
+          "kho": true,
+          "nguon": "TT Tuần 1, Ví dụ 3; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Trong chứng minh $2^{n} > n^{2}$ với $n \\ge 5$, sau khi có $2^{k+1} > 2k^{2}$, cần chứng minh bất đẳng thức nào để suy ra $2^{k+1} > (k+1)^{2}$?",
+          "dap_an": [
+            "$2k^{2} > (k+1)^{2}$, tương đương $k^{2} > 2k + 1$",
+            "$2k^{2} > (k-1)^{2}$, tương đương k > 1",
+            "$2k^{2} > k^{2} + 1$, tương đương $k^{2} > 1$",
+            "$k^{2} > (k+1)^{2}$, tương đương 0 > 2k + 1"
+          ],
+          "giai_thich": "Chỉ cần $2k^{2} \\ge (k+1)^{2}$, tức $k^{2} > 2k + 1$ (đúng khi $k \\ge 5$ vì $k(k-2) \\ge 15 > 1$).",
+          "kho": true,
+          "nguon": "TT Tuần 1, Ví dụ 3; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Với tiền mệnh giá 3 và 5, số tiền lớn nhất KHÔNG thể đổi được chính xác là bao nhiêu?",
+          "dap_an": [
+            "7",
+            "8",
+            "9",
+            "15"
+          ],
+          "giai_thich": "$8 = 3+5$, $9 = 3+3+3$, $15 = 5+5+5$ đều đổi được; còn 7 thì không (7 − 5 = 2 và 7 − 0 = 7 đều không chia hết cho 3). Mọi $n \\ge 8$ đều đổi được.",
+          "kho": false,
+          "nguon": "TT Tuần 1, Ví dụ 4; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Trong chứng minh mọi $n \\ge 8$ đổi được bằng tiền 3 và 5, vì sao phải kiểm tra cơ sở cho ba giá trị 8, 9, 10?",
+          "dap_an": [
+            "Bước quy nạp dùng $P(k - 3)$, nên phải có ba giá trị cơ sở liên tiếp",
+            "Bước quy nạp dùng $P(k - 5)$, nên phải có năm giá trị cơ sở liên tiếp",
+            "Vì có đúng ba loại số dư khi chia các số cho 5 và cho 3",
+            "Vì 8, 9, 10 là ba số đầu tiên không đổi được bằng tiền 3 và 5"
+          ],
+          "giai_thich": "Từ $P(k-3)$ suy ra $P(k)$ bằng cách thêm một tờ 3. Để k = 11, 12, 13, … luôn có $k - 3 \\ge 8$ thuộc đoạn đã biết, cần $P(8)$, $P(9)$, $P(10)$ làm điểm xuất phát.",
+          "kho": true,
+          "nguon": "TT Tuần 1, Ví dụ 4 (quy nạp mạnh); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Giải đấu có n bạn, hai bạn bất kỳ đấu đúng một trận, không hòa. Chọn một bạn A. Để xếp hàng sao cho mỗi bạn thắng bạn đứng kề bên phải, ta xếp theo thứ tự nào?",
+          "dap_an": [
+            "Hàng các bạn thắng A, rồi A, rồi hàng các bạn thua A",
+            "Hàng các bạn thua A, rồi A, rồi hàng các bạn thắng A",
+            "A đứng đầu, rồi tất cả các bạn còn lại tùy ý",
+            "A đứng giữa, các bạn còn lại xếp theo tên"
+          ],
+          "giai_thich": "Bạn cuối hàng thứ nhất (đã thắng A) đứng kề A bên trái nên phải là người thắng A, còn A thắng người đầu hàng sau (người thua A). Mỗi hàng con thỏa yêu cầu theo giả thiết quy nạp.",
+          "kho": true,
+          "nguon": "TT Tuần 1, Ví dụ 5; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Trong chứng minh $\\sqrt{2}$ là số vô tỉ bằng phản chứng ($\\sqrt{2} = \\frac{p}{q}$ với ƯCLN(p, q) = 1), mâu thuẫn xuất hiện ở đâu?",
+          "dap_an": [
+            "p và q đều chẵn, trái với ƯCLN(p, q) = 1",
+            "p chẵn nhưng q lẻ, trái với $2q^{2} = p^{2}$",
+            "$p^{2}$ lẻ nhưng lại bằng $2q^{2}$, một số chẵn",
+            "q = 0 nên phân số $\\frac{p}{q}$ không xác định"
+          ],
+          "giai_thich": "Từ $2q^{2} = p^{2}$ suy ra p chẵn, rồi q chẵn. Khi đó p, q cùng chia hết cho 2, mâu thuẫn với phân số tối giản.",
+          "kho": false,
+          "nguon": "TT Tuần 1, Ví dụ 6; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Trong Ví dụ 7 ($a > b > c \\ge 1$, ba tổng $a+b$, $b+c$, $c+a$ đều nguyên tố), tổng $(a+b) + (b+c) + (c+a)$ bằng gì và vì sao tạo mâu thuẫn?",
+          "dap_an": [
+            "Bằng $2(a+b+c)$, là số chẵn, nhưng tổng của ba số nguyên tố lẻ là số lẻ",
+            "Bằng $a+b+c$, là số lẻ, nhưng tổng ba số nguyên tố là số chẵn",
+            "Bằng $2(a+b+c)$, là số chẵn nên không cần xét thêm",
+            "Bằng $3(a+b+c)$, là số chia hết cho 3 nên không nguyên tố"
+          ],
+          "giai_thich": "Ba tổng đều > 2 nên đều là nguyên tố lẻ, tổng của chúng lẻ; nhưng tổng đó bằng $2(a+b+c)$ chẵn. Mâu thuẫn.",
+          "kho": true,
+          "nguon": "TT Tuần 1, Ví dụ 7; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Số chính phương nhỏ nhất lớn hơn $n^{2}$ $(n \\ge 1)$ là số nào, và hiệu của nó với $n^{2}$ có thể bằng 2 không?",
+          "dap_an": [
+            "$(n+1)^{2}$, hiệu là $2n+1 \\ge 3$ nên không bằng 2",
+            "$(n+1)^{2}$, hiệu là $n+1 \\ge 2$ nên có thể bằng 2 khi n = 1",
+            "$(n+2)^{2}$, hiệu là $4n+4$ nên không bằng 2",
+            "$n^{2} + 1$, hiệu bằng 1 nên không bằng 2"
+          ],
+          "giai_thich": "Số chính phương kế tiếp là $(n+1)^{2} = n^{2} + 2n + 1$, hiệu $2n+1 \\ge 3 > 2$, nên $n^{2} + 2$ nằm giữa hai số chính phương liên tiếp và không là số chính phương (đề bài này cần kiểm tra lại cách đọc căn).",
+          "kho": true,
+          "nguon": "TT Tuần 1, Bài 3 (cần kiểm tra lại đề); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Với $F_{1} = 1$, $F_{2} = 2$, $F_{3} = 3$, $F_{4} = 5$, $F_{5} = 8$, $F_{6} = 13$, $F_{7} = 21$, $F_{8} = 34$, $F_{9} = 55$, $F_{10} = 89$, biểu diễn nào của 100 là tổng các số Fibonacci KHÔNG có hai số liên tiếp trong dãy?",
+          "dap_an": [
+            "100 = 89 + 8 + 3",
+            "100 = 55 + 34 + 8 + 3",
+            "100 = 55 + 21 + 13 + 8 + 3",
+            "100 = 89 + 5 + 3 + 2 + 1"
+          ],
+          "giai_thich": "89 + 8 + 3 dùng $F_{10}$, $F_{5}$, $F_{3}$ (cách nhau $\\ge 2$). Ba biểu diễn còn lại cũng cộng ra 100 nhưng chứa số liên tiếp: 55 và 34, hoặc 21 – 13 – 8, hoặc 3 – 2 – 1.",
+          "kho": true,
+          "nguon": "TT Tuần 1, Bài 2 (biểu diễn Fibonacci duy nhất); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Bảng $2^{n} \\times 2^{n}$ bị xóa một ô được phủ kín bằng các viên chữ L (3 ô). Với n = 3, cần bao nhiêu viên?",
+          "dap_an": [
+            "21",
+            "20",
+            "64",
+            "22"
+          ],
+          "giai_thich": "Còn $2^{6} - 1 = 63$ ô, mỗi viên 3 ô nên cần $\\frac{63}{3} = 21$ viên. Tổng quát $\\frac{4^{n} - 1}{3}$; $4^{n} - 1$ luôn chia hết cho 3 nên phép phủ không vướng số ô.",
+          "kho": false,
+          "nguon": "TT Tuần 1, Bài 1 (phủ chữ L); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Song ánh $\\varphi : \\wp([n]) \\to \\{0, 1\\}^{n}$ gán $A \\subset [n]$ với chuỗi $(v_{1}, \\dots, v_{n})$, $v_{i} = 1$ nếu $i \\in A$. Với n = 4, tập $A = \\{1, 3\\}$ ứng với chuỗi nào?",
+          "dap_an": [
+            "1010",
+            "1100",
+            "0101",
+            "1011"
+          ],
+          "giai_thich": "Vị trí 1 và 3 thuộc A nên bằng 1; vị trí 2 và 4 không thuộc A nên bằng 0, được 1010.",
+          "kho": false,
+          "nguon": "TT Tuần 1, Bài 6; bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Theo slide, lớp có ít nhất bao nhiêu bạn thì xác suất tồn tại hai bạn cùng sinh nhật vượt quá $\\frac{1}{2}$ (nghịch lý ngày sinh)?",
+          "dap_an": [
+            "23 bạn",
+            "60 bạn",
+            "183 bạn",
+            "366 bạn"
+          ],
+          "giai_thich": "Với 22 bạn xác suất $\\approx 0{,}476$ còn với 23 bạn $\\approx 0{,}507 > \\frac{1}{2}$. Con số 183 (một nửa của 366) là điều nhiều người đoán nhầm.",
+          "kho": false,
+          "nguon": "TT Tuần 1, mục 0 (Tổng quan, bài toán ngày sinh); bài giảng Mth50-Tuan 1-Sua loi.pdf"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nhom": "Bài giảng",
+      "ten": "Tuần 2 - Các quy tắc đếm cơ bản",
+      "cau": [
+        {
+          "id": "c2-01",
+          "hoi": "Ký hiệu $[n]$ trong tài liệu Tuần 2 có nghĩa là gì?",
+          "dap_an": [
+            "Tập $\\{1, 2, \\dots, n\\}$",
+            "Tập $\\{0, 1, \\dots, n\\}$",
+            "Tập $\\{0, 1, \\dots, n - 1\\}$",
+            "Tập chỉ gồm một phần tử n"
+          ],
+          "giai_thich": "Theo quy ước ký hiệu, $[n] = \\{1, 2, \\dots, n\\}$ đại diện cho tập có n phần tử bất kỳ; còn $\\mathbb{N} = \\{0, 1, 2, \\dots\\}$ mới bắt đầu từ 0.",
+          "kho": false,
+          "nguon": "TT Tuần 2, Quy ước ký hiệu; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-02",
+          "hoi": "Một năm có 365 ngày và ngày 1/1 là thứ Hai. Năm đó có bao nhiêu ngày thứ Hai?",
+          "dap_an": [
+            "53",
+            "52",
+            "54",
+            "51"
+          ],
+          "giai_thich": "$365 = 7\\cdot52 + 1$ nên có 52 tuần trọn vẹn và 1 ngày dư (cuối năm) cũng là thứ Hai, tổng 53 ngày thứ Hai (còn Chủ Nhật chỉ có 52).",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 3.1 (Quy tắc cộng), Ví dụ 1; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-03",
+          "hoi": "Có bao nhiêu số lẻ gồm 3 chữ số khác nhau trong đoạn từ 100 đến 999?",
+          "dap_an": [
+            "320",
+            "360",
+            "405",
+            "450"
+          ],
+          "giai_thich": "Chọn chữ số hàng đơn vị trước (5 cách lẻ), rồi hàng trăm (khác nó và khác 0: 8 cách), cuối cùng hàng chục (khác hai chữ số kia: 8 cách): $5\\cdot8\\cdot8 = 320$. Chọn sai thứ tự sẽ phải xét thêm trường hợp.",
+          "kho": true,
+          "nguon": "TT Tuần 2, mục 3.2 (Quy tắc nhân), Ví dụ 2; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-04",
+          "hoi": "Có bao nhiêu bội của 7 trong đoạn từ 100 đến 200?",
+          "dap_an": [
+            "14",
+            "13",
+            "15",
+            "16"
+          ],
+          "giai_thich": "Các bội là 105, 112, …, 196 và song ánh x ↦ 7(x + 14) từ $[14]$ vào tập đó, nên có 14 phần tử. Nhầm lẫn thường gặp: lấy $\\frac{200 - 100}{7}$ rồi làm tròn lên thành 15.",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 3.3 (Quy tắc song ánh), Ví dụ 1; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-05",
+          "hoi": "Một tập X có 7 phần tử. Có bao nhiêu tập con (kể cả tập rỗng và chính X)?",
+          "dap_an": [
+            "128",
+            "49",
+            "127",
+            "35"
+          ],
+          "giai_thich": "Song ánh Y ↦ $(y_{1}, \\dots, y_{7})$ với $y_{i} \\in \\{0,1\\}$ cho $|\\wp(X)| = 2^{7} = 128$. Con số 127 là khi bỏ tập rỗng, $49 = 7^{2}$, $35 = \\binom{7}{3}$.",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 3.3, Ví dụ 2; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-06",
+          "hoi": "Có bao nhiêu hoán vị $f : [5] \\to [5]$ thỏa $f(1) \\ne 1$?",
+          "dap_an": [
+            "96",
+            "120",
+            "119",
+            "24"
+          ],
+          "giai_thich": "Tổng $5! = 120$ hoán vị, trừ các hoán vị có $f(1) = 1$ là $4! = 24$, được 96. Giá trị 119 trừ nhầm 1, còn 24 chỉ là số hoán vị có $f(1) = 1$.",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 4.1, Ví dụ; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-07",
+          "hoi": "Lớp có 50 bạn, cần lập ban cán sự gồm lớp trưởng, lớp phó học tập, lớp phó kỷ luật và lớp phó phong trào (mỗi người một chức khác nhau). Có bao nhiêu cách?",
+          "dap_an": [
+            "$50\\cdot49\\cdot48\\cdot47 = 5\\,527\\,200$",
+            "$\\binom{50}{4} = 230\\,300$",
+            "$50^{4} = 6\\,250\\,000$",
+            "$50\\cdot49\\cdot48 = 117\\,600$"
+          ],
+          "giai_thich": "Các chức vụ khác nhau nên có thứ tự: $P(50, 4) = \\frac{50!}{46!} = 50\\cdot49\\cdot48\\cdot47$. $\\binom{50}{4}$ bỏ qua thứ tự, $50^{4}$ cho phép một người giữ nhiều chức.",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 4.2, Ví dụ; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-08",
+          "hoi": "Giá trị của $P(10, 3)$ (số chỉnh hợp chập 3 của 10 phần tử) là bao nhiêu?",
+          "dap_an": [
+            "720",
+            "120",
+            "1000",
+            "30"
+          ],
+          "giai_thich": "$P(10, 3) = 10\\cdot9\\cdot8 = 720$. Con số 120 là $\\binom{10}{3} = \\frac{P(10,3)}{3!}$; 1000 là $10^{3}$.",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 4.2 và 4.3; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-09",
+          "hoi": "Chọn 4 người trong 10 người để lập một tổ đại diện (không phân biệt chức vụ). Có bao nhiêu cách?",
+          "dap_an": [
+            "210",
+            "5040",
+            "40",
+            "10 000"
+          ],
+          "giai_thich": "Không phân biệt thứ tự nên là tổ hợp $\\binom{10}{4} = 210$. Số 5040 là $P(10, 4) = \\binom{10}{4}\\cdot4!$, nghĩa là có phân biệt chức vụ.",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 4.3 (Tổ hợp); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-10",
+          "hoi": "Tính $\\binom{8}{0} + \\binom{8}{1} + \\dots + \\binom{8}{8}$.",
+          "dap_an": [
+            "256",
+            "128",
+            "64",
+            "512"
+          ],
+          "giai_thich": "Tổng các số tổ hợp bằng số tập con của tập 8 phần tử: $2^{8} = 256$ (cũng là x = y = 1 trong khai triển $(x+y)^{8}$).",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 4.3 (Ví dụ và Hệ quả); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-11",
+          "hoi": "Tính $\\binom{7}{0} + \\binom{7}{2} + \\binom{7}{4} + \\binom{7}{6}$ (các hệ số ở vị trí chẵn).",
+          "dap_an": [
+            "64",
+            "128",
+            "63",
+            "32"
+          ],
+          "giai_thich": "Tổng đan dấu $\\binom{7}{0} - \\binom{7}{1} + \\dots = 0$ nên tổng các vị trí chẵn bằng tổng các vị trí lẻ, mỗi tổng bằng $\\frac{2^{7}}{2} = 64$.",
+          "kho": false,
+          "nguon": "TT Tuần 2, Bài tập §4.3, Bài 2; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-12",
+          "hoi": "Trong khai triển $(x + 2)^{5}$, hệ số của $x^{2}$ là bao nhiêu?",
+          "dap_an": [
+            "80",
+            "40",
+            "10",
+            "32"
+          ],
+          "giai_thich": "Số hạng chứa $x^{2}$ ứng với k = 3: $\\binom{5}{3}\\cdot x^{2}\\cdot2^{3} = 10\\cdot8\\cdot x^{2} = 80$. Nhầm thường gặp là dùng $2^{2}$ thay vì $2^{3}$ (ra 40) hoặc quên lũy thừa của 2 (ra 10).",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 4.3 (Nhị thức Newton); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-13",
+          "hoi": "Có 3 vật khác nhau cần cho vào 4 hộp khác nhau (mỗi hộp chứa tùy ý). Có bao nhiêu cách?",
+          "dap_an": [
+            "64",
+            "81",
+            "24",
+            "12"
+          ],
+          "giai_thich": "Mỗi vật chọn một trong 4 hộp: một ánh xạ $[3] \\to [4]$, có $4^{3} = 64$ cách. $81 = 3^{4}$ là nhầm vai trò vật và hộp, $24 = P(4,3)$.",
+          "kho": false,
+          "nguon": "TT Tuần 2, §5 (Phân bố n vật khác nhau vào m hộp); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-14",
+          "hoi": "Chia 10 viên kẹo giống nhau cho 5 bạn sao cho bạn nào cũng có ít nhất 1 viên. Có bao nhiêu cách?",
+          "dap_an": [
+            "126",
+            "1001",
+            "252",
+            "210"
+          ],
+          "giai_thich": "Đặt $y_{i} = x_{i} - 1 \\ge 0$ thì $y_{1} + \\dots + y_{5} = 5$, có $\\binom{9}{4} = 126$ nghiệm. Số $1001 = \\binom{14}{4}$ là khi cho phép bạn nhận 0 viên.",
+          "kho": true,
+          "nguon": "TT Tuần 2, §5, Ví dụ 1 (chia kẹo); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-15",
+          "hoi": "Phương pháp 'sao và vạch' biểu diễn nghiệm của $x_{1} + x_{2} + x_{3} = 6$ $(x_{i} \\ge 0)$ bằng chuỗi gồm bao nhiêu ký tự?",
+          "dap_an": [
+            "8 ký tự: 6 dấu * và 2 dấu $|$",
+            "9 ký tự: 6 dấu * và 3 dấu $|$",
+            "7 ký tự: 6 dấu * và 1 dấu $|$",
+            "6 ký tự: chỉ gồm các dấu *"
+          ],
+          "giai_thich": "m = 3 biến cần $m - 1 = 2$ vạch ngăn, cộng n = 6 sao, tổng $n + m - 1 = 8$ ký tự. Số chuỗi là $\\binom{8}{2} = 28$.",
+          "kho": false,
+          "nguon": "TT Tuần 2, §5 (Mệnh đề, chứng minh sao và vạch); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-16",
+          "hoi": "Xếp 3 bi đỏ, 5 bi xanh và 2 bi vàng (các bi cùng màu như nhau) thành một hàng ngang. Có bao nhiêu cách?",
+          "dap_an": [
+            "2520",
+            "5040",
+            "142",
+            "3 628 800"
+          ],
+          "giai_thich": "$\\frac{10!}{3!\\cdot5!\\cdot2!} = \\binom{10}{3}\\cdot\\binom{7}{5}\\cdot\\binom{2}{2} = 120\\cdot21\\cdot1 = 2520$. Số 142 là cộng thay vì nhân, 3 628 800 là $10!$ (coi các bi khác nhau).",
+          "kho": false,
+          "nguon": "TT Tuần 2, §5, Ví dụ 2 (sắp xếp có lặp); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-17",
+          "hoi": "Ngân hàng có vô hạn tờ tiền mệnh giá 1, 2, 5. Có bao nhiêu cách tạo ra 15 tờ tiền (không quan tâm giá trị)?",
+          "dap_an": [
+            "136",
+            "455",
+            "680",
+            "120"
+          ],
+          "giai_thich": "Gọi số tờ mỗi loại là $x_{1}$, $x_{2}$, $x_{3} \\ge 0$ với tổng 15: $\\binom{15+3-1}{2} = \\binom{17}{2} = 136$. Các số khác là $\\binom{15}{3}$, $\\binom{17}{3}$, $\\binom{16}{2}$.",
+          "kho": false,
+          "nguon": "TT Tuần 2, §5, Ví dụ 3 (lựa chọn có lặp); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-18",
+          "hoi": "Bất phương trình $x_{1} + x_{2} + x_{3} \\le 9$ có bao nhiêu nghiệm nguyên không âm?",
+          "dap_an": [
+            "220",
+            "55",
+            "66",
+            "715"
+          ],
+          "giai_thich": "Thêm biến phụ $x_{4} \\ge 0$ để thành $x_{1} + x_{2} + x_{3} + x_{4} = 9$, có $\\binom{12}{3} = 220$ nghiệm. Số $55 = \\binom{11}{2}$ chỉ đếm nghiệm của dấu '=', còn lại là các nhầm tham số.",
+          "kho": true,
+          "nguon": "TT Tuần 2, Bài tập về nhà, Bài 4 (§5); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-19",
+          "hoi": "Phương trình $x_{1} + x_{2} + x_{3} + x_{4} = 10$ có bao nhiêu nghiệm nguyên không âm thỏa $x_{i} \\le 4$ với mọi i?",
+          "dap_an": [
+            "68",
+            "286",
+            "62",
+            "74"
+          ],
+          "giai_thich": "Tổng không ràng buộc là $\\binom{13}{3} = 286$. Trừ các nghiệm có $x_{i} \\ge 5$: $4\\cdot\\binom{8}{3} = 224$, rồi cộng lại các nghiệm có hai biến $\\ge 5$ $(6\\cdot\\binom{3}{3} = 6)$: 286 − 224 + 6 = 68. Số 62 quên cộng lại phần giao.",
+          "kho": true,
+          "nguon": "TT Tuần 2, Bài tập về nhà, Bài 3 (kỹ thuật bù trừ ở Tuần 3); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-20",
+          "hoi": "Đặt hai con vua khác màu lên bàn cờ $3 \\times 3$ sao cho chúng không ăn được nhau (hai ô kề nhau kể cả chéo thì ăn được). Có bao nhiêu cách?",
+          "dap_an": [
+            "32",
+            "40",
+            "16",
+            "72"
+          ],
+          "giai_thich": "Vua trắng ở góc (4 ô) còn 5 ô an toàn, ở cạnh (4 ô) còn 3 ô, ở tâm còn 0: $4\\cdot5 + 4\\cdot3 + 0 = 32$. Số 40 là số cách đặt mà chúng ăn được nhau, 72 là tất cả cách đặt.",
+          "kho": true,
+          "nguon": "TT Tuần 2, Bài tập §3.3, Bài 1(a); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-21",
+          "hoi": "Đặt 1 con xe và 1 con mã khác màu lên bàn cờ $3 \\times 3$ sao cho không con nào ăn được con kia. Có bao nhiêu cách?",
+          "dap_an": [
+            "20",
+            "52",
+            "24",
+            "32"
+          ],
+          "giai_thich": "Xe ở tâm: còn 4 ô; xe ở góc: còn 2 ô; xe ở cạnh: còn 2 ô. Tổng $1\\cdot4 + 4\\cdot2 + 4\\cdot2 = 20$. Số 52 = 72 − 20 là số cách mà chúng ăn được nhau.",
+          "kho": true,
+          "nguon": "TT Tuần 2, Bài tập §3.3, Bài 1(b); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-22",
+          "hoi": "Cho $f : \\mathbb{N} \\to \\mathbb{Z}$, $f(n) = \\frac{n}{2}$ nếu n chẵn, $f(n) = -\\frac{n+1}{2}$ nếu n lẻ. Giá trị $f(7)$ bằng bao nhiêu?",
+          "dap_an": [
+            "−4",
+            "4",
+            "−3",
+            "3"
+          ],
+          "giai_thich": "7 lẻ nên $f(7) = -\\frac{7+1}{2} = -4$. Các giá trị đầu $f(0), \\dots, f(4) = 0, -1, 1, -2, 2$ cho thấy số lẻ ánh xạ vào các số âm.",
+          "kho": false,
+          "nguon": "TT Tuần 2, Bài tập §3.3, Bài 2; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-23",
+          "hoi": "Với f như trên ($f : \\mathbb{N} \\to \\mathbb{Z}$ song ánh), ánh xạ ngược $g : \\mathbb{Z} \\to \\mathbb{N}$ có $g(m) = -2m - 1$ khi m < 0. Giá trị $g(-3)$ bằng bao nhiêu?",
+          "dap_an": [
+            "5",
+            "6",
+            "7",
+            "3"
+          ],
+          "giai_thich": "$g(-3) = -2\\cdot(-3) - 1 = 5$, kiểm tra $f(5) = -\\frac{5+1}{2} = -3$. Số 6 và 7 do nhầm công thức ($2|m|$ hoặc $2|m|+1$).",
+          "kho": true,
+          "nguon": "TT Tuần 2, Bài tập §3.3, Bài 2 (Cách 1); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-24",
+          "hoi": "Song ánh $\\varphi : \\mathbb{N} \\times \\mathbb{N} \\to \\mathbb{N}$ cho bởi $\\varphi(a, b) = 2^{a}(2b + 1) - 1$. Giá trị $\\varphi(2, 3)$ bằng bao nhiêu?",
+          "dap_an": [
+            "27",
+            "28",
+            "39",
+            "13"
+          ],
+          "giai_thich": "$\\varphi(2, 3) = 2^{2}\\cdot(2\\cdot3 + 1) - 1 = 4\\cdot7 - 1 = 27$. Số 28 quên '−1', 39 là $\\varphi(3, 2)$ (đảo vai trò a và b).",
+          "kho": false,
+          "nguon": "TT Tuần 2, Bài tập §3.3, Bài 3; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-25",
+          "hoi": "Với $\\varphi(a, b) = 2^{a}(2b + 1) - 1$, cặp $(a, b)$ nào thỏa $\\varphi(a, b) = 11$?",
+          "dap_an": [
+            "$(2, 1)$",
+            "$(3, 1)$",
+            "$(1, 2)$",
+            "$(2, 3)$"
+          ],
+          "giai_thich": "$\\varphi(a,b) = 11 \\Leftrightarrow 2^{a}(2b+1) = 12 = 4\\cdot3$, nên a = 2 và 2b + 1 = 3, b = 1. Mỗi số nguyên dương viết duy nhất dưới dạng $2^{a}$ nhân một số lẻ.",
+          "kho": true,
+          "nguon": "TT Tuần 2, Bài tập §3.3, Bài 3; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-26",
+          "hoi": "Dùng hằng đẳng thức $\\binom{n}{k} = \\binom{n-1}{k} + \\binom{n-1}{k-1}$ với n = 9, k = 4, ta có $\\binom{9}{4}$ bằng bao nhiêu?",
+          "dap_an": [
+            "$\\binom{8}{4} + \\binom{8}{3} = 126$",
+            "$\\binom{8}{4} + \\binom{8}{5} = 126$",
+            "$\\binom{8}{4} + \\binom{8}{4} = 140$",
+            "$\\binom{8}{3} + \\binom{8}{3} = 112$"
+          ],
+          "giai_thich": "$\\binom{8}{4} = 70$ và $\\binom{8}{3} = 56$, tổng $126 = \\binom{9}{4}$. Số 70 + 56 chứ không phải 70 + 70 hay 56 + 56.",
+          "kho": false,
+          "nguon": "TT Tuần 2, Bài tập §4.3, Bài 1; bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-27",
+          "hoi": "Khi chứng minh $\\binom{n}{k} = \\binom{n-1}{k} + \\binom{n-1}{k-1}$ bằng cách đếm, ta chia các tập con k phần tử của $[n]$ thành hai loại nào?",
+          "dap_an": [
+            "Loại chứa phần tử n và loại không chứa phần tử n",
+            "Loại có k lẻ và loại có k chẵn",
+            "Loại chứa phần tử 1 và loại chứa phần tử 2",
+            "Loại có tổng các phần tử chẵn và loại có tổng lẻ"
+          ],
+          "giai_thich": "Các tập không chứa n là tập con k phần tử của $[n-1] (\\binom{n-1}{k})$; các tập chứa n cần chọn thêm $k-1$ phần tử từ $[n-1] (\\binom{n-1}{k-1})$. Hai loại rời nhau nên cộng được.",
+          "kho": false,
+          "nguon": "TT Tuần 2, Bài tập §4.3, Bài 1 (Cách 1); bài giảng Tuan2 (bài giảng §3-§5)"
+        },
+        {
+          "id": "c2-28",
+          "hoi": "Số đơn ánh $f : [3] \\to [7]$ bằng bao nhiêu?",
+          "dap_an": [
+            "210",
+            "343",
+            "35",
+            "21"
+          ],
+          "giai_thich": "Đơn ánh $[k] \\to [n]$ tương ứng một chỉnh hợp chập k: $P(7, 3) = 7\\cdot6\\cdot5 = 210$. Số $343 = 7^{3}$ là mọi ánh xạ, $35 = \\binom{7}{3}$ bỏ thứ tự.",
+          "kho": false,
+          "nguon": "TT Tuần 2, mục 4.2 (Ghi chú: chỉnh hợp và đơn ánh); bài giảng Tuan2 (bài giảng §3-§5)"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Tuần 3 - Nguyên lý bù trừ, Dirichlet, đếm bằng 2 cách",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Số hạng cuối cùng của công thức bù trừ cho ba tập $|A_{1} \\cup A_{2} \\cup A_{3}|$ là gì?",
+          "dap_an": [
+            "$+|A_{1} \\cap A_{2} \\cap A_{3}|$",
+            "$-|A_{1} \\cap A_{2} \\cap A_{3}|$",
+            "$+|A_{1} \\cup A_{2} \\cup A_{3}|$",
+            "$-|A_{1}|\\cdot|A_{2}|\\cdot|A_{3}|$"
+          ],
+          "giai_thich": "Dấu của giao t tập là $(-1)^{t+1}$: giao ba tập có dấu cộng. Công thức: tổng đơn − tổng giao đôi + giao ba.",
+          "kho": false,
+          "nguon": "TT Tuần 3, mục 6 (Minh họa 3 tập); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Cho $|A| = 30$, $|B| = 25$, $|C| = 20$, $|A\\cap B| = 10$, $|A\\cap C| = 8$, $|B\\cap C| = 6$, $|A\\cap B\\cap C| = 3$. Tính $|A \\cup B \\cup C|$.",
+          "dap_an": [
+            "54",
+            "51",
+            "75",
+            "57"
+          ],
+          "giai_thich": "30 + 25 + 20 − (10 + 8 + 6) + 3 = 54. Số 51 trừ nhầm giao ba, 75 quên bù trừ, 57 cộng giao ba hai lần.",
+          "kho": false,
+          "nguon": "TT Tuần 3, mục 6 (Mệnh đề bù trừ); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Trong 100 sinh viên, hợp của ba tập A, B, C ở câu trước có 54 phần tử. Có bao nhiêu sinh viên không thuộc tập nào?",
+          "dap_an": [
+            "46",
+            "54",
+            "56",
+            "47"
+          ],
+          "giai_thich": "Số phần tử không thuộc tập nào là $|S| - |A \\cup B \\cup C| = 100 - 54 = 46$.",
+          "kho": false,
+          "nguon": "TT Tuần 3, mục 6 (Dạng phần bù); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Trong công thức bù trừ ba tập, một phần tử thuộc đúng hai trong ba tập được tính tổng cộng bao nhiêu lần ở vế phải?",
+          "dap_an": [
+            "1 lần $(+1+1-1)$",
+            "2 lần $(+1+1)$",
+            "3 lần $(+1+1+1)$",
+            "0 lần $(+1+1-1-1)$"
+          ],
+          "giai_thich": "Phần tử thuộc $A_{i}$, $A_{j}$ được đếm $+1$ ở $|A_{i}|$ và $+1$ ở $|A_{j}|$, nhưng bị trừ $1$ ở $|A_{i} \\cap A_{j}|$, kết quả đúng 1 lần như vế trái.",
+          "kho": false,
+          "nguon": "TT Tuần 3, mục 6 (Minh họa 3 tập); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Có bao nhiêu cách chia 5 người vào 2 nhóm khác nhau sao cho mỗi nhóm có ít nhất 1 người?",
+          "dap_an": [
+            "30",
+            "32",
+            "25",
+            "20"
+          ],
+          "giai_thich": "Mỗi người chọn 1 trong 2 nhóm: $2^{5} = 32$ cách; trừ 2 cách có một nhóm rỗng: 32 − 2 = 30.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Ví dụ 1(a); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "Có bao nhiêu cách chia 7 người vào 3 nhóm khác nhau sao cho mỗi nhóm có ít nhất 1 người?",
+          "dap_an": [
+            "1806",
+            "1803",
+            "2184",
+            "2059"
+          ],
+          "giai_thich": "Dùng bù trừ: $3^{7} - 3\\cdot2^{7} + 3\\cdot1^{7} = 2187 - 384 + 3 = 1806$. Số 1803 quên cộng lại các giao đôi, 2184 chỉ trừ 3 trường hợp rỗng đơn.",
+          "kho": true,
+          "nguon": "TT Tuần 3, Ví dụ 1(b); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Số toàn ánh $f : [4] \\to [3]$ bằng bao nhiêu?",
+          "dap_an": [
+            "36",
+            "33",
+            "78",
+            "24"
+          ],
+          "giai_thich": "$3^{4} - \\binom{3}{1}\\cdot2^{4} + \\binom{3}{2}\\cdot1^{4} = 81 - 48 + 3 = 36$. Số 33 quên cộng 3 (giao đôi), 78 = 81 − 3 coi mỗi trường hợp 'một giá trị vắng mặt trong ảnh' chỉ có 1 ánh xạ.",
+          "kho": true,
+          "nguon": "TT Tuần 3, Ví dụ 4 (đếm toàn ánh); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Số toàn ánh $f : [n] \\to [n]$ bằng bao nhiêu?",
+          "dap_an": [
+            "$n!$ (số hoán vị của $[n]$)",
+            "$n^{n}$ (số ánh xạ $[n] \\to [n]$)",
+            "$n^{n} - n$ (trừ các ánh xạ hằng)",
+            "$2^{n} - 2$ (số toàn ánh $[n] \\to [2]$)"
+          ],
+          "giai_thich": "Tập hữu hạn cùng cỡ thì toàn ánh tương đương đơn ánh tương đương song ánh, nên có $n!$ toàn ánh. $n^{n}$ là tất cả ánh xạ $[n] \\to [n]$.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Ví dụ 4 và Tuần 2 mục 4.1; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Số hoán vị của $[4]$ không có điểm bất động $(D_{4})$ bằng bao nhiêu?",
+          "dap_an": [
+            "9",
+            "12",
+            "15",
+            "6"
+          ],
+          "giai_thich": "$D_{4} = 4!(1 - 1 + \\frac{1}{2} - \\frac{1}{6} + \\frac{1}{24}) = 24 - 24 + 12 - 4 + 1 = 9$. Số 15 = 24 − 9 là số hoán vị có ít nhất một điểm bất động.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Ví dụ 2 (hoán vị không điểm bất động); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Số hoán vị của $[5]$ không có điểm bất động $(D_{5})$ bằng bao nhiêu?",
+          "dap_an": [
+            "44",
+            "45",
+            "76",
+            "24"
+          ],
+          "giai_thich": "$D_{5} = 5!(1 - 1 + \\frac{1}{2} - \\frac{1}{6} + \\frac{1}{24} - \\frac{1}{120}) = 44$ (dãy $D_{1}, \\dots, D_{6} = 0, 1, 2, 9, 44, 265$). Số 76 = 120 − 44 là số hoán vị có điểm bất động; $45 = 5\\cdot D_{4}$ là nhầm công thức truy hồi.",
+          "kho": true,
+          "nguon": "TT Tuần 3, Ví dụ 2 và bảng công thức; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Giá trị của $\\binom{6}{2}\\cdot4!$ bằng bao nhiêu, và nó bằng biểu thức nào?",
+          "dap_an": [
+            "$360 = \\frac{6!}{2!}$",
+            "$720 = 6!$",
+            "$180 = \\frac{6!}{4}$",
+            "$30 = 6\\cdot5$"
+          ],
+          "giai_thich": "$\\binom{n}{t}(n - t)! = \\frac{n!}{t!}$; với n = 6, t = 2 ta có $15\\cdot24 = 360 = \\frac{720}{2}$. Đây là bước biến tổng bù trừ thành $n!\\sum_{t=0}^{n}\\frac{(-1)^t}{t!}$.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Ví dụ 2; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Trong Ví dụ 3 (30 sinh viên, 15 người Toán, 7 Lập trình, 5 AI, 4 người cả ba CLB), giá trị lớn nhất có thể của $|A_{1} \\cup A_{2} \\cup A_{3}|$ là bao nhiêu?",
+          "dap_an": [
+            "19",
+            "31",
+            "27",
+            "23"
+          ],
+          "giai_thich": "$|A_{1} \\cup A_{2} \\cup A_{3}| = 31 - \\sum|A_{i} \\cap A_{j}|$ mà mỗi giao đôi chứa $A_{1}\\cap A_{2}\\cap A_{3}$ nên $\\ge 4$; do đó hợp $\\le 31 - 12 = 19$ và còn ít nhất 30 − 19 = 11 bạn không tham gia.",
+          "kho": true,
+          "nguon": "TT Tuần 3, Ví dụ 3; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "Chia 25 sinh viên vào 6 lớp. Theo nguyên lý Dirichlet, chắc chắn có một lớp có ít nhất bao nhiêu sinh viên?",
+          "dap_an": [
+            "5",
+            "4",
+            "6",
+            "3"
+          ],
+          "giai_thich": "$\\lceil \\frac{25}{6}\\rceil = \\lceil 4{,}17\\rceil = 5$. Nếu mọi lớp có $\\le 4$ sinh viên thì tổng $\\le 24 < 25$: mâu thuẫn.",
+          "kho": false,
+          "nguon": "TT Tuần 3, mục 7 (Dirichlet tổng quát); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "Cần rút ít nhất bao nhiêu lá từ bộ bài tây 52 lá (4 chất, mỗi chất 13 lá) để chắc chắn có 4 lá cùng chất?",
+          "dap_an": [
+            "13",
+            "12",
+            "16",
+            "4"
+          ],
+          "giai_thich": "Rút 13 lá thì $\\lceil \\frac{13}{4}\\rceil = 4$ lá cùng chất. Rút 12 lá vẫn có thể là 3 lá mỗi chất nên chưa đủ; 16 là nhầm $4\\cdot4$.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Ví dụ 7; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "Tại sao khi chứng minh Dirichlet tổng quát ta dùng phản chứng?",
+          "dap_an": [
+            "Giả sử mọi hộp đều ít hơn $\\lceil \\frac{n}{k}\\rceil$ vật thì tổng số vật ít hơn n, mâu thuẫn",
+            "Giả sử có đúng một hộp rỗng thì tổng số vật bằng 0, mâu thuẫn",
+            "Giả sử mọi hộp có số vật bằng nhau thì n chia hết cho k, mâu thuẫn",
+            "Giả sử k lớn hơn n thì không đủ vật để xếp vào các hộp, mâu thuẫn"
+          ],
+          "giai_thich": "Nếu mỗi hộp chứa < $\\lceil \\frac{n}{k}\\rceil$ tức < $\\frac{n}{k}$ vật thì k hộp chứa < $k\\cdot(\\frac{n}{k}) = n$ vật, trái với việc có n vật.",
+          "kho": false,
+          "nguon": "TT Tuần 3, mục 7 (Chứng minh); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Phòng có 20 học sinh, quen biết có tính hai chiều. Giả sử có một bạn không quen ai. Số người quen của mỗi bạn có thể nhận các giá trị nào?",
+          "dap_an": [
+            "$\\{0, 1, \\dots, 18\\}$",
+            "$\\{0, 1, \\dots, 19\\}$",
+            "$\\{1, 2, \\dots, 19\\}$",
+            "$\\{1, 2, \\dots, 18\\}$"
+          ],
+          "giai_thich": "Bạn không quen ai có 0 người quen nên không ai có thể quen 19 người (tức quen tất cả). Còn lại 19 giá trị $\\{0, \\dots, 18\\}$ cho 20 bạn, Dirichlet cho hai bạn bằng nhau.",
+          "kho": true,
+          "nguon": "TT Tuần 3, Ví dụ 5; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Nếu chỉ có 8 con kiến trên bàn vuông cạnh 2 (chia thành 4 hình vuông $1\\times1$), lập luận Dirichlet đảm bảo điều gì?",
+          "dap_an": [
+            "Có một hình vuông nhỏ chứa ít nhất 2 con kiến",
+            "Có một hình vuông nhỏ chứa ít nhất 3 con kiến",
+            "Có một hình vuông nhỏ chứa ít nhất 4 con kiến",
+            "Mỗi hình vuông nhỏ chứa đúng 2 con kiến"
+          ],
+          "giai_thich": "$\\lceil \\frac{8}{4}\\rceil = 2$ nên chỉ chắc có 2 con trong cùng một ô; muốn chắc có 3 con cần 9 con $(\\lceil \\frac{9}{4}\\rceil = 3)$. Mỗi ô chứa đúng 2 con chỉ là một trường hợp có thể xảy ra.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Ví dụ 6; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Trong Bài 2 (30 ngày, mỗi ngày $\\ge 1$ bài, tổng $\\le 45$ bài), ta xét các số $s_{1}$, …, $s_{30}$ và $s_{1} + 14$, …, $s_{30} + 14$. Có bao nhiêu số và chúng nằm trong đoạn nào?",
+          "dap_an": [
+            "60 số, nằm trong đoạn $[1, 59]$",
+            "60 số, nằm trong đoạn $[1, 60]$",
+            "30 số, nằm trong đoạn $[1, 45]$",
+            "59 số, nằm trong đoạn $[1, 59]$"
+          ],
+          "giai_thich": "Có 30 + 30 = 60 số, nhỏ nhất $\\ge 1$ và lớn nhất $\\le 45 + 14 = 59$, nên chỉ có 59 giá trị cho 60 số: theo Dirichlet có hai số bằng nhau.",
+          "kho": true,
+          "nguon": "TT Tuần 3, Bài 2; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "Để chứng minh $k\\cdot\\binom{n}{k} = n\\cdot\\binom{n-1}{k-1}$ bằng đếm hai cách, ta đếm số cách chọn một nhóm k người có một nhóm trưởng. Cách đếm thứ hai (vế phải) là gì?",
+          "dap_an": [
+            "Chọn nhóm trưởng trước (n cách), rồi chọn $k - 1$ người từ $n - 1$ người còn lại",
+            "Chọn nhóm trưởng trước (n cách), rồi chọn k người từ $n - 1$ người còn lại",
+            "Chọn nhóm trước $\\binom{n}{k}$, rồi chọn nhóm trưởng từ $n - k$ người ngoài nhóm",
+            "Chọn trưởng nhóm từ k người trước, rồi chọn $k - 1$ người từ n người"
+          ],
+          "giai_thich": "Cách 1: chọn nhóm $\\binom{n}{k}$ rồi chọn trưởng nhóm trong nhóm (k cách). Cách 2: chọn trưởng nhóm trước (n cách) rồi chọn $k-1$ thành viên còn lại từ $n-1$ người: $n\\cdot\\binom{n-1}{k-1}$.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Ví dụ 8(b); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "Tính $\\sum_{k=0}^{5} \\binom{5}{k}^{2}$.",
+          "dap_an": [
+            "252",
+            "32",
+            "1024",
+            "126"
+          ],
+          "giai_thich": "$\\sum \\binom{n}{k}^{2} = \\binom{2n}{n}$; với n = 5 là $\\binom{10}{5} = 252$ (đếm tập con 5 phần tử của $[10]$ theo số phần tử thuộc nửa đầu). Số $32 = 2^{5}$ là $\\sum \\binom{5}{k}$ không có bình phương.",
+          "kho": true,
+          "nguon": "TT Tuần 3, Ví dụ 8(c); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Phương trình $x_{1} + x_{2} + x_{3} + x_{4} = 32$ có bao nhiêu nghiệm nguyên với $0 \\le x_{i} \\le 10$ $(\\forall i)$?",
+          "dap_an": [
+            "165",
+            "6545",
+            "6380",
+            "1716"
+          ],
+          "giai_thich": "Không ràng buộc: $\\binom{35}{3} = 6545$. Số nghiệm có $x_{i} \\ge 11$ là $4\\cdot\\binom{24}{3} - 6\\cdot\\binom{13}{3} = 6380$ (giao ba trở lên rỗng). Đáp số 6545 − 6380 = 165.",
+          "kho": true,
+          "nguon": "TT Tuần 3, Bài 1; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Trong Bài 1, số nghiệm của $x_{1} + x_{2} + x_{3} + x_{4} = 32$ $(x_{i} \\ge 0)$ thỏa $x_{1} \\ge 11$ là bao nhiêu?",
+          "dap_an": [
+            "2024",
+            "1330",
+            "10 626",
+            "6545"
+          ],
+          "giai_thich": "Đặt $y_{1} = x_{1} - 11 \\ge 0$ thì $y_{1} + x_{2} + x_{3} + x_{4} = 21$, có $\\binom{21 + 3}{3} = \\binom{24}{3} = 2024$ nghiệm. Số $1330 = \\binom{21}{3}$ nhầm tử số.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Bài 1; bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Trong công thức phần bù $\\sum_{J\\subset[n]} (-1)^{|J|}\\cdot|\\cap_{j\\in J} A_{j}|$, trường hợp $J = \\emptyset$ ứng với giá trị nào?",
+          "dap_an": [
+            "$+|S|$, số phần tử của tập ban đầu",
+            "0, vì giao rỗng có 0 phần tử",
+            "$+|A_{1} \\cup \\dots \\cup A_{n}|$, số phần tử của hợp",
+            "+1, vì giao rỗng được tính là 1"
+          ],
+          "giai_thich": "Giao rỗng các tập được quy ước là toàn bộ tập S, nên số hạng $J = \\emptyset$ bằng $+|S|$; các số hạng còn lại trừ đi phần thuộc ít nhất một $A_{j}$.",
+          "kho": false,
+          "nguon": "TT Tuần 3, mục 6 (Dạng phần bù); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Bổ đề dùng trong Bài 3: số dãy m bước $\\pm1$ xuất phát từ 0 mà luôn $\\ge 0$ bằng $\\binom{m}{\\lfloor \\frac{m}{2}\\rfloor }$. Với m = 6, giá trị đó là bao nhiêu?",
+          "dap_an": [
+            "20",
+            "64",
+            "15",
+            "30"
+          ],
+          "giai_thich": "$\\binom{6}{3} = 20$ (đã kiểm tra bằng đếm trực tiếp trên 64 dãy $\\pm1$). Số 64 là tất cả dãy $\\pm1$ độ dài 6. Lưu ý bổ đề này nằm ngoài slide, cần kiểm tra lại.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Bài 3 (bổ đề ngoài slide); bài giảng Mth50-Tuan 3.pdf"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Với n = 3, vế phải của đẳng thức $\\sum_{k=0}^{n} \\binom{n}{k}\\cdot2^{k}\\cdot\\binom{n-k}{\\lfloor \\frac{n-k}{2}\\rfloor } = \\binom{2n+1}{n}$ bằng bao nhiêu?",
+          "dap_an": [
+            "35",
+            "20",
+            "56",
+            "21"
+          ],
+          "giai_thich": "$\\binom{2n+1}{n} = \\binom{7}{3} = 35$. Vế trái: 3 + 12 + 12 + 8 = 35 $(k = 0, 1, 2, 3)$, đẳng thức đúng.",
+          "kho": false,
+          "nguon": "TT Tuần 3, Bài 3; bài giảng Mth50-Tuan 3.pdf"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "nhom": "Bài giảng",
+      "ten": "Tuần 4 - Tổng sai phân và hệ thức đệ quy",
+      "cau": [
+        {
+          "id": "c4-01",
+          "hoi": "Để tính $S = f(1) + \\dots + f(n)$ bằng sai phân, ta tìm g sao cho $f(k) = g(k) - g(k-1)$ và $g(0) = 0$. Khi đó S bằng gì?",
+          "dap_an": [
+            "$g(n)$",
+            "$g(n) - g(1)$",
+            "$g(n-1)$",
+            "$n\\cdot g(n)$"
+          ],
+          "giai_thich": "Các số hạng $g(k) - g(k-1)$ triệt tiêu từng cặp, chỉ còn $g(n) - g(0) = g(n)$.",
+          "kho": false,
+          "nguon": "TT Tuần 4, mục 9 (Tổng sai phân); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-02",
+          "hoi": "Để tính $\\sum k^{2}$ ($f(k) = k^{2}$, bậc 2) bằng sai phân, đa thức g cần tìm có bậc mấy?",
+          "dap_an": [
+            "Bậc 3",
+            "Bậc 2",
+            "Bậc 4",
+            "Bậc 1"
+          ],
+          "giai_thich": "Nếu f là đa thức bậc t thì g bậc $t + 1$, vì $g(x) - g(x-1)$ làm giảm bậc đi 1. Với f bậc 2 thì g bậc 3, $g(x) = \\frac{x^{3}}{3} + \\frac{x^{2}}{2} + \\frac{x}{6}$.",
+          "kho": false,
+          "nguon": "TT Tuần 4, mục 9 và Ví dụ 1; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-03",
+          "hoi": "Tính $1^{2} + 2^{2} + \\dots + 10^{2}$.",
+          "dap_an": [
+            "385",
+            "770",
+            "3025",
+            "440"
+          ],
+          "giai_thich": "$\\sum k^{2} = \\frac{n(n+1)(2n+1)}{6} = \\frac{10\\cdot11\\cdot21}{6} = 385$. Số 770 quên chia 6 thành chia 3, $3025 = (1+\\dots+10)^{2} = \\sum k^{3}$, $440 = \\sum k(k+1)$.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 1; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-04",
+          "hoi": "Tính $1^{3} + 2^{3} + \\dots + 8^{3}$.",
+          "dap_an": [
+            "1296",
+            "204",
+            "36",
+            "5184"
+          ],
+          "giai_thich": "$\\sum k^{3} = (\\frac{n(n+1)}{2})^{2} = 36^{2} = 1296$. Số 204 là $\\sum k^{2}$, 36 là $\\sum k$, $5184 = n^{2}(n+1)^{2}$ quên chia 4.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 2; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-05",
+          "hoi": "Tính $1\\cdot2\\cdot3 + 2\\cdot3\\cdot4 + 3\\cdot4\\cdot5 + 4\\cdot5\\cdot6 + 5\\cdot6\\cdot7$.",
+          "dap_an": [
+            "420",
+            "560",
+            "1680",
+            "210"
+          ],
+          "giai_thich": "$\\sum k(k+1)(k+2) = \\frac{n(n+1)(n+2)(n+3)}{4} = \\frac{5\\cdot6\\cdot7\\cdot8}{4} = 420$. Số 560 chia 3 thay vì 4, 1680 quên chia.",
+          "kho": true,
+          "nguon": "TT Tuần 4, Ví dụ 4; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-06",
+          "hoi": "Trong Ví dụ 5, để chứng minh $1 + F_{2} + F_{4} + \\dots + F_{2n} = F_{2n+1}$ ta viết lại $F_k$ theo cách nào?",
+          "dap_an": [
+            "$F_k = F_{k+1} - F_{k-1}$",
+            "$F_k = F_{k+1} + F_{k-1}$",
+            "$F_k = F_{k-1} - F_{k-2}$",
+            "$F_k = 2F_{k-1}$"
+          ],
+          "giai_thich": "Từ $F_{k+1} = F_k + F_{k-1}$ suy ra $F_k = F_{k+1} - F_{k-1}$, nên tổng $F_{2} + F_{4} + \\dots$ trở thành tổng sai phân $(F_{3} - F_{1}) + (F_{5} - F_{3}) + \\dots$",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 5; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-07",
+          "hoi": "Với dãy Fibonacci $F_{0} = 0$, $F_{1} = 1$, tính $1 + F_{2} + F_{4} + F_{6} + F_{8}$.",
+          "dap_an": [
+            "34",
+            "21",
+            "55",
+            "33"
+          ],
+          "giai_thich": "$1 + 1 + 3 + 8 + 21 = 34 = F_{9}$ (đúng công thức $1 + F_{2} + \\dots + F_{2n} = F_{2n+1}$ với n = 4). Số $21 = F_{8}$ là nhầm chỉ số.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 5; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-08",
+          "hoi": "Hệ thức $a_{n+2} = 4a_{n+1} - 4a_{n} + 3^{n}$ có hệ thức thuần nhất tương ứng là gì?",
+          "dap_an": [
+            "$b_{n+2} = 4b_{n+1} - 4b_{n}$",
+            "$b_{n+2} = 4b_{n+1} - 4b_{n} + 3$",
+            "$b_{n+2} = 4b_{n+1} + 3^{n}$",
+            "$b_{n+2} = 4b_{n+1} - 4b_{n} - 3^{n}$"
+          ],
+          "giai_thich": "Hệ thức thuần nhất bỏ phần $g(n) = 3^{n}$ ở vế phải, tức vế phải bằng 0.",
+          "kho": false,
+          "nguon": "TT Tuần 4, mục 10.1 (HTĐQTT thuần nhất); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-09",
+          "hoi": "Theo Mệnh đề 1, nghiệm tổng quát của hệ thức tuyến tính không thuần nhất được tạo thế nào?",
+          "dap_an": [
+            "Một nghiệm riêng cộng với nghiệm tổng quát của hệ thuần nhất tương ứng",
+            "Nghiệm riêng nhân với nghiệm tổng quát của hệ thuần nhất tương ứng",
+            "Hiệu của hai nghiệm riêng bất kỳ của hệ thức không thuần nhất",
+            "Chỉ cần nghiệm tổng quát của hệ thuần nhất, không cần nghiệm riêng"
+          ],
+          "giai_thich": "Nếu $f_{n}$ là nghiệm riêng thì $a_{n}$ là nghiệm khi và chỉ khi $a_{n} - f_{n}$ là nghiệm của hệ thuần nhất, suy ra $a_{n} = f_{n} + b_{n}$.",
+          "kho": false,
+          "nguon": "TT Tuần 4, mục 10.1 (Mệnh đề 1); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-10",
+          "hoi": "Hệ thức $a_{n+2} = 5a_{n+1} - 6a_{n}$ (thuần nhất) có nghiệm tổng quát dạng nào?",
+          "dap_an": [
+            "$a_{n} = \\alpha\\cdot2^{n} + \\beta\\cdot3^{n}$",
+            "$a_{n} = \\alpha\\cdot5^{n} + \\beta\\cdot6^{n}$",
+            "$a_{n} = \\alpha\\cdot(-2)^{n} + \\beta\\cdot(-3)^{n}$",
+            "$a_{n} = \\alpha\\cdot2^{n} + \\beta\\cdot n\\cdot3^{n}$"
+          ],
+          "giai_thich": "Phương trình đặc trưng $X^{2} - 5X + 6 = 0$ có hai nghiệm đơn 2 và 3, nên $a_{n} = \\alpha\\cdot2^{n} + \\beta\\cdot3^{n}$; hệ số $\\alpha$, $\\beta$ xác định từ hai số hạng đầu.",
+          "kho": false,
+          "nguon": "TT Tuần 4, mục 10.1 (Phương trình đặc trưng, nghiệm đơn); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-11",
+          "hoi": "Hệ thức $b_{n+2} = 6b_{n+1} - 9b_{n}$ có nghiệm tổng quát dạng nào?",
+          "dap_an": [
+            "$b_{n} = (\\alpha + \\beta\\cdot n)\\cdot3^{n}$",
+            "$b_{n} = \\alpha\\cdot3^{n} + \\beta\\cdot9^{n}$",
+            "$b_{n} = \\alpha\\cdot3^{n} + \\beta\\cdot(-3)^{n}$",
+            "$b_{n} = (\\alpha + \\beta)\\cdot3^{n}$"
+          ],
+          "giai_thich": "$X^{2} - 6X + 9 = (X - 3)^{2}$ có nghiệm kép 3, nên nghiệm có dạng $(\\alpha + \\beta n)3^{n}$. Dạng $(\\alpha + \\beta)3^{n}$ chỉ có một hằng số tự do nên không đủ.",
+          "kho": false,
+          "nguon": "TT Tuần 4, mục 10.1 (Nghiệm bội); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-12",
+          "hoi": "Với Fibonacci $F_{n} = \\alpha\\cdot\\lambda_{1}^{n} + \\beta\\cdot\\lambda_{2}^{n}$, điều kiện $F_{0} = 0$ cho ta hệ thức nào giữa $\\alpha$ và $\\beta$?",
+          "dap_an": [
+            "$\\alpha + \\beta = 0$",
+            "$\\alpha = \\beta$",
+            "$\\alpha\\cdot\\lambda_{1} + \\beta\\cdot\\lambda_{2} = 0$",
+            "$\\alpha\\cdot\\beta = 0$"
+          ],
+          "giai_thich": "Thế n = 0 $(\\lambda^{n} = 1)$ vào được $\\alpha + \\beta = F_{0} = 0$, nên $\\beta = -\\alpha$; điều kiện $F_{1} = 1$ cho $\\alpha = \\frac{1}{\\sqrt{5}}$.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 6; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-13",
+          "hoi": "Tích hai nghiệm $\\lambda_{1}\\lambda_{2}$ của phương trình đặc trưng $X^{2} - X - 1 = 0$ của dãy Fibonacci bằng bao nhiêu?",
+          "dap_an": [
+            "$-1$",
+            "1",
+            "0",
+            "$-\\sqrt{5}$"
+          ],
+          "giai_thich": "Theo Viète, tích hai nghiệm bằng $\\frac{c}{a} = -1$ (và tổng bằng 1). Do đó $\\frac{1+\\sqrt{5}}{2}\\cdot\\frac{1-\\sqrt{5}}{2} = -1$.",
+          "kho": true,
+          "nguon": "TT Tuần 4, Ví dụ 6; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-14",
+          "hoi": "Dãy $a_{n+1} = 2a_{n} + 1$, $a_{0} = 0$ có công thức tổng quát $a_{n} = 2^{n} - 1$. Giá trị $a_{10}$ bằng bao nhiêu?",
+          "dap_an": [
+            "1023",
+            "1024",
+            "2047",
+            "1022"
+          ],
+          "giai_thich": "$a_{10} = 2^{10} - 1 = 1023$. Số 1024 quên trừ 1, 2047 là $a_{11}$.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 7; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-15",
+          "hoi": "Trong bài toán Tháp Hà Nội, ít nhất cần bao nhiêu lượt để chuyển 7 đĩa sang cột khác?",
+          "dap_an": [
+            "127",
+            "128",
+            "14",
+            "49"
+          ],
+          "giai_thich": "$a_{n} = 2a_{n-1} + 1$ với $a_{0} = 0$ cho $a_{n} = 2^{n} - 1$, nên $a_{7} = 127$. Số $14 = 2\\cdot7$ là đoán sai quy luật tuyến tính.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 9 (Tháp Hà Nội); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-16",
+          "hoi": "Trong hệ thức Tháp Hà Nội $a_{n} = 2a_{n-1} + 1$, số hạng '+1' ứng với việc nào?",
+          "dap_an": [
+            "Chuyển đĩa lớn nhất sang cột đích",
+            "Chuyển đĩa nhỏ nhất sang cột phụ",
+            "Lượt kiểm tra cuối cùng",
+            "Thêm một cột mới"
+          ],
+          "giai_thich": "Để chuyển n đĩa: $a_{n-1}$ lượt chuyển $n-1$ đĩa trên, 1 lượt chuyển đĩa lớn nhất, rồi $a_{n-1}$ lượt chuyển $n-1$ đĩa về trên nó.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 9; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-17",
+          "hoi": "Cho $a_{n+2} = 5a_{n+1} - 6a_{n} + 4^{n}$. Nếu đoán nghiệm riêng $g(n) = c\\cdot4^{n}$ thì c bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{1}{2}$",
+            "1",
+            "2",
+            "$\\frac{1}{4}$"
+          ],
+          "giai_thich": "Thế vào: $c\\cdot4^{n}(16 - 20 + 6) = 2c\\cdot4^{n} = 4^{n}$ nên $c = \\frac{1}{2}$. (4 không phải nghiệm đặc trưng nên đoán $c\\cdot4^{n}$ được; áp dụng cách làm Ví dụ 8.)",
+          "kho": true,
+          "nguon": "TT Tuần 4, Ví dụ 8 (cách tìm nghiệm riêng); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-18",
+          "hoi": "Cho $a_{0} = 0$, $a_{1} = 2$, $a_{n+2} = 4a_{n+1} - 4a_{n} + 3^{n}$. Giá trị $a_{5}$ bằng bao nhiêu?",
+          "dap_an": [
+            "291",
+            "229",
+            "211",
+            "29"
+          ],
+          "giai_thich": "Tính liên tiếp: $a_{2} = 9$, $a_{3} = 31$, $a_{4} = 97$, $a_{5} = 4\\cdot97 - 4\\cdot31 + 27 = 291$, khớp với công thức $3^{n} + (n - 2)2^{n-1} = 243 + 3\\cdot16 = 291$. Các số còn lại là kết quả khi nhầm $3^{n}$ với 3n, đặt $a_{1} = 1$, hoặc nhầm dấu của $3^{n}$.",
+          "kho": true,
+          "nguon": "TT Tuần 4, Ví dụ 8; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-19",
+          "hoi": "Trong Ví dụ 10 (n đường thẳng đôi một cắt nhau, không ba đường đồng quy), số miền mặt phẳng được chia với n = 6 là bao nhiêu?",
+          "dap_an": [
+            "22",
+            "21",
+            "28",
+            "64"
+          ],
+          "giai_thich": "$l_{n} = l_{n-1} + n$, $l_{0} = 1$ cho $l_{n} = 1 + \\frac{n(n+1)}{2} = 22$. Slide ghi $l_{n} = \\frac{n(n+1)}{2}$ (=21) bị thiếu +1 ($l_{1}$ phải bằng 2); $64 = 2^{6}$ là nhầm.",
+          "kho": true,
+          "nguon": "TT Tuần 4, Ví dụ 10 (slide sai, cần kiểm tra lại); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-20",
+          "hoi": "Vì sao $l_{n} = l_{n-1} + n$ khi thêm đường thẳng thứ n?",
+          "dap_an": [
+            "Đường mới bị cắt tại $n - 1$ điểm thành n phần, mỗi phần chia đôi một miền",
+            "Đường mới bị cắt tại n điểm thành $n + 1$ phần, mỗi phần chia đôi một miền",
+            "Đường mới song song với một đường cũ nên chỉ thêm một miền cho mỗi điểm cắt",
+            "Mỗi đường cũ nhường lại một miền cho đường mới nên $l_{n} = l_{n-1} + (n - 1)$"
+          ],
+          "giai_thich": "$n - 1$ điểm cắt chia đường thẳng mới thành n đoạn; mỗi đoạn nằm trong một miền cũ và chia miền đó làm hai, nên thêm n miền.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 10; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-21",
+          "hoi": "Số cách lát một dải $2 \\times 8$ bằng các viên gạch $1 \\times 2$ hoặc $2 \\times 1$ là bao nhiêu?",
+          "dap_an": [
+            "34",
+            "21",
+            "55",
+            "16"
+          ],
+          "giai_thich": "$t_{n} = t_{n-1} + t_{n-2}$ với $t_{1} = 1$, $t_{2} = 2$ nên $t_{n} = F_{n+1}$: 1, 2, 3, 5, 8, 13, 21, 34. Số $21 = t_{7}$ (n = 7), $55 = t_{9}$.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Ví dụ 11 (lát gạch); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-22",
+          "hoi": "Gọi $a_{n}$ là số chuỗi tam phân (ký tự 0, 1, 2) độ dài n không chứa chuỗi con '20' thì $a_{n} = 3a_{n-1} - a_{n-2}$ với $a_{0} = 1$, $a_{1} = 3$. Tính $a_{4}$.",
+          "dap_an": [
+            "55",
+            "63",
+            "54",
+            "34"
+          ],
+          "giai_thich": "$a_{2} = 8$, $a_{3} = 3\\cdot8 - 3 = 21$, $a_{4} = 3\\cdot21 - 8 = 55$ (đã kiểm tra bằng liệt kê trực tiếp). Số $63 = 3\\cdot21$ quên trừ $a_{n-2}$.",
+          "kho": true,
+          "nguon": "TT Tuần 4, Bài 2; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-23",
+          "hoi": "Trong Bài 2 (chuỗi không chứa '20'), vì sao ta trừ $a_{n-2}$ khỏi $3a_{n-1}$?",
+          "dap_an": [
+            "Có $a_{n-2}$ chuỗi hợp lệ độ dài $n - 1$ kết thúc bằng 2, thêm '0' sẽ tạo '20'",
+            "Có $a_{n-2}$ chuỗi hợp lệ độ dài $n - 1$ bắt đầu bằng 0, nên bị loại bỏ",
+            "Có $a_{n-2}$ chuỗi hợp lệ độ dài $n - 1$ kết thúc bằng 0, thêm '2' sẽ tạo '20'",
+            "Mỗi chuỗi hợp lệ độ dài $n - 2$ mất đi đúng 3 cách thêm ký tự"
+          ],
+          "giai_thich": "Thêm 0 vào chuỗi hợp lệ độ dài $n-1$ chỉ sai khi chuỗi đó kết thúc bằng 2; số chuỗi như vậy chính là $a_{n-2}$ (bỏ ký tự 2 cuối thì còn chuỗi hợp lệ bất kỳ độ dài $n-2$).",
+          "kho": true,
+          "nguon": "TT Tuần 4, Bài 2; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-24",
+          "hoi": "Số hình vuông (cạnh theo đường lưới) trong bảng ô vuông $5 \\times 5$ là bao nhiêu?",
+          "dap_an": [
+            "55",
+            "25",
+            "225",
+            "50"
+          ],
+          "giai_thich": "Hình vuông cạnh k có $(n-k+1)^{2}$ vị trí, tổng $\\sum_{j=1}^{5} j^{2} = \\frac{5\\cdot6\\cdot11}{6} = 55$. Số $225 = \\sum k^{3} = 15^{2}$, 25 chỉ đếm các ô đơn vị.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Bài 3; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-25",
+          "hoi": "Trong bảng $6 \\times 6$, có bao nhiêu vị trí đặt hình vuông có cạnh gồm 4 ô đơn vị?",
+          "dap_an": [
+            "9",
+            "4",
+            "16",
+            "36"
+          ],
+          "giai_thich": "Cạnh k đặt được ở $(n - k + 1)^{2} = (6 - 4 + 1)^{2} = 9$ vị trí (3 vị trí theo mỗi chiều). Số 4 là $(n-k)^{2}$, 16 là $k^{2}$.",
+          "kho": false,
+          "nguon": "TT Tuần 4, Bài 3; bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-26",
+          "hoi": "Với hệ thức $a_{n+2} = 3a_{n+1} - 2a_{n} + 2n$, vì sao phải đoán nghiệm riêng dạng $pn^{2} + qn$ thay vì $pn + q$?",
+          "dap_an": [
+            "Vì 1 là nghiệm đặc trưng, dạng $pn + q$ bị hệ thuần nhất triệt tiêu",
+            "Vì 2 là nghiệm đặc trưng nên phải nhân thêm $2^{n}$ vào dạng đoán",
+            "Vì vế phải $2n$ có bậc 2 nên nghiệm riêng cũng phải có bậc 2",
+            "Vì hệ số tự do q luôn bằng 0 với mọi hệ thức bậc hai"
+          ],
+          "giai_thich": "$X^{2} - 3X + 2 = (X-1)(X-2)$; hằng số là nghiệm của hệ thuần nhất nên $pn + q$ không đủ để sinh ra $2n$. Quy tắc 'tăng bậc theo bội của nghiệm 1' nằm ngoài slide, cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "TT Tuần 4, Bài 1 (quy tắc ngoài slide); bài giảng Mth50-Tuan 4.pdf"
+        },
+        {
+          "id": "c4-27",
+          "hoi": "Với $a_{0} = 0$, $a_{1} = 3$, $a_{n+2} = 3a_{n+1} - 2a_{n} + 3^{n} + 2n$. Giá trị $a_{4}$ bằng bao nhiêu?",
+          "dap_an": [
+            "80",
+            "87",
+            "84",
+            "65"
+          ],
+          "giai_thich": "$a_{2} = 10$, $a_{3} = 29$, $a_{4} = 3\\cdot29 - 2\\cdot10 + 9 + 4 = 80$, khớp với công thức $2^{n+2} + \\frac{3^{n} - 9}{2} - n^{2} - n = 64 + 36 - 16 - 4 = 80$. Các số khác do nhầm 2n với $2^{n}$, quên số hạng −n trong công thức hoặc đặt nhầm $a_{1} = 2$.",
+          "kho": true,
+          "nguon": "TT Tuần 4, Bài 1; bài giảng Mth50-Tuan 4.pdf"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "nhom": "Bài giảng",
+      "ten": "Tuần 5 - Hàm sinh và ứng dụng trong các bài toán đếm",
+      "cau": [
+        {
+          "id": "c5-01",
+          "hoi": "Hàm sinh thường của dãy 1, 1, 1, 1, … là gì?",
+          "dap_an": [
+            "$\\frac{1}{1 - x}$",
+            "$\\frac{1}{1 + x}$",
+            "$\\frac{1}{(1 - x)^{2}}$",
+            "$\\frac{x}{1 - x}$"
+          ],
+          "giai_thich": "$1 + x + x^{2} + \\dots = \\frac{1}{1-x}$ vì $(1 + x + x^{2} + \\dots)(1 - x) = 1$. Hàm sinh $\\frac{1}{(1-x)^{2}}$ ứng với dãy 1, 2, 3, …, còn $\\frac{x}{1-x}$ ứng với 0, 1, 1, 1, …",
+          "kho": false,
+          "nguon": "TT Tuần 5, mục 1 và 3; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-02",
+          "hoi": "Hàm sinh $\\frac{1}{1 - 2x}$ ứng với dãy nào (bắt đầu từ số hạng ứng với $x^{0}$)?",
+          "dap_an": [
+            "1, 2, 4, 8, …",
+            "1, 2, 3, 4, …",
+            "2, 4, 8, 16, …",
+            "1, $\\frac{1}{2}$, $\\frac{1}{4}$, $\\frac{1}{8}$, …"
+          ],
+          "giai_thich": "$\\frac{1}{(1}$ − cx) = $\\sum c^{n} x^{n}$, với c = 2 cho 1, 2, 4, 8, … Dãy 2, 4, 8, … ứng với $\\frac{2x}{1-2x}$.",
+          "kho": false,
+          "nguon": "TT Tuần 5, mục 3 (các khai triển cơ bản); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-03",
+          "hoi": "Hàm sinh $\\frac{1}{1 - x^{2}} = 1 + x^{2} + x^{4} + \\dots$ mã hóa dãy nào?",
+          "dap_an": [
+            "1, 0, 1, 0, 1, 0, …",
+            "1, 1, 1, 1, …",
+            "0, 1, 0, 1, 0, 1, …",
+            "1, 2, 3, 4, …"
+          ],
+          "giai_thich": "Chỉ các bậc chẵn có hệ số 1 ($x^{0}, x^{2}, x^{4}$, …), còn bậc lẻ có hệ số 0.",
+          "kho": false,
+          "nguon": "TT Tuần 5, mục 3; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-04",
+          "hoi": "Hàm sinh $F(x) = a_{0} + a_{1}x + a_{2}x^{2} + \\dots$ của một dãy số có bản chất là gì?",
+          "dap_an": [
+            "Một chuỗi lũy thừa hình thức dùng để mã hóa dãy số",
+            "Một hàm số cần tính giá trị tại một điểm x cụ thể",
+            "Một đa thức luôn có bậc hữu hạn với hệ số nguyên",
+            "Một phương trình ẩn x cần giải để tìm nghiệm"
+          ],
+          "giai_thich": "Hàm sinh chỉ là cách 'ghi' dãy (tương ứng 1–1 với dãy), không phải hàm số để tính giá trị; hiểu nhầm này là lỗi thường gặp.",
+          "kho": false,
+          "nguon": "TT Tuần 5, mục 1 và mục 5 (Lỗi thường gặp); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-05",
+          "hoi": "Hệ số của $x^{2}$ trong khai triển $(1 + x + x^{2})^{2}$ là bao nhiêu?",
+          "dap_an": [
+            "3",
+            "2",
+            "1",
+            "4"
+          ],
+          "giai_thich": "$(1 + x + x^{2})^{2} = 1 + 2x + 3x^{2} + 2x^{3} + x^{4}$. Hệ số $x^{2}$ là tích chập $c_{2} = a_{0}b_{2} + a_{1}b_{1} + a_{2}b_{0} = 1 + 1 + 1 = 3$.",
+          "kho": false,
+          "nguon": "TT Tuần 5, mục 2 (Nhân hàm sinh); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-06",
+          "hoi": "Với dãy $a_{i} = 2^{i}$ $(i \\ge 0)$ và $F(x) = \\sum a_{i}x^{i}$, hệ số của $x^{2}$ trong F′(x) bằng bao nhiêu?",
+          "dap_an": [
+            "24",
+            "8",
+            "12",
+            "16"
+          ],
+          "giai_thich": "Hệ số của $x^{i}$ trong F′ là $(i+1)a_{i+1}$; với i = 2 là $3\\cdot a_{3} = 3\\cdot8 = 24$. Số $8 = 2\\cdot a_{2}$ (dùng $i\\cdot a_{i}$), $12 = 3\\cdot a_{2}$ (nhầm chỉ số).",
+          "kho": true,
+          "nguon": "TT Tuần 5, mục 2 (Đạo hàm) và mục 5; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-07",
+          "hoi": "Hệ số của $x^{4}$ trong khai triển $\\frac{1}{(1 - x)^{3}}$ là bao nhiêu?",
+          "dap_an": [
+            "15",
+            "35",
+            "20",
+            "12"
+          ],
+          "giai_thich": "Hệ số của $x^{k}$ trong $\\frac{1}{(1-x)^{n}}$ là $\\binom{n+k-1}{k}$. Với n = 3, k = 4 là $\\binom{6}{4} = 15$. Số $35 = \\binom{7}{4}$ (dùng $n+k$), $20 = \\binom{6}{3}$.",
+          "kho": false,
+          "nguon": "TT Tuần 5, mục 3 (Khai triển 1/(1−x)ⁿ); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-08",
+          "hoi": "Phương trình $x_{1} + x_{2} + x_{3} + x_{4} = 10$ có bao nhiêu nghiệm nguyên không âm?",
+          "dap_an": [
+            "286",
+            "715",
+            "364",
+            "210"
+          ],
+          "giai_thich": "Hàm sinh mỗi biến $\\frac{1}{1-x}$, tích $\\frac{1}{(1-x)^{4}}$, hệ số của $x^{10}$ là $\\binom{10+4-1}{10} = \\binom{13}{3} = 286$. Số $715 = \\binom{13}{4}$, $364 = \\binom{14}{3}$, $210 = \\binom{10}{4}$ do nhầm tham số.",
+          "kho": false,
+          "nguon": "TT Tuần 5, Ví dụ 4; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-09",
+          "hoi": "Phương trình $x_{1} + x_{2} + x_{3} = 6$ có bao nhiêu nghiệm nguyên dương?",
+          "dap_an": [
+            "10",
+            "28",
+            "15",
+            "20"
+          ],
+          "giai_thich": "Hàm sinh mỗi biến $\\frac{x}{1-x}$, tích $\\frac{x^{3}}{(1-x)^{3}}$; hệ số $x^{6}$ là hệ số $x^{3}$ của $\\frac{1}{(1-x)^{3}} = \\binom{5}{2} = 10$. Số $28 = \\binom{8}{2}$ là số nghiệm không âm.",
+          "kho": false,
+          "nguon": "TT Tuần 5, Phần V câu 6 (ôn tập); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-10",
+          "hoi": "Hàm sinh nào dưới đây CÓ nghịch đảo $\\frac{1}{F(x)}$ dạng chuỗi lũy thừa?",
+          "dap_an": [
+            "$F(x) = 2 + x$",
+            "$F(x) = x + x^{2}$",
+            "$F(x) = x(1 - x)$",
+            "$F(x) = \\frac{x^{2}}{1 - x}$"
+          ],
+          "giai_thich": "Nghịch đảo tồn tại khi hệ số tự do $a_{0} \\ne 0$. Chỉ 2 + x có $a_{0} = 2$; ba hàm còn lại đều có $a_{0} = 0$.",
+          "kho": false,
+          "nguon": "TT Tuần 5, mục 2 (Chia) và mục 5; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-11",
+          "hoi": "Phân tích mẫu của Ví dụ 1, $2 + x - x^{2}$ bằng tích nào?",
+          "dap_an": [
+            "$(2 - x)(1 + x)$",
+            "$(2 + x)(1 - x)$",
+            "$(2 - x)(1 - x)$",
+            "$(1 + x)(1 + x)$"
+          ],
+          "giai_thich": "$(2 - x)(1 + x) = 2 + 2x - x - x^{2} = 2 + x - x^{2}$. Tích $(2+x)(1-x) = 2 - x - x^{2}$ sai dấu hạng tử bậc nhất.",
+          "kho": false,
+          "nguon": "TT Tuần 5, Ví dụ 1; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-12",
+          "hoi": "Hệ số của $x^{2}$ trong khai triển chuỗi của $\\frac{1}{2 + x - x^{2}}$ là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{3}{8}$",
+            "$\\frac{1}{8}$",
+            "$\\frac{5}{8}$",
+            "$\\frac{1}{4}$"
+          ],
+          "giai_thich": "Dãy $a_{n} = (\\frac{1}{3})[(\\frac{1}{2})^{n+1} + (-1)^{n}]$ cho $a_{0} = \\frac{1}{2}$, $a_{1} = -\\frac{1}{4}$, $a_{2} = (\\frac{1}{3})(\\frac{1}{8} + 1) = \\frac{3}{8}$ (đã kiểm tra bằng khai triển trực tiếp). Lưu ý dấu giữa hai số hạng trong vở khó đọc, cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "TT Tuần 5, Ví dụ 1; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-13",
+          "hoi": "Hàm sinh của dãy Fibonacci $F_{0} = 0$, $F_{1} = 1$, $F_{n+2} = F_{n+1} + F_{n}$ là gì?",
+          "dap_an": [
+            "$\\frac{x}{1 - x - x^{2}}$",
+            "$\\frac{1}{1 - x - x^{2}}$",
+            "$\\frac{x}{1 + x + x^{2}}$",
+            "$\\frac{x}{1 - x^{2}}$"
+          ],
+          "giai_thich": "Từ $F(x) = x + xF(x) + x^{2}F(x)$ suy ra $F(x) = \\frac{x}{1 - x - x^{2}}$. Quên tử số x (do bỏ qua $F_{0} = 0$) là lỗi thường gặp, vì $\\frac{1}{1-x-x^{2}}$ mã hóa dãy bắt đầu 1, 1, 2, 3, …",
+          "kho": false,
+          "nguon": "TT Tuần 5, Ví dụ 2; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-14",
+          "hoi": "Dãy $a_{0} = 0$, $a_{1} = 1$, $a_{n+2} = 2a_{n+1} - a_{n}$ có hàm sinh và công thức tổng quát nào?",
+          "dap_an": [
+            "$F(x) = \\frac{x}{(1 - x)^{2}}$, $a_{n} = n$",
+            "$F(x) = \\frac{1}{(1 - x)^{2}}$, $a_{n} = n + 1$",
+            "$F(x) = \\frac{x}{1 - x}$, $a_{n} = 1$",
+            "$F(x) = \\frac{x}{(1 + x)^{2}}$, $a_{n} = (-1)^{n-1}n$"
+          ],
+          "giai_thich": "$F(x) = x + 2xF(x) - x^{2}F(x) \\Rightarrow F(x) = \\frac{x}{(1-x)^{2}} = \\sum i\\cdot x^{i}$, nên $a_{n} = n$ (dãy 0, 1, 2, 3, …).",
+          "kho": false,
+          "nguon": "TT Tuần 5, Ví dụ 3; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-15",
+          "hoi": "Số nghiệm nguyên không âm của $x_{1} + x_{2} + x_{3} = 6$, với $x_{1}$ chẵn và $x_{3} \\le 2$, là bao nhiêu?",
+          "dap_an": [
+            "10",
+            "18",
+            "16",
+            "12"
+          ],
+          "giai_thich": "$x_{1} \\in \\{0,2,4,6\\}$, $x_{3} \\in \\{0,1,2\\}$: đếm được 3 + 3 + 3 + 1 = 10, khớp với công thức $\\frac{6n + 3 + (-1)^{n}}{4} = \\frac{40}{4}$. Số 18 bỏ điều kiện chẵn, 16 bỏ điều kiện $x_{3} \\le 2$.",
+          "kho": true,
+          "nguon": "TT Tuần 5, Ví dụ 5; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-16",
+          "hoi": "Tổng các hệ số bậc chẵn của $H(x) = (1 + 2x)^{3}$ bằng bao nhiêu?",
+          "dap_an": [
+            "13",
+            "14",
+            "27",
+            "26"
+          ],
+          "giai_thich": "Công thức $\\frac{[H(1) + H(-1)]}{2} = \\frac{27 + (-1)}{2} = 13$ (kiểm tra: $(1+2x)^{3} = 1 + 6x + 12x^{2} + 8x^{3}$, hệ số bậc chẵn 1 + 12). Số 14 là tổng hệ số bậc lẻ.",
+          "kho": true,
+          "nguon": "TT Tuần 5, Ví dụ 6 (Mẹo lọc chẵn lẻ); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-17",
+          "hoi": "Với $F(x) = x + x^{2} + \\dots + x^{8}$ (số bi mỗi màu từ 1 đến 8), giá trị $F(-1)$ bằng bao nhiêu?",
+          "dap_an": [
+            "0",
+            "−1",
+            "8",
+            "1"
+          ],
+          "giai_thich": "$F(-1) = -1 + 1 - 1 + 1 - 1 + 1 - 1 + 1 = 0$ (8 số hạng đan dấu). Vì $F(-1)^{2} G(-1) = 0$ nên tổng bậc chẵn chỉ còn $\\frac{F(1)^{2}G(1)}{2} = \\frac{64\\cdot2}{2} = 64$ cách trong Ví dụ 6.",
+          "kho": false,
+          "nguon": "TT Tuần 5, Ví dụ 6; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-18",
+          "hoi": "Số phân hoạch của 6 thành các phần tử khác nhau (không tính thứ tự) là bao nhiêu?",
+          "dap_an": [
+            "4",
+            "3",
+            "5",
+            "11"
+          ],
+          "giai_thich": "Các phân hoạch: {6}, $\\{5,1\\}$, $\\{4,2\\}$, $\\{3,2,1\\}$, tổng 4; bằng số phân hoạch thành phần tử lẻ $(\\{5,1\\}, \\{3,3\\}, \\{3,1,1,1\\}, \\{1^{6}\\})$. Số 11 là tất cả phân hoạch của 6.",
+          "kho": false,
+          "nguon": "TT Tuần 5, Bài 4 (nâng cao); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-19",
+          "hoi": "Để chứng minh số phân hoạch thành phần tử khác nhau bằng số phân hoạch thành phần tử lẻ, ta dùng đẳng thức nào?",
+          "dap_an": [
+            "$1 + x^{k} = \\frac{1 - x^{2k}}{1 - x^{k}}$",
+            "$1 + x^{k} = \\frac{1}{1 - x^{k}}$",
+            "$1 + x^{k} = \\frac{1 - x^{k}}{1 - x^{2k}}$",
+            "$1 + x^{k} = \\frac{1 + x^{2k}}{1 + x^{k}}$"
+          ],
+          "giai_thich": "$\\prod(1 + x^{k}) = \\frac{\\prod(1 - x^{2k})}{1 - x^{k}}$; sau khi rút gọn các thừa số chẵn còn lại $\\prod \\frac{1}{1 - x^{2k-1}}$, là hàm sinh của phân hoạch thành phần tử lẻ.",
+          "kho": true,
+          "nguon": "TT Tuần 5, Bài 4 (hướng làm); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-20",
+          "hoi": "Cửa hàng làm giỏ 20 trái từ táo, lê, cam, bưởi: ít nhất 1 táo, không quá 3 lê, số cam chia hết cho 4. Hàm sinh của số cam là gì?",
+          "dap_an": [
+            "$\\frac{1}{1 - x^{4}}$",
+            "$\\frac{1}{1 - x}$",
+            "$\\frac{x^{4}}{1 - x}$",
+            "$1 + x^{4}$"
+          ],
+          "giai_thich": "Số cam chỉ nhận 0, 4, 8, … nên hàm sinh là $1 + x^{4} + x^{8} + \\dots = \\frac{1}{1-x^{4}}$. Táo: $\\frac{x}{1-x}$; lê: $1 + x + x^{2} + x^{3}$; bưởi: $\\frac{1}{1-x}$.",
+          "kho": false,
+          "nguon": "TT Tuần 5, Bài tập, Bài 1; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-21",
+          "hoi": "Với giỏ trái cây ở câu trước (bưởi không bị ràng buộc), số cách là hệ số của $x^{20}$ trong tích bốn hàm sinh. Đáp số đúng là bao nhiêu?",
+          "dap_an": [
+            "210",
+            "231",
+            "250",
+            "240"
+          ],
+          "giai_thich": "Đếm trực tiếp $t \\ge 1$ táo, 0..3 lê, cam $\\in \\{0,4,8,\\dots\\}$, bưởi còn lại $\\ge 0$. Các số khác khi cho phép 0 táo hoặc cho phép 4 lê. Lưu ý đề cần kiểm tra lại (giả sử bưởi không ràng buộc).",
+          "kho": true,
+          "nguon": "TT Tuần 5, Bài tập, Bài 1 (cần kiểm tra lại đề); bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-22",
+          "hoi": "Để đưa bất phương trình $x_{1} + x_{2} + x_{3} + x_{4} \\le n$ về dạng phương trình khi dùng hàm sinh, ta làm gì?",
+          "dap_an": [
+            "Thêm một biến phụ $x_{5} \\ge 0$ để thành $x_{1} + \\dots + x_{5} = n$",
+            "Trừ n khỏi cả hai vế rồi lấy giá trị tuyệt đối của vế trái",
+            "Nhân hai vế với một hàm sinh để khử dấu bất đẳng thức",
+            "Giảm số biến đi một và giảm n đi một đơn vị"
+          ],
+          "giai_thich": "Biến phụ $x_{5} = n - (x_{1}+\\dots+x_{4}) \\ge 0$ gánh phần 'thiếu', nên mỗi nghiệm của bất phương trình ứng đúng một nghiệm của phương trình có thêm biến $x_{5}$ hàm sinh $\\frac{1}{1-x}$.",
+          "kho": false,
+          "nguon": "TT Tuần 5, Bài tập, Bài 2; bài giảng Mth50-Tuan 5.pdf"
+        },
+        {
+          "id": "c5-23",
+          "hoi": "Có bao nhiêu nghiệm nguyên không âm của $x_{1} + x_{2} + x_{3} = 4$ với $0 \\le x_{i} \\le 2$?",
+          "dap_an": [
+            "6",
+            "15",
+            "9",
+            "7"
+          ],
+          "giai_thich": "Hệ số của $x^{4}$ trong $(1 + x + x^{2})^{3} = 1 + 3x + 6x^{2} + 7x^{3} + 6x^{4} + \\dots$ là 6. Không ràng buộc có $\\binom{6}{2} = 15$ nghiệm, trừ 9 nghiệm có một biến $\\ge 3$ (3 cách chọn biến $\\times 3$ nghiệm).",
+          "kho": true,
+          "nguon": "TT Tuần 5, mục 4 (Phân bố có điều kiện); bài giảng Mth50-Tuan 5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "nhom": "Bài giảng",
+      "ten": "Tuần 6 - Giới thiệu về đồ thị",
+      "cau": [
+        {
+          "id": "c6-01",
+          "hoi": "Cho chuỗi gen s = CATGT và k = 3. Tập $f_{3}(s)$ các đoạn k-mer độ dài 3 của s là gì?",
+          "dap_an": [
+            "{CAT, ATG, TGT}",
+            "{CAT, TGT, GTC}",
+            "{CATG, ATGT}",
+            "{CAT, ATG, TGT, GTA}"
+          ],
+          "giai_thich": "Lấy mọi chuỗi con liên tiếp độ dài 3: CAT, ATG, TGT. Chuỗi dài n = 5 có $n - k + 1 = 3$ đoạn.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 1 (k-mer); slide slide 20"
+        },
+        {
+          "id": "c6-02",
+          "hoi": "Chuỗi gen s dài 12 ký tự. Có bao nhiêu k-mer (kể cả lặp) khi k = 4?",
+          "dap_an": [
+            "9",
+            "8",
+            "12",
+            "3"
+          ],
+          "giai_thich": "Số chuỗi con độ dài k liên tiếp là $n - k + 1 = 12 - 4 + 1 = 9$. Số 8 quên '+1'.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 1 và bảng công thức; slide slide 20"
+        },
+        {
+          "id": "c6-03",
+          "hoi": "Tập k-mer {AT, TA} cho ra bao nhiêu chuỗi gen s thỏa $f_{2}(s)$ = {AT, TA}?",
+          "dap_an": [
+            "2 chuỗi: ATA và TAT",
+            "1 chuỗi: chỉ ATA",
+            "3 chuỗi: ATA, TAT và ATAT",
+            "0 chuỗi: không có chuỗi nào"
+          ],
+          "giai_thich": "Cả ATA = {AT, TA} và TAT = {TA, AT} đều có cùng tập 2-mer, nên lời giải không duy nhất; đó là lý do cần thuật toán tìm đủ mọi s.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 1 (Bài toán giải trình tự gen); slide slide 6–22"
+        },
+        {
+          "id": "c6-04",
+          "hoi": "Một đồ thị vô hướng có 5 đỉnh với bậc 2, 2, 3, 3, 4. Có bao nhiêu cạnh?",
+          "dap_an": [
+            "7",
+            "14",
+            "5",
+            "10"
+          ],
+          "giai_thich": "Bổ đề bắt tay: $\\sum$ deg = $2|E|$ nên $|E| = \\frac{2+2+3+3+4}{2} = 7$. Số 14 là tổng bậc, chưa chia 2.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 2 (Bổ đề bắt tay); slide slide 26–35"
+        },
+        {
+          "id": "c6-05",
+          "hoi": "Có tồn tại đồ thị vô hướng 5 đỉnh mà mọi đỉnh đều có bậc 3 không?",
+          "dap_an": [
+            "Không, vì tổng bậc 15 là số lẻ trong khi phải bằng $2|E|$",
+            "Có, vì đó là đồ thị đầy đủ $K_{5}$ với mọi đỉnh nối nhau",
+            "Có, nếu đồ thị đó liên thông và không có cạnh bội",
+            "Không, vì mỗi đỉnh chỉ có thể có bậc tối đa bằng 2"
+          ],
+          "giai_thich": "Tổng bậc phải bằng $2|E|$ (chẵn), nhưng $5\\cdot3 = 15$ lẻ nên không tồn tại. $K_{5}$ có mọi đỉnh bậc 4, không phải 3.",
+          "kho": true,
+          "nguon": "TT Tuần 6, mục 2 (Bổ đề bắt tay); slide slide 26–35"
+        },
+        {
+          "id": "c6-06",
+          "hoi": "Trong đồ thị có hướng có $|E| = 12$ cạnh, $\\sum d^{+}(A)$ (tổng bậc ra) bằng bao nhiêu?",
+          "dap_an": [
+            "12",
+            "24",
+            "6",
+            "Không xác định được"
+          ],
+          "giai_thich": "Mỗi cạnh có đúng một đỉnh đầu và một đỉnh đuôi nên $\\sum d^{+} = \\sum d^{-} = |E| = 12$ (khác đồ thị vô hướng có tổng bậc $2|E|$).",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 2 (Bổ đề bắt tay, có hướng); slide slide 26–35"
+        },
+        {
+          "id": "c6-07",
+          "hoi": "Đồ thị liên thông nào sau đây có chu trình Euler?",
+          "dap_an": [
+            "$K_{5}$ (5 đỉnh, mọi cặp đỉnh đều nối)",
+            "$K_{4}$ (4 đỉnh, mọi cặp đỉnh đều nối)",
+            "$K_{6}$ (6 đỉnh, mọi cặp đỉnh đều nối)",
+            "$K_{2,3}$ (2 đỉnh nối với 3 đỉnh)"
+          ],
+          "giai_thich": "Chu trình Euler cần mọi đỉnh bậc chẵn: $K_{5}$ mỗi đỉnh bậc 4. $K_{4}$ bậc 3, $K_{6}$ bậc 5 đều lẻ; $K_{2,3}$ có hai đỉnh bậc 3.",
+          "kho": true,
+          "nguon": "TT Tuần 6, mục 2 (Định lý Euler); slide slide 33"
+        },
+        {
+          "id": "c6-08",
+          "hoi": "Đồ thị vô hướng liên thông có bậc các đỉnh là 3, 3, 2, 2, 2, 2. Kết luận nào đúng?",
+          "dap_an": [
+            "Có đường đi Euler nhưng không có chu trình Euler",
+            "Có chu trình Euler vì mọi đỉnh đều có bậc lớn hơn 1",
+            "Không có đường đi Euler vì tồn tại đỉnh bậc lẻ",
+            "Có đường đi Hamilton nhưng không có đường đi Euler"
+          ],
+          "giai_thich": "Có đúng 2 đỉnh bậc lẻ nên có đường đi Euler (bắt đầu và kết thúc ở hai đỉnh đó), nhưng vì có đỉnh bậc lẻ nên không có chu trình Euler.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 2 (Định lý Euler); slide slide 33"
+        },
+        {
+          "id": "c6-09",
+          "hoi": "Bài toán 7 cây cầu Königsberg (các đỉnh có bậc 3, 3, 3, 5) có lời giải không, vì sao?",
+          "dap_an": [
+            "Không, vì có 4 đỉnh bậc lẻ",
+            "Có, vì có đúng 2 đỉnh bậc lẻ",
+            "Có, vì mọi đỉnh đều có bậc chẵn",
+            "Không, vì đồ thị không liên thông"
+          ],
+          "giai_thich": "Muốn đi qua mỗi cầu đúng một lần cần 0 hoặc 2 đỉnh bậc lẻ; ở đây cả 4 đỉnh đều bậc lẻ nên không có đường đi Euler. Tổng bậc $14 = 2\\cdot7$ khớp bổ đề bắt tay.",
+          "kho": false,
+          "nguon": "TT Tuần 6, Ví dụ 4; slide slide 23, 34"
+        },
+        {
+          "id": "c6-10",
+          "hoi": "Đồ thị có hướng liên thông có các đỉnh: A (bậc ra 2, bậc vào 1), B (ra 1, vào 2), C (ra 1, vào 1), D (ra 1, vào 1). Đường đi Euler (không là chu trình) bắt đầu và kết thúc ở đâu?",
+          "dap_an": [
+            "Bắt đầu ở A, kết thúc ở B",
+            "Bắt đầu ở B, kết thúc ở A",
+            "Bắt đầu ở C, kết thúc ở D",
+            "Không có đường đi Euler"
+          ],
+          "giai_thich": "Đỉnh bắt đầu có bậc ra nhiều hơn bậc vào đúng 1 (A), đỉnh kết thúc có bậc vào nhiều hơn bậc ra đúng 1 (B); các đỉnh còn lại ra = vào.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 2 (Định lý Euler, có hướng); slide slide 33"
+        },
+        {
+          "id": "c6-11",
+          "hoi": "Đồ thị de Bruijn của tập 3-mer có đỉnh và cạnh là gì?",
+          "dap_an": [
+            "Đỉnh là các 2-mer, cạnh là các 3-mer",
+            "Đỉnh là các 3-mer, cạnh là các 2-mer",
+            "Đỉnh là các 3-mer, cạnh nối hai 3-mer trùng hậu tố–tiền tố",
+            "Đỉnh là các 4-mer, cạnh là các 3-mer"
+          ],
+          "giai_thich": "De Bruijn: đỉnh là $(k-1)$-mer, cạnh là chính các k-mer. Đáp án 'đỉnh là 3-mer, cạnh nối các 3-mer chồng lấp' mô tả đồ thị chồng lấp.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 3; slide slide 36–43"
+        },
+        {
+          "id": "c6-12",
+          "hoi": "Đường đi nào trong từng loại đồ thị ứng với một chuỗi gen s thỏa mãn?",
+          "dap_an": [
+            "Đường đi Hamilton trong đồ thị chồng lấp; đường đi Euler trong đồ thị de Bruijn",
+            "Đường đi Euler trong đồ thị chồng lấp; đường đi Hamilton trong đồ thị de Bruijn",
+            "Đường đi Euler trong cả hai loại đồ thị chồng lấp và de Bruijn",
+            "Đường đi Hamilton trong cả hai loại đồ thị chồng lấp và de Bruijn"
+          ],
+          "giai_thich": "Đồ thị chồng lấp có đỉnh là k-mer nên lời giải đi qua mọi đỉnh một lần (Hamilton). De Bruijn có cạnh là k-mer nên đi qua mọi cạnh một lần (Euler).",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 3; slide slide 36–43"
+        },
+        {
+          "id": "c6-13",
+          "hoi": "Vì sao người ta chọn đồ thị de Bruijn thay vì đồ thị chồng lấp để giải trình tự gen?",
+          "dap_an": [
+            "Tìm đường đi Euler thuộc lớp P, còn tìm đường đi Hamilton thuộc lớp NP",
+            "Đồ thị de Bruijn có ít cạnh hơn nên luôn có đúng một đáp án s",
+            "Đồ thị chồng lấp không biểu diễn được các k-mer bị lặp lại trong tập",
+            "Đồ thị de Bruijn luôn là đồ thị vô hướng nên dễ vẽ hơn nhiều"
+          ],
+          "giai_thich": "Bài toán Euler có thuật toán hiệu quả (Fleury, Hierholzer), còn Hamilton thuộc lớp NP và chưa biết có thuật toán nhanh hay không (bài toán 'P = NP?').",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 3; slide slide 36–43"
+        },
+        {
+          "id": "c6-14",
+          "hoi": "Với tập 3-mer {ATG, CAG, CAT, GTC, TCA, TGT}, đồ thị de Bruijn có bao nhiêu đỉnh?",
+          "dap_an": [
+            "6",
+            "5",
+            "3",
+            "8"
+          ],
+          "giai_thich": "Các 2-mer khác nhau xuất hiện là AT, TG, CA, AG, GT, TC, tức 6 đỉnh; các 2-mer trùng nhau phải gộp thành một đỉnh. Có 6 cạnh (mỗi 3-mer một cạnh).",
+          "kho": false,
+          "nguon": "TT Tuần 6, Ví dụ 2; slide slide 35, 39"
+        },
+        {
+          "id": "c6-15",
+          "hoi": "Với tập 3-mer {ATG, CAG, CAT, GTC, TCA, TGT}, đường đi Euler trong đồ thị de Bruijn bắt đầu ở đỉnh nào?",
+          "dap_an": [
+            "CA",
+            "AG",
+            "AT",
+            "TG"
+          ],
+          "giai_thich": "Đỉnh CA có bậc ra 2 (CA $\\to$ AG, CA $\\to$ AT), bậc vào 1 nên bắt đầu ở CA; đỉnh AG có bậc vào 1, bậc ra 0 nên kết thúc ở AG.",
+          "kho": false,
+          "nguon": "TT Tuần 6, Ví dụ 2; slide slide 35, 39"
+        },
+        {
+          "id": "c6-16",
+          "hoi": "Chuỗi s nào có $f_{3}(s)$ đúng bằng {ATG, CAG, CAT, GTC, TCA, TGT}?",
+          "dap_an": [
+            "CATGTCAG",
+            "CAGTCATG",
+            "CATGTCGA",
+            "CATGCAGT"
+          ],
+          "giai_thich": "Đường đi Euler CA $\\to$ AT $\\to$ TG $\\to$ GT $\\to$ TC $\\to$ CA $\\to$ AG đọc ra CATGTCAG. Các chuỗi còn lại tạo ra ít nhất một 3-mer không có trong tập (như AGT, TCG, TGC).",
+          "kho": true,
+          "nguon": "TT Tuần 6, Ví dụ 2; slide slide 35, 39"
+        },
+        {
+          "id": "c6-17",
+          "hoi": "Theo thuật toán Fleury, khi tại đỉnh có nhiều cạnh đi ra, ta chọn cạnh nào?",
+          "dap_an": [
+            "Cạnh mà khi xóa đi không làm mất liên thông tới các cạnh còn lại (nếu có)",
+            "Cạnh dẫn tới đỉnh có bậc nhỏ nhất trong các đỉnh kề với đỉnh hiện tại",
+            "Cạnh dẫn tới đỉnh đã đi qua nhiều lần nhất trên đường đi hiện tại",
+            "Cạnh đầu tiên theo thứ tự chữ cái của các k-mer đi ra từ đỉnh"
+          ],
+          "giai_thich": "Fleury tránh cạnh cầu (xóa nó cắt đồ thị) trừ khi không còn lựa chọn khác; mỗi lựa chọn khác nhau có thể cho một chuỗi s khác nhau.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 3 (Thuật toán Fleury); slide slide 42"
+        },
+        {
+          "id": "c6-18",
+          "hoi": "Độ phức tạp của thuật toán Fleury và Hierholzer lần lượt là gì?",
+          "dap_an": [
+            "$O(|E|^{2})$ và $O(|E|)$",
+            "$O(|E|)$ và $O(|E|^{2})$",
+            "$O(|E|!)$ và $O(|E|)$",
+            "$O(|E|^{2})$ và $O(|E|^{2})$"
+          ],
+          "giai_thich": "Fleury phải kiểm tra tính liên thông sau mỗi lần xóa cạnh nên $O(|E|^{2})$; Hierholzer chỉ $O(|E|)$ nên được dùng trong thực tế.",
+          "kho": true,
+          "nguon": "TT Tuần 6, mục 3; slide slide 42"
+        },
+        {
+          "id": "c6-19",
+          "hoi": "Tập 3-mer {ATC, ATG, ATT, CGA, GAT, GTA, TAT, TCG, TGT} cho bao nhiêu chuỗi gen s (độ dài 11) thỏa $f_{3}(s)$ bằng đúng tập này?",
+          "dap_an": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ],
+          "giai_thich": "Đồ thị de Bruijn có 8 đỉnh, 9 cạnh. Duyệt mọi đường đi Euler bằng code thu được 2 chuỗi s, mỗi chuỗi đã kiểm tra lại $f_{3}(s)$ = tập đã cho. (Slide chỉ nêu đề, không nêu đáp số.)",
+          "kho": true,
+          "nguon": "TT Tuần 6, Bài tập, Bài 4; slide slide 43"
+        },
+        {
+          "id": "c6-20",
+          "hoi": "Phép đảo đoạn gen biến dãy ${+2}~{-1}~{+3}$ khi đảo đoạn ${-1}~{+3}$ thành dãy nào?",
+          "dap_an": [
+            "${+2}~{-3}~{+1}$",
+            "${+2}~{+3}~{-1}$",
+            "${+2}~{+1}~{-3}$",
+            "${+2}~{-3}~{-1}$"
+          ],
+          "giai_thich": "Đảo đoạn nghĩa là đảo thứ tự và đổi dấu từng gen trong đoạn: $({-1}~{+3})$ → $({-3}~{+1})$. Chỉ đảo thứ tự (${+2}~{+3}~{-1}$) hoặc chỉ đổi dấu (${+2}~{+1}~{-3}$) đều sai.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 4 (Phép đảo đoạn gen); slide slide 45–52"
+        },
+        {
+          "id": "c6-21",
+          "hoi": "Khi thêm 0 vào đầu và $n+1$ vào cuối dãy gen có n gen, có bao nhiêu điểm nối cần xét?",
+          "dap_an": [
+            "$n + 1$",
+            "$n$",
+            "$n + 2$",
+            "$n - 1$"
+          ],
+          "giai_thich": "Dãy 0, $g_{1}$, …, $g_{n}$, $n+1$ có $n + 2$ phần tử nên có $n + 1$ cặp liên tiếp (điểm nối); luôn có (điểm tốt) + (điểm gãy) = $n + 1$.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 4 (Định lý điểm gãy); slide slide 50"
+        },
+        {
+          "id": "c6-22",
+          "hoi": "Dãy $S$ = ${+1}~{-2}~{+3}$ ($n = 3$, đích ${+1}~{+2}~{+3}$) có bao nhiêu điểm gãy?",
+          "dap_an": [
+            "2",
+            "3",
+            "1",
+            "4"
+          ],
+          "giai_thich": "Xét $0 \\mid {+1}~{-2}~{+3} \\mid 4$: cặp $(0, {+1})$ tốt, $({+1}, {-2})$ gãy, $({-2}, {+3})$ gãy, $({+3}, 4)$ tốt. Vậy 2 điểm gãy, $d \\ge 1$, và thực tế d = 1 (đảo gen $-2$).",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 4 và Phần V câu 9; slide slide 50"
+        },
+        {
+          "id": "c6-23",
+          "hoi": "Dãy 'Mèo' = ${+3}~{+4}~{+5}~{-2}~{-8}~{+7}~{-6}~{+1}$ có bao nhiêu điểm gãy (so với ${+1}~{+2}$ $\\dots$ ${+8}$, thêm 0 và 9)?",
+          "dap_an": [
+            "7",
+            "9",
+            "2",
+            "8"
+          ],
+          "giai_thich": "9 điểm nối; chỉ $(+3,+4)$ và $(+4,+5)$ là điểm tốt, còn lại 7 điểm gãy (như $(0,+3)$, $(+5,-2)$, $(-2,-8)$, …). Số 9 là tổng số điểm nối, 2 là số điểm tốt.",
+          "kho": true,
+          "nguon": "TT Tuần 6, Ví dụ 6; slide slide 52"
+        },
+        {
+          "id": "c6-24",
+          "hoi": "Theo định lý điểm gãy, dãy 'Chuột' có 11 điểm gãy so với dãy 'Người'. Chặn dưới của khoảng cách đảo gen d là bao nhiêu?",
+          "dap_an": [
+            "$d \\ge 6$",
+            "$d \\ge 5$",
+            "$d \\ge 11$",
+            "$d \\ge 5{,}5$ và có thể $d = 5$"
+          ],
+          "giai_thich": "Mỗi phép đảo giảm tối đa 2 điểm gãy nên $d \\ge \\frac{11}{2} = 5{,}5$; vì d nguyên nên $d \\ge 6$. Khác với 'làm tròn xuống' vì số phép đảo phải là số nguyên.",
+          "kho": false,
+          "nguon": "TT Tuần 6, Ví dụ 7; slide slide 49–50"
+        },
+        {
+          "id": "c6-25",
+          "hoi": "Với $S$ = ${+2}~{+1}$ và $T$ = ${+1}~{+2}$, điều nào đúng?",
+          "dap_an": [
+            "Có 3 điểm gãy nên $d \\ge 2$, nhưng d thực tế bằng 3",
+            "Có 3 điểm gãy nên d = 2 chính xác theo định lý",
+            "Có 2 điểm gãy nên d = 1 theo định lý điểm gãy",
+            "Có 4 điểm gãy nên $d \\ge 2$ và chắc chắn d = 2"
+          ],
+          "giai_thich": "$0 \\mid {+2}~{+1} \\mid 3$: cả ba cặp $(0, {+2})$, $({+2}, {+1})$, $({+1}, 3)$ đều gãy. Định lý chỉ cho chặn dưới $d \\ge \\lceil \\frac{3}{2}\\rceil = 2$, nhưng tìm kiếm vét cạn cho d = 3 (đảo cả đoạn cho ${-1}~{-2}$ rồi đổi dấu từng gen), nên chặn dưới không phải giá trị chính xác.",
+          "kho": true,
+          "nguon": "TT Tuần 6, mục 4 và mục 5 (Lỗi thường gặp); slide slide 50"
+        },
+        {
+          "id": "c6-26",
+          "hoi": "Khoảng cách đảo gen giữa 'Chuột' và 'Người' (11 gen) nằm trong khoảng nào theo slide?",
+          "dap_an": [
+            "$6 \\le d \\le 7$",
+            "d = 11",
+            "$d \\ge 11$",
+            "$d \\le 6$"
+          ],
+          "giai_thich": "Chặn dưới là 6 (từ 11 điểm gãy), chặn trên 7 vì slide chỉ ra cách làm 7 phép đảo (cách ăn tham cần 11). Giá trị chính xác không có trong slide, cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "TT Tuần 6, Ví dụ 7; slide slide 49–50"
+        },
+        {
+          "id": "c6-27",
+          "hoi": "Ba loại biến đổi 2-break trên vòng gen là gì?",
+          "dap_an": [
+            "Đảo ngược một đoạn, cắt vòng thành hai vòng, nối hai vòng thành một vòng",
+            "Thêm một gen mới, xóa một gen cũ, đổi dấu một gen bất kỳ",
+            "Cắt một đoạn, dán đoạn đó sang vị trí khác, sao chép lại đoạn",
+            "Đảo một đoạn, tịnh tiến cả vòng, đối xứng cả vòng qua một điểm"
+          ],
+          "giai_thich": "2-break gồm phép đảo ngược (một đoạn), phép cắt (chọn 2 điểm nối phân biệt) và phép nối (2 vòng, mỗi vòng một điểm nối). Khoảng cách $d_{2}$-break là số phép ít nhất để biến vòng này thành vòng kia.",
+          "kho": false,
+          "nguon": "TT Tuần 6, mục 4 (2-break); slide slide 57"
+        }
+      ]
+    }
+  ]
+}

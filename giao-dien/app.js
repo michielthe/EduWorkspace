@@ -24,6 +24,26 @@
   function store(k, v) { try { if (v === null) localStorage.removeItem(PREFIX + k); else localStorage.setItem(PREFIX + k, JSON.stringify(v)); } catch (e) {} }
   function load(k) { try { var s = localStorage.getItem(PREFIX + k); return s ? JSON.parse(s) : null; } catch (e) { return null; } }
   function wire(i) { return WIRES[i % 4]; }
+  /* Văn bản có công thức: $...$ (trong dòng) và $$...$$ (riêng một dòng) được vẽ bằng KaTeX.
+     \$ là dấu đô la thật. Phần chữ vẫn được escape như cũ; nếu KaTeX không tải được thì hiện nguyên mã công thức. */
+  function rich(s) {
+    s = String(s == null ? "" : s);
+    if (s.indexOf("$") < 0) return esc(s);
+    var out = "", last = 0, m, MARK = "\uE000";
+    s = s.replace(/\\\$/g, MARK);                       /* \$ = dấu đô la thật, không mở công thức */
+    var re = /\$\$([\s\S]+?)\$\$|\$((?:\\.|[^$\\])+?)\$/g;
+    function plain(x) { return esc(x.split(MARK).join("$")); }
+    while ((m = re.exec(s))) {
+      out += plain(s.slice(last, m.index));
+      var disp = m[1] !== undefined, tex = (disp ? m[1] : m[2]).split(MARK).join("\\$").trim();
+      try {
+        if (!window.katex) throw new Error("katex");
+        out += window.katex.renderToString(tex, { displayMode: disp, throwOnError: false, strict: "ignore" });
+      } catch (e) { out += '<code class="tex-raw">' + esc(m[0].split(MARK).join("\\$")) + "</code>"; }
+      last = re.lastIndex;
+    }
+    return out + plain(s.slice(last));
+  }
   /* Vẽ một màn hình. Chỉ chạy hiệu ứng vào trang khi đổi sang màn hình khác. */
   function render(html, viewName) {
     var v = viewName || "";
@@ -55,8 +75,11 @@
     return fetchJSON(m.file_cau_hoi).then(function (d) { subjects[m.ma_mon] = d; return d; });
   }
   function findSubject(ma) { return (registry.mon || []).filter(function (m) { return m.ma_mon === ma; })[0]; }
-  function chapLabel(ch, pos) { var n = (ch.ten.match(/\d+(?:-\d+)?/) || [String(pos)])[0]; return (ch.nhom === "PerfectEN" ? "E" : "") + n; }
-  function chapShort(ch) { return ch.ten.replace(/^(Chương|PerfectEN)\s*\d+(?:-\d+)?\s*-\s*/, ""); }
+  function chapLabel(ch, pos) {
+    var m = ch.ten.match(/(\d+(?:-\d+)?)(?:\s+([A-ZĐ]{2,4})\b)?/), n = m ? m[1] + (m[2] ? "-" + m[2] : "") : String(pos);
+    return (ch.nhom === "PerfectEN" ? "E" : "") + n;
+  }
+  function chapShort(ch) { return ch.ten.replace(/^(Chương|Bài|Tuần|PerfectEN)\s*\d+(?:-\d+)?(?:\s+[A-ZĐ]{2,4})?\s*-\s*/, ""); }
   /* khu: "hien-tai" = môn của người dùng, "tong" = môn của người khác. Thiếu thì là "hien-tai". */
   function khuOf(m) { return m && m.khu === "tong" ? "tong" : "hien-tai"; }
   function khuOfCode(ma) { return khuOf(findSubject(ma)); }
@@ -279,7 +302,7 @@
   function explainHTML(it) {
     var q = it.q, ok = it.order[it.pick] === 0;
     return '<div class="explain ' + (ok ? "yes" : "no") + '" role="status"><span class="verdict">' + (ok ? "Chính xác!" : "Chưa đúng. Đáp án đúng là " + KEYS[it.order.indexOf(0)] + ".") + "</span>"
-      + "<span>" + esc(q.giai_thich) + "</span>" + (q.nguon ? '<span class="source">Nguồn: ' + esc(q.nguon) + "</span>" : "") + "</div>";
+      + "<span>" + rich(q.giai_thich) + "</span>" + (q.nguon ? '<span class="source">Nguồn: ' + esc(q.nguon) + "</span>" : "") + "</div>";
   }
 
   /* dir: 1 = sang câu sau, -1 = về câu trước, 0 = mở lần đầu */
@@ -295,11 +318,11 @@
     });
     h += '</div></div><article class="panel qcard' + (dir > 0 ? " from-next" : dir < 0 ? " from-prev" : "") + '" id="qcard">'
       + '<div class="qtags"><span class="qnum">Câu <b>' + (s.cur + 1) + "</b></span>" + (q.kho ? '<span class="tag">Khó</span>' : "") + "</div>"
-      + '<div class="qtext">' + esc(q.hoi) + '</div><div class="opts">';
+      + '<div class="qtext">' + rich(q.hoi) + '</div><div class="opts">';
     it.order.forEach(function (dIdx, pos) {
       var c = "opt";
       if (picked) c += dIdx === 0 ? " right" : (pos === it.pick ? " wrong" : " dim");
-      h += '<button class="' + c + '" data-p="' + pos + '"' + (picked ? " disabled" : "") + '><span class="key">' + KEYS[pos] + '</span><span class="txt">' + esc(q.dap_an[dIdx]) + "</span>"
+      h += '<button class="' + c + '" data-p="' + pos + '"' + (picked ? " disabled" : "") + '><span class="key">' + KEYS[pos] + '</span><span class="txt">' + rich(q.dap_an[dIdx]) + "</span>"
         + (dIdx === 0 ? MARK_OK : MARK_BAD) + "</button>";
     });
     h += "</div>" + (picked ? explainHTML(it) : "") + "</article>"
@@ -404,9 +427,9 @@
       h += '<section class="stack"><h2>Cần xem lại</h2><div class="review">';
       review.forEach(function (it) {
         var q = it.q, sk = it.pick === null;
-        h += '<div class="panel review-item' + (sk ? " skip" : "") + '"><div class="review-q">' + esc(q.hoi) + "</div>"
-          + (sk ? '<div class="small muted">Chưa làm</div>' : '<div class="small ans-bad">Bạn chọn: ' + esc(q.dap_an[it.order[it.pick]]) + "</div>")
-          + '<div class="small ans-ok">Đáp án đúng: ' + esc(q.dap_an[0]) + '</div><div class="small">' + esc(q.giai_thich) + "</div></div>";
+        h += '<div class="panel review-item' + (sk ? " skip" : "") + '"><div class="review-q">' + rich(q.hoi) + "</div>"
+          + (sk ? '<div class="small muted">Chưa làm</div>' : '<div class="small ans-bad">Bạn chọn: ' + rich(q.dap_an[it.order[it.pick]]) + "</div>")
+          + '<div class="small ans-ok">Đáp án đúng: ' + rich(q.dap_an[0]) + '</div><div class="small">' + rich(q.giai_thich) + "</div></div>";
       });
       h += "</div></section>";
     }

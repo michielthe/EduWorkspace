@@ -1,0 +1,2121 @@
+{
+  "mon": "Sinh học phân tử đại cương",
+  "ma_mon": "sinh-hoc-phan-tu",
+  "phien_ban": 1,
+  "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Bài 1 - Đại phân tử sinh học và liên kết, tương tác hóa học",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Bốn nhóm đại phân tử sinh học (large biological molecules) gồm những nhóm nào?",
+          "dap_an": [
+            "Carbohydrate, protein, nucleic acid và lipid",
+            "Carbohydrate, protein, nucleic acid và vitamin",
+            "Protein, lipid, nucleic acid và khoáng chất",
+            "Carbohydrate, lipid, protein và nước"
+          ],
+          "giai_thich": "Slide nêu 4 nhóm: carbohydrate, protein, nucleic acid và lipid.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 4"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Nhóm đại phân tử nào KHÔNG thuộc dạng polymer (“macromolecules”) theo slide?",
+          "dap_an": [
+            "Lipid",
+            "Carbohydrate",
+            "Protein",
+            "Nucleic acid"
+          ],
+          "giai_thich": "Dạng polymer chỉ gồm 3 nhóm carbohydrate, protein, nucleic acid; lipid không nằm trong nhóm polymer này.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1; slide 4"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Đơn phân của nucleic acid là gì?",
+          "dap_an": [
+            "Nucleotide",
+            "Amino acid",
+            "Acid béo",
+            "Glucose"
+          ],
+          "giai_thich": "Nucleic acid (DNA, RNA) được cấu thành từ các nucleotide.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 5"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Đơn phân của protein là gì?",
+          "dap_an": [
+            "Amino acid",
+            "Nucleotide",
+            "Acid béo",
+            "Glucose"
+          ],
+          "giai_thich": "Protein được cấu thành từ 20 loại amino acid nối nhau bằng liên kết peptide.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 5"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Đơn phân của lipid được tóm tắt là gì?",
+          "dap_an": [
+            "Acid béo",
+            "Glucose",
+            "Nucleotide",
+            "Amino acid"
+          ],
+          "giai_thich": "Lipid có đơn phân là acid béo, gồm chất béo, phospholipid và steroid.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 5"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Bốn liên kết cộng hóa trị chính được liệt kê trong slide là gì?",
+          "dap_an": [
+            "Glycoside, phosphodiester, peptide, ester",
+            "Glycoside, hydro, peptide, ester",
+            "Ion, phosphodiester, peptide, ester",
+            "Glycoside, phosphodiester, Van der Waals, ester"
+          ],
+          "giai_thich": "Slide liệt kê glycoside, phosphodiester, peptide và ester; hydro, ion, Van der Waals là tương tác yếu.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1; slide 6"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Trong tế bào, quá trình tổng hợp các polymer từ đơn phân dựa vào loại phản ứng nào?",
+          "dap_an": [
+            "Khử nước (dehydration), tạo liên kết cộng hóa trị nối các đơn phân",
+            "Thủy giải (hydrolysis), tạo liên kết cộng hóa trị nối các đơn phân",
+            "Thủy giải (hydrolysis), cắt liên kết giữa các đơn phân",
+            "Phản ứng tự phát không tạo liên kết cộng hóa trị mới"
+          ],
+          "giai_thich": "Tổng hợp dùng phản ứng khử nước tạo liên kết cộng hóa trị; phân giải dùng thủy giải.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 7"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Phản ứng thủy giải (hydrolysis) trong tế bào cho kết quả nào?",
+          "dap_an": [
+            "Cắt đứt liên kết cộng hóa trị, tạo ra các đơn phân",
+            "Nối các đơn phân bằng liên kết cộng hóa trị mới",
+            "Nối các đơn phân bằng liên kết hydro yếu",
+            "Chỉ làm đổi hình dạng polymer, không cắt liên kết"
+          ],
+          "giai_thich": "Thủy giải cắt đứt liên kết cộng hóa trị, tạo các đơn phân.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 7"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Các phản ứng tổng hợp và phân giải đại phân tử trong tế bào cần điều kiện nào?",
+          "dap_an": [
+            "Sự tham gia của enzyme chuyên biệt",
+            "Chỉ cần nhiệt độ cao là đủ",
+            "Xảy ra tự phát, không cần xúc tác",
+            "Chỉ cần có mặt của nước"
+          ],
+          "giai_thich": "Slide nêu các chuỗi phản ứng với sự tham gia của enzyme chuyên biệt (ví dụ cellulose, peptidoglycan).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 13–14"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Cellulose và peptidoglycan được nêu như ví dụ cho vai trò nào của carbohydrate?",
+          "dap_an": [
+            "Tham gia cấu trúc tế bào",
+            "Mang thông tin di truyền",
+            "Xúc tác phản ứng sinh hóa",
+            "Truyền tín hiệu qua màng"
+          ],
+          "giai_thich": "Carbohydrate có chức năng làm nhiên liệu và tham gia cấu trúc tế bào như cellulose, peptidoglycan.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 13–14"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Ba nhóm lipid được nêu trong tóm tắt là gì?",
+          "dap_an": [
+            "Chất béo (triglycerides), phospholipid, steroid",
+            "Chất béo (triglycerides), protein, glycogen",
+            "Phospholipid, steroid, nucleotide, peptide",
+            "Chất béo, phospholipid, polysaccharide"
+          ],
+          "giai_thich": "Lipid gồm chất béo (fats, triglycerides), phospholipid và steroid.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide 5"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Có bao nhiêu loại amino acid được nêu trong slide?",
+          "dap_an": [
+            "20 loại",
+            "4 loại",
+            "12 loại",
+            "64 loại"
+          ],
+          "giai_thich": "Slide ghi có 20 loại amino acid, chia thành 4 nhóm.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 16"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Amino acid được chia thành 4 nhóm dựa vào đặc điểm nào?",
+          "dap_an": [
+            "Đặc tính của nhóm R ở điều kiện pH của tế bào",
+            "Số lượng nguyên tử carbon của khung chính",
+            "Vị trí amino acid ở đầu N hay đầu C",
+            "Chiều dài của chuỗi polypeptide chứa nó"
+          ],
+          "giai_thich": "Phân loại dựa vào đặc tính nhóm R ở pH của tế bào.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 16"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Amino acid thuộc nhóm “ưa acid” mang đặc điểm nào?",
+          "dap_an": [
+            "Tích điện âm (–)",
+            "Tích điện dương (+)",
+            "Trung tính, phân cực (ưa nước)",
+            "Trung tính, kỵ nước"
+          ],
+          "giai_thich": "4 nhóm: trung tính phân cực, trung tính kỵ nước, ưa kiềm (tích điện +), ưa acid (tích điện –).",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide 16"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Cấu trúc bậc 1 của protein là gì?",
+          "dap_an": [
+            "Chuỗi các amino acid",
+            "Xoắn alpha và phiến beta",
+            "Hình dạng 3D ổn định của polypeptide",
+            "Sự gắn kết của nhiều polypeptide"
+          ],
+          "giai_thich": "Bậc 1 là chuỗi amino acid; xoắn alpha/phiến beta là bậc 2; hình 3D là bậc 3; nhiều polypeptide là bậc 4.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 17"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Ở chuỗi polypeptide, đầu N và đuôi C lần lượt mang nhóm nào?",
+          "dap_an": [
+            "Nhóm NH3 và nhóm carboxyl",
+            "Nhóm carboxyl và nhóm NH3",
+            "Nhóm phosphate và nhóm OH",
+            "Nhóm OH và nhóm phosphate"
+          ],
+          "giai_thich": "Slide ghi đầu N/NH3 và đuôi C/carboxyl. Đầu 5’P và 3’OH là của nucleotide.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide 17"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Xoắn alpha và phiến beta của protein được hình thành, ổn định nhờ loại liên kết nào?",
+          "dap_an": [
+            "Liên kết hydro",
+            "Liên kết peptide",
+            "Liên kết glycoside",
+            "Liên kết phosphodiester"
+          ],
+          "giai_thich": "Cấu trúc bậc 2 được hình thành và ổn định bởi các liên kết hydro.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 17"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Hình dạng 3D của một polypeptide (bậc 3) ổn định nhờ yếu tố nào?",
+          "dap_an": [
+            "Các tương tác bên của nhóm R của amino acid",
+            "Sự gắn kết của nhiều polypeptide với nhau",
+            "Chỉ nhờ liên kết peptide ở khung chính",
+            "Sự gắn với đầu 5’P của nucleotide"
+          ],
+          "giai_thich": "Bậc 3 là hình dạng 3D ổn định nhờ tương tác giữa các nhóm R trên polypeptide.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 18"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Đặc điểm nào định nghĩa cấu trúc bậc 4 của protein?",
+          "dap_an": [
+            "Sự gắn kết của nhiều hơn một polypeptide",
+            "Chuỗi amino acid nối bằng liên kết peptide",
+            "Xoắn alpha và phiến beta trong một chuỗi",
+            "Hình dạng 3D của chỉ một polypeptide"
+          ],
+          "giai_thich": "Bậc 4 là sự gắn kết của nhiều hơn một polypeptide.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 18"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Yếu tố nào quyết định cấu hình gấp cuộn cơ bản của protein?",
+          "dap_an": [
+            "Sự sắp xếp các amino acid trên polypeptide",
+            "Số lượng nucleotide trên phân tử mRNA tương ứng",
+            "Kích thước của tế bào chứa phân tử protein đó",
+            "Chỉ do nhiệt độ của môi trường trong tế bào"
+          ],
+          "giai_thich": "Slide: sự sắp xếp các amino acid trên polypeptide quyết định cấu hình gấp cuộn cơ bản.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 20"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Thay Glu (ưa nước) bằng Val (kỵ nước) trong hemoglobin (Hb) dẫn đến hệ quả nào?",
+          "dap_an": [
+            "Đổi cấu trúc Hb, ảnh hưởng chức năng và hình dạng hồng cầu",
+            "Không đổi gì vì chỉ một amino acid bị thay",
+            "Chỉ đổi màu của Hb, cấu trúc và chức năng giữ nguyên",
+            "Hb mất toàn bộ amino acid còn lại trên chuỗi"
+          ],
+          "giai_thich": "Slide dùng ví dụ này để minh họa cấu trúc ảnh hưởng chức năng protein.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide 20"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Motif của protein được định nghĩa thế nào?",
+          "dap_an": [
+            "Vùng cấu trúc 3D nhỏ hoặc trình tự amino acid ngắn giống nhau ở nhiều protein",
+            "Phần polypeptide có cấu hình ổn định độc lập, liên quan chức năng cụ thể",
+            "Sự gắn kết của nhiều hơn một polypeptide với nhau thành phức hợp",
+            "Toàn bộ chuỗi amino acid của một protein đã hoàn chỉnh về cấu trúc"
+          ],
+          "giai_thich": "Mô tả một phần polypeptide ổn định, có chức năng riêng là định nghĩa của domain, không phải motif.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide 22"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Ví dụ về motif gắn DNA được nêu trong slide là gì?",
+          "dap_an": [
+            "Helix-loop-helix",
+            "PH domain",
+            "Kẹp tóc (hairpin)",
+            "Nucleosome"
+          ],
+          "giai_thich": "Slide ghi DNA-binding protein motifs: helix-loop-helix. PH là domain; hairpin là cấu trúc thứ cấp RNA.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 22"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Domain của protein được định nghĩa thế nào?",
+          "dap_an": [
+            "Một phần polypeptide có cấu hình ổn định độc lập, liên quan một chức năng cụ thể",
+            "Vùng cấu trúc 3D nhỏ hoặc trình tự amino acid ngắn giống nhau ở nhiều protein",
+            "Sự gắn kết của nhiều hơn một polypeptide với nhau thành phức hợp",
+            "Chuỗi amino acid ngắn chỉ có ở đúng một loại protein duy nhất"
+          ],
+          "giai_thich": "Domain là vùng chức năng, ổn định độc lập.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 23"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Nhận định nào đúng về domain?",
+          "dap_an": [
+            "Một domain có thể hiện diện ở nhiều protein khác nhau",
+            "Mỗi domain chỉ tồn tại trong đúng một protein",
+            "Mỗi protein chỉ được cấu thành từ một domain",
+            "Domain là trình tự ngắn không liên quan chức năng"
+          ],
+          "giai_thich": "Một protein có nhiều domain và một domain có thể có ở nhiều protein.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide 23"
+        },
+        {
+          "id": "c1-26",
+          "hoi": "PH (Pleckstrin Homology) domain cho phép protein làm gì?",
+          "dap_an": [
+            "Gắn phosphatidyl-inositol, hoạt động trong truyền tín hiệu tế bào",
+            "Gắn vào rãnh lớn của DNA để đọc trình tự chuyên biệt của gen",
+            "Xúc tác tạo liên kết peptide giữa các amino acid ở ribosome",
+            "Tạo cấu trúc kẹp tóc ổn định cho phân tử RNA mạch đơn"
+          ],
+          "giai_thich": "PH domain gắn phosphatidyl-inositol, hoạt động trong con đường truyền tín hiệu tế bào.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide 23"
+        },
+        {
+          "id": "c1-27",
+          "hoi": "Vì sao protein có tính “module”?",
+          "dap_an": [
+            "Chức năng đổi khi các domain được tái sắp xếp khác đi",
+            "Protein luôn gồm đúng một domain có cấu hình cố định",
+            "Mỗi domain chỉ gắn với một amino acid duy nhất trên chuỗi",
+            "Các domain trong cùng protein không thể đổi vị trí cho nhau"
+          ],
+          "giai_thich": "Tái sắp xếp domain làm đổi chức năng, tạo tính module.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 2; slide 24"
+        },
+        {
+          "id": "c1-28",
+          "hoi": "Hai đầu của một nucleotide trong chuỗi nucleic acid được ký hiệu thế nào?",
+          "dap_an": [
+            "Đầu 5’P và đuôi 3’OH",
+            "Đầu 5’OH và đuôi 3’P",
+            "Đầu N và đuôi C",
+            "Đầu 5’P và đuôi 5’OH"
+          ],
+          "giai_thich": "Slide ghi nucleotide có đầu 5’P và đuôi 3’OH.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide 29"
+        },
+        {
+          "id": "c1-29",
+          "hoi": "Hai nhóm RNA lớn được nêu trong slide là gì?",
+          "dap_an": [
+            "Coding RNA (mRNA) và noncoding RNA (tRNA, rRNA…)",
+            "Coding RNA (tRNA, rRNA…) và noncoding RNA (mRNA)",
+            "DNA mạch đơn và RNA mạch đôi có trình tự bổ sung nhau",
+            "rRNA của tiểu phần lớn và rRNA của tiểu phần nhỏ"
+          ],
+          "giai_thich": "Coding RNA gồm mRNA; noncoding RNA gồm tRNA, rRNA…",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide 30"
+        },
+        {
+          "id": "c1-30",
+          "hoi": "tRNA và rRNA thuộc nhóm nào?",
+          "dap_an": [
+            "Noncoding RNA",
+            "Coding RNA",
+            "DNA bộ gen",
+            "Protein cấu trúc"
+          ],
+          "giai_thich": "tRNA, rRNA là noncoding RNA; mRNA là coding RNA.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide 30"
+        },
+        {
+          "id": "c1-31",
+          "hoi": "Cấu trúc sơ cấp của RNA là gì?",
+          "dap_an": [
+            "Trình tự các ribonucleotide",
+            "Các motif như kẹp tóc (hairpin)",
+            "Hình dạng không gian xác định ổn định",
+            "Sự gắn kết của nhiều chuỗi RNA"
+          ],
+          "giai_thich": "Sơ cấp: trình tự; thứ cấp: motif như hairpin; “3D”: hình dạng không gian xác định.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide 33"
+        },
+        {
+          "id": "c1-32",
+          "hoi": "Kẹp tóc (hairpin) là ví dụ của cấu trúc nào ở RNA?",
+          "dap_an": [
+            "Cấu trúc thứ cấp",
+            "Cấu trúc sơ cấp",
+            "Cấu trúc “3D”",
+            "Cấu trúc bậc 4"
+          ],
+          "giai_thich": "Slide nêu cấu trúc thứ cấp là trình tự RNA hình thành các motif như kẹp tóc.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide 33"
+        },
+        {
+          "id": "c1-33",
+          "hoi": "Cấu trúc “3D” của RNA hình thành như thế nào?",
+          "dap_an": [
+            "Các cấu trúc thứ cấp được ổn định, tạo hình dạng không gian xác định",
+            "Trình tự ribonucleotide tự tách thành hai mạch đối song song",
+            "Các nucleosome quấn quanh trục histone tạo thành sợi dày",
+            "Nhiều polypeptide gắn vào nhau tạo thành phức hợp hoạt động"
+          ],
+          "giai_thich": "Hình dạng không gian xác định giúp RNA hoạt động chức năng.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3; slide 33"
+        },
+        {
+          "id": "c1-34",
+          "hoi": "Domain V của 23S rRNA có chức năng gì?",
+          "dap_an": [
+            "Peptidyl transferase",
+            "Gắn phosphatidyl-inositol",
+            "Cắt Holliday junction",
+            "Tách hai mạch DNA"
+          ],
+          "giai_thich": "Slide nêu 23S rRNA thuộc tiểu phần lớn của ribosome, domain V có chức năng peptidyl transferase.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3; slide 34"
+        },
+        {
+          "id": "c1-35",
+          "hoi": "DNA bộ gen (gDNA) của prokaryote chủ yếu có dạng nào?",
+          "dap_an": [
+            "Dạng vòng",
+            "Dạng thẳng",
+            "Dạng mạch đơn",
+            "Dạng nucleosome"
+          ],
+          "giai_thich": "gDNA prokaryote dạng vòng (dạng thẳng rất ít); nDNA eukaryote dạng thẳng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide 35"
+        },
+        {
+          "id": "c1-36",
+          "hoi": "DNA nào của sinh vật eukaryote có dạng vòng?",
+          "dap_an": [
+            "mtDNA (ty thể) và ctDNA (lục lạp)",
+            "nDNA (DNA nhân)",
+            "Toàn bộ DNA trong tế bào",
+            "Chỉ DNA của plasmid"
+          ],
+          "giai_thich": "nDNA dạng thẳng; mtDNA, ctDNA dạng vòng.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide 35"
+        },
+        {
+          "id": "c1-37",
+          "hoi": "Khe lớn (major groove) và khe nhỏ (minor groove) của DNA có ý nghĩa gì?",
+          "dap_an": [
+            "Giúp protein gắn DNA tiếp xúc, tương tác và “đọc” trình tự chuyên biệt",
+            "Giúp DNA tự sao chép chính mình mà không cần có sự tham gia của enzyme",
+            "Là nơi dự trữ năng lượng của các liên kết cao năng trên phân tử DNA",
+            "Giúp hai mạch DNA luôn tách rời nhau và duy trì dạng mạch đơn"
+          ],
+          "giai_thich": "Xoắn kép tạo khe lớn, nhỏ thuận lợi cho DNA-binding protein.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide 36"
+        },
+        {
+          "id": "c1-38",
+          "hoi": "Một vòng xoắn (helical turn) của DNA dài khoảng bao nhiêu bp?",
+          "dap_an": [
+            "Khoảng 10 – 10,5 bp",
+            "Khoảng 3 – 4 bp",
+            "Khoảng 20 – 21 bp",
+            "Khoảng 100 bp"
+          ],
+          "giai_thich": "Slide ghi helical turn khoảng 10 bp (slide 36) và 10,5 bp (slide 38).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide 36, 38"
+        },
+        {
+          "id": "c1-39",
+          "hoi": "Nhiễm sắc chất (NSC, chromatin) là gì?",
+          "dap_an": [
+            "DNA cùng protein duy trì cấu trúc DNA",
+            "Chỉ riêng phân tử DNA mạch đôi ở dạng trần",
+            "Chỉ riêng tập hợp các protein histone trong nhân",
+            "Lớp màng kép bao quanh nhân của tế bào"
+          ],
+          "giai_thich": "NSC gồm DNA (vùng) nhân cùng với protein duy trì cấu trúc.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide 37"
+        },
+        {
+          "id": "c1-40",
+          "hoi": "Ở kỳ giữa phân bào, NSC thay đổi như thế nào?",
+          "dap_an": [
+            "Nén cao hơn, tạo nhiễm sắc tử – nhiễm sắc thể",
+            "Giãn hoàn toàn thành các sợi DNA trần không protein",
+            "Chuyển thành dạng vòng nhỏ giống như plasmid vi khuẩn",
+            "Tách rời thành các nucleotide tự do trong tế bào chất"
+          ],
+          "giai_thich": "Kỳ giữa NSC đổi cấu hình “nén” cao hơn.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide 37"
+        },
+        {
+          "id": "c1-41",
+          "hoi": "DNA vòng ở prokaryote tự xoắn tạo cấu hình nào?",
+          "dap_an": [
+            "Siêu xoắn (plectonemic supercoil)",
+            "Nucleosome",
+            "Kẹp tóc (hairpin)",
+            "Xoắn alpha"
+          ],
+          "giai_thich": "DNA tích điện – vòng tự xoắn tạo siêu xoắn, cùng protein duy trì cấu trúc NST.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide 38"
+        },
+        {
+          "id": "c1-42",
+          "hoi": "Ở prokaryote, DNA và các protein duy trì cấu trúc nhiễm sắc thể (SMC, H-NS) mang điện tích thế nào?",
+          "dap_an": [
+            "DNA tích điện –, protein tích điện +",
+            "DNA tích điện +, protein tích điện –",
+            "Cả DNA và protein đều tích điện –",
+            "Cả DNA và protein đều tích điện +"
+          ],
+          "giai_thich": "Slide ghi DNA (tích điện –) và protein duy trì cấu trúc NST (tích điện +).",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide 38"
+        },
+        {
+          "id": "c1-43",
+          "hoi": "“Twist” (Tw) của phân tử DNA mạch đôi thể hiện điều gì?",
+          "dap_an": [
+            "Số lần một mạch quấn quanh mạch còn lại (tổng helical turns)",
+            "Số lần phân tử DNA vòng tự xoắn trong không gian ba chiều",
+            "Số cặp base nằm trong một nucleosome của sợi chromatin",
+            "Số lượng gen mã hóa nằm trên mỗi Mb của phân tử DNA"
+          ],
+          "giai_thich": "Twist là tổng helical turns; số lần DNA vòng tự xoắn trong không gian là writhe.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide 38"
+        },
+        {
+          "id": "c1-44",
+          "hoi": "“Writhe” (Wr) được dùng để mô tả điều gì ở DNA dạng vòng?",
+          "dap_an": [
+            "Số lần phân tử DNA tự xoắn trong không gian",
+            "Số lần một mạch quấn quanh mạch còn lại",
+            "Chiều dài DNA cho một helical turn",
+            "Số protein histone gắn trên DNA"
+          ],
+          "giai_thich": "Writhe áp dụng cho DNA vòng; twist là số lần mạch này quấn quanh mạch kia.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide 38"
+        },
+        {
+          "id": "c1-45",
+          "hoi": "Nucleosome ở eukaryote được tạo thành như thế nào?",
+          "dap_an": [
+            "DNA thẳng xoắn quanh trục histone",
+            "DNA vòng tự xoắn thành siêu xoắn",
+            "RNA gấp thành cấu trúc kẹp tóc",
+            "Nhiều polypeptide gắn kết với nhau"
+          ],
+          "giai_thich": "Nucleosome + non-histone proteins tạo các cấp độ phức tạp của NSC.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide 39"
+        },
+        {
+          "id": "c1-46",
+          "hoi": "Protein nào được slide nêu là non-histone điều hòa (regulatory proteins)?",
+          "dap_an": [
+            "Fos và Myc",
+            "HMG",
+            "RNA polymerase và DNA polymerase",
+            "SMC và H-NS"
+          ],
+          "giai_thich": "Non-histone gồm protein cấu trúc (HMG), điều hòa (Fos, Myc) và enzyme (RNA pol, DNA pol).",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide 39"
+        },
+        {
+          "id": "c1-47",
+          "hoi": "Nhận định nào đúng về kích thước DNA và số gen ở các sinh vật?",
+          "dap_an": [
+            "Kích thước DNA phản ánh độ phức tạp, còn số gen thì không tương ứng",
+            "Số gen tăng tuyến tính theo mức độ phức tạp của sinh vật",
+            "Kích thước DNA hoàn toàn không liên quan độ phức tạp sinh vật",
+            "Mật độ gen luôn tăng tuyến tính theo độ phức tạp sinh vật"
+          ],
+          "giai_thich": "Slide nêu kích thước DNA phản ánh độ phức tạp; số gen không tương ứng; mật độ gen tăng không tuyến tính.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 5; slide 42"
+        },
+        {
+          "id": "c1-48",
+          "hoi": "Mật độ gen (gene density) được tính thế nào?",
+          "dap_an": [
+            "Số gen mã hóa trên mỗi Mb DNA (genes/Mb)",
+            "Số nucleotide trung bình trên mỗi gen mã hóa protein",
+            "Số lượng exon chia cho số lượng intron của mỗi gen",
+            "Số bản sao plasmid có mặt trên mỗi tế bào vi khuẩn"
+          ],
+          "giai_thich": "Gene density = Genes/Mb.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide 42"
+        },
+        {
+          "id": "c1-49",
+          "hoi": "So sánh mật độ gen của H. sapiens và E. coli theo slide?",
+          "dap_an": [
+            "H. sapiens (~9,6) thấp hơn E. coli (~924)",
+            "H. sapiens (~924) cao hơn E. coli (~9,6)",
+            "Hai loài có mật độ gen bằng nhau",
+            "Slide không cho số liệu so sánh"
+          ],
+          "giai_thich": "Slide nêu ví dụ H. sapiens ~9,6 thấp hơn E. coli ~924.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide 42"
+        },
+        {
+          "id": "c1-50",
+          "hoi": "Đơn vị “nt” dùng để chỉ chiều dài của loại phân tử nào?",
+          "dap_an": [
+            "Mạch đơn",
+            "Mạch đôi",
+            "Chỉ DNA vòng",
+            "Chỉ protein"
+          ],
+          "giai_thich": "bp dùng cho mạch đôi, nt cho mạch đơn; có thể dùng cho DNA và RNA.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide 43"
+        },
+        {
+          "id": "c1-51",
+          "hoi": "Trình tự nào sau đây thuộc nhóm trình tự điều hòa (regulatory sequences)?",
+          "dap_an": [
+            "Enhancer",
+            "Exon",
+            "Intron",
+            "Operon"
+          ],
+          "giai_thich": "Promoter, operator, insulator, enhancer, silencer, Locus-Control Region là trình tự điều hòa.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide 44"
+        },
+        {
+          "id": "c1-52",
+          "hoi": "Repetitive sequences là gì?",
+          "dap_an": [
+            "Trình tự xuất hiện nhiều bản sao trong bộ gen",
+            "Trình tự chỉ xuất hiện một lần trong bộ gen",
+            "Trình tự mã hóa duy nhất một protein",
+            "Trình tự chỉ có ở plasmid"
+          ],
+          "giai_thich": "Single-copy chỉ một bản sao; repetitive có nhiều bản sao.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide 44"
+        },
+        {
+          "id": "c1-53",
+          "hoi": "Cấu trúc của gen liên tục và gen gián đoạn khác nhau thế nào?",
+          "dap_an": [
+            "Gen liên tục chỉ có exon; gen gián đoạn gồm exon và intron",
+            "Gen liên tục gồm exon và intron; gen gián đoạn chỉ có exon",
+            "Gen liên tục chỉ có intron; gen gián đoạn chỉ có exon",
+            "Hai loại gen có cấu trúc giống hệt nhau"
+          ],
+          "giai_thich": "Gen (liên tục) = exons; gen (gián đoạn) = exons + introns.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide 45"
+        },
+        {
+          "id": "c1-54",
+          "hoi": "Gen phân bố thành cụm cùng chức năng ở prokaryote được gọi là gì?",
+          "dap_an": [
+            "Operon",
+            "Intron",
+            "Nucleosome",
+            "Plasmid"
+          ],
+          "giai_thich": "Slide: gen phân bố thành cụm (operon).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5; slide 45"
+        },
+        {
+          "id": "c1-55",
+          "hoi": "Đặc điểm nào đúng với liên kết cộng hóa trị?",
+          "dap_an": [
+            "Hai nguyên tử góp chung điện tử hóa trị, tạo góc liên kết",
+            "Hai nguyên tử không dùng chung điện tử, không có góc liên kết",
+            "Liên kết bị cắt tự phát, hoàn toàn không cần xúc tác",
+            "Liên kết hình thành mà không cần cung cấp năng lượng"
+          ],
+          "giai_thich": "Liên kết cộng hóa trị cần năng lượng để hình thành và xúc tác chuyên biệt để cắt.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6; slide 46"
+        },
+        {
+          "id": "c1-56",
+          "hoi": "Liên kết cao năng lượng có đặc điểm nào?",
+          "dap_an": [
+            "Liên kết cộng hóa trị có –ΔG khoảng 7 kcal/mol khi thủy phân",
+            "Tương tác yếu có –ΔG khoảng 7 kcal/mol khi bị thủy phân",
+            "Liên kết cộng hóa trị nhưng không giải phóng năng lượng nào",
+            "Liên kết hydro nối giữa hai mạch của phân tử DNA kép"
+          ],
+          "giai_thich": "Slide: liên kết cao năng là liên kết cộng hóa trị, –ΔG ≈ 7 kcal/mol.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6; slide 47"
+        },
+        {
+          "id": "c1-57",
+          "hoi": "Phân tử cao năng quan trọng cho hoạt động sống được slide nêu là gì?",
+          "dap_an": [
+            "ATP",
+            "Glucose",
+            "Hemoglobin",
+            "Cellulose"
+          ],
+          "giai_thich": "ATP là phân tử cao năng lượng quan trọng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6; slide 47"
+        },
+        {
+          "id": "c1-58",
+          "hoi": "Lực Van der Waals là gì?",
+          "dap_an": [
+            "Lực hút giữa hai nguyên tử khi đủ gần nhau trong không gian (Å)",
+            "Lực hút giữa các nhóm mang điện tích trái dấu (+/–) nhau",
+            "Lực giữa nguyên tử H (+) với nguyên tử hoặc nhóm tích điện –",
+            "Liên kết do hai nguyên tử góp chung các điện tử hóa trị"
+          ],
+          "giai_thich": "Lực hút giữa nhóm tích điện trái dấu là tương tác ion; lực của H (+) với nhóm tích điện – là tương tác hydro.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6; slide 49"
+        },
+        {
+          "id": "c1-59",
+          "hoi": "Tương tác kỵ nước (hydrophobic interaction) hình thành như thế nào?",
+          "dap_an": [
+            "Nhóm không phân cực tránh tiếp xúc nước, nhờ lực Van der Waals",
+            "Các nhóm tích điện trái dấu hút nhau mạnh ngay trong nước",
+            "Hai nguyên tử góp chung cặp điện tử hóa trị với nhau",
+            "Nguyên tử H (+) hút nhóm tích điện – của phân tử khác"
+          ],
+          "giai_thich": "Trong môi trường nước phân cực, nhóm nonpolar tìm cách không tiếp xúc nước.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6; slide 49"
+        },
+        {
+          "id": "c1-60",
+          "hoi": "Tương tác ion (ionic interaction) là gì?",
+          "dap_an": [
+            "Lực hút giữa các nhóm tích điện trái dấu (+/–)",
+            "Lực hút giữa hai nguyên tử ở khoảng cách đủ gần",
+            "Lực giữa nguyên tử H (+) và nhóm tích điện –",
+            "Liên kết giữa các nhóm không phân cực"
+          ],
+          "giai_thich": "Tương tác ion hình thành giữa nhóm tích điện trái dấu.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6; slide 49"
+        },
+        {
+          "id": "c1-61",
+          "hoi": "Tương tác hydro (hydrogen interaction) là gì?",
+          "dap_an": [
+            "Lực giữa nguyên tử H (+) với nguyên tử (nhóm) tích điện –",
+            "Lực hút giữa các nhóm mang điện tích trái dấu (+/–) nhau",
+            "Lực hút giữa hai nguyên tử khi ở khoảng cách đủ gần nhau",
+            "Lực đẩy giữa các nhóm mang cùng điện tích với nhau"
+          ],
+          "giai_thich": "Tương tác hydro liên quan nguyên tử H mang điện tích dương.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6; slide 49"
+        },
+        {
+          "id": "c1-62",
+          "hoi": "Đặc điểm nào đúng với các tương tác hóa học yếu?",
+          "dap_an": [
+            "Không dùng chung điện tử, không có góc liên kết, không giới hạn số lượng",
+            "Dùng chung điện tử, có góc liên kết, số lượng bị giới hạn chặt",
+            "Dùng chung điện tử nhưng không hình thành góc liên kết nào",
+            "Rất bền vững, cần xúc tác chuyên biệt mới cắt được liên kết"
+          ],
+          "giai_thich": "Không dùng chung điện tử nên kém bền, không hình thành góc liên kết, không bị giới hạn số lượng.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6; slide 49"
+        },
+        {
+          "id": "c1-63",
+          "hoi": "Độ mạnh của sự gắn kết giữa các phân tử bằng tương tác yếu đến từ đâu?",
+          "dap_an": [
+            "Tổng số lượng tương tác yếu được hình thành",
+            "Một tương tác yếu duy nhất rất mạnh",
+            "Năng lượng của liên kết cao năng",
+            "Số lượng liên kết cộng hóa trị giữa hai phân tử"
+          ],
+          "giai_thich": "Slide: độ mạnh gắn kết đến từ tổng số lượng tương tác yếu.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6; slide 50"
+        },
+        {
+          "id": "c1-64",
+          "hoi": "Khi khoảng cách giữa hai nguyên tử tăng ra ngoài khoảng “đủ gần”, lực Van der Waals thay đổi thế nào?",
+          "dap_an": [
+            "Yếu dần và tiến về 0",
+            "Mạnh dần lên",
+            "Giữ nguyên không đổi",
+            "Chuyển thành liên kết cộng hóa trị"
+          ],
+          "giai_thich": "Tương tác tiệm cận rìa khoảng điều kiện thì càng yếu; Van der Waals tịnh tiến về 0.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6; slide 50"
+        },
+        {
+          "id": "c1-65",
+          "hoi": "Tương tác yếu có vai trò nào đối với nucleic acid mạch đôi?",
+          "dap_an": [
+            "Hình thành và ổn định cấu trúc mạch đôi",
+            "Nối các nucleotide trong cùng một mạch",
+            "Tổng hợp mạch mới từ nucleotide tự do",
+            "Cắt đứt liên kết phosphodiester"
+          ],
+          "giai_thich": "Tương tác giữa hai ssDNA hình thành, ổn định mạch đôi; liên kết phosphodiester là cộng hóa trị.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6; slide 51"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nhom": "Bài giảng",
+      "ten": "Bài 2 - Tính ổn định DNA: sao chép và sửa sai",
+      "cau": [
+        {
+          "id": "c2-01",
+          "hoi": "Hai đặc tính cơ bản của DNA mà tế bào phải đảm bảo là gì?",
+          "dap_an": [
+            "Tính ổn định và tính biến động",
+            "Tính ổn định và tính thoái hóa",
+            "Tính biến động và tính đặc hiệu",
+            "Tính bán bảo tồn và tính thoái hóa"
+          ],
+          "giai_thich": "Slide nêu 02 đặc tính: tính ổn định (sao chép, sửa sai) và tính biến động (tái tổ hợp, chuyển vị, tạo đột biến).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide 2"
+        },
+        {
+          "id": "c2-02",
+          "hoi": "Cơ chế nào góp phần đảm bảo tính ổn định của DNA?",
+          "dap_an": [
+            "Sao chép và sửa sai",
+            "Tái tổ hợp và chuyển vị",
+            "Chuyển vị và tạo đột biến",
+            "Tái tổ hợp và tạo đột biến"
+          ],
+          "giai_thich": "Ổn định: sao chép, sửa sai. Biến động: tái tổ hợp, chuyển vị, tạo đột biến.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide 2"
+        },
+        {
+          "id": "c2-03",
+          "hoi": "Cơ chế nào góp phần tạo tính biến động của DNA?",
+          "dap_an": [
+            "Tái tổ hợp, chuyển vị, tạo đột biến",
+            "Sao chép và sửa sai",
+            "Proofreading và sửa sai",
+            "Sao chép và proofreading"
+          ],
+          "giai_thich": "Tính biến động tạo đa dạng thông tin sống, có ý nghĩa lớn với thích nghi, tiến hóa.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide 2"
+        },
+        {
+          "id": "c2-04",
+          "hoi": "Vòng đời của vi khuẩn kéo dài khoảng bao lâu theo slide?",
+          "dap_an": [
+            "30 – 60 phút",
+            "16 – 24 giờ",
+            "3 – 5 phút",
+            "2 – 3 ngày"
+          ],
+          "giai_thich": "Vi khuẩn 30–60 phút; nhóm tế bào eukaryote trung bình 16–24 giờ.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide 4"
+        },
+        {
+          "id": "c2-05",
+          "hoi": "Giai đoạn nào của chu trình tế bào eukaryote là giai đoạn sao chép DNA?",
+          "dap_an": [
+            "Pha S",
+            "Pha G2",
+            "Pha M",
+            "Pha G0/G1"
+          ],
+          "giai_thich": "Bốn giai đoạn: G0/G1, S (sao chép DNA), G2, M.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide 4"
+        },
+        {
+          "id": "c2-06",
+          "hoi": "Sao chép DNA diễn ra theo nguyên tắc nào?",
+          "dap_an": [
+            "Bán bảo tồn (semiconservative)",
+            "Bảo tồn hoàn toàn",
+            "Phân tán ngẫu nhiên",
+            "Phiên mã ngược"
+          ],
+          "giai_thich": "Hai mạch của phân tử gốc tách ra làm khuôn tổng hợp mạch mới.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide 5"
+        },
+        {
+          "id": "c2-07",
+          "hoi": "Kết thúc sao chép, hai phân tử DNA con có đặc điểm gì?",
+          "dap_an": [
+            "Có trình tự giống với phân tử DNA ban đầu",
+            "Một phân tử giống, một phân tử khác hoàn toàn gốc",
+            "Mỗi phân tử chỉ mang một nửa số gen ban đầu",
+            "Có trình tự bổ sung nhưng ngược với DNA gốc"
+          ],
+          "giai_thich": "Nucleotide tự do bắt cặp bổ sung (A=T, G≡C) với mạch khuôn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 1; slide 5"
+        },
+        {
+          "id": "c2-08",
+          "hoi": "Topoisomerase I và II khác nhau như thế nào?",
+          "dap_an": [
+            "Topo I cắt, nối 1 mạch DNA; Topo II cắt, nối 2 mạch DNA",
+            "Topo I cắt, nối 2 mạch DNA; Topo II cắt, nối 1 mạch DNA",
+            "Topo I tạo đoạn mồi; Topo II nối đoạn Okazaki",
+            "Topo I phá liên kết H; Topo II ổn định ssDNA"
+          ],
+          "giai_thich": "Cả hai giải xoắn DNA trước hoặc sau sao chép.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide 7–8"
+        },
+        {
+          "id": "c2-09",
+          "hoi": "Helicase hoạt động thế nào trong sao chép?",
+          "dap_an": [
+            "Dùng ATP, bám mạch đơn và phá liên kết H giữa hai mạch",
+            "Dùng dNTP để tổng hợp đoạn mồi RNA",
+            "Nối hai đoạn Okazaki bằng liên kết phosphodiester",
+            "Cắt một mạch DNA để giải xoắn trước sao chép"
+          ],
+          "giai_thich": "Helicase tiến về phần mạch đôi, phá liên kết H, tạo cấu trúc chữ Y.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide 9"
+        },
+        {
+          "id": "c2-10",
+          "hoi": "Cấu trúc chữ Y (chĩa ba sao chép) được hình thành nhờ enzyme nào?",
+          "dap_an": [
+            "Helicase",
+            "Ligase",
+            "Primase",
+            "Telomerase"
+          ],
+          "giai_thich": "Helicase tách dsDNA tạo ssDNA, hình thành cấu trúc DNA chữ Y.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide 6"
+        },
+        {
+          "id": "c2-11",
+          "hoi": "Vai trò của SSB (Single Strand Binding protein) là gì?",
+          "dap_an": [
+            "Ổn định DNA mạch đơn",
+            "Phá liên kết H giữa hai mạch",
+            "Tổng hợp đoạn mồi RNA",
+            "Nối các đoạn Okazaki"
+          ],
+          "giai_thich": "SSB bám ổn định phần mạch ssDNA.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide 6"
+        },
+        {
+          "id": "c2-12",
+          "hoi": "DNA polymerase kéo dài mạch DNA mới theo chiều nào?",
+          "dap_an": [
+            "Chiều 5’→3’, nối đầu 5’P của nu mới vào đầu 3’OH của nu trước",
+            "Chiều 3’→5’, nối đầu 3’OH của nu mới vào đầu 5’P của nu trước",
+            "Chiều 5’→3’, nối đầu 3’OH của nu mới vào đầu 3’OH của nu trước",
+            "Cả hai chiều tùy vị trí trên mạch khuôn"
+          ],
+          "giai_thich": "DNA polymerase có hoạt tính 5’→3’ polymerase, tạo liên kết phosphodiester.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide 11"
+        },
+        {
+          "id": "c2-13",
+          "hoi": "Phản ứng của DNA polymerase loại bỏ nhóm nào của dNTP và cần yếu tố nào?",
+          "dap_an": [
+            "Loại 2P (pyrophosphate), cần ion kim loại hóa trị 2",
+            "Loại 1 nhóm OH của dNTP, cần có ATP làm cofactor",
+            "Loại 3P (triphosphate), cần có sẵn primer DNA mạch kép",
+            "Loại 2P (pyrophosphate), hoàn toàn không cần ion nào"
+          ],
+          "giai_thich": "Quá trình loại bỏ 2P cần ion hóa trị 2 (ion ++) tại vị trí hoạt động.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide 11–12"
+        },
+        {
+          "id": "c2-14",
+          "hoi": "Primase là enzyme loại nào và tạo ra gì?",
+          "dap_an": [
+            "Một RNA polymerase, tạo đoạn mồi oligoribonucleotide",
+            "Một DNA polymerase, tạo đoạn mồi oligodeoxyribonucleotide",
+            "Một ligase, tạo liên kết giữa các đoạn Okazaki",
+            "Một helicase, tạo cấu trúc chữ Y"
+          ],
+          "giai_thich": "Primer cung cấp đầu 3’OH khơi mào cho DNA polymerase.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide 16"
+        },
+        {
+          "id": "c2-15",
+          "hoi": "Đoạn mồi (primer) có vai trò gì trong sao chép?",
+          "dap_an": [
+            "Cung cấp đầu 3’OH khơi mào cho DNA polymerase",
+            "Cung cấp đầu 5’P để nối các đoạn Okazaki với nhau",
+            "Tách hai mạch của phân tử DNA khuôn ra khỏi nhau",
+            "Ổn định các đoạn DNA mạch đơn trước khi sao chép"
+          ],
+          "giai_thich": "Đoạn mồi bám trên mạch khuôn (ssDNA) cung cấp 3’OH.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide 16"
+        },
+        {
+          "id": "c2-16",
+          "hoi": "DNA ligase nối những gì trong sao chép DNA?",
+          "dap_an": [
+            "Hai đoạn Okazaki liên tiếp bằng liên kết phosphodiester",
+            "Hai mạch DNA khuôn với nhau bằng các liên kết hydro",
+            "Đoạn mồi RNA vào mạch khuôn bằng liên kết peptide",
+            "Hai nucleotide tự do với nhau bằng liên kết ester"
+          ],
+          "giai_thich": "Ligase nối đầu 5’P và 3’OH của hai nucleotide liền kề.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide 16"
+        },
+        {
+          "id": "c2-17",
+          "hoi": "Ở E. coli, những DNA polymerase nào tham gia sao chép DNA?",
+          "dap_an": [
+            "DNA pol I và III",
+            "DNA pol α, ε và δ",
+            "DNA pol β",
+            "Chỉ DNA pol II"
+          ],
+          "giai_thich": "Ở eukaryote là pol α, ε, δ; pol β xuất hiện trong BER.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide 13"
+        },
+        {
+          "id": "c2-18",
+          "hoi": "Ở eukaryote, những DNA polymerase nào tham gia sao chép DNA bộ gen?",
+          "dap_an": [
+            "DNA pol α, ε, δ",
+            "DNA pol I và III",
+            "DNA pol β",
+            "Chỉ DNA pol III"
+          ],
+          "giai_thich": "Slide nêu pol α, ε, δ; chức năng các tiểu đơn vị không có đáp án.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2; slide 15"
+        },
+        {
+          "id": "c2-19",
+          "hoi": "Sliding clamp (tiểu phần β) ở E. coli có vai trò nào?",
+          "dap_an": [
+            "Hoạt động như “kẹp” giữ polymerase trên DNA",
+            "Phá liên kết hydro giữa hai mạch của DNA khuôn",
+            "Tổng hợp đoạn mồi RNA khơi mào sao chép mạch",
+            "Nhận diện trình tự Ter để làm dừng sao chép"
+          ],
+          "giai_thich": "Slide gọi sliding clamp là “kẹp” trong sao chép DNA.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2; slide 14"
+        },
+        {
+          "id": "c2-20",
+          "hoi": "Protein nào của E. coli tương tác với oriC để khởi đầu sao chép?",
+          "dap_an": [
+            "DnaA và DnaB–DnaC",
+            "Tus",
+            "RecA",
+            "MutS"
+          ],
+          "giai_thich": "Tương tác DnaA, DnaB–DnaC với oriC tạo ssDNA, rồi helicase DnaB hoạt động.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 3; slide 17"
+        },
+        {
+          "id": "c2-21",
+          "hoi": "Helicase của E. coli trong khởi đầu sao chép là protein nào?",
+          "dap_an": [
+            "DnaB",
+            "DnaA",
+            "Tus",
+            "MutH"
+          ],
+          "giai_thich": "DnaB là helicase; DnaA và DnaB–DnaC là protein khởi sự.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 3; slide 17"
+        },
+        {
+          "id": "c2-22",
+          "hoi": "DNA pol III của E. coli có cấu trúc nào?",
+          "dap_an": [
+            "Dimer",
+            "Monomer đơn lẻ",
+            "Cấu trúc kẹp tóc",
+            "Cấu trúc vòng siêu xoắn"
+          ],
+          "giai_thich": "Slide ghi cấu trúc DNA pol III – dimer.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 3; slide 19"
+        },
+        {
+          "id": "c2-23",
+          "hoi": "Ở E. coli, các cụm trình tự kết thúc Ter nằm ở vị trí nào?",
+          "dap_an": [
+            "Cách oriC khoảng 180°, có chiều ngược nhau",
+            "Nằm ngay sát oriC, hai cụm có cùng một chiều",
+            "Cách oriC khoảng 90°, hai cụm có cùng một chiều",
+            "Nằm trùng ngay tại vị trí oriC, chiều ngược nhau"
+          ],
+          "giai_thich": "Hai cụm Ter cách oriC khoảng 180° và có chiều ngược nhau.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 3; slide 20"
+        },
+        {
+          "id": "c2-24",
+          "hoi": "Tus (Ter-binding protein) có vai trò gì?",
+          "dap_an": [
+            "Gắn lên Ter, tạo tín hiệu dừng sao chép (Tus/Ter)",
+            "Gắn lên oriC để mở xoắn DNA cho helicase hoạt động",
+            "Tổng hợp đoạn mồi RNA khơi mào tại các vị trí Ter",
+            "Nối các đoạn Okazaki gần các trình tự Ter với nhau"
+          ],
+          "giai_thich": "Mỗi Tus/Ter tác động lên một phức hợp sao chép tương ứng, làm dừng hoặc phân rã.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 3; slide 20"
+        },
+        {
+          "id": "c2-25",
+          "hoi": "Nếu một phức hợp sao chép gặp tín hiệu kết thúc không tương ứng với nó thì điều gì xảy ra?",
+          "dap_an": [
+            "Tus/Ter bị phân rã",
+            "Phức hợp sao chép tiếp tục chạy qua",
+            "DNA bị cắt thành nhiều đoạn",
+            "Ter chuyển thành oriC"
+          ],
+          "giai_thich": "Slide: gặp tín hiệu kết thúc không tương ứng → phân rã Tus/Ter.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 3; slide 20"
+        },
+        {
+          "id": "c2-26",
+          "hoi": "Ở eukaryote, tín hiệu kết thúc sao chép xuất hiện ở đâu?",
+          "dap_an": [
+            "Giữa hai ori",
+            "Tại oriC duy nhất",
+            "Chỉ ở đầu mút NST",
+            "Tại trình tự Ter cách oriC 180°"
+          ],
+          "giai_thich": "Slide: ở eukaryote, tín hiệu kết thúc sao chép xuất hiện giữa hai ori.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide 25"
+        },
+        {
+          "id": "c2-27",
+          "hoi": "Vấn đề gặp phải khi sao chép DNA dạng thẳng là gì?",
+          "dap_an": [
+            "DNA ngắn dần sau mỗi lần sao chép",
+            "DNA dài thêm sau mỗi lần sao chép",
+            "DNA chuyển thành dạng vòng",
+            "DNA mất khả năng bắt cặp bổ sung"
+          ],
+          "giai_thich": "Primer của Okazaki cuối bị loại nhưng không được tổng hợp thay thế, tạo đầu so le.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide 29"
+        },
+        {
+          "id": "c2-28",
+          "hoi": "Telomere là gì?",
+          "dap_an": [
+            "Cấu trúc bảo vệ gồm DNA đầu mút và protein",
+            "Đoạn mồi RNA của đoạn Okazaki cuối",
+            "Trình tự khởi sự sao chép ở eukaryote",
+            "Enzyme duy trì độ dài đầu mút"
+          ],
+          "giai_thich": "Telomere (DNA đầu mút + protein) bảo vệ cấu trúc so le của DNA.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide 29"
+        },
+        {
+          "id": "c2-29",
+          "hoi": "Telomerase gồm những thành phần nào?",
+          "dap_an": [
+            "RNA template và hoạt tính 5’→3’ polymerase",
+            "DNA template và hoạt tính 3’→5’ exonuclease",
+            "RNA template và hoạt tính ligase",
+            "Protein SSB và helicase"
+          ],
+          "giai_thich": "Telomerase là reverse transcriptase thuộc họ DNA polymerase, duy trì độ dài đầu mút.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide 30"
+        },
+        {
+          "id": "c2-30",
+          "hoi": "Telomerase thuộc loại enzyme nào?",
+          "dap_an": [
+            "Reverse transcriptase (RTase), thuộc họ DNA polymerase",
+            "RNA polymerase, thuộc họ enzyme tổng hợp đoạn mồi",
+            "DNA ligase, thuộc họ enzyme nuclease cắt acid nucleic",
+            "Endonuclease, thuộc họ enzyme glycosylase sửa base"
+          ],
+          "giai_thich": "Slide ghi telomerase là một RTase thuộc họ DNA polymerase.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 4; slide 30"
+        },
+        {
+          "id": "c2-31",
+          "hoi": "Ba kiểu sao chép DNA được giới thiệu ở slide gồm những kiểu nào?",
+          "dap_an": [
+            "Sao chép 2 chiều, sao chép vòng xoay, sao chép DNA đầu mút",
+            "Sao chép 1 chiều, sao chép bảo tồn, sao chép đầu mút",
+            "Sao chép 2 chiều, sao chép phân tán, sao chép vòng xoay",
+            "Sao chép vòng xoay, sao chép ngược, sao chép đầu mút"
+          ],
+          "giai_thich": "Slide: bidirectional, rolling circle, sao chép đầu mút.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 4; slide 26"
+        },
+        {
+          "id": "c2-32",
+          "hoi": "Tác nhân nội bào gây tổn thương DNA được nêu là gì?",
+          "dap_an": [
+            "Bất thường sao chép và gốc oxi hóa tự do (ROS)",
+            "Tia UV và phóng xạ chiếu từ môi trường bên ngoài",
+            "Hóa chất có vòng thơm (PAHs) xâm nhập vào tế bào",
+            "Nhiệt độ cao của môi trường bên ngoài tế bào"
+          ],
+          "giai_thich": "Nội bào: bất thường sao chép, ROS. Ngoại bào: ROS, tia năng lượng cao, hóa chất.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide 32"
+        },
+        {
+          "id": "c2-33",
+          "hoi": "Tác nhân nào sau đây là ngoại bào (exogenous)?",
+          "dap_an": [
+            "Tia năng lượng cao (phóng xạ, UV), hóa chất vòng thơm",
+            "Bất thường xảy ra trong quá trình sao chép DNA",
+            "Sai sót của DNA polymerase khi gắn nucleotide mới",
+            "Tautomer của base sinh ra trong tế bào đang sao chép"
+          ],
+          "giai_thich": "Ngoại bào gồm gốc oxi hóa, tia năng lượng cao, hóa chất (PAHs…).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide 32"
+        },
+        {
+          "id": "c2-34",
+          "hoi": "Vị trí AP (abasic site) trên DNA là gì?",
+          "dap_an": [
+            "Vị trí mất purine hoặc pyrimidine",
+            "Vị trí gắn nhóm methyl trên base",
+            "Vị trí hai mạch bị đứt hoàn toàn",
+            "Vị trí gắn xen giữa các base"
+          ],
+          "giai_thich": "AP: apurinic/apyrimidinic/abasic site.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 5; slide 32"
+        },
+        {
+          "id": "c2-35",
+          "hoi": "DNA adduct (cấu trúc cồng kềnh) được ví dụ bằng điều gì?",
+          "dap_an": [
+            "Dimer pyrimidine hoặc chất gắn xen giữa các base",
+            "Mất purine hoặc pyrimidine tạo ra vị trí AP trên DNA",
+            "Gắn thêm nhóm methyl hoặc acetyl lên các base",
+            "Đứt liên kết phosphodiester trên một mạch đơn"
+          ],
+          "giai_thich": "Slide nêu dimer pyrimidine/gắn xen giữa các base là ví dụ của adduct.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 5; slide 32"
+        },
+        {
+          "id": "c2-36",
+          "hoi": "Hệ thống bảo vệ DNA khỏi tổn thương dựa vào yếu tố nào?",
+          "dap_an": [
+            "Cấu trúc nhiễm sắc chất (DNA + protein nhân)",
+            "Enzyme oxi-hóa khử kiểm soát lượng ROS trong tế bào",
+            "Hoạt tính proofreading của DNA polymerase khi sao chép",
+            "Chốt kiểm soát G1 và G2 của chu trình tế bào"
+          ],
+          "giai_thich": "Bảo vệ: NSC; phòng ngừa: enzyme oxi-hóa khử kiểm soát ROS; sửa sai: nhiều cơ chế.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 5; slide 35"
+        },
+        {
+          "id": "c2-37",
+          "hoi": "Enzyme oxi-hóa khử thuộc hệ thống nào trong bảo đảm tính ổn định DNA?",
+          "dap_an": [
+            "Hệ thống phòng ngừa, kiểm soát ROS",
+            "Hệ thống bảo vệ, dựa vào cấu trúc nhiễm sắc chất",
+            "Hệ thống sửa sai trực tiếp",
+            "Hệ thống sao chép"
+          ],
+          "giai_thich": "Enzyme oxi-hóa khử kiểm soát ROS là hệ thống phòng ngừa.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide 35"
+        },
+        {
+          "id": "c2-38",
+          "hoi": "Chốt kiểm soát (checkpoint) G1 kiểm soát điều gì?",
+          "dap_an": [
+            "Tổn thương DNA xuất hiện trước khi sao chép được phép bắt đầu",
+            "Tổn thương DNA xuất hiện trong hoặc ngay sau khi sao chép",
+            "Sự phân chia nhiễm sắc thể diễn ra ở kỳ giữa phân bào",
+            "Chỉ các lỗi bắt cặp base do tautomer gây ra khi sao chép"
+          ],
+          "giai_thich": "G2 kiểm soát tổn thương trong/sau sao chép.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide 35"
+        },
+        {
+          "id": "c2-39",
+          "hoi": "Chốt kiểm soát có thể dẫn đến những kết quả nào?",
+          "dap_an": [
+            "Dừng chu trình tế bào để sửa hoặc gây chết tế bào",
+            "Chỉ làm cho tế bào tăng tốc độ phân chia hơn bình thường",
+            "Chỉ xóa toàn bộ phần DNA bị lỗi ra khỏi nhiễm sắc thể",
+            "Chuyển toàn bộ DNA của tế bào sang dạng vòng khép kín"
+          ],
+          "giai_thich": "Nếu không bảo đảm được tính ổn định DNA, tế bào dừng để sửa hoặc chết.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 5; slide 35"
+        },
+        {
+          "id": "c2-40",
+          "hoi": "Tautomer là gì và gây hậu quả gì trong sao chép?",
+          "dap_an": [
+            "Đồng phân base dạng hiếm (imino/enol), tạo liên kết H sai nguyên tắc A=T, G≡C",
+            "Đồng phân base dạng phổ biến, tạo liên kết H đúng theo nguyên tắc A=T, G≡C",
+            "Dạng base đã được methyl hóa, dùng để đánh dấu mạch DNA gốc khi sao chép",
+            "Dạng amino acid mang điện tích, làm đổi hình dạng không gian của protein"
+          ],
+          "giai_thich": "Tautomer gây lỗi bắt cặp (mismatch) ngẫu nhiên, ví dụ A:C.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide 36–37"
+        },
+        {
+          "id": "c2-41",
+          "hoi": "Proofreading của DNA polymerase gồm những hoạt tính nào?",
+          "dap_an": [
+            "3’→5’ exonuclease và 5’→3’ polymerase",
+            "5’→3’ exonuclease và 3’→5’ polymerase",
+            "3’→5’ exonuclease và hoạt tính ligase",
+            "5’→3’ polymerase và hoạt tính primase"
+          ],
+          "giai_thich": "Proofreading kiểm tra nu vừa gắn ở đầu 3’ và loại ngay nếu sai.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide 38"
+        },
+        {
+          "id": "c2-42",
+          "hoi": "Trong mismatch repair ở E. coli, tế bào nhận ra mạch gốc dựa vào đâu?",
+          "dap_an": [
+            "Mạch gốc được methyl hóa, mạch mới chưa methyl hóa",
+            "Mạch gốc có gắn sẵn đoạn mồi RNA ở đầu 5’ của mạch",
+            "Mạch gốc luôn có chiều dài ngắn hơn so với mạch mới",
+            "Mạch gốc luôn mang nhiều vị trí AP hơn so với mạch mới"
+          ],
+          "giai_thich": "DNA con ở trạng thái hemimethylated.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide 40"
+        },
+        {
+          "id": "c2-43",
+          "hoi": "MutH có vai trò gì trong mismatch repair?",
+          "dap_an": [
+            "Gắn tại vị trí methyl hóa, cắt mạch không methyl, tạo nick",
+            "Nhận diện base sai, loại base để tạo ra vị trí AP trên DNA",
+            "Nối hoàn chỉnh mạch DNA bằng liên kết phosphodiester",
+            "Bù lại phần nucleotide đã bị loại bỏ khỏi mạch DNA"
+          ],
+          "giai_thich": "MutS/L/H nhận diện lỗi; MutH cắt mạch không methyl.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide 41"
+        },
+        {
+          "id": "c2-44",
+          "hoi": "Sau khi tạo nick trong mismatch repair, bước tiếp theo là gì?",
+          "dap_an": [
+            "Exonuclease loại bỏ oligonucleotide chứa nucleotide sai",
+            "Photolyase loại bỏ dimer pyrimidine ra khỏi mạch DNA",
+            "DNA glycosylase loại bỏ base để tạo ra vị trí AP mới",
+            "Telomerase kéo dài thêm đoạn đầu mút của mạch DNA"
+          ],
+          "giai_thich": "Sau đó SSB ổn định, DNA polymerase bù lại, ligase nối.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide 41"
+        },
+        {
+          "id": "c2-45",
+          "hoi": "Trong Base Excision Repair (BER), enzyme nào nhận diện và loại bỏ base sai?",
+          "dap_an": [
+            "DNA glycosylase",
+            "MutH",
+            "Photolyase",
+            "Telomerase"
+          ],
+          "giai_thich": "DNA glycosylase loại base của nucleotide, tạo vị trí AP.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide 42"
+        },
+        {
+          "id": "c2-46",
+          "hoi": "Trong BER, APE1 có hoạt tính gì?",
+          "dap_an": [
+            "Endonuclease nhận diện AP, cắt liên kết ở đầu 5’ của nu mất base",
+            "Exonuclease 3’→5’ kiểm tra nucleotide mới gắn vào đầu 3’ của mạch",
+            "Ligase nối hai đoạn Okazaki liên tiếp bằng liên kết phosphodiester",
+            "Methyltransferase loại nhóm methyl bất thường khỏi các base"
+          ],
+          "giai_thich": "Slide ghi “APEI”, nhiều khả năng là APE1.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide 42"
+        },
+        {
+          "id": "c2-47",
+          "hoi": "Trong BER, DNA pol β có thêm hoạt tính nào?",
+          "dap_an": [
+            "AP lyase loại nu mất base, cùng 5’→3’ polymerase bù nu mới",
+            "Exonuclease 3’→5’ chuyên cắt mạch không được methyl hóa",
+            "Helicase dùng ATP để tách hai mạch DNA ra khỏi nhau",
+            "Primase tổng hợp đoạn mồi RNA khơi mào cho mạch mới"
+          ],
+          "giai_thich": "Sau đó DNA ligase hình thành liên kết hoàn chỉnh mạch.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide 42"
+        },
+        {
+          "id": "c2-48",
+          "hoi": "MGMT (ở người) hay alkyltransferase (ở E. coli) sửa tổn thương nào?",
+          "dap_an": [
+            "Nhóm methyl hoặc acetyl bất thường gắn trên base",
+            "Dimer pyrimidine hình thành do tác động của tia UV",
+            "Đứt hoàn toàn cả hai mạch của phân tử DNA kép",
+            "Mất purine tạo ra vị trí AP trên mạch của DNA"
+          ],
+          "giai_thich": "Đây là sửa trực tiếp (direct reversal) tác nhân alkyl hóa.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide 44"
+        },
+        {
+          "id": "c2-49",
+          "hoi": "Photolyase sửa loại tổn thương nào và cần điều kiện gì?",
+          "dap_an": [
+            "Dimer CPD do UV, cần ánh sáng (300–650 nm)",
+            "Nhóm methyl bất thường gắn trên base, cần có ATP",
+            "Đứt mạch đôi DNA, cần có ion kim loại hóa trị hai",
+            "Lỗi bắt cặp A:C khi sao chép, cần có mồi RNA"
+          ],
+          "giai_thich": "Photolyase + cofactor FADH loại liên kết hình thành CPD, ví dụ thymidine dimer.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide 45"
+        },
+        {
+          "id": "c2-50",
+          "hoi": "CPD (Cyclobutane Pyrimidine Dimer) hình thành do tác nhân nào?",
+          "dap_an": [
+            "Tia UV",
+            "Gốc methyl",
+            "Lỗi tautomer",
+            "Nhiệt độ thấp"
+          ],
+          "giai_thich": "UV → pyrimidine dimer → bất thường cấu trúc DNA.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 6; slide 45"
+        },
+        {
+          "id": "c2-51",
+          "hoi": "Khi hệ thống sửa chữa DNA hoạt động không hiệu quả, tế bào có thể rơi vào tình huống nào?",
+          "dap_an": [
+            "Bỏ qua lỗi hoặc sửa cho qua (error-prone), không phải sửa đúng",
+            "Luôn sửa lỗi đúng nhờ hoạt tính proofreading của polymerase",
+            "Tự động chuyển toàn bộ DNA bị lỗi thành các phân tử RNA",
+            "Dừng vĩnh viễn và không bao giờ thực hiện sao chép nữa"
+          ],
+          "giai_thich": "Slide nêu: bỏ qua lỗi; sửa cho qua (error-prone repair).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 6; slide 47"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Bài 3 - Tính biến động DNA: tái tổ hợp, chuyển vị, plasmid",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Tái tổ hợp DNA (DNA recombination) là quá trình gì?",
+          "dap_an": [
+            "Sắp xếp lại các vùng trình tự DNA, tạo đa dạng thông tin",
+            "Tổng hợp mạch DNA mới theo nguyên tắc bán bảo tồn",
+            "Loại bỏ các nucleotide sai sau khi sao chép xong",
+            "Phiên mã thông tin từ DNA sang phân tử RNA thông tin"
+          ],
+          "giai_thich": "Tái tổ hợp tạo đa dạng trình tự, cấu trúc, thông tin của vật liệu di truyền.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide 51"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Hai loại tái tổ hợp được nêu trong slide là gì?",
+          "dap_an": [
+            "Tái tổ hợp tương đồng và tái tổ hợp chuyên biệt vị trí",
+            "Tái tổ hợp bán bảo tồn và tái tổ hợp bảo tồn",
+            "Tái tổ hợp chủ động và tái tổ hợp bị động",
+            "Tái tổ hợp tương đồng và tái tổ hợp ngẫu nhiên"
+          ],
+          "giai_thich": "Homologous recombination và site-specific recombination.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide 51"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Hoạt động gắn chèn DNA của bacteriophage vào DNA vi khuẩn thuộc loại tái tổ hợp nào?",
+          "dap_an": [
+            "Tái tổ hợp chuyên biệt vị trí",
+            "Tái tổ hợp tương đồng",
+            "Sao chép bán bảo tồn",
+            "Sửa sai bằng cắt bỏ base"
+          ],
+          "giai_thich": "Slide nêu đây là một quá trình tái tổ hợp chuyên biệt vị trí.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide 51"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Tái tổ hợp tương đồng xảy ra giữa các phân tử DNA có đặc điểm nào?",
+          "dap_an": [
+            "Có vùng tương đồng (giống nhau) và đang ở gần nhau",
+            "Có trình tự hoàn toàn khác nhau giữa các phân tử",
+            "Có vị trí chuyên biệt dành cho enzyme recombinase",
+            "Chỉ là các phân tử DNA dạng vòng của plasmid"
+          ],
+          "giai_thich": "Ví dụ: 2 DNA của cặp NST tương đồng, 2 vùng tương đồng trên 1 DNA…",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide 52"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Ba ý nghĩa của tái tổ hợp tương đồng trong tế bào là gì?",
+          "dap_an": [
+            "Tạo biến động, sửa sai SSB/DSB, điều hòa biểu hiện gen",
+            "Tạo biến động, tổng hợp mồi RNA, thực hiện phiên mã",
+            "Sao chép DNA, sửa sai SSB/DSB, tạo ra protein histone",
+            "Tạo biến động, kết thúc sao chép, thực hiện dịch mã"
+          ],
+          "giai_thich": "Slide: (1) tạo tính biến động; (2) sửa sai SSB/DSB; (3) điều hòa biểu hiện gen.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide 52"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "Trong mô hình Holliday/SSB, điều gì xảy ra sau khi DNA đứt 1 mạch?",
+          "dap_an": [
+            "Enzyme loại nu tại chỗ đứt, tạo ssDNA có đầu 3’ tự do",
+            "Enzyme loại nu tại chỗ đứt, tạo ssDNA có đầu 5’ tự do",
+            "Hai mạch của phân tử DNA tự tách hoàn toàn ra khỏi nhau",
+            "Tạo ngay hai mối nối Holliday ở hai vị trí khác nhau"
+          ],
+          "giai_thich": "Đầu 3’ tự do sau đó xâm lấn DNA kế cận tạo heteroduplex và 1 HJ.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide 53"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Heteroduplex là gì?",
+          "dap_an": [
+            "Vùng tương đồng dị phân tử do đầu 3’ ssDNA xâm lấn DNA kế cận",
+            "Cấu trúc DNA dạng vòng nằm ngoài vùng nhân của vi khuẩn",
+            "Vùng hai mạch của cùng một phân tử DNA tự bắt cặp với nhau",
+            "Sản phẩm tạo ra khi phiên mã ngược từ khuôn RNA thành cDNA"
+          ],
+          "giai_thich": "Xâm lấn tạo heteroduplex cùng mối nối Holliday (HJ).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide 53"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Cắt–nối mối nối Holliday theo chiều ngang cho kết quả nào?",
+          "dap_an": [
+            "DNA không có tái tổ hợp (non-crossover recombinants)",
+            "DNA có tái tổ hợp (crossover recombinants)",
+            "Tạo thêm một mối nối Holliday mới ở vị trí khác",
+            "Làm đứt hoàn toàn mạch đôi của phân tử DNA"
+          ],
+          "giai_thich": "Theo chiều dọc tạo crossover recombinants.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide 53"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Cắt–nối mối nối Holliday theo chiều dọc cho kết quả nào?",
+          "dap_an": [
+            "DNA có tái tổ hợp (crossover recombinants)",
+            "DNA không có tái tổ hợp (non-crossover recombinants)",
+            "Phân tử DNA không bị cắt",
+            "Hai ssDNA đầu 5’ tự do"
+          ],
+          "giai_thich": "Cắt ngang → non-crossover; cắt dọc → crossover.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide 53"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Mô hình Holliday/DSB bắt đầu từ biến cố nào và do ai đề xuất theo slide?",
+          "dap_an": [
+            "Đứt gãy mạch đôi DNA; Jack Szostak (1983)",
+            "Đứt gãy 1 mạch DNA; Jack Szostak (1983)",
+            "Đứt gãy mạch đôi DNA; Holliday (1964)",
+            "Mất base tạo vị trí AP; Jack Szostak (1983)"
+          ],
+          "giai_thich": "Slide ghi mô hình DSB gắn với Jack Szostak, 1983.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide 54"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Mô hình Holliday/DSB tạo bao nhiêu mối nối Holliday (HJ)?",
+          "dap_an": [
+            "2 HJ",
+            "1 HJ",
+            "3 HJ",
+            "Không tạo HJ nào"
+          ],
+          "giai_thich": "SSB tạo 1 HJ; DSB tạo 2 HJ.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide 54"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Ở E. coli, phức hợp nào cắt dsDNA và tạo ssDNA đầu 3’ tự do từ trình tự χ (chi)?",
+          "dap_an": [
+            "RecBCD",
+            "RecA",
+            "RuvC",
+            "RuvA–RuvB"
+          ],
+          "giai_thich": "RecBCD có hoạt tính nuclease, helicase, ATPase.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide 55"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "RecA trong tái tổ hợp tương đồng ở E. coli có vai trò gì?",
+          "dap_an": [
+            "Bám lên ssDNA, xâm lấn lên phân tử DNA gần đó",
+            "Cắt Holliday junction để tách hai phân tử DNA",
+            "Xúc tác sự xâm lấn mạch (branch migration) tại HJ",
+            "Cắt dsDNA và xử lý mạch từ trình tự χ (chi)"
+          ],
+          "giai_thich": "RecA (–ATP) bám ssDNA và xâm lấn.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide 55"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "RuvA–RuvB có vai trò gì?",
+          "dap_an": [
+            "Nhận diện mối nối Holliday, xúc tác branch migration",
+            "Cắt mối nối Holliday để tạo các phân tử DNA riêng",
+            "Bám lên ssDNA đầu 3’ rồi xâm lấn vào DNA kế cận",
+            "Cắt dsDNA và tạo ssDNA đầu 3’ tự do từ vị trí χ"
+          ],
+          "giai_thich": "RuvA–RuvB (ATPase) tạo heteroduplex thông qua branch migration.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide 55"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "RuvC là enzyme loại nào và làm gì?",
+          "dap_an": [
+            "Endonuclease (resolvase) cắt Holliday junction",
+            "ATPase xúc tác sự xâm lấn mạch (branch migration)",
+            "Helicase tách dsDNA tại trình tự χ (chi) ở E. coli",
+            "Ligase nối đầu 5’P với đầu 3’OH của mạch DNA"
+          ],
+          "giai_thich": "RuvC (endonuclease/resolvase) cắt HJ.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide 55"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Theo slide, có ít nhất bao nhiêu protein tham gia tái tổ hợp tương đồng ở E. coli?",
+          "dap_an": [
+            "Ít nhất 25 protein",
+            "Chỉ 4 protein",
+            "Khoảng 2 protein",
+            "Hơn 250 protein"
+          ],
+          "giai_thich": "Slide: có ít nhất 25 protein khác nhau.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide 55"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Tái tổ hợp chuyên biệt vị trí cần enzyme nào?",
+          "dap_an": [
+            "Site-specific recombinases (SSRs)",
+            "DNA polymerase",
+            "Helicase",
+            "Photolyase"
+          ],
+          "giai_thich": "SSR tác động lên các DNA có vị trí chuyên biệt.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide 56"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Hai nhóm tái tổ hợp chuyên biệt vị trí được nêu là gì?",
+          "dap_an": [
+            "Bảo toàn (conservative) và chuyển vị (transposition)",
+            "Tái tổ hợp tương đồng và tái tổ hợp bảo toàn",
+            "Tái tổ hợp chủ động và tái tổ hợp bị động",
+            "Tái tổ hợp chuyển vị và tái tổ hợp sao chép"
+          ],
+          "giai_thich": "Slide ghi “Conversation” (nên là Conservative) cho nhóm bảo toàn.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide 56"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "Ý nghĩa của tái tổ hợp chuyên biệt vị trí trong tế bào là gì?",
+          "dap_an": [
+            "Tạo tính biến động và tham gia điều hòa biểu hiện",
+            "Sửa sai SSB/DSB và tạo ra tính biến động của DNA",
+            "Sao chép DNA và tham gia điều hòa biểu hiện gen",
+            "Chỉ tạo ra các đột biến điểm trên phân tử DNA"
+          ],
+          "giai_thich": "Khác với tái tổ hợp tương đồng, slide không nêu ý nghĩa sửa sai.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide 56"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "RS (Recombination Site) gồm những thành phần nào?",
+          "dap_an": [
+            "Trình tự nhận biết cho recombinase và trình tự cắt–nối chéo",
+            "Trình tự ori khởi sự sao chép và gen mã hóa transposase",
+            "Hai đoạn lặp đảo IR và gen kháng kháng sinh nằm giữa",
+            "Trình tự χ (chi) và trình tự Ter kết thúc sao chép"
+          ],
+          "giai_thich": "RS = recognition sequences + crossover region.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide 57"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Tyrosine recombinase thực hiện tái tổ hợp bằng cách nào?",
+          "dap_an": [
+            "Cắt và tái tổ hợp từng mạch đơn của DNA",
+            "Cắt mạch đôi DNA rồi mới tái tổ hợp",
+            "Chỉ nối các đoạn Okazaki",
+            "Cắt Holliday junction bằng ATP"
+          ],
+          "giai_thich": "Serine recombinase cắt mạch đôi rồi tái tổ hợp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide 58"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Serine recombinase thực hiện tái tổ hợp bằng cách nào?",
+          "dap_an": [
+            "Cắt mạch đôi DNA rồi tái tổ hợp",
+            "Cắt và tái tổ hợp từng mạch đơn",
+            "Chỉ cắt một mạch tại vị trí ori",
+            "Tạo ssDNA có đầu 3’ tự do"
+          ],
+          "giai_thich": "Tn3 resolvase là ví dụ serine recombinase.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide 58, 67"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Enzyme nào được nêu là ví dụ của serine recombinase?",
+          "dap_an": [
+            "Tn3 resolvase",
+            "RuvC",
+            "RecBCD",
+            "Photolyase"
+          ],
+          "giai_thich": "Slide 67 ghi Tn3 resolvase thuộc serine recombinase.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide 67"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Trình tự chuyển vị (TTCV) còn được gọi là gì?",
+          "dap_an": [
+            "Yếu tố chuyển vị hoặc “gen nhảy”",
+            "Yếu tố sao chép hoặc “gen mồi”",
+            "Plasmid dạng vòng",
+            "Trình tự điều hòa Ter"
+          ],
+          "giai_thich": "TTCV di chuyển từ vị trí này đến vị trí khác nhờ hệ enzyme chuyển vị.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide 59"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Chuyển vị thuộc loại tái tổ hợp nào?",
+          "dap_an": [
+            "Tái tổ hợp chuyên biệt vị trí",
+            "Tái tổ hợp tương đồng",
+            "Sao chép bán bảo tồn",
+            "Sửa sai trực tiếp"
+          ],
+          "giai_thich": "Chuyển vị là tái tổ hợp chuyên biệt vị trí nhờ hệ thống enzyme chuyển vị.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide 59"
+        },
+        {
+          "id": "c3-26",
+          "hoi": "Insertion Sequence (IS) có cấu trúc cơ bản nào?",
+          "dap_an": [
+            "IR + gen transposase + IR",
+            "IS(L) + gen kháng kháng sinh + IS(R)",
+            "non-IR + gen/DNA + non-IR",
+            "ori + gen kháng thuốc + ori"
+          ],
+          "giai_thich": "IS = IR + Transposase gen + IR.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide 60"
+        },
+        {
+          "id": "c3-27",
+          "hoi": "Transposon (Tn) có cấu trúc cơ bản nào?",
+          "dap_an": [
+            "IS(L) + gen kháng kháng sinh + IS(R)",
+            "IR + gen transposase + IR",
+            "non-IR + gen/DNA + non-IR",
+            "oriC + gen Tus + Ter"
+          ],
+          "giai_thich": "Tn = IS(L) + gen kháng kháng sinh + IS(R).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide 60"
+        },
+        {
+          "id": "c3-28",
+          "hoi": "Non-composite transposon có cấu trúc nào?",
+          "dap_an": [
+            "non-IR + gen/DNA + non-IR",
+            "IS(L) + gen kháng kháng sinh + IS(R)",
+            "IR + gen transposase + IR",
+            "RS + crossover region + RS"
+          ],
+          "giai_thich": "Non-composite transposon = non-IR + gen/DNA + non-IR.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide 60"
+        },
+        {
+          "id": "c3-29",
+          "hoi": "Ở bắp, Ac (Activator) có đặc điểm nào?",
+          "dap_an": [
+            "Có gen mã hóa transposase, biểu hiện enzyme chuyển vị hoạt động",
+            "Có gen transposase nhưng bị đột biến mất đoạn, không hoạt động",
+            "Chỉ chuyển vị được khi có mặt trình tự Ds trong tế bào",
+            "Hoàn toàn không có gen mã hóa enzyme transposase nào cả"
+          ],
+          "giai_thich": "Ac là TTCV chủ động; Ds là TTCV bị động.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide 61"
+        },
+        {
+          "id": "c3-30",
+          "hoi": "Ở bắp, Ds (Dissociation) có đặc điểm nào?",
+          "dap_an": [
+            "Gen transposase bị đột biến mất đoạn, không tự chủ chuyển vị",
+            "Có transposase hoạt động nên có thể tự chủ chuyển vị",
+            "Luôn luôn tạo bản sao mới thông qua trung gian RNA",
+            "Là plasmid F đã dung hợp vào DNA bộ gen vi khuẩn"
+          ],
+          "giai_thich": "Slide 62 chỉ có hình về chuyển vị bị động của Ds (cần kiểm tra lại).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide 61–62"
+        },
+        {
+          "id": "c3-31",
+          "hoi": "Chuyển vị không tạo bản sao có đặc điểm nào?",
+          "dap_an": [
+            "Cắt TTCV khỏi vị trí cũ, đưa đến vị trí mới, không tăng số lượng",
+            "Tạo thêm một bản sao TTCV ở vị trí mới trong bộ gen",
+            "TTCV được phiên mã thành RNA rồi được phiên mã ngược",
+            "Tạo cấu trúc cointegrate rồi cắt ra thành hai bản sao"
+          ],
+          "giai_thich": "Transposase nhận biết, cắt TTCV, mang đến vị trí mới, cắt mở và chèn.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide 63"
+        },
+        {
+          "id": "c3-32",
+          "hoi": "Retrotransposon (ví dụ L1) chuyển vị tạo bản sao theo con đường nào?",
+          "dap_an": [
+            "Qua trung gian RNA: phiên mã, rồi phiên mã ngược thành cDNA",
+            "Qua cấu trúc cointegrate rồi phân cắt bằng resolvase",
+            "Cắt TTCV khỏi vị trí cũ và chèn vào vị trí mới",
+            "Qua trao đổi chéo giữa hai vùng DNA tương đồng"
+          ],
+          "giai_thich": "Slide 64 mô tả chuyển vị tạo bản sao qua trung gian RNA.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide 64"
+        },
+        {
+          "id": "c3-33",
+          "hoi": "Trong chuyển vị tạo bản sao qua trung gian RNA, enzyme nào tạo ssDNA (cDNA) từ khuôn RNA?",
+          "dap_an": [
+            "RTase (reverse transcriptase)",
+            "RNA polymerase",
+            "Ligase",
+            "Transposase"
+          ],
+          "giai_thich": "RTase phiên mã ngược RNA-L1 thành cDNA nhờ đầu 3’OH khơi mào.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide 64"
+        },
+        {
+          "id": "c3-34",
+          "hoi": "Bước đầu tiên của chuyển vị tạo bản sao qua trung gian RNA (L1) là gì?",
+          "dap_an": [
+            "RNA polymerase phiên mã TTCV thành RNA",
+            "RTase phiên mã ngược RNA thành cDNA",
+            "DNA polymerase tổng hợp mạch bổ sung",
+            "Ligase hoàn chỉnh mạch"
+          ],
+          "giai_thich": "Thứ tự: phiên mã → cắt mở vị trí mới → phiên mã ngược → nối ssDNA → DNA pol → ligase.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide 64"
+        },
+        {
+          "id": "c3-35",
+          "hoi": "Trong chuyển vị tạo bản sao qua sao chép DNA, cấu trúc “dung hợp” tạo ra gọi là gì?",
+          "dap_an": [
+            "Cointegrate",
+            "Heteroduplex",
+            "Holliday junction",
+            "Plasmid F"
+          ],
+          "giai_thich": "Enzyme chuyển vị sau đó cắt–nối ở hai đầu TTCV để phân cắt cointegrate.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide 66"
+        },
+        {
+          "id": "c3-36",
+          "hoi": "Bước nào sau đây thuộc chuyển vị tạo bản sao qua sao chép DNA?",
+          "dap_an": [
+            "DNA polymerase tổng hợp mạch bổ sung, tạo cointegrate",
+            "RNA polymerase phiên mã TTCV thành RNA-L1 ở bước đầu",
+            "RTase phiên mã ngược tạo cDNA từ khuôn RNA của TTCV",
+            "RecA bám lên ssDNA rồi xâm lấn vào phân tử DNA khác"
+          ],
+          "giai_thich": "Các bước: cắt 1 mạch → nối đầu tự do → DNA pol → cắt–nối phân cắt cointegrate.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide 65–66"
+        },
+        {
+          "id": "c3-37",
+          "hoi": "Plasmid có đặc điểm nào?",
+          "dap_an": [
+            "DNA vòng nằm ngoài vùng nhân, có ori, sao chép độc lập gDNA",
+            "DNA dạng thẳng nằm trong nhân, sao chép cùng với gDNA",
+            "RNA dạng vòng nằm trong ribosome của tế bào vi khuẩn",
+            "DNA chỉ có duy nhất một bản sao trong mỗi tế bào"
+          ],
+          "giai_thich": "Số bản sao plasmid trên tế bào > 1.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide 70"
+        },
+        {
+          "id": "c3-38",
+          "hoi": "Số bản sao của plasmid trong mỗi tế bào theo slide là bao nhiêu?",
+          "dap_an": [
+            "Lớn hơn 1",
+            "Luôn đúng bằng 1",
+            "Luôn bằng 0",
+            "Bằng số NST của tế bào"
+          ],
+          "giai_thich": "Slide: số bản sao của plasmid/tế bào > 1.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide 70"
+        },
+        {
+          "id": "c3-39",
+          "hoi": "Vì sao gen trên plasmid là nguồn biến động DNA cho tế bào?",
+          "dap_an": [
+            "Chứa các gen mang kiểu hình sống bổ sung cho tế bào",
+            "Plasmid không bao giờ sao chép nên không thay đổi",
+            "Plasmid luôn chỉ mã hóa các protein histone của nhân",
+            "Plasmid chỉ gồm các trình tự lặp không mã hóa gen"
+          ],
+          "giai_thich": "Các gen plasmid mang kiểu hình sống bổ sung → nguồn biến động.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide 70"
+        },
+        {
+          "id": "c3-40",
+          "hoi": "Plasmid F (fertility factor) có đặc điểm nào?",
+          "dap_an": [
+            "Có thể dung hợp vào gDNA, mang gen mã hóa lông sinh sản",
+            "Chỉ có ở sinh vật eukaryote và nằm trong ty thể",
+            "Hoàn toàn không có khả năng gắn chèn vào gDNA",
+            "Mang gen mã hóa enzyme transposase của cây bắp"
+          ],
+          "giai_thich": "Lông sinh sản giúp vi khuẩn trao đổi DNA.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide 70"
+        },
+        {
+          "id": "c3-41",
+          "hoi": "Giao nạp/tiếp hợp (conjugation) là quá trình gì?",
+          "dap_an": [
+            "Chuyển DNA qua cầu liên bào giữa F+/Hfr và F–",
+            "Dung nạp DNA trần từ môi trường bên ngoài tế bào",
+            "Chuyển DNA giữa vi khuẩn nhờ hoạt động bacteriophage",
+            "Sao chép DNA theo kiểu vòng xoay (rolling circle)"
+          ],
+          "giai_thich": "Quá trình chấm dứt khi cầu liên bào đứt, nên lượng DNA được cho nhiều hay ít.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide 71"
+        },
+        {
+          "id": "c3-42",
+          "hoi": "Điều gì quyết định lượng DNA được chuyển trong giao nạp?",
+          "dap_an": [
+            "Thời điểm cầu liên bào bị đứt",
+            "Số lượng bacteriophage trong môi trường",
+            "Mức độ khả nạp của tế bào nhận",
+            "Số lần DNA bị cắt bởi RecBCD"
+          ],
+          "giai_thich": "Slide: quá trình chấm dứt khi cầu liên bào bị đứt.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 6; slide 71"
+        },
+        {
+          "id": "c3-43",
+          "hoi": "Biến nạp (transformation) là quá trình nào?",
+          "dap_an": [
+            "Dung nạp DNA trần từ môi trường bởi vi khuẩn khả nạp",
+            "Chuyển DNA qua cầu liên bào giữa hai tế bào vi khuẩn",
+            "Chuyển DNA giữa các vi khuẩn nhờ hoạt động bacteriophage",
+            "Chèn plasmid vào bộ gen cây bắp nhờ trình tự Ac"
+          ],
+          "giai_thich": "Competent cells là tế bào khả nạp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide 72"
+        },
+        {
+          "id": "c3-44",
+          "hoi": "Tải nạp (transduction) là quá trình nào?",
+          "dap_an": [
+            "Chuyển DNA giữa vi khuẩn nhờ bacteriophage",
+            "Dung nạp DNA trần có sẵn từ môi trường bên ngoài",
+            "Chuyển DNA qua cầu liên bào giữa hai tế bào",
+            "Phiên mã ngược RNA thành cDNA nhờ enzyme RTase"
+          ],
+          "giai_thich": "Bacteriophage là virus của vi khuẩn.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide 72"
+        },
+        {
+          "id": "c3-45",
+          "hoi": "Tế bào khả nạp (competent cells) là gì?",
+          "dap_an": [
+            "Vi khuẩn có khả năng dung nạp DNA trần từ môi trường",
+            "Vi khuẩn đang mang sẵn plasmid F trong tế bào chất",
+            "Vi khuẩn đã bị nhiễm bacteriophage từ môi trường",
+            "Tế bào vi khuẩn có cầu liên bào đã bị đứt ra"
+          ],
+          "giai_thich": "Khả năng này là điều kiện của quá trình biến nạp.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 6; slide 72"
+        }
+      ]
+    }
+  ]
+}

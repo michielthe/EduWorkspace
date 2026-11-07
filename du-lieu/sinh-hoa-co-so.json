@@ -1,0 +1,2883 @@
+{
+  "mon": "Sinh hóa cơ sở",
+  "ma_mon": "sinh-hoa-co-so",
+  "phien_ban": 1,
+  "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Chương 1 - Nước và dung dịch đệm",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Phân tử nước có tính phân cực chủ yếu là do",
+          "dap_an": [
+            "Oxygen hút electron mạnh hơn nên mang điện tích âm một phần",
+            "Hai nguyên tử hydrogen mang điện tích âm một phần ở hai đầu phân tử",
+            "Phân tử nước có dạng thẳng nên hai liên kết O-H triệt tiêu lưỡng cực",
+            "Oxygen và hydrogen có độ âm điện gần như bằng nhau nên liên kết không phân cực"
+          ],
+          "giai_thich": "Oxygen hút electron mạnh hơn nên mang điện tích âm một phần (δ-), hydrogen mang δ+. Cấu trúc gấp khúc khiến lưỡng cực không triệt tiêu.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.1"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Mỗi phân tử nước có thể tạo tối đa bao nhiêu liên kết hydrogen với các phân tử nước khác?",
+          "dap_an": [
+            "4 liên kết (2 cho và 2 nhận)",
+            "2 liên kết (chỉ nhận từ hai nguyên tử H)",
+            "3 liên kết (1 cho và 2 nhận)",
+            "6 liên kết (3 cho và 3 nhận)"
+          ],
+          "giai_thich": "Nguyên tử O có 2 cặp electron tự do nhận 2 liên kết, hai nguyên tử H cho 2 liên kết, tổng cộng 4 liên kết hydrogen.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.1"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Nước có nhiệt dung riêng, nhiệt bay hơi và nhiệt độ sôi cao hơn nhiều so với các chất cùng khối lượng phân tử chủ yếu vì",
+          "dap_an": [
+            "Cần nhiều năng lượng để phá mạng lưới liên kết hydrogen giữa các phân tử",
+            "Liên kết cộng hóa trị O-H trong từng phân tử nước rất yếu và dễ đứt",
+            "Nước là chất không phân cực nên các phân tử ít tương tác với nhau",
+            "Phân tử nước có khối lượng phân tử rất lớn so với các chất cùng loại"
+          ],
+          "giai_thich": "Liên kết hydrogen liên phân tử tuy yếu nhưng rất nhiều, nên cần năng lượng lớn để làm tăng nhiệt độ hay làm bay hơi nước.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.1"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Nước đá nổi trên mặt nước lỏng vì",
+          "dap_an": [
+            "Mạng tinh thể của nước đá có khoảng trống nên mật độ thấp hơn nước lỏng",
+            "Liên kết hydrogen ở thể rắn bị phá vỡ hoàn toàn nên thể tích tăng",
+            "Khối lượng của mỗi phân tử nước đá nhỏ hơn khối lượng của nước lỏng",
+            "Nước đá chứa nhiều bọt khí hòa tan hơn nên nhẹ hơn nước lỏng"
+          ],
+          "giai_thich": "Mỗi phân tử nước đá tạo đủ 4 liên kết hydrogen theo mạng tứ diện mở, thể tích lớn hơn nên mật độ thấp hơn nước lỏng ở 4 độ C.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.1"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Chất nào sau đây hòa tan tốt trong nước nhất?",
+          "dap_an": [
+            "Glucose, vì có nhiều nhóm -OH tạo liên kết hydrogen với nước",
+            "Cholesterol, vì có vòng steroid lớn không phân cực",
+            "Triacylglycerol, vì có ba chuỗi acid béo dài",
+            "Hexane, vì có cấu trúc đối xứng không phân cực"
+          ],
+          "giai_thich": "Chất phân cực hoặc có nhóm tạo được liên kết hydrogen với nước thì tan. Chất kỵ nước như lipid, hexane tan rất ít.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Phân tử amphipathic (lưỡng tính về độ phân cực) là phân tử",
+          "dap_an": [
+            "Có một đầu ưa nước phân cực và một đuôi kỵ nước không phân cực",
+            "Có cả hai đầu đều ưa nước và mang điện tích trái dấu",
+            "Chỉ gồm các nhóm không phân cực nên tan trong dung môi hữu cơ",
+            "Có thể vừa nhận vừa nhường proton như amino acid"
+          ],
+          "giai_thich": "Ví dụ acid béo, phospholipid: đầu phân cực hướng ra nước, đuôi kỵ nước tụ lại với nhau thành micelle hoặc màng đôi.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Trong nước, các phân tử lipid amphipathic tự sắp xếp thành micelle chủ yếu do",
+          "dap_an": [
+            "Hiệu ứng kỵ nước: đuôi không phân cực gom lại để tránh tiếp xúc nước",
+            "Lực đẩy tĩnh điện giữa các đuôi kỵ nước kéo chúng lại gần nhau hơn",
+            "Liên kết cộng hóa trị mới được tạo giữa các đuôi acid béo kế cận",
+            "Liên kết hydrogen mạnh được tạo giữa các đuôi hydrocarbon kỵ nước"
+          ],
+          "giai_thich": "Nước bị trật tự hóa quanh đuôi kỵ nước (entropy giảm); gom các đuôi lại làm tăng entropy hệ chung nên quá trình tự phát.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Lực nào sau đây là lực van der Waals?",
+          "dap_an": [
+            "Lực hút yếu giữa các lưỡng cực tạm thời khi hai nguyên tử ở rất gần",
+            "Lực hút tĩnh điện giữa hai ion mang điện tích trái dấu trong dung dịch",
+            "Liên kết cộng hóa trị dùng chung cặp electron giữa hai nguyên tử",
+            "Liên kết giữa nguyên tử H gắn với O hoặc N và nguyên tử O hoặc N kế bên"
+          ],
+          "giai_thich": "Lực van der Waals là tương tác yếu, không đặc hiệu giữa các lưỡng cực cảm ứng; có nhiều nên tổng cộng có ý nghĩa trong cấu trúc protein và màng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Sắp xếp độ bền tương đối (năng lượng liên kết) của các loại liên kết theo thứ tự giảm dần:",
+          "dap_an": [
+            "Cộng hóa trị > ion (trong nước) > hydrogen > van der Waals",
+            "Hydrogen > cộng hóa trị > ion (trong nước) > van der Waals",
+            "Van der Waals > hydrogen > ion (trong nước) > cộng hóa trị",
+            "Ion (trong nước) > cộng hóa trị > van der Waals > hydrogen"
+          ],
+          "giai_thich": "Liên kết cộng hóa trị khoảng 350-450 kJ/mol, hydrogen khoảng 4-30, van der Waals chỉ khoảng 0,4-4 kJ/mol.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Hằng số điện ly của nước ở 25 độ C là Kw = [H+][OH-] bằng",
+          "dap_an": [
+            "1 x 10^-14 (mol/L)^2",
+            "1 x 10^-7 (mol/L)^2",
+            "1 x 10^-14 mol/L",
+            "1 x 10^7 (mol/L)^2"
+          ],
+          "giai_thich": "Nước tinh khiết có [H+] = [OH-] = 10^-7 M nên Kw = 10^-14. Kw chỉ đổi theo nhiệt độ.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Một dung dịch có [H+] = 1 x 10^-3 M. pH của dung dịch là",
+          "dap_an": [
+            "3",
+            "11",
+            "-3",
+            "7"
+          ],
+          "giai_thich": "pH = -log[H+] = -log(10^-3) = 3. 11 là pOH.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Dung dịch có pH = 4 so với dung dịch có pH = 6 thì nồng độ H+",
+          "dap_an": [
+            "Cao gấp 100 lần",
+            "Cao gấp 2 lần",
+            "Thấp hơn 100 lần",
+            "Thấp hơn 2 lần"
+          ],
+          "giai_thich": "pH là thang logarit cơ số 10: chênh 2 đơn vị tương ứng 10^2 = 100 lần nồng độ H+.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Dịch vị dạ dày có pH khoảng 1-2, máu có pH khoảng 7,4. Nồng độ H+ trong dịch vị so với máu cao khoảng",
+          "dap_an": [
+            "Hàng triệu lần (10^5 - 10^6)",
+            "Khoảng 5 lần",
+            "Khoảng 100 lần",
+            "Khoảng 10 lần"
+          ],
+          "giai_thich": "Chênh 5,4 - 6,4 đơn vị pH, tức khoảng 10^5 - 10^6 lần.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Acid mạnh khác acid yếu ở điểm",
+          "dap_an": [
+            "Acid mạnh phân li gần hoàn toàn, acid yếu chỉ phân li một phần",
+            "Acid mạnh luôn có pH bằng 0 bất kể nồng độ trong dung dịch",
+            "Acid yếu hoàn toàn không tạo ra ion H+ khi hòa tan trong nước",
+            "Acid mạnh không có base liên hợp vì không nhận lại proton"
+          ],
+          "giai_thich": "Mức độ phân li quyết định độ mạnh (Ka lớn hay nhỏ). pH còn phụ thuộc nồng độ.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Hằng số phân li acid Ka càng nhỏ (pKa càng lớn) thì",
+          "dap_an": [
+            "Acid càng yếu",
+            "Acid càng mạnh",
+            "Base liên hợp càng yếu",
+            "Acid phân li càng hoàn toàn"
+          ],
+          "giai_thich": "pKa = -log Ka: Ka nhỏ nghĩa là ít phân li, acid yếu, base liên hợp tương đối mạnh.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Cặp acid-base liên hợp nào sau đây là đúng?",
+          "dap_an": [
+            "CH3COOH và CH3COO-",
+            "H2SO4 và Na+",
+            "NH3 và NH2-",
+            "HCl và Cl2"
+          ],
+          "giai_thich": "Cặp liên hợp hơn kém nhau đúng một proton: acetic acid mất H+ thành acetate.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Phương trình Henderson-Hasselbalch được viết là",
+          "dap_an": [
+            "pH = pKa + log([A-]/[HA])",
+            "pH = pKa + log([HA]/[A-])",
+            "pH = -pKa + log([A-][HA])",
+            "pH = pKa x log([A-]/[HA])"
+          ],
+          "giai_thich": "A- là base liên hợp (dạng nhận proton), HA là acid. Khi [A-] = [HA] thì pH = pKa.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Dung dịch đệm có pH = pKa khi",
+          "dap_an": [
+            "Nồng độ dạng acid bằng nồng độ dạng base liên hợp",
+            "Nồng độ dạng acid gấp 10 lần nồng độ dạng base liên hợp",
+            "Nồng độ dạng base gấp 10 lần nồng độ dạng acid liên hợp",
+            "Dung dịch chỉ có dạng acid mà không có dạng base liên hợp"
+          ],
+          "giai_thich": "log(1) = 0 nên pH = pKa; đây cũng là điểm khả năng đệm lớn nhất.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Acetic acid có pKa = 4,76. Dung dịch có [CH3COO-]/[CH3COOH] = 10 thì pH bằng",
+          "dap_an": [
+            "5,76",
+            "3,76",
+            "4,76",
+            "6,76"
+          ],
+          "giai_thich": "pH = 4,76 + log 10 = 5,76. Đảo tỉ số sẽ cho 3,76.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Khả năng đệm hiệu quả của một hệ đệm nằm trong khoảng",
+          "dap_an": [
+            "pKa cộng trừ 1 đơn vị pH",
+            "pKa cộng trừ 5 đơn vị pH",
+            "Chỉ đúng tại pH = 7",
+            "Mọi giá trị pH lớn hơn pKa"
+          ],
+          "giai_thich": "Ngoài khoảng này tỉ số base/acid lệch quá 10:1, hệ không còn chống đổi pH tốt.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Thêm 1 mL HCl 0,1 M vào nước tinh khiết và vào dung dịch đệm cùng thể tích, hiện tượng đúng là",
+          "dap_an": [
+            "pH của nước đổi rất nhiều còn pH dung dịch đệm đổi rất ít",
+            "pH của hai dung dịch đều đổi như nhau vì cùng thêm một lượng HCl",
+            "pH của dung dịch đệm đổi nhiều hơn pH của nước tinh khiết",
+            "pH của cả hai dung dịch đều giữ nguyên không đổi sau khi thêm acid"
+          ],
+          "giai_thich": "Đệm có base liên hợp trung hòa H+ thêm vào nên giữ pH gần như ổn định; nước thì không.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Hệ đệm quan trọng nhất của máu người là",
+          "dap_an": [
+            "Bicarbonate: H2CO3 / HCO3-",
+            "Phosphate: H2PO4- / HPO4 2-",
+            "Acetate: CH3COOH / CH3COO-",
+            "Citrate: acid citric / citrate"
+          ],
+          "giai_thich": "Bicarbonate là hệ đệm chính của huyết tương (pH 7,4) và liên kết với CO2 hô hấp; phosphate quan trọng hơn trong nội bào.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Phản ứng nào mô tả đúng hệ đệm bicarbonate của máu?",
+          "dap_an": [
+            "CO2 + H2O <-> H2CO3 <-> H+ + HCO3-",
+            "CO2 + O2 <-> CO3 + H2",
+            "CO2 + NaCl <-> NaHCO3 + Cl2",
+            "H2O2 <-> H2O + O2"
+          ],
+          "giai_thich": "CO2 hòa tan tạo H2CO3 (nhờ carbonic anhydrase), phân li cho H+ và HCO3-; thở nhanh làm giảm CO2, tăng pH.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Khi bệnh nhân thở quá nhanh (tăng thông khí), pH máu có xu hướng",
+          "dap_an": [
+            "Tăng (nhiễm kiềm hô hấp) do giảm CO2",
+            "Giảm (nhiễm toan hô hấp) do tăng CO2",
+            "Không đổi vì có hệ đệm",
+            "Giảm vì tăng H2CO3"
+          ],
+          "giai_thich": "Thở nhanh thải nhiều CO2, cân bằng chuyển sang trái làm giảm H+, pH tăng.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Hệ đệm phosphate (pKa2 = 7,2) hoạt động hiệu quả nhất ở khoảng pH",
+          "dap_an": [
+            "6,2 - 8,2",
+            "1,1 - 3,1",
+            "4,0 - 6,0",
+            "10,3 - 12,3"
+          ],
+          "giai_thich": "Khoảng đệm là pKa cộng trừ 1; pKa2 = 7,2 phù hợp với pH sinh lý nên quan trọng trong tế bào.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-26",
+          "hoi": "Amino acid có nhóm chức -COOH và -NH2 nên trong dung dịch có thể",
+          "dap_an": [
+            "Vừa nhận vừa nhường proton nên là chất lưỡng tính",
+            "Chỉ nhường proton nên luôn hoạt động như một acid mạnh",
+            "Chỉ nhận proton nên luôn hoạt động như một base mạnh",
+            "Không phân li trong nước nên không ảnh hưởng đến pH"
+          ],
+          "giai_thich": "Đây là cơ sở để amino acid có khả năng đệm trong vùng pH gần pKa của các nhóm chức.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-27",
+          "hoi": "Chất tan nào sau đây tạo dung dịch dẫn điện tốt nhất khi cùng nồng độ mol?",
+          "dap_an": [
+            "NaCl (chất điện li mạnh)",
+            "Glucose (không điện li)",
+            "Urea (không điện li)",
+            "Ethanol (không điện li)"
+          ],
+          "giai_thich": "NaCl phân li hoàn toàn thành ion nên dẫn điện tốt; các chất kia là phân tử trung hòa không tạo ion.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-28",
+          "hoi": "Hiệu ứng nào tạo ra áp suất thẩm thấu khi hai dung dịch NaCl khác nồng độ được ngăn cách bởi màng bán thấm?",
+          "dap_an": [
+            "Nước đi từ nơi chất tan loãng sang nơi chất tan đậm đặc hơn",
+            "Chất tan đi qua màng từ nơi nồng độ cao sang nơi nồng độ thấp",
+            "Nước đi từ nơi chất tan đậm đặc sang nơi chất tan loãng hơn",
+            "Cả nước lẫn chất tan cùng đi qua màng sang một phía duy nhất"
+          ],
+          "giai_thich": "Màng bán thấm chỉ cho nước đi qua; nước có xu hướng làm loãng bên đậm đặc hơn.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-29",
+          "hoi": "Tế bào hồng cầu đặt trong dung dịch NaCl nhược trương (0,1%) sẽ",
+          "dap_an": [
+            "Phồng lên và có thể vỡ (tan huyết)",
+            "Teo lại (nhăn)",
+            "Không thay đổi hình dạng",
+            "Bị phân hủy ngay thành hemoglobin rời rạc có màu nâu"
+          ],
+          "giai_thich": "Dung dịch ngoài loãng hơn nên nước đi vào tế bào, tế bào trương và vỡ.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-30",
+          "hoi": "Nước muối sinh lý được dùng truyền tĩnh mạch có nồng độ NaCl khoảng",
+          "dap_an": [
+            "0,9%",
+            "9%",
+            "0,09%",
+            "5%"
+          ],
+          "giai_thich": "Dung dịch đẳng trương với huyết tương; 0,9% (khoảng 154 mM).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2"
+        },
+        {
+          "id": "c1-31",
+          "hoi": "Điều nào sau đây sai về nước trong cơ thể?",
+          "dap_an": [
+            "Nước chỉ là dung môi, không tham gia bất kỳ phản ứng hóa học nào",
+            "Nước tham gia trực tiếp vào các phản ứng thủy phân và ngưng tụ",
+            "Nước giúp điều hòa thân nhiệt nhờ có nhiệt dung riêng cao",
+            "Nước là môi trường vận chuyển nhiều chất tan trong cơ thể"
+          ],
+          "giai_thich": "Nước còn là chất phản ứng trong thủy phân, và là sản phẩm của ngưng tụ, hô hấp tế bào.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.1"
+        },
+        {
+          "id": "c1-32",
+          "hoi": "Chuỗi phản ứng sinh lý nào làm giảm pH máu động mạch khi tập thể dục nặng?",
+          "dap_an": [
+            "Tăng sản xuất lactate và CO2 từ cơ",
+            "Tăng thải HCO3- qua thận",
+            "Giảm sản xuất acid hữu cơ",
+            "Tăng hấp thu base từ thức ăn"
+          ],
+          "giai_thich": "Chuyển hóa kỵ khí tạo lactic acid, hô hấp tế bào tạo CO2, cả hai làm tăng H+ nếu hệ đệm không đủ.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-33",
+          "hoi": "pOH của dung dịch có pH = 9,2 ở 25 độ C là",
+          "dap_an": [
+            "4,8",
+            "9,2",
+            "14,0",
+            "23,2"
+          ],
+          "giai_thich": "pH + pOH = 14 nên pOH = 14 - 9,2 = 4,8.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-34",
+          "hoi": "Trộn 100 mL dung dịch HA 0,2 M với 100 mL NaOH 0,1 M (HA acid yếu, pKa = 5,0). pH của hỗn hợp là",
+          "dap_an": [
+            "5,0",
+            "1,0",
+            "7,0",
+            "9,0"
+          ],
+          "giai_thich": "NaOH trung hòa một nửa HA: còn 0,01 mol HA và tạo 0,01 mol A-. Tỉ số 1:1 nên pH = pKa = 5,0.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-35",
+          "hoi": "Ion nào sau đây là base liên hợp của H2PO4-?",
+          "dap_an": [
+            "HPO4 2-",
+            "H3PO4",
+            "PO4 3-",
+            "H2PO3-"
+          ],
+          "giai_thich": "Base liên hợp nhận thêm một proton ít hơn: H2PO4- mất H+ thành HPO4 2-. H3PO4 là acid liên hợp.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4"
+        },
+        {
+          "id": "c1-36",
+          "hoi": "Nhiệt độ tăng làm Kw của nước",
+          "dap_an": [
+            "Tăng, nên pH trung tính nhỏ hơn 7 dù nước vẫn trung tính",
+            "Giảm, nên pH trung tính trở nên lớn hơn 7 ở nhiệt độ cao",
+            "Không đổi ở mọi nhiệt độ vì nước luôn có pH bằng 7",
+            "Chỉ đổi khi trong nước có hòa tan thêm acid hoặc base"
+          ],
+          "giai_thich": "Sự phân li của nước thu nhiệt; ở nhiệt độ cao [H+] = [OH-] lớn hơn 10^-7 nên pH trung tính thấp hơn 7.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.3"
+        },
+        {
+          "id": "c1-37",
+          "hoi": "Phát biểu đúng về mở đầu môn Sinh hóa cơ sở là",
+          "dap_an": [
+            "Cấu trúc, chức năng và chuyển hóa của các phân tử sinh học",
+            "Chỉ các chất vô cơ như muối khoáng và nước trong tế bào",
+            "Chỉ các bệnh lý di truyền học ở cấp độ quần thể người",
+            "Chỉ hình thái và kích thước của tế bào dưới kính hiển vi"
+          ],
+          "giai_thich": "Đối tượng gồm protein, carbohydrate, lipid, acid nucleic và các quá trình chuyển hóa của chúng.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục Mở đầu"
+        },
+        {
+          "id": "c1-38",
+          "hoi": "Bốn nhóm đại phân tử sinh học chính của tế bào là",
+          "dap_an": [
+            "Protein, carbohydrate, lipid và acid nucleic",
+            "Protein, nước, muối khoáng và vitamin",
+            "Carbohydrate, lipid, vitamin và hormone",
+            "Enzyme, nước, ion và acid béo"
+          ],
+          "giai_thich": "Đây là các polymer/đại phân tử xây dựng nên tế bào, khác với nước, ion và các phân tử nhỏ.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục Mở đầu"
+        },
+        {
+          "id": "c1-39",
+          "hoi": "Nguyên tố nào sau đây chiếm tỉ lệ khối lượng lớn nhất trong cơ thể người?",
+          "dap_an": [
+            "Oxygen",
+            "Carbon",
+            "Hydrogen",
+            "Nitrogen"
+          ],
+          "giai_thich": "Nước chiếm khoảng 60-70% khối lượng cơ thể, nên oxygen chiếm khoảng 65%, carbon khoảng 18%.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục Mở đầu"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nhom": "Bài giảng",
+      "ten": "Chương 2 - Amino acid, protein và enzyme",
+      "cau": [
+        {
+          "id": "c2-01",
+          "hoi": "Cấu trúc chung của một alpha-amino acid gồm",
+          "dap_an": [
+            "Carbon alpha gắn nhóm amin, nhóm carboxyl, nguyên tử H và mạch bên R",
+            "Carbon beta gắn nhóm amin, nhóm hydroxyl và mạch bên R",
+            "Carbon alpha gắn hai nhóm carboxyl và một nhóm amin",
+            "Nhóm amin gắn trực tiếp vào vòng thơm và nhóm carboxyl"
+          ],
+          "giai_thich": "Mạch bên R khác nhau quyết định tính chất của 20 amino acid chuẩn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-02",
+          "hoi": "Trong 20 amino acid chuẩn của protein, amino acid duy nhất không có tính quang hoạt là",
+          "dap_an": [
+            "Glycine",
+            "Alanine",
+            "Proline",
+            "Serine"
+          ],
+          "giai_thich": "Mạch bên của glycine là H nên carbon alpha không bất đối; 19 amino acid còn lại có C alpha bất đối.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-03",
+          "hoi": "Các amino acid cấu tạo nên protein ở sinh vật thuộc dãy lập thể",
+          "dap_an": [
+            "L (cấu hình L ở carbon alpha)",
+            "D",
+            "DL (hỗn hợp raxemic)",
+            "Chỉ có dạng meso"
+          ],
+          "giai_thich": "Ribosome chỉ tổng hợp protein từ các L-amino acid; D-amino acid có ở vách vi khuẩn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-04",
+          "hoi": "Nhóm amino acid nào sau đây có mạch bên mang điện tích dương ở pH sinh lý?",
+          "dap_an": [
+            "Lysine, arginine, histidine",
+            "Aspartate, glutamate",
+            "Serine, threonine, tyrosine",
+            "Leucine, isoleucine, valine"
+          ],
+          "giai_thich": "Lys, Arg có nhóm amin/guanidino mang điện dương; His có vòng imidazole pKa khoảng 6 nên một phần.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-05",
+          "hoi": "Amino acid nào có mạch bên mang điện tích âm ở pH sinh lý?",
+          "dap_an": [
+            "Aspartate và glutamate",
+            "Lysine và arginine",
+            "Alanine và valine",
+            "Cysteine và methionine"
+          ],
+          "giai_thich": "Nhóm carboxyl ở mạch bên (pKa khoảng 4) bị ion hóa thành -COO-.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-06",
+          "hoi": "Amino acid chứa lưu huỳnh gồm",
+          "dap_an": [
+            "Cysteine và methionine",
+            "Serine và threonine",
+            "Tryptophan và tyrosine",
+            "Glycine và proline"
+          ],
+          "giai_thich": "Cysteine có nhóm -SH tạo cầu disulfide; methionine có nhóm thioether, thường là amino acid khởi đầu.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-07",
+          "hoi": "Cầu disulfide trong protein được tạo thành giữa hai gốc",
+          "dap_an": [
+            "Cysteine",
+            "Methionine",
+            "Serine",
+            "Lysine"
+          ],
+          "giai_thich": "Hai nhóm -SH bị oxy hóa thành liên kết S-S, ổn định cấu trúc bậc ba và bậc bốn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-08",
+          "hoi": "Proline đặc biệt trong cấu trúc protein vì",
+          "dap_an": [
+            "Nhóm amin tạo vòng với mạch bên nên làm gấp khúc chuỗi",
+            "Có nhóm -SH ở mạch bên nên tạo được cầu disulfide giữa chuỗi",
+            "Mang điện tích dương mạnh ở pH sinh lý nên hút các gốc acid",
+            "Là amino acid duy nhất có vòng thơm hấp thụ tia cực tím"
+          ],
+          "giai_thich": "Proline là imino acid, góc quay bị hạn chế, thường gặp ở khúc quặt beta.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-09",
+          "hoi": "Các amino acid thơm hấp thụ ánh sáng cực tím ở 280 nm là",
+          "dap_an": [
+            "Tryptophan và tyrosine (có vòng thơm)",
+            "Glycine và alanine (mạch bên rất nhỏ)",
+            "Lysine và arginine (mạch bên mang điện dương)",
+            "Serine và threonine (mạch bên có nhóm hydroxyl)"
+          ],
+          "giai_thich": "Vòng thơm hấp thụ UV; đo A280 là cách ước lượng nồng độ protein.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-10",
+          "hoi": "Điểm đẳng điện (pI) của một amino acid là",
+          "dap_an": [
+            "pH mà phân tử có điện tích thực bằng 0 (zwitterion)",
+            "pH mà phân tử có điện tích thực đạt giá trị cực đại",
+            "pH bằng 7 đối với mọi amino acid trong dung dịch",
+            "pH mà tất cả các nhóm chức đều không bị ion hóa"
+          ],
+          "giai_thich": "Tại pI amino acid không di chuyển trong điện trường.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-11",
+          "hoi": "Glycine có pK1 = 2,34 và pK2 = 9,60. Điểm đẳng điện pI của glycine là",
+          "dap_an": [
+            "5,97",
+            "2,34",
+            "9,60",
+            "7,00"
+          ],
+          "giai_thich": "Với amino acid không có nhóm ion hóa ở mạch bên, pI = (pK1 + pK2)/2 = (2,34 + 9,60)/2 = 5,97.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-12",
+          "hoi": "Glutamate có pK1 = 2,19, pKR = 4,25 và pK3 = 9,67. Điểm đẳng điện pI gần nhất là",
+          "dap_an": [
+            "3,22",
+            "5,93",
+            "6,96",
+            "7,00"
+          ],
+          "giai_thich": "Amino acid có mạch bên acid: pI = (pK1 + pKR)/2 = (2,19 + 4,25)/2 = 3,22 (hai pK acid).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-13",
+          "hoi": "Ở pH lớn hơn pI, amino acid mang điện tích thực",
+          "dap_an": [
+            "Âm",
+            "Dương",
+            "Bằng không",
+            "Dương và âm cân bằng nhau"
+          ],
+          "giai_thich": "pH cao hơn pI thì nhóm amin mất bớt proton, nhóm carboxyl ở dạng -COO-: điện tích thực âm.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.1"
+        },
+        {
+          "id": "c2-14",
+          "hoi": "Liên kết peptide hình thành giữa",
+          "dap_an": [
+            "Nhóm carboxyl của amino acid này với nhóm amin của amino acid kia, loại nước",
+            "Hai nhóm carboxyl của hai amino acid kế cận, loại một phân tử CO2",
+            "Hai nhóm amin của hai amino acid kế cận, loại một phân tử NH3",
+            "Hai mạch bên R của hai amino acid kế cận, loại một phân tử H2"
+          ],
+          "giai_thich": "Đây là phản ứng ngưng tụ tạo liên kết amide -CO-NH-.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.2"
+        },
+        {
+          "id": "c2-15",
+          "hoi": "Đặc điểm của liên kết peptide là",
+          "dap_an": [
+            "Mang tính nối đôi một phần nên phẳng và không quay tự do",
+            "Quay tự do hoàn toàn quanh liên kết như một liên kết đơn",
+            "Là liên kết ion rất yếu giữa nhóm carboxyl và nhóm amin",
+            "Rất dễ bị phá vỡ ở nhiệt độ phòng khi có mặt nước"
+          ],
+          "giai_thich": "Cộng hưởng C-N tạo tính nối đôi một phần nên 6 nguyên tử cùng nằm trong một mặt phẳng, dạng trans.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.2"
+        },
+        {
+          "id": "c2-16",
+          "hoi": "Một tripeptide được tạo từ 3 amino acid khác nhau có thể có bao nhiêu trình tự khác nhau?",
+          "dap_an": [
+            "6",
+            "3",
+            "9",
+            "27"
+          ],
+          "giai_thich": "Hoán vị 3! = 6; số peptide khác nhau gồm cả thành phần khác nhau là 20^3 = 8000 cho cả 20 loại.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.2"
+        },
+        {
+          "id": "c2-17",
+          "hoi": "Một peptide gồm 5 amino acid có bao nhiêu liên kết peptide?",
+          "dap_an": [
+            "4",
+            "5",
+            "6",
+            "3"
+          ],
+          "giai_thich": "n amino acid nối thành chuỗi thẳng có n - 1 liên kết peptide.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.2"
+        },
+        {
+          "id": "c2-18",
+          "hoi": "Chuỗi polypeptide được đọc theo quy ước từ",
+          "dap_an": [
+            "Đầu N đến đầu C",
+            "Đầu C đến đầu N",
+            "Giữa chuỗi ra hai đầu",
+            "Tùy theo từng loại protein"
+          ],
+          "giai_thich": "Đầu N có nhóm amin tự do, đầu C có nhóm carboxyl tự do; tổng hợp protein đi từ N đến C.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.2"
+        },
+        {
+          "id": "c2-19",
+          "hoi": "Cấu trúc bậc một của protein là",
+          "dap_an": [
+            "Trình tự sắp xếp các amino acid trong chuỗi polypeptide",
+            "Sự gấp cuộn trong không gian của toàn bộ chuỗi polypeptide",
+            "Sự liên kết của nhiều chuỗi polypeptide thành một phức hợp",
+            "Các dạng cấu trúc xoắn alpha và gấp nếp beta của chuỗi"
+          ],
+          "giai_thich": "Trình tự amino acid do gene quy định và quyết định các bậc cấu trúc cao hơn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-20",
+          "hoi": "Xoắn alpha được ổn định chủ yếu nhờ",
+          "dap_an": [
+            "Liên kết hydrogen giữa C=O và N-H cách nhau 4 gốc trong cùng chuỗi",
+            "Cầu disulfide nối các gốc cysteine thuộc các chuỗi khác nhau",
+            "Liên kết ion giữa các mạch bên R mang điện tích trái dấu",
+            "Liên kết peptide mới được tạo giữa các vòng xoắn liền kề"
+          ],
+          "giai_thich": "Bước xoắn có 3,6 amino acid/vòng; liên kết hydrogen song song với trục xoắn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-21",
+          "hoi": "Cấu trúc gấp nếp beta (tấm beta) được ổn định bởi",
+          "dap_an": [
+            "Liên kết hydrogen giữa các đoạn chuỗi nằm cạnh nhau",
+            "Cầu disulfide giữa các gốc cysteine trong cùng một đoạn chuỗi",
+            "Tương tác ion giữa các mạch bên trong cùng một đoạn chuỗi",
+            "Liên kết peptide mới được tạo giữa các nếp gấp liền kề nhau"
+          ],
+          "giai_thich": "Các đoạn có thể song song hay đối song song; tơ fibroin là ví dụ giàu tấm beta.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-22",
+          "hoi": "Cấu trúc bậc ba của protein được ổn định bởi",
+          "dap_an": [
+            "Tương tác giữa các mạch bên R như kỵ nước, ion, hydrogen, cầu disulfide",
+            "Chỉ riêng liên kết peptide giữa các amino acid liên tiếp",
+            "Chỉ riêng liên kết hydrogen giữa các nhóm của mạch chính",
+            "Chỉ riêng cầu disulfide giữa các gốc cysteine trong chuỗi"
+          ],
+          "giai_thich": "Lực kỵ nước đưa các gốc không phân cực vào lõi protein, đóng vai trò chính.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-23",
+          "hoi": "Cấu trúc bậc bốn có ở protein",
+          "dap_an": [
+            "Gồm hai chuỗi polypeptide trở lên, như hemoglobin",
+            "Chỉ gồm một chuỗi polypeptide duy nhất, như myoglobin",
+            "Chỉ là tập hợp các amino acid tự do trong dung dịch",
+            "Chỉ gồm các protein dạng sợi dài, như collagen ở da"
+          ],
+          "giai_thich": "Hemoglobin có 4 tiểu đơn vị (2 alpha và 2 beta), myoglobin có một chuỗi nên không có bậc bốn.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-24",
+          "hoi": "Biến tính protein làm mất đi",
+          "dap_an": [
+            "Cấu trúc bậc hai, ba, bốn; thường không phá liên kết peptide",
+            "Trình tự amino acid (bậc một) do các liên kết peptide bị thủy phân",
+            "Toàn bộ các nguyên tử carbon alpha của chuỗi polypeptide",
+            "Tất cả liên kết cộng hóa trị có trong phân tử protein"
+          ],
+          "giai_thich": "Nhiệt, acid, base, dung môi hữu cơ... phá liên kết yếu, protein mất chức năng sinh học.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-25",
+          "hoi": "Tác nhân nào sau đây làm biến tính protein?",
+          "dap_an": [
+            "Nhiệt độ cao, acid hoặc base mạnh, ure nồng độ cao",
+            "Nước cất ở 4 độ C trong thời gian ngắn",
+            "Dung dịch đệm có pH sinh lý ở nhiệt độ phòng",
+            "Ion Na+ ở nồng độ sinh lý trong dịch ngoại bào"
+          ],
+          "giai_thich": "Các tác nhân này phá liên kết hydrogen, ion và tương tác kỵ nước.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-26",
+          "hoi": "Hemoglobin vận chuyển O2 và có đặc điểm",
+          "dap_an": [
+            "Gắn O2 mang tính hợp tác, đường bão hòa hình chữ S",
+            "Gắn O2 theo đường hyperbol đơn giản giống như myoglobin",
+            "Mỗi phân tử hemoglobin chỉ gắn được duy nhất một phân tử O2",
+            "Không chứa nhóm heme nên gắn O2 bằng các gốc amino acid"
+          ],
+          "giai_thich": "Gắn O2 vào một tiểu đơn vị làm tăng ái lực các tiểu đơn vị còn lại.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-27",
+          "hoi": "Mỗi phân tử hemoglobin người trưởng thành có thể gắn tối đa bao nhiêu phân tử O2?",
+          "dap_an": [
+            "4",
+            "1",
+            "2",
+            "8"
+          ],
+          "giai_thich": "4 tiểu đơn vị, mỗi tiểu đơn vị có một nhóm heme chứa Fe2+ gắn một O2.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3"
+        },
+        {
+          "id": "c2-28",
+          "hoi": "Enzyme là",
+          "dap_an": [
+            "Chất xúc tác sinh học, thường là protein, không bị biến đổi sau phản ứng",
+            "Chất tham gia phản ứng và bị tiêu hao dần trong quá trình",
+            "Chất làm thay đổi hằng số cân bằng của phản ứng mà nó xúc tác",
+            "Chất tác động như nhau lên mọi loại cơ chất khác nhau"
+          ],
+          "giai_thich": "Enzyme giảm năng lượng hoạt hóa nhưng không đổi cân bằng và tính tự phát của phản ứng.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-29",
+          "hoi": "Enzyme làm tăng tốc độ phản ứng bằng cách",
+          "dap_an": [
+            "Giảm năng lượng hoạt hóa",
+            "Tăng năng lượng của chất tham gia",
+            "Làm tăng giá trị delta G của phản ứng",
+            "Làm tăng nhiệt độ của hệ"
+          ],
+          "giai_thich": "Tạo trạng thái chuyển tiếp ổn định hơn nhưng không đổi delta G tổng.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-30",
+          "hoi": "Phân loại EC đầy đủ của enzyme gồm bao nhiêu lớp chính?",
+          "dap_an": [
+            "7 lớp",
+            "4 lớp",
+            "5 lớp",
+            "10 lớp"
+          ],
+          "giai_thich": "Oxidoreductase, transferase, hydrolase, lyase, isomerase, ligase, và translocase (lớp thứ 7 bổ sung gần đây).",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-31",
+          "hoi": "Enzyme xúc tác phản ứng thủy phân (phá liên kết bằng nước) thuộc lớp",
+          "dap_an": [
+            "Hydrolase",
+            "Oxidoreductase",
+            "Ligase",
+            "Isomerase"
+          ],
+          "giai_thich": "Ví dụ: protease, lipase, amylase.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-32",
+          "hoi": "Enzyme xúc tác phản ứng oxy hóa-khử, chuyển electron hay H, thuộc lớp",
+          "dap_an": [
+            "Oxidoreductase",
+            "Transferase",
+            "Lyase",
+            "Hydrolase"
+          ],
+          "giai_thich": "Ví dụ: lactate dehydrogenase, cytochrome oxidase.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-33",
+          "hoi": "Trung tâm hoạt động của enzyme là",
+          "dap_an": [
+            "Vùng đặc hiệu gắn cơ chất và xúc tác phản ứng",
+            "Toàn bộ bề mặt phân tử enzyme",
+            "Vùng chỉ có chức năng ổn định cấu trúc",
+            "Vùng gắn các chất ức chế không cạnh tranh"
+          ],
+          "giai_thich": "Gồm nhóm gắn cơ chất và nhóm xúc tác, thường là khe nhỏ trên bề mặt enzyme.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-34",
+          "hoi": "Hằng số Michaelis Km được định nghĩa là",
+          "dap_an": [
+            "Nồng độ cơ chất tại đó tốc độ phản ứng bằng Vmax/2",
+            "Nồng độ cơ chất tại đó enzyme đã bão hòa hoàn toàn",
+            "Tốc độ phản ứng tối đa mà enzyme có thể đạt được",
+            "Nồng độ enzyme tại đó tốc độ phản ứng đạt cực đại"
+          ],
+          "giai_thich": "Km nhỏ nghĩa là ái lực của enzyme với cơ chất cao.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-35",
+          "hoi": "Phương trình Michaelis-Menten có dạng",
+          "dap_an": [
+            "v = Vmax [S] / (Km + [S])",
+            "v = Vmax [S] x Km",
+            "v = Km [S] / (Vmax + [S])",
+            "v = (Vmax + [S]) / Km"
+          ],
+          "giai_thich": "Khi [S] rất lớn thì v tiến đến Vmax; khi [S] = Km thì v = Vmax/2.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-36",
+          "hoi": "Một enzyme có Vmax = 100 và Km = 2 mM. Tốc độ ban đầu khi [S] = 2 mM là",
+          "dap_an": [
+            "50",
+            "100",
+            "25",
+            "200"
+          ],
+          "giai_thich": "v = Vmax [S]/(Km + [S]) = 100 x 2/(2+2) = 50, tức một nửa Vmax.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-37",
+          "hoi": "Một enzyme có Vmax = 100 và Km = 2 mM. Tốc độ ban đầu khi [S] = 8 mM gần nhất là",
+          "dap_an": [
+            "80",
+            "50",
+            "67",
+            "100"
+          ],
+          "giai_thich": "v = 100 x 8/(2+8) = 80. Dùng [S] = Km cho 50, không phải 80.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-38",
+          "hoi": "Trên đồ thị Lineweaver-Burk (1/v theo 1/[S]) giao điểm với trục tung bằng",
+          "dap_an": [
+            "1/Vmax",
+            "-1/Km",
+            "Km/Vmax",
+            "Vmax"
+          ],
+          "giai_thich": "Giao điểm trục hoành bằng -1/Km, độ dốc Km/Vmax.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-39",
+          "hoi": "Chất ức chế cạnh tranh có đặc điểm",
+          "dap_an": [
+            "Giống cơ chất, gắn vào trung tâm hoạt động; Km tăng, Vmax không đổi",
+            "Gắn vào vị trí khác trung tâm hoạt động; Vmax giảm, Km không đổi",
+            "Chỉ gắn vào phức hợp enzyme-cơ chất đã hình thành; cả hai giảm",
+            "Gắn vào trung tâm hoạt động; Vmax tăng và Km giảm"
+          ],
+          "giai_thich": "Tăng nồng độ cơ chất có thể loại bỏ ức chế cạnh tranh.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-40",
+          "hoi": "Chất ức chế không cạnh tranh thuần túy (gắn ngoài trung tâm hoạt động) có ảnh hưởng",
+          "dap_an": [
+            "Vmax giảm, Km không đổi",
+            "Vmax không đổi, Km tăng",
+            "Cả Vmax và Km đều tăng",
+            "Vmax tăng, Km giảm"
+          ],
+          "giai_thich": "Không thể khắc phục bằng cách tăng nồng độ cơ chất.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-41",
+          "hoi": "Yếu tố nào sau đây ảnh hưởng đến tốc độ phản ứng do enzyme xúc tác?",
+          "dap_an": [
+            "Nhiệt độ, pH, nồng độ enzyme và nồng độ cơ chất",
+            "Chỉ riêng nhiệt độ của môi trường phản ứng",
+            "Chỉ riêng nồng độ enzyme có trong hỗn hợp phản ứng",
+            "Chỉ riêng độ nhớt của dung môi trong hỗn hợp phản ứng"
+          ],
+          "giai_thich": "Mỗi enzyme có nhiệt độ và pH tối ưu; quá cao enzyme bị biến tính.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-42",
+          "hoi": "Coenzyme thường là",
+          "dap_an": [
+            "Phân tử hữu cơ nhỏ dẫn xuất từ vitamin, vận chuyển nhóm hóa học",
+            "Ion kim loại gắn cố định vào phân tử protein của enzyme",
+            "Một đoạn polypeptide thuộc chính cấu trúc của enzyme",
+            "Sản phẩm cuối cùng được tạo ra sau phản ứng của enzyme"
+          ],
+          "giai_thich": "Ví dụ NAD+ (từ niacin), FAD (từ riboflavin), coenzyme A (từ pantothenate).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4"
+        },
+        {
+          "id": "c2-43",
+          "hoi": "Enzyme allosteric điều hòa hoạt động bằng",
+          "dap_an": [
+            "Chất điều hòa gắn ở vị trí khác, làm đổi cấu hình enzyme",
+            "Chất điều hòa cắt đứt liên kết peptide của chính phân tử enzyme",
+            "Chất điều hòa gắn cộng hóa trị vĩnh viễn vào cơ chất của enzyme",
+            "Chất điều hòa làm thay đổi trình tự amino acid của enzyme"
+          ],
+          "giai_thich": "Đường cong v theo [S] của enzyme allosteric thường có hình chữ S.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Chương 3 - Carbohydrate",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Carbohydrate được định nghĩa là",
+          "dap_an": [
+            "Polyhydroxy aldehyde hoặc ketone, hay chất thủy phân cho chúng",
+            "Hợp chất chỉ chứa một nhóm hydroxyl và một nhóm amin",
+            "Hợp chất chứa nhiều liên kết peptide nối các amino acid",
+            "Hợp chất lipid chứa nhiều nhóm phosphate và acid béo"
+          ],
+          "giai_thich": "Công thức đơn giản thường là (CH2O)n; có nhiều nhóm -OH và một nhóm carbonyl.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Aldose khác ketose ở điểm",
+          "dap_an": [
+            "Aldose có nhóm aldehyde ở C1, ketose có nhóm ketone ở C2",
+            "Aldose có nhóm ketone ở C2, ketose có nhóm aldehyde ở C1",
+            "Aldose chứa nhiều nhóm amin hơn so với ketose cùng số carbon",
+            "Aldose luôn có 6 carbon, còn ketose luôn có 5 carbon"
+          ],
+          "giai_thich": "Glucose là aldose; fructose là ketose.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Phân tử aldohexose có 4 carbon bất đối thì có bao nhiêu đồng phân lập thể?",
+          "dap_an": [
+            "16",
+            "4",
+            "8",
+            "32"
+          ],
+          "giai_thich": "Số đồng phân lập thể là 2^n với n là số carbon bất đối: 2^4 = 16 (8 cặp D/L).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Đồng phân D và L của một đường được xác định dựa vào",
+          "dap_an": [
+            "Cấu hình carbon bất đối xa nhóm carbonyl nhất",
+            "Hướng quay của mặt phẳng ánh sáng phân cực của dung dịch",
+            "Tổng số nguyên tử carbon có trong phân tử đường",
+            "Vị trí của nhóm carbonyl trên mạch carbon của đường"
+          ],
+          "giai_thich": "Không liên quan đến dấu (+) hay (-) của góc quay cực.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Hai đường là epimer của nhau khi chúng",
+          "dap_an": [
+            "Chỉ khác nhau cấu hình ở một carbon bất đối duy nhất",
+            "Khác nhau cấu hình ở mọi carbon bất đối (dạng ảnh gương)",
+            "Khác nhau ở loại nhóm carbonyl (aldehyde hay ketone)",
+            "Là hai anomer khác nhau cấu hình ở carbon C1 khi đóng vòng"
+          ],
+          "giai_thich": "D-glucose và D-galactose là epimer ở C4; D-glucose và D-mannose là epimer ở C2.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "D-glucose và D-galactose là các epimer ở carbon",
+          "dap_an": [
+            "C4",
+            "C1",
+            "C2",
+            "C6"
+          ],
+          "giai_thich": "Galactose khác glucose ở hướng nhóm -OH tại C4; C2 là mannose.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Anomer alpha và beta của glucose khác nhau ở",
+          "dap_an": [
+            "Cấu hình quanh carbon anomer C1 mới tạo khi đóng vòng",
+            "Cấu hình quanh carbon C5 đã có sẵn trong mạch hở",
+            "Tổng số nguyên tử carbon có trong phân tử glucose",
+            "Vị trí của nhóm aldehyde trong phân tử mạch hở"
+          ],
+          "giai_thich": "Carbon anomer là C1 của aldose và C2 của ketose khi đóng vòng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Hiện tượng mutarotation (đổi góc quay cực) xảy ra do",
+          "dap_an": [
+            "Chuyển đổi qua lại giữa dạng alpha, beta và mạch hở",
+            "Phân hủy glucose thành các acid hữu cơ nhỏ hơn",
+            "Sự polymer hóa các phân tử glucose thành chuỗi dài",
+            "Sự oxy hóa nhóm aldehyde của glucose thành carboxyl"
+          ],
+          "giai_thich": "Góc quay cực của dung dịch alpha hoặc beta tinh khiết dần đạt giá trị cân bằng (+52,7 độ với glucose).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Vòng pyranose có",
+          "dap_an": [
+            "6 nguyên tử (5 carbon và 1 oxygen)",
+            "5 nguyên tử (4 carbon và 1 oxygen)",
+            "4 nguyên tử",
+            "7 nguyên tử"
+          ],
+          "giai_thich": "Furanose là vòng 5 cạnh (4 carbon và 1 oxygen); glucose dạng vòng phổ biến là pyranose.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Đường khử là đường",
+          "dap_an": [
+            "Có nhóm carbonyl tự do hoặc hemiacetal nên khử được Cu2+",
+            "Hoàn toàn không có nhóm carbonyl trong phân tử đường",
+            "Có liên kết glycoside nối hai carbon anomer với nhau",
+            "Chỉ gồm các đường ketose trong cấu trúc phân tử"
+          ],
+          "giai_thich": "Glucose, lactose, maltose là đường khử; saccharose (sucrose) thì không.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Saccharose (sucrose) không phải là đường khử vì",
+          "dap_an": [
+            "Liên kết glycoside nối hai carbon anomer của hai đơn vị",
+            "Phân tử hoàn toàn không có liên kết glycoside nào",
+            "Phân tử chỉ gồm hai đơn vị glucose liên kết với nhau",
+            "Nhóm aldehyde bị nhóm phosphate gắn vào nên không khử"
+          ],
+          "giai_thich": "Liên kết alpha(1->2)beta khóa cả hai nhóm khử; thủy phân cho glucose + fructose (đường nghịch chuyển).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Lactose gồm",
+          "dap_an": [
+            "Galactose nối beta(1->4) với glucose",
+            "Glucose nối alpha(1->4) với glucose",
+            "Glucose nối alpha(1->2) với fructose",
+            "Galactose nối alpha(1->6) với fructose"
+          ],
+          "giai_thich": "Lactose là đường sữa và là đường khử vì C1 của glucose còn tự do.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "Maltose gồm",
+          "dap_an": [
+            "Hai glucose nối bằng liên kết alpha(1->4)",
+            "Glucose với fructose nối bằng liên kết alpha(1->2)",
+            "Hai glucose nối bằng liên kết beta(1->4) kiểu cellobiose",
+            "Glucose với galactose nối bằng liên kết beta(1->4)"
+          ],
+          "giai_thich": "Maltose là sản phẩm thủy phân tinh bột bởi amylase; cellobiose có liên kết beta(1->4).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "Đường nghịch chuyển (invert sugar) có tên như vậy vì",
+          "dap_an": [
+            "Hỗn hợp glucose, fructose làm quay phân cực sang trái, ngược sucrose",
+            "Sucrose bị chuyển thành lactose nên quay phân cực đổi chiều",
+            "Glucose bị chuyển thành galactose nên quay phân cực đổi chiều",
+            "Dung dịch mất hoàn toàn tính quang hoạt sau khi thủy phân"
+          ],
+          "giai_thich": "Sucrose quay phải +66,5 độ; fructose quay trái mạnh hơn glucose quay phải nên hỗn hợp quay trái.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.2"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "Tinh bột gồm hai thành phần là",
+          "dap_an": [
+            "Amylose không phân nhánh và amylopectin phân nhánh",
+            "Cellulose không phân nhánh và glycogen phân nhánh nhiều",
+            "Amylose không phân nhánh và chitin chứa nhóm acetyl amin",
+            "Glycogen phân nhánh nhiều và amylopectin phân nhánh ít hơn"
+          ],
+          "giai_thich": "Amylose có liên kết alpha(1->4); amylopectin thêm nhánh alpha(1->6) khoảng cứ 24-30 gốc glucose.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Glycogen khác amylopectin ở điểm",
+          "dap_an": [
+            "Phân nhánh dày hơn, cứ 8-12 gốc glucose lại có một nhánh",
+            "Chỉ chứa các liên kết beta(1->4) giữa các gốc glucose",
+            "Hoàn toàn không có liên kết alpha(1->6) tại các điểm nhánh",
+            "Chỉ có mặt ở thực vật, hoàn toàn vắng mặt ở mô động vật"
+          ],
+          "giai_thich": "Glycogen là dạng dự trữ glucose ở động vật, nhiều ở gan và cơ; nhiều nhánh giúp huy động nhanh.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Liên kết glycoside nối các gốc glucose trong cellulose là",
+          "dap_an": [
+            "Beta(1->4)",
+            "Alpha(1->4)",
+            "Alpha(1->6)",
+            "Alpha(1->2)"
+          ],
+          "giai_thich": "Liên kết beta tạo chuỗi thẳng bền, người không có enzyme phân giải beta(1->4) nên không tiêu hóa được.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Người không tiêu hóa được cellulose vì",
+          "dap_an": [
+            "Thiếu enzyme cellulase thủy phân liên kết beta(1->4)",
+            "Cellulose không chứa đơn vị glucose trong cấu trúc của nó",
+            "Cellulose chứa các liên kết peptide mà người không tiêu hóa",
+            "Cellulose quá dễ tan trong nước nên bị thải ra nhanh chóng"
+          ],
+          "giai_thich": "Động vật nhai lại nhờ vi sinh vật trong dạ cỏ có cellulase.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "Enzyme nào cắt ngẫu nhiên liên kết alpha(1->4) bên trong chuỗi tinh bột?",
+          "dap_an": [
+            "Alpha-amylase",
+            "Beta-amylase",
+            "Cellulase",
+            "Lactase"
+          ],
+          "giai_thich": "Alpha-amylase (nước bọt, tụy) là endoenzyme tạo dextrin, maltose; không cắt liên kết alpha(1->6).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "Chitin là polysaccharide cấu trúc của",
+          "dap_an": [
+            "Vỏ giáp xác, côn trùng và thành tế bào nấm",
+            "Vách tế bào của thực vật và của các loài tảo",
+            "Màng bào tương của tế bào động vật có xương sống",
+            "Lớp vỏ nhày bao quanh tế bào của nhiều vi khuẩn"
+          ],
+          "giai_thich": "Chitin gồm N-acetylglucosamine nối beta(1->4).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Polysaccharide nào sau đây dự trữ năng lượng ở thực vật?",
+          "dap_an": [
+            "Tinh bột",
+            "Glycogen",
+            "Cellulose",
+            "Chitin"
+          ],
+          "giai_thich": "Tinh bột dự trữ ở hạt, củ; glycogen ở động vật và nấm; cellulose là cấu trúc.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Glycosaminoglycan như hyaluronic acid được cấu tạo từ",
+          "dap_an": [
+            "Đơn vị disaccharide lặp lại gồm uronic acid và amino sugar",
+            "Chuỗi dài gồm các gốc glucose không phân nhánh nối nhau",
+            "Chuỗi dài gồm các amino acid nối nhau bằng liên kết peptide",
+            "Phân tử gồm các acid béo gắn với glycerol bằng liên kết ester"
+          ],
+          "giai_thich": "Có nhiều nhóm tích điện âm nên giữ nước, là thành phần của chất nền ngoại bào.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.4"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Glycoprotein khác proteoglycan ở điểm",
+          "dap_an": [
+            "Glycoprotein chủ yếu là protein, chuỗi đường ngắn; proteoglycan chủ yếu là đường dài",
+            "Glycoprotein chủ yếu là đường dài, còn phần protein chỉ chiếm rất ít",
+            "Proteoglycan chủ yếu là protein, chỉ mang một vài chuỗi đường ngắn",
+            "Glycoprotein và proteoglycan giống nhau hoàn toàn về thành phần cấu tạo"
+          ],
+          "giai_thich": "Proteoglycan chứa chủ yếu glycosaminoglycan (đến 95% khối lượng), tạo lớp chất nền sụn.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.4"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Nhóm máu ABO được quyết định bởi",
+          "dap_an": [
+            "Chuỗi oligosaccharide ở bề mặt hồng cầu",
+            "Chuỗi lipid trên màng",
+            "Trình tự acid béo của triacylglycerol",
+            "Kích thước của hồng cầu"
+          ],
+          "giai_thich": "Các nhóm máu khác nhau ở đường cuối chuỗi (N-acetylgalactosamine ở A, galactose ở B).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.4"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Mutarotation của glucose có mặt dạng mạch hở khoảng",
+          "dap_an": [
+            "Dưới 1% ở trạng thái cân bằng",
+            "50%",
+            "Khoảng 99%",
+            "Chính xác 100%"
+          ],
+          "giai_thich": "Cân bằng chủ yếu là dạng beta-pyranose (khoảng 64%) và alpha-pyranose (khoảng 36%).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-26",
+          "hoi": "Phép thử Benedict dương tính (kết tủa đỏ gạch) với",
+          "dap_an": [
+            "Glucose, có nhóm aldehyde tự do khử Cu2+",
+            "Sucrose, có liên kết glycoside giữa glucose và fructose",
+            "Tinh bột, có cấu trúc xoắn chứa nhiều gốc glucose",
+            "Cellulose, có rất nhiều nhóm -OH trong phân tử"
+          ],
+          "giai_thich": "Sucrose chỉ dương tính sau khi bị thủy phân bằng acid.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-27",
+          "hoi": "Phản ứng nào nhận biết tinh bột bằng dung dịch iod cho màu xanh tím?",
+          "dap_an": [
+            "Iod chui vào lõi xoắn của amylose",
+            "Iod tạo liên kết cộng hóa trị với glucose",
+            "Iod oxy hóa nhóm aldehyde",
+            "Iod phân hủy amylopectin thành glucose"
+          ],
+          "giai_thich": "Amylopectin phân nhánh cho màu đỏ tím, glycogen cho màu nâu đỏ.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-28",
+          "hoi": "Oxy hóa nhóm aldehyde ở C1 của glucose cho sản phẩm",
+          "dap_an": [
+            "Gluconic acid",
+            "Glucuronic acid",
+            "Glucitol (sorbitol)",
+            "Glucosamine"
+          ],
+          "giai_thich": "Oxy hóa C6 cho glucuronic acid; khử nhóm carbonyl cho sorbitol.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-29",
+          "hoi": "Khử nhóm carbonyl của glucose cho sản phẩm là",
+          "dap_an": [
+            "Sorbitol (glucitol)",
+            "Gluconic acid",
+            "Glucuronic acid",
+            "Glucosamine"
+          ],
+          "giai_thich": "Là rượu đường (polyol), tích tụ trong thủy tinh thể ở bệnh nhân đái tháo đường gây đục.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-30",
+          "hoi": "Hợp chất nào sau đây là amino sugar?",
+          "dap_an": [
+            "Glucosamine",
+            "Gluconic acid",
+            "Sorbitol",
+            "Ribose"
+          ],
+          "giai_thich": "Nhóm -OH ở C2 được thay bằng nhóm -NH2 (thường được acetyl hóa trong N-acetylglucosamine).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-31",
+          "hoi": "Ribose và deoxyribose khác nhau ở",
+          "dap_an": [
+            "Deoxyribose thiếu nhóm -OH ở C2",
+            "Ribose có 6 carbon",
+            "Deoxyribose có nhóm amin ở C2",
+            "Ribose là ketose"
+          ],
+          "giai_thich": "Đây là đường pentose có trong RNA (ribose) và DNA (deoxyribose).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-32",
+          "hoi": "Phân tử nào là ketose 6 carbon?",
+          "dap_an": [
+            "Fructose",
+            "Glucose",
+            "Galactose",
+            "Ribose"
+          ],
+          "giai_thich": "Nhóm carbonyl ở C2 là ketone; glucose, galactose là aldose.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1"
+        },
+        {
+          "id": "c3-33",
+          "hoi": "Đường sữa (lactose) ở người bị thiếu enzyme lactase gây ra",
+          "dap_an": [
+            "Không dung nạp lactose vì lactose không bị thủy phân",
+            "Thiếu hụt hấp thu protein do thiếu men tiêu hóa đạm",
+            "Không thể hấp thu glucose từ ruột vào máu như bình thường",
+            "Hấp thu lactose qua ruột tăng lên so với người bình thường"
+          ],
+          "giai_thich": "Lactose không tiêu hóa được lên men ở ruột già gây đầy hơi và tiêu chảy.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2"
+        },
+        {
+          "id": "c3-34",
+          "hoi": "Sự khác biệt giữa amylose và cellulose là",
+          "dap_an": [
+            "Amylose có liên kết alpha(1->4), cellulose có liên kết beta(1->4)",
+            "Amylose có nhiều nhánh, còn cellulose là chuỗi không phân nhánh",
+            "Amylose không chứa glucose, còn cellulose chứa glucose",
+            "Cả hai đều có các nhánh nối bằng liên kết alpha(1->6)"
+          ],
+          "giai_thich": "Cấu hình liên kết quyết định hình dạng: xoắn (amylose) và sợi thẳng (cellulose).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3"
+        },
+        {
+          "id": "c3-35",
+          "hoi": "Tên gọi hệ thống alpha-D-glucopyranosyl-(1->2)-beta-D-fructofuranoside là của",
+          "dap_an": [
+            "Sucrose",
+            "Lactose",
+            "Maltose",
+            "Trehalose"
+          ],
+          "giai_thich": "Hai carbon anomer của glucose (C1) và fructose (C2) tạo liên kết glycoside nên sucrose không khử.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.2"
+        },
+        {
+          "id": "c3-36",
+          "hoi": "Phân tử glycogen được tổng hợp từ glucose dạng hoạt hóa là",
+          "dap_an": [
+            "UDP-glucose",
+            "ADP-glucose",
+            "Glucose-1-phosphate tự do",
+            "GDP-glucose"
+          ],
+          "giai_thich": "ADP-glucose tạo tinh bột ở thực vật; UDP-glucose tạo glycogen và sucrose.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.3"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "nhom": "Bài giảng",
+      "ten": "Chương 4 - Lipid",
+      "cau": [
+        {
+          "id": "c4-01",
+          "hoi": "Lipid được đặc trưng bởi tính chất",
+          "dap_an": [
+            "Tan rất ít trong nước, tan trong dung môi không phân cực",
+            "Tan rất tốt trong nước nhưng không tan trong dung môi hữu cơ",
+            "Luôn là đại phân tử chứa nitrogen trong thành phần cấu tạo",
+            "Luôn có nhóm phosphate trong thành phần cấu tạo phân tử"
+          ],
+          "giai_thich": "Do chứa phần lớn là hydrocarbon không phân cực.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.1"
+        },
+        {
+          "id": "c4-02",
+          "hoi": "Acid béo no khác acid béo không no ở điểm",
+          "dap_an": [
+            "Không có liên kết đôi C=C trong mạch hydrocarbon",
+            "Có nhiều liên kết đôi C=C trong mạch hydrocarbon",
+            "Luôn có mạch carbon ngắn hơn acid béo không no",
+            "Không có nhóm carboxyl ở đầu mạch hydrocarbon"
+          ],
+          "giai_thich": "Ví dụ: palmitic (16:0), stearic (18:0) là no; oleic (18:1) là không no.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.1"
+        },
+        {
+          "id": "c4-03",
+          "hoi": "Acid béo oleic được viết ký hiệu 18:1 (delta 9) nghĩa là",
+          "dap_an": [
+            "18 carbon, 1 liên kết đôi giữa C9 và C10",
+            "18 carbon, 9 liên kết đôi trong mạch hydrocarbon",
+            "9 carbon, 1 liên kết đôi nằm ở giữa mạch hydrocarbon",
+            "18 carbon, 1 nhóm hydroxyl gắn tại vị trí C9 của mạch"
+          ],
+          "giai_thich": "Số đầu chỉ số carbon, số sau dấu hai chấm chỉ số liên kết đôi.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.1"
+        },
+        {
+          "id": "c4-04",
+          "hoi": "Liên kết đôi trong acid béo không no tự nhiên thường có cấu hình",
+          "dap_an": [
+            "Cis, làm gấp khúc mạch hydrocarbon",
+            "Trans, làm mạch thẳng",
+            "Chỉ có cấu hình trans",
+            "Không xác định"
+          ],
+          "giai_thich": "Cis làm giảm khả năng xếp chặt nên điểm nóng chảy thấp hơn acid béo no tương ứng.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.1"
+        },
+        {
+          "id": "c4-05",
+          "hoi": "Điểm nóng chảy của acid béo tăng khi",
+          "dap_an": [
+            "Chiều dài mạch tăng và mức độ no tăng",
+            "Chiều dài mạch giảm và có thêm liên kết đôi",
+            "Số liên kết đôi tăng",
+            "Số nhóm carboxyl tăng"
+          ],
+          "giai_thich": "Mạch dài, thẳng xếp chặt hơn và tương tác van der Waals mạnh hơn.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.1"
+        },
+        {
+          "id": "c4-06",
+          "hoi": "Acid béo thiết yếu đối với người là",
+          "dap_an": [
+            "Linoleic (omega-6) và alpha-linolenic (omega-3)",
+            "Palmitic (16:0) và stearic (18:0), hai acid béo no",
+            "Oleic (18:1) và palmitoleic (16:1), acid béo có một nối đôi",
+            "Arachidic (20:0) và butyric (4:0), hai acid béo no"
+          ],
+          "giai_thich": "Cơ thể người không tổng hợp được vì thiếu enzyme tạo liên kết đôi sau C9.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.1"
+        },
+        {
+          "id": "c4-07",
+          "hoi": "Triacylglycerol (chất béo trung tính) được cấu tạo từ",
+          "dap_an": [
+            "Glycerol và ba acid béo nối bằng liên kết ester",
+            "Glycerol và ba amino acid nối bằng liên kết peptide",
+            "Sphingosine và một acid béo nối bằng liên kết amide",
+            "Cholesterol và hai acid béo nối bằng liên kết ester"
+          ],
+          "giai_thich": "Là dạng dự trữ năng lượng chính của cơ thể (khoảng 9 kcal/g).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-08",
+          "hoi": "Phản ứng xà phòng hóa chất béo là",
+          "dap_an": [
+            "Thủy phân triacylglycerol bằng kiềm tạo glycerol và muối acid béo",
+            "Thủy phân triacylglycerol bằng acid tạo ra các amino acid",
+            "Cộng hydrogen vào các liên kết đôi để tạo acid béo no hơn",
+            "Oxy hóa hoàn toàn acid béo trong ty thể thành CO2 và nước"
+          ],
+          "giai_thich": "Kiềm (NaOH, KOH) cắt liên kết ester, tạo xà phòng.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-09",
+          "hoi": "Chỉ số xà phòng hóa của một chất béo càng lớn thì",
+          "dap_an": [
+            "Phân tử lượng trung bình của các acid béo càng nhỏ",
+            "Mạch của các acid béo trong phân tử càng dài hơn",
+            "Độ không no của các acid béo trong phân tử càng cao",
+            "Lượng nước lẫn trong mẫu chất béo càng nhiều hơn"
+          ],
+          "giai_thich": "Cùng khối lượng chất béo, mạch ngắn cho nhiều phân tử hơn cần nhiều KOH hơn.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-10",
+          "hoi": "Chỉ số iod đo",
+          "dap_an": [
+            "Mức độ không no (lượng iod cộng vào liên kết đôi)",
+            "Mức độ oxy hóa của chất béo sau thời gian bảo quản",
+            "Chiều dài trung bình của các mạch carbon acid béo",
+            "Lượng nước còn lẫn trong mẫu chất béo được phân tích"
+          ],
+          "giai_thich": "Chỉ số iod càng cao càng nhiều liên kết đôi.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-11",
+          "hoi": "Chỉ số acid của chất béo là",
+          "dap_an": [
+            "Số mg KOH trung hòa acid béo tự do trong 1 g chất béo",
+            "Số mg KOH cần để xà phòng hóa hoàn toàn 1 g chất béo",
+            "Số gam iod cộng vào liên kết đôi trong 100 g chất béo",
+            "Số mg NaOH có trong 1 g mẫu chất béo được phân tích"
+          ],
+          "giai_thich": "Chỉ số acid cao chứng tỏ chất béo bị ôi, thủy phân.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-12",
+          "hoi": "Chỉ số ester (E), chỉ số xà phòng hóa (X), chỉ số acid (A) liên hệ với nhau qua",
+          "dap_an": [
+            "X = A + E",
+            "X = A - E",
+            "X = A x E",
+            "E = X + A"
+          ],
+          "giai_thich": "Xà phòng hóa trung hòa cả acid béo tự do (A) và thủy phân ester (E).",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-13",
+          "hoi": "Tính chỉ số xà phòng hóa của tristearin (tristearoyl glycerol, M = 891,5 g/mol, KOH = 56,1 g/mol)",
+          "dap_an": [
+            "Khoảng 188,8",
+            "Khoảng 62,9",
+            "Khoảng 566",
+            "Khoảng 94,4"
+          ],
+          "giai_thich": "X = 3 x 56,1 x 1000/891,5 = 188,8 mg KOH/g, vì 1 mol chất béo cần 3 mol KOH.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-14",
+          "hoi": "Phospholipid màng tế bào có đặc điểm",
+          "dap_an": [
+            "Đầu phân cực ưa nước, hai đuôi acid béo kỵ nước",
+            "Toàn bộ phân tử kỵ nước nên không tan trong nước",
+            "Toàn bộ phân tử ưa nước nên tan hoàn toàn trong nước",
+            "Một đuôi acid béo kỵ nước và hai đầu phân cực ưa nước"
+          ],
+          "giai_thich": "Trong nước tự sắp xếp thành lớp kép với đuôi kỵ nước quay vào trong.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3"
+        },
+        {
+          "id": "c4-15",
+          "hoi": "Glycerophospholipid có khung là",
+          "dap_an": [
+            "Glycerol gắn hai acid béo và nhóm phosphate nối nhóm đầu",
+            "Sphingosine gắn một acid béo và nhóm phosphocholine",
+            "Cholesterol gắn một acid béo bằng liên kết ester",
+            "Glycerol gắn ba acid béo bằng liên kết ester"
+          ],
+          "giai_thich": "Phosphatidylcholine (lecithin) là phospholipid phổ biến nhất của màng.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3"
+        },
+        {
+          "id": "c4-16",
+          "hoi": "Sphingomyelin có khung là",
+          "dap_an": [
+            "Sphingosine gắn một acid béo và nhóm phosphocholine",
+            "Glycerol gắn ba acid béo bằng liên kết ester",
+            "Cholesterol gắn một acid béo bằng liên kết ester",
+            "Glycerol gắn một acid béo và nhóm phosphate nối nhóm đầu"
+          ],
+          "giai_thich": "Có nhiều ở bao myelin của tế bào thần kinh.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.3"
+        },
+        {
+          "id": "c4-17",
+          "hoi": "Cholesterol có vai trò",
+          "dap_an": [
+            "Cấu thành màng; tiền chất hormone steroid, acid mật, vitamin D",
+            "Nguồn dự trữ năng lượng chính của các tế bào mỡ",
+            "Enzyme thủy phân các phân tử lipid trong ruột non",
+            "Chất vận chuyển oxy trong hồng cầu của máu người"
+          ],
+          "giai_thich": "Cholesterol điều hòa độ lỏng của màng.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3"
+        },
+        {
+          "id": "c4-18",
+          "hoi": "Cholesterol thuộc nhóm",
+          "dap_an": [
+            "Steroid, có nhân gồm bốn vòng hợp nhất",
+            "Triacylglycerol",
+            "Phospholipid",
+            "Sphingolipid"
+          ],
+          "giai_thich": "Steroid có khung cyclopentanoperhydrophenanthrene.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3"
+        },
+        {
+          "id": "c4-19",
+          "hoi": "Acid mật (như acid cholic) có chức năng",
+          "dap_an": [
+            "Nhũ hóa chất béo, giúp lipase tiêu hóa và hấp thu lipid",
+            "Vận chuyển oxy từ phổi đến các mô trong máu",
+            "Phân giải protein thành các peptide ở dạ dày",
+            "Tổng hợp glycogen từ glucose ở gan và cơ"
+          ],
+          "giai_thich": "Là chất lưỡng tính, giúp tạo micelle ở ruột.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4"
+        },
+        {
+          "id": "c4-20",
+          "hoi": "Enzyme tiêu hóa triacylglycerol là",
+          "dap_an": [
+            "Lipase",
+            "Amylase",
+            "Pepsin",
+            "Trypsin"
+          ],
+          "giai_thich": "Lipase tụy thủy phân triacylglycerol thành 2-monoacylglycerol và acid béo tự do.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4"
+        },
+        {
+          "id": "c4-21",
+          "hoi": "Lipoprotein có tỉ trọng thấp nhất là",
+          "dap_an": [
+            "Chylomicron",
+            "VLDL",
+            "LDL",
+            "HDL"
+          ],
+          "giai_thich": "Thứ tự tỉ trọng tăng dần: chylomicron < VLDL < LDL < HDL; càng nhiều lipid thì tỉ trọng càng thấp.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.4"
+        },
+        {
+          "id": "c4-22",
+          "hoi": "LDL thường được gọi là cholesterol xấu vì",
+          "dap_an": [
+            "Chở cholesterol từ gan đến mô, dễ lắng đọng trên thành mạch",
+            "Chở cholesterol từ các mô ngoại vi quay trở về gan",
+            "Là lipoprotein chứa nhiều protein nhất trong các loại",
+            "Là lipoprotein có tỉ trọng lớn nhất trong các loại"
+          ],
+          "giai_thich": "HDL ngược lại, đưa cholesterol về gan để thải.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4"
+        },
+        {
+          "id": "c4-23",
+          "hoi": "Chylomicron vận chuyển",
+          "dap_an": [
+            "Triacylglycerol từ thức ăn qua ruột đến các mô",
+            "Cholesterol nội sinh được tổng hợp từ gan đến các mô",
+            "Glucose từ gan được chuyển đến các mô ngoại vi khác",
+            "Acid béo tự do đang gắn với albumin trong huyết tương"
+          ],
+          "giai_thich": "Được tạo ở tế bào niêm mạc ruột, đi qua hệ bạch huyết rồi vào máu.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4"
+        },
+        {
+          "id": "c4-24",
+          "hoi": "Acid béo tự do trong máu được vận chuyển nhờ",
+          "dap_an": [
+            "Gắn với albumin huyết tương",
+            "Gắn với hemoglobin",
+            "Gắn với glycogen",
+            "Tự do hòa tan trong huyết tương"
+          ],
+          "giai_thich": "Do kỵ nước nên cần protein mang.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4"
+        },
+        {
+          "id": "c4-25",
+          "hoi": "Prostaglandin được tạo ra từ",
+          "dap_an": [
+            "Arachidonic acid (acid béo 20:4)",
+            "Cholesterol",
+            "Glucose",
+            "Glycerol"
+          ],
+          "giai_thich": "Là eicosanoid, trung gian viêm; aspirin ức chế cyclooxygenase.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.4"
+        },
+        {
+          "id": "c4-26",
+          "hoi": "Vitamin tan trong dầu (lipid) gồm",
+          "dap_an": [
+            "A, D, E, K",
+            "B1, B2, B6, B12",
+            "C, B1, B2, PP",
+            "A, C, D, H"
+          ],
+          "giai_thich": "Các vitamin kỵ nước được hấp thu cùng lipid.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.4"
+        },
+        {
+          "id": "c4-27",
+          "hoi": "Quá trình oxy hóa lipid (ôi mỡ) xảy ra chủ yếu ở",
+          "dap_an": [
+            "Liên kết đôi của acid béo không no, tạo peroxide và aldehyde",
+            "Nhóm hydroxyl của glycerol, tạo ra ketone và acid hữu cơ",
+            "Liên kết ester giữa glycerol và acid béo, tạo xà phòng",
+            "Nhóm phosphate của phospholipid, tạo ra phosphine độc"
+          ],
+          "giai_thich": "Gốc tự do tấn công vị trí allyl; vitamin E là chất chống oxy hóa.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-28",
+          "hoi": "Hydrogen hóa dầu thực vật (làm margarine) có tác dụng",
+          "dap_an": [
+            "Tăng độ no, tăng điểm nóng chảy, dầu chuyển thành mỡ rắn",
+            "Tăng chỉ số iod của dầu và làm tăng tính lỏng của nó",
+            "Giảm điểm nóng chảy của dầu và làm nó lỏng hơn nữa",
+            "Tăng số liên kết đôi cis trong mạch acid béo của dầu"
+          ],
+          "giai_thich": "Có thể tạo acid béo trans không tốt cho sức khỏe.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-29",
+          "hoi": "Màng sinh học là mô hình khảm động (fluid mosaic) vì",
+          "dap_an": [
+            "Lớp lipid kép lỏng, protein khảm và di chuyển ngang",
+            "Lớp lipid kép cứng, protein bị cố định không di chuyển",
+            "Chỉ gồm các phân tử protein, hoàn toàn không có lipid",
+            "Chỉ gồm các phân tử carbohydrate xếp thành lớp kép"
+          ],
+          "giai_thich": "Phospholipid và protein khuếch tán bên trong mặt phẳng màng; đổi mặt (flip-flop) chậm.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3"
+        },
+        {
+          "id": "c4-30",
+          "hoi": "Cholesterol làm màng tế bào",
+          "dap_an": [
+            "Ổn định màng, giảm tính thấm, điều hòa độ lỏng",
+            "Luôn làm cho màng trở nên lỏng hơn ở mọi nhiệt độ",
+            "Luôn làm cho màng trở nên cứng hơn ở mọi nhiệt độ",
+            "Thủy phân phospholipid thành glycerol và các acid béo"
+          ],
+          "giai_thich": "Tác dụng như đệm độ lỏng của màng.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.3"
+        },
+        {
+          "id": "c4-31",
+          "hoi": "Lipid nào sau đây không phải là glycerolipid?",
+          "dap_an": [
+            "Cholesterol",
+            "Triacylglycerol",
+            "Phosphatidylcholine",
+            "Phosphatidylserine"
+          ],
+          "giai_thich": "Cholesterol là steroid không có khung glycerol.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.3"
+        },
+        {
+          "id": "c4-32",
+          "hoi": "Sáp (wax) là ester của",
+          "dap_an": [
+            "Acid béo mạch dài và rượu mạch dài",
+            "Glycerol và ba acid béo",
+            "Cholesterol và phosphate",
+            "Sphingosine và đường"
+          ],
+          "giai_thich": "Sáp có vai trò bảo vệ ở lá cây, lông chim và da.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-33",
+          "hoi": "Dựa trên chỉ số iod, dầu có chỉ số iod cao hơn thì",
+          "dap_an": [
+            "Không no hơn, dễ oxy hóa hơn và thường ở thể lỏng",
+            "No hơn, khó bị oxy hóa hơn và thường ở thể rắn",
+            "Có mạch carbon ngắn hơn nên có nhiệt độ nóng chảy cao hơn",
+            "Chứa nhiều cholesterol hơn nên có chỉ số xà phòng cao hơn"
+          ],
+          "giai_thich": "Triolein có chỉ số iod 86,0 (3 liên kết đôi) trong khi tristearin bằng 0.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.2"
+        },
+        {
+          "id": "c4-34",
+          "hoi": "Tính chỉ số iod của triolein (M = 885,4 g/mol, I2 = 253,8 g/mol, 3 liên kết đôi)",
+          "dap_an": [
+            "Khoảng 86,0",
+            "Khoảng 188,8",
+            "Khoảng 28,7",
+            "Khoảng 258"
+          ],
+          "giai_thich": "Chỉ số iod = 3 x 253,8 x 100/885,4 = 86,0 g I2/100 g.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4.2"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "nhom": "Bài giảng",
+      "ten": "Chương 5 - Trao đổi chất và năng lượng sinh học",
+      "cau": [
+        {
+          "id": "c5-01",
+          "hoi": "Trao đổi chất (metabolism) gồm",
+          "dap_an": [
+            "Dị hóa (phân giải) và đồng hóa (tổng hợp)",
+            "Chỉ riêng quá trình tiêu hóa thức ăn ở ruột",
+            "Chỉ riêng quá trình hô hấp tế bào ở ty thể",
+            "Chỉ riêng quá trình tổng hợp protein ở ribosome"
+          ],
+          "giai_thich": "Dị hóa giải phóng năng lượng, đồng hóa tiêu tốn năng lượng.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.1"
+        },
+        {
+          "id": "c5-02",
+          "hoi": "Con đường dị hóa có đặc điểm",
+          "dap_an": [
+            "Phân giải chất phức tạp, giải phóng năng lượng, tạo ATP và NADH",
+            "Tổng hợp chất phức tạp từ chất đơn giản, tiêu tốn ATP",
+            "Chỉ xảy ra ở thực vật có chứa chất diệp lục trong lá",
+            "Luôn tiêu thụ NADH để khử các chất trung gian trong tế bào"
+          ],
+          "giai_thich": "Các phản ứng đồng hóa dùng NADPH và ATP.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.1"
+        },
+        {
+          "id": "c5-03",
+          "hoi": "Hệ thống nào sau đây là hệ hở trong nhiệt động học và đại diện cho cơ thể sống?",
+          "dap_an": [
+            "Hệ hở, trao đổi cả vật chất và năng lượng với môi trường",
+            "Hệ cô lập, không trao đổi vật chất và năng lượng",
+            "Hệ kín, chỉ trao đổi năng lượng với môi trường",
+            "Hệ chỉ trao đổi vật chất mà không trao đổi năng lượng"
+          ],
+          "giai_thich": "Cơ thể sống nhận thức ăn, thải chất thải và nhiệt.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-04",
+          "hoi": "Phản ứng tự phát theo chiều thuận ở nhiệt độ và áp suất không đổi khi",
+          "dap_an": [
+            "Delta G < 0",
+            "Delta G > 0",
+            "Delta G = 0",
+            "Delta H luôn âm"
+          ],
+          "giai_thich": "Delta G = Delta H - T.Delta S; tại cân bằng Delta G = 0.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-05",
+          "hoi": "Tại trạng thái cân bằng của một phản ứng, giá trị",
+          "dap_an": [
+            "Delta G = 0 và không còn công hữu ích",
+            "Delta G âm cực đại",
+            "Delta G dương cực đại",
+            "Delta G bằng Delta G chuẩn"
+          ],
+          "giai_thich": "Delta G chuẩn (Delta G chuẩn) khác Delta G thực tế vì phụ thuộc nồng độ.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-06",
+          "hoi": "Biểu thức liên hệ delta G chuẩn và hằng số cân bằng là",
+          "dap_an": [
+            "Delta G chuẩn = -RT ln Keq",
+            "Delta G chuẩn = RT ln Keq",
+            "Delta G chuẩn = -Keq/RT",
+            "Delta G chuẩn = Keq x RT"
+          ],
+          "giai_thich": "Keq lớn thì Delta G chuẩn âm; Keq < 1 thì Delta G chuẩn dương.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-07",
+          "hoi": "Delta G chuẩn' của thủy phân ATP thành ADP và Pi vào khoảng",
+          "dap_an": [
+            "-30,5 kJ/mol",
+            "+30,5 kJ/mol",
+            "-5 kJ/mol",
+            "-100 kJ/mol"
+          ],
+          "giai_thich": "Phản ứng tỏa năng lượng lớn nhờ đẩy điện tích và ổn định cộng hưởng sản phẩm.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-08",
+          "hoi": "Phản ứng thu năng lượng (delta G > 0) có thể xảy ra trong tế bào khi",
+          "dap_an": [
+            "Được ghép với phản ứng thủy phân ATP có delta G âm hơn",
+            "Được thực hiện ở nhiệt độ rất cao so với bình thường",
+            "Được thêm một enzyme xúc tác đặc hiệu cho phản ứng đó",
+            "Được làm giảm nồng độ ATP trong tế bào xuống thấp hơn"
+          ],
+          "giai_thich": "Delta G các phản ứng ghép cộng lại; tổng phải âm.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-09",
+          "hoi": "Ví dụ: glucose + Pi thành glucose-6-phosphate có delta G chuẩn' = +13,8 kJ/mol, ATP thủy phân có -30,5 kJ/mol. Delta G chuẩn' của phản ứng ghép là",
+          "dap_an": [
+            "-16,7 kJ/mol",
+            "-44,3 kJ/mol",
+            "+44,3 kJ/mol",
+            "+16,7 kJ/mol"
+          ],
+          "giai_thich": "13,8 + (-30,5) = -16,7 kJ/mol, nên phản ứng ghép tự diễn ra (hexokinase).",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-10",
+          "hoi": "ATP được xem là đồng tiền năng lượng của tế bào vì",
+          "dap_an": [
+            "Có năng lượng thủy phân trung bình, nối phản ứng tỏa và thu năng lượng",
+            "Có năng lượng thủy phân lớn nhất trong mọi hợp chất phosphate",
+            "Chứa nhiều năng lượng để dự trữ lâu dài trong tế bào mỡ",
+            "Là hợp chất duy nhất của tế bào có thể thủy phân giải phóng năng lượng"
+          ],
+          "giai_thich": "Phosphoenolpyruvate và creatine phosphate có năng lượng thủy phân lớn hơn nên có thể tái tạo ATP.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-11",
+          "hoi": "Hợp chất có năng lượng thủy phân cao hơn ATP là",
+          "dap_an": [
+            "Phosphoenolpyruvate",
+            "Glucose-6-phosphate",
+            "Glycerol-3-phosphate",
+            "AMP"
+          ],
+          "giai_thich": "PEP có delta G chuẩn' thủy phân khoảng -62 kJ/mol; glucose-6-phosphate chỉ khoảng -13,8.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.2"
+        },
+        {
+          "id": "c5-12",
+          "hoi": "Coenzyme nào vận chuyển electron cho chuỗi hô hấp, tạo khoảng 2,5 ATP mỗi phân tử?",
+          "dap_an": [
+            "NADH",
+            "FADH2",
+            "NADPH",
+            "Coenzyme A"
+          ],
+          "giai_thich": "FADH2 vào chuỗi muộn hơn nên chỉ tạo khoảng 1,5 ATP.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.3"
+        },
+        {
+          "id": "c5-13",
+          "hoi": "NADPH khác NADH ở vai trò",
+          "dap_an": [
+            "NADPH chủ yếu cung cấp electron cho các phản ứng đồng hóa",
+            "NADPH chủ yếu đi vào chuỗi hô hấp để tạo thêm ATP",
+            "NADPH hoàn toàn không tham gia phản ứng oxy hóa khử nào",
+            "NADPH là sản phẩm tạo ra trực tiếp từ chu trình Krebs"
+          ],
+          "giai_thich": "Nguồn NADPH chính là con đường pentose phosphate.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.3"
+        },
+        {
+          "id": "c5-14",
+          "hoi": "Vitamin là tiền chất của NAD+ là",
+          "dap_an": [
+            "Niacin (vitamin B3, PP)",
+            "Riboflavin (B2)",
+            "Thiamine (B1)",
+            "Pantothenate (B5)"
+          ],
+          "giai_thich": "Riboflavin tạo FAD; pantothenate tạo coenzyme A.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.3"
+        },
+        {
+          "id": "c5-15",
+          "hoi": "FAD là dẫn xuất của vitamin",
+          "dap_an": [
+            "Riboflavin (B2)",
+            "Niacin (B3)",
+            "Pyridoxine (B6)",
+            "Thiamine (B1)"
+          ],
+          "giai_thich": "FAD nhận 2 H tạo FADH2.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.3"
+        },
+        {
+          "id": "c5-16",
+          "hoi": "Coenzyme A (CoA) vận chuyển",
+          "dap_an": [
+            "Nhóm acyl, đặc biệt là nhóm acetyl trong acetyl-CoA",
+            "Electron trong các phản ứng oxy hóa khử của tế bào",
+            "Nhóm phosphate trong các phản ứng chuyển phosphate",
+            "Nhóm amin trong các phản ứng chuyển amin của amino acid"
+          ],
+          "giai_thich": "CoA liên kết với acid béo hay acetyl qua liên kết thioester giàu năng lượng.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.3"
+        },
+        {
+          "id": "c5-17",
+          "hoi": "Acetyl-CoA là điểm hội tụ của dị hóa vì",
+          "dap_an": [
+            "Nhận mảnh 2 carbon từ glucose, acid béo, amino acid rồi vào Krebs",
+            "Chỉ được tạo ra từ sự phân giải glucose qua đường phân",
+            "Chỉ được tạo ra từ sự phân giải protein ở lysosome",
+            "Là sản phẩm cuối cùng được tạo ra sau chu trình Krebs"
+          ],
+          "giai_thich": "Đây là mảnh nối giữa các đường dị hóa với giai đoạn oxy hóa cuối cùng.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.1"
+        },
+        {
+          "id": "c5-18",
+          "hoi": "Ba giai đoạn dị hóa chất dinh dưỡng theo thứ tự là",
+          "dap_an": [
+            "Tiêu hóa thành đơn vị nhỏ, tạo acetyl-CoA, oxy hóa hoàn toàn",
+            "Chuỗi hô hấp, rồi chu trình Krebs, rồi tiêu hóa thức ăn",
+            "Tổng hợp, vận chuyển rồi thải các chất ra khỏi tế bào",
+            "Oxy hóa, tiêu hóa rồi mới tổng hợp ra các sản phẩm"
+          ],
+          "giai_thich": "Giai đoạn 3 tạo hầu hết ATP.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.1"
+        },
+        {
+          "id": "c5-19",
+          "hoi": "Ty thể là nơi diễn ra",
+          "dap_an": [
+            "Chu trình Krebs, oxy hóa acid béo và chuỗi hô hấp",
+            "Đường phân và lên men glucose thành lactate",
+            "Tổng hợp protein từ các amino acid tự do",
+            "Tổng hợp acid béo từ acetyl-CoA trong bào tương"
+          ],
+          "giai_thich": "Đường phân ở bào tương; tổng hợp acid béo ở bào tương.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-20",
+          "hoi": "Đường phân xảy ra ở",
+          "dap_an": [
+            "Bào tương",
+            "Chất nền ty thể",
+            "Màng trong ty thể",
+            "Nhân tế bào"
+          ],
+          "giai_thich": "Không cần oxy; bước đầu tiên của dị hóa glucose.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-21",
+          "hoi": "Chuỗi hô hấp tạo ATP theo cơ chế",
+          "dap_an": [
+            "Phosphoryl hóa oxy hóa nhờ gradient proton qua màng trong ty thể",
+            "Phosphoryl hóa ở mức cơ chất của các enzyme chu trình Krebs",
+            "Quang phosphoryl hóa nhờ năng lượng ánh sáng ở lục lạp",
+            "Thủy phân GTP thành GDP tại màng trong của ty thể"
+          ],
+          "giai_thich": "ATP synthase dùng dòng H+ chạy về chất nền để tổng hợp ATP.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-22",
+          "hoi": "Chất nhận electron cuối cùng của chuỗi hô hấp là",
+          "dap_an": [
+            "O2, bị khử thành nước",
+            "NAD+",
+            "CO2",
+            "Pyruvate"
+          ],
+          "giai_thich": "Cytochrome c oxidase chuyển electron cho O2.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-23",
+          "hoi": "Chất ức chế nào ngăn cản chuỗi hô hấp bằng cách gắn vào cytochrome oxidase?",
+          "dap_an": [
+            "Cyanide (CN-)",
+            "Oligomycin",
+            "Dinitrophenol (DNP)",
+            "Rotenone"
+          ],
+          "giai_thich": "Oligomycin ức chế ATP synthase, DNP làm tách cặp, rotenone ức chế phức hợp I.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-24",
+          "hoi": "Chất tách cặp (uncoupler) như 2,4-dinitrophenol làm",
+          "dap_an": [
+            "Tiêu tán gradient proton, tăng tiêu thụ O2, giảm tạo ATP",
+            "Ngừng hẳn việc tiêu thụ O2 của chuỗi vận chuyển electron",
+            "Tăng tạo ATP từ ADP nhờ ATP synthase hoạt động mạnh hơn",
+            "Gắn trực tiếp vào ATP synthase và ngăn cản hoạt động của nó"
+          ],
+          "giai_thich": "Điện tử vẫn chạy nhưng năng lượng không được giữ lại dưới dạng ATP.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-25",
+          "hoi": "Phosphoryl hóa mức cơ chất là",
+          "dap_an": [
+            "Chuyển nhóm phosphate giàu năng lượng cho ADP trực tiếp",
+            "Tạo ATP nhờ gradient proton qua màng trong ty thể",
+            "Tạo ATP nhờ năng lượng ánh sáng mặt trời ở lục lạp",
+            "Thủy phân ATP thành ADP để giải phóng năng lượng"
+          ],
+          "giai_thich": "Ví dụ: 1,3-bisphosphoglycerate thành 3-phosphoglycerate trong đường phân.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-26",
+          "hoi": "Tỉ lệ P/O khi NADH đi vào chuỗi hô hấp khoảng",
+          "dap_an": [
+            "2,5",
+            "1,5",
+            "3,5",
+            "4,5"
+          ],
+          "giai_thich": "FADH2 có P/O khoảng 1,5.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-27",
+          "hoi": "Cơ thể người tiêu thụ 1 mol glucose hô hấp hiếu khí hoàn toàn thu được khoảng",
+          "dap_an": [
+            "30-32 mol ATP",
+            "2 mol ATP",
+            "10 mol ATP",
+            "100 mol ATP"
+          ],
+          "giai_thich": "Đường phân 2 ATP + 5 (2 NADH), PDH 5, Krebs 20 = 32 (theo hệ số 2,5 và 1,5).",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-28",
+          "hoi": "Quá trình nào cung cấp năng lượng cho tế bào cơ khi thiếu oxy?",
+          "dap_an": [
+            "Đường phân kỵ khí tạo lactate",
+            "Chuỗi hô hấp",
+            "Chu trình Krebs",
+            "Oxy hóa acid béo"
+          ],
+          "giai_thich": "Lactate dehydrogenase tái tạo NAD+ cho đường phân tiếp tục.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.4"
+        },
+        {
+          "id": "c5-29",
+          "hoi": "Tại sao tế bào cần các hormone như insulin và glucagon trong điều hòa trao đổi chất?",
+          "dap_an": [
+            "Điều hòa enzyme chủ chốt, cân bằng dị hóa và đồng hóa glucose",
+            "Cung cấp ATP trực tiếp cho các phản ứng đồng hóa",
+            "Là cơ chất bị phân giải trong các bước của đường phân",
+            "Thay thế enzyme xúc tác cho các phản ứng chuyển hóa"
+          ],
+          "giai_thich": "Insulin kích thích đồng hóa, glucagon kích thích huy động glucose.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5.5"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "nhom": "Bài giảng",
+      "ten": "Chương 6 - Chuyển hóa carbohydrate",
+      "cau": [
+        {
+          "id": "c6-01",
+          "hoi": "Enzyme nào xúc tác phản ứng đầu tiên của đường phân (phosphoryl hóa glucose)?",
+          "dap_an": [
+            "Hexokinase (glucokinase ở gan)",
+            "Phosphofructokinase-1",
+            "Pyruvate kinase",
+            "Aldolase"
+          ],
+          "giai_thich": "Glucose + ATP thành glucose-6-phosphate; phản ứng không thuận nghịch.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-02",
+          "hoi": "Enzyme điều hòa chính (bước giới hạn tốc độ) của đường phân là",
+          "dap_an": [
+            "Phosphofructokinase-1 (PFK-1)",
+            "Hexokinase",
+            "Aldolase",
+            "Enolase"
+          ],
+          "giai_thich": "PFK-1 bị ATP, citrate ức chế và AMP, fructose-2,6-bisphosphate hoạt hóa.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-03",
+          "hoi": "Enzyme aldolase trong đường phân cắt",
+          "dap_an": [
+            "Fructose-1,6-bisphosphate thành hai triose phosphate",
+            "Glucose thành hai phân tử pyruvate cùng lúc",
+            "Fructose-6-phosphate thành glucose-6-phosphate",
+            "Pyruvate thành lactate khi thiếu oxy trong tế bào"
+          ],
+          "giai_thich": "Từ bước này một glucose cho hai phân tử triose phosphate.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-04",
+          "hoi": "Tổng kết đường phân từ 1 glucose cho",
+          "dap_an": [
+            "2 pyruvate, 2 ATP (thực) và 2 NADH",
+            "1 pyruvate, 2 ATP và 1 NADH",
+            "2 pyruvate, 4 ATP thực và 4 NADH",
+            "2 lactate, 2 NADH thực"
+          ],
+          "giai_thich": "Tiêu tốn 2 ATP ở giai đoạn đầu, tạo 4 ATP ở giai đoạn sau nên lợi nhuận 2 ATP.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-05",
+          "hoi": "Phản ứng phosphoryl hóa mức cơ chất trong đường phân gồm",
+          "dap_an": [
+            "1,3-Bisphosphoglycerate thành 3-phosphoglycerate; PEP thành pyruvate",
+            "Glucose thành glucose-6-phosphate; fructose-6-phosphate thành fructose-1,6-bisphosphate",
+            "Dihydroxyacetone phosphate thành glyceraldehyde-3-phosphate; pyruvate thành lactate",
+            "Glyceraldehyde-3-phosphate thành 1,3-bisphosphoglycerate; enolase tạo PEP"
+          ],
+          "giai_thich": "Hai bước này tạo ATP bằng phosphoglycerate kinase và pyruvate kinase.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-06",
+          "hoi": "Ở điều kiện kỵ khí, pyruvate được chuyển thành lactate nhằm mục đích",
+          "dap_an": [
+            "Tái tạo NAD+ để đường phân tiếp tục",
+            "Tạo thêm ATP",
+            "Tạo thêm NADH",
+            "Khử CO2"
+          ],
+          "giai_thich": "Không có O2, NADH không được oxy hóa qua chuỗi hô hấp.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-07",
+          "hoi": "Lên men rượu ở nấm men biến pyruvate thành",
+          "dap_an": [
+            "Acetaldehyde rồi ethanol, giải phóng CO2",
+            "Lactate",
+            "Acetyl-CoA",
+            "Oxaloacetate"
+          ],
+          "giai_thich": "Pyruvate decarboxylase và alcohol dehydrogenase; NADH bị oxy hóa tái tạo NAD+.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-08",
+          "hoi": "Pyruvate dehydrogenase complex xúc tác",
+          "dap_an": [
+            "Pyruvate + CoA + NAD+ thành acetyl-CoA + CO2 + NADH",
+            "Pyruvate + NADH thành lactate + NAD+ trong bào tương",
+            "Pyruvate + CO2 + ATP thành oxaloacetate + ADP + Pi",
+            "Acetyl-CoA + oxaloacetate thành citrate + CoA tự do"
+          ],
+          "giai_thich": "Là phức hợp nhiều enzyme ở chất nền ty thể, cần thiamine pyrophosphate, lipoate, FAD, NAD+, CoA.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2"
+        },
+        {
+          "id": "c6-09",
+          "hoi": "Vitamin cần cho hoạt động của pyruvate dehydrogenase gồm",
+          "dap_an": [
+            "Thiamine, riboflavin, niacin và pantothenate",
+            "Các vitamin tan trong dầu: A, D, E và K",
+            "Vitamin C và biotin cùng với folate",
+            "Vitamin B12 và folate cùng với vitamin C"
+          ],
+          "giai_thich": "Thiếu thiamine gây bệnh beriberi, tích lũy pyruvate và lactate.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.2"
+        },
+        {
+          "id": "c6-10",
+          "hoi": "Chu trình Krebs bắt đầu bằng phản ứng",
+          "dap_an": [
+            "Acetyl-CoA + oxaloacetate thành citrate",
+            "Pyruvate thành acetyl-CoA nhờ phức hợp PDH",
+            "Citrate thành isocitrate nhờ enzyme aconitase",
+            "Succinate thành fumarate nhờ succinate dehydrogenase"
+          ],
+          "giai_thich": "Chu trình tái tạo oxaloacetate sau 8 bước.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2"
+        },
+        {
+          "id": "c6-11",
+          "hoi": "Một vòng chu trình Krebs (từ 1 acetyl-CoA) tạo",
+          "dap_an": [
+            "3 NADH, 1 FADH2, 1 GTP và 2 CO2",
+            "2 NADH, 2 FADH2, 2 GTP và 2 CO2",
+            "1 NADH, 3 FADH2, 1 GTP và 2 CO2",
+            "4 NADH, 1 FADH2, 0 GTP và 2 CO2"
+          ],
+          "giai_thich": "Tương đương khoảng 10 ATP (3 x 2,5 + 1,5 + 1).",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2"
+        },
+        {
+          "id": "c6-12",
+          "hoi": "Enzyme nào sau đây là enzyme điều hòa quan trọng của chu trình Krebs?",
+          "dap_an": [
+            "Isocitrate dehydrogenase",
+            "Fumarase",
+            "Malate dehydrogenase",
+            "Aconitase"
+          ],
+          "giai_thich": "Bị ATP và NADH ức chế, bị ADP hoạt hóa; còn có citrate synthase và alpha-ketoglutarate dehydrogenase.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.2"
+        },
+        {
+          "id": "c6-13",
+          "hoi": "Chu trình Krebs diễn ra ở",
+          "dap_an": [
+            "Chất nền ty thể",
+            "Bào tương",
+            "Màng ngoài ty thể",
+            "Nhân"
+          ],
+          "giai_thich": "Trừ succinate dehydrogenase gắn ở màng trong ty thể (phức hợp II).",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.2"
+        },
+        {
+          "id": "c6-14",
+          "hoi": "Succinate dehydrogenase khác các enzyme khác của chu trình Krebs ở điểm",
+          "dap_an": [
+            "Gắn màng trong ty thể, dùng FAD, là phức hợp II",
+            "Dùng NAD+ làm coenzyme và nằm ở chất nền",
+            "Nằm tự do ở bào tương và dùng NADP+",
+            "Tạo ra GTP trực tiếp nhờ phosphoryl hóa mức cơ chất"
+          ],
+          "giai_thich": "Nó chuyển succinate thành fumarate và tạo FADH2.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.2"
+        },
+        {
+          "id": "c6-15",
+          "hoi": "Tổng ATP khi oxy hóa hoàn toàn 1 glucose (tính theo NADH 2,5 và FADH2 1,5) là",
+          "dap_an": [
+            "32 ATP",
+            "2 ATP",
+            "10 ATP",
+            "38 ATP"
+          ],
+          "giai_thich": "Đường phân 7, PDH 5, Krebs 20. Giá trị 38 là hệ số cũ (NADH 3, FADH2 2).",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.2"
+        },
+        {
+          "id": "c6-16",
+          "hoi": "Con đường pentose phosphate có ý nghĩa chính là",
+          "dap_an": [
+            "Tạo NADPH và ribose-5-phosphate",
+            "Tạo nhiều ATP",
+            "Tạo lactate",
+            "Phân giải glycogen"
+          ],
+          "giai_thich": "Giai đoạn oxy hóa tạo NADPH; giai đoạn không oxy hóa chuyển đổi các đường.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.3"
+        },
+        {
+          "id": "c6-17",
+          "hoi": "Enzyme chủ chốt của pha oxy hóa trong con đường pentose phosphate là",
+          "dap_an": [
+            "Glucose-6-phosphate dehydrogenase",
+            "Hexokinase",
+            "Pyruvate kinase",
+            "Aldolase"
+          ],
+          "giai_thich": "Thiếu enzyme này gây thiếu máu tan huyết với một số thuốc hoặc đậu fava.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.3"
+        },
+        {
+          "id": "c6-18",
+          "hoi": "Tân tạo đường (gluconeogenesis) là",
+          "dap_an": [
+            "Tổng hợp glucose từ chất không phải carbohydrate",
+            "Phân giải glucose thành pyruvate trong bào tương",
+            "Tổng hợp glycogen từ glucose ở gan và cơ",
+            "Chuyển glucose thành acid béo để dự trữ ở mô mỡ"
+          ],
+          "giai_thich": "Xảy ra chủ yếu ở gan và thận khi đói.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.4"
+        },
+        {
+          "id": "c6-19",
+          "hoi": "Tân tạo đường không đơn thuần là đường phân đi ngược lại vì",
+          "dap_an": [
+            "Ba phản ứng một chiều của đường phân phải được đi vòng",
+            "Tân tạo dùng chính các enzyme đường phân ở mọi bước",
+            "Tân tạo không cần năng lượng ATP hay GTP trong quá trình",
+            "Tân tạo diễn ra hoàn toàn bên trong ty thể của tế bào"
+          ],
+          "giai_thich": "Phản ứng của hexokinase, PFK-1 và pyruvate kinase được thay bằng glucose-6-phosphatase, fructose-1,6-bisphosphatase, PEP carboxykinase cùng pyruvate carboxylase.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.4"
+        },
+        {
+          "id": "c6-20",
+          "hoi": "Enzyme nào chỉ có trong tân tạo đường mà không có trong đường phân?",
+          "dap_an": [
+            "Fructose-1,6-bisphosphatase",
+            "Hexokinase",
+            "Phosphofructokinase-1",
+            "Pyruvate kinase"
+          ],
+          "giai_thich": "Cũng gồm glucose-6-phosphatase, PEP carboxykinase và pyruvate carboxylase.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.4"
+        },
+        {
+          "id": "c6-21",
+          "hoi": "Pyruvate carboxylase cần coenzyme",
+          "dap_an": [
+            "Biotin",
+            "Thiamine pyrophosphate",
+            "Pyridoxal phosphate",
+            "Folate"
+          ],
+          "giai_thich": "Chuyển pyruvate thành oxaloacetate trong ty thể, tiêu tốn ATP.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.4"
+        },
+        {
+          "id": "c6-22",
+          "hoi": "Tổng hợp 1 glucose từ 2 pyruvate trong tân tạo đường tiêu tốn",
+          "dap_an": [
+            "4 ATP, 2 GTP và 2 NADH",
+            "2 ATP",
+            "6 ATP, 2 NADPH",
+            "Không tiêu tốn năng lượng"
+          ],
+          "giai_thich": "Tổng cộng 6 liên kết phosphate giàu năng lượng, trong khi đường phân chỉ thu 2 ATP.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.4"
+        },
+        {
+          "id": "c6-23",
+          "hoi": "Chu trình Cori là",
+          "dap_an": [
+            "Lactate từ cơ đến gan tân tạo thành glucose rồi về cơ",
+            "Alanine từ cơ đến gan tạo glucose rồi quay về cơ",
+            "Acid béo từ mô mỡ đến gan để oxy hóa thành thể ketone",
+            "Glycogen từ gan đến cơ để được phân giải thành ATP"
+          ],
+          "giai_thich": "Giúp tái sử dụng lactate và tránh toan lactic.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.4"
+        },
+        {
+          "id": "c6-24",
+          "hoi": "Glycogen phosphorylase xúc tác",
+          "dap_an": [
+            "Phân giải glycogen thành glucose-1-phosphate bằng Pi",
+            "Tổng hợp glycogen từ UDP-glucose bằng liên kết alpha(1->4)",
+            "Thủy phân liên kết alpha(1->6) tại các điểm nhánh",
+            "Chuyển glucose-6-phosphate thành glucose trong gan"
+          ],
+          "giai_thich": "Cần pyridoxal phosphate (vitamin B6); enzyme cắt nhánh xử lý liên kết alpha(1->6).",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.5"
+        },
+        {
+          "id": "c6-25",
+          "hoi": "Glycogen synthase gắn glucose vào chuỗi glycogen từ",
+          "dap_an": [
+            "UDP-glucose, tạo liên kết alpha(1->4)",
+            "ADP-glucose, tạo liên kết alpha(1->6)",
+            "Glucose tự do, tạo liên kết beta(1->4)",
+            "GDP-glucose, tạo liên kết alpha(1->6)"
+          ],
+          "giai_thich": "Enzyme tạo nhánh cắt đoạn và gắn bằng alpha(1->6).",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.5"
+        },
+        {
+          "id": "c6-26",
+          "hoi": "Glucagon kích thích",
+          "dap_an": [
+            "Phân giải glycogen và tân tạo đường ở gan",
+            "Tổng hợp glycogen từ glucose ở gan và cơ",
+            "Hấp thu glucose từ máu vào tế bào cơ và mỡ",
+            "Tổng hợp acid béo từ acetyl-CoA ở tế bào gan"
+          ],
+          "giai_thich": "Thông qua cAMP và protein kinase A, hoạt hóa phosphorylase.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.5"
+        },
+        {
+          "id": "c6-27",
+          "hoi": "Insulin có tác dụng",
+          "dap_an": [
+            "Giảm đường huyết, kích thích tổng hợp glycogen",
+            "Tăng đường huyết, kích thích phân giải glycogen",
+            "Kích thích tân tạo đường ở gan khi đói",
+            "Kích thích giải phóng glucose từ glycogen ở gan"
+          ],
+          "giai_thich": "Insulin hoạt hóa phosphatase làm glycogen synthase hoạt động.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.5"
+        },
+        {
+          "id": "c6-28",
+          "hoi": "Adrenaline kích thích phân giải glycogen ở cơ để",
+          "dap_an": [
+            "Cung cấp glucose-6-phosphate cho đường phân khi vận động",
+            "Giải phóng glucose tự do vào máu để duy trì đường huyết",
+            "Tổng hợp thêm glycogen để dự trữ năng lượng trong cơ",
+            "Kích thích tụy tiết thêm insulin vào máu tuần hoàn"
+          ],
+          "giai_thich": "Cơ không có glucose-6-phosphatase nên không đưa glucose vào máu.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.5"
+        },
+        {
+          "id": "c6-29",
+          "hoi": "Bệnh nhân thiếu glucose-6-phosphatase (bệnh von Gierke) có biểu hiện",
+          "dap_an": [
+            "Hạ đường huyết lúc đói và gan to do tích glycogen",
+            "Tăng đường huyết kéo dài và gan teo nhỏ dần đi",
+            "Thiếu máu tan huyết khi dùng một số loại thuốc",
+            "Gan nhỏ lại do không còn dự trữ glycogen nào"
+          ],
+          "giai_thich": "Gan không thể thải glucose-6-phosphate thành glucose cho máu.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.5"
+        },
+        {
+          "id": "c6-30",
+          "hoi": "Quá trình quang hợp cố định CO2 theo chu trình Calvin cần",
+          "dap_an": [
+            "ATP và NADPH từ pha sáng",
+            "Chỉ ATP từ chuỗi hô hấp",
+            "Chỉ NADH",
+            "Oxygen"
+          ],
+          "giai_thich": "Cố định 3 CO2 thành 1 triose phosphate tiêu thụ 9 ATP và 6 NADPH.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.6"
+        },
+        {
+          "id": "c6-31",
+          "hoi": "Enzyme cố định CO2 trong chu trình Calvin là",
+          "dap_an": [
+            "Rubisco (ribulose-1,5-bisphosphate carboxylase)",
+            "PEP carboxylase (phosphoenolpyruvate carboxylase)",
+            "Pyruvate carboxylase (cần biotin làm coenzyme)",
+            "Carbonic anhydrase (carbonic anhydrase của hồng cầu)"
+          ],
+          "giai_thich": "Rubisco gắn CO2 vào ribulose-1,5-bisphosphate tạo hai 3-phosphoglycerate.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.6"
+        },
+        {
+          "id": "c6-32",
+          "hoi": "Tinh bột ở thực vật được tổng hợp từ nucleotide-đường",
+          "dap_an": [
+            "ADP-glucose",
+            "UDP-glucose",
+            "GDP-glucose",
+            "CDP-glucose"
+          ],
+          "giai_thich": "Còn sucrose và glycogen dùng UDP-glucose.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.6"
+        },
+        {
+          "id": "c6-33",
+          "hoi": "Tại sao tế bào hồng cầu phụ thuộc hoàn toàn vào đường phân để tạo ATP?",
+          "dap_an": [
+            "Không có ty thể nên không có Krebs và chuỗi hô hấp",
+            "Không có enzyme đường phân trong bào tương của tế bào",
+            "Chỉ sử dụng acid béo làm nguồn nhiên liệu chính của tế bào",
+            "Có quá nhiều ty thể nên oxy hóa hết glucose thành CO2"
+          ],
+          "giai_thich": "Hồng cầu trưởng thành mất nhân và ty thể, sản phẩm cuối là lactate.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-34",
+          "hoi": "Khi tế bào đủ ATP, nồng độ cao ATP và citrate sẽ",
+          "dap_an": [
+            "Ức chế PFK-1, làm chậm đường phân",
+            "Hoạt hóa PFK-1",
+            "Hoạt hóa hexokinase",
+            "Hoạt hóa pyruvate kinase"
+          ],
+          "giai_thich": "Đây là cơ chế điều hòa ngược giúp tiết kiệm glucose.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.1"
+        },
+        {
+          "id": "c6-35",
+          "hoi": "Fructose-2,6-bisphosphate là chất",
+          "dap_an": [
+            "Kích thích PFK-1 và ức chế fructose-1,6-bisphosphatase",
+            "Ức chế PFK-1 và kích thích fructose-1,6-bisphosphatase",
+            "Chỉ ức chế hexokinase mà không tác động lên PFK-1",
+            "Chỉ hoạt hóa pyruvate kinase mà không tác động lên PFK-1"
+          ],
+          "giai_thich": "Là tín hiệu điều hòa hai chiều của đường phân và tân tạo.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.4"
+        },
+        {
+          "id": "c6-36",
+          "hoi": "Galactose được chuyển hóa thành glucose qua",
+          "dap_an": [
+            "Galactose-1-phosphate và UDP-galactose",
+            "Fructose-1-phosphate",
+            "Glucose-6-phosphate trực tiếp",
+            "Ribose-5-phosphate"
+          ],
+          "giai_thich": "Thiếu enzyme gây bệnh galactosemia.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.7"
+        },
+        {
+          "id": "c6-37",
+          "hoi": "Fructose được chuyển hóa chủ yếu ở",
+          "dap_an": [
+            "Gan, bắt đầu bằng fructokinase tạo fructose-1-phosphate",
+            "Cơ vân, bắt đầu bằng hexokinase tạo fructose-6-phosphate",
+            "Thận, bắt đầu bằng PFK-1 tạo fructose-1,6-bisphosphate",
+            "Não, bắt đầu bằng glucokinase tạo fructose-6-phosphate"
+          ],
+          "giai_thich": "Đi vào đường phân qua glyceraldehyde-3-phosphate và dihydroxyacetone phosphate, bỏ qua bước điều hòa PFK-1.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 6.7"
+        }
+      ]
+    }
+  ]
+}

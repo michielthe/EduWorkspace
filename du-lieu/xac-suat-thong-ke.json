@@ -1,0 +1,1224 @@
+{
+  "mon": "Xác suất thống kê",
+  "ma_mon": "xac-suat-thong-ke",
+  "phien_ban": 1,
+  "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Chương 1 - Đại cương về xác suất",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Gieo một con xúc xắc. Gọi $A = \\{1, 3, 5\\}$ (chấm lẻ) và $C = \\{5, 6\\}$ (chấm lớn hơn 4). Biến cố $A \\cap C$ là tập nào?",
+          "dap_an": [
+            "$\\{5\\}$",
+            "$\\{1, 3, 5, 6\\}$",
+            "$\\{1, 3\\}$",
+            "$\\{6\\}$"
+          ],
+          "giai_thich": "Biến cố tích $A \\cap C$ gồm các kết quả thuộc cả hai tập, tức chỉ có mặt 5. Tập $\\{1, 3, 5, 6\\}$ là biến cố tổng $A \\cup C$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1 (Ví dụ gieo xúc xắc) và mục 2 (biến cố tích); slide Chương 1, trang 12 và 18"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Biến cố tổng $A \\cup B$ (còn viết $A + B$) xảy ra khi nào?",
+          "dap_an": [
+            "Ít nhất một trong hai biến cố $A$, $B$ xảy ra",
+            "Cả hai biến cố $A$ và $B$ cùng xảy ra đồng thời",
+            "Biến cố $A$ xảy ra còn biến cố $B$ không xảy ra",
+            "Cả hai biến cố $A$ và $B$ đều không xảy ra"
+          ],
+          "giai_thich": "Tổng là biến cố \"A hoặc B\": xảy ra khi có ít nhất một trong hai xảy ra. Cả hai cùng xảy ra là biến cố tích; A xảy ra mà B không là biến cố hiệu.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2 (Quan hệ và phép toán); slide Chương 1, trang 17"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Hai biến cố $A$, $B$ xung khắc nghĩa là gì?",
+          "dap_an": [
+            "$A$, $B$ không thể cùng xảy ra, tức $A \\cap B = \\emptyset$",
+            "$A$ xảy ra thì chắc chắn $B$ xảy ra",
+            "$A$ và $B$ có xác suất bằng nhau",
+            "Biết $A$ xảy ra thì xác suất của $B$ không đổi"
+          ],
+          "giai_thich": "Xung khắc là không có kết quả chung: $A \\cap B = \\emptyset$. Phương án \"A xảy ra thì B xảy ra\" là A kéo theo B ($A \\subset B$); còn việc biết A xảy ra mà xác suất của B không đổi là tính độc lập.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2 (Quan hệ và phép toán); slide Chương 1, trang 20"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Theo luật De Morgan, $(A \\cup B)^c$ bằng biến cố nào?",
+          "dap_an": [
+            "$A^c \\cap B^c$",
+            "$A^c \\cup B^c$",
+            "$(A \\cap B)^c$",
+            "$A \\cap B^c$"
+          ],
+          "giai_thich": "$(A \\cup B)^c$ là \"không xảy ra A và cũng không xảy ra B\", tức $A^c \\cap B^c$. Công thức đối ngẫu là $(A \\cap B)^c = A^c \\cup B^c$; hai biểu thức này khác nhau nên không được nhầm.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2 (Quan hệ và phép toán, Tính chất); slide Chương 1, trang 21"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Có 3 bệnh nhân phỏng, $A_i$ là biến cố \"bệnh nhân $i$ tử vong\". Biến cố \"có ít nhất hai bệnh nhân tử vong\" được biểu diễn là gì?",
+          "dap_an": [
+            "$A_1A_2 \\cup A_1A_3 \\cup A_2A_3$",
+            "$A_1A_2A_3$",
+            "$A_1 \\cup A_2 \\cup A_3$",
+            "$A_1A_2 \\cup A_3$"
+          ],
+          "giai_thich": "Cần ít nhất một cặp cùng tử vong, nên lấy hợp ba biến cố \"hai người cụ thể cùng chết\". $A_1A_2A_3$ là cả ba cùng chết; $A_1 \\cup A_2 \\cup A_3$ chỉ là có ít nhất một người chết; $A_1A_2 \\cup A_3$ chấp nhận cả trường hợp chỉ một người chết.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 5; slide Chương 1, trang 23"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Với $A_i$ là biến cố \"bệnh nhân $i$ tử vong\" ($i = 1, 2, 3$), biến cố \"có không quá hai bệnh nhân tử vong\" là biến cố nào?",
+          "dap_an": [
+            "$\\overline{A_1} \\cup \\overline{A_2} \\cup \\overline{A_3}$",
+            "$\\overline{A_1} \\cap \\overline{A_2} \\cap \\overline{A_3}$",
+            "$A_1 \\cup A_2 \\cup A_3$",
+            "$A_1A_2 \\cup A_1A_3 \\cup A_2A_3$"
+          ],
+          "giai_thich": "\"Không quá hai người chết\" là phần bù của \"cả ba cùng chết\": $(A_1A_2A_3)^c = \\overline{A_1} \\cup \\overline{A_2} \\cup \\overline{A_3}$. Biểu thức giao của ba biến cố đối lập là \"cả ba đều sống\".",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 5; slide Chương 1, trang 23"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Hộp có 3 quả cầu trắng và 5 quả cầu đỏ cùng kích thước. Lấy ngẫu nhiên 3 quả. Xác suất được 3 quả đỏ là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{5}{28}$",
+            "$\\frac{125}{512}$",
+            "$\\frac{15}{56}$",
+            "$\\frac{5}{56}$"
+          ],
+          "giai_thich": "Số cách lấy là $\\binom{8}{3} = 56$, số cách lấy 3 quả đỏ là $\\binom{5}{3} = 10$ nên $P = \\frac{10}{56} = \\frac{5}{28}$. Giá trị $\\frac{125}{512} = (\\frac{5}{8})^3$ là khi lấy có hoàn lại; $\\frac{15}{56}$ là xác suất 2 trắng 1 đỏ.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 6; slide Chương 1, trang 26"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Hộp có 3 quả cầu trắng và 5 quả cầu đỏ. Lấy ngẫu nhiên 3 quả. Xác suất được 2 quả trắng và 1 quả đỏ là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{15}{56}$",
+            "$\\frac{1}{7}$",
+            "$\\frac{15}{28}$",
+            "$\\frac{5}{28}$"
+          ],
+          "giai_thich": "Số cách chọn 2 trắng và 1 đỏ là $\\binom{3}{2}\\binom{5}{1} = 15$ (quy tắc nhân), chia cho $\\binom{8}{3} = 56$. Nhầm cộng thay vì nhân cho $3 + 5 = 8$ nên $\\frac{8}{56} = \\frac{1}{7}$; $\\frac{5}{28}$ là xác suất 3 quả đỏ.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 6; slide Chương 1, trang 26"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Hai người hẹn gặp nhau trong khoảng từ 11 giờ đến 12 giờ, người đến trước chờ tối đa 20 phút rồi đi. Giả sử giờ đến mỗi người là ngẫu nhiên. Xác suất hai người gặp nhau là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{5}{9}$",
+            "$\\frac{2}{3}$",
+            "$\\frac{1}{3}$",
+            "$\\frac{4}{9}$"
+          ],
+          "giai_thich": "Dùng xác suất hình học: không gian mẫu là hình vuông cạnh 60 (diện tích 3600). Hai người không gặp nhau khi $|x - y| > 20$, gồm hai tam giác vuông cạnh 40 có tổng diện tích 1600. Vậy $P = 1 - \\frac{1600}{3600} = \\frac{5}{9}$. Giá trị $\\frac{4}{9}$ là xác suất không gặp nhau.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 7; slide Chương 1, trang 30"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Định nghĩa xác suất nào biểu diễn xác suất là giới hạn của tần suất $f_n(A) = \\frac{m}{n}$ khi số lần thử $n \\to \\infty$?",
+          "dap_an": [
+            "Định nghĩa theo quan điểm thống kê",
+            "Định nghĩa theo quan điểm cổ điển",
+            "Định nghĩa theo quan điểm hình học",
+            "Định nghĩa xác suất có điều kiện"
+          ],
+          "giai_thich": "Thực hiện phép thử nhiều lần và lấy giới hạn tần suất là định nghĩa thống kê. Định nghĩa cổ điển dùng tỉ số số trường hợp thuận lợi và số trường hợp đồng khả năng; định nghĩa hình học dùng tỉ số độ đo các miền.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3 (Xác suất và ba định nghĩa); slide Chương 1, trang 28"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Trong 200 sinh viên có 90 em học tiếng Anh, 60 em học tiếng Pháp và 20 em học cả hai. Chọn ngẫu nhiên 1 sinh viên, xác suất em đó học ít nhất một trong hai ngoại ngữ là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{13}{20}$",
+            "$\\frac{3}{4}$",
+            "$\\frac{17}{20}$",
+            "$\\frac{11}{20}$"
+          ],
+          "giai_thich": "Theo công thức cộng, $P = \\frac{90}{200} + \\frac{60}{200} - \\frac{20}{200} = \\frac{130}{200} = \\frac{13}{20}$. Quên trừ giao cho $\\frac{150}{200} = \\frac{3}{4}$; cộng giao cho $\\frac{17}{20}$; trừ giao hai lần cho $\\frac{11}{20}$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4 (Công thức cộng), Ví dụ 8; slide Chương 1, trang 37"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Cho $P(A) = 0{,}5$, $P(B) = 0{,}4$ và $P(A \\cup B) = 0{,}7$. Xác suất $P(A \\cap B)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}2$",
+            "$0{,}9$",
+            "$0{,}3$",
+            "$0{,}1$"
+          ],
+          "giai_thich": "Từ $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$ suy ra $P(A \\cap B) = 0{,}5 + 0{,}4 - 0{,}7 = 0{,}2$. Giá trị $0{,}9$ là tổng $P(A) + P(B)$, tức quên trừ giao.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4 (Công thức cộng); slide Chương 1, trang 33"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Xác suất có điều kiện $P(A|B)$ được tính theo công thức nào (với $P(B) > 0$)?",
+          "dap_an": [
+            "$\\frac{P(A \\cap B)}{P(B)}$",
+            "$\\frac{P(A \\cap B)}{P(A)}$",
+            "$P(A) \\cdot P(B)$",
+            "$\\frac{P(A)}{P(B)}$"
+          ],
+          "giai_thich": "$P(A|B)$ là xác suất của A khi biết B đã xảy ra, nên mẫu số là $P(B)$. Công thức có mẫu $P(A)$ là $P(B|A)$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5 (Xác suất có điều kiện); slide Chương 1, trang 40"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Chọn ngẫu nhiên 1 lá từ bộ bài tây 52 lá và biết lá đó màu đỏ. Xác suất lá đó là át cơ là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{1}{26}$",
+            "$\\frac{1}{13}$",
+            "$\\frac{1}{52}$",
+            "$\\frac{1}{4}$"
+          ],
+          "giai_thich": "Có 26 lá đỏ và chỉ 1 lá là át cơ nên $P(A|B) = \\frac{1/52}{26/52} = \\frac{1}{26}$. Giá trị $\\frac{1}{13}$ là xác suất chọn một lá át bất kỳ, $\\frac{1}{52}$ là xác suất không điều kiện.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 9; slide Chương 1, trang 38"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Nhóm 300 người gồm 200 nam (100 người hút thuốc) và 100 nữ (20 người hút thuốc). Chọn ngẫu nhiên một người và biết người đó hút thuốc, xác suất là nam bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{5}{6}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{3}$",
+            "$\\frac{2}{3}$"
+          ],
+          "giai_thich": "Có $100 + 20 = 120$ người hút thuốc, trong đó 100 là nam nên $P(\\text{nam} | \\text{hút}) = \\frac{100}{120} = \\frac{5}{6}$. Giá trị $\\frac{1}{2}$ là $P(\\text{hút} | \\text{nam})$ (đảo chiều điều kiện); $\\frac{2}{3}$ là tỉ lệ nam trong cả nhóm.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 10; slide Chương 1, trang 45"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Hộp có 10 lá thăm trong đó 4 lá trúng. Hai bạn rút lần lượt không hoàn lại. Xác suất cả hai bạn đều rút trúng là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{2}{15}$",
+            "$\\frac{4}{25}$",
+            "$\\frac{1}{3}$",
+            "$\\frac{3}{10}$"
+          ],
+          "giai_thich": "Theo công thức nhân, $P = \\frac{4}{10} \\cdot \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$ vì sau lần đầu còn 9 lá, trong đó 3 lá trúng. Giá trị $\\frac{4}{25} = (\\frac{4}{10})^2$ ứng với rút có hoàn lại.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5 (Công thức nhân) và Phần II Ví dụ 14 (dữ kiện 10 lá thăm); slide Chương 1, trang 46 và 57"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Hộp có 10 ống thuốc, trong đó 5 ống kém chất lượng. Lấy lần lượt không hoàn lại 3 ống. Xác suất lấy được 3 ống tốt là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{1}{12}$",
+            "$\\frac{1}{8}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{5}{12}$"
+          ],
+          "giai_thich": "Theo công thức nhân, $P = \\frac{5}{10}\\cdot\\frac{4}{9}\\cdot\\frac{3}{8} = \\frac{60}{720} = \\frac{1}{12}$. Giá trị $\\frac{1}{8}$ là khi lấy có hoàn lại; $\\frac{5}{12}$ là xác suất 2 ống tốt, 1 ống kém.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 11; slide Chương 1, trang 48"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Hai biến cố $A$, $B$ độc lập với nhau khi và chỉ khi điều kiện nào sau đây thỏa?",
+          "dap_an": [
+            "$P(A \\cap B) = P(A) \\cdot P(B)$",
+            "$P(A \\cap B) = 0$",
+            "$P(A \\cup B) = P(A) + P(B)$",
+            "$P(A) + P(B) = 1$"
+          ],
+          "giai_thich": "Độc lập nghĩa là xác suất của tích bằng tích các xác suất. Điều kiện $P(A \\cap B) = 0$ (hoặc $P(A \\cup B) = P(A) + P(B)$) là xung khắc, một khái niệm khác; hai biến cố có xác suất dương mà xung khắc thì không độc lập.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6 (Sự độc lập); slide Chương 1, trang 50"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Cho $A$ và $B$ độc lập với $P(A) = 0{,}5$ và $P(B) = 0{,}4$. Xác suất $P(A \\cup B)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}7$",
+            "$0{,}9$",
+            "$0{,}2$",
+            "$0{,}8$"
+          ],
+          "giai_thich": "Do độc lập, $P(A \\cap B) = 0{,}5 \\cdot 0{,}4 = 0{,}2$. Suy ra $P(A \\cup B) = 0{,}5 + 0{,}4 - 0{,}2 = 0{,}7$. Giá trị $0{,}9$ là khi dùng công thức cho biến cố xung khắc.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 6 (Sự độc lập); slide Chương 1, trang 50"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Một phép thử có 4 kết quả đồng khả năng $\\omega_1, \\omega_2, \\omega_3, \\omega_4$ (mỗi kết quả xác suất $\\frac{1}{4}$). Cho $A = \\{\\omega_1, \\omega_4\\}$, $B = \\{\\omega_2, \\omega_4\\}$, $C = \\{\\omega_3, \\omega_4\\}$. Kết luận nào đúng?",
+          "dap_an": [
+            "$A$, $B$, $C$ độc lập từng đôi nhưng không độc lập toàn phần",
+            "$A$, $B$, $C$ độc lập toàn phần vì mọi cặp đều thỏa $P(XY) = P(X)P(Y)$",
+            "$A$, $B$, $C$ không độc lập từng đôi vì $P(ABC) \\ne P(A)P(B)P(C)$",
+            "$A$, $B$, $C$ xung khắc từng đôi vì không có tập nào trùng nhau hoàn toàn"
+          ],
+          "giai_thich": "Mỗi biến cố có xác suất $\\frac{1}{2}$ và mọi giao đôi hay giao ba đều là $\\{\\omega_4\\}$ với xác suất $\\frac{1}{4}$. Với từng cặp, $\\frac{1}{4} = \\frac{1}{2}\\cdot\\frac{1}{2}$ nên độc lập từng đôi. Nhưng $P(ABC) = \\frac{1}{4} \\ne \\frac{1}{8} = P(A)P(B)P(C)$ nên không độc lập toàn phần. Chúng cùng chứa $\\omega_4$ nên không xung khắc.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 6 (Sự độc lập), Ví dụ 13; slide Chương 1, trang 53"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Xét giới tính con đầu và con thứ hai trong gia đình có hai con (xét thứ tự sinh, các trường hợp TT, TG, GT, GG đồng khả năng). Gọi $A$ là \"con đầu là trai\", $B$ là \"con thứ hai là gái\". Điều nào đúng?",
+          "dap_an": [
+            "$A$, $B$ độc lập vì $P(A \\cap B) = \\frac{1}{4} = P(A)P(B)$",
+            "$A$, $B$ phụ thuộc vì $A \\cap B \\ne \\emptyset$",
+            "$A$, $B$ xung khắc vì một gia đình không thể có cả hai điều này",
+            "$A$, $B$ phụ thuộc vì $P(B|A) \\ne P(B)$"
+          ],
+          "giai_thich": "$A = \\{TT, TG\\}$, $B = \\{TG, GG\\}$ và $A \\cap B = \\{TG\\}$. Ta có $P(A) = P(B) = \\frac{1}{2}$ và $P(A \\cap B) = \\frac{1}{4}$, đúng bằng tích nên độc lập, kể cả khi $A \\cap B$ khác rỗng. Có chung kết quả (TG) nên không xung khắc, và $P(B|A) = \\frac{1}{2} = P(B)$.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 12; slide Chương 1, trang 52"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Hệ các biến cố $A_1, A_2, \\dots, A_n$ là một hệ đầy đủ khi thỏa điều kiện nào?",
+          "dap_an": [
+            "$A_iA_j = \\emptyset$ với mọi $i \\ne j$ và $A_1 + A_2 + \\dots + A_n = \\Omega$",
+            "$A_iA_j \\ne \\emptyset$ với mọi $i \\ne j$ và $A_1 + \\dots + A_n = \\Omega$",
+            "Chỉ cần $A_1 + A_2 + \\dots + A_n = \\Omega$",
+            "Các biến cố độc lập từng đôi và $P(A_1) = \\dots = P(A_n)$"
+          ],
+          "giai_thich": "Hệ đầy đủ gồm các biến cố xung khắc từng đôi mà hợp là biến cố chắc chắn $\\Omega$. Chỉ có điều kiện hợp bằng $\\Omega$ chưa đủ vì các biến cố có thể chồng lấn, và không đòi hỏi các xác suất bằng nhau.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2 (Hệ đầy đủ); slide Chương 1, trang 22"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Hộp có 10 lá thăm với 4 lá trúng, A rút trước, B rút sau (không hoàn lại). Xác suất B rút trúng là bao nhiêu?",
+          "dap_an": [
+            "$0{,}4$",
+            "$\\frac{4}{9}$",
+            "$\\frac{1}{3}$",
+            "$0{,}6$"
+          ],
+          "giai_thich": "Dùng xác suất đầy đủ với hệ gồm hai biến cố \"A trúng\" và \"A trượt\": $P(B) = \\frac{4}{10}\\cdot\\frac{3}{9} + \\frac{6}{10}\\cdot\\frac{4}{9} = \\frac{36}{90} = 0{,}4$, đúng bằng xác suất của A nên trò chơi công bằng. Các giá trị $\\frac{4}{9}$ và $\\frac{1}{3}$ là xác suất có điều kiện (biết A trượt, biết A trúng).",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 14; slide Chương 1, trang 57"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Nông trường có 4 đội sản xuất, chiếm $\\frac{1}{3}$, $\\frac{1}{4}$, $\\frac{1}{4}$, $\\frac{1}{6}$ tổng sản lượng, tỉ lệ phế phẩm tương ứng là $0{,}15$; $0{,}08$; $0{,}05$; $0{,}01$. Lấy ngẫu nhiên 1 sản phẩm, xác suất là phế phẩm gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}0842$",
+            "$0{,}0725$",
+            "$0{,}0825$",
+            "$0{,}2900$"
+          ],
+          "giai_thich": "Theo xác suất đầy đủ, $P = \\frac{1}{3}(0{,}15) + \\frac{1}{4}(0{,}08) + \\frac{1}{4}(0{,}05) + \\frac{1}{6}(0{,}01) \\approx 0{,}0842$. Giá trị $0{,}0725$ là trung bình cộng bốn tỉ lệ (bỏ qua tỉ trọng); $0{,}0825$ là quên đội 4; $0{,}2900$ là tổng bốn tỉ lệ.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 15; slide Chương 1, trang 58"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Một đám đông có số đàn ông bằng một nửa số phụ nữ. Xác suất bị bệnh tim là $0{,}06$ ở đàn ông và $0{,}036$ ở phụ nữ. Chọn ngẫu nhiên 1 người, xác suất bị bệnh tim là bao nhiêu?",
+          "dap_an": [
+            "$0{,}044$",
+            "$0{,}048$",
+            "$0{,}052$",
+            "$0{,}096$"
+          ],
+          "giai_thich": "Đàn ông chiếm $\\frac{1}{3}$ và phụ nữ chiếm $\\frac{2}{3}$ đám đông. $P = \\frac{1}{3}(0{,}06) + \\frac{2}{3}(0{,}036) = 0{,}02 + 0{,}024 = 0{,}044$. Giá trị $0{,}048$ là trung bình cộng đơn giản, $0{,}052$ là gán nhầm tỉ trọng ngược lại.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 16; slide Chương 1, trang 63"
+        },
+        {
+          "id": "c1-26",
+          "hoi": "Một phản ứng có 5 người bệnh trong 1000 người; người bệnh cho phản ứng dương tính với xác suất $0{,}97$, người không bệnh dương tính với xác suất $0{,}01$. Một người làm phản ứng và dương tính, xác suất người đó thực sự bị bệnh gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}328$",
+            "$0{,}970$",
+            "$0{,}015$",
+            "$0{,}005$"
+          ],
+          "giai_thich": "$P(+) = 0{,}005 \\cdot 0{,}97 + 0{,}995 \\cdot 0{,}01 = 0{,}0148$. Theo Bayes, xác suất bị bệnh khi dương tính là $\\frac{0{,}00485}{0{,}0148} \\approx 0{,}328$. Giá trị $0{,}970$ là xác suất dương tính khi đã bệnh (đảo điều kiện); $0{,}015$ chính là $P(+)$ làm tròn; $0{,}005$ là tỉ lệ bệnh ban đầu.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 17; slide Chương 1, trang 64"
+        },
+        {
+          "id": "c1-27",
+          "hoi": "Với phản ứng trên (tỉ lệ bệnh $0{,}005$, độ dương tính của người bệnh $0{,}97$, của người không bệnh $0{,}01$), xác suất chẩn đoán đúng của phản ứng bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}9899$",
+            "$0{,}9800$",
+            "$0{,}9950$",
+            "$0{,}9700$"
+          ],
+          "giai_thich": "Chẩn đoán đúng khi (bệnh và dương tính) hoặc (không bệnh và âm tính): $0{,}005 \\cdot 0{,}97 + 0{,}995 \\cdot 0{,}99 = 0{,}00485 + 0{,}98505 = 0{,}9899$. Giá trị $0{,}9800$ là trung bình cộng hai độ chính xác ($0{,}97$ và $0{,}99$), bỏ qua tỉ lệ bệnh.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II, Ví dụ 17; slide Chương 1, trang 64"
+        },
+        {
+          "id": "c1-28",
+          "hoi": "Một nhà máy có 4 ca với tỉ lệ sản phẩm $3:3:2:2$ và tỉ lệ phế phẩm $4\\%$, $3\\%$, $2\\%$, $1\\%$. Chọn ngẫu nhiên 1 sản phẩm. Xác suất sản phẩm là phế phẩm hoặc do ca 3 sản xuất là bao nhiêu?",
+          "dap_an": [
+            "$0{,}223$",
+            "$0{,}227$",
+            "$0{,}027$",
+            "$0{,}200$"
+          ],
+          "giai_thich": "Xác suất phế phẩm là $0{,}027$ và xác suất do ca 3 sản xuất là $0{,}2$, giao là $0{,}2 \\cdot 0{,}02 = 0{,}004$. Theo công thức cộng, $P = 0{,}027 + 0{,}2 - 0{,}004 = 0{,}223$. Giá trị $0{,}227$ là quên trừ giao.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III, Bài 2; slide Chương 1, trang 66"
+        },
+        {
+          "id": "c1-29",
+          "hoi": "Với dữ kiện nhà máy 4 ca trên, biết sản phẩm được chọn là phế phẩm, xác suất nó do ca 3 sản xuất bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{4}{27}$",
+            "$\\frac{1}{5}$",
+            "$\\frac{1}{50}$",
+            "$\\frac{1}{250}$"
+          ],
+          "giai_thich": "Theo Bayes, $P(C_3|D) = \\frac{0{,}2 \\cdot 0{,}02}{0{,}027} = \\frac{0{,}004}{0{,}027} = \\frac{4}{27} \\approx 0{,}148$. Giá trị $\\frac{1}{5}$ là tỉ trọng ca 3 (xác suất ban đầu), $\\frac{1}{50}$ là tỉ lệ phế phẩm của ca 3.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III, Bài 2; slide Chương 1, trang 66"
+        },
+        {
+          "id": "c1-30",
+          "hoi": "Nếu $A \\subset B$ và $P(A) > 0$ thì $P(B|A)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$1$",
+            "$P(B)$",
+            "$\\frac{P(A)}{P(B)}$",
+            "$P(A)$"
+          ],
+          "giai_thich": "Khi $A \\subset B$ thì $A \\cap B = A$ nên $P(B|A) = \\frac{P(A)}{P(A)} = 1$. Còn $P(A|B) = \\frac{P(A)}{P(B)}$, đây là chiều ngược lại.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 5 (Xác suất có điều kiện, tính chất); slide Chương 1, trang 44"
+        },
+        {
+          "id": "c1-31",
+          "hoi": "Phát biểu nào về hai biến cố đối lập và xung khắc là đúng?",
+          "dap_an": [
+            "Đối lập thì xung khắc, nhưng xung khắc chưa chắc đối lập",
+            "Xung khắc thì đối lập, nhưng đối lập chưa chắc xung khắc",
+            "Hai khái niệm này là một, dùng thay thế được cho nhau",
+            "Hai biến cố đối lập thì độc lập với nhau"
+          ],
+          "giai_thich": "Đối lập đòi hỏi $A \\cap \\overline{A} = \\emptyset$ và $A \\cup \\overline{A} = \\Omega$, nên đã gồm điều kiện xung khắc. Ngược lại hai biến cố xung khắc có thể không phủ hết $\\Omega$ (ví dụ \"được 1\" và \"được 2\" khi gieo xúc xắc). Đối lập với $0 < P(A) < 1$ thì không độc lập vì $P(A \\cap \\overline{A}) = 0$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2 (Quan hệ và phép toán); slide Chương 1, trang 21"
+        },
+        {
+          "id": "c1-32",
+          "hoi": "Cho phép thử với $\\Omega = \\{w_1, \\dots, w_5\\}$ có xác suất $0{,}1; 0{,}1; 0{,}2; 0{,}4; 0{,}2$. Với $A = \\{w_1, w_2, w_3\\}$ và $B = \\{w_3, w_4, w_5\\}$, giá trị $P(A \\cup B)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$1$",
+            "$0{,}8$",
+            "$1{,}2$",
+            "$0{,}4$"
+          ],
+          "giai_thich": "$P(A) = 0{,}4$, $P(B) = 0{,}8$, $A \\cap B = \\{w_3\\}$ nên $P(A \\cap B) = 0{,}2$ và $P(A \\cup B) = 0{,}4 + 0{,}8 - 0{,}2 = 1$ (thực ra $A \\cup B = \\Omega$). Giá trị $1{,}2$ là tổng $P(A) + P(B)$ vượt quá 1, chứng tỏ phải trừ phần giao.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III, Bài 1; slide Chương 1, trang 65"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nhom": "Bài giảng",
+      "ten": "Chương 2 BNN - Biến ngẫu nhiên",
+      "cau": [
+        {
+          "id": "c2-01",
+          "hoi": "Biến ngẫu nhiên $X$ trên không gian các biến cố sơ cấp $\\Omega$ được định nghĩa là gì?",
+          "dap_an": [
+            "Một ánh xạ $X : \\Omega \\to \\mathbb{R}$, mỗi $\\omega \\in \\Omega$ cho một số thực $X(\\omega)$",
+            "Một xác suất $P(\\omega)$ gán cho mỗi biến cố sơ cấp",
+            "Một tập con của $\\Omega$ gồm các kết quả có lợi",
+            "Một số thực cố định đo khả năng xảy ra của biến cố"
+          ],
+          "giai_thich": "Biến ngẫu nhiên là ánh xạ từ $\\Omega$ vào $\\mathbb{R}$. Nó không phải là xác suất (xác suất là $P$), cũng không phải một tập con của $\\Omega$ (đó là biến cố).",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, mục 1 (Định nghĩa và phân loại); slide chuong2BNN, trang 4"
+        },
+        {
+          "id": "c2-02",
+          "hoi": "Biến ngẫu nhiên nào sau đây là biến ngẫu nhiên liên tục?",
+          "dap_an": [
+            "Thời gian hoạt động của một bóng đèn điện tử",
+            "Số con trong một gia đình ở một khu dân cư",
+            "Số cuộc gọi đến tổng đài bưu điện trong một ngày",
+            "Số sản phẩm kém chất lượng trong một lô hàng"
+          ],
+          "giai_thich": "Biến liên tục nhận giá trị trong một khoảng, ví dụ thời gian hoạt động, nhiệt độ, độ pH, chiều cao. Các biến còn lại đều là kết quả đếm, nên là rời rạc.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, mục 1 (Định nghĩa và phân loại); slide chuong2BNN, trang 23"
+        },
+        {
+          "id": "c2-03",
+          "hoi": "Hàm phân phối xác suất của biến ngẫu nhiên $X$ được định nghĩa là gì?",
+          "dap_an": [
+            "$F(x) = P(X \\le x)$ với mọi $x \\in \\mathbb{R}$",
+            "$F(x) = P(X \\ge x)$ với mọi $x \\in \\mathbb{R}$",
+            "$F(x) = P(X = x)$ với mọi $x \\in \\mathbb{R}$",
+            "$F(x) = 1 - P(X \\le x)$ với mọi $x \\in \\mathbb{R}$"
+          ],
+          "giai_thich": "Hàm phân phối (CDF) là xác suất tích lũy $P(X \\le x)$. Biểu thức $P(X = x)$ là hàm xác suất (ở biến rời rạc), còn $1 - P(X \\le x) = P(X > x)$.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, mục 2 (Quy luật phân phối và F(x)); slide chuong2BNN, trang 25"
+        },
+        {
+          "id": "c2-04",
+          "hoi": "Khẳng định nào về hàm phân phối $F(x)$ là đúng?",
+          "dap_an": [
+            "$F$ là hàm không giảm, $F(-\\infty) = 0$ và $F(+\\infty) = 1$",
+            "$F$ là hàm không tăng, $F(-\\infty) = 1$ và $F(+\\infty) = 0$",
+            "$F$ là hàm không giảm, $F(-\\infty) = 0$ và $F(+\\infty)$ có thể lớn hơn 1",
+            "$F$ luôn liên tục trái và $F(x) \\ge 0$ nhưng không bị chặn trên"
+          ],
+          "giai_thich": "Tính chất cơ bản: $0 \\le F(x) \\le 1$, $F$ không giảm, liên tục phải, $F(-\\infty) = 0$ và $F(+\\infty) = 1$. Các mệnh đề còn lại sai ít nhất một tính chất (chiều biến thiên, giới hạn hoặc tính bị chặn).",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, mục 2 (Tính chất của F); slide chuong2BNN, trang 32"
+        },
+        {
+          "id": "c2-05",
+          "hoi": "Với $a \\le b$, xác suất $P(a < X \\le b)$ được tính qua hàm phân phối bằng biểu thức nào?",
+          "dap_an": [
+            "$F(b) - F(a)$",
+            "$F(a) - F(b)$",
+            "$F(b) + F(a)$",
+            "$\\frac{F(b)}{F(a)}$"
+          ],
+          "giai_thich": "$P(a < X \\le b) = P(X \\le b) - P(X \\le a) = F(b) - F(a)$. Biểu thức $F(a) - F(b)$ âm (vì $F$ không giảm) nên không thể là xác suất.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, mục 2 (Tính chất của F); slide chuong2BNN, trang 32"
+        },
+        {
+          "id": "c2-06",
+          "hoi": "BNN rời rạc $X$ có hàm xác suất $f(x) = \\frac{2x + 1}{25}$ với $x = 0, 1, 2, 3, 4$. Xác suất $P(X \\le 1)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{4}{25}$",
+            "$\\frac{3}{25}$",
+            "$\\frac{1}{25}$",
+            "$\\frac{6}{25}$"
+          ],
+          "giai_thich": "$P(X \\le 1) = f(0) + f(1) = \\frac{1}{25} + \\frac{3}{25} = \\frac{4}{25}$. Giá trị $\\frac{3}{25}$ chỉ là $P(X = 1)$, quên cộng $f(0)$.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 1; slide chuong2BNN, trang 46"
+        },
+        {
+          "id": "c2-07",
+          "hoi": "Với hàm xác suất $f(x) = \\frac{2x + 1}{25}$, $x = 0, 1, 2, 3, 4$, xác suất $P(2 \\le X \\le 4)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{21}{25}$",
+            "$\\frac{16}{25}$",
+            "$\\frac{12}{25}$",
+            "$\\frac{9}{25}$"
+          ],
+          "giai_thich": "Cộng các giá trị từ 2 đến 4: $\\frac{5 + 7 + 9}{25} = \\frac{21}{25}$ (cũng bằng $1 - P(X \\le 1) = 1 - \\frac{4}{25}$). Giá trị $\\frac{16}{25}$ là $\\frac{7 + 9}{25}$, bỏ sót $f(2)$.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 1; slide chuong2BNN, trang 46"
+        },
+        {
+          "id": "c2-08",
+          "hoi": "Xạ thủ có 4 viên đạn, bắn lần lượt độc lập, xác suất trúng mỗi lần là $0{,}7$; dừng khi trúng một viên hoặc hết đạn. $X$ là số viên đã bắn. Giá trị $P(X = 4)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}027$",
+            "$0{,}0189$",
+            "$0{,}7$",
+            "$0{,}189$"
+          ],
+          "giai_thich": "$X = 4$ khi ba viên đầu đều trượt, vì viên thứ tư luôn được bắn rồi dừng dù trúng hay không: $P(X = 4) = 0{,}3^3 = 0{,}027$. Giá trị $0{,}0189 = 0{,}3^3 \\cdot 0{,}7$ là sai vì không cần điều kiện viên thứ tư trúng.",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 2; slide chuong2BNN, trang 46"
+        },
+        {
+          "id": "c2-09",
+          "hoi": "Xạ thủ có 4 viên đạn, xác suất trúng mỗi lần $0{,}7$, dừng khi trúng hoặc hết đạn, $X$ là số viên đã bắn. Giá trị $P(X = 3)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}063$",
+            "$0{,}343$",
+            "$0{,}027$",
+            "$0{,}21$"
+          ],
+          "giai_thich": "$X = 3$ khi hai viên đầu trượt và viên thứ ba trúng: $P(X = 3) = 0{,}3^2 \\cdot 0{,}7 = 0{,}063$. Giá trị $0{,}21$ là $P(X = 2)$; $0{,}027$ là $P(X = 4)$; $0{,}343 = 0{,}7^3$ ứng với trúng cả ba lần liên tiếp.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 2; slide chuong2BNN, trang 46"
+        },
+        {
+          "id": "c2-10",
+          "hoi": "Lô hàng có 850 sản phẩm gồm 50 sản phẩm kém chất lượng. Chọn lần lượt 2 sản phẩm không hoàn lại, $X$ là số sản phẩm kém chất lượng trong 2 sản phẩm chọn. Biểu thức nào cho $P(X = 2)$?",
+          "dap_an": [
+            "$\\frac{50 \\cdot 49}{850 \\cdot 849}$",
+            "$\\frac{50^{2}}{850^{2}}$",
+            "$\\frac{2 \\cdot 50 \\cdot 800}{850 \\cdot 849}$",
+            "$\\frac{50}{850}$"
+          ],
+          "giai_thich": "Cả hai sản phẩm đều kém: $P(X = 2) = \\frac{\\binom{50}{2}}{\\binom{850}{2}} = \\frac{50 \\cdot 49}{850 \\cdot 849}$. Biểu thức $\\frac{50^2}{850^2}$ ứng với chọn có hoàn lại; $\\frac{2 \\cdot 50 \\cdot 800}{850 \\cdot 849}$ là $P(X = 1)$.",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 4; slide chuong2BNN, trang 51"
+        },
+        {
+          "id": "c2-11",
+          "hoi": "Hàm $f(x)$ là hàm mật độ xác suất của một biến ngẫu nhiên liên tục khi và chỉ khi thỏa điều kiện nào?",
+          "dap_an": [
+            "$f(x) \\ge 0$ với mọi $x$ và $\\int_{-\\infty}^{+\\infty} f(x)\\,dx = 1$",
+            "$0 \\le f(x) \\le 1$ với mọi $x$ và $f$ không giảm",
+            "$f(x) \\ge 0$ với mọi $x$ và $\\sum f(x) = 1$",
+            "$f(x) = P(X = x)$ với mọi $x$ và $f(x) \\le 1$"
+          ],
+          "giai_thich": "Hàm mật độ không âm và có tích phân trên $\\mathbb{R}$ bằng 1. Giá trị $f(x)$ có thể lớn hơn 1 (ví dụ $f(x) = 2x$ trên $[0, 1]$); $f(x)$ không phải xác suất vì $P(X = x) = 0$ ở biến liên tục; tổng $\\sum f = 1$ là điều kiện của hàm xác suất rời rạc.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, mục 4 (BNN liên tục); slide chuong2BNN, trang 52"
+        },
+        {
+          "id": "c2-12",
+          "hoi": "Cho $f(x) = a$ với $x \\in [0, 1]$ và $f(x) = 0$ nơi khác. Để $f$ là hàm mật độ xác suất thì $a$ bằng bao nhiêu?",
+          "dap_an": [
+            "$1$",
+            "$\\frac{1}{2}$",
+            "$2$",
+            "$0$"
+          ],
+          "giai_thich": "Điều kiện $\\int_{0}^{1} a\\,dx = a = 1$ nên $a = 1$. Khi đó $F(x) = x$ trên $(0, 1)$ và $P(\\frac{1}{4} \\le X \\le \\frac{1}{2}) = \\frac{1}{4}$.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 5; slide chuong2BNN, trang 57"
+        },
+        {
+          "id": "c2-13",
+          "hoi": "Với $X$ là biến ngẫu nhiên liên tục, khẳng định nào đúng?",
+          "dap_an": [
+            "$P(X = x) = 0$ với mọi $x$, nên $P(x_1 \\le X \\le x_2) = P(x_1 < X < x_2)$",
+            "$P(X = x) = f(x)$ với mọi $x$, nên $P(x_1 \\le X \\le x_2) > P(x_1 < X < x_2)$",
+            "$P(X = x) = 0$ với mọi $x$, nên $P(x_1 \\le X \\le x_2) = 0$",
+            "$P(X = x) = F(x)$ với mọi $x$, nên $P(x_1 \\le X \\le x_2) = F(x_2) + F(x_1)$"
+          ],
+          "giai_thich": "Với biến liên tục, xác suất tại một điểm bằng 0 nên dấu bằng ở hai đầu mút không ảnh hưởng: $P(x_1 \\le X \\le x_2) = F(x_2) - F(x_1)$. Còn $f(x)$ chỉ là mật độ chứ không phải xác suất.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, mục 4 (BNN liên tục); slide chuong2BNN, trang 56"
+        },
+        {
+          "id": "c2-14",
+          "hoi": "Cho hàm mật độ $f(x) = \\frac{3}{8}x^2$ với $0 \\le x \\le 2$ (và bằng 0 nơi khác). Xác suất $P(1 \\le X \\le \\frac{3}{2})$ bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{19}{64}$",
+            "$\\frac{27}{64}$",
+            "$\\frac{1}{8}$",
+            "$\\frac{11}{64}$"
+          ],
+          "giai_thich": "Hàm phân phối là $F(x) = \\frac{x^3}{8}$ với $0 \\le x \\le 2$. Do đó $P = F(\\frac{3}{2}) - F(1) = \\frac{27}{64} - \\frac{8}{64} = \\frac{19}{64}$. Giá trị $\\frac{27}{64}$ chính là $F(\\frac{3}{2})$, quên trừ $F(1)$.",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 6; slide chuong2BNN, trang 63"
+        },
+        {
+          "id": "c2-15",
+          "hoi": "Tuổi thọ $X$ (giờ) của thiết bị có hàm mật độ $f(x) = \\frac{e^{-x/1000}}{1000}$ với $x > 0$. Xác suất thiết bị có tuổi thọ trên 3000 giờ là bao nhiêu?",
+          "dap_an": [
+            "$e^{-3}$",
+            "$1 - e^{-3}$",
+            "$e^{-1/3}$",
+            "$3e^{-3}$"
+          ],
+          "giai_thich": "$F(x) = 1 - e^{-x/1000}$ nên $P(X > 3000) = 1 - F(3000) = e^{-3} \\approx 0{,}0498$. Biểu thức $1 - e^{-3}$ là $P(X \\le 3000)$, tức nhầm chiều bất đẳng thức.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 7; slide chuong2BNN, trang 68"
+        },
+        {
+          "id": "c2-16",
+          "hoi": "Với tuổi thọ $X$ có hàm mật độ $f(x) = \\frac{e^{-x/1000}}{1000}$, $x > 0$, số giờ $t$ để khoảng 10% thiết bị hỏng trước thời điểm đó gần với giá trị nào nhất?",
+          "dap_an": [
+            "$105{,}36$ giờ",
+            "$100$ giờ",
+            "$2302{,}59$ giờ",
+            "$10{,}54$ giờ"
+          ],
+          "giai_thich": "Giải $F(t) = 0{,}1$, tức $1 - e^{-t/1000} = 0{,}1$, suy ra $t = -1000\\ln(0{,}9) \\approx 105{,}36$ giờ. Giá trị $2302{,}59 = 1000\\ln 10$ ứng với phương trình $e^{-t/1000} = 0{,}1$ (tức 90% hỏng).",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 7; slide chuong2BNN, trang 68"
+        },
+        {
+          "id": "c2-17",
+          "hoi": "Thời gian hoàn thành phản ứng hóa học (mili-giây) có hàm phân phối $F(x) = 1 - e^{-0{,}01x}$ với $x \\ge 0$ (và 0 khi $x < 0$). Xác suất phản ứng hoàn thành trong vòng 200 mili-giây gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}8647$",
+            "$0{,}1353$",
+            "$0{,}0135$",
+            "$0{,}9802$"
+          ],
+          "giai_thich": "$P(X \\le 200) = F(200) = 1 - e^{-2} \\approx 0{,}8647$. Giá trị $0{,}1353 = e^{-2}$ là $P(X > 200)$; $0{,}0135$ là mật độ $f(200) = 0{,}01e^{-2}$ chứ không phải xác suất; $0{,}9802 = 1 - e^{-0{,}02}$ do nhầm tích $0{,}01 \\cdot 2$.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 8; slide chuong2BNN, trang 71"
+        },
+        {
+          "id": "c2-18",
+          "hoi": "Hộp có 10 viên bi: 3 viên đỏ nặng 10 g, 5 viên trắng nặng 50 g, 2 viên xanh nặng 20 g. Chọn ngẫu nhiên 1 viên, $X$ là khối lượng. Kỳ vọng $E(X)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$32$ g",
+            "$26{,}67$ g",
+            "$50$ g",
+            "$80$ g"
+          ],
+          "giai_thich": "$E(X) = 10 \\cdot 0{,}3 + 50 \\cdot 0{,}5 + 20 \\cdot 0{,}2 = 3 + 25 + 4 = 32$ g (trung bình theo xác suất). Giá trị $26{,}67$ là trung bình cộng ba khối lượng khi bỏ qua xác suất; $50$ g là mode.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 9; slide chuong2BNN, trang 74"
+        },
+        {
+          "id": "c2-19",
+          "hoi": "Biến ngẫu nhiên $X$ có hàm mật độ $f(x) = 2x$ với $x \\in [0, 1]$ và bằng 0 nơi khác. Kỳ vọng $E(X)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{2}{3}$",
+            "$\\frac{1}{2}$",
+            "$1$",
+            "$\\frac{1}{3}$"
+          ],
+          "giai_thich": "$E(X) = \\int_{0}^{1} x \\cdot 2x\\,dx = 2 \\cdot \\frac{x^3}{3}\\Big|_0^1 = \\frac{2}{3}$. Giá trị $\\frac{1}{2}$ là trung điểm của $[0, 1]$, chỉ đúng khi mật độ đều; ở đây mật độ lớn hơn ở gần 1 nên kỳ vọng lệch về phía 1.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 10; slide chuong2BNN, trang 76"
+        },
+        {
+          "id": "c2-20",
+          "hoi": "Biến ngẫu nhiên $X$ nhận giá trị 1, 2, 3 với xác suất $0{,}3$; $0{,}4$; $0{,}3$. Phương sai $\\mathrm{Var}(X)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}6$",
+            "$4{,}6$",
+            "$2$",
+            "$0{,}4$"
+          ],
+          "giai_thich": "$E(X) = 2$ và $E(X^2) = 1 \\cdot 0{,}3 + 4 \\cdot 0{,}4 + 9 \\cdot 0{,}3 = 4{,}6$ nên $\\mathrm{Var}(X) = 4{,}6 - 2^2 = 0{,}6$. Giá trị $4{,}6$ là $E(X^2)$, quên trừ $[E(X)]^2$.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần II, Ví dụ 12; slide chuong2BNN, trang 95"
+        },
+        {
+          "id": "c2-21",
+          "hoi": "Biết $\\mathrm{Var}(X) = 5$. Phương sai $\\mathrm{Var}(2X + 3)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$20$",
+            "$10$",
+            "$13$",
+            "$23$"
+          ],
+          "giai_thich": "Theo tính chất, $\\mathrm{Var}(cX + d) = c^2\\mathrm{Var}(X)$ (hằng số cộng thêm không đổi phương sai) nên $\\mathrm{Var}(2X + 3) = 4 \\cdot 5 = 20$. Giá trị $10$ quên bình phương hệ số, $13$ và $23$ cộng nhầm hằng số.",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, mục 5 (Đặc trưng số, tính chất phương sai); slide chuong2BNN, trang 90"
+        },
+        {
+          "id": "c2-22",
+          "hoi": "Hai biến ngẫu nhiên độc lập $X$, $Y$ có $\\mathrm{Var}(X) = 3$ và $\\mathrm{Var}(Y) = 2$. Phương sai $\\mathrm{Var}(X - Y)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$5$",
+            "$1$",
+            "$7$",
+            "$13$"
+          ],
+          "giai_thich": "Với $X$, $Y$ độc lập, $\\mathrm{Var}(X - Y) = \\mathrm{Var}(X) + \\mathrm{Var}(Y) = 5$, vì $\\mathrm{Var}(-Y) = (-1)^2\\mathrm{Var}(Y)$. Phương sai không bao giờ trừ nhau, nên $1$ là sai.",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, mục 5 (Đặc trưng số, tính chất phương sai); slide chuong2BNN, trang 90"
+        },
+        {
+          "id": "c2-23",
+          "hoi": "Một người Mỹ 25 tuổi sống thêm trên 1 năm với xác suất $0{,}992$ và chết trong năm tới với xác suất $0{,}008$. Công ty bảo hiểm thu phí 100 USD, nếu người đó chết thì chi trả 10 000 USD. Công ty lãi trung bình bao nhiêu USD?",
+          "dap_an": [
+            "$20$",
+            "$99{,}2$",
+            "$79{,}2$",
+            "$100$"
+          ],
+          "giai_thich": "Lãi $Y = 100$ (xác suất $0{,}992$) hoặc $Y = 100 - 10000 = -9900$ (xác suất $0{,}008$). $E(Y) = 100 \\cdot 0{,}992 - 9900 \\cdot 0{,}008 = 99{,}2 - 79{,}2 = 20$ USD. Giá trị $79{,}2$ chính là kỳ vọng tiền chi trả; $100$ là phí.",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, Phần III, Bài 2; slide chuong2BNN, trang 102"
+        },
+        {
+          "id": "c2-24",
+          "hoi": "Thợ chép tranh làm hai bức độc lập $A$ và $B$ mỗi tuần, xác suất hỏng lần lượt $0{,}03$ và $0{,}05$. Bức $A$ thành công lời 1,3 triệu, hỏng lỗ 0,8 triệu; bức $B$ thành công lời 0,9 triệu, hỏng lỗ 0,6 triệu. Trung bình mỗi tuần thợ kiếm được bao nhiêu triệu đồng?",
+          "dap_an": [
+            "$2{,}062$",
+            "$2{,}116$",
+            "$2{,}200$",
+            "$1{,}237$"
+          ],
+          "giai_thich": "$E(X_A) = 1{,}3 \\cdot 0{,}97 - 0{,}8 \\cdot 0{,}03 = 1{,}237$ và $E(X_B) = 0{,}9 \\cdot 0{,}95 - 0{,}6 \\cdot 0{,}05 = 0{,}825$. Kỳ vọng cộng được nên $E = 1{,}237 + 0{,}825 = 2{,}062$. Giá trị $2{,}116$ bỏ qua khoản lỗ; $1{,}237$ chỉ tính bức $A$.",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, Phần III, Bài 3; slide chuong2BNN, trang 103"
+        },
+        {
+          "id": "c2-25",
+          "hoi": "Tuổi thọ $X$ (năm) có hàm phân phối $F(x) = 1 - e^{-\\lambda x}$ với $x > 0$ và $\\lambda = 0{,}013$. Phương sai $\\mathrm{Var}(X)$ gần với giá trị nào nhất?",
+          "dap_an": [
+            "$5917$",
+            "$77$",
+            "$0{,}013$",
+            "$0{,}000169$"
+          ],
+          "giai_thich": "Đây là phân phối mũ: $\\mathrm{Var}(X) = \\frac{1}{\\lambda^2} = \\frac{1}{0{,}013^2} \\approx 5917$. Giá trị $77$ là kỳ vọng $\\frac{1}{\\lambda} \\approx 76{,}92$ (cũng là độ lệch chuẩn).",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần III, Bài 4; slide chuong2BNN, trang 104"
+        },
+        {
+          "id": "c2-26",
+          "hoi": "Cho $X$ có hàm phân phối $F(x) = 0$ khi $x < 0$; $F(x) = \\frac{x^2}{4}$ khi $0 \\le x < 2$; $F(x) = 1$ khi $x \\ge 2$. Trung vị $\\mathrm{Med}(X)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$\\sqrt{2}$",
+            "$1$",
+            "$2$",
+            "$\\frac{4}{3}$"
+          ],
+          "giai_thich": "Trung vị $m$ thỏa $F(m) = \\frac{1}{2}$, tức $\\frac{m^2}{4} = \\frac{1}{2}$, $m = \\sqrt{2} \\approx 1{,}414$. Giá trị $1$ là trung điểm của đoạn $[0, 2]$; $2$ là mode; $\\frac{4}{3}$ là kỳ vọng $E(X)$.",
+          "kho": true,
+          "nguon": "TT Chương 2 BNN, Phần III, Bài 6; slide chuong2BNN, trang 106"
+        },
+        {
+          "id": "c2-27",
+          "hoi": "Với hàm phân phối $F(x) = \\frac{x^2}{4}$ trên $[0, 2)$ ($F = 0$ khi $x < 0$ và $F = 1$ khi $x \\ge 2$), xác suất $P(X \\ge 1{,}5)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{7}{16}$",
+            "$\\frac{9}{16}$",
+            "$\\frac{3}{4}$",
+            "$\\frac{1}{16}$"
+          ],
+          "giai_thich": "$P(X \\ge 1{,}5) = 1 - F(1{,}5) = 1 - \\frac{2{,}25}{4} = 1 - \\frac{9}{16} = \\frac{7}{16}$. Giá trị $\\frac{9}{16}$ chính là $F(1{,}5) = P(X \\le 1{,}5)$.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần III, Bài 6; slide chuong2BNN, trang 106"
+        },
+        {
+          "id": "c2-28",
+          "hoi": "Hàm mật độ $f(x) = \\frac{x}{2}$ trên $[0, 2]$ (và bằng 0 nơi khác). Mode của $X$ bằng bao nhiêu?",
+          "dap_an": [
+            "$2$",
+            "$0$",
+            "$1$",
+            "$\\sqrt{2}$"
+          ],
+          "giai_thich": "Mode là điểm làm $f(x)$ cực đại. Vì $f(x) = \\frac{x}{2}$ tăng trên $[0, 2]$ nên cực đại tại $x = 2$. Giá trị $\\sqrt{2}$ là trung vị.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần III, Bài 6; slide chuong2BNN, trang 106"
+        },
+        {
+          "id": "c2-29",
+          "hoi": "BNN rời rạc $X$ nhận các giá trị $a$; $0{,}1$; $0{,}3$; $0{,}4$; $2$ với xác suất $0{,}3$; $0{,}2$; $0{,}2$; $b$; $0{,}1$. Giá trị $b$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}2$",
+            "$0{,}3$",
+            "$0{,}1$",
+            "$0{,}4$"
+          ],
+          "giai_thich": "Tổng các xác suất phải bằng 1: $0{,}3 + 0{,}2 + 0{,}2 + b + 0{,}1 = 1$ nên $b = 0{,}2$. Từ $E(X) = 0{,}3$ còn suy ra $a = -0{,}2$.",
+          "kho": false,
+          "nguon": "TT Chương 2 BNN, Phần III, Bài 1; slide chuong2BNN, trang 101"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Chương 2 PP - Các phân phối xác suất thường dùng",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Một người bắn lần lượt 7 viên đạn độc lập vào một mục tiêu, xác suất trúng mỗi viên đều là $p$. Số viên trúng $X$ có phân phối nào?",
+          "dap_an": [
+            "Nhị thức $B(7, p)$",
+            "Bernoulli $B(1, p)$",
+            "Poisson $P(7p)$",
+            "Đều $U[0, 7]$"
+          ],
+          "giai_thich": "Đây là 7 phép thử Bernoulli độc lập cùng xác suất thành công $p$, nên số lần thành công có phân phối nhị thức $B(7, p)$. Phân phối Bernoulli chỉ dùng cho một phép thử.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 1 (Bernoulli và Nhị thức); slide chuong2PP, trang 13"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Kiểm tra ngẫu nhiên một sản phẩm, xác suất gặp sản phẩm tốt là $0{,}9$. Đặt $X = 1$ nếu sản phẩm tốt và $X = 0$ nếu sản phẩm xấu. Phương sai $\\mathrm{Var}(X)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}09$",
+            "$0{,}9$",
+            "$0{,}81$",
+            "$0{,}1$"
+          ],
+          "giai_thich": "$X \\sim B(1; 0{,}9)$ nên $\\mathrm{Var}(X) = pq = 0{,}9 \\cdot 0{,}1 = 0{,}09$. Giá trị $0{,}9$ là kỳ vọng $E(X) = p$.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 1 (Bernoulli); slide chuong2PP, trang 9"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Một bài thi có 60 câu trắc nghiệm, mỗi câu 5 đáp án chỉ một đúng, học sinh đánh ngẫu nhiên. Phương sai của số câu trả lời đúng bằng bao nhiêu?",
+          "dap_an": [
+            "$9{,}6$",
+            "$12$",
+            "$48$",
+            "$7{,}2$"
+          ],
+          "giai_thich": "Số câu đúng $X \\sim B(60; 0{,}2)$ nên $\\mathrm{Var}(X) = npq = 60 \\cdot 0{,}2 \\cdot 0{,}8 = 9{,}6$. Giá trị $12$ là kỳ vọng $np$; $48$ là $nq$.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 3; slide chuong2PP, trang 18"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Tại một địa phương 20% dân số mắc bệnh A. Chọn ngẫu nhiên 8 người. Biểu thức nào cho xác suất có đúng 3 người mắc bệnh A?",
+          "dap_an": [
+            "$\\binom{8}{3}(0{,}2)^3(0{,}8)^5$",
+            "$\\binom{8}{3}(0{,}8)^3(0{,}2)^5$",
+            "$(0{,}2)^3(0{,}8)^5$",
+            "$\\binom{8}{3}(0{,}2)^3(0{,}8)^3$"
+          ],
+          "giai_thich": "$X \\sim B(8; 0{,}2)$ và $P(X = 3) = \\binom{8}{3}(0{,}2)^3(0{,}8)^5 \\approx 0{,}1468$. Mũ của $p$ là số lần thành công (3), mũ của $q$ là số lần thất bại ($8 - 3 = 5$); phải có hệ số tổ hợp vì 3 người bệnh có thể ở bất kỳ vị trí nào.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 1; slide chuong2PP, trang 15"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Tỷ lệ vi mạch không đạt chất lượng là 5%. Kiểm tra ngẫu nhiên 15 vi mạch, xác suất có ít nhất 1 vi mạch không đạt gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}537$",
+            "$0{,}463$",
+            "$0{,}750$",
+            "$0{,}050$"
+          ],
+          "giai_thich": "Dùng biến cố đối: $P(X \\ge 1) = 1 - P(X = 0) = 1 - 0{,}95^{15} \\approx 0{,}537$. Giá trị $0{,}463 = 0{,}95^{15}$ là xác suất không có vi mạch nào hỏng; $0{,}750 = 15 \\cdot 0{,}05$ là kỳ vọng số vi mạch hỏng chứ không phải xác suất.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 2; slide chuong2PP, trang 16"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "Kiện hàng có 10 sản phẩm gồm 3 phế phẩm. Khách lấy ngẫu nhiên 2 sản phẩm để kiểm tra và chỉ nhận kiện nếu cả hai đều tốt. Xác suất một kiện được nhận là bao nhiêu?",
+          "dap_an": [
+            "$\\frac{7}{15}$",
+            "$\\frac{49}{100}$",
+            "$\\frac{7}{10}$",
+            "$\\frac{8}{15}$"
+          ],
+          "giai_thich": "Lấy 2 sản phẩm cùng lúc (không hoàn lại): $p = \\frac{\\binom{7}{2}}{\\binom{10}{2}} = \\frac{21}{45} = \\frac{7}{15}$. Giá trị $\\frac{49}{100} = 0{,}7^2$ ứng với lấy có hoàn lại; $\\frac{8}{15}$ là xác suất kiện bị trả lại.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 4; slide chuong2PP, trang 19"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Số cuộc gọi đến tổng đài trong 1 giờ có phân phối Poisson với $\\lambda = 10$. Biểu thức nào cho xác suất có đúng 5 cuộc gọi trong 30 phút?",
+          "dap_an": [
+            "$\\frac{e^{-5}5^{5}}{5!}$",
+            "$\\frac{e^{-10}10^{5}}{5!}$",
+            "$\\frac{e^{-20}20^{5}}{5!}$",
+            "$\\frac{e^{-5}5^{10}}{10!}$"
+          ],
+          "giai_thich": "Tham số Poisson tỉ lệ với độ dài khoảng thời gian: 30 phút ứng với $\\lambda = 5$, nên $P(X = 5) = \\frac{e^{-5}5^5}{5!} \\approx 0{,}1755$. Biểu thức với $\\lambda = 10$ quên đổi thời gian; $\\lambda = 20$ ứng với 2 giờ.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 8; slide chuong2PP, trang 39"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Số lỗi in trong một trang sách có phân phối Poisson với $\\lambda = 0{,}5$. Xác suất trang đó có ít nhất một lỗi in gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}393$",
+            "$0{,}607$",
+            "$0{,}500$",
+            "$0{,}303$"
+          ],
+          "giai_thich": "$P(X \\ge 1) = 1 - P(X = 0) = 1 - e^{-0{,}5} \\approx 0{,}393$. Giá trị $0{,}607 = e^{-0{,}5}$ là xác suất không có lỗi nào; $0{,}303 = 0{,}5e^{-0{,}5}$ là $P(X = 1)$.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 7; slide chuong2PP, trang 38"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Số cuộc gọi đến tổng đài trong 1 giờ có phân phối Poisson với $\\lambda = 10$. Xác suất có nhiều nhất 3 cuộc gọi trong 1 giờ gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}0103$",
+            "$0{,}0076$",
+            "$0{,}0028$",
+            "$0{,}0293$"
+          ],
+          "giai_thich": "\"Nhiều nhất 3\" nghĩa là $P(X \\le 3) = e^{-10}(1 + 10 + 50 + \\frac{1000}{6}) \\approx 0{,}0103$. Giá trị $0{,}0076$ chỉ là $P(X = 3)$; $0{,}0028$ là $P(X \\le 2)$; $0{,}0293$ là $P(X \\le 4)$.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 8; slide chuong2PP, trang 39"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Trường hợp nào sau đây xấp xỉ tốt phân phối nhị thức $B(n, p)$ bằng phân phối Poisson theo điều kiện thực hành trong slide ($n \\ge 100$, $p \\le 0{,}01$, $np \\le 20$)?",
+          "dap_an": [
+            "$n = 2000$ và $p = 0{,}001$",
+            "$n = 50$ và $p = 0{,}1$",
+            "$n = 200$ và $p = 0{,}4$",
+            "$n = 100$ và $p = 0{,}5$"
+          ],
+          "giai_thich": "Chỉ cặp $n = 2000$, $p = 0{,}001$ thỏa cả ba điều kiện ($np = 2$). Các cặp còn lại có $p$ quá lớn; khi đó $np \\ge 5$ và $n(1-p) \\ge 5$ nên dùng xấp xỉ chuẩn thay vì Poisson.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 3 (Xấp xỉ Nhị thức bằng Poisson); slide chuong2PP, trang 42"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Trong lô thuốc có tỷ lệ hỏng $p = 0{,}002$, kiểm tra 1000 ống và dùng xấp xỉ Poisson cho số ống hỏng. Tham số $\\lambda$ bằng bao nhiêu?",
+          "dap_an": [
+            "$2$",
+            "$3$",
+            "$1000$",
+            "$0{,}002$"
+          ],
+          "giai_thich": "Xấp xỉ Poisson dùng $\\lambda = np = 1000 \\cdot 0{,}002 = 2$ (số ống hỏng trung bình). Khi đó $P(X = 3) \\approx \\frac{e^{-2}2^3}{3!} \\approx 0{,}1804$.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 9; slide chuong2PP, trang 44"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Xác suất một trẻ phản ứng với thuốc sau tiêm là $0{,}001$, tiêm cho 2000 trẻ. Dùng xấp xỉ Poisson, xác suất có nhiều nhất 2 trẻ phản ứng bằng bao nhiêu?",
+          "dap_an": [
+            "$5e^{-2}$",
+            "$3e^{-2}$",
+            "$2e^{-2}$",
+            "$4e^{-2}$"
+          ],
+          "giai_thich": "Với $\\lambda = np = 2$: $P(X \\le 2) = e^{-2}(1 + 2 + \\frac{2^2}{2}) = 5e^{-2} \\approx 0{,}677$. Biểu thức $3e^{-2}$ là $P(X \\le 1)$; $2e^{-2}$ chỉ là $P(X = 1)$.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 10; slide chuong2PP, trang 45"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "Biến ngẫu nhiên $X \\sim U[5, 25]$. Phương sai $\\mathrm{Var}(X)$ gần với giá trị nào nhất?",
+          "dap_an": [
+            "$33{,}33$",
+            "$100$",
+            "$400$",
+            "$5{,}77$"
+          ],
+          "giai_thich": "Với phân phối đều, $\\mathrm{Var}(X) = \\frac{(b - a)^2}{12} = \\frac{20^2}{12} \\approx 33{,}33$. Giá trị $400 = (b - a)^2$ quên chia 12; $5{,}77 \\approx \\sqrt{33{,}33}$ là độ lệch chuẩn.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 4 (Phân phối đều); slide chuong2PP, trang 47"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "Biến ngẫu nhiên $X$ có hàm mật độ $f(x) = \\frac{1}{20}$ trên $[5, 25]$ và bằng 0 nơi khác. Xác suất $P(|X - 10| > 2{,}5)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}75$",
+            "$0{,}25$",
+            "$0{,}125$",
+            "$0{,}625$"
+          ],
+          "giai_thich": "$|X - 10| > 2{,}5$ nghĩa là $X < 7{,}5$ hoặc $X > 12{,}5$. Do đó $P = \\frac{7{,}5 - 5}{20} + \\frac{25 - 12{,}5}{20} = 0{,}125 + 0{,}625 = 0{,}75$. Giá trị $0{,}25$ là xác suất của biến cố ngược lại $P(7{,}5 \\le X \\le 12{,}5)$.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 11; slide chuong2PP, trang 48"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "Khách đến quầy dịch vụ với tỷ lệ 15 người mỗi giờ. Thời gian trung bình giữa hai khách liên tiếp (theo phân phối mũ) bằng bao nhiêu?",
+          "dap_an": [
+            "$\\frac{1}{15}$ giờ, tức 4 phút",
+            "$15$ giờ",
+            "$\\frac{1}{15}$ phút",
+            "$\\frac{1}{225}$ giờ"
+          ],
+          "giai_thich": "Thời gian giữa hai khách có phân phối mũ tham số $\\lambda = 15$ mỗi giờ nên $E(T) = \\frac{1}{\\lambda} = \\frac{1}{15}$ giờ $= 4$ phút. Giá trị $\\frac{1}{225}$ giờ là $\\frac{1}{\\lambda^2}$, phương sai chứ không phải kỳ vọng.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 5 (Phân phối mũ), Ví dụ 14; slide chuong2PP, trang 56"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Khách đến quầy với tỷ lệ 15 người mỗi giờ. Xác suất thời gian giữa hai khách liên tiếp ít hơn 3 phút gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}528$",
+            "$0{,}472$",
+            "$0{,}950$",
+            "$0{,}750$"
+          ],
+          "giai_thich": "Đổi 3 phút $= 0{,}05$ giờ, $\\lambda t = 15 \\cdot 0{,}05 = 0{,}75$, nên $P(T < 0{,}05) = 1 - e^{-0{,}75} \\approx 0{,}528$. Giá trị $0{,}472 = e^{-0{,}75}$ là $P(T > 3 \\text{ phút})$; $0{,}950 = 1 - e^{-3}$ do dùng $t = 3$ mà không đổi sang giờ.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 14; slide chuong2PP, trang 56"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Tuổi thọ của một mạch điện có phân phối mũ với trung bình 6,25 năm, thời gian bảo hành 5 năm. Tỷ lệ sản phẩm phải bảo hành gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}551$",
+            "$0{,}449$",
+            "$0{,}800$",
+            "$0{,}160$"
+          ],
+          "giai_thich": "Từ $E(T) = \\frac{1}{\\lambda} = 6{,}25$ suy ra $\\lambda = 0{,}16$. Phải bảo hành khi hỏng trong 5 năm: $P(T \\le 5) = 1 - e^{-0{,}16 \\cdot 5} = 1 - e^{-0{,}8} \\approx 0{,}551$. Giá trị $0{,}449 = e^{-0{,}8}$ là tỉ lệ không phải bảo hành.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 15; slide chuong2PP, trang 56"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Số người đăng nhập vào mạng trong 1 giờ có phân phối Poisson với trung bình 25. Xác suất lần đăng nhập kế tiếp cách lần đăng nhập đầu từ 2 đến 3 phút gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}148$",
+            "$0{,}714$",
+            "$0{,}435$",
+            "$0{,}287$"
+          ],
+          "giai_thich": "Thời gian giữa hai lần đăng nhập là mũ với $\\lambda = 25$ mỗi giờ. Đổi 2 phút $= \\frac{1}{30}$ giờ và 3 phút $= \\frac{1}{20}$ giờ: $P = F(\\frac{1}{20}) - F(\\frac{1}{30}) = e^{-5/6} - e^{-5/4} \\approx 0{,}4346 - 0{,}2865 = 0{,}148$. Giá trị $0{,}714$ là $P(T \\le 3 \\text{ phút})$, $0{,}435$ là $P(T > 2 \\text{ phút})$, $0{,}287$ là $P(T > 3 \\text{ phút})$.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 13; slide chuong2PP, trang 54"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "Biến ngẫu nhiên $X \\sim N(10, 4)$. Độ lệch chuẩn của $X$ bằng bao nhiêu?",
+          "dap_an": [
+            "$2$",
+            "$4$",
+            "$16$",
+            "$10$"
+          ],
+          "giai_thich": "Với ký hiệu $N(\\mu, \\sigma^2)$, tham số thứ hai là phương sai $\\sigma^2 = 4$ nên độ lệch chuẩn $\\sigma = 2$. Giá trị $10$ là kỳ vọng.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 6 (Phân phối chuẩn); slide chuong2PP, trang 57"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "Cho $X \\sim N(10, 4)$. Xác suất $P(X < 13)$ gần với giá trị nào nhất?",
+          "dap_an": [
+            "$0{,}9332$",
+            "$0{,}7734$",
+            "$0{,}9987$",
+            "$0{,}6915$"
+          ],
+          "giai_thich": "Chuẩn hóa với $\\sigma = 2$: $P(X < 13) = \\Phi(\\frac{13 - 10}{2}) = \\Phi(1{,}5) \\approx 0{,}9332$. Giá trị $0{,}7734 = \\Phi(0{,}75)$ do lấy $\\sigma = 4$; $0{,}9987 = \\Phi(3)$ do quên chia cho $\\sigma$.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 16; slide chuong2PP, trang 74"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Cho $X \\sim N(10, 4)$ và $Y = 3X - 2$. Phân phối của $Y$ là gì?",
+          "dap_an": [
+            "$N(28, 36)$",
+            "$N(28, 12)$",
+            "$N(28, 34)$",
+            "$N(28, 6)$"
+          ],
+          "giai_thich": "Với $Y = aX + b$, $Y \\sim N(a\\mu + b, a^2\\sigma^2)$. Ở đây $a\\mu + b = 3 \\cdot 10 - 2 = 28$ và $a^2\\sigma^2 = 9 \\cdot 4 = 36$. Hệ số $a$ phải được bình phương khi tính phương sai, và hằng số $b$ không ảnh hưởng đến phương sai.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, mục 6 (Phân phối chuẩn, tính tuyến tính); slide chuong2PP, trang 65"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Hai biến ngẫu nhiên độc lập $X \\sim N(1, 4)$ và $Y \\sim N(2, 9)$. Phân phối của $X - Y$ là gì?",
+          "dap_an": [
+            "$N(-1, 13)$",
+            "$N(-1, 5)$",
+            "$N(3, 13)$",
+            "$N(-1, 25)$"
+          ],
+          "giai_thich": "Với $X$, $Y$ độc lập chuẩn, $X - Y$ chuẩn với kỳ vọng $1 - 2 = -1$ và phương sai $4 + 9 = 13$ (phương sai luôn cộng, hệ số $-1$ được bình phương). Giá trị $25 = (2 + 3)^2$ do cộng độ lệch chuẩn thay vì cộng phương sai.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 6 (Phân phối chuẩn, tổng độc lập); slide chuong2PP, trang 66"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Với $X \\sim N(\\mu, \\sigma^2)$, xác suất $P(|X - \\mu| \\le 3\\sigma)$ xấp xỉ bao nhiêu (quy tắc 3-sigma)?",
+          "dap_an": [
+            "$0{,}9973$",
+            "$0{,}9545$",
+            "$0{,}6827$",
+            "$0{,}9500$"
+          ],
+          "giai_thich": "Quy tắc $k$-sigma: $P(|X - \\mu| \\le k\\sigma) = 2\\Phi(k) - 1$. Với $k = 3$ cho $2\\Phi(3) - 1 \\approx 0{,}9973$. Giá trị $0{,}9545$ ứng với $k = 2$ và $0{,}6827$ ứng với $k = 1$.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 7 (Chuẩn hóa, quy tắc k-sigma); slide chuong2PP, trang 72"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Cho $Z \\sim N(0, 1)$ và biết $\\Phi(1{,}5) \\approx 0{,}9332$. Xác suất $P(Z \\le -1{,}5)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$0{,}0668$",
+            "$0{,}9332$",
+            "$0{,}9668$",
+            "$0{,}1332$"
+          ],
+          "giai_thich": "Do đối xứng, $\\Phi(-z) = 1 - \\Phi(z)$ nên $P(Z \\le -1{,}5) = 1 - 0{,}9332 = 0{,}0668$. Giá trị $0{,}9332$ là $P(Z \\le 1{,}5)$.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 7 (Chuẩn hóa); slide chuong2PP, trang 72"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Cho $X \\sim N(10, 4)$. Giá trị $x$ thỏa $P(X < x) = 0{,}95$ gần với giá trị nào nhất (biết $\\Phi(1{,}645) = 0{,}95$)?",
+          "dap_an": [
+            "$13{,}29$",
+            "$11{,}65$",
+            "$13{,}92$",
+            "$15{,}29$"
+          ],
+          "giai_thich": "$\\frac{x - 10}{2} = 1{,}645$ nên $x = 10 + 2 \\cdot 1{,}645 = 13{,}29$. Giá trị $11{,}65$ quên nhân với $\\sigma = 2$; $13{,}92 = 10 + 2 \\cdot 1{,}96$ dùng nhầm phân vị mức $0{,}975$.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 17; slide chuong2PP, trang 75"
+        },
+        {
+          "id": "c3-26",
+          "hoi": "Cho $X \\sim N(10, 4)$. Giá trị $x$ thỏa $P(x < X < 10) = 0{,}2$ gần với giá trị nào nhất?",
+          "dap_an": [
+            "$8{,}95$",
+            "$11{,}05$",
+            "$8{,}32$",
+            "$9{,}80$"
+          ],
+          "giai_thich": "$P(x < X < 10) = 0{,}5 - \\Phi(\\frac{x - 10}{2}) = 0{,}2$ nên $\\Phi(\\frac{x - 10}{2}) = 0{,}3 < 0{,}5$, do đó $\\frac{x - 10}{2} \\approx -0{,}524$ (âm) và $x \\approx 8{,}95$. Giá trị $11{,}05$ lấy dấu dương, $8{,}32$ ứng với $\\Phi = 0{,}2$.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 17; slide chuong2PP, trang 75"
+        },
+        {
+          "id": "c3-27",
+          "hoi": "Cho $X \\sim N(10, 4)$. Giá trị $x$ thỏa $P(-x < X - 10 < x) = 0{,}95$ gần với giá trị nào nhất?",
+          "dap_an": [
+            "$3{,}92$",
+            "$1{,}96$",
+            "$7{,}84$",
+            "$3{,}29$"
+          ],
+          "giai_thich": "$P(|X - 10| < x) = 2\\Phi(\\frac{x}{2}) - 1 = 0{,}95$ nên $\\Phi(\\frac{x}{2}) = 0{,}975$, $\\frac{x}{2} = 1{,}96$, $x = 3{,}92$. Giá trị $1{,}96$ quên nhân với $\\sigma = 2$; $7{,}84$ nhân $\\sigma$ hai lần.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 17; slide chuong2PP, trang 75"
+        },
+        {
+          "id": "c3-28",
+          "hoi": "Điều kiện nào được dùng trong slide để xấp xỉ nhị thức $B(n, p)$ bằng phân phối chuẩn?",
+          "dap_an": [
+            "$np \\ge 5$ và $n(1 - p) \\ge 5$",
+            "$n \\ge 100$, $p \\le 0{,}01$ và $np \\le 20$",
+            "$n \\ge 30$ và $p = 0{,}5$",
+            "$np \\le 5$ và $n(1 - p) \\le 5$"
+          ],
+          "giai_thich": "Xấp xỉ chuẩn cần cả $np \\ge 5$ và $n(1 - p) \\ge 5$ (hai đuôi đều đủ dày). Điều kiện $n \\ge 100$, $p \\le 0{,}01$, $np \\le 20$ là của xấp xỉ Poisson.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 8 (CLT và xấp xỉ Nhị thức bằng Chuẩn); slide chuong2PP, trang 80"
+        },
+        {
+          "id": "c3-29",
+          "hoi": "Với $X \\sim B(n, p)$ và $n$ lớn, xác suất $P(X \\ge a)$ được xấp xỉ bằng công thức nào (có hiệu chỉnh liên tục)?",
+          "dap_an": [
+            "$1 - \\Phi\\left(\\frac{a - 0{,}5 - np}{\\sqrt{npq}}\\right)$",
+            "$1 - \\Phi\\left(\\frac{a + 0{,}5 - np}{\\sqrt{npq}}\\right)$",
+            "$\\Phi\\left(\\frac{a - 0{,}5 - np}{\\sqrt{npq}}\\right)$",
+            "$1 - \\Phi\\left(\\frac{a - 0{,}5 - np}{npq}\\right)$"
+          ],
+          "giai_thich": "$P(X \\ge a) = P(X \\ge a - 0{,}5) \\approx 1 - \\Phi\\left(\\frac{a - 0{,}5 - np}{\\sqrt{npq}}\\right)$: hiệu chỉnh trừ 0,5 vì $X \\ge a$ gồm cả điểm $a$. Phải chia cho độ lệch chuẩn $\\sqrt{npq}$ chứ không phải phương sai, và phải lấy phần bù $1 - \\Phi$.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, mục 8 (CLT, hiệu chỉnh ±0,5); slide chuong2PP, trang 80"
+        },
+        {
+          "id": "c3-30",
+          "hoi": "Với $X \\sim B(200; 0{,}4)$, cận dưới của $P(76 \\le X \\le 120)$ sau khi hiệu chỉnh liên tục và chuẩn hóa cho giá trị $z$ bằng bao nhiêu?",
+          "dap_an": [
+            "$z \\approx -0{,}65$",
+            "$z \\approx -0{,}58$",
+            "$z \\approx -0{,}51$",
+            "$z \\approx -0{,}09$"
+          ],
+          "giai_thich": "Có $np = 80$ và $\\sqrt{npq} = \\sqrt{48} \\approx 6{,}93$. Cận dưới $76$ được hiệu chỉnh thành $75{,}5$ nên $z = \\frac{75{,}5 - 80}{6{,}93} \\approx -0{,}65$. Giá trị $-0{,}58$ quên hiệu chỉnh, $-0{,}51$ hiệu chỉnh ngược chiều ($76{,}5$), $-0{,}09$ chia cho phương sai $48$ thay vì căn.",
+          "kho": true,
+          "nguon": "TT Chương 2 PP, Phần II, Ví dụ 20; slide chuong2PP, trang 83"
+        },
+        {
+          "id": "c3-31",
+          "hoi": "Biến ngẫu nhiên $T$ có phân phối mũ với $\\lambda = 0{,}5$. Phương sai $\\mathrm{Var}(T)$ bằng bao nhiêu?",
+          "dap_an": [
+            "$4$",
+            "$2$",
+            "$0{,}5$",
+            "$0{,}25$"
+          ],
+          "giai_thich": "Với $T \\sim \\exp(\\lambda)$, $\\mathrm{Var}(T) = \\frac{1}{\\lambda^2} = \\frac{1}{0{,}25} = 4$. Giá trị $2 = \\frac{1}{\\lambda}$ là kỳ vọng; ở phân phối Poisson mới có $\\mathrm{Var} = \\lambda$.",
+          "kho": false,
+          "nguon": "TT Chương 2 PP, mục 5 (Phân phối mũ); slide chuong2PP, trang 53"
+        }
+      ]
+    }
+  ]
+}

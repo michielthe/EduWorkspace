@@ -1,6 +1,5 @@
-Cập nhật 2026-11-07 21:50 - Vi sinh: thêm chương Thực tập
-- du-lieu/vi-sinh.json: thêm "Chương Thực tập - Vi sinh cơ sở" (56 câu, 16 câu khó); tổng 337 câu. Các câu cũ không đổi.
-- du-lieu/danh-sach-mon.json: thêm tài liệu "Thực tập - Vi sinh cơ sở" vào môn Vi sinh.
-- tai-lieu/vi-sinh/tt-thuc-tap-vi-sinh-co-so.pdf: file tóm tắt mới.
-- giao-dien/app.js: chương Thực tập hiện nhãn "TT" và tên gọn đúng.
+Cập nhật 2026-11-08 23:10 - Hóa đại cương 2: thêm chương 1, 2, 3
+- du-lieu/hoa-dai-cuong-2.json: thêm 76 câu (Chương 1: 25, Chương 2: 22, Chương 3: 29); tổng 154 câu. Câu cũ (chương 4-6) không đổi.
+- du-lieu/danh-sach-mon.json: thêm 3 tài liệu tóm tắt chương 1-3 cho Hóa đại cương 2 (file này đã gồm đủ 10 môn).
+- tai-lieu/hoa-dai-cuong-2/: 3 file PDF tóm tắt chương 1, 2, 3.
 Đưa nội dung thư mục này lên GitHub (giữ nguyên cấu trúc), đợi 1-2 phút rồi Ctrl+F5.

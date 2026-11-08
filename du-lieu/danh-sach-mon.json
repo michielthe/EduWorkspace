@@ -228,6 +228,21 @@
       "file_cau_hoi": "du-lieu/hoa-dai-cuong-2.json",
       "tai_lieu": [
         {
+          "ten": "Chương 1 - Nhiệt hóa học",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-01-nhiet-hoa-hoc.pdf"
+        },
+        {
+          "ten": "Chương 2 - Entropy và năng lượng tự do Gibbs",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-02-entropy-va-nang-luong-tu-do-gibbs.pdf"
+        },
+        {
+          "ten": "Chương 3 - Động hóa học",
+          "loai": "Tóm tắt",
+          "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-03-dong-hoa-hoc.pdf"
+        },
+        {
           "ten": "Chương 4 - Cân bằng hóa học",
           "loai": "Tóm tắt",
           "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-04-can-bang-hoa-hoc.pdf"

@@ -1,8 +1,1017 @@
 {
   "mon": "Hóa đại cương 2",
   "ma_mon": "hoa-dai-cuong-2",
-  "phien_ban": 1,
+  "phien_ban": 2,
   "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Chương 1 - Nhiệt hóa học",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Hệ kín (closed system) là hệ",
+          "dap_an": [
+            "trao đổi năng lượng với môi trường nhưng không trao đổi chất",
+            "không trao đổi cả chất lẫn năng lượng với môi trường",
+            "trao đổi cả chất lẫn năng lượng với môi trường",
+            "trao đổi chất với môi trường nhưng không trao đổi năng lượng"
+          ],
+          "giai_thich": "Hệ hở trao đổi cả chất và năng lượng; hệ kín chỉ trao đổi năng lượng; hệ cô lập không trao đổi gì.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.1; slide Chương 1, trang 14"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Đại lượng nào sau đây là hàm trạng thái?",
+          "dap_an": [
+            "Nội năng $U$",
+            "Công $w$",
+            "Nhiệt $q$",
+            "Công giãn nở $-P\\Delta V$ theo đường đi"
+          ],
+          "giai_thich": "Hàm trạng thái chỉ phụ thuộc trạng thái đầu và cuối; nhiệt và công phụ thuộc đường đi nên không phải hàm trạng thái.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.1; slide Chương 1, trang 25"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Cặp thuộc tính nào sau đây đều là thuộc tính cường độ?",
+          "dap_an": [
+            "Nhiệt độ và áp suất",
+            "Khối lượng và thể tích",
+            "Nội năng và entropy",
+            "Thể tích và nhiệt độ"
+          ],
+          "giai_thich": "Thuộc tính cường độ không phụ thuộc lượng chất (nhiệt độ, áp suất, nồng độ, tỷ trọng); khối lượng, thể tích, nội năng, entropy là khuếch độ.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.1; slide Chương 1, trang 26"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Một khí bị nén (nhận công $150\\ \\mathrm{J}$) và tỏa ra môi trường $400\\ \\mathrm{J}$ nhiệt. Biến thiên nội năng $\\Delta U$ của khí là",
+          "dap_an": [
+            "$-250\\ \\mathrm{J}$",
+            "$550\\ \\mathrm{J}$",
+            "$-550\\ \\mathrm{J}$",
+            "$250\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "$w = +150\\ \\mathrm{J}$ (hệ nhận công), $q = -400\\ \\mathrm{J}$ (hệ tỏa nhiệt); $\\Delta U = q + w = -400 + 150 = -250\\ \\mathrm{J}$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3; slide Chương 1, trang 43"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Nhiệt cần để đun $250\\ \\mathrm{g}$ nước từ $20\\ ^\\circ\\mathrm{C}$ lên $85\\ ^\\circ\\mathrm{C}$ ($c = 4{,}18\\ \\mathrm{J\\,g^{-1}\\,{}^\\circ C^{-1}}$) là",
+          "dap_an": [
+            "$67{,}9\\ \\mathrm{kJ}$",
+            "$88{,}8\\ \\mathrm{kJ}$",
+            "$110\\ \\mathrm{kJ}$",
+            "$20{,}9\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$q = mc\\Delta T = 250 \\times 4{,}18 \\times (85 - 20) = 67925\\ \\mathrm{J} \\approx 67{,}9\\ \\mathrm{kJ}$. Dùng $T_{f}$ thay cho $\\Delta T$ là sai.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2; slide Chương 1, trang 32"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Nhiệt cần để đưa $2{,}5\\ \\mathrm{kg}$ thủy ngân lỏng từ $-20{,}0\\ ^\\circ\\mathrm{C}$ lên $-6{,}0\\ ^\\circ\\mathrm{C}$ (nhiệt dung mol $28{,}0\\ \\mathrm{J\\,mol^{-1}\\,{}^\\circ C^{-1}}$, $M = 200{,}59\\ \\mathrm{g/mol}$) gần nhất với",
+          "dap_an": [
+            "$4{,}89\\ \\mathrm{kJ}$",
+            "$980\\ \\mathrm{kJ}$",
+            "$4886\\ \\mathrm{kJ}$",
+            "$0{,}392\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$n = 2500/200{,}59 = 12{,}46\\ \\mathrm{mol}$; $q = nC\\Delta T = 12{,}46 \\times 28{,}0 \\times 14{,}0 = 4886\\ \\mathrm{J} \\approx 4{,}89\\ \\mathrm{kJ}$. Nhiệt dung mol phải nhân với số mol, không phải khối lượng (g).",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.2; slide Chương 1, trang 38"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Thả $100\\ \\mathrm{g}$ đồng ($c = 0{,}38$) ở $95\\ ^\\circ\\mathrm{C}$ vào $200\\ \\mathrm{g}$ nước ($c = 4{,}18$) ở $20\\ ^\\circ\\mathrm{C}$ trong nhiệt lượng kế lý tưởng (đơn vị $\\mathrm{J\\,g^{-1}\\,{}^\\circ C^{-1}}$). Nhiệt độ cân bằng gần nhất là",
+          "dap_an": [
+            "$23{,}3\\ \\mathrm{^\\circ C}$",
+            "$57{,}5\\ \\mathrm{^\\circ C}$",
+            "$45\\ \\mathrm{^\\circ C}$",
+            "$31{,}5\\ \\mathrm{^\\circ C}$"
+          ],
+          "giai_thich": "$m_{Cu}c_{Cu}(95 - T) = m_{w}c_{w}(T - 20)$ cho $T = (200 \\times 4{,}18 \\times 20 + 100 \\times 0{,}38 \\times 95)/(200 \\times 4{,}18 + 100 \\times 0{,}38) \\approx 23{,}3$ độ C. Phải có trọng số $mc$ (nhiệt dung) của từng chất.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.2; slide Chương 1, trang 38"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Ở áp suất không đổi (chỉ có công giãn nở), nhiệt trao đổi của hệ với môi trường bằng",
+          "dap_an": [
+            "biến thiên enthalpy $\\Delta H$",
+            "biến thiên nội năng $\\Delta U$",
+            "biến thiên năng lượng tự do $\\Delta G$",
+            "công $w$ do hệ thực hiện"
+          ],
+          "giai_thich": "$q_p = \\Delta U + P\\Delta V = \\Delta H$. Còn $q_v = \\Delta U$ ở thể tích không đổi.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3.2; slide Chương 1, trang 48"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Nhiệt đo được trong bom nhiệt lượng kế (thể tích không đổi) bằng",
+          "dap_an": [
+            "biến thiên nội năng $\\Delta U$",
+            "biến thiên enthalpy $\\Delta H$",
+            "biến thiên năng lượng tự do $\\Delta G$",
+            "công giãn nở của hệ $w$"
+          ],
+          "giai_thich": "Thể tích không đổi nên $w = -P\\Delta V = 0$, do đó $q_v = \\Delta U$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4.2; slide Chương 1, trang 59"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Phản ứng $2\\mathrm{H_2(k)} + \\mathrm{O_2(k)} \\to 2\\mathrm{H_2O(l)}$ có $\\Delta H = -571{,}6\\ \\mathrm{kJ}$ ở $298{,}15\\ \\mathrm{K}$. Biến thiên nội năng $\\Delta U$ gần nhất là",
+          "dap_an": [
+            "$-564{,}2\\ \\mathrm{kJ}$",
+            "$-579\\ \\mathrm{kJ}$",
+            "$-569{,}1\\ \\mathrm{kJ}$",
+            "$-571{,}6\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$\\Delta n_{g} = 0 - 3 = -3$; $\\Delta U = \\Delta H - \\Delta n RT = -571{,}6 + 3 \\times 8{,}314 \\times 298{,}15/1000 \\approx -564{,}2\\ \\mathrm{kJ}$.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4.7; slide Chương 1, trang 75"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Với phản ứng nào sau đây thì $\\Delta U = \\Delta H$ (ở cùng nhiệt độ)?",
+          "dap_an": [
+            "Phản ứng có $\\Delta n_{g} = 0$",
+            "Phản ứng có $\\Delta n_{g} > 0$",
+            "Phản ứng tỏa nhiệt bất kỳ",
+            "Phản ứng thực hiện ở $298\\ \\mathrm{K}$"
+          ],
+          "giai_thich": "$\\Delta H = \\Delta U + \\Delta n_{g}RT$, nên hai đại lượng bằng nhau khi $\\Delta n_{g} = 0$ (hoặc chỉ có pha lỏng, rắn thì xấp xỉ bằng nhau).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4.7; slide Chương 1, trang 75"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Một mol khí lý tưởng giãn nở đẳng nhiệt thuận nghịch ở $300\\ \\mathrm{K}$ từ $10{,}0\\ \\mathrm{L}$ đến $20{,}0\\ \\mathrm{L}$. Công $w$ của hệ là",
+          "dap_an": [
+            "$-1729\\ \\mathrm{J}$",
+            "$1729\\ \\mathrm{J}$",
+            "$-751\\ \\mathrm{J}$",
+            "$-3458\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "Đẳng nhiệt: $\\Delta U = 0$ và $w = -nRT\\ln(V_2/V_1) = -8{,}314 \\times 300 \\times \\ln 2 \\approx -1729\\ \\mathrm{J}$ (hệ sinh công nên $w < 0$, $q = -w > 0$).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3.2; slide Chương 1, trang 49"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Một khí giãn nở đoạn nhiệt và sinh công $300\\ \\mathrm{J}$. Biến thiên nội năng của khí là",
+          "dap_an": [
+            "$-300\\ \\mathrm{J}$",
+            "$300\\ \\mathrm{J}$",
+            "$0\\ \\mathrm{J}$",
+            "$-600\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "Đoạn nhiệt: $q = 0$ nên $\\Delta U = w$. Hệ sinh công thì $w = -300\\ \\mathrm{J}$, do đó nội năng giảm.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3.2; slide Chương 1, trang 51"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Ở $298\\ \\mathrm{K}$, chất nào sau đây có sinh nhiệt mol chuẩn $\\Delta H^\\circ_f$ bằng $0$?",
+          "dap_an": [
+            "$\\mathrm{Br_2(l)}$",
+            "$\\mathrm{Br_2(k)}$",
+            "$\\mathrm{C}$ (kim cương)",
+            "$\\mathrm{O_3(k)}$"
+          ],
+          "giai_thich": "Sinh nhiệt chuẩn bằng 0 với đơn chất ở dạng bền nhất ở điều kiện chuẩn: brom bền nhất ở dạng lỏng. Brom khí, kim cương (so với graphite) và ozon (so với $\\mathrm{O_2}$) đều có $\\Delta H^\\circ_f \\neq 0$.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4.4; slide Chương 1, trang 66"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Biết $\\mathrm{C(r)} + \\mathrm{O_2(k)} \\to \\mathrm{CO_2(k)}$ có $\\Delta H = -393{,}5\\ \\mathrm{kJ}$ và $\\mathrm{CO(k)} + \\tfrac{1}{2}\\mathrm{O_2(k)} \\to \\mathrm{CO_2(k)}$ có $\\Delta H = -283{,}0\\ \\mathrm{kJ}$. $\\Delta H$ của $\\mathrm{C(r)} + \\tfrac{1}{2}\\mathrm{O_2(k)} \\to \\mathrm{CO(k)}$ là",
+          "dap_an": [
+            "$-110{,}5\\ \\mathrm{kJ}$",
+            "$110{,}5\\ \\mathrm{kJ}$",
+            "$-676{,}5\\ \\mathrm{kJ}$",
+            "$676{,}5\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "Lấy phương trình thứ nhất trừ phương trình thứ hai: $\\Delta H = -393{,}5 - (-283{,}0) = -110{,}5\\ \\mathrm{kJ}$ (đảo chiều phương trình thì đổi dấu $\\Delta H$).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4.3; slide Chương 1, trang 64"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Cho $\\Delta H^\\circ_f$ ($\\mathrm{kJ/mol}$): $\\mathrm{C_3H_8(k)}$ $-103{,}85$; $\\mathrm{CO_2(k)}$ $-393{,}5$; $\\mathrm{H_2O(l)}$ $-285{,}8$. $\\Delta H^\\circ$ của $\\mathrm{C_3H_8(k)} + 5\\mathrm{O_2(k)} \\to 3\\mathrm{CO_2(k)} + 4\\mathrm{H_2O(l)}$ là",
+          "dap_an": [
+            "$-2219{,}85\\ \\mathrm{kJ}$",
+            "$2219{,}85\\ \\mathrm{kJ}$",
+            "$-2427{,}55\\ \\mathrm{kJ}$",
+            "$-575{,}45\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$\\Delta H^\\circ = \\sum \\Delta H^\\circ_f(sp) - \\sum \\Delta H^\\circ_f(tc) = [3(-393{,}5) + 4(-285{,}8)] - (-103{,}85) = -2219{,}85\\ \\mathrm{kJ}$ ($\\mathrm{O_2}$ là đơn chất nên bằng $0$).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4.4; slide Chương 1, trang 67"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Cho năng lượng liên kết ($\\mathrm{kJ/mol}$): $\\mathrm{C-H}$ $413$; $\\mathrm{Cl-Cl}$ $243$; $\\mathrm{C-Cl}$ $346$; $\\mathrm{H-Cl}$ $432$. $\\Delta H$ của $\\mathrm{CH_3CH_3} + \\mathrm{Cl_2} \\to \\mathrm{CH_3CH_2Cl} + \\mathrm{HCl}$ là",
+          "dap_an": [
+            "$-122\\ \\mathrm{kJ}$",
+            "$122\\ \\mathrm{kJ}$",
+            "$1434\\ \\mathrm{kJ}$",
+            "$-189\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$\\Delta H = \\sum E(\\mathrm{break}) - \\sum E(\\mathrm{form}) = (413 + 243) - (346 + 432) = -122\\ \\mathrm{kJ}$. Đứt liên kết thu nhiệt (cộng), tạo liên kết tỏa nhiệt (trừ).",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4.6; slide Chương 1, trang 72"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Đốt $1{,}013\\ \\mathrm{g}$ vanillin ($M = 152{,}15\\ \\mathrm{g/mol}$) trong nhiệt lượng kế có $C = 4{,}90\\ \\mathrm{kJ/{}^\\circ C}$, nhiệt độ tăng từ $24{,}89$ lên $30{,}09\\ ^\\circ\\mathrm{C}$. Nhiệt đốt cháy của vanillin gần nhất là",
+          "dap_an": [
+            "$-3827\\ \\mathrm{kJ/mol}$",
+            "$-25{,}5\\ \\mathrm{kJ/mol}$",
+            "$3827\\ \\mathrm{kJ/mol}$",
+            "$-0{,}17\\ \\mathrm{kJ/mol}$"
+          ],
+          "giai_thich": "$q = C\\Delta T = 4{,}90 \\times 5{,}20 = 25{,}5\\ \\mathrm{kJ}$ cho $n = 1{,}013/152{,}15 = 6{,}66 \\cdot 10^{-3}\\ \\mathrm{mol}$; $\\Delta H_c = -q/n \\approx -3827\\ \\mathrm{kJ/mol}$ (tỏa nhiệt nên âm; phải quy về 1 mol).",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.4.5; slide Chương 1, trang 70"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Oxy hóa $0{,}326\\ \\mathrm{mol}$ chất A trong nhiệt lượng kế ($C_{nlk} = 9{,}96\\ \\mathrm{kJ/{}^\\circ C}$), nhiệt độ tăng từ $25{,}30$ lên $34{,}52\\ ^\\circ\\mathrm{C}$. Nhiệt phản ứng tính cho $1\\ \\mathrm{mol}$ A là",
+          "dap_an": [
+            "$-282\\ \\mathrm{kJ/mol}$",
+            "$-91{,}8\\ \\mathrm{kJ/mol}$",
+            "$282\\ \\mathrm{kJ/mol}$",
+            "$-29{,}9\\ \\mathrm{kJ/mol}$"
+          ],
+          "giai_thich": "$q_{rxn} = -C_{nlk}\\Delta T = -9{,}96 \\times 9{,}22 = -91{,}8\\ \\mathrm{kJ}$ cho $0{,}326\\ \\mathrm{mol}$, tức $-91{,}8/0{,}326 \\approx -282\\ \\mathrm{kJ/mol}$ (nhiệt tỏa ra nên âm).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4.2; slide Chương 1, trang 60"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Một khí lý tưởng bị pit-tông nén và đồng thời tỏa nhiệt ra môi trường. Dấu của $w$ và $q$ đối với khí lần lượt là",
+          "dap_an": [
+            "$w > 0$ và $q < 0$",
+            "$w < 0$ và $q < 0$",
+            "$w > 0$ và $q > 0$",
+            "$w < 0$ và $q > 0$"
+          ],
+          "giai_thich": "Quy ước theo hệ: hệ nhận công thì $w > 0$ (khí bị nén); hệ tỏa nhiệt thì $q < 0$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.2.4; slide Chương 1, trang 35"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Phát biểu nào sau đây về thiêu nhiệt (nhiệt đốt cháy) chuẩn là đúng?",
+          "dap_an": [
+            "Luôn âm, và $\\mathrm{CO_2}$, $\\mathrm{H_2O}$ có thiêu nhiệt bằng $0$",
+            "Luôn dương vì đốt cháy phải cung cấp nhiệt ban đầu",
+            "Của $\\mathrm{CO_2(k)}$ bằng sinh nhiệt chuẩn của nó",
+            "Có thể dương hoặc âm tùy theo từng chất"
+          ],
+          "giai_thich": "Thiêu nhiệt là enthalpy khi 1 mol chất cháy hoàn toàn; luôn âm. Sản phẩm cuối của sự cháy ($\\mathrm{CO_2}$, $\\mathrm{H_2O}$) không cháy tiếp nên thiêu nhiệt bằng $0$.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4.5; slide Chương 1, trang 69"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Quá trình nào sau đây có $\\Delta H > 0$?",
+          "dap_an": [
+            "$\\mathrm{I_2(r)} \\to \\mathrm{I_2(k)}$",
+            "$\\mathrm{H_2O(k)} \\to \\mathrm{H_2O(l)}$",
+            "$\\mathrm{H_2O(l)} \\to \\mathrm{H_2O(r)}$",
+            "$\\mathrm{CH_4(k)} + 2\\mathrm{O_2(k)} \\to \\mathrm{CO_2(k)} + 2\\mathrm{H_2O(l)}$"
+          ],
+          "giai_thich": "Rắn $\\to$ lỏng $\\to$ hơi đều thu nhiệt ($\\Delta H > 0$): thăng hoa $\\mathrm{I_2}$ thu $62{,}24\\ \\mathrm{kJ/mol}$. Ngưng tụ, đông đặc và cháy đều tỏa nhiệt.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4.6; slide Chương 1, trang 73"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Một mol khí lý tưởng có $C_v = 2{,}5R$ được đun nóng đẳng áp từ $300\\ \\mathrm{K}$ lên $400\\ \\mathrm{K}$. Nhiệt $q$ hệ nhận là",
+          "dap_an": [
+            "$2910\\ \\mathrm{J}$",
+            "$2078\\ \\mathrm{J}$",
+            "$831\\ \\mathrm{J}$",
+            "$3741\\ \\mathrm{J}$"
+          ],
+          "giai_thich": "Đẳng áp: $q_p = \\Delta H = nC_p\\Delta T$ với $C_p = C_v + R = 3{,}5R$; $q = 3{,}5 \\times 8{,}314 \\times 100 \\approx 2910\\ \\mathrm{J}$. Dùng $C_v$ chỉ cho $\\Delta U$.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1.3.2; slide Chương 1, trang 52"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Một mol khí giãn nở thuận nghịch đẳng áp $1\\ \\mathrm{atm}$ từ $20\\ \\mathrm{dm^3}$ đến $40\\ \\mathrm{dm^3}$ ($1\\ \\mathrm{L\\cdot atm} = 101{,}3\\ \\mathrm{J}$). Công $w$ là",
+          "dap_an": [
+            "$-2{,}03\\ \\mathrm{kJ}$",
+            "$2{,}03\\ \\mathrm{kJ}$",
+            "$-20{,}3\\ \\mathrm{kJ}$",
+            "$-4{,}05\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$w = -P\\Delta V = -1 \\times (40 - 20) = -20\\ \\mathrm{L\\cdot atm} \\approx -2{,}03\\ \\mathrm{kJ}$ (hệ sinh công nên âm).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.3.2; slide Chương 1, trang 52"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Biết $\\mathrm{N_2} + \\mathrm{O_2} \\to 2\\mathrm{NO}$ có $\\Delta H = +180{,}5\\ \\mathrm{kJ}$ và $2\\mathrm{NO} + \\mathrm{O_2} \\to 2\\mathrm{NO_2}$ có $\\Delta H = -114{,}1\\ \\mathrm{kJ}$. $\\Delta H$ của $\\mathrm{N_2} + 2\\mathrm{O_2} \\to 2\\mathrm{NO_2}$ là",
+          "dap_an": [
+            "$66{,}4\\ \\mathrm{kJ}$",
+            "$294{,}6\\ \\mathrm{kJ}$",
+            "$-66{,}4\\ \\mathrm{kJ}$",
+            "$-294{,}6\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "Cộng hai phương trình thì $\\mathrm{NO}$ triệt tiêu: $\\Delta H = 180{,}5 + (-114{,}1) = +66{,}4\\ \\mathrm{kJ}$ (phản ứng thu nhiệt).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1.4.3; slide Chương 1, trang 63"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "nhom": "Bài giảng",
+      "ten": "Chương 2 - Entropy và năng lượng tự do Gibbs",
+      "cau": [
+        {
+          "id": "c2-01",
+          "hoi": "Entropy của tinh thể hoàn hảo ở $0\\ \\mathrm{K}$ bằng không vì",
+          "dap_an": [
+            "chỉ có một cách sắp xếp duy nhất các hạt, $W = 1$",
+            "các hạt chuyển động tịnh tiến rất nhanh, $W = 0$",
+            "năng lượng của hệ ở $0\\ \\mathrm{K}$ luôn bằng không",
+            "mọi tinh thể đều có enthalpy bằng không"
+          ],
+          "giai_thich": "Theo $S = k\\ln W$, với $W = 1$ thì $S = 0$. Đây là nguyên lý III nhiệt động học.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1; slide Chương 2, trang 17"
+        },
+        {
+          "id": "c2-02",
+          "hoi": "Phản ứng nào sau đây có $\\Delta S^\\circ < 0$?",
+          "dap_an": [
+            "$\\mathrm{N_2(k)} + 3\\mathrm{H_2(k)} \\to 2\\mathrm{NH_3(k)}$",
+            "$2\\mathrm{O_3(k)} \\to 3\\mathrm{O_2(k)}$",
+            "$\\mathrm{CaCO_3(r)} \\to \\mathrm{CaO(r)} + \\mathrm{CO_2(k)}$",
+            "$\\mathrm{H_2O(l)} \\to \\mathrm{H_2O(k)}$"
+          ],
+          "giai_thich": "Số mol khí giảm từ $4$ xuống $2$ nên mức độ hỗn loạn giảm, $\\Delta S^\\circ < 0$. Ba phản ứng còn lại làm tăng số mol khí hoặc chuyển lỏng thành khí.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3; slide Chương 2, trang 18"
+        },
+        {
+          "id": "c2-03",
+          "hoi": "Ở $298\\ \\mathrm{K}$ và $1\\ \\mathrm{bar}$, chất nào sau đây có entropy mol chuẩn $S^\\circ$ lớn nhất?",
+          "dap_an": [
+            "$\\mathrm{CO_2(k)}$",
+            "$\\mathrm{H_2O(l)}$",
+            "$\\mathrm{NaCl(r)}$",
+            "$\\mathrm{C}$ (kim cương)"
+          ],
+          "giai_thich": "Khí có $S^\\circ$ lớn hơn lỏng và rắn rất nhiều ($\\mathrm{CO_2}$ khoảng $214\\ \\mathrm{J/mol\\,K}$, $\\mathrm{H_2O(l)}$ khoảng $70$, $\\mathrm{NaCl}$ khoảng $72$, kim cương khoảng $2{,}4$).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.3; slide Chương 2, trang 18"
+        },
+        {
+          "id": "c2-04",
+          "hoi": "Quá trình $\\mathrm{H_2O(r)} \\to \\mathrm{H_2O(l)}$ có $\\Delta S_{sys} = 22{,}1\\ \\mathrm{J/K}$ và hệ nhận $6{,}00\\ \\mathrm{kJ}$ nhiệt từ môi trường. $\\Delta S_{univ}$ ở $+10{,}00\\ ^\\circ\\mathrm{C}$ gần nhất là",
+          "dap_an": [
+            "$0{,}91\\ \\mathrm{J/K}$",
+            "$-0{,}91\\ \\mathrm{J/K}$",
+            "$43{,}3\\ \\mathrm{J/K}$",
+            "$-578\\ \\mathrm{J/K}$"
+          ],
+          "giai_thich": "$\\Delta S_{mt} = -q/T = -6000/283{,}15 = -21{,}19\\ \\mathrm{J/K}$; $\\Delta S_{univ} = 22{,}1 + (-21{,}19) \\approx 0{,}91\\ \\mathrm{J/K} > 0$ nên quá trình tự xảy ra.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.2; slide Chương 2, trang 15"
+        },
+        {
+          "id": "c2-05",
+          "hoi": "Với quá trình băng tan trong câu trên ($\\Delta S_{sys} = 22{,}1\\ \\mathrm{J/K}$, hệ nhận $6{,}00\\ \\mathrm{kJ}$), ở $-10{,}00\\ ^\\circ\\mathrm{C}$ ta kết luận",
+          "dap_an": [
+            "không tự xảy ra vì $\\Delta S_{univ} < 0$",
+            "tự xảy ra vì $\\Delta S_{sys} > 0$",
+            "tự xảy ra vì $\\Delta S_{univ} > 0$",
+            "ở cân bằng vì $\\Delta S_{univ} = 0$"
+          ],
+          "giai_thich": "$\\Delta S_{mt} = -6000/263{,}15 = -22{,}8\\ \\mathrm{J/K}$ nên $\\Delta S_{univ} = 22{,}1 - 22{,}8 \\approx -0{,}7\\ \\mathrm{J/K} < 0$: nước đá không tự tan ở nhiệt độ này.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.2; slide Chương 2, trang 15"
+        },
+        {
+          "id": "c2-06",
+          "hoi": "Một quá trình đẳng nhiệt, đẳng áp tỏa $50{,}0\\ \\mathrm{kJ}$ nhiệt cho môi trường ở $298\\ \\mathrm{K}$. $\\Delta S_{mt}$ là",
+          "dap_an": [
+            "$168\\ \\mathrm{J/K}$",
+            "$-168\\ \\mathrm{J/K}$",
+            "$0{,}168\\ \\mathrm{J/K}$",
+            "$1{,}49 \\cdot 10^{7}\\ \\mathrm{J/K}$"
+          ],
+          "giai_thich": "$\\Delta S_{mt} = q_{mt}/T = +50\\,000/298 \\approx 168\\ \\mathrm{J/K}$ (môi trường nhận nhiệt nên entropy tăng).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.2; slide Chương 2, trang 21"
+        },
+        {
+          "id": "c2-07",
+          "hoi": "Chuyển $1$ mol nước đá nóng chảy ở $273{,}15\\ \\mathrm{K}$ ($\\Delta H_{fus} = 6{,}01\\ \\mathrm{kJ/mol}$). $\\Delta S$ của quá trình là",
+          "dap_an": [
+            "$22\\ \\mathrm{J/K}$",
+            "$0{,}022\\ \\mathrm{J/K}$",
+            "$1{,}64 \\cdot 10^{6}\\ \\mathrm{J/K}$",
+            "$16{,}1\\ \\mathrm{J/K}$"
+          ],
+          "giai_thich": "Chuyển pha thuận nghịch: $\\Delta S = \\Delta H/T = 6010/273{,}15 \\approx 22\\ \\mathrm{J/K}$ (đổi $\\mathrm{kJ}$ sang $\\mathrm{J}$ trước khi chia).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1; slide Chương 2, trang 12"
+        },
+        {
+          "id": "c2-08",
+          "hoi": "Cho $S^\\circ$ ($\\mathrm{J/mol\\,K}$): $\\mathrm{N_2}$ $191{,}6$; $\\mathrm{H_2}$ $130{,}7$; $\\mathrm{NH_3}$ $192{,}5$. $\\Delta S^\\circ$ của $\\mathrm{N_2} + 3\\mathrm{H_2} \\to 2\\mathrm{NH_3}$ là",
+          "dap_an": [
+            "$-198{,}7\\ \\mathrm{J/K}$",
+            "$198{,}7\\ \\mathrm{J/K}$",
+            "$-129{,}8\\ \\mathrm{J/K}$",
+            "$62{,}7\\ \\mathrm{J/K}$"
+          ],
+          "giai_thich": "$\\Delta S^\\circ = 2(192{,}5) - [191{,}6 + 3(130{,}7)] = 385{,}0 - 583{,}7 = -198{,}7\\ \\mathrm{J/K}$. Phải nhân hệ số tỉ lượng cho từng chất.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.3; slide Chương 2, trang 19"
+        },
+        {
+          "id": "c2-09",
+          "hoi": "Với $\\Delta H^\\circ = -92{,}2\\ \\mathrm{kJ}$ và $\\Delta S^\\circ = -198{,}7\\ \\mathrm{J/K}$ của phản ứng tổng hợp $\\mathrm{NH_3}$, $\\Delta G^\\circ$ ở $298{,}15\\ \\mathrm{K}$ gần nhất là",
+          "dap_an": [
+            "$-33\\ \\mathrm{kJ}$",
+            "$-151\\ \\mathrm{kJ}$",
+            "$33\\ \\mathrm{kJ}$",
+            "$59150\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ = -92{,}2 - 298{,}15 \\times (-0{,}1987) \\approx -33\\ \\mathrm{kJ}$. Phải đổi $\\Delta S$ sang $\\mathrm{kJ/K}$ và giữ đúng dấu của $-T\\Delta S$.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4; slide Chương 2, trang 22"
+        },
+        {
+          "id": "c2-10",
+          "hoi": "Phản ứng tổng hợp $\\mathrm{NH_3}$ có $\\Delta H^\\circ = -92{,}2\\ \\mathrm{kJ}$, $\\Delta S^\\circ = -198{,}7\\ \\mathrm{J/K}$. Nhiệt độ mà tại đó $\\Delta G^\\circ = 0$ là",
+          "dap_an": [
+            "$464\\ \\mathrm{K}$",
+            "$0{,}464\\ \\mathrm{K}$",
+            "$191\\ \\mathrm{K}$",
+            "$298\\ \\mathrm{K}$"
+          ],
+          "giai_thich": "$T^* = \\Delta H/\\Delta S = (-92200)/(-198{,}7) \\approx 464\\ \\mathrm{K}$. Vì $\\Delta H, \\Delta S < 0$ nên phản ứng tự xảy ra ở $T < T^*$.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.4; slide Chương 2, trang 24"
+        },
+        {
+          "id": "c2-11",
+          "hoi": "Phản ứng có $\\Delta H < 0$ và $\\Delta S < 0$ sẽ",
+          "dap_an": [
+            "tự xảy ra ở nhiệt độ thấp, không tự xảy ra ở nhiệt độ cao",
+            "tự xảy ra ở mọi nhiệt độ vì phản ứng này tỏa nhiệt ra ngoài",
+            "tự xảy ra ở nhiệt độ cao, không tự xảy ra ở nhiệt độ thấp",
+            "không tự xảy ra ở bất kỳ nhiệt độ nào vì entropy giảm đi"
+          ],
+          "giai_thich": "$\\Delta G = \\Delta H - T\\Delta S$ với $\\Delta H < 0$ và $-T\\Delta S > 0$: ở $T$ thấp số hạng $\\Delta H$ chi phối nên $\\Delta G < 0$, ở $T$ cao $-T\\Delta S$ chi phối nên $\\Delta G > 0$ (ví dụ $\\mathrm{CaO + CO_2 \\to CaCO_3}$).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4; slide Chương 2, trang 24"
+        },
+        {
+          "id": "c2-12",
+          "hoi": "Phản ứng $\\mathrm{CaCO_3(r)} \\to \\mathrm{CaO(r)} + \\mathrm{CO_2(k)}$ có $\\Delta H^\\circ = +178{,}3\\ \\mathrm{kJ}$ và $\\Delta S^\\circ = +160{,}5\\ \\mathrm{J/K}$. Nhiệt độ tối thiểu để phản ứng tự xảy ra là",
+          "dap_an": [
+            "$1111\\ \\mathrm{K}$",
+            "$1{,}11\\ \\mathrm{K}$",
+            "$838\\ \\mathrm{K}$",
+            "$2{,}86 \\cdot 10^{7}\\ \\mathrm{K}$"
+          ],
+          "giai_thich": "$\\Delta G < 0$ khi $T > \\Delta H/\\Delta S = 178300/160{,}5 \\approx 1111\\ \\mathrm{K}$ (cả $\\Delta H$ và $\\Delta S$ đều dương nên phản ứng tự xảy ra ở nhiệt độ cao).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4; slide Chương 2, trang 25"
+        },
+        {
+          "id": "c2-13",
+          "hoi": "Một phản ứng có $\\Delta H = +20{,}0\\ \\mathrm{kJ}$ và $\\Delta S = +50{,}0\\ \\mathrm{J/K}$. $\\Delta G$ ở $500\\ \\mathrm{K}$ là",
+          "dap_an": [
+            "$-5\\ \\mathrm{kJ}$",
+            "$45\\ \\mathrm{kJ}$",
+            "$-24980\\ \\mathrm{kJ}$",
+            "$19{,}9\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$\\Delta G = \\Delta H - T\\Delta S = 20{,}0 - 500 \\times 0{,}0500 = -5{,}0\\ \\mathrm{kJ} < 0$ nên phản ứng tự xảy ra ở $500\\ \\mathrm{K}$ (ở $298\\ \\mathrm{K}$ thì $\\Delta G = +5{,}1\\ \\mathrm{kJ}$).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4; slide Chương 2, trang 22"
+        },
+        {
+          "id": "c2-14",
+          "hoi": "Nếu $\\Delta G^\\circ < 0$ thì hằng số cân bằng $K$ của phản ứng",
+          "dap_an": [
+            "lớn hơn $1$",
+            "nhỏ hơn $1$",
+            "bằng $1$",
+            "bằng $0$"
+          ],
+          "giai_thich": "$\\Delta G^\\circ = -RT\\ln K$: $\\Delta G^\\circ < 0$ cho $\\ln K > 0$ nên $K > 1$; $\\Delta G^\\circ = 0$ cho $K = 1$; $\\Delta G^\\circ > 0$ cho $K < 1$.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.5; slide Chương 2, trang 28"
+        },
+        {
+          "id": "c2-15",
+          "hoi": "Với $\\Delta G^\\circ = -33{,}0\\ \\mathrm{kJ}$ ở $298{,}15\\ \\mathrm{K}$, hằng số cân bằng $K$ gần nhất là",
+          "dap_an": [
+            "$5{,}9 \\cdot 10^{5}$",
+            "$1{,}7 \\cdot 10^{-6}$",
+            "$13{,}3$",
+            "$2{,}1 \\cdot 10^{13}$"
+          ],
+          "giai_thich": "$\\ln K = -\\Delta G^\\circ/(RT) = 33000/(8{,}314 \\times 298{,}15) \\approx 13{,}3$ nên $K \\approx 5{,}9 \\cdot 10^{5}$. Nghịch đảo ứng với $\\Delta G^\\circ > 0$; dùng $\\log$ thay $\\ln$ là sai.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.5; slide Chương 2, trang 28"
+        },
+        {
+          "id": "c2-16",
+          "hoi": "Với $\\Delta G^\\circ = -33{,}0\\ \\mathrm{kJ}$ ở $298{,}15\\ \\mathrm{K}$ và thương số phản ứng $Q = 10{,}0$, $\\Delta G$ là",
+          "dap_an": [
+            "$-27{,}2\\ \\mathrm{kJ}$",
+            "$-38{,}7\\ \\mathrm{kJ}$",
+            "$-33\\ \\mathrm{kJ}$",
+            "$5{,}71\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$\\Delta G = \\Delta G^\\circ + RT\\ln Q = -33{,}0 + 8{,}314 \\times 298{,}15 \\times \\ln 10/1000 \\approx -27{,}2\\ \\mathrm{kJ}$. $Q < K$ nên $\\Delta G < 0$, phản ứng đi theo chiều thuận.",
+          "kho": true,
+          "nguon": "TT Chương 2, mục 2.5; slide Chương 2, trang 28"
+        },
+        {
+          "id": "c2-17",
+          "hoi": "Khi một phản ứng hóa học đạt trạng thái cân bằng ở nhiệt độ và áp suất không đổi thì",
+          "dap_an": [
+            "$\\Delta G = 0$ và $Q = K$",
+            "$\\Delta G^\\circ = 0$ và $Q = 1$",
+            "$\\Delta G < 0$ và $Q < K$",
+            "$\\Delta G > 0$ và $Q > K$"
+          ],
+          "giai_thich": "Tại cân bằng $\\Delta G = 0$ và $Q = K$, nên $\\Delta G^\\circ = -RT\\ln K$ (không nhất thiết bằng $0$).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4; slide Chương 2, trang 23"
+        },
+        {
+          "id": "c2-18",
+          "hoi": "Cho $\\Delta G^\\circ_f$ ($\\mathrm{kJ/mol}$): $\\mathrm{SO_2(k)}$ $-300{,}1$; $\\mathrm{SO_3(k)}$ $-371{,}1$. $\\Delta G^\\circ$ của $2\\mathrm{SO_2} + \\mathrm{O_2} \\to 2\\mathrm{SO_3}$ là",
+          "dap_an": [
+            "$-142\\ \\mathrm{kJ}$",
+            "$-71\\ \\mathrm{kJ}$",
+            "$142\\ \\mathrm{kJ}$",
+            "$-1342\\ \\mathrm{kJ}$"
+          ],
+          "giai_thich": "$\\Delta G^\\circ = 2(-371{,}1) - [2(-300{,}1) + 0] = -142{,}0\\ \\mathrm{kJ}$. $\\Delta G^\\circ_f$ của đơn chất $\\mathrm{O_2}$ bằng $0$; cần nhân hệ số tỉ lượng.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.5; slide Chương 2, trang 26"
+        },
+        {
+          "id": "c2-19",
+          "hoi": "Quá trình nào sau đây làm entropy của hệ giảm?",
+          "dap_an": [
+            "Hơi nước ngưng tụ thành nước lỏng",
+            "Đường tan trong nước",
+            "Nước đá nóng chảy",
+            "Khí giãn nở vào chân không"
+          ],
+          "giai_thich": "Ngưng tụ làm các phân tử mất tự do chuyển động nên số vi trạng thái giảm; hòa tan, nóng chảy và giãn nở đều làm tăng entropy.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1; slide Chương 2, trang 16"
+        },
+        {
+          "id": "c2-20",
+          "hoi": "Ở $300\\ \\mathrm{K}$ và áp suất không đổi, một quá trình có $\\Delta G = -30{,}0\\ \\mathrm{kJ}$. $\\Delta S_{univ}$ là",
+          "dap_an": [
+            "$100\\ \\mathrm{J/K}$",
+            "$-100\\ \\mathrm{J/K}$",
+            "$0{,}1\\ \\mathrm{J/K}$",
+            "$9 \\cdot 10^{6}\\ \\mathrm{J/K}$"
+          ],
+          "giai_thich": "$\\Delta G_{sys} = -T\\Delta S_{univ}$ nên $\\Delta S_{univ} = 30000/300 = +100\\ \\mathrm{J/K}$ (dương, phù hợp quá trình tự xảy ra).",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.4; slide Chương 2, trang 22"
+        },
+        {
+          "id": "c2-21",
+          "hoi": "Trong một biến đổi thuận nghịch, biến thiên entropy của vũ trụ",
+          "dap_an": [
+            "bằng $0$",
+            "luôn lớn hơn $0$",
+            "luôn nhỏ hơn $0$",
+            "bằng $\\Delta S_{sys}$ của hệ"
+          ],
+          "giai_thich": "Thuận nghịch: $\\Delta S_{univ} = 0$; bất thuận nghịch (tự xảy ra): $\\Delta S_{univ} > 0$.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.2; slide Chương 2, trang 14"
+        },
+        {
+          "id": "c2-22",
+          "hoi": "Biến thiên entropy khi $1\\ \\mathrm{mol}$ nước hóa hơi ở $373{,}15\\ \\mathrm{K}$ ($\\Delta H_{vap} = 40{,}7\\ \\mathrm{kJ/mol}$) gần nhất là",
+          "dap_an": [
+            "$109\\ \\mathrm{J/K}$",
+            "$0{,}109\\ \\mathrm{J/K}$",
+            "$149\\ \\mathrm{J/K}$",
+            "$1{,}52 \\cdot 10^{7}\\ \\mathrm{J/K}$"
+          ],
+          "giai_thich": "$\\Delta S = \\Delta H_{vap}/T = 40700/373{,}15 \\approx 109\\ \\mathrm{J/K}$, lớn hơn nhiều so với nóng chảy vì khí có nhiều vi trạng thái hơn lỏng.",
+          "kho": false,
+          "nguon": "TT Chương 2, mục 2.1; slide Chương 2, trang 13"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Chương 3 - Động hóa học",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Với phản ứng $a\\mathrm{A} + b\\mathrm{B} \\to c\\mathrm{C} + d\\mathrm{D}$, biểu thức đúng của tốc độ phản ứng $v$ là",
+          "dap_an": [
+            "$v = -\\dfrac{1}{a}\\dfrac{\\Delta[\\mathrm{A}]}{\\Delta t}$",
+            "$v = \\dfrac{1}{a}\\dfrac{\\Delta[\\mathrm{A}]}{\\Delta t}$",
+            "$v = -a\\dfrac{\\Delta[\\mathrm{A}]}{\\Delta t}$",
+            "$v = -\\dfrac{\\Delta[\\mathrm{C}]}{\\Delta t}$"
+          ],
+          "giai_thich": "Tác chất giảm nên có dấu trừ để $v > 0$, và chia cho hệ số tỉ lượng để mọi chất cho cùng một giá trị $v$: $v = -\\dfrac{\\Delta[\\mathrm{A}]}{a\\Delta t} = \\dfrac{\\Delta[\\mathrm{C}]}{c\\Delta t}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 10"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Với $2\\mathrm{O_3} \\to 3\\mathrm{O_2}$, biết $\\Delta[\\mathrm{O_2}]/\\Delta t = 6{,}0 \\cdot 10^{-5}\\ \\mathrm{M/s}$. Tốc độ chuyển hóa của $\\mathrm{O_3}$ ($-\\Delta[\\mathrm{O_3}]/\\Delta t$) là",
+          "dap_an": [
+            "$4 \\cdot 10^{-5}\\ \\mathrm{M/s}$",
+            "$9 \\cdot 10^{-5}\\ \\mathrm{M/s}$",
+            "$6 \\cdot 10^{-5}\\ \\mathrm{M/s}$",
+            "$2 \\cdot 10^{-5}\\ \\mathrm{M/s}$"
+          ],
+          "giai_thich": "$v = \\dfrac{\\Delta[\\mathrm{O_2}]}{3\\Delta t} = -\\dfrac{\\Delta[\\mathrm{O_3}]}{2\\Delta t}$ nên $-\\Delta[\\mathrm{O_3}]/\\Delta t = \\dfrac{2}{3} \\times 6{,}0 \\cdot 10^{-5} = 4{,}0 \\cdot 10^{-5}\\ \\mathrm{M/s}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 8"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Với $2\\mathrm{N_2O_5} \\to 4\\mathrm{NO_2} + \\mathrm{O_2}$, tốc độ phân hủy $\\mathrm{N_2O_5}$ là $4{,}2 \\cdot 10^{-7}\\ \\mathrm{M/s}$. Tốc độ hình thành $\\mathrm{NO_2}$ là",
+          "dap_an": [
+            "$8{,}4 \\cdot 10^{-7}\\ \\mathrm{M/s}$",
+            "$2{,}1 \\cdot 10^{-7}\\ \\mathrm{M/s}$",
+            "$4{,}2 \\cdot 10^{-7}\\ \\mathrm{M/s}$",
+            "$1{,}7 \\cdot 10^{-6}\\ \\mathrm{M/s}$"
+          ],
+          "giai_thich": "$v = 2{,}1 \\cdot 10^{-7}\\ \\mathrm{M/s}$ (chia $4{,}2 \\cdot 10^{-7}$ cho $2$); $\\mathrm{NO_2}$ có hệ số $4$ nên tốc độ hình thành là $4 \\times 2{,}1 \\cdot 10^{-7} = 8{,}4 \\cdot 10^{-7}\\ \\mathrm{M/s}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 9"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Với $\\mathrm{N_2} + \\mathrm{O_2} \\to 2\\mathrm{NO}$, nồng độ $\\mathrm{N_2}$ giảm từ $0{,}500$ xuống $0{,}450\\ \\mathrm{M}$ sau $0{,}100\\ \\mathrm{s}$. Tốc độ hình thành $\\mathrm{NO}$ là",
+          "dap_an": [
+            "$1\\ \\mathrm{M/s}$",
+            "$0{,}5\\ \\mathrm{M/s}$",
+            "$5\\ \\mathrm{M/s}$",
+            "$0{,}25\\ \\mathrm{M/s}$"
+          ],
+          "giai_thich": "$-\\Delta[\\mathrm{N_2}]/\\Delta t = 0{,}050/0{,}100 = 0{,}500\\ \\mathrm{M/s}$; $\\mathrm{NO}$ có hệ số $2$ nên tốc độ hình thành gấp đôi: $1{,}00\\ \\mathrm{M/s}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 11"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Nồng độ $\\mathrm{C_4H_9Cl}$ giảm từ $0{,}1000$ xuống $0{,}0905\\ \\mathrm{M}$ trong $50{,}0\\ \\mathrm{s}$. Tốc độ trung bình trong khoảng này là",
+          "dap_an": [
+            "$1{,}9 \\cdot 10^{-4}\\ \\mathrm{M/s}$",
+            "$9{,}5 \\cdot 10^{-3}\\ \\mathrm{M/s}$",
+            "$5263\\ \\mathrm{M/s}$",
+            "$-1{,}9 \\cdot 10^{-4}\\ \\mathrm{M/s}$"
+          ],
+          "giai_thich": "$v_{tb} = -\\Delta[\\mathrm{C}]/\\Delta t = (0{,}1000 - 0{,}0905)/50{,}0 = 1{,}9 \\cdot 10^{-4}\\ \\mathrm{M/s}$ (dương theo định nghĩa tốc độ).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 5"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "Bậc riêng phần của một phản ứng đối với một tác chất được xác định",
+          "dap_an": [
+            "bằng thực nghiệm, không nhất thiết bằng hệ số tỉ lượng",
+            "bằng hệ số tỉ lượng của tác chất trong phương trình",
+            "bằng tổng hệ số tỉ lượng của các sản phẩm",
+            "bằng số nguyên tử của tác chất trong phân tử"
+          ],
+          "giai_thich": "Bậc phản ứng là số mũ trong phương trình động học và chỉ xác định từ thí nghiệm (trừ phản ứng sơ cấp, khi bậc bằng phân tử số).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 22"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Phản ứng $\\mathrm{BrO_3^-} + 5\\mathrm{Br^-} + 6\\mathrm{H^+} \\to 3\\mathrm{Br_2} + 3\\mathrm{H_2O}$ có $v = k[\\mathrm{BrO_3^-}][\\mathrm{Br^-}][\\mathrm{H^+}]^2$. Bậc chung của phản ứng là",
+          "dap_an": [
+            "$4$",
+            "$3$",
+            "$12$",
+            "$2$"
+          ],
+          "giai_thich": "Bậc chung bằng tổng các số mũ trong phương trình động học: $1 + 1 + 2 = 4$, khác tổng hệ số tỉ lượng ($1 + 5 + 6 = 12$).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 24"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Phản ứng $2\\mathrm{HgCl_2} + \\mathrm{C_2O_4^{2-}} \\to \\ldots$: khi $[\\mathrm{HgCl_2}]$ giữ nguyên $0{,}105\\ \\mathrm{M}$ và $[\\mathrm{C_2O_4^{2-}}]$ tăng từ $0{,}15$ lên $0{,}30\\ \\mathrm{M}$ thì tốc độ đầu tăng $3{,}94$ lần. Bậc riêng đối với $\\mathrm{C_2O_4^{2-}}$ là",
+          "dap_an": [
+            "$2$",
+            "$1$",
+            "$0$",
+            "$4$"
+          ],
+          "giai_thich": "$2^n \\approx 3{,}94 \\approx 4$ nên $n = 2$. Bậc riêng không phải hệ số tỉ lượng ($1$) của $\\mathrm{C_2O_4^{2-}}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 23"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Phản ứng $2\\mathrm{A} + 2\\mathrm{B} + \\mathrm{C} \\to \\mathrm{P}$ có: $[\\mathrm{A}]$ gấp đôi thì $v$ gấp $4$; $[\\mathrm{B}]$ gấp ba thì $v$ gấp ba; $[\\mathrm{C}]$ gấp đôi thì $v$ không đổi. Phương trình động học là",
+          "dap_an": [
+            "$v = k[\\mathrm{A}]^2[\\mathrm{B}]$",
+            "$v = k[\\mathrm{A}]^4[\\mathrm{B}]^3$",
+            "$v = k[\\mathrm{A}][\\mathrm{B}]^3$",
+            "$v = k[\\mathrm{A}]^2[\\mathrm{B}][\\mathrm{C}]^2$"
+          ],
+          "giai_thich": "$2^a = 4$ nên $a = 2$; $3^b = 3$ nên $b = 1$; $C$ không ảnh hưởng nên bậc $0$. Vậy $v = k[\\mathrm{A}]^2[\\mathrm{B}]$ (bậc chung $3$).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 57"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Phản ứng $\\mathrm{A} + \\mathrm{B} \\to \\mathrm{P}$ có $v = k[\\mathrm{A}][\\mathrm{B}]^2$; ở $[\\mathrm{A}] = [\\mathrm{B}] = 0{,}10\\ \\mathrm{M}$ thì $v = 2{,}0 \\cdot 10^{-3}\\ \\mathrm{M/s}$. Tốc độ ở $[\\mathrm{A}] = 0{,}30\\ \\mathrm{M}$ và $[\\mathrm{B}] = 0{,}20\\ \\mathrm{M}$ là",
+          "dap_an": [
+            "$0{,}024\\ \\mathrm{M/s}$",
+            "$0{,}12\\ \\mathrm{M/s}$",
+            "$0{,}036\\ \\mathrm{M/s}$",
+            "$2{,}4 \\cdot 10^{-5}\\ \\mathrm{M/s}$"
+          ],
+          "giai_thich": "$k = v/([\\mathrm{A}][\\mathrm{B}]^2) = 2{,}0 \\cdot 10^{-3}/(0{,}10 \\times 0{,}10^2) = 2{,}0\\ \\mathrm{M^{-2}\\,s^{-1}}$; $v = 2{,}0 \\times 0{,}30 \\times 0{,}20^2 = 0{,}024\\ \\mathrm{M/s}$. Phải giữ đúng bậc $2$ theo $\\mathrm{B}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 21"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Phân hủy $\\mathrm{CS_2}$ bậc $1$ có $k = 2{,}8 \\cdot 10^{-7}\\ \\mathrm{s^{-1}}$ ở $1000\\ ^\\circ\\mathrm{C}$. Thời gian bán hủy là",
+          "dap_an": [
+            "$2{,}5 \\cdot 10^{6}\\ \\mathrm{s}$",
+            "$3{,}6 \\cdot 10^{6}\\ \\mathrm{s}$",
+            "$4 \\cdot 10^{-7}\\ \\mathrm{s}$",
+            "$1{,}8 \\cdot 10^{6}\\ \\mathrm{s}$"
+          ],
+          "giai_thich": "Bậc $1$: $t_{1/2} = \\ln 2/k = 0{,}693/(2{,}8 \\cdot 10^{-7}) \\approx 2{,}5 \\cdot 10^{6}\\ \\mathrm{s}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 29"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Chất A phân hủy bậc $1$ với $k = 0{,}0231\\ \\mathrm{min^{-1}}$. Tỉ lệ $[\\mathrm{A}]/[\\mathrm{A}]_0$ còn lại sau $100\\ \\mathrm{min}$ là",
+          "dap_an": [
+            "$0{,}0993$",
+            "$0{,}0231$",
+            "$0{,}901$",
+            "$0{,}794$"
+          ],
+          "giai_thich": "$\\ln([\\mathrm{A}]/[\\mathrm{A}]_0) = -kt = -0{,}0231 \\times 100 = -2{,}31$ nên tỉ lệ còn lại $= e^{-2{,}31} \\approx 0{,}0993$ (khoảng $9{,}9\\%$).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 27"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "Chất A phân hủy bậc $1$ với $t_{1/2} = 30{,}0\\ \\mathrm{min}$. Thời gian để chỉ còn $12{,}5\\%$ lượng ban đầu là",
+          "dap_an": [
+            "$90\\ \\mathrm{min}$",
+            "$30\\ \\mathrm{min}$",
+            "$60\\ \\mathrm{min}$",
+            "$120\\ \\mathrm{min}$"
+          ],
+          "giai_thich": "$12{,}5\\% = (1/2)^3$ nên cần $3$ chu kỳ bán hủy: $3 \\times 30{,}0 = 90{,}0\\ \\mathrm{min}$. Với bậc $1$, $t_{1/2}$ không phụ thuộc nồng độ đầu.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 28"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "Phản ứng $2\\mathrm{A} \\to \\mathrm{P}$ bậc $2$, $k = 0{,}50\\ \\mathrm{M^{-1}\\,s^{-1}}$, $[\\mathrm{A}]_0 = 0{,}20\\ \\mathrm{M}$. $[\\mathrm{A}]$ sau $30\\ \\mathrm{s}$ là",
+          "dap_an": [
+            "$0{,}05\\ \\mathrm{M}$",
+            "$0{,}067\\ \\mathrm{M}$",
+            "$6{,}1 \\cdot 10^{-8}\\ \\mathrm{M}$",
+            "$6{,}5 \\cdot 10^{-3}\\ \\mathrm{M}$"
+          ],
+          "giai_thich": "$\\dfrac{1}{[\\mathrm{A}]} = \\dfrac{1}{[\\mathrm{A}]_0} + kt = 5{,}0 + 0{,}50 \\times 30 = 20\\ \\mathrm{M^{-1}}$ nên $[\\mathrm{A}] = 0{,}050\\ \\mathrm{M}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 30"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "Với phản ứng bậc $2$ (một tác chất), nếu nồng độ đầu $[\\mathrm{A}]_0$ tăng gấp đôi thì thời gian bán hủy",
+          "dap_an": [
+            "giảm còn một nửa",
+            "tăng gấp đôi",
+            "không đổi",
+            "giảm còn một phần tư"
+          ],
+          "giai_thich": "Bậc $2$: $t_{1/2} = 1/(k[\\mathrm{A}]_0)$ tỉ lệ nghịch với $[\\mathrm{A}]_0$. Chỉ bậc $1$ mới có $t_{1/2}$ không đổi; bậc $0$ thì tỉ lệ thuận.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 32"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Phản ứng bậc $0$ có $k = 2{,}0 \\cdot 10^{-3}\\ \\mathrm{M\\,s^{-1}}$ và $[\\mathrm{A}]_0 = 0{,}50\\ \\mathrm{M}$. Thời gian để tác chất hết là",
+          "dap_an": [
+            "$250\\ \\mathrm{s}$",
+            "$125\\ \\mathrm{s}$",
+            "$4 \\cdot 10^{-3}\\ \\mathrm{s}$",
+            "$1000\\ \\mathrm{s}$"
+          ],
+          "giai_thich": "$[\\mathrm{A}]_t = [\\mathrm{A}]_0 - kt = 0$ nên $t = [\\mathrm{A}]_0/k = 0{,}50/(2{,}0 \\cdot 10^{-3}) = 250\\ \\mathrm{s}$, gấp đôi $t_{1/2} = [\\mathrm{A}]_0/2k = 125\\ \\mathrm{s}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 34"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Để kiểm tra một phản ứng có bậc $2$ theo một tác chất A, đồ thị nào sau đây là đường thẳng?",
+          "dap_an": [
+            "$1/[\\mathrm{A}]$ theo $t$",
+            "$\\ln[\\mathrm{A}]$ theo $t$",
+            "$[\\mathrm{A}]$ theo $t$",
+            "$\\ln k$ theo $t$"
+          ],
+          "giai_thich": "Bậc $2$: $1/[\\mathrm{A}]_t = 1/[\\mathrm{A}]_0 + kt$, độ dốc $+k$. Bậc $1$ thẳng với $\\ln[\\mathrm{A}]$ theo $t$, bậc $0$ thẳng với $[\\mathrm{A}]$ theo $t$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 30"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Đơn vị của hằng số tốc độ $k$ của phản ứng bậc $2$ (một tác chất) là",
+          "dap_an": [
+            "$\\mathrm{M^{-1}\\,s^{-1}}$",
+            "$\\mathrm{s^{-1}}$",
+            "$\\mathrm{M\\,s^{-1}}$",
+            "$\\mathrm{M^{-2}\\,s^{-1}}$"
+          ],
+          "giai_thich": "$v = k[\\mathrm{A}]^2$ có đơn vị $\\mathrm{M\\,s^{-1}}$ nên $k$ có đơn vị $\\mathrm{M^{-1}\\,s^{-1}}$ (bậc $1$: $\\mathrm{s^{-1}}$; bậc $0$: $\\mathrm{M\\,s^{-1}}$).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 30"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "Theo quy tắc Van't Hoff với hệ số nhiệt $\\gamma = 3$, khi tăng nhiệt độ từ $20$ lên $60\\ ^\\circ\\mathrm{C}$ thì tốc độ phản ứng tăng",
+          "dap_an": [
+            "$81$ lần",
+            "$12$ lần",
+            "$27$ lần",
+            "$243$ lần"
+          ],
+          "giai_thich": "$v_2/v_1 = \\gamma^{\\Delta t/10} = 3^{(60-20)/10} = 3^4 = 81$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3; slide Chương 3, trang 37"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "Một phản ứng mất $4{,}0$ giờ ở $20\\ ^\\circ\\mathrm{C}$; hệ số nhiệt $\\gamma = 3$. Thời gian cần để phản ứng ở $60\\ ^\\circ\\mathrm{C}$ gần nhất là",
+          "dap_an": [
+            "$2{,}96\\ \\mathrm{min}$",
+            "$80\\ \\mathrm{min}$",
+            "$20\\ \\mathrm{min}$",
+            "$8{,}89\\ \\mathrm{min}$"
+          ],
+          "giai_thich": "Tốc độ tăng $3^4 = 81$ lần nên thời gian giảm $81$ lần: $240\\ \\mathrm{min}/81 \\approx 2{,}96\\ \\mathrm{min}$ (không đổi $4{,}0\\ \\mathrm{h}$ sang min thì dễ nhầm đơn vị).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.3; slide Chương 3, trang 37"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Hằng số tốc độ là $1{,}2 \\cdot 10^{-3}\\ \\mathrm{s^{-1}}$ ở $300\\ \\mathrm{K}$ và $4{,}8 \\cdot 10^{-3}\\ \\mathrm{s^{-1}}$ ở $320\\ \\mathrm{K}$. Năng lượng hoạt hóa gần nhất là",
+          "dap_an": [
+            "$55{,}3\\ \\mathrm{kJ/mol}$",
+            "$1{,}78\\ \\mathrm{kJ/mol}$",
+            "$24\\ \\mathrm{kJ/mol}$",
+            "$55323\\ \\mathrm{kJ/mol}$"
+          ],
+          "giai_thich": "$E_a = R\\ln(k_2/k_1)/(1/T_1 - 1/T_2) = 8{,}314 \\times \\ln 4/(1/300 - 1/320) \\approx 55323\\ \\mathrm{J/mol} \\approx 55{,}3\\ \\mathrm{kJ/mol}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.3; slide Chương 3, trang 47"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Phản ứng có $k = 2{,}21 \\cdot 10^{3}\\ \\mathrm{s^{-1}}$ ở $522\\ \\mathrm{K}$ và $E_a = 86{,}5\\ \\mathrm{kJ/mol}$. Hằng số $k$ ở $437\\ \\mathrm{K}$ gần nhất là",
+          "dap_an": [
+            "$45{,}8\\ \\mathrm{s^{-1}}$",
+            "$1{,}07 \\cdot 10^{5}\\ \\mathrm{s^{-1}}$",
+            "$0{,}0207$",
+            "$4578\\ \\mathrm{s^{-1}}$"
+          ],
+          "giai_thich": "$\\ln(k_2/k_1) = (E_a/R)(1/T_1 - 1/T_2) = (86500/8{,}314)(1/522 - 1/437) \\approx -3{,}88$; $k_2 = 2{,}21 \\cdot 10^3 \\times e^{-3{,}88} \\approx 45{,}8\\ \\mathrm{s^{-1}}$ (nhiệt độ giảm nên $k$ giảm).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.3; slide Chương 3, trang 49"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Trên đồ thị $\\ln k$ theo $1/T$ của phương trình Arrhenius, độ dốc của đường thẳng bằng",
+          "dap_an": [
+            "$-E_a/R$",
+            "$E_a/R$",
+            "$-E_a/RT$",
+            "$\\ln A$"
+          ],
+          "giai_thich": "$\\ln k = \\ln A - \\dfrac{E_a}{R}\\cdot\\dfrac{1}{T}$, nên độ dốc là $-E_a/R$ và tung độ gốc là $\\ln A$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.3; slide Chương 3, trang 47"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Chất xúc tác làm tăng tốc độ phản ứng vì",
+          "dap_an": [
+            "mở ra đường đi mới có năng lượng hoạt hóa thấp hơn",
+            "làm tăng lượng nhiệt tỏa ra $\\Delta H$ của phản ứng",
+            "làm giảm $\\Delta G$ nên phản ứng thuận lợi hơn nhiều",
+            "làm tăng hằng số cân bằng $K$ theo chiều thuận"
+          ],
+          "giai_thich": "Xúc tác tạo hợp chất trung gian và hạ $E_a$; nó không đổi $\\Delta H$, $\\Delta G$ hay $K$ (chỉ đưa hệ đến cân bằng nhanh hơn).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.5; slide Chương 3, trang 64"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Phản ứng $2\\mathrm{NO_2} + \\mathrm{F_2} \\to 2\\mathrm{NO_2F}$ có $v = k[\\mathrm{F_2}][\\mathrm{NO_2}]$ với cơ chế (a) $\\mathrm{NO_2} + \\mathrm{F_2} \\to \\mathrm{NO_2F} + \\mathrm{F}$; (b) $\\mathrm{NO_2} + \\mathrm{F} \\to \\mathrm{NO_2F}$. Phát biểu đúng là",
+          "dap_an": [
+            "F là chất trung gian và giai đoạn (a) là giai đoạn chậm",
+            "F là chất trung gian và giai đoạn (b) là giai đoạn chậm",
+            "F là xúc tác và giai đoạn (a) là giai đoạn chậm",
+            "F là xúc tác và giai đoạn (b) là giai đoạn chậm"
+          ],
+          "giai_thich": "F sinh ra ở (a) rồi mất đi ở (b) nên là chất trung gian (không phải xúc tác vì không có mặt ban đầu). Phương trình động học khớp với tốc độ của (a), nên (a) là giai đoạn chậm.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.4; slide Chương 3, trang 61"
+        },
+        {
+          "id": "c3-26",
+          "hoi": "Phản ứng $2\\mathrm{NO} + \\mathrm{O_2} \\to 2\\mathrm{NO_2}$ có cơ chế (1) $2\\mathrm{NO} \\rightleftharpoons \\mathrm{N_2O_2}$ (nhanh, cân bằng); (2) $\\mathrm{N_2O_2} + \\mathrm{O_2} \\to 2\\mathrm{NO_2}$ (chậm). Phương trình động học phù hợp là",
+          "dap_an": [
+            "$v = k[\\mathrm{NO}]^2[\\mathrm{O_2}]$",
+            "$v = k[\\mathrm{N_2O_2}][\\mathrm{O_2}]$",
+            "$v = k[\\mathrm{NO}][\\mathrm{O_2}]$",
+            "$v = k[\\mathrm{NO}]^2[\\mathrm{O_2}]^2$"
+          ],
+          "giai_thich": "Giai đoạn chậm: $v = k_2[\\mathrm{N_2O_2}][\\mathrm{O_2}]$; chất trung gian không được có trong phương trình động học, thay $[\\mathrm{N_2O_2}] = K[\\mathrm{NO}]^2$ cho $v = k_2K[\\mathrm{NO}]^2[\\mathrm{O_2}]$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.4; slide Chương 3, trang 55"
+        },
+        {
+          "id": "c3-27",
+          "hoi": "Phát biểu nào sau đây về bậc phản ứng là SAI?",
+          "dap_an": [
+            "Bậc phản ứng luôn bằng tổng hệ số tỉ lượng của tác chất",
+            "Bậc phản ứng có thể là một số phân số như 1,5 hoặc 0,5",
+            "Bậc phản ứng được xác định bằng thực nghiệm từ tốc độ đầu",
+            "Bậc riêng của một tác chất có thể bằng $0$ trong phương trình"
+          ],
+          "giai_thich": "Bậc là tổng số mũ trong phương trình động học, tìm bằng thực nghiệm, có thể là $0$ hoặc phân số; nó không nhất thiết bằng tổng hệ số tỉ lượng (ví dụ $1 + 5 + 6 = 12$ nhưng bậc là $4$).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.1; slide Chương 3, trang 56"
+        },
+        {
+          "id": "c3-28",
+          "hoi": "Phản ứng $\\mathrm{N_2} + \\mathrm{O_2} \\to 2\\mathrm{NO}$ ở pha khí. Bộ biện pháp nào làm tăng tốc độ phản ứng?",
+          "dap_an": [
+            "Dùng xúc tác, nén hệ, tăng nhiệt độ",
+            "Dùng xúc tác, nén hệ, giảm nhiệt độ",
+            "Dùng xúc tác, giảm áp suất, tăng nhiệt độ",
+            "Bỏ xúc tác, nén hệ, giảm áp suất"
+          ],
+          "giai_thich": "Xúc tác hạ $E_a$; nén hệ tăng nồng độ (số va chạm); tăng nhiệt độ làm nhiều phân tử có năng lượng lớn hơn $E_a$. Giảm áp suất hay giảm nhiệt độ làm phản ứng chậm đi.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3.4; slide Chương 3, trang 58"
+        },
+        {
+          "id": "c3-29",
+          "hoi": "Phản ứng $\\mathrm{A} + \\mathrm{B} \\to \\mathrm{C}$ có $v = k[\\mathrm{A}][\\mathrm{B}]$ với $k = 0{,}10\\ \\mathrm{M^{-1}\\,s^{-1}}$. Dùng $[\\mathrm{B}] = 2{,}0\\ \\mathrm{M}$ rất dư so với $\\mathrm{A}$ thì thời gian bán hủy theo $\\mathrm{A}$ là",
+          "dap_an": [
+            "$3{,}47\\ \\mathrm{s}$",
+            "$6{,}93\\ \\mathrm{s}$",
+            "$0{,}139\\ \\mathrm{s}$",
+            "$5\\ \\mathrm{s}$"
+          ],
+          "giai_thich": "Giả bậc $1$: $k' = k[\\mathrm{B}] = 0{,}10 \\times 2{,}0 = 0{,}20\\ \\mathrm{s^{-1}}$, $t_{1/2} = \\ln 2/k' \\approx 3{,}47\\ \\mathrm{s}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3.2; slide Chương 3, trang 33"
+        }
+      ]
+    },
     {
       "id": "c4",
       "nhom": "Bài giảng",

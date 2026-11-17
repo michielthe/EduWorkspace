@@ -1,7 +1,7 @@
 {
   "mon": "Sinh hóa cơ sở",
   "ma_mon": "sinh-hoa-co-so",
-  "phien_ban": 1,
+  "phien_ban": 2,
   "chuong": [
     {
       "id": "c1",
@@ -2876,6 +2876,1976 @@
           "giai_thich": "Đi vào đường phân qua glyceraldehyde-3-phosphate và dihydroxyacetone phosphate, bỏ qua bước điều hòa PFK-1.",
           "kho": true,
           "nguon": "TT Chương 6, mục 6.7"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "nhom": "Bài tập",
+      "ten": "Bài tập ôn Chương 1-4",
+      "cau": [
+        {
+          "id": "c7-01",
+          "hoi": "Vai trò nào sau đây KHÔNG phải là vai trò thiết yếu của nước trong cơ thể sinh vật?",
+          "dap_an": [
+            "Là nguồn cung cấp năng lượng chính khi bị oxy hóa",
+            "Là dung môi hòa tan các chất cần thiết cho tế bào",
+            "Giúp điều hòa nhiệt độ chung của cơ thể sinh vật",
+            "Tham gia cấu tạo và định dạng tế bào, cơ quan"
+          ],
+          "giai_thich": "Slide nêu 4 vai trò: dung môi hòa tan, điều hòa nhiệt độ, tham gia cấu tạo và định dạng tế bào, là chất phản ứng. Nước không bị oxy hóa để cung cấp năng lượng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 1; slide bài tập, trang 6"
+        },
+        {
+          "id": "c7-02",
+          "hoi": "Phản ứng thủy phân một liên kết trong tế bào minh họa vai trò nào của nước?",
+          "dap_an": [
+            "Nước là chất phản ứng, tham gia trực tiếp vào phản ứng",
+            "Nước là dung môi hòa tan các chất tham gia phản ứng",
+            "Nước giúp điều hòa nhiệt độ của cơ thể sinh vật",
+            "Nước tham gia định dạng của các tế bào và cơ quan"
+          ],
+          "giai_thich": "Trong thủy phân, một phân tử nước được thêm vào để cắt liên kết, nên nước là chất phản ứng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 1; slide bài tập, trang 6"
+        },
+        {
+          "id": "c7-03",
+          "hoi": "Kw của nước ở 0 độ C là 1,14 x 10^-15 M^2. pH của nước tinh khiết ở nhiệt độ này gần nhất với giá trị nào?",
+          "dap_an": [
+            "7,47",
+            "7,00",
+            "6,14",
+            "14,94"
+          ],
+          "giai_thich": "[H+] = [OH-] = căn bậc hai của Kw = 3,38 x 10^-8 M, nên pH = 7,47. Giá trị 14,94 là pKw chứ chưa phải pH.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 2; slide bài tập, trang 7"
+        },
+        {
+          "id": "c7-04",
+          "hoi": "Kw của nước ở 100 độ C khoảng 5,13 x 10^-13 M^2, pH của nước tinh khiết khi đó là 6,14. Kết luận nào đúng?",
+          "dap_an": [
+            "Nước vẫn trung tính vì [H+] vẫn bằng [OH-]",
+            "Nước có tính acid vì pH nhỏ hơn 7 ở mọi trường hợp",
+            "Nước có tính acid vì [H+] lớn hơn [OH-] khi nóng",
+            "Nước trung tính vì pH của nước luôn bằng đúng 7"
+          ],
+          "giai_thich": "Tính trung tính được xác định bởi [H+] = [OH-], không phải bởi pH = 7. Nhiệt độ tăng làm Kw tăng nên pH trung tính giảm xuống 6,14.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 2; slide bài tập, trang 7"
+        },
+        {
+          "id": "c7-05",
+          "hoi": "Từ Kw = 1,14 x 10^-15 (0 độ C) đến 5,13 x 10^-13 (100 độ C), điều gì xảy ra với sự phân ly của nước?",
+          "dap_an": [
+            "Nước phân ly mạnh hơn khi nhiệt độ tăng",
+            "Nước phân ly yếu hơn khi nhiệt độ tăng",
+            "Sự phân ly của nước không phụ thuộc nhiệt độ",
+            "Nước chỉ phân ly ở nhiệt độ từ 25 độ C trở lên"
+          ],
+          "giai_thich": "Kw lớn hơn nghĩa là tích [H+][OH-] lớn hơn, tức nước phân ly nhiều hơn ở nhiệt độ cao.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 2; slide bài tập, trang 7"
+        },
+        {
+          "id": "c7-06",
+          "hoi": "Giá trị pKa của một acid yếu biểu thị điều gì?",
+          "dap_an": [
+            "Độ mạnh của acid: pKa càng thấp thì acid càng mạnh",
+            "Độ mạnh của acid: pKa càng thấp thì acid càng yếu",
+            "Nồng độ của acid có trong dung dịch ở trạng thái cân bằng",
+            "Khối lượng phân tử của acid có trong dung dịch"
+          ],
+          "giai_thich": "pKa = -log Ka. Acid càng có xu hướng nhường proton thì Ka càng lớn, pKa càng thấp.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 3; slide bài tập, trang 8"
+        },
+        {
+          "id": "c7-07",
+          "hoi": "Khi pH của dung dịch bằng đúng pKa của acid yếu thì",
+          "dap_an": [
+            "Nồng độ dạng acid HA bằng nồng độ dạng base liên hợp A-",
+            "Toàn bộ acid đã chuyển thành dạng base liên hợp A-",
+            "Toàn bộ acid vẫn còn ở dạng HA chưa phân ly",
+            "Nồng độ HA gấp 10 lần nồng độ dạng A-"
+          ],
+          "giai_thich": "Từ pH = pKa + log([A-]/[HA]), khi pH = pKa thì log = 0 nên [A-] = [HA].",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 3; slide bài tập, trang 8"
+        },
+        {
+          "id": "c7-08",
+          "hoi": "Dạng nào sau đây tương đương với phương trình Henderson-Hasselbalch pH = pKa + log([A-]/[HA])?",
+          "dap_an": [
+            "pH = pKa - log([HA]/[A-])",
+            "pH = pKa + log([HA]/[A-])",
+            "pH = pKa - log([A-]/[HA])",
+            "pH = log([A-]/[HA]) - pKa"
+          ],
+          "giai_thich": "Đảo tỉ số trong logarit thì đổi dấu: log(a/b) = -log(b/a). Slide ghi cả hai dạng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 3; slide bài tập, trang 8"
+        },
+        {
+          "id": "c7-09",
+          "hoi": "Hai acid có pKa lần lượt là 4,76 (CH3COOH), 6,86 (H2PO4-) và 9,25 (NH4+). Acid nào yếu nhất?",
+          "dap_an": [
+            "NH4+, vì có pKa cao nhất",
+            "CH3COOH, vì có pKa thấp nhất",
+            "H2PO4-, vì có pKa ở mức trung gian",
+            "Cả ba mạnh như nhau vì đều là acid yếu"
+          ],
+          "giai_thich": "Acid càng yếu thì pKa càng cao. Điểm giữa đường chuẩn độ của NH4+ nằm ở pH 9,25.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 4; slide bài tập, trang 9"
+        },
+        {
+          "id": "c7-10",
+          "hoi": "Trên đường cong chuẩn độ, điểm giữa (50% đã chuẩn độ) của acid yếu nằm ở pH bằng",
+          "dap_an": [
+            "pKa của acid đó, vì khi ấy [HA] = [A-]",
+            "pH 7,0 với mọi acid yếu được chuẩn độ",
+            "Giá trị gấp đôi pKa của acid đó",
+            "pKa cộng 1, vì đã thêm một đương lượng base"
+          ],
+          "giai_thich": "Tại 50% chuẩn độ, một nửa HA đã chuyển thành A-, nên pH = pKa (CH3COOH 4,76; H2PO4- 6,86; NH4+ 9,25).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 4; slide bài tập, trang 9"
+        },
+        {
+          "id": "c7-11",
+          "hoi": "Khoảng pH mà hệ đệm acetate (pKa 4,76) hoạt động hiệu quả là",
+          "dap_an": [
+            "3,76 đến 5,76",
+            "2,76 đến 6,76",
+            "4,26 đến 5,26",
+            "4,76 đến 5,76"
+          ],
+          "giai_thich": "Khoảng đệm hiệu quả là pKa +/- 1, tức 3,76 đến 5,76 (đúng như vùng đệm ghi trên hình của slide).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 4; slide bài tập, trang 9"
+        },
+        {
+          "id": "c7-12",
+          "hoi": "Dung dịch cần giữ pH khoảng 7,4. Hệ đệm nào trong các hệ sau phù hợp nhất?",
+          "dap_an": [
+            "Phosphate H2PO4-/HPO4(2-), pKa 6,86",
+            "Acetate CH3COOH/CH3COO-, pKa 4,76",
+            "Ammonium NH4+/NH3, pKa 9,25",
+            "Glycine nhóm amino, pKa 9,60"
+          ],
+          "giai_thich": "Hệ đệm tốt nhất khi pH cần giữ nằm trong pKa +/- 1. Phosphate có vùng 5,86-7,86 nên chứa pH 7,4; các hệ còn lại có pKa cách xa 7,4.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 4; slide bài tập, trang 9"
+        },
+        {
+          "id": "c7-13",
+          "hoi": "Base liên hợp của H2PO4- là",
+          "dap_an": [
+            "HPO4(2-)",
+            "H3PO4",
+            "PO4(3-)",
+            "H2PO4- không có base liên hợp"
+          ],
+          "giai_thich": "HA nhường H+ thành A- là base liên hợp. H2PO4- nhường H+ thành HPO4(2-).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 5; slide bài tập, trang 10"
+        },
+        {
+          "id": "c7-14",
+          "hoi": "Trong cặp RNH2 và RNH3+, chất nào là base liên hợp?",
+          "dap_an": [
+            "RNH2",
+            "RNH3+",
+            "Cả hai đều là base liên hợp",
+            "Không chất nào là base liên hợp"
+          ],
+          "giai_thich": "RNH3+ là acid; khi nhường H+ thì tạo RNH2, đó là base liên hợp. Ngược lại RNH3+ là acid liên hợp của RNH2.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 5; slide bài tập, trang 10"
+        },
+        {
+          "id": "c7-15",
+          "hoi": "Trong các cặp H2CO3/HCO3- và HCO3-/CO3(2-), chất nào vừa là base liên hợp vừa là acid?",
+          "dap_an": [
+            "HCO3-",
+            "H2CO3",
+            "CO3(2-)",
+            "Không chất nào"
+          ],
+          "giai_thich": "HCO3- là base liên hợp của H2CO3 và đồng thời là acid, vì còn nhường được H+ để thành CO3(2-).",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 5; slide bài tập, trang 10"
+        },
+        {
+          "id": "c7-16",
+          "hoi": "Trong cặp H2PO4- và H3PO4, chất nào là base liên hợp?",
+          "dap_an": [
+            "H2PO4-",
+            "H3PO4",
+            "HPO4(2-)",
+            "PO4(3-)"
+          ],
+          "giai_thich": "H3PO4 nhường một H+ thì thành H2PO4-, nên H2PO4- là base liên hợp của H3PO4.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 5; slide bài tập, trang 10"
+        },
+        {
+          "id": "c7-17",
+          "hoi": "Phản ứng B + H+ <-> BH+ cho biết BH+ được gọi là",
+          "dap_an": [
+            "Acid liên hợp của B",
+            "Base liên hợp của B",
+            "Muối trung hòa của B",
+            "Chất xúc tác của B"
+          ],
+          "giai_thich": "Base B nhận H+ tạo thành acid liên hợp BH+. Ngược lại HA nhường H+ thành base liên hợp A-.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 5; slide bài tập, trang 10"
+        },
+        {
+          "id": "c7-18",
+          "hoi": "Dung dịch chứa 0,12 mol/L NH4Cl và 0,03 mol/L NaOH (pKa của NH4+/NH3 là 9,25) có pH xấp xỉ",
+          "dap_an": [
+            "8,77",
+            "9,73",
+            "8,65",
+            "9,25"
+          ],
+          "giai_thich": "NaOH hết: 0,03 M NH3 được tạo ra, NH4+ còn 0,12 - 0,03 = 0,09 M. pH = 9,25 + log(0,03/0,09) = 8,77. Đáp số 9,73 là do đảo tỉ số.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 6; slide bài tập, trang 11"
+        },
+        {
+          "id": "c7-19",
+          "hoi": "Trong dung dịch NH4Cl 0,12 mol/L trộn với NaOH 0,03 mol/L, sau phản ứng nồng độ NH4+ còn lại là",
+          "dap_an": [
+            "0,09 mol/L",
+            "0,12 mol/L",
+            "0,15 mol/L",
+            "0,03 mol/L"
+          ],
+          "giai_thich": "NH4+ + OH- -> NH3 + H2O. NaOH 0,03 M tiêu thụ 0,03 M NH4+, còn 0,12 - 0,03 = 0,09 M.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 6; slide bài tập, trang 11"
+        },
+        {
+          "id": "c7-20",
+          "hoi": "Vì sao hỗn hợp sau phản ứng của NH4Cl dư với NaOH có tác dụng đệm?",
+          "dap_an": [
+            "Vì có cả acid yếu NH4+ và base liên hợp NH3 cùng có mặt",
+            "Vì NaOH là base mạnh nên giữ cho pH luôn luôn không đổi",
+            "Vì NH4Cl là muối trung tính nên pH luôn bằng đúng 7,0",
+            "Vì phản ứng này giải phóng thêm nhiều ion H+ mới vào dung dịch"
+          ],
+          "giai_thich": "Hệ đệm là hỗn hợp acid yếu và base liên hợp của nó. Sau phản ứng có 0,09 M NH4+ và 0,03 M NH3.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 6; slide bài tập, trang 11"
+        },
+        {
+          "id": "c7-21",
+          "hoi": "Để pha dung dịch đệm acetate pH 5,0 (pKa 4,76), tỉ số [acetate]/[acid acetic] cần xấp xỉ",
+          "dap_an": [
+            "1,74",
+            "0,58",
+            "0,24",
+            "5,00"
+          ],
+          "giai_thich": "log tỉ số = 5,0 - 4,76 = 0,24 nên tỉ số = 10^0,24 = 1,74 (slide làm tròn 1,7). Giá trị 0,58 là nghịch đảo.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 7; slide bài tập, trang 12"
+        },
+        {
+          "id": "c7-22",
+          "hoi": "Dung dịch đệm acetate 0,2 M, pH 5,0, pKa 4,76 có nồng độ acetate xấp xỉ (tính chính xác)",
+          "dap_an": [
+            "0,127 M",
+            "0,073 M",
+            "0,100 M",
+            "0,200 M"
+          ],
+          "giai_thich": "Tỉ số 1,74 và tổng 0,2 M cho [acetate] = 0,2 x 1,74/2,74 = 0,127 M. Slide làm tròn tỉ số 1,7 nên ghi 0,126 M.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 7; slide bài tập, trang 12"
+        },
+        {
+          "id": "c7-23",
+          "hoi": "Dung dịch đệm acetate 0,2 M, pH 5,0, pKa 4,76 có nồng độ acid acetic xấp xỉ",
+          "dap_an": [
+            "0,073 M",
+            "0,127 M",
+            "0,100 M",
+            "0,024 M"
+          ],
+          "giai_thich": "[acid] = 0,2 - 0,127 = 0,073 M (slide ghi 0,074 M do làm tròn). Acetate nhiều hơn acid vì pH lớn hơn pKa.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 7; slide bài tập, trang 12"
+        },
+        {
+          "id": "c7-24",
+          "hoi": "Khi pha đệm acetate có pH lớn hơn pKa (4,76), dạng nào chiếm nhiều hơn?",
+          "dap_an": [
+            "Acetate (base liên hợp) nhiều hơn acid acetic",
+            "Acid acetic nhiều hơn acetate (base liên hợp)",
+            "Hai dạng luôn bằng nhau ở mọi giá trị pH",
+            "Chỉ có acetate tồn tại, hoàn toàn không còn acid"
+          ],
+          "giai_thich": "pH > pKa thì log([A-]/[HA]) > 0 nên [A-] > [HA].",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 7; slide bài tập, trang 12"
+        },
+        {
+          "id": "c7-25",
+          "hoi": "Aspirin (acid yếu, pKa 3,5) được hấp thu vào máu nhanh hơn ở vị trí nào?",
+          "dap_an": [
+            "Dạ dày (pH khoảng 1,5)",
+            "Ruột non (pH khoảng 6,0)",
+            "Tốc độ hấp thu như nhau ở cả hai nơi",
+            "Chỉ hấp thu ở ruột già"
+          ],
+          "giai_thich": "Dạng trung hòa HA hấp thu nhanh, dạng tích điện A- hấp thu chậm. Ở pH 1,5 gần như toàn bộ aspirin là HA.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 8; slide bài tập, trang 13"
+        },
+        {
+          "id": "c7-26",
+          "hoi": "Trong hấp thu aspirin, dạng nào của phân tử được hấp thu nhanh?",
+          "dap_an": [
+            "Dạng acid HA không mang điện, kỵ nước hơn",
+            "Dạng base liên hợp A- mang điện tích âm",
+            "Cả hai dạng hấp thu với tốc độ bằng nhau",
+            "Dạng phân tử gắn với ion Na+"
+          ],
+          "giai_thich": "Tích điện và phân cực thì hấp thu chậm; trung hòa hoặc kỵ nước thì hấp thu nhanh hơn qua màng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 8; slide bài tập, trang 13"
+        },
+        {
+          "id": "c7-27",
+          "hoi": "Aspirin có pKa 3,5. Ở pH dạ dày 1,5, tỉ lệ dạng HA xấp xỉ",
+          "dap_an": [
+            "99%",
+            "1%",
+            "50%",
+            "0,3%"
+          ],
+          "giai_thich": "log([A-]/[HA]) = 1,5 - 3,5 = -2, nên [HA] = 100 x [A-], tức 99% là HA.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 8; slide bài tập, trang 13"
+        },
+        {
+          "id": "c7-28",
+          "hoi": "Aspirin có pKa 3,5. Ở pH ruột non 6,0, tỉ lệ dạng HA xấp xỉ",
+          "dap_an": [
+            "0,3%",
+            "99%",
+            "3%",
+            "50%"
+          ],
+          "giai_thich": "log([A-]/[HA]) = 2,5 nên [A-]/[HA] = 316, vậy HA chỉ còn khoảng 0,3%.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 8; slide bài tập, trang 13"
+        },
+        {
+          "id": "c7-29",
+          "hoi": "Vì sao aspirin hấp thu chậm ở ruột non so với dạ dày?",
+          "dap_an": [
+            "Vì ở pH 6,0 gần như toàn bộ aspirin ở dạng A- tích điện",
+            "Vì ở pH 6,0 aspirin kết tủa hoàn toàn thành tinh thể",
+            "Vì ruột non không có mạch máu nào để hấp thu",
+            "Vì ở pH 6,0 aspirin bị phân hủy hoàn toàn"
+          ],
+          "giai_thich": "pH lớn hơn pKa nhiều nên tỉ lệ A-/HA lớn; dạng A- tích điện đi qua màng chậm.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 8; slide bài tập, trang 14"
+        },
+        {
+          "id": "c7-30",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), glycine tồn tại chủ yếu ở dạng +H3N-CH2-COOH tại điểm nào?",
+          "dap_an": [
+            "Điểm I",
+            "Điểm II",
+            "Điểm III",
+            "Điểm V"
+          ],
+          "giai_thich": "Ở điểm I chưa thêm base, nhóm carboxyl còn nguyên dạng COOH, tổng điện tích +1.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-31",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), tổng điện tích (net charge) của glycine là +1/2 tại điểm nào?",
+          "dap_an": [
+            "Điểm II",
+            "Điểm I",
+            "Điểm III",
+            "Điểm IV"
+          ],
+          "giai_thich": "Tại điểm II (pH = pK1 = 2,34), 50% phân tử mang +1 và 50% mang 0, nên trung bình +1/2.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-32",
+          "hoi": "Glycine thể hiện khả năng đệm tốt nhất ở những điểm nào trên đường cong chuẩn độ?",
+          "dap_an": [
+            "Điểm II và điểm IV",
+            "Chỉ điểm III",
+            "Điểm I và điểm III",
+            "Điểm III và điểm V"
+          ],
+          "giai_thich": "Khả năng đệm tốt nhất khi pH = pKa +/- 1: quanh pK1 = 2,34 (điểm II) và pK2 = 9,60 (điểm IV). Điểm III ở pI có độ dốc lớn nên đệm kém.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-33",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), tổng điện tích của glycine bằng 0 tại điểm nào?",
+          "dap_an": [
+            "Điểm III",
+            "Điểm II",
+            "Điểm IV",
+            "Điểm V"
+          ],
+          "giai_thich": "Điểm III ứng với pH = pI = 5,97, glycine ở trạng thái zwitterion có tổng điện tích 0.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-34",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), nhóm carboxyl được trung hòa hoàn toàn tại điểm nào?",
+          "dap_an": [
+            "Điểm III",
+            "Điểm II",
+            "Điểm IV",
+            "Điểm V"
+          ],
+          "giai_thich": "Đã thêm 1 đương lượng OH- để trung hòa hết nhóm -COOH, nhóm amino còn ở dạng -NH3+.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-35",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), nhóm amino bị proton hóa (+H3N-) được trung hòa hoàn toàn tại điểm nào?",
+          "dap_an": [
+            "Điểm V",
+            "Điểm III",
+            "Điểm IV",
+            "Điểm II"
+          ],
+          "giai_thich": "Cần thêm tổng cộng 2 đương lượng OH- (điểm V) mới trung hòa hết cả nhóm carboxyl và nhóm +H3N-.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-36",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), dạng ưu thế trong dung dịch là +H3N-CH2-COO- tại điểm nào?",
+          "dap_an": [
+            "Điểm III",
+            "Điểm I",
+            "Điểm IV",
+            "Điểm V"
+          ],
+          "giai_thich": "Zwitterion +H3N-CH2-COO- chiếm ưu thế ở pH = pI, tức điểm III.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-37",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), tổng điện tích của glycine là -1 tại điểm nào?",
+          "dap_an": [
+            "Điểm V",
+            "Điểm I",
+            "Điểm II",
+            "Điểm III"
+          ],
+          "giai_thich": "Tại điểm V cả hai nhóm đều đã mất proton, glycine chủ yếu ở dạng H2N-CH2-COO- (-1).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-38",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), glycine tồn tại ở hai dạng +H3N-CH2-COOH và +H3N-CH2-COO- với tỉ lệ 50:50 tại điểm nào?",
+          "dap_an": [
+            "Điểm II",
+            "Điểm I",
+            "Điểm IV",
+            "Điểm V"
+          ],
+          "giai_thich": "Tại điểm II [HA] = [A-] nên pH = pK1 = 2,34. Điểm IV là tỉ lệ 50:50 của hai dạng khác (zwitterion và anion).",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-39",
+          "hoi": "Trên đường cong chuẩn độ glycine (I: 0 đương lượng OH-, II: 0,5; III: 1,0; IV: 1,5; V: 2,0), điểm nào có pH bằng pI?",
+          "dap_an": [
+            "Điểm III",
+            "Điểm II",
+            "Điểm IV",
+            "Điểm I"
+          ],
+          "giai_thich": "pI của glycine = 1/2 (pK1 + pK2) = 1/2 (2,34 + 9,60) = 5,97, đúng điểm III.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-40",
+          "hoi": "Glycine có pK1 = 2,34 (nhóm carboxyl) và pK2 = 9,60 (nhóm amino). Điểm đẳng điện pI của glycine là",
+          "dap_an": [
+            "5,97",
+            "6,97",
+            "2,34",
+            "7,26"
+          ],
+          "giai_thich": "Với amino acid có hai nhóm ion hóa, pI = 1/2 (pK1 + pK2) = 5,97. Giá trị 2,34 chỉ là pK1, còn 6,97 và 7,26 là các kết quả tính sai.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-41",
+          "hoi": "Chuẩn độ 100 mL glycine 0,1 M bằng NaOH 2 M. Thể tích NaOH cần dùng để đến điểm III (1 đương lượng) là",
+          "dap_an": [
+            "5 mL",
+            "10 mL",
+            "2,5 mL",
+            "50 mL"
+          ],
+          "giai_thich": "Số mol glycine = 0,1 L x 0,1 M = 0,01 mol. Một đương lượng cần 0,01 mol NaOH = 0,01 / 2 M = 5 mL. Điểm V cần 10 mL.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-42",
+          "hoi": "Ở pH thấp hơn pI, amino acid mang điện gì và di chuyển về cực nào trong điện trường?",
+          "dap_an": [
+            "Mang điện dương, di chuyển về cực âm",
+            "Mang điện âm, di chuyển về cực dương",
+            "Không mang điện, đứng yên tại chỗ",
+            "Mang điện dương, di chuyển về cực dương"
+          ],
+          "giai_thich": "pH < pI thì amino acid nhận thêm proton nên mang điện dương và đi về cực âm. pH > pI thì mang điện âm, đi về cực dương.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 22-23"
+        },
+        {
+          "id": "c7-43",
+          "hoi": "Khoảng đệm hiệu quả của glycine quanh pK1 = 2,34 là",
+          "dap_an": [
+            "pH 1,34 đến 3,34",
+            "pH 2,34 đến 3,34",
+            "pH 3,34 đến 8,60",
+            "pH 4,97 đến 6,97"
+          ],
+          "giai_thich": "Khoảng đệm hiệu quả pKa +/- 1: 1,34-3,34 quanh pK1 và 8,60-10,60 quanh pK2.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 9; slide bài tập, trang 18-31"
+        },
+        {
+          "id": "c7-44",
+          "hoi": "Nhóm nào trong 3 pKa của histidine (1,8; 6,0; 9,2) là pKa của nhóm R (vòng imidazole)?",
+          "dap_an": [
+            "6,0",
+            "1,8",
+            "9,2",
+            "Không có giá trị nào"
+          ],
+          "giai_thich": "1,8 là nhóm -COOH, 9,2 là nhóm alpha-amino, 6,0 là nhóm imidazole của mạch bên R (bảng slide ghi pKR = 6,00).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 10; slide bài tập, trang 32-34"
+        },
+        {
+          "id": "c7-45",
+          "hoi": "Ở pH 5,4, bao nhiêu phần trăm nhóm R của histidine (pKR 6,0) ở dạng tích điện dương?",
+          "dap_an": [
+            "Khoảng 80%",
+            "Khoảng 20%",
+            "Khoảng 50%",
+            "Khoảng 25%"
+          ],
+          "giai_thich": "log([A-]/[HA]) = 5,4 - 6,0 = -0,6 nên [A-]/[HA] = 0,25, [HA] = 4[A-], dạng HA (tích điện dương) chiếm 4/5 = 80%.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 10; slide bài tập, trang 32-34"
+        },
+        {
+          "id": "c7-46",
+          "hoi": "Ở pH 6,0 (bằng pKR), tỉ lệ nhóm R của histidine ở dạng tích điện dương là",
+          "dap_an": [
+            "50%",
+            "100%",
+            "0%",
+            "25%"
+          ],
+          "giai_thich": "Khi pH = pKa thì [HA] = [A-], tức mỗi dạng chiếm một nửa.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 10; slide bài tập, trang 32-34"
+        },
+        {
+          "id": "c7-47",
+          "hoi": "Histidine có pKa 1,8; 6,0; 9,2. Giá trị pI của histidine gần nhất với",
+          "dap_an": [
+            "7,6",
+            "5,6",
+            "4,0",
+            "5,5"
+          ],
+          "giai_thich": "Dạng trung hòa nằm giữa pKR = 6,0 và pK2 = 9,2 nên pI = 1/2 (6,0 + 9,2) = 7,6 (bảng slide ghi 7,59). Giá trị 5,5 là do dùng nhầm hai pKa 1,8 và 9,2.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 10; slide bài tập, trang 32-34"
+        },
+        {
+          "id": "c7-48",
+          "hoi": "Vì sao histidine được xem là có khả năng đệm gần pH sinh lý?",
+          "dap_an": [
+            "Nhóm imidazole có pKa 6,0, nằm gần miền pH 5 đến 7",
+            "Nhóm imidazole có pKa 1,8, nằm gần pH dạ dày",
+            "Nhóm imidazole có pKa 9,2, nằm gần pH kiềm",
+            "Nhóm imidazole không có khả năng nhận proton"
+          ],
+          "giai_thich": "Nhóm R có pKa 6,0 nên đệm tốt trong khoảng 5,0 đến 7,0. Đây là suy luận từ pKa trong bài 10.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 10; slide bài tập, trang 32-34"
+        },
+        {
+          "id": "c7-49",
+          "hoi": "Citrulline (chiết từ dưa hấu) được xác định là đồng phân nào?",
+          "dap_an": [
+            "Đồng phân L",
+            "Đồng phân D",
+            "Hỗn hợp raxemic DL",
+            "Không có tính quang hoạt"
+          ],
+          "giai_thich": "Khi xếp công thức Fischer với nhóm -COO- ở trên, nhóm -NH3+ nằm bên trái nên citrulline thuộc dãy L (L-citrulline).",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 11; slide bài tập, trang 35-36"
+        },
+        {
+          "id": "c7-50",
+          "hoi": "Với amino acid, quy ước dãy L trong công thức Fischer (COO- ở trên, R ở dưới) là nhóm amino ở vị trí nào?",
+          "dap_an": [
+            "Nhóm -NH3+ nằm bên trái trục dọc",
+            "Nhóm -NH3+ nằm bên phải trục dọc",
+            "Nhóm -NH3+ nằm phía trên nhóm -COO-",
+            "Nhóm -H nằm bên trái trục dọc"
+          ],
+          "giai_thich": "L-amino acid có nhóm amino bên trái, D-amino acid có nhóm amino bên phải (khi COO- ở trên).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 11; slide bài tập, trang 35-36"
+        },
+        {
+          "id": "c7-51",
+          "hoi": "Protein trong sinh vật được cấu tạo chủ yếu từ amino acid thuộc dãy nào?",
+          "dap_an": [
+            "Dãy L",
+            "Dãy D",
+            "Hỗn hợp D và L với tỉ lệ bằng nhau",
+            "Chỉ có amino acid không có carbon bất đối"
+          ],
+          "giai_thich": "Citrulline trong bài này cũng là L-amino acid; ribosome chỉ tổng hợp protein từ L-amino acid.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 11; slide bài tập, trang 35-36"
+        },
+        {
+          "id": "c7-52",
+          "hoi": "Các amino acid trong chuỗi polypeptide của bài 12 theo thứ tự từ đầu N đến đầu C là",
+          "dap_an": [
+            "Arg, His, Thr, Glu, Ser",
+            "Ser, Glu, Thr, His, Arg",
+            "Arg, His, Thr, Asp, Ser",
+            "Lys, His, Thr, Glu, Ser"
+          ],
+          "giai_thich": "Nhận dạng từ mạch bên: Arg (guanidino), His (imidazole), Thr (CH(OH)CH3), Glu (CH2CH2COOH), Ser (CH2OH). Glu có hai CH2, nếu một CH2 thì là Asp.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 12; slide bài tập, trang 41-42"
+        },
+        {
+          "id": "c7-53",
+          "hoi": "Chuỗi polypeptide Arg-His-Thr-Glu-Ser có bao nhiêu liên kết peptide?",
+          "dap_an": [
+            "4",
+            "5",
+            "3",
+            "6"
+          ],
+          "giai_thich": "Chuỗi n amino acid có n - 1 liên kết peptide: 5 - 1 = 4.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 12; slide bài tập, trang 41-42"
+        },
+        {
+          "id": "c7-54",
+          "hoi": "Mạch bên chứa vòng imidazole đặc trưng cho amino acid nào?",
+          "dap_an": [
+            "Histidine",
+            "Arginine",
+            "Threonine",
+            "Serine"
+          ],
+          "giai_thich": "His có vòng imidazole; Arg có nhóm guanidino; Thr có nhóm -OH và CH3; Ser có -CH2OH.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 12; slide bài tập, trang 41-42"
+        },
+        {
+          "id": "c7-55",
+          "hoi": "Thủy phân một polypeptide vòng thu các mảnh Leu-Phe, Phe-Pro, Orn-Leu, Val-Orn, Val-Orn-Leu, Phe-Pro-Val, Pro-Val-Orn. Thứ tự đúng của peptide vòng là",
+          "dap_an": [
+            "Leu-Phe-Pro-Val-Orn (khép vòng)",
+            "Leu-Phe-Pro-Orn-Val",
+            "Phe-Leu-Pro-Val-Orn",
+            "Leu-Orn-Phe-Pro-Val"
+          ],
+          "giai_thich": "Ghép các mảnh chồng nhau: Leu-Phe, Phe-Pro, Phe-Pro-Val, Pro-Val-Orn, Val-Orn-Leu, rồi Orn-Leu đóng vòng.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 13; slide bài tập, trang 43"
+        },
+        {
+          "id": "c7-56",
+          "hoi": "Trong bài peptide vòng, mảnh Orn-Leu cho biết điều gì?",
+          "dap_an": [
+            "Orn nối với Leu nên chuỗi khép vòng, không phải mạch thẳng",
+            "Orn là amino acid ở đầu N của một chuỗi mạch thẳng",
+            "Leu là amino acid duy nhất nằm ở đầu C của chuỗi",
+            "Orn và Leu không hề nối với nhau bằng liên kết peptide"
+          ],
+          "giai_thich": "Một peptide vòng không có đầu N và đầu C; mảnh Orn-Leu nối đầu chuỗi (Leu) với cuối chuỗi (Orn).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 13; slide bài tập, trang 43"
+        },
+        {
+          "id": "c7-57",
+          "hoi": "Một peptide vòng gồm 5 amino acid có bao nhiêu liên kết peptide?",
+          "dap_an": [
+            "5",
+            "4",
+            "6",
+            "10"
+          ],
+          "giai_thich": "Peptide mạch thẳng n amino acid có n - 1 liên kết peptide; mạch vòng khép kín nên có n liên kết.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 13; slide bài tập, trang 43"
+        },
+        {
+          "id": "c7-58",
+          "hoi": "Vì sao tôm, cua chuyển sang màu đỏ khi chín?",
+          "dap_an": [
+            "Nhiệt làm biến tính crustacyanin, giải phóng astaxanthin màu đỏ",
+            "Nhiệt làm astaxanthin bị phân hủy nên mất hết màu xanh sẫm",
+            "Nhiệt tạo thêm sắc tố đỏ mới từ các lipid có trong vỏ",
+            "Nhiệt làm protein kết tinh lại và phản xạ ánh sáng đỏ"
+          ],
+          "giai_thich": "Trong tôm sống, astaxanthin gắn với protein crustacyanin tạo phức hợp màu xanh sẫm. Nhiệt làm protein biến tính, giải phóng astaxanthin màu đỏ.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 14; slide bài tập, trang 49"
+        },
+        {
+          "id": "c7-59",
+          "hoi": "Biến tính protein bằng nhiệt phá vỡ loại liên kết nào?",
+          "dap_an": [
+            "Cấu trúc bậc 2, 3 (liên kết hydro, tương tác yếu), không đứt liên kết peptide",
+            "Mọi liên kết peptide nối các amino acid của chuỗi polypeptide với nhau",
+            "Chỉ các liên kết cộng hóa trị của bậc 1, còn bậc 2, 3 giữ nguyên",
+            "Chỉ trình tự sắp xếp các amino acid của cấu trúc bậc 1 trong chuỗi"
+          ],
+          "giai_thich": "Biến tính làm mất cấu trúc không gian, thường không làm thay đổi trình tự amino acid (bậc 1).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 14; slide bài tập, trang 49"
+        },
+        {
+          "id": "c7-60",
+          "hoi": "Phức hợp astaxanthin-crustacyanin trong tôm sống và astaxanthin tự do sau khi nấu khác nhau ở điểm nào?",
+          "dap_an": [
+            "Phức hợp có màu xanh sẫm, astaxanthin tự do có màu đỏ",
+            "Phức hợp có màu đỏ, astaxanthin tự do có màu xanh sẫm",
+            "Cả hai cùng có màu đỏ nhưng khác độ đậm",
+            "Cả hai đều không màu trong ánh sáng thường"
+          ],
+          "giai_thich": "Slide: phức hợp có cực đại hấp thụ 632 nm (màu xanh sẫm), astaxanthin tự do 472 nm (màu đỏ).",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 14; slide bài tập, trang 49"
+        },
+        {
+          "id": "c7-61",
+          "hoi": "Hai amino acid chuẩn có chứa nguyên tử lưu huỳnh trong mạch bên là",
+          "dap_an": [
+            "Methionine và cysteine",
+            "Methionine và serine",
+            "Cysteine và threonine",
+            "Cysteine và proline"
+          ],
+          "giai_thich": "Met có -CH2-CH2-S-CH3, Cys có -CH2-SH. Slide có câu trắc nghiệm trong đó phát biểu này là đúng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài trắc nghiệm (amino acid); slide bài tập, trang 37"
+        },
+        {
+          "id": "c7-62",
+          "hoi": "Proline khác các amino acid chuẩn khác ở điểm nào?",
+          "dap_an": [
+            "Nhóm amin bậc 2 liên kết với carbon alpha",
+            "Không có nhóm carboxyl ở carbon alpha",
+            "Có chứa nguyên tử lưu huỳnh trong mạch bên",
+            "Không có carbon bất đối ở vị trí alpha"
+          ],
+          "giai_thich": "Proline có nhóm amin bậc 2 (nằm trong vòng pyrrolidine); mọi amino acid khác trong protein có nhóm amin bậc 1.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài trắc nghiệm (amino acid); slide bài tập, trang 37"
+        },
+        {
+          "id": "c7-63",
+          "hoi": "Chức năng nào sau đây protein KHÔNG đảm nhiệm?",
+          "dap_an": [
+            "Mang thông tin di truyền",
+            "Giúp tiêu hóa thức ăn",
+            "Chống lại mầm bệnh xâm nhập",
+            "Giúp vận chuyển oxy trong máu"
+          ],
+          "giai_thich": "Thông tin di truyền do acid nucleic (DNA, RNA) mang. Protein làm enzyme tiêu hóa, kháng thể, hemoglobin vận chuyển O2.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài trắc nghiệm (protein); slide bài tập, trang 46"
+        },
+        {
+          "id": "c7-64",
+          "hoi": "Máy duỗi tóc làm tóc xoăn thành thẳng tạm thời vì",
+          "dap_an": [
+            "Cầu nối disulfide trong alpha-keratin bị phá vỡ",
+            "Liên kết hydro trong alpha-keratin bị phá vỡ",
+            "Alpha-keratin bị biến tính do pH thay đổi",
+            "Liên kết ion giữa các phân tử keratin bị phá vỡ"
+          ],
+          "giai_thich": "Hình slide: S-S bị khử thành SH, tóc được uốn thẳng, rồi oxy hóa tạo S-S mới ở hình dạng mới.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài trắc nghiệm (keratin); slide bài tập, trang 47"
+        },
+        {
+          "id": "c7-65",
+          "hoi": "Trong các liên kết ổn định cấu trúc bậc 3 của protein, liên kết nào có năng lượng phân ly lớn nhất?",
+          "dap_an": [
+            "Cầu disulfide, 214 kJ/mol",
+            "Liên kết hydro, 12-30 kJ/mol",
+            "Tương tác ion, dưới 30 kJ/mol",
+            "Tương tác van der Waals, 0,4-4 kJ/mol"
+          ],
+          "giai_thich": "Năng lượng phân ly càng lớn thì liên kết càng bền. Cầu disulfide (214 kJ/mol) bền nhất trong bảng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài bậc 3 protein; slide bài tập, trang 48"
+        },
+        {
+          "id": "c7-66",
+          "hoi": "Tác nhân nào làm đứt cầu nối disulfide của protein?",
+          "dap_an": [
+            "Mercaptoethanol (ME) hoặc dithiothreitol (DTT)",
+            "SDS (sodium dodecyl sulfate) hoặc urea nồng độ cao",
+            "Đun nóng ở nhiệt độ cao thông thường trong nước",
+            "Thay đổi pH của dung dịch về gần giá trị pI"
+          ],
+          "giai_thich": "ME và DTT là chất khử, khử S-S thành 2 SH. SDS, urea phá tương tác kỵ nước và van der Waals; nhiệt, SDS phá hydro; pH phá tương tác ion.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài bậc 3 protein; slide bài tập, trang 48"
+        },
+        {
+          "id": "c7-67",
+          "hoi": "Tương tác ion trong cấu trúc bậc 3 của protein bị phá bởi tác nhân nào?",
+          "dap_an": [
+            "Sự thay đổi pH",
+            "Mercaptoethanol",
+            "Dithiothreitol",
+            "Urea"
+          ],
+          "giai_thich": "Đổi pH làm thay đổi điện tích các nhóm bên, phá vỡ tương tác ion. Mercaptoethanol và DTT tác dụng lên cầu disulfide.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài bậc 3 protein; slide bài tập, trang 48"
+        },
+        {
+          "id": "c7-68",
+          "hoi": "Liên kết hydro trong cấu trúc protein bị phá bởi",
+          "dap_an": [
+            "Nhiệt và SDS",
+            "Mercaptoethanol và DTT",
+            "Chỉ sự thay đổi pH",
+            "Chỉ chất khử mạnh"
+          ],
+          "giai_thich": "Slide: Heat, SDS cho liên kết hydro; SDS, urea cho tương tác kỵ nước và van der Waals.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài bậc 3 protein; slide bài tập, trang 48"
+        },
+        {
+          "id": "c7-69",
+          "hoi": "Enzyme làm tăng tốc độ phản ứng bằng cách nào?",
+          "dap_an": [
+            "Làm giảm năng lượng hoạt hóa của phản ứng",
+            "Làm tăng năng lượng hoạt hóa của phản ứng",
+            "Làm thay đổi hằng số cân bằng của phản ứng",
+            "Làm tăng nhiệt độ của hỗn hợp phản ứng"
+          ],
+          "giai_thich": "Chất xúc tác (enzyme) giảm năng lượng hoạt hóa nên phản ứng nhanh hơn, không đổi vị trí cân bằng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 50"
+        },
+        {
+          "id": "c7-70",
+          "hoi": "Phát biểu nào về bản chất của enzyme phù hợp với slide?",
+          "dap_an": [
+            "Phần lớn enzyme là protein, nhưng không phải chỉ protein mới xúc tác được",
+            "Mọi chất xúc tác sinh học đều bắt buộc phải có bản chất là protein",
+            "Enzyme là các phân tử lipid có khả năng xúc tác các phản ứng",
+            "Enzyme chỉ gồm các ion kim loại hòa tan cùng với phân tử nước"
+          ],
+          "giai_thich": "Slide ghi: mặc dù phần lớn enzyme đã biết là protein, nhưng không phải chỉ protein mới có hoạt tính xúc tác.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 50"
+        },
+        {
+          "id": "c7-71",
+          "hoi": "Cơ chất của enzyme liên kết với enzyme ở vị trí nào?",
+          "dap_an": [
+            "Tâm hoạt động, nhờ tương tác với các amino acid ở đó",
+            "Đầu N của chuỗi polypeptide của phân tử enzyme",
+            "Cầu nối disulfide nằm giữa hai phần của enzyme",
+            "Bất kỳ vị trí nào trên bề mặt phân tử enzyme"
+          ],
+          "giai_thich": "Cơ chất tương tác với các amino acid trong tâm hoạt động, tạo phức hợp enzyme-cơ chất (ES).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 51"
+        },
+        {
+          "id": "c7-72",
+          "hoi": "Phức hợp ES trong phản ứng enzyme là",
+          "dap_an": [
+            "Phức hợp tạm thời giữa enzyme và cơ chất",
+            "Phức hợp giữa enzyme và sản phẩm cuối",
+            "Phức hợp giữa enzyme và chất ức chế",
+            "Phức hợp giữa hai phân tử enzyme"
+          ],
+          "giai_thich": "E + S <-> ES -> E + P. ES là phức enzyme-cơ chất (enzyme-substrate complex).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 51"
+        },
+        {
+          "id": "c7-73",
+          "hoi": "Trong mô hình khớp cảm ứng (induced fit), điều gì xảy ra khi cơ chất gắn vào enzyme?",
+          "dap_an": [
+            "Hình dạng tâm hoạt động thay đổi để ôm khít cơ chất",
+            "Tâm hoạt động vẫn cứng nhắc và không đổi hình dạng",
+            "Cơ chất đổi hình dạng để khớp với tâm hoạt động cứng",
+            "Enzyme bị biến tính hoàn toàn ngay khi gắn cơ chất"
+          ],
+          "giai_thich": "Mô hình khóa-chìa coi tâm hoạt động cứng nhắc; mô hình induced fit cho rằng tâm hoạt động biến đổi nhẹ khi cơ chất gắn vào.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 52"
+        },
+        {
+          "id": "c7-74",
+          "hoi": "Enzyme nhóm nào xúc tác phản ứng thủy phân, ví dụ các enzyme tiêu hóa?",
+          "dap_an": [
+            "Hydrolase",
+            "Ligase",
+            "Lyase",
+            "Isomerase"
+          ],
+          "giai_thich": "Hydrolase thủy phân cơ chất bằng cách thêm nước (A-B + H2O -> A-H + B-OH).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 53"
+        },
+        {
+          "id": "c7-75",
+          "hoi": "Ligase (ví dụ DNA ligase) xúc tác loại phản ứng nào?",
+          "dap_an": [
+            "Tạo liên kết hóa học mới, dùng ATP làm nguồn năng lượng",
+            "Cắt liên kết hóa học mà không thêm nước",
+            "Chuyển một nhóm nguyên tử từ phân tử này sang phân tử khác",
+            "Chuyển hóa một đồng phân thành đồng phân khác"
+          ],
+          "giai_thich": "Ligase: A + B + ATP -> A-B + ADP + Pi; ví dụ DNA ligase.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 53"
+        },
+        {
+          "id": "c7-76",
+          "hoi": "Lyase (ví dụ decarboxylase) xúc tác phản ứng",
+          "dap_an": [
+            "Cắt liên kết hóa học mà không thêm nước",
+            "Tạo liên kết mới bằng cách dùng ATP",
+            "Thủy phân liên kết bằng cách thêm một phân tử nước",
+            "Oxy hóa khử bằng cách chuyển electron"
+          ],
+          "giai_thich": "Lyase: A-B -> A + B, không có thêm nước và không dùng oxy hóa khử.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 53"
+        },
+        {
+          "id": "c7-77",
+          "hoi": "Enzyme dehydrogenase thuộc nhóm nào?",
+          "dap_an": [
+            "Oxidoreductase (xúc tác phản ứng oxy hóa khử)",
+            "Transferase (xúc tác phản ứng chuyển nhóm)",
+            "Hydrolase (xúc tác phản ứng thủy phân)",
+            "Isomerase (xúc tác phản ứng đồng phân hóa)"
+          ],
+          "giai_thich": "Oxidoreductase xúc tác phản ứng oxy hóa - khử, ví dụ dehydrogenase.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 53"
+        },
+        {
+          "id": "c7-78",
+          "hoi": "Transaminase thuộc nhóm enzyme nào?",
+          "dap_an": [
+            "Transferase, chuyển nhóm chức từ phân tử này sang phân tử khác",
+            "Oxidoreductase, chuyển electron từ chất này sang chất khác",
+            "Lyase, cắt liên kết hóa học mà không cần thêm phân tử nước",
+            "Ligase, nối hai phân tử với nhau bằng liên kết hóa học mới"
+          ],
+          "giai_thich": "Transferase xúc tác A-B + C -> A + C-B; ví dụ transaminase, phosphotransferase.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 53"
+        },
+        {
+          "id": "c7-79",
+          "hoi": "Translocase (ví dụ ATP synthase) xúc tác quá trình nào?",
+          "dap_an": [
+            "Vận chuyển ion hoặc phân tử qua màng",
+            "Phân hủy cơ chất bằng cách thêm nước",
+            "Chuyển hóa một đồng phân thành đồng phân khác",
+            "Tạo liên kết mới ở lòng bào tương"
+          ],
+          "giai_thich": "Translocase xúc tác sự di chuyển ion/phân tử qua màng hoặc sự tách chúng trong màng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 53"
+        },
+        {
+          "id": "c7-80",
+          "hoi": "Enzyme nào sau đây có pH tối ưu thấp nhất theo đồ thị của slide?",
+          "dap_an": [
+            "Pepsin (pH khoảng 2)",
+            "Amylase nước bọt (pH khoảng 7)",
+            "Trypsin (pH khoảng 9)",
+            "Tất cả cùng pH tối ưu bằng nhau"
+          ],
+          "giai_thich": "Pepsin hoạt động ở dạ dày (pH 1,5-2,0), amylase nước bọt gần trung tính, trypsin ở ruột non (pH cao hơn).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 55"
+        },
+        {
+          "id": "c7-81",
+          "hoi": "Nhiệt độ tối ưu của phần lớn enzyme ở người gần với giá trị nào?",
+          "dap_an": [
+            "Khoảng 37 độ C",
+            "Khoảng 0 độ C",
+            "Khoảng 60 độ C",
+            "Khoảng 100 độ C"
+          ],
+          "giai_thich": "Theo đồ thị slide, tốc độ phản ứng cực đại gần 37 độ C; ở nhiệt độ cao enzyme bị biến tính nên tốc độ giảm nhanh.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 55"
+        },
+        {
+          "id": "c7-82",
+          "hoi": "Tốc độ phản ứng enzyme giảm nhanh ở nhiệt độ rất cao chủ yếu vì",
+          "dap_an": [
+            "Enzyme bị biến tính và mất cấu trúc không gian",
+            "Cơ chất bị cạn kiệt hoàn toàn trước phản ứng",
+            "Enzyme bị phân hủy thành các amino acid tự do",
+            "Năng lượng hoạt hóa của phản ứng tăng cao"
+          ],
+          "giai_thich": "Nhiệt làm đứt các liên kết yếu giữ cấu trúc bậc 2-4, enzyme biến tính. Đây là yếu tố \"Heat energy\" trong đồ thị.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 55"
+        },
+        {
+          "id": "c7-83",
+          "hoi": "Chất gây biến tính protein đóng vai trò gì đối với enzyme?",
+          "dap_an": [
+            "Chất ức chế không đặc hiệu",
+            "Chất ức chế cạnh tranh đặc hiệu",
+            "Chất hoạt hóa dị lập thể",
+            "Cơ chất của enzyme"
+          ],
+          "giai_thich": "Slide ghi: các chất gây biến tính protein là chất ức chế không đặc hiệu enzyme.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 57"
+        },
+        {
+          "id": "c7-84",
+          "hoi": "Chất ức chế không thuận nghịch của enzyme",
+          "dap_an": [
+            "Gắn cộng hóa trị hoặc rất chặt nên không thể tách khỏi enzyme",
+            "Gắn lỏng lẻo nên có thể tách ra bằng cách pha loãng dung dịch",
+            "Chỉ gắn vào phức hợp enzyme-cơ chất ES mà không gắn vào E",
+            "Chỉ tranh chỗ với cơ chất ở tâm hoạt động của enzyme tự do"
+          ],
+          "giai_thich": "Slide: liên kết cộng hóa trị, hoặc không cộng hóa trị nhưng rất chặt, làm enzyme mất hoạt tính không phục hồi.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 58"
+        },
+        {
+          "id": "c7-85",
+          "hoi": "DIFP (diisopropylfluorophosphate) ức chế chymotrypsin bằng cách nào?",
+          "dap_an": [
+            "Gắn và phản ứng với Ser195 ở tâm hoạt động, ức chế không thuận nghịch",
+            "Gắn vào Ser195 ở tâm hoạt động nhưng tách ra được, ức chế thuận nghịch",
+            "Tranh chấp tâm hoạt động với cơ chất nhưng chỉ ức chế tạm thời",
+            "Gắn vào vị trí ngoài tâm hoạt động như một chất hoạt hóa dị lập thể"
+          ],
+          "giai_thich": "DIFP là ví dụ chất ức chế không thuận nghịch, phản ứng với Ser195 của chymotrypsin.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 58"
+        },
+        {
+          "id": "c7-86",
+          "hoi": "Chất ức chế cạnh tranh (competitive) gắn vào",
+          "dap_an": [
+            "Enzyme tự do (E), tranh chỗ với cơ chất ở tâm hoạt động",
+            "Chỉ phức hợp ES, ngay sau khi cơ chất gắn",
+            "Sản phẩm của phản ứng, làm sản phẩm bất hoạt",
+            "Cả E và ES nhưng ở vị trí khác tâm hoạt động"
+          ],
+          "giai_thich": "Chất ức chế cạnh tranh I gắn vào E tạo EI, trái với uncompetitive (gắn ES) và mixed (gắn E và ES).",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 59"
+        },
+        {
+          "id": "c7-87",
+          "hoi": "Chất ức chế không cạnh tranh (uncompetitive) gắn vào",
+          "dap_an": [
+            "Chỉ phức hợp enzyme-cơ chất ES",
+            "Chỉ enzyme tự do E",
+            "Cả E và ES với ái lực bằng nhau",
+            "Chỉ sản phẩm P của phản ứng"
+          ],
+          "giai_thich": "Theo sơ đồ slide, chất ức chế uncompetitive gắn vào ES tạo ESI.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 59"
+        },
+        {
+          "id": "c7-88",
+          "hoi": "Chất ức chế kiểu hỗn hợp (mixed) gắn vào",
+          "dap_an": [
+            "Cả enzyme tự do E và phức hợp ES",
+            "Chỉ enzyme tự do E",
+            "Chỉ phức hợp ES",
+            "Chỉ tâm hoạt động của E"
+          ],
+          "giai_thich": "Mixed inhibitor có thể gắn vào E (tạo EI) và ES (tạo ESI), theo sơ đồ slide.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 59"
+        },
+        {
+          "id": "c7-89",
+          "hoi": "Điều hòa dị lập thể (allosteric regulation) diễn ra khi chất điều hòa",
+          "dap_an": [
+            "Gắn vào vị trí ngoài tâm hoạt động, làm đổi hình dạng tâm hoạt động",
+            "Gắn vào chính tâm hoạt động rồi tranh chấp chỗ với cơ chất",
+            "Gắn cộng hóa trị vĩnh viễn vào Ser nằm trong tâm hoạt động",
+            "Phá hủy hoàn toàn cấu trúc bậc 1 của chuỗi polypeptide enzyme"
+          ],
+          "giai_thich": "Chất ức chế hoặc hoạt hóa dị lập thể gắn vào vị trí allosteric, làm tâm hoạt động biến đổi (ức chế hoặc hoạt hóa).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 60"
+        },
+        {
+          "id": "c7-90",
+          "hoi": "Điều hòa ức chế ngược (feedback inhibition) là",
+          "dap_an": [
+            "Sản phẩm cuối của con đường ức chế enzyme điều hòa khi nồng độ vượt nhu cầu",
+            "Cơ chất đầu tiên của con đường hoạt hóa mọi enzyme theo thứ tự",
+            "Enzyme cuối cùng bị phân giải khi sản phẩm cuối bị cạn kiệt",
+            "Sản phẩm trung gian ức chế enzyme cuối cùng của con đường"
+          ],
+          "giai_thich": "Slide: enzyme điều hòa bị ức chế đặc hiệu bởi sản phẩm cuối khi sản phẩm này vượt quá yêu cầu của tế bào.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 61"
+        },
+        {
+          "id": "c7-91",
+          "hoi": "Trong tiêu hóa, enzyme pepsin tác dụng lên chất nào ở dạ dày?",
+          "dap_an": [
+            "Protein, cắt thành các polypeptide nhỏ",
+            "Polysaccharide, cắt thành maltose",
+            "Chất béo, cắt thành glycerol và acid béo",
+            "DNA và RNA, cắt thành nucleotide"
+          ],
+          "giai_thich": "Slide: pepsin ở dạ dày cắt protein thành polypeptide nhỏ; amylase tiêu polysaccharide; lipase tiêu chất béo.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 54"
+        },
+        {
+          "id": "c7-92",
+          "hoi": "Enzyme nào sau đây tác dụng lên chất béo trong tiêu hóa?",
+          "dap_an": [
+            "Lipase tuyến tụy",
+            "Amylase nước bọt",
+            "Pepsin",
+            "Disaccharidase ở niêm mạc ruột"
+          ],
+          "giai_thich": "Lipase tuyến tụy biến chất béo (đã nhũ hóa bởi muối mật) thành glycerol và acid béo.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài Enzyme; slide bài tập, trang 54"
+        },
+        {
+          "id": "c7-93",
+          "hoi": "Đồng phân epimer là những đồng phân",
+          "dap_an": [
+            "Chỉ khác nhau ở cấu hình của một nguyên tử carbon bất đối",
+            "Khác nhau ở cấu hình của tất cả các carbon bất đối",
+            "Khác nhau ở cấu hình của carbon anomer chỉ ở dạng vòng",
+            "Khác nhau ở vị trí nhóm carbonyl là aldehyde hay ketone"
+          ],
+          "giai_thich": "Epimer chỉ khác cấu hình ở một carbon bất đối. Nếu khác ở C anomer thì gọi là anomer.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 15; slide bài tập, trang 65"
+        },
+        {
+          "id": "c7-94",
+          "hoi": "Epimer của D-allose tại C-2 là",
+          "dap_an": [
+            "D-altrose",
+            "D-glucose",
+            "D-gulose",
+            "D-idose"
+          ],
+          "giai_thich": "Theo slide: D-allose có epimer D-altrose (C-2), D-glucose (C-3), D-gulose (C-4).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 15; slide bài tập, trang 65"
+        },
+        {
+          "id": "c7-95",
+          "hoi": "Epimer của D-allose tại C-3 là",
+          "dap_an": [
+            "D-glucose",
+            "D-altrose",
+            "D-gulose",
+            "D-galactose"
+          ],
+          "giai_thich": "Đổi cấu hình tại C-3 của D-allose cho D-glucose.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 15; slide bài tập, trang 65"
+        },
+        {
+          "id": "c7-96",
+          "hoi": "Epimer của D-gulose tại C-3 là",
+          "dap_an": [
+            "D-galactose",
+            "D-idose",
+            "D-allose",
+            "D-glucose"
+          ],
+          "giai_thich": "D-gulose có epimer D-idose (C-2), D-galactose (C-3) và D-allose (C-4).",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 15; slide bài tập, trang 65"
+        },
+        {
+          "id": "c7-97",
+          "hoi": "Epimer của D-gulose tại C-4 là",
+          "dap_an": [
+            "D-allose",
+            "D-idose",
+            "D-galactose",
+            "D-altrose"
+          ],
+          "giai_thich": "Theo slide: D-gulose: C-2 cho D-idose, C-3 cho D-galactose, C-4 cho D-allose.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 15; slide bài tập, trang 65"
+        },
+        {
+          "id": "c7-98",
+          "hoi": "Epimer của D-ribose tại C-2, C-3 và C-4 lần lượt là",
+          "dap_an": [
+            "D-arabinose, D-xylose, L-lyxose",
+            "D-xylose, D-arabinose, D-lyxose",
+            "D-arabinose, D-lyxose, L-xylose",
+            "D-lyxose, D-arabinose, L-xylose"
+          ],
+          "giai_thich": "Epimer tại C-4 của D-ribose đổi carbon quyết định dãy D/L của pentose, nên thu được L-lyxose.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 15; slide bài tập, trang 65"
+        },
+        {
+          "id": "c7-99",
+          "hoi": "Phân biệt dạng D và L của monosaccharide dựa vào",
+          "dap_an": [
+            "Nhóm -OH ở carbon bất đối xa carbonyl nhất nằm bên phải (D) hay trái (L)",
+            "Nhóm -OH ở carbon bất đối gần carbonyl nhất nằm phía trên hay phía dưới",
+            "Vòng đóng lại có 5 cạnh (dạng D) hay có 6 cạnh (dạng L)",
+            "Nhóm carbonyl là aldehyde (dạng D) hay là ketone (dạng L)"
+          ],
+          "giai_thich": "Trong công thức Fischer, -OH ở carbon bất đối có số thứ tự lớn nhất nằm bên phải là dãy D, bên trái là dãy L.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 16; slide bài tập, trang 66"
+        },
+        {
+          "id": "c7-100",
+          "hoi": "D-glucose và L-glucose có quan hệ nào?",
+          "dap_an": [
+            "Là ảnh gương của nhau (đối quang)",
+            "Là epimer của nhau tại C-4",
+            "Là anomer alpha và beta của nhau",
+            "Là cùng một chất ở hai dạng vòng"
+          ],
+          "giai_thich": "L-glucose có tất cả các nhóm -OH ở phía ngược lại so với D-glucose, nên là ảnh gương.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 16; slide bài tập, trang 66"
+        },
+        {
+          "id": "c7-101",
+          "hoi": "Fructose được xếp vào loại nào?",
+          "dap_an": [
+            "Ketohexose",
+            "Aldohexose",
+            "Aldopentose",
+            "Ketopentose"
+          ],
+          "giai_thich": "Fructose có nhóm carbonyl C=O ở C-2 (ketone) và 6 carbon, nên là ketohexose; glucose và mannose là aldohexose.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 16; slide bài tập, trang 66"
+        },
+        {
+          "id": "c7-102",
+          "hoi": "Đồng phân anomer (alpha, beta) của D-glucose khác nhau ở",
+          "dap_an": [
+            "Cấu hình của nhóm -OH ở carbon số 1 (carbon anomer)",
+            "Cấu hình của nhóm -OH ở carbon số 4 của vòng",
+            "Số lượng carbon trong vòng pyranose của phân tử",
+            "Vị trí của nhóm hydroxymethyl gắn ở carbon số 6"
+          ],
+          "giai_thich": "Alpha và beta chỉ khác ở hướng của -OH ở C-1 vừa mới tạo thành khi đóng vòng (hemiacetal).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 16; slide bài tập, trang 66-67"
+        },
+        {
+          "id": "c7-103",
+          "hoi": "Trong cấu trúc Haworth của D-glucose, alpha-D-glucose có nhóm -OH ở C-1",
+          "dap_an": [
+            "Hướng xuống dưới mặt phẳng vòng",
+            "Hướng lên trên mặt phẳng vòng",
+            "Cùng phía với nhóm CH2OH ở C-5",
+            "Không có nhóm -OH ở C-1"
+          ],
+          "giai_thich": "Alpha: OH ở C-1 hướng xuống; beta: OH ở C-1 hướng lên, cùng phía với CH2OH ở C-5 (dãy D).",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 16; slide bài tập, trang 66-67"
+        },
+        {
+          "id": "c7-104",
+          "hoi": "Liên kết glycoside trong sucrose được ký hiệu là",
+          "dap_an": [
+            "Alpha(1->2) beta, nối C-1 của glucose với C-2 của fructose",
+            "Beta(1->4), nối C-1 của galactose với C-4 của glucose",
+            "Alpha(1->4), nối C-1 của glucose với C-4 của glucose",
+            "Alpha(1->6), nối C-1 của glucose với C-6 của glucose"
+          ],
+          "giai_thich": "Sucrose là alpha-D-glucopyranosyl-(1->2)-beta-D-fructofuranoside. Lactose là beta(1->4); maltose là alpha(1->4).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 17; slide bài tập, trang 69"
+        },
+        {
+          "id": "c7-105",
+          "hoi": "Vì sao sucrose không có tính khử?",
+          "dap_an": [
+            "Cả hai carbon anomer (C-1 của Glc, C-2 của Fru) đã tham gia liên kết",
+            "Vì sucrose hoàn toàn không có nhóm -OH tự do nào trong phân tử",
+            "Vì sucrose chỉ gồm các đơn vị đường ở dạng ketone mà thôi",
+            "Vì sucrose là polysaccharide có khối lượng phân tử rất lớn"
+          ],
+          "giai_thich": "Không còn hemiacetal tự do để mở vòng thành aldehyde/ketone nên không khử được thuốc thử như Fehling.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 17; slide bài tập, trang 69"
+        },
+        {
+          "id": "c7-106",
+          "hoi": "Vì sao lactose có tính khử?",
+          "dap_an": [
+            "Carbon anomer của đơn vị glucose còn nhóm hemiacetal tự do",
+            "Vì cả hai carbon anomer đều đã tham gia liên kết glycoside",
+            "Vì lactose có liên kết alpha(1->2) giữa glucose và fructose",
+            "Vì lactose không có nhóm -OH nào ở vị trí anomer"
+          ],
+          "giai_thich": "Lactose = Gal beta(1->4) Glc; C-1 của Glc còn tự do nên mở vòng được thành aldehyde và có tính khử.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 17; slide bài tập, trang 69"
+        },
+        {
+          "id": "c7-107",
+          "hoi": "Lactose được cấu tạo từ",
+          "dap_an": [
+            "Galactose và glucose, nối beta(1->4)",
+            "Glucose và fructose, nối alpha(1->2) beta",
+            "Hai glucose, nối alpha(1->4)",
+            "Hai galactose, nối beta(1->6)"
+          ],
+          "giai_thich": "Lactose: beta-D-galactopyranosyl-(1->4)-D-glucopyranose, ký hiệu Gal(beta1->4)Glc.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 17; slide bài tập, trang 69"
+        },
+        {
+          "id": "c7-108",
+          "hoi": "Maltose (alpha-D-glucopyranosyl-(1->4)-D-glucopyranose) là đường",
+          "dap_an": [
+            "Có tính khử vì còn một carbon anomer hemiacetal tự do",
+            "Không có tính khử vì liên kết glycoside ở dạng alpha",
+            "Không có tính khử vì chỉ gồm một đơn vị glucose",
+            "Có tính khử vì có liên kết alpha(1->2) giữa hai đơn vị"
+          ],
+          "giai_thich": "Chỉ một C-1 tham gia liên kết; đơn vị glucose còn lại còn hemiacetal tự do nên maltose khử được.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 17; slide bài tập, trang 69-73"
+        },
+        {
+          "id": "c7-109",
+          "hoi": "Phản ứng Fehling dùng để xác định đường khử, sản phẩm kết tủa tạo ra là",
+          "dap_an": [
+            "Cu2O, kết tủa đỏ gạch",
+            "CuO, kết tủa màu đen",
+            "Cu(OH)2, kết tủa màu xanh dương",
+            "Cu kim loại, kết tủa màu bạc"
+          ],
+          "giai_thich": "Đường khử khử Cu2+ thành Cu+ (Cu2O đỏ), còn nhóm aldehyde bị oxy hóa thành acid (gluconate).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 16; slide bài tập, trang 70"
+        },
+        {
+          "id": "c7-110",
+          "hoi": "Điểm khác nhau cơ bản về cấu tạo giữa D-glucose và D-fructose là",
+          "dap_an": [
+            "Glucose là aldohexose (-CHO ở C-1), fructose là ketohexose (C=O ở C-2)",
+            "Glucose có 5 carbon trong phân tử còn fructose có 6 carbon",
+            "Glucose là ketohexose (C=O ở C-2), fructose là aldohexose",
+            "Glucose là disaccharide còn fructose chỉ là monosaccharide"
+          ],
+          "giai_thich": "Cùng công thức C6H12O6 nhưng khác nhóm chức; glucose đóng vòng pyranose, fructose thường đóng vòng furanose.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 18; slide bài tập, trang 73-74"
+        },
+        {
+          "id": "c7-111",
+          "hoi": "So sánh cellulose và glycogen, điểm khác nhau chính là",
+          "dap_an": [
+            "Cellulose nối beta(1->4) mạch thẳng; glycogen nối alpha(1->4) và nhánh alpha(1->6)",
+            "Cellulose nối alpha(1->4) có nhiều nhánh; glycogen nối beta(1->4) mạch thẳng",
+            "Cellulose chỉ gồm fructose còn glycogen chỉ gồm các đơn vị glucose",
+            "Cellulose là disaccharide còn glycogen mới là polysaccharide"
+          ],
+          "giai_thich": "Cả hai đều chỉ gồm glucose. Cellulose không phân nhánh, liên kết beta; glycogen nhiều nhánh, liên kết alpha.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 18; slide bài tập, trang 73-74"
+        },
+        {
+          "id": "c7-112",
+          "hoi": "Điểm giống nhau giữa lactose và sucrose là",
+          "dap_an": [
+            "Đều là disaccharide gồm một đơn vị glucose, nối bằng liên kết glycoside",
+            "Đều là đường khử vì đều còn nhóm hemiacetal tự do trong phân tử",
+            "Đều gồm hai đơn vị glucose nối với nhau bằng liên kết alpha(1->4)",
+            "Đều là polysaccharide dự trữ năng lượng có ở trong cơ thể động vật"
+          ],
+          "giai_thich": "Lactose = Gal + Glc (khử); sucrose = Glc + Fru (không khử). Điểm giống là cả hai là disaccharide có Glc.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 18; slide bài tập, trang 73-74"
+        },
+        {
+          "id": "c7-113",
+          "hoi": "Nhánh trong phân tử glycogen được tạo ra bởi liên kết",
+          "dap_an": [
+            "Alpha(1->6) glycoside",
+            "Alpha(1->4) glycoside",
+            "Beta(1->4) glycoside",
+            "Alpha(1->2) glycoside"
+          ],
+          "giai_thich": "Mạch chính nối alpha(1->4); các điểm phân nhánh là alpha(1->6).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 18; slide bài tập, trang 73-74"
+        },
+        {
+          "id": "c7-114",
+          "hoi": "Công thức phân tử của một polysaccharide cấu tạo từ 170 phân tử glucose là",
+          "dap_an": [
+            "C1020(H2O)851",
+            "C1020(H2O)1020",
+            "C1020(H2O)850",
+            "C6(H2O)170"
+          ],
+          "giai_thich": "Mỗi lần nối mất 1 H2O, 170 glucose mất 169 H2O: C(6x170)(H2O)(6x170 - 169) = C1020(H2O)851.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 19; slide bài tập, trang 75"
+        },
+        {
+          "id": "c7-115",
+          "hoi": "Khi 170 phân tử glucose nối với nhau thành mạch polysaccharide, bao nhiêu phân tử nước được giải phóng?",
+          "dap_an": [
+            "169",
+            "170",
+            "171",
+            "340"
+          ],
+          "giai_thich": "n monosaccharide tạo ra n - 1 liên kết glycoside, mỗi liên kết ngưng tụ giải phóng một phân tử H2O.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 19; slide bài tập, trang 75"
+        },
+        {
+          "id": "c7-116",
+          "hoi": "Polysaccharide chỉ gồm glucose có thể là chất nào sau đây?",
+          "dap_an": [
+            "Amylose, amylopectin, cellulose hoặc glycogen",
+            "Chỉ cellulose, vì cellulose là polymer của glucose",
+            "Sucrose hoặc lactose, vì đều chứa đơn vị glucose",
+            "Chitin hoặc peptidoglycan, vì đều có đơn vị đường"
+          ],
+          "giai_thich": "Cả bốn đều là polymer của glucose, chỉ khác kiểu liên kết và mức phân nhánh. Sucrose, lactose là disaccharide.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 19; slide bài tập, trang 75"
+        },
+        {
+          "id": "c7-117",
+          "hoi": "Để theo dõi đường huyết, cần xác định nồng độ loại đường nào trong máu?",
+          "dap_an": [
+            "Glucose",
+            "Fructose",
+            "Galactose",
+            "Sucrose"
+          ],
+          "giai_thich": "Chỉ số đường huyết là nồng độ glucose máu.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 20; slide bài tập, trang 76"
+        },
+        {
+          "id": "c7-118",
+          "hoi": "Phép đo đường huyết bằng enzyme dựa trên tính chất nào của glucose?",
+          "dap_an": [
+            "Tính khử",
+            "Tính tan trong nước",
+            "Tính quang hoạt",
+            "Khả năng tạo vòng pyranose"
+          ],
+          "giai_thich": "Glucose bị oxy hóa (nhóm aldehyde) bởi glucose oxidase nên phép đo dựa trên tính khử.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 20; slide bài tập, trang 76"
+        },
+        {
+          "id": "c7-119",
+          "hoi": "Glucose oxidase xúc tác phản ứng: D-glucose + O2 -> ? + H2O2",
+          "dap_an": [
+            "D-glucono-delta-lactone (sau đó thành acid gluconic)",
+            "D-fructose do enzyme đồng phân hóa glucose thành",
+            "D-sorbitol do glucose bị khử bằng cách thêm hydro",
+            "D-glucose 6-phosphate do glucose được phosphoryl hóa"
+          ],
+          "giai_thich": "Glucose oxidase oxy hóa glucose thành glucono-delta-lactone và sinh ra H2O2.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 20; slide bài tập, trang 76"
+        },
+        {
+          "id": "c7-120",
+          "hoi": "Trong phép đo glucose bằng GOD/POD, màu hồng quinonemin được tạo ra do",
+          "dap_an": [
+            "H2O2 phản ứng với phenol và 4-aminoantipyrine nhờ peroxidase",
+            "Glucose phản ứng trực tiếp với phenol tạo thành chất màu hồng",
+            "Gluconic acid phản ứng trực tiếp với oxy tạo thành chất màu",
+            "Peroxidase oxy hóa trực tiếp glucose thành quinonemin màu hồng"
+          ],
+          "giai_thich": "POD: 2H2O2 + phenol + 4-aminoantipyrine -> quinonemin + 4H2O. Cường độ màu tỉ lệ với glucose.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 20; slide bài tập, trang 76"
+        },
+        {
+          "id": "c7-121",
+          "hoi": "Linolenic acid 18:3 Delta(9,12,15) thuộc nhóm nào?",
+          "dap_an": [
+            "Omega-3",
+            "Omega-6",
+            "Omega-9",
+            "Không thuộc nhóm omega nào"
+          ],
+          "giai_thich": "Nối đôi đầu tiên tính từ carbon methyl cuối chuỗi ở vị trí số 3 nên thuộc omega-3 (cùng nhóm với EPA, DHA).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 21; slide bài tập, trang 80-81"
+        },
+        {
+          "id": "c7-122",
+          "hoi": "Arachidonic acid 20:4 Delta(5,8,11,14) thuộc nhóm nào?",
+          "dap_an": [
+            "Omega-6",
+            "Omega-3",
+            "Omega-9",
+            "Không thuộc nhóm omega nào"
+          ],
+          "giai_thich": "Nối đôi đầu tiên tính từ đầu methyl nằm ở vị trí 6, nên là acid béo omega-6.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 21; slide bài tập, trang 80-81"
+        },
+        {
+          "id": "c7-123",
+          "hoi": "Linoleic acid 18:2 Delta(9,12) thuộc nhóm nào?",
+          "dap_an": [
+            "Omega-6",
+            "Omega-3",
+            "Omega-9",
+            "Không thuộc nhóm omega nào"
+          ],
+          "giai_thich": "Ở linoleic acid, nối đôi đầu tiên cách carbon methyl cuối 6 carbon (vị trí omega-6).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 21; slide bài tập, trang 80-81"
+        },
+        {
+          "id": "c7-124",
+          "hoi": "Eicosapentaenoic acid (EPA) 20:5 và docosahexaenoic acid (DHA) 22:6 thuộc nhóm nào?",
+          "dap_an": [
+            "Omega-3",
+            "Omega-6",
+            "Omega-9",
+            "Một loại omega-3 và một loại omega-6"
+          ],
+          "giai_thich": "Slide xếp cả EPA và DHA vào omega-3 (nối đôi đầu tiên ở vị trí omega-3).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 21; slide bài tập, trang 80-81"
+        },
+        {
+          "id": "c7-125",
+          "hoi": "Acid cis-8,11,14-eicosatrienoic 20:3 Delta(8,11,14) thuộc nhóm nào?",
+          "dap_an": [
+            "Omega-6",
+            "Omega-3",
+            "Omega-9",
+            "Không thuộc nhóm omega nào"
+          ],
+          "giai_thich": "Slide xếp acid này vào omega-6: carbon 14 tính từ đầu carboxyl cách carbon methyl cuối (C20) 6 carbon.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 21; slide bài tập, trang 80-81"
+        },
+        {
+          "id": "c7-126",
+          "hoi": "Trong các acid béo sau, acid béo nào KHÔNG thuộc nhóm omega-3 hay omega-6 theo slide?",
+          "dap_an": [
+            "Oleic acid 18:1 và stearic acid 18:0",
+            "Linolenic acid và EPA",
+            "Linoleic acid và arachidonic acid",
+            "DHA và EPA"
+          ],
+          "giai_thich": "Oleic (18:1 Delta 9) chỉ có một nối đôi, ở vị trí omega-9; stearic (18:0) là acid béo no. Việc oleic là omega-9 là kiến thức ngoài slide, cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 21; slide bài tập, trang 80-81"
+        },
+        {
+          "id": "c7-127",
+          "hoi": "Stearic acid được ký hiệu là",
+          "dap_an": [
+            "18:0",
+            "18:1 Delta(9)",
+            "18:2 Delta(9,12)",
+            "18:3 Delta(9,12,15)"
+          ],
+          "giai_thich": "Stearic acid có 18 carbon và không có nối đôi nào (acid béo no).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 21; slide bài tập, trang 80-81"
+        },
+        {
+          "id": "c7-128",
+          "hoi": "Ký hiệu 22:6 Delta(4,7,10,13,16,19) cho biết acid béo có",
+          "dap_an": [
+            "22 carbon và 6 nối đôi",
+            "22 nối đôi và 6 carbon",
+            "6 carbon, nối đôi ở vị trí 22",
+            "22 carbon, nối đôi ở vị trí 6"
+          ],
+          "giai_thich": "Cách viết C:số nối đôi Delta(vị trí): 22 carbon, 6 nối đôi ở các vị trí 4, 7, 10, 13, 16, 19 (DHA).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 21; slide bài tập, trang 80-81"
+        },
+        {
+          "id": "c7-129",
+          "hoi": "Phản ứng hydro hóa dầu thực vật chuyển nối đôi -CH=CH- thành",
+          "dap_an": [
+            "-CH2-CH2- (acid béo chưa no thành no)",
+            "-CH=C- (nối ba)",
+            "-CHOH-CHOH- (diol)",
+            "-CH=CH- dạng trans"
+          ],
+          "giai_thich": "Hydro hóa xúc tác cộng H2 vào nối đôi tạo liên kết đơn, làm acid béo no.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 22; slide bài tập, trang 82"
+        },
+        {
+          "id": "c7-130",
+          "hoi": "Sau khi hydro hóa, tính chất vật lý của dầu thực vật thay đổi như thế nào?",
+          "dap_an": [
+            "Nhiệt độ nóng chảy tăng, dầu lỏng chuyển thành chất béo đặc hoặc rắn",
+            "Nhiệt độ nóng chảy giảm, nên dầu càng trở nên lỏng hơn nữa",
+            "Nhiệt độ nóng chảy không thay đổi so với dầu ban đầu",
+            "Dầu trở nên hòa tan tốt hơn trong nước sau khi hydro hóa"
+          ],
+          "giai_thich": "Acid béo no có chuỗi thẳng, xếp khít, nhiều lực van der Waals nên nóng chảy ở nhiệt độ cao hơn (như margarine).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 22; slide bài tập, trang 82"
+        },
+        {
+          "id": "c7-131",
+          "hoi": "Vì sao acid béo no có chuỗi xếp khít với nhau hơn acid béo chưa no cis?",
+          "dap_an": [
+            "Chuỗi no thẳng, còn nối đôi cis tạo khuỷu cản trở sự xếp sát",
+            "Chuỗi no có khối lượng phân tử nhỏ hơn rất nhiều so với chuỗi cis",
+            "Chuỗi no có nhiều nhóm -OH nên tạo liên kết hydro giữa các chuỗi",
+            "Chuỗi no mang điện tích nên hút nhau mạnh hơn bằng lực tĩnh điện"
+          ],
+          "giai_thich": "Nối đôi cis làm chuỗi gấp khúc nên số lực van der Waals giữa các chuỗi giảm; chuỗi no thẳng xếp khít.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 22; slide bài tập, trang 82"
+        },
+        {
+          "id": "c7-132",
+          "hoi": "Hydro hóa một phần dầu thực vật có thể tạo ra acid béo dạng nào có nhiệt độ nóng chảy cao hơn dạng cis tương ứng?",
+          "dap_an": [
+            "Acid béo trans (ví dụ elaidic acid)",
+            "Acid béo omega-3",
+            "Acid béo cis có nhiều nối đôi hơn",
+            "Phospholipid"
+          ],
+          "giai_thich": "Slide so sánh stearic (no) 70 độ C, oleic (cis) khoảng 13-19 độ C, elaidic (trans) khoảng 43-46 độ C. Dạng trans thẳng hơn cis nên nóng chảy cao hơn.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 22; slide bài tập, trang 82"
+        },
+        {
+          "id": "c7-133",
+          "hoi": "Nhiệt độ nóng chảy của các acid béo 18 carbon là: stearic 69,6; oleic 13,4; linoleic -5; linolenic -11 độ C. Sự khác biệt này chủ yếu do",
+          "dap_an": [
+            "Số nối đôi cis khác nhau, làm chuỗi gấp khúc và giảm lực van der Waals",
+            "Khối lượng phân tử của bốn acid béo khác nhau rất nhiều",
+            "Số nguyên tử carbon trong chuỗi của bốn acid béo khác nhau",
+            "Số nhóm carboxyl trong phân tử của bốn acid béo khác nhau"
+          ],
+          "giai_thich": "Cả bốn đều có 18 carbon. Nối đôi cis tạo khuỷu nên các chuỗi xếp lỏng, cần ít năng lượng hơn để chuyển sang thể lỏng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 23; slide bài tập, trang 83-86"
+        },
+        {
+          "id": "c7-134",
+          "hoi": "Sắp xếp nhiệt độ nóng chảy của các acid béo 18C theo thứ tự giảm dần:",
+          "dap_an": [
+            "Stearic > oleic > linoleic > linolenic",
+            "Linolenic > linoleic > oleic > stearic",
+            "Oleic > stearic > linolenic > linoleic",
+            "Stearic > linoleic > oleic > linolenic"
+          ],
+          "giai_thich": "Càng nhiều nối đôi cis (0, 1, 2, 3) thì nhiệt độ nóng chảy càng thấp: 69,6; 13,4; -5; -11 độ C.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 23; slide bài tập, trang 83-86"
+        },
+        {
+          "id": "c7-135",
+          "hoi": "Trong số các acid béo 18C, acid béo nào là chất rắn ở nhiệt độ phòng (khoảng 25 độ C)?",
+          "dap_an": [
+            "Stearic acid (nóng chảy 69,6 độ C)",
+            "Oleic acid (nóng chảy 13,4 độ C)",
+            "Linoleic acid (nóng chảy -5 độ C)",
+            "Linolenic acid (nóng chảy -11 độ C)"
+          ],
+          "giai_thich": "Chỉ stearic có nhiệt độ nóng chảy cao hơn 25 độ C; ba acid còn lại là chất lỏng ở nhiệt độ phòng.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 23; slide bài tập, trang 83-86"
+        },
+        {
+          "id": "c7-136",
+          "hoi": "Chỉ số iot (iodine value) của một chất béo là",
+          "dap_an": [
+            "Số gam I2 kết hợp vào nối đôi của 100 g chất béo",
+            "Số gam I2 cần để xà phòng hóa 1 g chất béo",
+            "Số mol I2 kết hợp vào 1 mol chất béo no",
+            "Khối lượng muối iot có trong 100 g chất béo"
+          ],
+          "giai_thich": "Chỉ số iot phản ánh mức độ chưa no: càng nhiều nối đôi thì kết hợp càng nhiều iot.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 24; slide bài tập, trang 87"
+        },
+        {
+          "id": "c7-137",
+          "hoi": "Một mol linoleic acid (18:2 Delta 9,12) kết hợp được với bao nhiêu mol I2?",
+          "dap_an": [
+            "2 mol I2, mỗi nối đôi một mol",
+            "1 mol I2",
+            "3 mol I2",
+            "4 mol I2"
+          ],
+          "giai_thich": "Mỗi nối đôi C=C cộng một phân tử I2 (thành C(I)-C(I)); linoleic có 2 nối đôi nên kết hợp 2 mol I2.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 24; slide bài tập, trang 87"
+        },
+        {
+          "id": "c7-138",
+          "hoi": "Chỉ số iot của linoleic acid (M = 280 g/mol; I2 = 254 g/mol) xấp xỉ",
+          "dap_an": [
+            "181,4",
+            "90,7",
+            "274",
+            "362,9"
+          ],
+          "giai_thich": "2 x 254 = 508 g I2 cho 280 g linoleic; cho 100 g: 100 x 508/280 = 181,43. Quên nhân 2 cho 90,7; nhân thêm 2 cho 362,9.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 24; slide bài tập, trang 87"
+        },
+        {
+          "id": "c7-139",
+          "hoi": "Chỉ số iot của stearic acid (18:0) bằng",
+          "dap_an": [
+            "0, vì không có nối đôi nào",
+            "181",
+            "90",
+            "254"
+          ],
+          "giai_thich": "Acid béo no không có nối đôi nên không kết hợp I2, chỉ số iot bằng 0.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 24; slide bài tập, trang 87"
+        },
+        {
+          "id": "c7-140",
+          "hoi": "Số nối đôi tăng thì chỉ số iot của acid béo thay đổi thế nào?",
+          "dap_an": [
+            "Tăng lên, vì có thêm vị trí để kết hợp I2",
+            "Giảm xuống, vì I2 khó gắn hơn",
+            "Không đổi, vì chỉ phụ thuộc số carbon",
+            "Bằng 0 cho mọi acid béo chưa no"
+          ],
+          "giai_thich": "Chỉ số iot tỉ lệ với số nối đôi trên một đơn vị khối lượng: no = 0, 1 nối đôi thấp, 2 hoặc 3 nối đôi cao hơn.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 24; slide bài tập, trang 87"
+        },
+        {
+          "id": "c7-141",
+          "hoi": "Theo biểu đồ trong slide, tỉ lệ chất béo no trong dầu dừa khoảng bao nhiêu?",
+          "dap_an": [
+            "92%",
+            "6%",
+            "14%",
+            "51%"
+          ],
+          "giai_thich": "Slide đánh dấu canola 6%, olive 14%, dừa 92% chất béo no.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 25; slide bài tập, trang 88"
+        },
+        {
+          "id": "c7-142",
+          "hoi": "Vì sao Hiệp hội Tim mạch Hoa Kỳ khuyên dùng dầu canola hoặc dầu olive thay cho dầu dừa?",
+          "dap_an": [
+            "Canola và olive ít chất béo no, trong khi dầu dừa gần như toàn chất béo no",
+            "Dầu dừa chứa nhiều acid béo omega-3 hơn dầu canola và olive",
+            "Dầu canola và olive chứa nhiều cholesterol hơn so với dầu dừa",
+            "Dầu dừa có nhiệt độ nóng chảy thấp hơn rất nhiều so với dầu olive"
+          ],
+          "giai_thich": "Chất béo no làm tăng nguy cơ bệnh tim mạch; canola 6% và olive 14% chất béo no so với dừa 92%.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 25; slide bài tập, trang 88"
+        },
+        {
+          "id": "c7-143",
+          "hoi": "Dầu olive có tỉ lệ chất béo nào cao nhất theo biểu đồ của slide?",
+          "dap_an": [
+            "Chất béo không no đơn (77%)",
+            "Chất béo no (77%)",
+            "Chất béo không no đa (77%)",
+            "Chất béo no (14%)"
+          ],
+          "giai_thich": "Olive: 14% no, 9% không no đa, 77% không no đơn.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 25; slide bài tập, trang 88"
+        },
+        {
+          "id": "c7-144",
+          "hoi": "Phản ứng của triacylglycerol với NaOH (xà phòng hóa) tạo ra",
+          "dap_an": [
+            "Glycerol và 3 muối natri của acid béo (xà phòng)",
+            "Glycerol và 3 acid béo tự do (không còn gắn natri)",
+            "Một phân tử xà phòng cùng với 3 phân tử glycerol",
+            "Glucose và 3 acid béo tự do do thủy phân tạo thành"
+          ],
+          "giai_thich": "TAG + 3 NaOH -> glycerol + 3 muối Na của acid béo (xà phòng).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 26; slide bài tập, trang 89-90"
+        },
+        {
+          "id": "c7-145",
+          "hoi": "Vì sao dùng NaOH tẩy được vết dầu mỡ bám trên áo?",
+          "dap_an": [
+            "Xà phòng tạo thành là chất amphipathic, tạo micelle nhốt dầu mỡ rồi cuốn trôi",
+            "NaOH hòa tan trực tiếp dầu mỡ giống như một dung môi hữu cơ mạnh",
+            "NaOH làm dầu mỡ bay hơi hoàn toàn ra khỏi sợi vải khi giặt",
+            "NaOH oxy hóa dầu mỡ thành khí carbonic và nước trong lúc giặt"
+          ],
+          "giai_thich": "Xà phòng có đầu ưa nước (COO-) và đuôi kỵ nước; trong nước chúng gom thành micelle, nhốt đuôi kỵ nước (dầu mỡ) vào trong.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 26; slide bài tập, trang 89-90"
+        },
+        {
+          "id": "c7-146",
+          "hoi": "Trong micelle của xà phòng, phần nào của phân tử hướng ra ngoài tiếp xúc với nước?",
+          "dap_an": [
+            "Đầu phân cực -COO- ưa nước",
+            "Đuôi hydrocarbon kỵ nước",
+            "Cả đầu và đuôi quay ra ngoài như nhau",
+            "Nguyên tử Na+ nằm ở trung tâm micelle"
+          ],
+          "giai_thich": "Các đuôi kỵ nước tụ vào trung tâm (nhốt vết dầu), các đầu ưa nước hướng ra nước.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 26; slide bài tập, trang 89-90"
+        },
+        {
+          "id": "c7-147",
+          "hoi": "Vì sao người ta phủ một lớp sáp lên trái cây như táo, lê để bảo quản?",
+          "dap_an": [
+            "Sáp kỵ nước, hạn chế mất hơi nước và trao đổi khí qua cuticle",
+            "Sáp cung cấp thêm chất dinh dưỡng cho quả trong lúc bảo quản",
+            "Sáp làm quả chín nhanh hơn để quả được bán trước khi hỏng",
+            "Sáp hòa tan hoàn toàn vi khuẩn gây hỏng nằm trên vỏ quả"
+          ],
+          "giai_thich": "Lớp sáp lấp các khe nứt nhỏ của cuticle, giảm thoát nước, O2, CO2 nên quả ít hô hấp, giữ tươi lâu (có thể hơn 12 tháng với táo).",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 27; slide bài tập, trang 91-92"
+        },
+        {
+          "id": "c7-148",
+          "hoi": "Sáp ong có thành phần chính là chất nào theo slide?",
+          "dap_an": [
+            "Triacontanyl palmitate, ester của acid béo dài với alcohol dài",
+            "Triacylglycerol, ester của glycerol với ba acid béo mạch dài",
+            "Cholesterol, một sterol có cấu trúc vòng steroid bốn vòng",
+            "Phosphatidylcholine, một phospholipid là thành phần của màng"
+          ],
+          "giai_thich": "Sáp là ester của acid béo mạch dài với alcohol mạch dài; thành phần chính của sáp ong là triacontanyl palmitate.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 27; slide bài tập, trang 91-92"
+        },
+        {
+          "id": "c7-149",
+          "hoi": "Vì sao vitamin tan trong chất béo (A, D, E, K) có thể dự trữ trong cơ thể nhiều tháng?",
+          "dap_an": [
+            "Chúng kỵ nước, được đóng gói trong chylomicron rồi dự trữ ở gan, mô mỡ",
+            "Chúng tan trong nước nên được thận giữ lại lâu dài trong cơ thể",
+            "Chúng bị phân giải ngay thành glucose để dự trữ trong gan cơ",
+            "Chúng liên kết cộng hóa trị với DNA của các tế bào trong gan"
+          ],
+          "giai_thich": "Vitamin tan trong dầu theo micelle vào ruột, được đóng gói vào chylomicron, vào bạch huyết rồi dự trữ ở gan, tế bào mỡ.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 28; slide bài tập, trang 94"
+        },
+        {
+          "id": "c7-150",
+          "hoi": "Vitamin tan trong nước (B, C) khác vitamin tan trong chất béo ở điểm nào về dự trữ?",
+          "dap_an": [
+            "Phần dư được bài tiết qua nước tiểu nên phải bổ sung hằng ngày",
+            "Được dự trữ ở gan trong nhiều tháng giống như vitamin A hay D",
+            "Được đóng gói trong chylomicron rồi vận chuyển vào mạch bạch huyết",
+            "Chỉ được hấp thu cùng micelle chất béo ở thành ruột non của người"
+          ],
+          "giai_thich": "Vitamin tan nước hấp thu vào máu bằng khuếch tán và kênh vận chuyển, đến tế bào, phần dư thải qua nước tiểu.",
+          "kho": false,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 28; slide bài tập, trang 94"
+        },
+        {
+          "id": "c7-151",
+          "hoi": "Chylomicron là hạt có vai trò gì trong hấp thu lipid?",
+          "dap_an": [
+            "Đóng gói lipid và vitamin tan trong dầu, rồi vận chuyển qua bạch huyết",
+            "Hòa tan chất béo bằng cách thủy phân chúng thành glycerol và acid béo",
+            "Là enzyme tiêu hóa chất béo được tiết ra ở ruột non của người",
+            "Vận chuyển glucose được hấp thu ở ruột về gan qua máu tĩnh mạch"
+          ],
+          "giai_thich": "Micelle khuếch tán vào thành ruột, hình thành chylomicron, được vận chuyển trong mạch bạch huyết.",
+          "kho": true,
+          "nguon": "TT Bài tập ôn Chương 1-4, bài 28; slide bài tập, trang 94"
         }
       ]
     }

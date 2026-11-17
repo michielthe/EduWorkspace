@@ -1,4 +1,6 @@
-Cập nhật 2026-11-17 00:50 - Mạng máy tính: thêm Chương 11
-- du-lieu/mang-may-tinh.json (phiên bản 5): thêm "Chương 11 - Ôn thuật ngữ theo đề thi giữa kỳ" (nhóm "Ôn đề thi", 114 câu, 37 câu khó); tổng môn 714 câu. 600 câu cũ không đổi.
-- Chương 11 chưa có file PDF tóm tắt nên chưa thêm vào mục Tài liệu.
-Đưa file này lên GitHub (giữ nguyên thư mục du-lieu), đợi 1-2 phút rồi Ctrl+F5.
+Cập nhật 2026-11-17 19:50 - Sinh hóa cơ sở: thêm Bài tập ôn Chương 1-4
+- du-lieu/sinh-hoa-co-so.json (phiên bản 2): thêm "Bài tập ôn Chương 1-4" (nhóm "Bài tập", 151 câu, 44 câu khó); tổng 369 câu. 218 câu cũ không đổi.
+- du-lieu/danh-sach-mon.json: thêm tài liệu "Bài tập ôn Chương 1-4" cho Sinh hóa cơ sở (file đủ 10 môn).
+- tai-lieu/sinh-hoa-co-so/tt-bai-tap-on-chuong-01-04.pdf: file tóm tắt mới.
+- giao-dien/app.js: chương nhóm "Bài tập" hiện nhãn "BT".
+Đưa nội dung thư mục này lên GitHub (giữ nguyên cấu trúc), đợi 1-2 phút rồi Ctrl+F5.

@@ -89,6 +89,7 @@
   function findSubject(ma) { return (registry.mon || []).filter(function (m) { return m.ma_mon === ma; })[0]; }
   function chapLabel(ch, pos) {
     if (/^Chương\s+Thực tập/i.test(ch.ten)) return "TT";
+    if (ch.nhom === "Bài tập") return "BT";
     var m = ch.ten.match(/(\d+(?:-\d+)?)(?:\s+([A-ZĐ]{2,4})\b)?/), n = m ? m[1] + (m[2] ? "-" + m[2] : "") : String(pos);
     return (ch.nhom === "PerfectEN" ? "E" : "") + n;
   }

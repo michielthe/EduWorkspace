@@ -38,11 +38,23 @@
       var disp = m[1] !== undefined, tex = (disp ? m[1] : m[2]).split(MARK).join("\\$").trim();
       try {
         if (!window.katex) throw new Error("katex");
-        out += window.katex.renderToString(tex, { displayMode: disp, throwOnError: false, strict: "ignore" });
+        var html = window.katex.renderToString(disp ? tex : tex.replace(/\\frac(?![a-zA-Z])/g, "\\dfrac"), { displayMode: disp, throwOnError: false, strict: "ignore" });
+        /* dấu câu liền sau công thức dính vào công thức (word joiner), không bị rớt xuống đầu dòng riêng */
+        var pm = disp ? null : /^[.,;:!?)\]]+/.exec(s.slice(re.lastIndex));
+        if (pm) { html += "\u2060" + esc(pm[0]); re.lastIndex += pm[0].length; }
+        out += html;
       } catch (e) { out += '<code class="tex-raw">' + esc(m[0].split(MARK).join("\\$")) + "</code>"; }
       last = re.lastIndex;
     }
     return out + plain(s.slice(last));
+  }
+  /* Câu hỏi có code: phần chữ (đoạn đầu) giữ nguyên, phần còn lại sau dòng xuống đầu tiên là code, hiện trong khung chữ đều, giữ thụt lề. */
+  function qrich(s) {
+    s = String(s == null ? "" : s);
+    var i = s.indexOf("\n");
+    if (i < 0) return rich(s);
+    var code = s.slice(i + 1).replace(/^\s*\n/, "").replace(/\s+$/, "");
+    return rich(s.slice(0, i)) + '<pre class="code"><code>' + esc(code) + "</code></pre>";
   }
   /* Vẽ một màn hình. Chỉ chạy hiệu ứng vào trang khi đổi sang màn hình khác. */
   function render(html, viewName) {
@@ -319,7 +331,7 @@
     });
     h += '</div></div><article class="panel qcard' + (dir > 0 ? " from-next" : dir < 0 ? " from-prev" : "") + '" id="qcard">'
       + '<div class="qtags"><span class="qnum">Câu <b>' + (s.cur + 1) + "</b></span>" + (q.kho ? '<span class="tag">Khó</span>' : "") + "</div>"
-      + '<div class="qtext">' + rich(q.hoi) + '</div><div class="opts">';
+      + '<div class="qtext">' + qrich(q.hoi) + '</div><div class="opts">';
     it.order.forEach(function (dIdx, pos) {
       var c = "opt";
       if (picked) c += dIdx === 0 ? " right" : (pos === it.pick ? " wrong" : " dim");
@@ -428,7 +440,7 @@
       h += '<section class="stack"><h2>Cần xem lại</h2><div class="review">';
       review.forEach(function (it) {
         var q = it.q, sk = it.pick === null;
-        h += '<div class="panel review-item' + (sk ? " skip" : "") + '"><div class="review-q">' + rich(q.hoi) + "</div>"
+        h += '<div class="panel review-item' + (sk ? " skip" : "") + '"><div class="review-q">' + qrich(q.hoi) + "</div>"
           + (sk ? '<div class="small muted">Chưa làm</div>' : '<div class="small ans-bad">Bạn chọn: ' + rich(q.dap_an[it.order[it.pick]]) + "</div>")
           + '<div class="small ans-ok">Đáp án đúng: ' + rich(q.dap_an[0]) + '</div><div class="small">' + rich(q.giai_thich) + "</div></div>";
       });

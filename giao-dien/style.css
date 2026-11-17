@@ -195,6 +195,9 @@ main{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px
 .katex{font-size:1.1em;text-indent:0}
 .katex-display{margin:.7em 0;overflow-x:auto;overflow-y:hidden;padding:.15em 0}
 .qtext,.opt .txt,.explain,.review-item{overflow-wrap:anywhere}
+/* Khung code (câu hỏi OOP) */
+pre.code{margin:.7em 0 .2em;padding:12px 14px;background:var(--sunk);border:1px solid var(--line,rgba(128,128,128,.25));border-radius:10px;overflow-x:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:.86rem;line-height:1.5;font-weight:400;white-space:pre;tab-size:4;overflow-wrap:normal;text-align:left;-webkit-overflow-scrolling:touch}
+pre.code code{font:inherit;background:none;padding:0;white-space:inherit}
 .tex-raw{font-size:.9em;background:var(--sunk);border-radius:4px;padding:0 4px}
 .opts{display:flex;flex-direction:column;gap:10px}
 .opt{--c:var(--w-or);position:relative;display:flex;align-items:flex-start;gap:14px;width:100%;text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:13px 44px 13px 13px;cursor:pointer;line-height:1.5;

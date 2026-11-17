@@ -1,7 +1,7 @@
 {
   "mon": "Mạng máy tính",
   "ma_mon": "mang-may-tinh",
-  "phien_ban": 4,
+  "phien_ban": 5,
   "chuong": [
     {
       "id": "c1",
@@ -7884,6 +7884,1495 @@
           "giai_thich": "NFV: các chức năng mạng (firewall, NAT, load balancer...) trở thành dịch vụ lập trình được, chạy trên phần cứng mạng, tính toán, lưu trữ whitebox, thay cho phần cứng độc quyền riêng từng loại. Đi cùng xu hướng SDN.",
           "kho": false,
           "nguon": "PerfectEN 2, mục 6 (slide-en Chapter 4)"
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "nhom": "Ôn đề thi",
+      "ten": "Chương 11 - Ôn thuật ngữ theo đề thi giữa kỳ",
+      "cau": [
+        {
+          "id": "c11-01",
+          "hoi": "Bandwidth (băng thông) của một kênh truyền được hiểu là gì?",
+          "dap_an": [
+            "Lượng dữ liệu tối đa mà kênh có thể truyền trong một đơn vị thời gian",
+            "Lượng dữ liệu thực tế mà kênh đã truyền được trong một đơn vị thời gian",
+            "Khoảng thời gian cần để một gói tin đi hết chiều dài của kênh truyền",
+            "Tỉ lệ phần trăm gói tin bị mất khi đi qua kênh trong một đơn vị thời gian"
+          ],
+          "giai_thich": "Bandwidth là khả năng (dung lượng) truyền tối đa của kênh, tính theo bit trên giây. Lượng dữ liệu thực tế đạt được gọi là throughput; thời gian đi qua kênh là delay; tỉ lệ mất gói là packet loss.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 30; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-02",
+          "hoi": "Throughput trong mạng máy tính được định nghĩa là gì?",
+          "dap_an": [
+            "Tốc độ truyền dữ liệu thực tế đạt được qua mạng trong một khoảng thời gian",
+            "Tốc độ truyền dữ liệu tối đa về mặt lý thuyết mà đường truyền hỗ trợ",
+            "Thời gian trung bình để một gói tin đi từ máy gửi đến máy nhận",
+            "Số lượng thiết bị mạng có thể kết nối đồng thời vào cùng một mạng"
+          ],
+          "giai_thich": "Throughput là tốc độ thực tế, thường nhỏ hơn hoặc bằng bandwidth. Tốc độ tối đa lý thuyết là bandwidth; thời gian đi từ nguồn đến đích là delay.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 25; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-03",
+          "hoi": "Đơn vị thường dùng để đo bandwidth trong mạng máy tính là gì?",
+          "dap_an": [
+            "bit trên giây (bps)",
+            "byte trên giây (Bps)",
+            "giây (s) hoặc mili giây (ms)",
+            "số gói tin trên phút"
+          ],
+          "giai_thich": "Tốc độ mạng tính bằng bit/s (kbps, Mbps, Gbps). Byte/s chỉ bằng 1/8 và thường dùng cho tốc độ tải file. Giây và mili giây là đơn vị của độ trễ. Cách đo theo Hz là nghĩa dải tần trong viễn thông, không phải nghĩa tốc độ truyền.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 19; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-04",
+          "hoi": "Một đường truyền ghi 100 Mbps. Con số này là đại lượng nào?",
+          "dap_an": [
+            "Bandwidth (khả năng truyền tối đa của đường truyền)",
+            "Throughput (tốc độ thực tế luôn đạt được khi truyền)",
+            "Latency (độ trễ khi một gói tin đi qua đường truyền)",
+            "Packet loss (tỉ lệ gói tin bị mất khi đi qua đường truyền)"
+          ],
+          "giai_thich": "Số ghi trên đường truyền là dung lượng tối đa, tức bandwidth. Tốc độ thực tế đo được thường thấp hơn vì nhiễu, giao thức, tắc nghẽn.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 30, 18; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-05",
+          "hoi": "Yếu tố nào sau đây có thể làm throughput thực tế của mạng thấp hơn bandwidth?",
+          "dap_an": [
+            "Tất cả: khoảng cách, loại giao thức, nhiễu tín hiệu, tắc nghẽn",
+            "Chỉ khoảng cách giữa các thiết bị, vì tín hiệu yếu dần theo chiều dài",
+            "Chỉ loại giao thức, vì mỗi giao thức có phần header riêng",
+            "Chỉ nhiễu tín hiệu, vì nhiễu làm mất gói và phải truyền lại"
+          ],
+          "giai_thich": "Throughput chịu ảnh hưởng của nhiều yếu tố cùng lúc: khoảng cách, giao thức (overhead), nhiễu (gây lỗi, truyền lại), tắc nghẽn và thiết bị trung gian.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 18"
+        },
+        {
+          "id": "c11-06",
+          "hoi": "Data rate (tốc độ dữ liệu) là gì?",
+          "dap_an": [
+            "Số bit dữ liệu được truyền qua mạng trong một giây",
+            "Số gói tin mà một router xử lý được trong một giây",
+            "Thời gian cần để truyền xong một gói tin có kích thước cho trước",
+            "Số bit dữ liệu bị mất do lỗi trong mỗi giây truyền tin"
+          ],
+          "giai_thich": "Data rate là số bit truyền mỗi giây (bit/s). Trong đề, data rate là tốc độ thực tế còn bandwidth là tốc độ lý thuyết; một số tài liệu dùng hai từ này gần nghĩa nhau nên cần xem ngữ cảnh.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 56, 49; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-07",
+          "hoi": "Theo cách phân biệt của đề thi, data rate và bandwidth khác nhau thế nào?",
+          "dap_an": [
+            "Data rate là tốc độ thực tế, bandwidth là tốc độ lý thuyết tối đa",
+            "Bandwidth là tốc độ thực tế, data rate là tốc độ lý thuyết tối đa",
+            "Hai khái niệm này hoàn toàn giống nhau, chỉ khác tên gọi",
+            "Data rate đo độ trễ của gói tin, bandwidth đo tốc độ truyền"
+          ],
+          "giai_thich": "Đề (đáp án giải) chọn: data rate là tốc độ thực tế, bandwidth là tốc độ lý thuyết. Slide không định nghĩa riêng data rate nên phần này cần đối chiếu đáp án chính thức.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 49; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-08",
+          "hoi": "Bốn thành phần: processing delay, queuing delay, transmission delay, propagation delay cùng thuộc khái niệm nào?",
+          "dap_an": [
+            "Packet delay (nodal delay), tức độ trễ của gói tin tại một nút",
+            "Packet loss, tức tình trạng gói tin bị mất khi đi qua một nút",
+            "Network performance chỉ ở mặt băng thông của một liên kết",
+            "Packet data rate, tức tốc độ dữ liệu của gói tin tại một nút"
+          ],
+          "giai_thich": "Bốn thành phần này cộng lại thành độ trễ tại một nút: d_nodal = d_proc + d_queue + d_trans + d_prop.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 63; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-09",
+          "hoi": "Transmission delay của một gói tin được tính theo công thức nào (L: số bit của gói, R: tốc độ liên kết bit/s, d: chiều dài liên kết, s: vận tốc lan truyền)?",
+          "dap_an": [
+            "L / R",
+            "d / s",
+            "L x R",
+            "R / L"
+          ],
+          "giai_thich": "Transmission delay = L/R: thời gian đẩy toàn bộ bit của gói lên đường truyền. d/s là propagation delay.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 phần công thức; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-10",
+          "hoi": "Propagation delay được tính theo công thức nào (d: chiều dài liên kết, s: vận tốc lan truyền, L: số bit của gói, R: tốc độ liên kết)?",
+          "dap_an": [
+            "d / s",
+            "L / R",
+            "d x s",
+            "s / d"
+          ],
+          "giai_thich": "Propagation delay = d/s: thời gian một bit đi hết chiều dài liên kết. L/R là transmission delay.",
+          "kho": false,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-11",
+          "hoi": "Gói tin 8000 bit gửi qua liên kết 10 Mbps. Transmission delay là bao nhiêu?",
+          "dap_an": [
+            "0,8 ms",
+            "8 ms",
+            "0,08 ms",
+            "80 ms"
+          ],
+          "giai_thich": "L/R = 8000 / 10 000 000 = 0,0008 s = 0,8 ms. Lỗi hay gặp là quên đổi Mbps sang bps.",
+          "kho": true,
+          "nguon": "slide-vi Chương 1 (Tổng quan); tính bằng code"
+        },
+        {
+          "id": "c11-12",
+          "hoi": "Một liên kết dài 2000 km, tín hiệu lan truyền với vận tốc 2 x 10^8 m/s. Propagation delay là bao nhiêu?",
+          "dap_an": [
+            "10 ms",
+            "1 ms",
+            "100 ms",
+            "0,1 ms"
+          ],
+          "giai_thich": "d/s = 2 000 000 m / 200 000 000 m/s = 0,01 s = 10 ms. Cần đổi km sang m.",
+          "kho": true,
+          "nguon": "slide-vi Chương 1 (Tổng quan); tính bằng code"
+        },
+        {
+          "id": "c11-13",
+          "hoi": "Nút nào trong bốn loại delay phụ thuộc vào mức độ tắc nghẽn của mạng và thay đổi từ gói này sang gói khác?",
+          "dap_an": [
+            "Queuing delay (thời gian gói chờ trong hàng đợi)",
+            "Propagation delay (thời gian bit lan truyền trên đường)",
+            "Transmission delay (thời gian đẩy các bit lên đường)",
+            "Processing delay (thời gian kiểm tra header, xác định hướng đi)"
+          ],
+          "giai_thich": "Queuing delay phụ thuộc số gói đang chờ trước nó nên thay đổi theo tải. Ba loại còn lại tương đối ổn định với một gói và liên kết cho trước.",
+          "kho": true,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-14",
+          "hoi": "Chọn nhóm liệt kê đúng các chỉ số thường dùng để đánh giá hiệu suất mạng (network performance).",
+          "dap_an": [
+            "Bandwidth, throughput, latency (và packet loss)",
+            "Bandwidth, throughput, latency và độ bảo mật của mạng",
+            "Throughput, latency, reliability và độ bảo mật của mạng",
+            "Packet loss, reliability, độ bảo mật và độ phức tạp của mạng"
+          ],
+          "giai_thich": "Bandwidth, throughput, latency, packet loss là các chỉ số hiệu năng. Security (bảo mật) không phải chỉ số hiệu năng trực tiếp. Câu 44 của đề rất mơ hồ, nên nhớ cách chia này.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 44; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-15",
+          "hoi": "Network topology (đồ hình mạng) là gì?",
+          "dap_an": [
+            "Cách thức bố trí đường truyền để nối kết các nút mạng",
+            "Phương thức mã hóa dữ liệu khi truyền giữa các nút mạng",
+            "Tập quy định về định dạng thông điệp giữa các nút mạng",
+            "Danh sách địa chỉ của tất cả các nút nằm trong cùng một mạng"
+          ],
+          "giai_thich": "Đồ hình mạng là cách bố trí, nối các nút. Có đồ hình vật lý (cách bố trí đường truyền thật) và đồ hình logic (đường đi thật sự của dữ liệu).",
+          "kho": false,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-16",
+          "hoi": "Đồ hình bus có đặc điểm nào?",
+          "dap_an": [
+            "Các thiết bị chia sẻ chung một đường truyền (cáp chính)",
+            "Các thiết bị nối với nhau thành một vòng khép kín",
+            "Hai thiết bị bất kỳ đều được nối trực tiếp với nhau",
+            "Các thiết bị nối vào một thiết bị trung tâm chung"
+          ],
+          "giai_thich": "Bus: dùng chung một đường cáp, hai đầu có terminator. Ring là vòng, mesh là nối trực tiếp từng cặp, star là có nút trung tâm.",
+          "kho": false,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-17",
+          "hoi": "Đồ hình nào mà một thiết bị bị hỏng không ảnh hưởng các thiết bị còn lại, nhưng nếu thiết bị trung tâm hỏng thì cả mạng ngừng hoạt động?",
+          "dap_an": [
+            "Star",
+            "Bus",
+            "Ring",
+            "Mesh toàn phần"
+          ],
+          "giai_thich": "Star: thêm sửa dễ, quản lý tập trung, một máy hỏng không ảnh hưởng máy khác; điểm yếu là nút trung tâm.",
+          "kho": false,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-18",
+          "hoi": "Nhược điểm chính của đồ hình mesh theo slide là gì?",
+          "dap_an": [
+            "Tốn kém khi lắp đặt vì dùng rất nhiều dây cáp",
+            "Một liên kết đứt sẽ làm cả mạng ngừng hoạt động",
+            "Khó phát hiện và cô lập sự cố trên toàn mạng",
+            "Mạng chậm đi khi lưu lượng tăng cao, nhất là giờ cao điểm"
+          ],
+          "giai_thich": "Mesh tăng độ dự phòng, độ tin cậy và dễ xử lý sự cố, đổi lại rất tốn cáp và chi phí.",
+          "kho": false,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-19",
+          "hoi": "Đồ hình nào thường được dùng trong hệ thống mạng lớn để giảm thiểu sự cố nhờ có nhiều đường dự phòng?",
+          "dap_an": [
+            "Mesh",
+            "Bus",
+            "Star",
+            "Ring"
+          ],
+          "giai_thich": "Mesh có nhiều liên kết dự phòng nên một đường hỏng vẫn còn đường khác. Đổi lại chi phí cao.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 39; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-20",
+          "hoi": "Theo bảng ưu/nhược của slide, đồ hình nào có nhược điểm \"một máy hỏng có thể ảnh hưởng phần còn lại của mạng và khi cấu hình lại mạng thì hoạt động bị gián đoạn\"?",
+          "dap_an": [
+            "Ring",
+            "Star",
+            "Mesh",
+            "Bus"
+          ],
+          "giai_thich": "Ring: truy cập công bằng, hiệu năng ổn định khi nhiều người dùng, nhưng một máy hỏng ảnh hưởng mạng, khó cô lập sự cố, cấu hình lại làm gián đoạn.",
+          "kho": true,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-21",
+          "hoi": "Về chuyện \"đồ hình nào dễ mở rộng nhất\", slide ghi nhận điều gì?",
+          "dap_an": [
+            "Bus được ghi là dễ mở rộng và star dễ thêm máy, nên câu hỏi này mơ hồ",
+            "Chỉ riêng mesh là dễ mở rộng nhất vì có nhiều đường dự phòng",
+            "Chỉ riêng ring là dễ mở rộng nhất vì mọi máy có quyền truy cập như nhau",
+            "Không đồ hình nào dễ mở rộng vì cả bốn đều phải lắp lại từ đầu"
+          ],
+          "giai_thich": "Slide ghi bus \"easy to extend\" và star \"adding new computers is easy\". Đề lấy đáp án Star, nhưng đây là câu mơ hồ; khi thi nên chọn Star nếu có cả hai và đọc kỹ các lựa chọn.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 2; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-22",
+          "hoi": "Chức năng chính của firewall là gì?",
+          "dap_an": [
+            "Kiểm soát lưu lượng vào và ra theo quy tắc, chặn lưu lượng không mong muốn",
+            "Mã hóa toàn bộ dữ liệu trước khi truyền đi để không ai đọc được nội dung",
+            "Tăng băng thông cho mạng bằng cách nén dữ liệu trên đường truyền chung",
+            "Sao lưu dữ liệu của cả hệ thống để khôi phục lại khi gặp sự cố nghiêm trọng"
+          ],
+          "giai_thich": "Firewall (phần mềm hoặc phần cứng) kiểm soát luồng dữ liệu giữa mạng trong và ngoài theo access policy. Nó không mã hóa, không tăng băng thông, không sao lưu.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 7, 59; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-23",
+          "hoi": "Firewall có thể kiểm soát luồng dữ liệu theo hướng nào?",
+          "dap_an": [
+            "Cả từ mạng bên trong đi ra ngoài lẫn từ bên ngoài đi vào",
+            "Chỉ từ mạng bên ngoài đi vào mạng bên trong",
+            "Chỉ từ mạng bên trong đi ra mạng bên ngoài",
+            "Chỉ giữa hai máy nằm trong cùng một mạng nội bộ"
+          ],
+          "giai_thich": "Slide: firewall kiểm soát luồng dữ liệu cả hai chiều, theo access policy (ví dụ cho phép HTTP, chặn streaming).",
+          "kho": false,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-24",
+          "hoi": "Firewall hoạt động chính ở tầng nào của OSI theo đáp án của đề?",
+          "dap_an": [
+            "Tầng Mạng (Network)",
+            "Tầng Trình bày (Presentation)",
+            "Tầng Liên kết dữ liệu (Data Link)",
+            "Tầng Phiên (Session)"
+          ],
+          "giai_thich": "Đề chọn Network (lọc theo địa chỉ IP, lớp 3). Thực tế firewall có thể ở L3/L4 (lọc gói) hoặc L7 (application firewall), nên slide/đề chỉ chọn một đáp án gần nhất.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 1, 50; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-25",
+          "hoi": "Proxy được slide mô tả như thế nào?",
+          "dap_an": [
+            "Một ứng dụng đặc biệt, \"thay thế\" các kết nối giữa client và server",
+            "Một thiết bị phần cứng chuyên mã hóa dữ liệu giữa hai mạng",
+            "Một giao thức dùng để chuyển tên miền thành địa chỉ IP",
+            "Một loại cáp chuyên dụng nối trực tiếp hai mạng với nhau"
+          ],
+          "giai_thich": "Proxy là ứng dụng trung gian, đại diện cho client để kết nối tới server (và ngược lại).",
+          "kho": false,
+          "nguon": "slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-26",
+          "hoi": "Chức năng điển hình của proxy server là gì?",
+          "dap_an": [
+            "Chuyển tiếp yêu cầu từ client đến server và có thể lưu đệm dữ liệu",
+            "Chặn mọi gói tin đi vào mạng nội bộ từ phía Internet để bảo vệ mạng",
+            "Đo lường tốc độ truyền dữ liệu trên các liên kết nằm trong cả hệ thống mạng",
+            "Cấp phát địa chỉ IP động cho mọi máy trong mạng nội bộ của tổ chức"
+          ],
+          "giai_thich": "Proxy chuyển tiếp request, cache để tăng tốc, có thể ghi log, lọc nội dung, kiểm soát truy cập. Cấp IP động là việc của DHCP.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 4, 35, 51; slide-vi Chương 1 (Tổng quan)"
+        },
+        {
+          "id": "c11-27",
+          "hoi": "Web cache (proxy server) giúp ích gì cho mạng?",
+          "dap_an": [
+            "Giảm thời gian đáp ứng cho client và giảm lưu lượng ra đường truyền ngoài",
+            "Tăng bảo mật bằng cách mã hóa mọi yêu cầu mà client gửi đến server gốc",
+            "Giúp server gốc nhận được nhiều yêu cầu hơn từ phía các client trong mạng",
+            "Thay thế hoàn toàn server gốc nên có thể tắt hẳn server gốc đi được"
+          ],
+          "giai_thich": "Nếu cache có đối tượng thì trả ngay cho client, không phải hỏi server gốc nên nhanh hơn và đỡ tải đường ra Internet.",
+          "kho": false,
+          "nguon": "slide-en Chapter 2 (Web caches)"
+        },
+        {
+          "id": "c11-28",
+          "hoi": "Transparent proxy khác proxy thông thường ở điểm nào?",
+          "dap_an": [
+            "Người dùng không phải cấu hình gì trên thiết bị của mình",
+            "Người dùng phải cấu hình địa chỉ proxy thủ công trên trình duyệt",
+            "Proxy này mã hóa toàn bộ lưu lượng của người dùng qua VPN",
+            "Proxy này chỉ hoạt động được với giao thức FTP, không dùng cho web"
+          ],
+          "giai_thich": "Transparent proxy chặn/chuyển hướng lưu lượng ở mạng nên client không biết và không cần cấu hình. Nội dung này không có trong slide nên cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 36; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-29",
+          "hoi": "NAT (Network Address Translation) dùng để làm gì?",
+          "dap_an": [
+            "Thay đổi địa chỉ IP, thường giữa địa chỉ private và địa chỉ public",
+            "Mã hóa dữ liệu để bảo vệ nội dung khi truyền trên đường Internet công cộng",
+            "Tăng tốc độ truyền dữ liệu giữa các router nằm trong cùng một mạng lớn",
+            "Phân giải tên miền thành địa chỉ IP cho các máy nằm trong mạng nội bộ"
+          ],
+          "giai_thich": "NAT thay đổi thông tin nguồn khi gói đi ra và thông tin đích khi gói đi vào, cho phép mạng private dùng chung ít địa chỉ public.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 20; slide-vi phần NAT"
+        },
+        {
+          "id": "c11-30",
+          "hoi": "Kiểu NAT nào ánh xạ nhiều địa chỉ local vào một địa chỉ global duy nhất, phân biệt bằng số port?",
+          "dap_an": [
+            "Overloading NAT (PAT)",
+            "Static NAT",
+            "Dynamic NAT",
+            "Overlapping NAT"
+          ],
+          "giai_thich": "Overloading: n local IP -> 1 global IP, bảng NAT lưu cặp <local IP, local port> <-> <global IP, global port>. Static là 1-1 cố định; dynamic là n-m chọn IP global còn rảnh.",
+          "kho": true,
+          "nguon": "slide-vi phần NAT"
+        },
+        {
+          "id": "c11-31",
+          "hoi": "Static NAT khác dynamic NAT ở điểm nào?",
+          "dap_an": [
+            "Static ánh xạ cố định 1 local IP với 1 global IP; dynamic chọn global IP còn rảnh",
+            "Static dùng số port để phân biệt các máy trong mạng; dynamic không cần dùng port",
+            "Static chỉ áp dụng cho gói đi vào mạng; dynamic chỉ áp dụng cho gói đi ra ngoài",
+            "Static mã hóa nội dung gói tin khi đi qua; dynamic giữ nguyên nội dung gói tin"
+          ],
+          "giai_thich": "Static: 1 local - 1 global cố định. Dynamic: n local - m global, NAT chọn một global IP đang rảnh.",
+          "kho": false,
+          "nguon": "slide-vi phần NAT"
+        },
+        {
+          "id": "c11-32",
+          "hoi": "Về chủ đề ẩn danh trên Internet, phát biểu nào sau đây là SAI?",
+          "dap_an": [
+            "Không đăng nhập, dùng proxy/VPN, xóa cookie đều hoàn toàn vô tác dụng hạn chế dấu vết",
+            "Dùng proxy hoặc VPN có thể che địa chỉ IP thật của mình khi truy cập web",
+            "Xóa cookie trong trình duyệt làm giảm khả năng bị theo dõi trong thời gian dài",
+            "Không đăng nhập vào dịch vụ nào giúp hạn chế việc gắn với danh tính thật"
+          ],
+          "giai_thich": "Cả ba biện pháp đều có tác dụng hạn chế dấu vết, nhưng không bảo đảm ẩn danh tuyệt đối. Trong đề gốc, lựa chọn \"cả ba câu trên đều sai\" là câu sai cần chọn, vì ba biện pháp thực ra đều đúng một phần.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 29; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-33",
+          "hoi": "VPN thường được dùng để làm gì trong chủ đề ẩn danh?",
+          "dap_an": [
+            "Tạo đường hầm riêng để che địa chỉ IP thật của người dùng",
+            "Cấp phát địa chỉ IP động cho thiết bị của người dùng",
+            "Lưu đệm các trang web mà người dùng hay truy cập",
+            "Phân giải tên miền thành địa chỉ IP cho người dùng"
+          ],
+          "giai_thich": "VPN chuyển lưu lượng qua máy chủ trung gian trong một đường hầm nên IP công khai thấy được là IP của máy chủ VPN. Không có trong slide nên cần kiểm tra lại.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 29; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-34",
+          "hoi": "Cookie được slide dùng để làm gì?",
+          "dap_an": [
+            "Giúp server duy trì trạng thái giữa các request vì HTTP là stateless",
+            "Giúp client mã hóa nội dung của mỗi request gửi đi",
+            "Giúp router chọn đường đi ngắn nhất cho mỗi gói tin",
+            "Giúp DNS server lưu bản ghi tên miền trong thời gian dài"
+          ],
+          "giai_thich": "Cookie gồm header ở response, header ở request, file cookie trên máy người dùng và cơ sở dữ liệu ở web server.",
+          "kho": false,
+          "nguon": "slide-en Chapter 2 (Cookies)"
+        },
+        {
+          "id": "c11-35",
+          "hoi": "Lớp nào của OSI chịu trách nhiệm thiết lập, quản lý và kết thúc phiên làm việc giữa các ứng dụng?",
+          "dap_an": [
+            "Lớp 5 - Session (Phiên)",
+            "Lớp 4 - Transport (Giao vận)",
+            "Lớp 6 - Presentation (Trình bày)",
+            "Lớp 2 - Data Link (Liên kết dữ liệu)"
+          ],
+          "giai_thich": "Session là lớp 5. Lớp 4 lo truyền đầu cuối, lớp 6 lo biểu diễn dữ liệu, lớp 2 lo truyền khung giữa hai nút kề nhau.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 10; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-36",
+          "hoi": "Lớp nào của OSI chịu trách nhiệm mã hóa, giải mã, nén và chuyển đổi định dạng dữ liệu?",
+          "dap_an": [
+            "Lớp 6 - Presentation (Trình bày)",
+            "Lớp 5 - Session (Phiên)",
+            "Lớp 7 - Application (Ứng dụng)",
+            "Lớp 3 - Network (Mạng)"
+          ],
+          "giai_thich": "Presentation (lớp 6) xử lý cú pháp và biểu diễn dữ liệu. Application cung cấp dịch vụ cho người dùng; Session quản lý phiên.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 17, 31; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-37",
+          "hoi": "Lớp nào của OSI truyền dữ liệu dưới dạng các bit qua môi trường vật lý?",
+          "dap_an": [
+            "Lớp 1 - Physical (Vật lý)",
+            "Lớp 2 - Data Link (Liên kết dữ liệu)",
+            "Lớp 3 - Network (Mạng)",
+            "Lớp 4 - Transport (Giao vận)"
+          ],
+          "giai_thich": "Lớp 1 truyền bit thô. Lớp 2 làm việc với frame, lớp 3 với packet, lớp 4 với segment/datagram.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 41; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-38",
+          "hoi": "Lớp nào của OSI có chức năng định tuyến gói dữ liệu giữa các mạng khác nhau?",
+          "dap_an": [
+            "Lớp 3 - Network (Mạng)",
+            "Lớp 2 - Data Link (Liên kết dữ liệu)",
+            "Lớp 4 - Transport (Giao vận)",
+            "Lớp 5 - Session (Phiên)"
+          ],
+          "giai_thich": "Network (lớp 3) dùng địa chỉ logic (IP) để định tuyến giữa các mạng. Lớp 2 chỉ chuyển frame giữa các nút kề nhau trong cùng liên kết.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 42; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-39",
+          "hoi": "Theo cách hiểu đầu cuối, lớp nào của OSI đảm bảo dữ liệu được truyền đúng giữa hai thiết bị đầu cuối?",
+          "dap_an": [
+            "Lớp 4 - Transport (Giao vận)",
+            "Lớp 3 - Network (Mạng)",
+            "Lớp 2 - Data Link (Liên kết dữ liệu)",
+            "Lớp 1 - Physical (Vật lý)"
+          ],
+          "giai_thich": "Transport (đặc biệt TCP) cung cấp truyền tin cậy đầu cuối. Lớp 2 chỉ phát hiện lỗi trên từng liên kết. Đề này phát biểu thiếu \"đầu cuối\" nên dễ nhầm với lớp 2.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 47; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-40",
+          "hoi": "Tầng Application trong mô hình OSI là tầng thứ mấy tính từ dưới lên?",
+          "dap_an": [
+            "Tầng thứ 7",
+            "Tầng thứ 5",
+            "Tầng thứ 6",
+            "Tầng thứ 4"
+          ],
+          "giai_thich": "Thứ tự từ dưới lên: 1 Physical, 2 Data Link, 3 Network, 4 Transport, 5 Session, 6 Presentation, 7 Application.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 68; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-41",
+          "hoi": "Vai trò chính của tầng Application trong OSI là gì?",
+          "dap_an": [
+            "Giao tiếp với ứng dụng và cung cấp giao diện, dịch vụ mạng cho người dùng",
+            "Đóng gói và phân mảnh dữ liệu để truyền qua các mạng khác nhau",
+            "Mã hóa và giải mã dữ liệu để bảo đảm tính bí mật khi truyền",
+            "Định tuyến dữ liệu qua nhiều mạng để đến đúng máy đích"
+          ],
+          "giai_thich": "Mã hóa/biểu diễn thuộc Presentation; định tuyến thuộc Network; phân mảnh/đóng gói thuộc Transport/Network.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 31; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-42",
+          "hoi": "Giao thức nào sau đây hoạt động ở tầng Application?",
+          "dap_an": [
+            "FTP",
+            "TCP",
+            "IP",
+            "ARP"
+          ],
+          "giai_thich": "FTP, HTTP, SMTP, DNS là giao thức tầng ứng dụng. TCP thuộc Transport, IP thuộc Network, ARP hỗ trợ giữa tầng 2 và 3.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 23, 64; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-43",
+          "hoi": "Giao thức nào sau đây KHÔNG thuộc tầng Application?",
+          "dap_an": [
+            "UDP",
+            "HTTP",
+            "SMTP",
+            "DNS"
+          ],
+          "giai_thich": "UDP là giao thức tầng giao vận. HTTP, SMTP, DNS đều là giao thức tầng ứng dụng.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 64; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-44",
+          "hoi": "HTTP hoạt động ở tầng nào của mô hình OSI?",
+          "dap_an": [
+            "Tầng Application (lớp 7)",
+            "Tầng Transport (lớp 4)",
+            "Tầng Session (lớp 5)",
+            "Tầng Presentation (lớp 6)"
+          ],
+          "giai_thich": "HTTP là giao thức tầng ứng dụng, chạy trên TCP (tầng giao vận).",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 52, 57"
+        },
+        {
+          "id": "c11-45",
+          "hoi": "Mô hình TCP/IP có mấy tầng và gồm những tầng nào?",
+          "dap_an": [
+            "4 tầng: Application, Transport, Internet (Network), Network Access (Link)",
+            "7 tầng: Physical, Data Link, Network, Transport, Session, Presentation, Application",
+            "5 tầng: Physical, Data Link, Network, Transport, Application",
+            "3 tầng: Application, Transport, Network, không có tầng truy cập mạng"
+          ],
+          "giai_thich": "Slide dùng mô hình TCP/IP 4 tầng: Application, Transport, Internet, Network Access. Một số giáo trình dùng bản 5 tầng nhưng nên theo slide.",
+          "kho": true,
+          "nguon": "slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-46",
+          "hoi": "Đơn vị dữ liệu (PDU) ở các tầng Transport, Network, Data Link theo thứ tự là gì?",
+          "dap_an": [
+            "Segment (TCP) hoặc datagram (UDP), packet, frame",
+            "Packet, frame, bit (theo thứ tự các tầng)",
+            "Frame, segment, packet (theo thứ tự các tầng)",
+            "Bit, frame, segment (theo thứ tự các tầng)"
+          ],
+          "giai_thich": "Tầng giao vận: segment/datagram; tầng mạng: packet (datagram IP); tầng liên kết: frame; tầng vật lý: bit.",
+          "kho": true,
+          "nguon": "slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-47",
+          "hoi": "Hãy chọn cặp (giao thức - tầng OSI) đúng.",
+          "dap_an": [
+            "IP - Network (lớp 3)",
+            "TCP - Network (lớp 3)",
+            "HTTP - Transport (lớp 4)",
+            "DNS - Session (lớp 5)"
+          ],
+          "giai_thich": "IP thuộc tầng Network; TCP/UDP thuộc Transport; HTTP/DNS thuộc Application.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 23, 58; slide-vi Chương 4 (OSI và TCP/IP)"
+        },
+        {
+          "id": "c11-48",
+          "hoi": "Chức năng chính của giao thức IP là gì?",
+          "dap_an": [
+            "Định địa chỉ và định tuyến gói tin giữa các mạng",
+            "Quản lý kết nối giữa hai tiến trình đầu cuối",
+            "Bảo mật dữ liệu bằng cách mã hóa gói tin",
+            "Điều khiển lỗi và truyền lại gói tin bị mất"
+          ],
+          "giai_thich": "IP là best-effort: đánh địa chỉ và chuyển tiếp gói theo địa chỉ đích, không quản lý kết nối hay đảm bảo tin cậy. Việc đó thuộc TCP.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 58"
+        },
+        {
+          "id": "c11-49",
+          "hoi": "Giao thức (protocol) trong mạng máy tính là gì?",
+          "dap_an": [
+            "Tập quy định về định dạng, thứ tự thông điệp và hành động khi gửi, nhận",
+            "Một phần mềm bảo mật được cài trên các thiết bị thuộc hệ thống mạng",
+            "Một dịch vụ nén dữ liệu được áp dụng trước khi truyền qua đường truyền",
+            "Một loại phần cứng chuyên dụng dùng để nối các thiết bị trong mạng"
+          ],
+          "giai_thich": "Protocol định nghĩa format, thứ tự thông điệp trao đổi và hành động cần làm khi gửi/nhận thông điệp. Định nghĩa này lấy từ bài tổng quan, đối chiếu thêm đề.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 40; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-50",
+          "hoi": "Địa chỉ IPv4 có bao nhiêu bit?",
+          "dap_an": [
+            "32 bit",
+            "16 bit",
+            "64 bit",
+            "128 bit"
+          ],
+          "giai_thich": "IPv4 dài 32 bit, viết thành 4 octet thập phân. IPv6 dài 128 bit.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 45"
+        },
+        {
+          "id": "c11-51",
+          "hoi": "Subnet mask 255.255.255.0 tương ứng với prefix nào?",
+          "dap_an": [
+            "/24",
+            "/8",
+            "/16",
+            "/32"
+          ],
+          "giai_thich": "Ba octet đầu là 24 bit 1 nên prefix là /24.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 12"
+        },
+        {
+          "id": "c11-52",
+          "hoi": "Một mạng 192.168.10.0/24 có bao nhiêu địa chỉ IP khả dụng cho thiết bị?",
+          "dap_an": [
+            "254",
+            "256",
+            "255",
+            "252"
+          ],
+          "giai_thich": "2^8 = 256 địa chỉ, trừ địa chỉ mạng (.0) và broadcast (.255) còn 254.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 15"
+        },
+        {
+          "id": "c11-53",
+          "hoi": "Subnet mask 255.255.255.240 cho bao nhiêu địa chỉ host khả dụng mỗi mạng con?",
+          "dap_an": [
+            "14",
+            "16",
+            "30",
+            "8"
+          ],
+          "giai_thich": "/28 còn 4 bit host: 2^4 = 16 địa chỉ, trừ 2 còn 14.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 11"
+        },
+        {
+          "id": "c11-54",
+          "hoi": "Subnet mask nào cho đúng 256 địa chỉ IP (tính cả địa chỉ mạng và broadcast) trong một mạng con?",
+          "dap_an": [
+            "255.255.255.0",
+            "255.255.255.128",
+            "255.255.255.192",
+            "255.255.0.0"
+          ],
+          "giai_thich": "/24 có 8 bit host nên 2^8 = 256 địa chỉ. /25 chỉ 128, /26 chỉ 64, /16 có 65 536.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 6"
+        },
+        {
+          "id": "c11-55",
+          "hoi": "Subnet mask 255.255.255.224 tương ứng prefix nào và mỗi mạng con có bao nhiêu địa chỉ (cả địa chỉ mạng và broadcast)?",
+          "dap_an": [
+            "/27, 32 địa chỉ",
+            "/26, 64 địa chỉ",
+            "/28, 16 địa chỉ",
+            "/27, 30 địa chỉ"
+          ],
+          "giai_thich": "224 = 11100000 nên /27 (3 bit mượn), còn 5 bit host: 2^5 = 32 địa chỉ, trong đó 30 khả dụng.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 62"
+        },
+        {
+          "id": "c11-56",
+          "hoi": "Với subnet mask 255.255.255.224, các địa chỉ mạng của các mạng con ở octet cuối tăng theo bước nào?",
+          "dap_an": [
+            "32 (0, 32, 64, 96, ...)",
+            "16 (0, 16, 32, 48, ...)",
+            "64 (0, 64, 128, 192)",
+            "224 (0, 224)"
+          ],
+          "giai_thich": "Block size = 256 - 224 = 32. Các địa chỉ mạng là .0, .32, .64, .96, .128, .160, .192, .224.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 62"
+        },
+        {
+          "id": "c11-57",
+          "hoi": "Trong các địa chỉ 192.168.1.1, 192.168.1.0, 192.168.1.32, 192.168.1.255, những địa chỉ nào là địa chỉ mạng hợp lệ khi mask là 255.255.255.224?",
+          "dap_an": [
+            "192.168.1.0 và 192.168.1.32",
+            "Chỉ 192.168.1.0",
+            "Chỉ 192.168.1.255",
+            "192.168.1.1 và 192.168.1.255"
+          ],
+          "giai_thich": "Địa chỉ mạng phải chia hết cho block size 32 ở octet cuối: .0 và .32. Còn .1 là host, .255 là broadcast. Vì vậy đề gốc câu 62 có hai đáp án đúng (B và C).",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 62"
+        },
+        {
+          "id": "c11-58",
+          "hoi": "Mục đích chính của việc chia một mạng lớn thành nhiều mạng con (subnetting) là gì?",
+          "dap_an": [
+            "Tăng hiệu suất, dễ quản lý và cô lập mạng (thu nhỏ miền broadcast)",
+            "Giảm tổng số địa chỉ IP trong không gian địa chỉ của mạng",
+            "Thay đổi cấu trúc của địa chỉ IP từ dạng IPv4 sang IPv6",
+            "Mã hóa toàn bộ lưu lượng giữa các mạng con với nhau"
+          ],
+          "giai_thich": "Subnetting thu nhỏ miền broadcast, giúp tổ chức địa chỉ, quản trị và cô lập mạng; không làm giảm tổng số địa chỉ.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 3"
+        },
+        {
+          "id": "c11-59",
+          "hoi": "Địa chỉ 10.0.0.1 với mask 255.0.0.0 thuộc loại địa chỉ nào?",
+          "dap_an": [
+            "Private IP",
+            "Loopback IP",
+            "Public IP",
+            "Multicast IP"
+          ],
+          "giai_thich": "10.0.0.0/8 là dải private (RFC 1918). Loopback là 127.0.0.0/8; multicast là 224.0.0.0/4.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 14; slide-vi phần NAT"
+        },
+        {
+          "id": "c11-60",
+          "hoi": "Dải địa chỉ nào sau đây là dải private theo RFC 1918?",
+          "dap_an": [
+            "192.168.0.0 đến 192.168.255.255",
+            "172.32.0.0 đến 172.47.255.255",
+            "127.0.0.0 đến 127.255.255.255",
+            "224.0.0.0 đến 239.255.255.255"
+          ],
+          "giai_thich": "Ba dải private: 10.0.0.0/8, 172.16.0.0/12 (172.16 đến 172.31), 192.168.0.0/16. Dải 127 là loopback, 224 đến 239 là multicast.",
+          "kho": true,
+          "nguon": "slide-vi phần NAT (RFC 1918)"
+        },
+        {
+          "id": "c11-61",
+          "hoi": "Địa chỉ 192.168.1.1 thuộc lớp nào theo cách chia lớp (classful)?",
+          "dap_an": [
+            "Lớp C",
+            "Lớp A",
+            "Lớp B",
+            "Lớp D"
+          ],
+          "giai_thich": "Octet đầu 192 đến 223 là lớp C (mask mặc định /24). Đồng thời đây cũng là địa chỉ private.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 53"
+        },
+        {
+          "id": "c11-62",
+          "hoi": "Lớp B có octet đầu nằm trong khoảng nào và mask mặc định là gì?",
+          "dap_an": [
+            "128 đến 191; 255.255.0.0",
+            "1 đến 126; 255.0.0.0",
+            "192 đến 223; 255.255.255.0",
+            "224 đến 239; 255.255.255.255"
+          ],
+          "giai_thich": "Lớp A: 1 đến 126 (/8); lớp B: 128 đến 191 (/16); lớp C: 192 đến 223 (/24); lớp D: 224 đến 239 (multicast).",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 70"
+        },
+        {
+          "id": "c11-63",
+          "hoi": "Địa chỉ 172.20.5.9 thuộc lớp nào?",
+          "dap_an": [
+            "Lớp B",
+            "Lớp A",
+            "Lớp C",
+            "Lớp D"
+          ],
+          "giai_thich": "Octet đầu 172 nằm trong 128 đến 191 nên là lớp B (và cũng nằm trong dải private 172.16.0.0/12).",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 70"
+        },
+        {
+          "id": "c11-64",
+          "hoi": "Giao thức nào sau đây hỗ trợ cả IPv4 và IPv6 theo đáp án của đề?",
+          "dap_an": [
+            "EIGRP",
+            "OSPFv2",
+            "ARP",
+            "RIPv1"
+          ],
+          "giai_thich": "OSPFv2 chỉ cho IPv4 (IPv6 dùng OSPFv3); ARP chỉ cho IPv4; RIP có phiên bản RIPng cho IPv6. Đề chọn EIGRP. Nội dung này không có trong slide nên cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 16; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-65",
+          "hoi": "HTTP sử dụng giao thức vận chuyển nào và cổng mặc định nào?",
+          "dap_an": [
+            "TCP, cổng 80",
+            "UDP, cổng 80",
+            "TCP, cổng 443",
+            "UDP, cổng 53"
+          ],
+          "giai_thich": "HTTP chạy trên TCP; client mở kết nối tới server ở cổng 80. HTTPS (HTTP qua TLS) dùng cổng 443; DNS dùng cổng 53.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 8; slide-en Chapter 2 (HTTP)"
+        },
+        {
+          "id": "c11-66",
+          "hoi": "Cổng mặc định của SMTP là cổng nào?",
+          "dap_an": [
+            "25",
+            "21",
+            "80",
+            "110"
+          ],
+          "giai_thich": "SMTP dùng TCP cổng 25 (gửi/chuyển thư giữa các mail server). 21 là FTP điều khiển, 80 là HTTP, 110 là POP3.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 33; slide-en Chapter 2 (SMTP)"
+        },
+        {
+          "id": "c11-67",
+          "hoi": "Cặp (giao thức - cổng mặc định) nào sau đây đúng?",
+          "dap_an": [
+            "POP3 - 110",
+            "IMAP - 25",
+            "FTP - 80",
+            "DNS - 443"
+          ],
+          "giai_thich": "POP3: 110, IMAP: 143, SMTP: 25, FTP: 21 (điều khiển), DNS: 53, HTTP: 80, HTTPS: 443, SSH: 22. Số cổng của POP3/IMAP/FTP không có trong slide nên cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 33 và phần ghi nhớ nhanh; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-68",
+          "hoi": "\"HTTP là giao thức không trạng thái (stateless)\" có nghĩa là gì?",
+          "dap_an": [
+            "Server không lưu thông tin về các request trước đó của client",
+            "Server lưu trạng thái của mỗi phiên để xử lý các request sau",
+            "HTTP dùng mã hóa để lưu trạng thái phiên vào máy khách",
+            "Client và server luôn giữ kết nối TCP mở giữa hai request"
+          ],
+          "giai_thich": "Slide: server không giữ thông tin về các request trong quá khứ. Muốn có trạng thái thì thêm cookie hoặc session ở mức ứng dụng.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 26, 48; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-69",
+          "hoi": "Tính chất nào mô tả đúng nhất một giao thức stateless?",
+          "dap_an": [
+            "Không lưu giữ thông tin của các request quá khứ",
+            "Không quản lý bất kỳ giao dịch (transaction) nào",
+            "Không duy trì được bất kỳ kết nối nào đã thiết lập",
+            "Không dùng bất kỳ thông tin nào của tầng giao vận"
+          ],
+          "giai_thich": "Stateless là mỗi request được xử lý độc lập, server không nhớ các request trước. Câu \"không duy trì kết nối\" là một nghĩa khác (connectionless).",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 48; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-70",
+          "hoi": "Phương thức HTTP nào dùng để lấy tài nguyên từ web server?",
+          "dap_an": [
+            "GET",
+            "POST",
+            "PUT",
+            "HEAD"
+          ],
+          "giai_thich": "GET lấy đối tượng. POST gửi dữ liệu form trong entity body; PUT tải/ghi đè file; HEAD chỉ lấy header.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 60; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-71",
+          "hoi": "Phương thức HTTP nào thường dùng để gửi dữ liệu form từ client lên server?",
+          "dap_an": [
+            "POST",
+            "GET",
+            "HEAD",
+            "TRACE"
+          ],
+          "giai_thich": "POST đưa dữ liệu người dùng nhập vào entity body của request. GET đặt tham số vào URL; HEAD chỉ yêu cầu header.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 67; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-72",
+          "hoi": "Phương thức HEAD khác GET ở điểm nào?",
+          "dap_an": [
+            "HEAD chỉ yêu cầu phần header mà server sẽ trả về, không có entity body",
+            "HEAD gửi dữ liệu của form lên server trong phần entity body",
+            "HEAD thay thế hoàn toàn tệp tại URL bằng nội dung mới",
+            "HEAD yêu cầu server xóa tài nguyên được chỉ định trong URL"
+          ],
+          "giai_thich": "Slide: HEAD chỉ yêu cầu header như khi gọi GET. Gửi form là POST; thay file là PUT.",
+          "kho": true,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-73",
+          "hoi": "Phương thức PUT theo slide có tác dụng gì?",
+          "dap_an": [
+            "Tải file mới lên server, thay thế hoàn toàn file đang có tại URL",
+            "Cập nhật một phần nội dung của file đang có tại URL",
+            "Chỉ lấy phần header của tài nguyên tại URL được chỉ định",
+            "Gửi dữ liệu form nhập từ người dùng trong entity body"
+          ],
+          "giai_thich": "PUT ghi đè hoàn toàn tài nguyên tại URL. Cập nhật một phần là PATCH (ngoài slide, cần kiểm tra lại).",
+          "kho": true,
+          "nguon": "slide-en Chapter 2; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-74",
+          "hoi": "Mã trạng thái HTTP 404 có ý nghĩa gì?",
+          "dap_an": [
+            "Not Found: không tìm thấy tài nguyên được yêu cầu trên server",
+            "OK: yêu cầu đã thành công và tài nguyên nằm trong thông điệp trả về",
+            "Bad Request: server không hiểu được thông điệp yêu cầu của client",
+            "Moved Permanently: tài nguyên đã được chuyển sang vị trí mới vĩnh viễn"
+          ],
+          "giai_thich": "404 Not Found. 200 OK, 301 Moved Permanently, 400 Bad Request, 505 HTTP Version Not Supported.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 32; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-75",
+          "hoi": "Mã trạng thái 301 cho client biết điều gì?",
+          "dap_an": [
+            "Tài nguyên đã chuyển vĩnh viễn, vị trí mới nằm ở trường Location",
+            "Yêu cầu thành công, tài nguyên nằm trong phần sau của thông điệp",
+            "Server không hiểu thông điệp request mà client gửi lên",
+            "Server không hỗ trợ phiên bản HTTP mà client đã dùng"
+          ],
+          "giai_thich": "301 Moved Permanently kèm Location. 200 OK, 400 Bad Request, 505 HTTP Version Not Supported.",
+          "kho": true,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-76",
+          "hoi": "Mã trạng thái 400 mang ý nghĩa gì?",
+          "dap_an": [
+            "Bad Request: server không hiểu thông điệp request",
+            "Not Found: không tìm thấy tài nguyên yêu cầu trên server",
+            "OK: yêu cầu thành công và trả về tài nguyên cho client",
+            "HTTP Version Not Supported: server không hỗ trợ phiên bản"
+          ],
+          "giai_thich": "400 Bad Request: request không hợp lệ hoặc không hiểu được.",
+          "kho": false,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-77",
+          "hoi": "Kiểu HTTP nào chỉ gửi tối đa một đối tượng trên mỗi kết nối TCP?",
+          "dap_an": [
+            "Non-persistent HTTP, vì mỗi đối tượng cần một kết nối TCP riêng",
+            "Persistent HTTP, vì mỗi đối tượng cần một kết nối TCP riêng",
+            "HTTP/2, vì mỗi đối tượng cần một kết nối TCP riêng",
+            "HTTP pipelining, vì mỗi đối tượng cần một kết nối TCP riêng"
+          ],
+          "giai_thich": "Non-persistent: mỗi đối tượng một kết nối (2 RTT mỗi đối tượng). Persistent: nhiều đối tượng qua cùng một kết nối TCP.",
+          "kho": false,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-78",
+          "hoi": "Mỗi đối tượng trong non-persistent HTTP tốn tối thiểu bao nhiêu RTT?",
+          "dap_an": [
+            "2 RTT: 1 RTT lập kết nối TCP, 1 RTT cho request và vài byte đầu của response",
+            "1 RTT cho cả việc lập kết nối TCP lẫn việc gửi request và nhận response",
+            "3 RTT vì có thêm một lượt trao đổi để đóng kết nối TCP sau khi nhận xong",
+            "0 RTT vì đã có sẵn kết nối TCP được dùng lại từ đối tượng đã tải trước đó"
+          ],
+          "giai_thich": "Slide: non-persistent tốn 2 RTT mỗi đối tượng cộng thời gian truyền file.",
+          "kho": true,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-79",
+          "hoi": "Cookie gồm mấy thành phần theo slide?",
+          "dap_an": [
+            "4: header ở response, header ở request, file cookie ở máy người dùng, database ở web site",
+            "2: header ở request và file cookie được lưu trên máy của người dùng cuối",
+            "3: header ở request, header ở response và bảng cache của DNS server cục bộ",
+            "5: bốn thành phần trên cộng thêm một khóa mã hóa được lưu ở phía client"
+          ],
+          "giai_thich": "Bốn thành phần: cookie header line của HTTP response, cookie header line trong request kế tiếp, file cookie trên host người dùng do browser quản lý, và database ở web site.",
+          "kho": true,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-80",
+          "hoi": "Conditional GET dùng để làm gì?",
+          "dap_an": [
+            "Server không gửi lại đối tượng nếu bản cache của client còn mới",
+            "Client gửi kèm dữ liệu form để server lọc đối tượng theo điều kiện cho trước",
+            "Server gửi nhiều đối tượng cùng lúc qua nhiều kết nối TCP song song",
+            "Client yêu cầu xóa đối tượng trên server nếu điều kiện cho trước thỏa mãn"
+          ],
+          "giai_thich": "Client gửi If-modified-since; nếu chưa đổi, server trả 304 Not Modified, không gửi lại đối tượng.",
+          "kho": true,
+          "nguon": "slide-en Chapter 2 (Conditional GET)"
+        },
+        {
+          "id": "c11-81",
+          "hoi": "Giao thức nào được dùng để gửi email?",
+          "dap_an": [
+            "SMTP",
+            "IMAP",
+            "FTP",
+            "ICMP"
+          ],
+          "giai_thich": "SMTP gửi và chuyển thư giữa các mail server. IMAP/POP3 dùng để truy cập thư.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 9, 46; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-82",
+          "hoi": "SMTP chủ yếu được dùng để làm gì?",
+          "dap_an": [
+            "Gửi thư từ máy khách đến mail server và chuyển thư giữa các mail server",
+            "Đọc thư trực tiếp qua trình duyệt mà không cần dùng đến mail server nào",
+            "Lưu trữ lâu dài các email trên máy chủ thư của phía người nhận thư",
+            "Tải thư từ mail server về máy khách để người dùng đọc lúc ngoại tuyến"
+          ],
+          "giai_thich": "SMTP là giao thức đẩy (push) thư; lấy thư về là IMAP/POP3.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 46; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-83",
+          "hoi": "SMTP dùng giao thức vận chuyển nào?",
+          "dap_an": [
+            "TCP (cổng 25), để truyền thư đáng tin cậy",
+            "UDP (cổng 25), để truyền thư nhanh hơn",
+            "UDP (cổng 53), để tra tên mail server",
+            "TCP (cổng 80), để truyền thư qua web"
+          ],
+          "giai_thich": "Slide: SMTP dùng TCP để truyền thư tin cậy từ client (mail server khởi tạo kết nối) đến server, cổng 25.",
+          "kho": false,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-84",
+          "hoi": "Điểm nổi bật của IMAP so với POP3 là gì?",
+          "dap_an": [
+            "Giữ thư trên server và đồng bộ thư giữa nhiều thiết bị",
+            "Tải thư về máy rồi xóa ngay khỏi server",
+            "Chỉ cho phép gửi thư, không cho phép đọc thư",
+            "Không hỗ trợ xem thư trên nhiều thiết bị khác nhau"
+          ],
+          "giai_thich": "IMAP quản lý thư trên server, đồng bộ thư mục và trạng thái giữa các thiết bị. POP3 thiên về tải thư về máy (có thể xóa trên server tùy cấu hình).",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 21, 61; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-85",
+          "hoi": "Giao thức nào cho phép tải thư từ máy chủ về máy khách và có thể xóa thư khỏi máy chủ?",
+          "dap_an": [
+            "POP3",
+            "SMTP",
+            "IMAP",
+            "HTTP"
+          ],
+          "giai_thich": "POP3 tải thư về client; SMTP là gửi; IMAP giữ thư trên server. POP3 không có trong slide-en, cần kiểm tra lại.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 27; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-86",
+          "hoi": "Nên chọn giao thức nào để đọc cùng một hộp thư trên cả điện thoại lẫn máy tính mà thư vẫn đồng bộ?",
+          "dap_an": [
+            "IMAP",
+            "POP3",
+            "SMTP",
+            "FTP"
+          ],
+          "giai_thich": "IMAP giữ thư trên server nên các thiết bị cùng thấy một trạng thái. POP3 thường tải thư về một máy.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 21, 61"
+        },
+        {
+          "id": "c11-87",
+          "hoi": "DNS được dùng chủ yếu để làm gì?",
+          "dap_an": [
+            "Chuyển tên miền thành địa chỉ IP của máy",
+            "Chuyển địa chỉ IP thành địa chỉ MAC của máy",
+            "Cấp phát địa chỉ IP động cho các máy",
+            "Mã hóa dữ liệu giữa client và web server"
+          ],
+          "giai_thich": "DNS phân giải tên miền sang IP. Chuyển IP sang MAC là ARP; cấp IP động là DHCP. DNS còn có truy vấn ngược IP sang tên (PTR).",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 37, 55"
+        },
+        {
+          "id": "c11-88",
+          "hoi": "Bản ghi DNS loại nào chứa địa chỉ IP (IPv4) của một tên miền?",
+          "dap_an": [
+            "A",
+            "MX",
+            "NS",
+            "CNAME"
+          ],
+          "giai_thich": "A: hostname -> IPv4. MX: mail server; NS: name server có thẩm quyền; CNAME: tên bí danh. AAAA là IPv6 (ngoài slide, cần kiểm tra lại).",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 34; slide-en Chapter 2 (DNS)"
+        },
+        {
+          "id": "c11-89",
+          "hoi": "Bản ghi MX dùng để làm gì?",
+          "dap_an": [
+            "Xác định mail server của tên miền",
+            "Lưu địa chỉ IPv6 của tên miền",
+            "Cho biết name server có thẩm quyền của tên miền",
+            "Lưu tên bí danh trỏ về tên chuẩn của máy chủ"
+          ],
+          "giai_thich": "MX: value là tên mail server gắn với tên miền. NS: name server có thẩm quyền. CNAME: bí danh. AAAA: IPv6.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 22; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-90",
+          "hoi": "Bản ghi NS chứa thông tin gì?",
+          "dap_an": [
+            "Tên của authoritative name server của tên miền",
+            "Địa chỉ IPv4 của một máy trong tên miền",
+            "Tên của mail server nhận thư cho tên miền",
+            "Tên chuẩn thật sự của một máy đang có bí danh"
+          ],
+          "giai_thich": "NS trỏ đến name server có thẩm quyền của miền (ví dụ networkutopia.com -> dns1.networkutopia.com).",
+          "kho": false,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-91",
+          "hoi": "Bản ghi CNAME có tác dụng gì?",
+          "dap_an": [
+            "Cho một tên bí danh trỏ về tên chuẩn thật sự của máy chủ",
+            "Cho biết địa chỉ IPv4 của một tên miền được hỏi tới trong truy vấn",
+            "Cho biết mail server nhận thư của một tên miền được hỏi tới",
+            "Cho biết name server có thẩm quyền của một miền được hỏi tới"
+          ],
+          "giai_thich": "Ví dụ www.ibm.com là bí danh của servereast.backup2.ibm.com; value của CNAME là tên chuẩn (canonical name).",
+          "kho": false,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-92",
+          "hoi": "DNS dùng giao thức vận chuyển nào để truyền các truy vấn phân giải thông thường?",
+          "dap_an": [
+            "UDP (cổng 53)",
+            "TCP (cổng 53)",
+            "TCP (cổng 80)",
+            "UDP (cổng 25)"
+          ],
+          "giai_thich": "Slide: UDP cho truy vấn (query) cổng 53; TCP dùng khi cập nhật thông tin (zone transfer). Nên trả lời UDP khi đề cho cả hai.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 65; slide-vi DNS"
+        },
+        {
+          "id": "c11-93",
+          "hoi": "DNS dùng TCP trong trường hợp nào theo slide?",
+          "dap_an": [
+            "Cập nhật thông tin giữa các server (zone transfer)",
+            "Truy vấn thông thường của client đến local DNS server",
+            "Mọi truy vấn có câu trả lời nhỏ hơn 512 byte",
+            "Mọi truy vấn từ client dùng giao thức di động"
+          ],
+          "giai_thich": "Slide: UDP cho query (port 53), TCP cho zone transfer. Các trường hợp khác không nằm trong slide.",
+          "kho": true,
+          "nguon": "slide-vi DNS"
+        },
+        {
+          "id": "c11-94",
+          "hoi": "Công cụ nào dùng để truy vấn và phân tích các bản ghi DNS?",
+          "dap_an": [
+            "dig",
+            "ping",
+            "traceroute",
+            "ftp"
+          ],
+          "giai_thich": "dig gửi truy vấn DNS và hiển thị bản ghi trả về (nslookup cũng làm được). ping kiểm tra kết nối; traceroute xem đường đi. dig không có trong slide nên cần kiểm tra lại.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 24; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-95",
+          "hoi": "Lệnh nào kiểm tra đường đi qua các router giữa hai máy?",
+          "dap_an": [
+            "traceroute",
+            "dig",
+            "nslookup",
+            "telnet"
+          ],
+          "giai_thich": "traceroute cho thấy các hop trên đường đi. dig/nslookup truy vấn DNS. telnet mở kết nối văn bản đến một cổng.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 24; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-96",
+          "hoi": "Truy vấn đệ quy (recursive) và lặp (iterative) trong DNS khác nhau thế nào?",
+          "dap_an": [
+            "Recursive: server được hỏi tự đi hỏi tiếp rồi trả đáp án; iterative: server trả địa chỉ server khác",
+            "Recursive: client tự hỏi lần lượt từng server khác; iterative: server tự đi hỏi giúp client",
+            "Recursive chỉ dùng cho tên miền con trong miền; iterative chỉ dùng cho tên miền gốc",
+            "Hai loại truy vấn giống nhau, chỉ khác nhau ở giao thức vận chuyển dùng là UDP hay TCP"
+          ],
+          "giai_thich": "Recursive: gánh nặng đẩy sang server được hỏi. Iterative: server trả \"tôi không biết, hãy hỏi server này\".",
+          "kho": true,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-97",
+          "hoi": "Nút DNS nào được local DNS server hỏi đầu tiên khi nó chưa biết tên miền (và không có cache)?",
+          "dap_an": [
+            "Root name server",
+            "TLD server của tên miền",
+            "Authoritative name server",
+            "Web server của tên miền"
+          ],
+          "giai_thich": "Thứ bậc: root -> TLD -> authoritative. Local DNS server (có cache) hỏi từ root khi chưa biết.",
+          "kho": false,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-98",
+          "hoi": "TCP hoạt động theo mô hình nào?",
+          "dap_an": [
+            "Hướng kết nối (connection-oriented)",
+            "Không kết nối (connectionless)",
+            "Truyền phát sóng (broadcast)",
+            "Tập trung (centralized)"
+          ],
+          "giai_thich": "TCP bắt tay (handshake) trước khi truyền dữ liệu; UDP không kết nối.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 38; slide-vi Chương 6 (Tầng vận chuyển)"
+        },
+        {
+          "id": "c11-99",
+          "hoi": "Điểm khác biệt chính của UDP so với TCP là gì?",
+          "dap_an": [
+            "UDP không đảm bảo dữ liệu được truyền thành công",
+            "UDP luôn yêu cầu thiết lập kết nối trước khi gửi",
+            "UDP có cơ chế kiểm soát lưu lượng và tắc nghẽn",
+            "UDP đảm bảo thứ tự và độ tin cậy của dữ liệu"
+          ],
+          "giai_thich": "UDP: không thiết lập kết nối, không tin cậy, không flow/congestion control. TCP có tất cả các cơ chế đó.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 43; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-100",
+          "hoi": "Ưu điểm của UDP so với TCP là gì?",
+          "dap_an": [
+            "Ít tài nguyên và overhead hơn vì không có cơ chế quản lý kết nối",
+            "Đảm bảo dữ liệu không bị mất mát hay sai thứ tự trong quá trình truyền",
+            "Hỗ trợ bảo mật tốt hơn nhờ có mã hóa được tích hợp sẵn trong giao thức",
+            "Luôn truyền được các gói tin có kích thước lớn hơn so với giao thức TCP"
+          ],
+          "giai_thich": "UDP đơn giản, không handshake nên nhanh và nhẹ. Không bảo đảm gói đến nơi.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 28; slide-en Chapter 2"
+        },
+        {
+          "id": "c11-101",
+          "hoi": "Socket của TCP thuộc loại nào?",
+          "dap_an": [
+            "Stream socket (SOCK_STREAM)",
+            "Datagram socket (SOCK_DGRAM)",
+            "Raw socket (SOCK_RAW)",
+            "Domain socket (UNIX domain)"
+          ],
+          "giai_thich": "TCP dùng stream socket, UDP dùng datagram socket. Nội dung socket chi tiết nằm ngoài slide Chương 2, cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 13; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-102",
+          "hoi": "Dịch vụ nào mà UDP KHÔNG cung cấp theo slide?",
+          "dap_an": [
+            "Độ tin cậy, kiểm soát lưu lượng, kiểm soát tắc nghẽn, thiết lập kết nối",
+            "Truyền dữ liệu giữa hai tiến trình đang chạy trên hai máy khác nhau",
+            "Phân biệt các ứng dụng đang chạy trên một máy bằng số hiệu cổng",
+            "Gửi dữ liệu dưới dạng các datagram độc lập, mỗi datagram đi riêng"
+          ],
+          "giai_thich": "UDP: truyền không tin cậy, không flow control, congestion control, timing, bảo đảm throughput, bảo mật hay thiết lập kết nối.",
+          "kho": true,
+          "nguon": "slide-en Chapter 2"
+        },
+        {
+          "id": "c11-103",
+          "hoi": "Hai chức năng chính của network core là gì?",
+          "dap_an": [
+            "Forwarding và routing",
+            "Switching và forwarding",
+            "Internetworking và routing",
+            "Routing và circuit switching"
+          ],
+          "giai_thich": "Network core: forwarding (chuyển gói từ cổng vào sang cổng ra) và routing (xác định đường đi từ nguồn đến đích).",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 5; slide-en Chapter 1 (Network core)"
+        },
+        {
+          "id": "c11-104",
+          "hoi": "Giao thức nào sau đây là giao thức định tuyến động (dynamic routing)?",
+          "dap_an": [
+            "RIP",
+            "FTP",
+            "DNS",
+            "ARP"
+          ],
+          "giai_thich": "RIP là giao thức định tuyến distance-vector. FTP/DNS là giao thức ứng dụng; ARP phân giải địa chỉ MAC.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 54; slide-vi Chương 7"
+        },
+        {
+          "id": "c11-105",
+          "hoi": "Giao thức nào là giao thức định tuyến \"exterior\" (giữa các hệ tự trị)?",
+          "dap_an": [
+            "BGP",
+            "RIP",
+            "OSPF",
+            "EIGRP"
+          ],
+          "giai_thich": "BGP định tuyến giữa các Autonomous System (EGP). RIP, OSPF, EIGRP là IGP (trong một AS). Nội dung exterior không rõ trong slide Chương 7, cần kiểm tra lại.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 69; ngoài slide, cần kiểm tra lại"
+        },
+        {
+          "id": "c11-106",
+          "hoi": "Giao thức định tuyến nào thuộc loại link-state?",
+          "dap_an": [
+            "OSPF",
+            "RIP",
+            "BGP",
+            "FTP"
+          ],
+          "giai_thich": "Slide: Distance Vector ví dụ RIP, IGRP; Link State ví dụ OSPF, IS-IS.",
+          "kho": false,
+          "nguon": "slide-vi Chương 7 (Distance Vector, Link State)"
+        },
+        {
+          "id": "c11-107",
+          "hoi": "RIP thuộc loại giải thuật định tuyến nào?",
+          "dap_an": [
+            "Distance vector",
+            "Link state",
+            "Path vector",
+            "Circuit switching"
+          ],
+          "giai_thich": "RIP là distance vector (ngoài ra có IGRP). OSPF là link state.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 54; slide-vi Chương 7"
+        },
+        {
+          "id": "c11-108",
+          "hoi": "Switch và router khác nhau thế nào về phạm vi kết nối?",
+          "dap_an": [
+            "Switch nối các host trong cùng một mạng; router nối các mạng với nhau",
+            "Switch nối các mạng với nhau; router nối các host trong một mạng",
+            "Cả hai đều nối các mạng với nhau và hoạt động ở tầng 3",
+            "Cả hai đều chỉ nối các host trong một mạng và hoạt động ở tầng 2"
+          ],
+          "giai_thich": "Switch (tầng 2) kết nối thiết bị trong LAN; router (tầng 3) kết nối các mạng và định tuyến.",
+          "kho": false,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 66; slide-vi Chương 10 (Thiết bị mạng)"
+        },
+        {
+          "id": "c11-109",
+          "hoi": "Đề hỏi \"chỉ ra câu sai\" với A: \"Switch nối các host trong một network\", B: \"Router nối các networks\", C: \"Cả A và B đều sai\", D: \"Cả A và B đều đúng\". Câu sai là câu nào?",
+          "dap_an": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ],
+          "giai_thich": "A và B đều đúng theo chức năng cơ bản nên D đúng, còn C (\"cả hai đều sai\") mới là câu sai. Với dạng \"câu sai\" có các lựa chọn gộp, hãy kiểm tra từng ý trước rồi mới xét lựa chọn gộp.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 66"
+        },
+        {
+          "id": "c11-110",
+          "hoi": "Hub xử lý gói tin đến như thế nào?",
+          "dap_an": [
+            "Gửi gói ra tất cả các cổng còn lại (môi trường chia sẻ)",
+            "Chỉ gửi gói ra đúng một cổng đang nối với máy đích của gói",
+            "Định tuyến gói theo địa chỉ IP của máy đích trong bảng định tuyến",
+            "Lưu tạm gói rồi mã hóa nội dung trước khi gửi đi đến máy đích"
+          ],
+          "giai_thich": "Hub (tầng 1) lặp tín hiệu ra mọi cổng; switch (tầng 2) học địa chỉ MAC trong bảng CAM và chỉ gửi ra đúng cổng.",
+          "kho": false,
+          "nguon": "slide-vi Chương 10"
+        },
+        {
+          "id": "c11-111",
+          "hoi": "Thiết bị nào hoạt động ở tầng 3 (Network)?",
+          "dap_an": [
+            "Router",
+            "Switch",
+            "Hub",
+            "Repeater"
+          ],
+          "giai_thich": "Router (và brouter) ở tầng 3; switch/bridge ở tầng 2; hub/repeater/modem ở tầng 1.",
+          "kho": false,
+          "nguon": "slide-vi Chương 10"
+        },
+        {
+          "id": "c11-112",
+          "hoi": "Switch học địa chỉ MAC của các máy như thế nào?",
+          "dap_an": [
+            "Tự học: ghi địa chỉ nguồn của frame đến vào bảng CAM",
+            "Nhận bảng địa chỉ từ router thông qua một giao thức định tuyến",
+            "Người quản trị phải nhập toàn bộ bảng địa chỉ bằng tay vào switch",
+            "Hỏi DNS server để biết địa chỉ MAC của máy đích cần gửi đến"
+          ],
+          "giai_thich": "Switch tự học từ địa chỉ nguồn của frame, lưu bảng CAM (MAC - cổng).",
+          "kho": true,
+          "nguon": "slide-vi Chương 10"
+        },
+        {
+          "id": "c11-113",
+          "hoi": "Store-and-forward khác cut-through ở switch như thế nào?",
+          "dap_an": [
+            "Store-and-forward nhận hết frame rồi mới chuyển; cut-through chuyển khi đọc xong địa chỉ",
+            "Store-and-forward chuyển ngay khi đọc xong địa chỉ; cut-through nhận hết frame rồi mới chuyển",
+            "Hai kiểu hoạt động giống nhau, chỉ khác nhau ở tốc độ của các cổng trên switch",
+            "Store-and-forward chỉ dùng cho hub còn cut-through chỉ dùng cho router định tuyến"
+          ],
+          "giai_thich": "Cut-through chuyển sớm (khoảng 14 byte đầu) nên nhanh nhưng không kiểm tra lỗi toàn frame; store-and-forward kiểm tra lỗi trước khi chuyển.",
+          "kho": true,
+          "nguon": "slide-vi Chương 10"
+        },
+        {
+          "id": "c11-114",
+          "hoi": "Phát biểu nào đúng khi nói về mạng con và router?",
+          "dap_an": [
+            "Router cần có địa chỉ IP riêng thuộc từng mạng mà nó nối vào",
+            "Router dùng chung một địa chỉ IP cho mọi mạng nó nối vào",
+            "Router không cần địa chỉ IP vì hoạt động ở tầng 2",
+            "Router chỉ cần địa chỉ MAC, không cần địa chỉ IP nào"
+          ],
+          "giai_thich": "Mỗi giao diện (interface) của router thuộc một mạng khác nhau nên có địa chỉ IP riêng thuộc mạng đó.",
+          "kho": true,
+          "nguon": "Đề giữa kỳ CSC10008 mã 240 câu 3, 66"
         }
       ]
     }

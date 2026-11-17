@@ -1,6 +1,4 @@
-Cập nhật 2026-11-17 01:10 - Đưa môn OOP lên web + hiện code đẹp
-Nguyên nhân OOP không hiện trên GitHub: file du-lieu/oop.json chưa từng nằm trong thư mục update nào nên chưa được đưa lên.
-- du-lieu/oop.json: 280 câu, 10 chương (câu hỏi giữ nguyên, không sửa).
-- du-lieu/danh-sach-mon.json: bản mới nhất, đã gồm đủ 10 môn (OOP đã khai báo sẵn).
-- giao-dien/app.js, giao-dien/style.css: câu hỏi có code (78 câu OOP) hiện trong khung chữ đều, giữ thụt lề, cuộn ngang nếu dòng dài. Trước đó code sẽ bị dồn thành một dòng.
-Đưa nội dung thư mục này lên GitHub (giữ nguyên cấu trúc), đợi 1-2 phút rồi Ctrl+F5.
+Cập nhật 2026-11-17 00:50 - Mạng máy tính: thêm Chương 11
+- du-lieu/mang-may-tinh.json (phiên bản 5): thêm "Chương 11 - Ôn thuật ngữ theo đề thi giữa kỳ" (nhóm "Ôn đề thi", 114 câu, 37 câu khó); tổng môn 714 câu. 600 câu cũ không đổi.
+- Chương 11 chưa có file PDF tóm tắt nên chưa thêm vào mục Tài liệu.
+Đưa file này lên GitHub (giữ nguyên thư mục du-lieu), đợi 1-2 phút rồi Ctrl+F5.

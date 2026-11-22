@@ -383,6 +383,45 @@
           "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-03-tinh-bien-dong-dna-tai-to-hop-chuyen-vi-plasmid.pdf"
         }
       ]
+    },
+    {
+      "ma_mon": "kinh-te-quoc-te",
+      "ten": "Kinh tế quốc tế",
+      "khu": "tong",
+      "icon": "hinh/mon/kinh-te-quoc-te.svg",
+      "file_cau_hoi": "du-lieu/kinh-te-quoc-te.json",
+      "tai_lieu": [
+        {
+          "ten": "Chương 1 - Lý thuyết thương mại quốc tế cổ điển",
+          "loai": "Tóm tắt",
+          "chuong": "c1",
+          "file": "tai-lieu/kinh-te-quoc-te/tt-chuong-01-ly-thuyet-thuong-mai-quoc-te-co-dien.pdf"
+        },
+        {
+          "ten": "Chương 3 - Thuế quan",
+          "loai": "Tóm tắt",
+          "chuong": "c3",
+          "file": "tai-lieu/kinh-te-quoc-te/tt-chuong-03-thue-quan.pdf"
+        },
+        {
+          "ten": "Chương 4 - Hàng rào phi thuế quan và chủ nghĩa bảo hộ mới",
+          "loai": "Tóm tắt",
+          "chuong": "c4",
+          "file": "tai-lieu/kinh-te-quoc-te/tt-chuong-04-hang-rao-phi-thue-quan-va-chu-nghia-bao-ho-moi.pdf"
+        },
+        {
+          "ten": "Chương 5 - Hội nhập kinh tế quốc tế",
+          "loai": "Tóm tắt",
+          "chuong": "c5",
+          "file": "tai-lieu/kinh-te-quoc-te/tt-chuong-05-hoi-nhap-kinh-te-quoc-te.pdf"
+        },
+        {
+          "ten": "Chương 6 - Di chuyển nguồn lực quốc tế",
+          "loai": "Tóm tắt",
+          "chuong": "c6",
+          "file": "tai-lieu/kinh-te-quoc-te/tt-chuong-06-di-chuyen-nguon-luc-quoc-te.pdf"
+        }
+      ]
     }
   ]
 }

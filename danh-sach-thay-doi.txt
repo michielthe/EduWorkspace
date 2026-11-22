@@ -1,22 +1,11 @@
-Cập nhật lớn 2026-11-22 - MichielEdu
-Đưa NGUYÊN nội dung thư mục này lên GitHub (giữ cấu trúc, ghi đè file cũ), đợi 1-2 phút rồi Ctrl+F5.
+Cập nhật 2026-11-22 22:20 - Thêm môn Kinh tế quốc tế
+Đưa nội dung thư mục này lên GitHub (giữ cấu trúc, ghi đè), đợi 1-2 phút rồi Ctrl+F5.
+Không cần đưa file danh-sach-thay-doi.txt này lên.
 
-Đổi gì:
-- Tên web: MichielEdu. Logo mũ tốt nghiệp (hinh/logo.svg), cũng là biểu tượng tab trình duyệt.
-- Bảng màu mới tông xanh công nghệ (xanh than, xanh dương, xanh ngọc), dịu mắt; có nút chuyển nền sáng/tối.
-- Trang chủ mới kiểu portfolio: giới thiệu web, người làm (ảnh, thẻ thông tin, Facebook), lý do làm, các môn.
-- Thanh điều hướng 6 mục: thêm Sổ ôn tập và Lịch sử. Trên điện thoại khi làm bài, thanh thu vào nút bên trái.
-- Thi thử theo môn: chọn chương, số câu, thời gian; nửa câu thường nửa câu khó; chế độ Luyện tập và Thi thật (đếm giờ, thoát ra thì dừng giờ).
-- Sổ ôn tập: lưu câu bằng trái tim (vàng), câu sai từ 2 lần trở lên; xóa theo câu/chương/môn/toàn bộ (chờ 3 giây).
-- Lịch sử làm bài: các lần làm đã xong.
-- Nút “Tóm tắt” cạnh từng chương; tab Tài liệu chọn môn trước rồi mới hiện PDF.
-- Tổ hợp hiện theo kiểu Việt Nam C_n^k.
-- Biểu tượng cho từng môn (hinh/mon/).
-
-File trong thư mục này:
-- index.html, README.md
-- giao-dien/app.js, giao-dien/style.css
-- du-lieu/danh-sach-mon.json (thêm trường "chuong" cho tài liệu và "icon" cho môn; đủ 10 môn)
-- hinh/logo.svg, hinh/mon/*.svg (10 file)
-- images/anh-dai-dien.jpg
-Không đổi: các file câu hỏi du-lieu/<môn>.json, tai-lieu/, thu-vien/.
+- du-lieu/kinh-te-quoc-te.json: môn mới, 5 chương (1, 3, 4, 5, 6), 225 câu, 70 câu khó. Nằm ở mục Trắc nghiệm Tổng.
+- du-lieu/danh-sach-mon.json: thêm môn Kinh tế quốc tế (biểu tượng quả địa cầu, 5 tài liệu gắn theo chương). Đủ 11 môn.
+- hinh/mon/kinh-te-quoc-te.svg: biểu tượng môn.
+- tai-lieu/kinh-te-quoc-te/: 5 PDF tóm tắt.
+- giao-dien/app.js: trang chủ chia đều ô môn theo số môn (6 môn = 2 hàng x 3).
+- giao-dien/style.css: sửa thanh điều hướng bị tràn ở bề ngang 600-880px (máy tính bảng, cửa sổ hẹp); thanh rộng tối đa 1040px.
+- index.html: thêm số phiên bản vào đường dẫn style.css và app.js (?v=20261122b) để trình duyệt tải bản mới, không bị lẫn bản cũ.

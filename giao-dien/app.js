@@ -318,7 +318,8 @@
         [["hien-tai", "Môn học kỳ này", "Trắc nghiệm"], ["tong", "Môn học khác", "Trắc nghiệm Tổng"]].forEach(function (g, gi) {
           var ms = withQ.filter(function (m) { return khuOf(m) === g[0]; });
           if (!ms.length) return;
-          h += '<div class="stack"><div class="section-title" style="--c:' + wire(gi * 2) + '">' + g[1] + ' <span class="muted small">· mục ' + g[2] + '</span></div><div class="h-subjects">';
+          var cols = ms.length <= 5 ? ms.length : Math.ceil(ms.length / Math.ceil(ms.length / 5));   /* chia đều hàng, không để ô lẻ */
+          h += '<div class="stack"><div class="section-title" style="--c:' + wire(gi * 2) + '">' + g[1] + ' <span class="muted small">· mục ' + g[2] + '</span></div><div class="h-subjects" style="--cols:' + cols + '">';
           ms.forEach(function (m, i) {
             var d = list[withQ.indexOf(m)], n = 0, c = 0;
             if (d) d.chuong.forEach(function (ch) { if (ch.cau.length) { c++; n += ch.cau.length; } });

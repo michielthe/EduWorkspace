@@ -57,7 +57,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 :root{--pair-stripe:repeating-linear-gradient(90deg,
   var(--w-or) 0 26px,var(--paper) 26px 30px,var(--w-gr) 30px 56px,var(--paper) 56px 60px,
   var(--w-bl) 60px 86px,var(--paper) 86px 90px,var(--w-br) 90px 116px,var(--paper) 116px 120px)}
-.topnav-inner{max-width:780px;margin:0 auto;display:flex;align-items:center;gap:16px;min-height:58px}
+.topnav-inner{max-width:1040px;margin:0 auto;display:flex;align-items:center;gap:16px;min-height:58px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--band-ink);font-family:var(--display);font-weight:700;font-size:1.08rem;white-space:nowrap}
 .brand-port{display:grid;grid-template-columns:repeat(4,5px);gap:2px;padding:4px;border-radius:4px;background:rgba(255,255,255,.08)}
 .brand-port i{height:10px;border-radius:1px}
@@ -488,7 +488,7 @@ main:has(.h-hero) .page{max-width:1040px;gap:56px}
 .h-value-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
 .h-value p{color:var(--muted);font-size:.94rem}
 
-.h-subjects{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.h-subjects{display:grid;grid-template-columns:repeat(var(--cols,5),minmax(0,1fr));gap:10px}
 .h-subj{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:14px;border-radius:14px;border:1px solid var(--line);background:var(--surface);cursor:pointer;text-align:left;transition:transform .2s var(--ease),border-color .2s}
 .h-subj:hover{transform:translateY(-2px);border-color:var(--c)}
 .h-subj .badge{color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--surface))}
@@ -512,6 +512,14 @@ main:has(.h-hero) .page{max-width:1040px;gap:56px}
 .h-foot-links a{color:var(--muted)}
 
 @media (max-width:900px) and (min-width:601px){.h-subjects{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Máy tính bảng, cửa sổ hẹp: logo + 6 mục + nút sáng/tối không đủ một hàng, nên cho các mục xuống hàng riêng và vuốt ngang */
+@media (max-width:880px) and (min-width:601px){
+  .topnav-inner{flex-wrap:wrap;gap:2px 12px;padding-block:8px 6px}
+  .theme-btn{order:2;margin-left:auto}
+  .tabs{order:3;margin-left:0;width:100%;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{flex:none}
+}
 @media (max-width:600px){
   .topnav-inner{flex-wrap:wrap;gap:2px 12px;padding-block:8px 6px}
   .tabs{margin-left:0;width:100%;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}

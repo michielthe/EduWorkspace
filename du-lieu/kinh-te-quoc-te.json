@@ -1,0 +1,2967 @@
+{
+  "mon": "Kinh tế quốc tế",
+  "ma_mon": "kinh-te-quoc-te",
+  "phien_ban": 1,
+  "chuong": [
+    {
+      "id": "c1",
+      "nhom": "Bài giảng",
+      "ten": "Chương 1 - Lý thuyết thương mại quốc tế cổ điển",
+      "cau": [
+        {
+          "id": "c1-01",
+          "hoi": "Theo chủ nghĩa trọng thương, sự thịnh vượng của một quốc gia được đo bằng gì?",
+          "dap_an": [
+            "Số lượng vàng bạc (quý kim) mà quốc gia tích trữ được",
+            "Khả năng sản xuất hàng hóa và dịch vụ của quốc gia",
+            "Số lượng lao động lành nghề mà quốc gia sở hữu",
+            "Mức độ chuyên môn hóa theo lợi thế của quốc gia"
+          ],
+          "giai_thich": "Trọng thương coi trọng quý kim: quốc gia càng tích trữ nhiều vàng bạc càng thịnh vượng. Đo bằng khả năng sản xuất là quan điểm của Adam Smith.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide Chương 1, trang 9"
+        },
+        {
+          "id": "c1-02",
+          "hoi": "Lập luận nền tảng nào khiến chủ nghĩa trọng thương cho rằng thương mại quốc tế không thể có lợi cho cả hai bên?",
+          "dap_an": [
+            "Của cải thế giới có giới hạn nên thương mại chỉ là phân chia lại",
+            "Chi phí vận chuyển quá cao làm mất hết lợi ích của thương mại",
+            "Mỗi quốc gia chỉ có lợi thế tuyệt đối ở một sản phẩm duy nhất",
+            "Lao động không thể di chuyển nên năng suất các nước bằng nhau"
+          ],
+          "giai_thich": "Trọng thương cho rằng sự thịnh vượng của thế giới có giới hạn, nên nước này được thì nước kia mất (tổng lợi ích mậu dịch bằng không).",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide Chương 1, trang 9"
+        },
+        {
+          "id": "c1-03",
+          "hoi": "Chính sách thuế nhập khẩu điển hình của chủ nghĩa trọng thương là gì?",
+          "dap_an": [
+            "Thuế cao với thành phẩm, thuế thấp hoặc miễn với nguyên liệu thô",
+            "Thuế thấp với thành phẩm, thuế cao với nguyên liệu thô nhập khẩu",
+            "Miễn thuế với mọi hàng nhập khẩu để thỏa mãn tiêu dùng trong nước",
+            "Thuế đồng đều với mọi hàng hóa để không phân biệt đối xử thương mại"
+          ],
+          "giai_thich": "Trọng thương bảo hộ mậu dịch: đánh thuế cao, hạn chế số lượng thành phẩm nhập khẩu; nguyên liệu thô nhập vào được thuế thấp hoặc không thuế để phục vụ sản xuất và xuất khẩu.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide Chương 1, trang 11"
+        },
+        {
+          "id": "c1-04",
+          "hoi": "Đâu là một ưu điểm của chủ nghĩa trọng thương được slide nêu ra?",
+          "dap_an": [
+            "Lần đầu tiên đề cập đến khái niệm cán cân thanh toán quốc tế",
+            "Lần đầu tiên chứng minh thương mại mang lại lợi ích cho mọi bên",
+            "Lần đầu tiên đưa ra khái niệm lợi thế so sánh giữa các quốc gia",
+            "Lần đầu tiên đề cao vai trò của tự do cạnh tranh trên thị trường"
+          ],
+          "giai_thich": "Ưu điểm của trọng thương: nhận thức được vai trò của thương mại quốc tế, xem nó là chìa khóa phát triển và lần đầu đề cập cán cân thanh toán quốc tế. Lợi ích hai bên và tự do cạnh tranh là của các học thuyết sau.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide Chương 1, trang 13"
+        },
+        {
+          "id": "c1-05",
+          "hoi": "Một trong những quan điểm tích cực của trường phái trọng thương là gì?",
+          "dap_an": [
+            "Nhận thức được tầm quan trọng của mậu dịch quốc tế",
+            "Coi trọng việc tích trữ vàng bạc để làm giàu quốc gia",
+            "Chủ trương chính phủ can thiệp sâu vào hoạt động ngoại thương",
+            "Cho rằng lợi ích mậu dịch của các bên luôn có tổng bằng không"
+          ],
+          "giai_thich": "Đây là câu hỏi hiểu bài trong slide: coi trọng quá mức vàng bạc, can thiệp quá mức và cho rằng tổng lợi ích bằng không đều là hạn chế; nhận thức tầm quan trọng của mậu dịch quốc tế là điểm tích cực.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide Chương 1, trang 14"
+        },
+        {
+          "id": "c1-06",
+          "hoi": "Phát biểu nào sau đây phù hợp với tư tưởng của trường phái trọng thương?",
+          "dap_an": [
+            "Các quốc gia có thể nhập khẩu nguyên liệu thô",
+            "Nên đẩy mạnh nhập khẩu để thỏa mãn tiêu dùng",
+            "Thương mại hai chiều là hình thức thương mại tốt nhất",
+            "Mọi quốc gia giao thương đều nhận được lợi ích"
+          ],
+          "giai_thich": "Trọng thương hạn chế nhập khẩu thành phẩm nhưng cho nhập nguyên liệu thô với thuế thấp. Họ coi trọng xuất siêu chứ không đề cao nhập khẩu hay thương mại hai chiều, và không cho rằng mọi bên đều có lợi.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 1; slide Chương 1, trang 15"
+        },
+        {
+          "id": "c1-07",
+          "hoi": "Nhóm nào sau đây gồm các học giả tiêu biểu của chủ nghĩa trọng thương?",
+          "dap_an": [
+            "Thomas Mun, Jean Colbert, William Petty",
+            "Adam Smith, David Ricardo, Gottfried Haberler",
+            "Eli Heckscher, Bertil Ohlin, Paul Samuelson",
+            "John Dunning, Paul Krugman, Jagdish Bhagwati"
+          ],
+          "giai_thich": "Slide nêu đại diện trọng thương: Thomas Mun, James Stewart, Charles Davenant, William Petty (Anh) và Jean Bodin, Melon, Jean Colbert (Pháp). Smith, Ricardo, Haberler là các nhà kinh tế cổ điển sau đó.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 1; slide Chương 1, trang 8"
+        },
+        {
+          "id": "c1-08",
+          "hoi": "Theo Adam Smith, sự thịnh vượng của các quốc gia phụ thuộc chủ yếu vào điều gì?",
+          "dap_an": [
+            "Khả năng sản xuất hàng hóa và dịch vụ của quốc gia",
+            "Lượng vàng bạc quốc gia tích lũy qua xuất siêu",
+            "Mức độ can thiệp của nhà nước vào ngoại thương",
+            "Quy mô thuộc địa mà quốc gia độc quyền mậu dịch"
+          ],
+          "giai_thich": "Adam Smith chống lại trọng thương: thịnh vượng đến từ năng lực sản xuất, không phải từ vàng bạc tích trữ; ông ủng hộ tự do thương mại, nhà nước không can thiệp.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide Chương 1, trang 18"
+        },
+        {
+          "id": "c1-09",
+          "hoi": "Adam Smith có quan điểm như thế nào về trợ cấp xuất khẩu?",
+          "dap_an": [
+            "Là một dạng thuế đánh vào người dân, cần được bãi bỏ",
+            "Là công cụ cần thiết để duy trì thặng dư thương mại",
+            "Là cách hiệu quả để tích lũy vàng bạc cho quốc gia",
+            "Là biện pháp nên áp dụng cho ngành có lợi thế tuyệt đối"
+          ],
+          "giai_thich": "Smith coi xuất khẩu là tích cực nhưng trợ cấp xuất khẩu là một dạng thuế đánh vào người dân (ngân sách lấy từ dân) nên cần bãi bỏ.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide Chương 1, trang 18"
+        },
+        {
+          "id": "c1-10",
+          "hoi": "Lợi thế tuyệt đối được hiểu là gì?",
+          "dap_an": [
+            "Sự khác biệt tuyệt đối về năng suất lao động giữa các nước về một sản phẩm",
+            "Sự khác biệt tương đối về năng suất lao động giữa các nước về một sản phẩm",
+            "Sự khác biệt về mức độ dồi dào vốn và lao động giữa các nước",
+            "Sự khác biệt về chi phí cơ hội của hai sản phẩm trong một nước"
+          ],
+          "giai_thich": "Lợi thế tuyệt đối so sánh trực tiếp năng suất (hay chi phí lao động) của hai nước với cùng một sản phẩm. Khác biệt tương đối là lợi thế so sánh của Ricardo.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide Chương 1, trang 20"
+        },
+        {
+          "id": "c1-11",
+          "hoi": "Hạn chế chính của lý thuyết lợi thế tuyệt đối là gì?",
+          "dap_an": [
+            "Không giải thích được thương mại khi một nước không có lợi thế tuyệt đối nào",
+            "Không chứng minh được lợi ích của các quốc gia khi tham gia mậu dịch",
+            "Cho rằng nhà nước phải can thiệp sâu vào hoạt động thương mại quốc tế",
+            "Cho rằng vốn và đất đai là các yếu tố sản xuất quan trọng hơn lao động"
+          ],
+          "giai_thich": "Lý thuyết của Smith chỉ giải thích được trường hợp mỗi nước có lợi thế tuyệt đối ở một sản phẩm; khi một nước kém hơn ở mọi sản phẩm thì lý thuyết này không giải thích được mậu dịch.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide Chương 1, trang 27"
+        },
+        {
+          "id": "c1-12",
+          "hoi": "Theo lý thuyết của David Ricardo, một nước kém hiệu quả hơn ở mọi sản phẩm thì sao?",
+          "dap_an": [
+            "Vẫn có lợi thế so sánh ở sản phẩm có mức bất lợi ít hơn",
+            "Không thể tham gia thương mại quốc tế một cách có lợi",
+            "Chỉ có lợi khi chính phủ trợ cấp cho hàng xuất khẩu",
+            "Phải nhập khẩu tất cả sản phẩm từ nước hiệu quả hơn"
+          ],
+          "giai_thich": "Lợi thế so sánh dựa trên khác biệt tương đối: nước có năng suất thấp ít hơn ở sản phẩm nào thì có lợi thế so sánh ở sản phẩm đó, nên vẫn có lợi khi chuyên môn hóa.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide Chương 1, trang 32"
+        },
+        {
+          "id": "c1-13",
+          "hoi": "Giả định nào sau đây KHÔNG phải là giả định của lý thuyết lợi thế so sánh của David Ricardo?",
+          "dap_an": [
+            "Có sự điều tiết thương mại của chính phủ",
+            "Thế giới có 2 quốc gia sản xuất 2 mặt hàng",
+            "Thương mại giữa các nước hoàn toàn tự do",
+            "Lao động là yếu tố sản xuất duy nhất"
+          ],
+          "giai_thich": "Các giả thuyết: 2 nước 2 hàng, thương mại tự do hoàn toàn, chi phí vận chuyển bằng 0, cạnh tranh hoàn hảo, lao động là yếu tố duy nhất, cung lao động cố định. Không có giả định chính phủ điều tiết.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2–3; slide Chương 1, trang 47"
+        },
+        {
+          "id": "c1-14",
+          "hoi": "Hạn chế được slide nêu ra của lý thuyết lợi thế so sánh là gì?",
+          "dap_an": [
+            "Giả thuyết lao động là yếu tố sản xuất duy nhất",
+            "Không giải thích được lợi ích của nước kém hơn",
+            "Cho rằng tổng lợi ích của mậu dịch bằng không",
+            "Đề cao quá mức vai trò của vàng bạc trong kinh tế"
+          ],
+          "giai_thich": "Ricardo giả định chỉ có lao động và tính giá trị bằng lao động, trong khi thực tế còn vốn, công nghệ, đất đai. Việc giải thích được lợi ích của nước kém hơn lại là ưu điểm của ông.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide Chương 1, trang 41"
+        },
+        {
+          "id": "c1-15",
+          "hoi": "Vì sao lý thuyết lợi thế so sánh có tính tổng quát cao hơn lý thuyết lợi thế tuyệt đối?",
+          "dap_an": [
+            "Vì lợi thế tuyệt đối chỉ là trường hợp riêng mà lợi thế so sánh cũng giải thích được",
+            "Vì lợi thế so sánh tính thêm vốn và đất đai bên cạnh yếu tố lao động",
+            "Vì lợi thế so sánh bỏ đi giả định thương mại hoàn toàn tự do giữa các nước",
+            "Vì lợi thế so sánh áp dụng cho nhiều quốc gia và nhiều mặt hàng cùng lúc"
+          ],
+          "giai_thich": "Khi mỗi nước có lợi thế tuyệt đối ở một hàng, họ cũng có lợi thế so sánh ở hàng đó; ngoài ra Ricardo còn giải thích được trường hợp một nước kém ở mọi hàng. Ricardo vẫn dùng giả định 2 nước 2 hàng, chỉ có lao động.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3; slide Chương 1, trang 45"
+        },
+        {
+          "id": "c1-16",
+          "hoi": "Một quốc gia có lợi thế so sánh trong sản xuất một hàng hóa khi nào?",
+          "dap_an": [
+            "Khi chi phí cơ hội sản xuất hàng hóa đó thấp hơn nước kia",
+            "Khi năng suất sản xuất hàng hóa đó thấp hơn nước kia",
+            "Khi có lợi thế tuyệt đối về mọi hàng hóa so với nước kia",
+            "Khi tổng số lao động trong nước nhiều hơn nước kia"
+          ],
+          "giai_thich": "Lợi thế so sánh là lợi thế về chi phí tương đối (chi phí cơ hội). Có lợi thế tuyệt đối không bảo đảm có lợi thế so sánh ở mọi hàng, và quy mô lao động không quyết định lợi thế.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3–4; slide Chương 1, trang 53"
+        },
+        {
+          "id": "c1-17",
+          "hoi": "Trong lý thuyết lợi thế so sánh, nếu tỷ lệ trao đổi quốc tế càng gần tỷ lệ trao đổi trong nước của một quốc gia thì sao?",
+          "dap_an": [
+            "Quốc gia đó càng nhận được ít lợi ích từ mậu dịch",
+            "Quốc gia đó càng nhận được nhiều lợi ích từ mậu dịch",
+            "Hai quốc gia chia đều lợi ích từ mậu dịch với nhau",
+            "Mậu dịch chắc chắn không xảy ra giữa hai quốc gia"
+          ],
+          "giai_thich": "Lợi ích của một nước là phần chênh giữa tỷ lệ quốc tế và tỷ lệ trong nước của nó. Tỷ lệ quốc tế càng gần tỷ lệ trong nước thì phần chênh này càng nhỏ; nếu trùng hoặc ra ngoài khung thì nước đó không còn lợi.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3, Phần II; slide Chương 1, trang 26"
+        },
+        {
+          "id": "c1-18",
+          "hoi": "Hệ số RCA của một sản phẩm bằng 2,8 có ý nghĩa gì theo slide?",
+          "dap_an": [
+            "Sản phẩm có lợi thế so sánh rất cao",
+            "Sản phẩm có lợi thế so sánh ở mức cao",
+            "Sản phẩm không có lợi thế so sánh",
+            "Sản phẩm có lợi thế tuyệt đối duy nhất"
+          ],
+          "giai_thich": "Theo slide: RCA < 1 là không có lợi thế so sánh, 1 < RCA < 2,5 là lợi thế so sánh cao, RCA ≥ 2,5 là lợi thế so sánh rất cao. 2,8 ≥ 2,5.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3.2; slide Chương 1, trang 40"
+        },
+        {
+          "id": "c1-19",
+          "hoi": "Chi phí cơ hội của sản phẩm A được định nghĩa là gì?",
+          "dap_an": [
+            "Số lượng sản phẩm B phải hi sinh để sản xuất thêm 1 sản phẩm A",
+            "Số giờ lao động cần thiết để sản xuất thêm 1 sản phẩm A",
+            "Số lượng sản phẩm A làm ra trong 1 giờ lao động của quốc gia",
+            "Số lượng sản phẩm A đổi được khi xuất khẩu 1 sản phẩm B"
+          ],
+          "giai_thich": "Chi phí cơ hội của A là lượng B bị bỏ đi để làm thêm 1 A; số giờ để làm 1 A là chi phí lao động, số A làm trong 1 giờ là năng suất.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide Chương 1, trang 52"
+        },
+        {
+          "id": "c1-20",
+          "hoi": "Khi chi phí cơ hội không đổi, đường giới hạn khả năng sản xuất (PPF) có dạng gì?",
+          "dap_an": [
+            "Đường thẳng, độ dốc bằng chi phí cơ hội",
+            "Đường cong lồi ra phía ngoài gốc tọa độ",
+            "Đường cong lõm vào phía trong gốc tọa độ",
+            "Đường thẳng đứng song song với trục tung"
+          ],
+          "giai_thich": "Chi phí cơ hội không đổi nghĩa là mỗi đơn vị A thêm luôn phải bỏ cùng một lượng B, nên PPF là đường thẳng với độ dốc (trị tuyệt đối) bằng chi phí cơ hội.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide Chương 1, trang 53"
+        },
+        {
+          "id": "c1-21",
+          "hoi": "Hạn chế của lý thuyết chi phí cơ hội không đổi (Haberler) là gì?",
+          "dap_an": [
+            "Giả định chi phí cơ hội không đổi không đúng thực tế",
+            "Không chỉ ra được mối quan hệ với lợi thế so sánh",
+            "Vẫn phải dựa vào thuyết giá trị bằng lao động",
+            "Không giải thích được mô hình mậu dịch giữa hai nước"
+          ],
+          "giai_thich": "Haberler thấy được quan hệ giữa chi phí cơ hội và lợi thế so sánh, không cần thuyết giá trị lao động; hạn chế là giả định chi phí cơ hội không đổi và chưa tìm ra căn nguyên của lợi thế so sánh.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide Chương 1, trang 65"
+        },
+        {
+          "id": "c1-22",
+          "hoi": "Năng suất/giờ: Nhật Bản 6 tấn sắt, 2 m vải; Việt Nam 1 tấn sắt, 4 m vải. Khung tỷ lệ trao đổi để mậu dịch xảy ra là gì?",
+          "dap_an": [
+            "2C < 6S < 24C",
+            "2C < 6S < 4C",
+            "4C < 6S < 12C",
+            "6C < 6S < 24C"
+          ],
+          "giai_thich": "Ở Nhật 6S = 2C; ở Việt Nam 1S = 4C nên 6S = 24C. Tỷ lệ quốc tế phải nằm giữa hai tỷ lệ trong nước: 2C < 6S < 24C.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II dạng A; slide Chương 1, trang 25"
+        },
+        {
+          "id": "c1-23",
+          "hoi": "Với số liệu Nhật Bản (6 sắt, 2 vải/giờ) và Việt Nam (1 sắt, 4 vải/giờ), tỷ lệ trao đổi 6S = 6C, Việt Nam được lợi bao nhiêu?",
+          "dap_an": [
+            "18C, tức tiết kiệm 4,5 giờ lao động",
+            "4C, tức tiết kiệm 2 giờ lao động",
+            "6C, tức tiết kiệm 1,5 giờ lao động",
+            "24C, tức tiết kiệm 6 giờ lao động"
+          ],
+          "giai_thich": "Để tự làm 6S, Việt Nam mất 6 giờ, tương đương 24C. Khi trao đổi chỉ phải đưa 6C, nên lợi 24 − 6 = 18C, quy ra 18 : 4 = 4,5 giờ. 4C (2 giờ) là lợi của Nhật.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II dạng A; slide Chương 1, trang 26"
+        },
+        {
+          "id": "c1-24",
+          "hoi": "Nhật Bản (6 sắt, 2 vải/giờ) và Việt Nam (1 sắt, 4 vải/giờ). Nếu tỷ lệ trao đổi là 6S = 30C thì sao?",
+          "dap_an": [
+            "Mậu dịch không xảy ra vì Việt Nam sẽ không đồng ý",
+            "Mậu dịch xảy ra và Nhật Bản được lợi 28C",
+            "Mậu dịch không xảy ra vì Nhật Bản sẽ không đồng ý",
+            "Mậu dịch xảy ra và hai nước chia đều lợi ích"
+          ],
+          "giai_thich": "Việt Nam tự làm 6S chỉ tốn 24C, nên đổi 30C lấy 6S là thiệt. Tỷ lệ 6S = 30C nằm ngoài khung 2C < 6S < 24C, Việt Nam từ chối.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II dạng A; slide Chương 1, trang 26"
+        },
+        {
+          "id": "c1-25",
+          "hoi": "Năng suất/giờ: Mỹ 6 ô tô, 4 tấn cà phê; Việt Nam 1 ô tô, 2 tấn cà phê. Kết luận nào đúng?",
+          "dap_an": [
+            "Mỹ có lợi thế so sánh về ô tô, Việt Nam về cà phê",
+            "Mỹ có lợi thế so sánh về cà phê, Việt Nam về ô tô",
+            "Mỹ có lợi thế so sánh về cả ô tô lẫn cà phê",
+            "Việt Nam không có lợi thế so sánh về sản phẩm nào"
+          ],
+          "giai_thich": "So sánh tương đối: ô tô 6/1 = 6 lớn hơn cà phê 4/2 = 2, nên Mỹ hơn Việt Nam nhiều nhất ở ô tô. Việt Nam kém ít hơn ở cà phê nên có lợi thế so sánh về cà phê.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3; slide Chương 1, trang 32"
+        },
+        {
+          "id": "c1-26",
+          "hoi": "Mỹ (6 ô tô, 4 tấn cà phê/giờ) và Việt Nam (1 ô tô, 2 tấn cà phê/giờ) trao đổi theo tỷ lệ 6A = 10C. Mỹ được lợi bao nhiêu?",
+          "dap_an": [
+            "6C, tức tiết kiệm 1,5 giờ lao động",
+            "2C, tức tiết kiệm 0,5 giờ lao động",
+            "2C, tức tiết kiệm 1 giờ lao động",
+            "10C, tức tiết kiệm 2,5 giờ lao động"
+          ],
+          "giai_thich": "Ở Mỹ 6A làm trong 1 giờ, cũng 1 giờ đó chỉ làm được 4C. Đổi 6A lấy 10C thì lợi 10 − 4 = 6C, quy ra 6 : 4 = 1,5 giờ. Lợi 2C (1 giờ) là của Việt Nam.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II dạng B; slide Chương 1, trang 37"
+        },
+        {
+          "id": "c1-27",
+          "hoi": "Năng suất/giờ: Việt Nam 5 tấn cà phê, 4 ô tô (80.000 đ/giờ); Mỹ 1 tấn cà phê, 2 ô tô (6 USD/giờ). Khung tỷ giá e (đồng/USD) để mậu dịch xảy ra là gì?",
+          "dap_an": [
+            "8.000/3 < e < 20.000/3",
+            "16.000/6 < e < 20.000/2",
+            "3/20.000 < e < 6/16.000",
+            "20.000/6 < e < 16.000/3"
+          ],
+          "giai_thich": "Chi phí: Việt Nam cà phê 16.000 đ, ô tô 20.000 đ; Mỹ cà phê 6 USD, ô tô 3 USD. Việt Nam xuất cà phê khi 16.000 < 6e, Mỹ xuất ô tô khi 3e < 20.000, nên 8.000/3 < e < 20.000/3.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 3.1; slide Chương 1, trang 39"
+        },
+        {
+          "id": "c1-28",
+          "hoi": "Một nước xuất khẩu sản phẩm X trị giá 20 tỷ USD trên tổng xuất khẩu 100 tỷ USD; thế giới xuất khẩu X 200 tỷ USD trên tổng 4.000 tỷ USD. RCA của sản phẩm X là bao nhiêu?",
+          "dap_an": [
+            "4, sản phẩm có lợi thế so sánh rất cao",
+            "0,25, sản phẩm không có lợi thế so sánh",
+            "2, sản phẩm có lợi thế so sánh cao",
+            "0,1, sản phẩm không có lợi thế so sánh"
+          ],
+          "giai_thich": "RCA = (E1/ED) : (E2/Ew) = (20/100) : (200/4.000) = 0,2 : 0,05 = 4 ≥ 2,5.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 3.2; slide Chương 1, trang 40"
+        },
+        {
+          "id": "c1-29",
+          "hoi": "Năng suất/giờ: Mỹ 6 tấn lúa mì, 4 m vải; Anh 1 tấn lúa mì, 5 m vải. Khung tỷ lệ trao đổi là gì?",
+          "dap_an": [
+            "4C < 6W < 30C",
+            "4C < 6W < 5C",
+            "5C < 6W < 24C",
+            "2C < 6W < 30C"
+          ],
+          "giai_thich": "Ở Mỹ 6W = 4C; ở Anh 1W = 5C nên 6W = 30C. Khung là 4C < 6W < 30C.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần II dạng C; slide Chương 1, trang 28"
+        },
+        {
+          "id": "c1-30",
+          "hoi": "Mỹ (6 lúa mì, 4 vải/giờ) và Anh (1 lúa mì, 5 vải/giờ) trao đổi theo tỷ lệ 6W = 18C. Lợi ích của hai nước là bao nhiêu?",
+          "dap_an": [
+            "Mỹ lợi 14C, Anh lợi 12C",
+            "Mỹ lợi 12C, Anh lợi 14C",
+            "Mỹ lợi 18C, Anh lợi 12C",
+            "Mỹ lợi 14C, Anh lợi 18C"
+          ],
+          "giai_thich": "Mỹ: 1 giờ làm 6W hoặc 4C, đổi 6W được 18C nên lợi 18 − 4 = 14C. Anh: tự làm 6W mất 6 giờ = 30C, chỉ trả 18C nên lợi 30 − 18 = 12C.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II dạng C; slide Chương 1, trang 28"
+        },
+        {
+          "id": "c1-31",
+          "hoi": "Mỹ (6 lúa mì, 4 vải/giờ) và Anh (1 lúa mì, 5 vải/giờ). Nếu tỷ lệ trao đổi là 3C = 6W thì sao?",
+          "dap_an": [
+            "Không xảy ra vì Mỹ nhận ít vải hơn tự làm",
+            "Không xảy ra vì Anh trả nhiều vải hơn tự làm",
+            "Có xảy ra và Anh được lợi 27C mỗi lần đổi",
+            "Có xảy ra vì nằm trong khung tỷ lệ trao đổi"
+          ],
+          "giai_thich": "Mỹ tự làm được 4C trong 1 giờ thay vì 6W; đổi 6W chỉ lấy 3C là thiệt. 3C nằm dưới cận dưới 4C của khung 4C < 6W < 30C nên Mỹ từ chối.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II dạng C; slide Chương 1, trang 28"
+        },
+        {
+          "id": "c1-32",
+          "hoi": "Năng suất/giờ: Mỹ 6 lúa mì, 4 vải (6 USD/giờ); Anh 1 lúa mì, 2 vải (1 GBP/giờ). Khung tỷ giá để mậu dịch xảy ra là gì?",
+          "dap_an": [
+            "1 GBP nằm trong khoảng 1 USD đến 3 USD",
+            "1 GBP nằm trong khoảng 0,5 USD đến 1,5 USD",
+            "1 GBP nằm trong khoảng 2 USD đến 6 USD",
+            "1 USD nằm trong khoảng 1 GBP đến 3 GBP"
+          ],
+          "giai_thich": "Giá: Mỹ lúa mì 1 USD, vải 1,5 USD; Anh lúa mì 1 GBP, vải 0,5 GBP. Mỹ xuất lúa mì khi 1 USD < 1 GBP; Anh xuất vải khi 0,5 GBP < 1,5 USD, tức 1 GBP < 3 USD.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần II dạng B; slide Chương 1, trang 51"
+        },
+        {
+          "id": "c1-33",
+          "hoi": "Năng suất/giờ: Mỹ 6 máy, 4 m vải; Việt Nam 1 máy, 2 m vải. Chi phí cơ hội của máy móc ở hai nước là bao nhiêu?",
+          "dap_an": [
+            "Mỹ 2/3C, Việt Nam 2C",
+            "Mỹ 3/2C, Việt Nam 1/2C",
+            "Mỹ 6C, Việt Nam 1C",
+            "Mỹ 2C, Việt Nam 2/3C"
+          ],
+          "giai_thich": "Chi phí cơ hội của máy = năng suất vải / năng suất máy: Mỹ 4/6 = 2/3C, Việt Nam 2/1 = 2C. Vì 2/3 < 2, Mỹ có lợi thế về máy. 3/2 và 1/2 là chi phí cơ hội của vải.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 4; slide Chương 1, trang 60"
+        },
+        {
+          "id": "c1-34",
+          "hoi": "Mỹ sản xuất (180M; 0C), trao đổi 70M lấy 70C; trước mậu dịch Mỹ tiêu dùng (90M; 60C). Lợi ích mậu dịch của Mỹ là bao nhiêu?",
+          "dap_an": [
+            "Thêm 20 máy và 10 m vải",
+            "Thêm 30 máy và 10 m vải",
+            "Thêm 90 máy và 10 m vải",
+            "Thêm 20 máy và 70 m vải"
+          ],
+          "giai_thich": "Sau trao đổi Mỹ tiêu dùng (180 − 70; 0 + 70) = (110M; 70C). So với (90M; 60C), Mỹ lợi 20M và 10C. Lợi 30M, 10C là của Việt Nam.",
+          "kho": true,
+          "nguon": "TT Chương 1, mục 4; slide Chương 1, trang 64"
+        },
+        {
+          "id": "c1-35",
+          "hoi": "Hao phí lao động (giờ/sản phẩm): QG 1 làm A mất 4, B mất 5; QG 2 làm A mất 2, B mất 3. Cơ sở và mô hình thương mại là gì?",
+          "dap_an": [
+            "Lợi thế so sánh; QG 1 xuất B, QG 2 xuất A",
+            "Lợi thế tuyệt đối; QG 1 xuất A, QG 2 xuất B",
+            "Lợi thế so sánh; QG 1 xuất A, QG 2 xuất B",
+            "Lợi thế tuyệt đối; QG 2 xuất cả A và B"
+          ],
+          "giai_thich": "QG 2 tốn ít giờ hơn ở cả hai nên có lợi thế tuyệt đối cả hai; cơ sở là lợi thế so sánh. Chi phí cơ hội của A: QG 1 = 4/5 = 0,8B, QG 2 = 2/3 ≈ 0,67B, nên QG 2 xuất A và QG 1 xuất B.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III bài 1; file bài tập ktqt, Chương 1 bài 1"
+        },
+        {
+          "id": "c1-36",
+          "hoi": "Hao phí lao động: QG 1 (A = 4, B = 5), QG 2 (A = 2, B = 3). Khung tỷ lệ trao đổi $P_{A}/P_{B}$ là gì?",
+          "dap_an": [
+            "2/3 < $P_{A}/P_{B}$ < 4/5",
+            "4/5 < $P_{A}/P_{B}$ < 3/2",
+            "1/2 < $P_{A}/P_{B}$ < 2/3",
+            "5/4 < $P_{A}/P_{B}$ < 3/2"
+          ],
+          "giai_thich": "$P_{A}/P_{B}$ trong nước bằng chi phí A / chi phí B: QG 1 = 4/5, QG 2 = 2/3. Khung nằm giữa hai giá trị: 2/3 < $P_{A}/P_{B}$ < 4/5. Khoảng 5/4 đến 3/2 là khung của $P_{B}/P_{A}$.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III bài 1; file bài tập ktqt, Chương 1 bài 1"
+        },
+        {
+          "id": "c1-37",
+          "hoi": "Hao phí lao động: QG 1 (A = 4, B = 5), QG 2 (A = 2, B = 3). Nếu tỷ lệ trao đổi là 1A = 1B thì sao?",
+          "dap_an": [
+            "Không có thương mại vì cả hai nước đều muốn bán A",
+            "Có thương mại và QG 1 xuất khẩu B sang QG 2",
+            "Có thương mại và chỉ QG 2 là được hưởng lợi",
+            "Không có thương mại vì cả hai đều muốn bán B"
+          ],
+          "giai_thich": "$P_{A}/P_{B}$ = 1 lớn hơn cận trên 4/5. QG 1 tự làm 1A chỉ mất 0,8B, nên không ai muốn đổi 1B lấy 1A; cả hai đều muốn bán A, thương mại không diễn ra.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III bài 1; file bài tập ktqt, Chương 1 bài 1"
+        },
+        {
+          "id": "c1-38",
+          "hoi": "Hao phí lao động: QG 1 (A = 1/10, B = 1/6), QG 2 (A = 1/20, B = 1/3). Cơ sở thương mại là gì?",
+          "dap_an": [
+            "Lợi thế tuyệt đối: QG 2 xuất A, QG 1 xuất B",
+            "Lợi thế tuyệt đối: QG 1 xuất A, QG 2 xuất B",
+            "Lợi thế so sánh: QG 2 xuất cả A và B",
+            "Lợi thế so sánh: QG 1 xuất cả A và B"
+          ],
+          "giai_thich": "Năng suất: QG 1 làm 10A hoặc 6B/giờ, QG 2 làm 20A hoặc 3B/giờ. QG 2 hơn ở A, QG 1 hơn ở B, mỗi nước có lợi thế tuyệt đối ở một sản phẩm.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III bài 2; file bài tập ktqt, Chương 1 bài 2"
+        },
+        {
+          "id": "c1-39",
+          "hoi": "Hao phí lao động: QG 1 (A = 1/10, B = 1/6), QG 2 (A = 1/20, B = 1/3). Khung tỷ lệ trao đổi $P_{A}/P_{B}$ là gì?",
+          "dap_an": [
+            "0,15 < $P_{A}/P_{B}$ < 0,6",
+            "0,6 < $P_{A}/P_{B}$ < 1,5",
+            "0,3 < $P_{A}/P_{B}$ < 0,6",
+            "1,67 < $P_{A}/P_{B}$ < 6,67"
+          ],
+          "giai_thich": "Chi phí cơ hội của A = chi phí A / chi phí B: QG 1 = (1/10)/(1/6) = 0,6; QG 2 = (1/20)/(1/3) = 0,15. Khung là 0,15 < $P_{A}/P_{B}$ < 0,6.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III bài 2; file bài tập ktqt, Chương 1 bài 2"
+        },
+        {
+          "id": "c1-40",
+          "hoi": "Hao phí lao động: QG 1 (A = 1/10, B = 1/6), QG 2 (A = 1/20, B = 1/3). Tiền công 1 USD/giờ ở QG 1 và 2 GBP/giờ ở QG 2. Khung tỷ giá e (USD/GBP) là gì?",
+          "dap_an": [
+            "0,25 < e < 1",
+            "1 < e < 4",
+            "0,5 < e < 2",
+            "0,15 < e < 0,6"
+          ],
+          "giai_thich": "Giá: QG 1 A = 0,1 USD, B = 1/6 USD; QG 2 A = 0,1 GBP, B = 2/3 GBP. QG 2 xuất A khi 0,1e < 0,1, tức e < 1; QG 1 xuất B khi 1/6 < (2/3)e, tức e > 0,25.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III bài 2; file bài tập ktqt, Chương 1 bài 2"
+        },
+        {
+          "id": "c1-41",
+          "hoi": "Hao phí lao động: QG 1 (X = 3, Y = 2), QG 2 (X = 4, Y = 1); QG 1 có 1.200 lao động, QG 2 có 800 lao động. Khung tỷ lệ trao đổi $P_{X}/P_{Y}$ là gì?",
+          "dap_an": [
+            "1,5 < $P_{X}/P_{Y}$ < 4",
+            "0,25 < $P_{X}/P_{Y}$ < 0,67",
+            "1,5 < $P_{X}/P_{Y}$ < 2",
+            "3 < $P_{X}/P_{Y}$ < 4"
+          ],
+          "giai_thich": "Chi phí cơ hội của X: QG 1 = 3/2 = 1,5Y; QG 2 = 4/1 = 4Y. QG 1 xuất X, QG 2 xuất Y; khung 1,5 < $P_{X}/P_{Y}$ < 4. Khoảng 0,25 đến 0,67 là chi phí cơ hội của Y.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III bài 3; file bài tập ktqt, Chương 1 bài 3"
+        },
+        {
+          "id": "c1-42",
+          "hoi": "Hao phí lao động: QG 1 (X = 3, Y = 2), QG 2 (X = 4, Y = 1). Tiền công 6 USD/giờ ở QG 1 và 2 GBP/giờ ở QG 2. Khung tỷ giá e (USD/GBP) là gì?",
+          "dap_an": [
+            "2,25 < e < 6",
+            "1,5 < e < 4",
+            "2 < e < 6",
+            "0,17 < e < 0,44"
+          ],
+          "giai_thich": "Giá: QG 1 X = 18 USD, Y = 12 USD; QG 2 X = 8 GBP, Y = 2 GBP. QG 1 xuất X khi 18 < 8e, tức e > 2,25; QG 2 xuất Y khi 2e < 12, tức e < 6.",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III bài 3; file bài tập ktqt, Chương 1 bài 3"
+        },
+        {
+          "id": "c1-43",
+          "hoi": "QG 1 (3 giờ/X, 2 giờ/Y, 1.200 lao động) tự cung tại (200X, 300Y); QG 2 (4 giờ/X, 1 giờ/Y, 800 lao động) tự cung tại (100X, 400Y). Khi chuyên môn hóa hoàn toàn và đổi 200X lấy 400Y (1X = 2Y), lợi ích là gì?",
+          "dap_an": [
+            "QG 1 thêm 100Y, QG 2 thêm 100X",
+            "QG 1 thêm 200Y, QG 2 thêm 100X",
+            "QG 1 thêm 100X, QG 2 thêm 100Y",
+            "QG 1 thêm 100Y, QG 2 thêm 200X"
+          ],
+          "giai_thich": "QG 1 làm 400X, giữ 200X và nhận 400Y: tiêu dùng (200X, 400Y), hơn 100Y. QG 2 làm 800Y, giữ 400Y và nhận 200X: tiêu dùng (200X, 400Y), hơn 100X so với (100X, 400Y).",
+          "kho": true,
+          "nguon": "TT Chương 1, Phần III bài 3; file bài tập ktqt, Chương 1 bài 3"
+        },
+        {
+          "id": "c1-44",
+          "hoi": "Theo Adam Smith, lợi ích nào sau đây do chuyên môn hóa, phân công lao động đem lại?",
+          "dap_an": [
+            "Người lao động lành nghề hơn nhờ lặp lại một thao tác nhiều lần",
+            "Người lao động được nhà nước trợ cấp khi chuyển sang ngành mới",
+            "Người lao động có thể di chuyển tự do giữa các quốc gia với nhau",
+            "Người lao động được trả lương bằng vàng bạc thay vì bằng hàng hóa"
+          ],
+          "giai_thich": "Smith nêu ba lợi ích của chuyên môn hóa: lao động lành nghề hơn do lặp lại thao tác, không mất thời gian chuyển việc, và làm lâu sẽ nảy sinh sáng kiến cải tiến.",
+          "kho": false,
+          "nguon": "TT Chương 1, mục 2; slide Chương 1, trang 19"
+        },
+        {
+          "id": "c1-45",
+          "hoi": "QG 1 có 1.200 lao động, làm 1 X mất 3 giờ và 1 Y mất 2 giờ. Đường PPF và sản lượng X tối đa của QG 1 là gì?",
+          "dap_an": [
+            "3X + 2Y = 1.200; tối đa 400X",
+            "2X + 3Y = 1.200; tối đa 600X",
+            "3X + 2Y = 1.200; tối đa 600X",
+            "X/3 + Y/2 = 1.200; tối đa 3.600X"
+          ],
+          "giai_thich": "Tổng giờ lao động dùng cho hai sản phẩm bằng 1.200: 3X + 2Y = 1.200. Nếu chỉ làm X thì X = 1.200/3 = 400; 600 là sản lượng Y tối đa.",
+          "kho": false,
+          "nguon": "TT Chương 1, Phần III bài 3; file bài tập ktqt, Chương 1 bài 3"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Chương 3 - Thuế quan",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Thuế quan được định nghĩa là gì?",
+          "dap_an": [
+            "Thuế đánh vào hàng hóa khi chúng vượt qua biên giới quốc gia",
+            "Thuế đánh vào thu nhập của doanh nghiệp có vốn nước ngoài",
+            "Thuế đánh vào mọi hàng hóa lưu thông trên thị trường nội địa",
+            "Khoản phí cấp giấy phép để được nhập khẩu theo hạn ngạch"
+          ],
+          "giai_thich": "Thuế quan là thuế hoặc thuế suất đánh vào hàng hóa thương mại khi vượt qua biên giới; đây là một trong những hình thức bảo hộ thương mại phổ biến nhất.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 8"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Đặc điểm của thuế quan theo giá trị (ad valorem) là gì?",
+          "dap_an": [
+            "Tính theo phần trăm giá trị, nên tiền thuế tỷ lệ thuận với giá hàng",
+            "Tính một số tiền cố định trên mỗi đơn vị, không phụ thuộc giá hàng",
+            "Kết hợp một mức tiền cố định với một tỷ lệ phần trăm trên giá trị",
+            "Chỉ áp dụng cho hàng xuất khẩu nhằm tăng nguồn thu ngân sách"
+          ],
+          "giai_thich": "Thuế theo giá trị là tỷ lệ phần trăm cố định trên giá trị hàng, nên hàng càng đắt thì tiền thuế càng lớn. Số tiền cố định trên mỗi đơn vị là thuế đặc định; kết hợp cả hai là thuế hỗn hợp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 9"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Ưu điểm nào sau đây thuộc về thuế quan đặc định (specific tariff)?",
+          "dap_an": [
+            "Đơn giản cho hải quan và nguồn thu ngân sách dễ dự đoán hơn",
+            "Tiền thuế tự tăng theo giá nên công bằng với hàng xa xỉ đắt tiền",
+            "Thuế suất tự điều chỉnh khi chất lượng hàng hóa thay đổi lớn",
+            "Kết hợp được ưu điểm của cả thuế theo giá trị và thuế hỗn hợp"
+          ],
+          "giai_thich": "Thuế đặc định là số tiền cố định trên mỗi đơn vị, độc lập với giá, nên dễ quản lý và nguồn thu ổn định. Tiền thuế tăng theo giá là đặc điểm của thuế theo giá trị.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 10"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Vì sao Việt Nam đánh thuế đặc định (theo dung tích động cơ) với xe ô tô đã qua sử dụng thay vì thuế theo giá trị?",
+          "dap_an": [
+            "Xe cũ có giá khai báo rất rẻ nên tính theo % sẽ thu được quá ít",
+            "Xe cũ có giá ổn định nên không cần điều chỉnh theo phần trăm",
+            "Xe cũ là hàng xa xỉ nên phải đánh thuế theo mức cố định cao",
+            "Xe cũ được WTO yêu cầu đánh thuế theo dung tích động cơ"
+          ],
+          "giai_thich": "Gợi ý của slide: xe đã qua sử dụng có giá rất rẻ so với xe mới chịu thuế 50%; tính theo giá trị sẽ làm xe cũ chịu thuế quá thấp, nên dùng mức cố định theo dung tích (Nghị định 57/2020).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 11"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Loại thuế nào phù hợp nhất với hàng xa xỉ có giá trị biến động lớn như đồng hồ, trang sức, túi xách hàng hiệu?",
+          "dap_an": [
+            "Thuế theo giá trị (ad valorem)",
+            "Thuế đặc định (specific)",
+            "Thuế hỗn hợp (compound)",
+            "Thuế cấm đoán (prohibitive)"
+          ],
+          "giai_thich": "Hàng phân biệt theo giá trị, biến động giá cao thì thuế theo giá trị công bằng hơn; ví dụ EU đánh 4,5% với đồng hồ cao cấp nhập khẩu (HS 9102). Thuế đặc định hợp với hàng đồng nhất, giá trị thấp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 13"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "Nhật Bản đánh thuế rượu whisky nhập khẩu 27 yên mỗi lít cộng 10% giá trị sản phẩm. Đây là loại thuế quan nào?",
+          "dap_an": [
+            "Thuế quan hỗn hợp",
+            "Thuế quan đặc định",
+            "Thuế quan theo giá trị",
+            "Thuế quan cấm đoán"
+          ],
+          "giai_thich": "Thuế hỗn hợp kết hợp một phần đặc định (27 yên/lít) và một phần theo giá trị (10%).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 14"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Thuế quan hỗn hợp là lựa chọn phù hợp nhất trong tình huống nào?",
+          "dap_an": [
+            "Cả giá và số lượng hàng đều biến động mạnh, như ô tô nhập khẩu, dầu mỏ",
+            "Hàng đồng nhất, giá ổn định và giá trị thấp, như xi măng, than đá",
+            "Mục tiêu chính là tạo nguồn thu ngân sách hơn là để bảo hộ",
+            "Hàng có giá trị biến động lớn như điện thoại và hàng xa xỉ"
+          ],
+          "giai_thich": "Theo bảng nhận xét của slide: hàng đồng nhất giá ổn định dùng thuế đặc định; hàng biến động giá trị lớn hoặc mục tiêu nguồn thu dùng thuế theo giá trị; khi cả giá và số lượng biến động mạnh mới dùng thuế hỗn hợp.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 16"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Điều nào sau đây KHÔNG phải là chức năng của thuế quan được slide nêu ra?",
+          "dap_an": [
+            "Tăng thặng dư của người tiêu dùng trong nước",
+            "Bảo hộ ngành công nghiệp trong nước",
+            "Tạo nguồn thu cho ngân sách nhà nước",
+            "Điều chỉnh cán cân thanh toán quốc tế"
+          ],
+          "giai_thich": "Chức năng của thuế quan: bảo hộ ngành trong nước, tạo nguồn thu, điều tiết thương mại, điều chỉnh cán cân thanh toán, điều tiết tiêu dùng, phân biệt đối xử thương mại. Thuế nhập khẩu làm giảm thặng dư tiêu dùng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 17"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Thặng dư tiêu dùng được đo bằng diện tích nào trên đồ thị cung cầu?",
+          "dap_an": [
+            "Phần dưới đường cầu và phía trên mức giá thị trường",
+            "Phần trên đường cung và phía dưới mức giá thị trường",
+            "Phần dưới đường cung và phía trên mức giá thị trường",
+            "Phần giữa đường cầu và đường cung bên phải điểm cân bằng"
+          ],
+          "giai_thich": "Thặng dư tiêu dùng là chênh lệch giữa giá người mua sẵn sàng trả và giá thực trả, nên là diện tích dưới đường cầu, trên mức giá. Phần trên đường cung, dưới mức giá là thặng dư sản xuất.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Chương 3, trang 18"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Khi thuế quan làm giá trong nước tăng từ P₀ lên P₁, thặng dư nhà sản xuất thay đổi thế nào?",
+          "dap_an": [
+            "Tăng thêm phần diện tích giữa hai mức giá, bên trái đường cung",
+            "Giảm đi phần diện tích giữa hai mức giá, bên trái đường cầu",
+            "Không đổi vì giá thế giới không thay đổi với nước nhỏ",
+            "Tăng thêm đúng bằng số tiền thuế mà chính phủ thu được"
+          ],
+          "giai_thich": "Thặng dư sản xuất là diện tích trên đường cung, dưới mức giá. Giá tăng làm vùng này mở rộng thêm phần hình thang giữa P₀ và P₁, bên trái đường cung (vùng BB′C′C trên slide).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Chương 3, trang 21"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Với một nước nhỏ, áp thuế nhập khẩu t trên mỗi đơn vị có tác động gì đến giá?",
+          "dap_an": [
+            "Giá thế giới không đổi, giá trong nước tăng lên $P_{w}$ + t",
+            "Giá thế giới giảm đi t, giá trong nước không thay đổi",
+            "Giá thế giới tăng thêm t, giá trong nước cũng tăng t",
+            "Giá thế giới không đổi, giá trong nước giảm còn $P_{w}$ − t"
+          ],
+          "giai_thich": "Nước nhỏ chấp nhận giá thế giới nên thuế không làm đổi giá thế giới; giá trong nước bằng giá thế giới cộng thuế. $P_{w}$ − t là giá trong nước khi có thuế xuất khẩu.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Chương 3, trang 22"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Với thuế nhập khẩu ở nước nhỏ, nhóm nào được lợi và nhóm nào bị thiệt?",
+          "dap_an": [
+            "Nhà sản xuất và chính phủ được lợi, người tiêu dùng bị thiệt",
+            "Người tiêu dùng và chính phủ được lợi, nhà sản xuất bị thiệt",
+            "Nhà sản xuất được lợi, người tiêu dùng và chính phủ bị thiệt",
+            "Người tiêu dùng được lợi, nhà sản xuất và chính phủ bị thiệt"
+          ],
+          "giai_thich": "Giá trong nước tăng: ΔCS = −(a + b + c + d), ΔPS = +a, chính phủ thu +c. Phần b + d mất đi là tổn thất ròng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Chương 3, trang 24"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "Trong phân tích thuế nhập khẩu, tổn thất phúc lợi ròng (b + d) gồm những gì?",
+          "dap_an": [
+            "b là kém hiệu quả sản xuất, d là méo mó tiêu dùng",
+            "b là tiền thuế chính phủ thu, d là thặng dư sản xuất",
+            "b là méo mó tiêu dùng, d là kém hiệu quả sản xuất",
+            "b là phần lợi của nhà sản xuất, d là của nhà nhập khẩu"
+          ],
+          "giai_thich": "b là chi phí do sản xuất trong nước kém hiệu quả thay thế hàng nhập rẻ hơn; d là phần tiêu dùng mất đi do giá cao. Phần b + d không chuyển cho nhóm nào, là mất mát thuần cho xã hội.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 3; slide Chương 3, trang 24"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "Đối với nước nhỏ xuất khẩu, thuế xuất khẩu tác động thế nào đến giá trong nước và người tiêu dùng?",
+          "dap_an": [
+            "Giá trong nước giảm còn $P_{w}$ − t, người tiêu dùng được lợi",
+            "Giá trong nước tăng lên $P_{w}$ + t, người tiêu dùng bị thiệt",
+            "Giá trong nước không đổi, chỉ có lượng xuất khẩu giảm",
+            "Giá trong nước giảm còn $P_{w}$ − t, người tiêu dùng bị thiệt"
+          ],
+          "giai_thich": "Thuế xuất khẩu làm nhà sản xuất chỉ nhận $P_{w}$ − t khi bán ra nước ngoài, nên giá trong nước giảm; người tiêu dùng mua rẻ hơn (ΔCS = +a), nhà sản xuất thiệt (ΔPS = −(a + b + c + d)).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide Chương 3, trang 27"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "Theo slide, tổn thất ròng của thuế xuất khẩu gồm hai phần b và d. Mỗi phần phản ánh gì?",
+          "dap_an": [
+            "b: tiêu dùng quá mức do giá thấp; d: sản xuất dưới mức tối ưu",
+            "b: sản xuất dưới mức tối ưu; d: tiêu dùng quá mức do giá thấp",
+            "b: tiền thuế xuất khẩu; d: phần thặng dư người tiêu dùng tăng",
+            "b: kém hiệu quả nhập khẩu; d: méo mó trong chi tiêu chính phủ"
+          ],
+          "giai_thich": "Với thuế xuất khẩu, giá trong nước thấp giả tạo nên người tiêu dùng dùng nhiều hơn mức hiệu quả (b) và nhà sản xuất giảm sản lượng dưới năng lực tối ưu (d).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide Chương 3, trang 27"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Kết luận chính của slide về thuế quan ở nước nhỏ là gì?",
+          "dap_an": [
+            "Cả thuế nhập khẩu và thuế xuất khẩu đều làm giảm phúc lợi quốc gia",
+            "Thuế nhập khẩu tăng phúc lợi, còn thuế xuất khẩu làm giảm phúc lợi",
+            "Cả hai loại thuế đều tăng phúc lợi vì chính phủ thu được thêm thuế",
+            "Cả hai loại thuế đều làm giá thế giới thay đổi theo hướng có lợi"
+          ],
+          "giai_thich": "Nước nhỏ không tác động được giá thế giới; thuế chỉ làm đổi giá trong nước và luôn tạo tổn thất ròng b + d, nên cả hai loại thuế đều giảm phúc lợi quốc gia.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 4; slide Chương 3, trang 28"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Tỷ lệ bảo hộ hiệu quả (ERP) đo lường điều gì?",
+          "dap_an": [
+            "Phần trăm thay đổi giá trị gia tăng nội địa do cả cấu trúc thuế quan",
+            "Phần trăm thay đổi giá hàng nhập khẩu do thuế đánh vào thành phẩm",
+            "Phần trăm thay đổi lượng nhập khẩu khi chính phủ áp thuế quan",
+            "Phần trăm số thuế thu được trên tổng giá trị hàng hóa nhập khẩu"
+          ],
+          "giai_thich": "ERP = (V′ − V)/V, với V và V′ là giá trị gia tăng trên mỗi đơn vị khi không và có thuế; nó tính đến thuế đánh vào cả đầu ra lẫn đầu vào nhập khẩu, nên phản ánh mức bảo hộ thực sự.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3, trang 29"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Khi nào tỷ lệ bảo hộ hiệu quả (ERP) lớn hơn thuế suất danh nghĩa đánh vào thành phẩm?",
+          "dap_an": [
+            "Khi thuế đánh vào đầu vào nhập khẩu thấp hơn thuế đánh vào thành phẩm",
+            "Khi thuế đánh vào đầu vào nhập khẩu cao hơn thuế đánh vào thành phẩm",
+            "Khi thuế đánh vào đầu vào nhập khẩu bằng thuế đánh vào thành phẩm",
+            "Khi giá thế giới của thành phẩm tăng cao hơn giá của đầu vào"
+          ],
+          "giai_thich": "Nếu đầu vào bị đánh thuế nhẹ hơn thành phẩm, giá trị gia tăng nội địa tăng mạnh hơn thuế danh nghĩa (ví dụ xe máy: thuế 20%, đầu vào 15%, ERP = 30%). Thuế đầu vào bằng thuế thành phẩm thì ERP bằng thuế danh nghĩa.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3, trang 29"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "ERP âm có ý nghĩa gì?",
+          "dap_an": [
+            "Ngành thực chất bị đánh thuế vì đầu vào chịu thuế quá nặng",
+            "Ngành được bảo hộ ròng vì giá trị gia tăng nội địa tăng lên",
+            "Ngành không được bảo hộ ròng và cũng không bị đánh thuế ngầm",
+            "Ngành được trợ cấp xuất khẩu nên giá trị gia tăng tăng mạnh"
+          ],
+          "giai_thich": "ERP < 0 nghĩa là giá trị gia tăng sau thuế nhỏ hơn khi tự do: thuế đầu vào cao đến mức ngành bị “đánh thuế ngầm” dù thuế danh nghĩa đánh vào thành phẩm vẫn dương.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3, trang 31"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "Theo câu hỏi khởi động của slide, vì sao các chính phủ thường đánh thuế quan vào hàng nhập khẩu?",
+          "dap_an": [
+            "Để bảo hộ nhà sản xuất trong nước khỏi cạnh tranh nước ngoài",
+            "Để làm cho hàng nhập khẩu rẻ hơn cho người tiêu dùng",
+            "Để giảm nguồn thu của ngân sách nhà nước",
+            "Để tăng sự lựa chọn hàng hóa cho người tiêu dùng"
+          ],
+          "giai_thich": "Thuế quan đóng vai trò rào cản bảo hộ ngành trong nước. Nó làm hàng nhập đắt hơn, tăng thu ngân sách và giảm lựa chọn của người tiêu dùng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 7"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Nếu một quốc gia đánh thuế 20% vào ô tô nhập khẩu, điều gì có thể xảy ra?",
+          "dap_an": [
+            "Ô tô nhập khẩu trở nên đắt hơn",
+            "Người tiêu dùng mua nhiều ô tô nhập khẩu hơn",
+            "Nhà sản xuất ô tô trong nước mất thị phần",
+            "Chính phủ thu được ít doanh thu thuế hơn"
+          ],
+          "giai_thich": "Thuế quan làm tăng giá cuối cùng người tiêu dùng trả cho hàng nhập khẩu, nên lượng mua hàng nhập giảm, nhà sản xuất trong nước được bảo hộ và chính phủ có thêm thu thuế.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 7"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Theo slide, vì sao thuế quan hỗn hợp không nên dùng cho hàng có biến động lớn về giá trị và chất lượng như điện thoại?",
+          "dap_an": [
+            "Vì nó làm méo mó thuế suất, đánh thuế quá mức vào hàng rẻ hơn",
+            "Vì nó không tạo ra được nguồn thu ngân sách ổn định cho nhà nước",
+            "Vì nó chỉ áp dụng được cho hàng đồng nhất như xi măng, than đá",
+            "Vì nó bị WTO cấm áp dụng với các mặt hàng điện tử nhập khẩu"
+          ],
+          "giai_thich": "Phần đặc định cố định trên mỗi chiếc nên với hàng rẻ, tổng thuế tính theo tỷ lệ giá trị trở nên rất cao; với hàng biến động lớn về giá trị nên dùng thuế theo giá trị.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 16"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Xe đạp nhập khẩu trị giá 200 USD chịu thuế theo giá trị 55%. Giá tiêu dùng cuối cùng là bao nhiêu?",
+          "dap_an": [
+            "310 USD",
+            "255 USD",
+            "110 USD",
+            "300 USD"
+          ],
+          "giai_thich": "Tiền thuế = 55% × 200 = 110 USD, giá cuối = 200 + 110 = 310 USD. 110 USD chỉ là tiền thuế.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3, trang 9"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Cung, cầu trong nước: S = 10P − 20, D = −10P + 80. Giá và lượng cân bằng khi chưa có thương mại là bao nhiêu?",
+          "dap_an": [
+            "P = 5, Q = 30",
+            "P = 3, Q = 50",
+            "P = 4, Q = 40",
+            "P = 5, Q = 50"
+          ],
+          "giai_thich": "Cho S = D: 10P − 20 = −10P + 80, nên P = 5 và Q = 10 × 5 − 20 = 30.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần II dạng A; slide Chương 3, trang 22"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Nước nhỏ có S = 10P − 20, D = −10P + 80, giá thế giới $P_{w}$ = 3 USD. Khi thương mại tự do, lượng nhập khẩu là bao nhiêu?",
+          "dap_an": [
+            "40 đơn vị",
+            "30 đơn vị",
+            "20 đơn vị",
+            "50 đơn vị"
+          ],
+          "giai_thich": "Tại P = 3: cầu D = 50, cung S = 10, nhập khẩu = 50 − 10 = 40.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần II dạng A; slide Chương 3, trang 23"
+        },
+        {
+          "id": "c3-26",
+          "hoi": "Nước nhỏ có S = 10P − 20, D = −10P + 80, $P_{w}$ = 3 USD, áp thuế nhập khẩu 1 USD/đơn vị. Lượng cầu, lượng cung và nhập khẩu là bao nhiêu?",
+          "dap_an": [
+            "Cầu 40, cung 20, nhập khẩu 20",
+            "Cầu 50, cung 10, nhập khẩu 40",
+            "Cầu 40, cung 20, nhập khẩu 40",
+            "Cầu 30, cung 30, nhập khẩu 0"
+          ],
+          "giai_thich": "Giá trong nước = 3 + 1 = 4. Cầu = −40 + 80 = 40, cung = 40 − 20 = 20, nhập khẩu = 20.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần II dạng A; slide Chương 3, trang 23"
+        },
+        {
+          "id": "c3-27",
+          "hoi": "Nước nhỏ có S = 10P − 20, D = −10P + 80, $P_{w}$ = 3, thuế nhập khẩu 1 USD/đơn vị. Thu thuế và tổn thất phúc lợi ròng là bao nhiêu?",
+          "dap_an": [
+            "Thu thuế 20, tổn thất ròng 10",
+            "Thu thuế 40, tổn thất ròng 10",
+            "Thu thuế 20, tổn thất ròng 45",
+            "Thu thuế 20, tổn thất ròng 5"
+          ],
+          "giai_thich": "Thu thuế = 1 × 20 = 20. ΔCS = −½(50 + 40) × 1 = −45; ΔPS = +½(10 + 20) × 1 = +15. Tổn thất ròng = 45 − 15 − 20 = 10 (b = 5, d = 5).",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần II dạng A; slide Chương 3, trang 24"
+        },
+        {
+          "id": "c3-28",
+          "hoi": "Nước nhỏ xuất khẩu có S = 20P − 20, D = −10P + 70, $P_{w}$ = 5 USD. Khi thương mại tự do, lượng xuất khẩu là bao nhiêu?",
+          "dap_an": [
+            "60 đơn vị",
+            "40 đơn vị",
+            "30 đơn vị",
+            "80 đơn vị"
+          ],
+          "giai_thich": "Tại P = 5: cung = 80, cầu = 20, xuất khẩu = 80 − 20 = 60. 40 là lượng cân bằng tự cung tự cấp (P = 3).",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần II dạng B; slide Chương 3, trang 26"
+        },
+        {
+          "id": "c3-29",
+          "hoi": "Nước nhỏ có S = 20P − 20, D = −10P + 70, $P_{w}$ = 5, áp thuế xuất khẩu 1 USD/đơn vị. Thay đổi thặng dư sản xuất, thu thuế và tổn thất ròng là bao nhiêu?",
+          "dap_an": [
+            "ΔPS = −70; thu thuế 30; tổn thất ròng 15",
+            "ΔPS = −70; thu thuế 60; tổn thất ròng 10",
+            "ΔPS = +25; thu thuế 30; tổn thất ròng 15",
+            "ΔPS = −45; thu thuế 30; tổn thất ròng 10"
+          ],
+          "giai_thich": "Giá trong nước còn 4: cung 60, cầu 30, xuất khẩu 30. ΔPS = −½(80 + 60) = −70; ΔCS = +½(20 + 30) = +25; thu thuế = 30; tổn thất ròng = 70 − 25 − 30 = 15.",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần II dạng B; slide Chương 3, trang 27"
+        },
+        {
+          "id": "c3-30",
+          "hoi": "Giá xe máy thế giới 600 USD, đầu vào 400 USD. Thuế xe máy nhập khẩu 20%, thuế đầu vào 15%. Tỷ lệ bảo hộ hiệu quả là bao nhiêu?",
+          "dap_an": [
+            "30%",
+            "20%",
+            "15%",
+            "5%"
+          ],
+          "giai_thich": "V = 600 − 400 = 200. Có thuế: giá xe 720, đầu vào 460, V′ = 260. ERP = (260 − 200)/200 = 30%, cao hơn thuế danh nghĩa 20%.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần II dạng C; slide Chương 3, trang 30"
+        },
+        {
+          "id": "c3-31",
+          "hoi": "Giày thể thao Canada: $Q_{d}$ = 500 − 5P, $Q_{s}$ = 10P − 100. Giá và lượng cân bằng khi chưa có thương mại là bao nhiêu?",
+          "dap_an": [
+            "P = 40 USD, Q = 300",
+            "P = 20 USD, Q = 400",
+            "P = 30 USD, Q = 350",
+            "P = 40 USD, Q = 400"
+          ],
+          "giai_thich": "Cho 500 − 5P = 10P − 100, được 15P = 600, P = 40; Q = 500 − 200 = 300.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-32",
+          "hoi": "Canada (nước nhỏ): $Q_{d}$ = 500 − 5P, $Q_{s}$ = 10P − 100, giá thế giới 20 USD. Khi thương mại tự do, lượng nhập khẩu là bao nhiêu?",
+          "dap_an": [
+            "300 đôi",
+            "400 đôi",
+            "100 đôi",
+            "150 đôi"
+          ],
+          "giai_thich": "Tại P = 20: cầu = 400, cung = 100, nhập khẩu = 300.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-33",
+          "hoi": "Canada: $Q_{d}$ = 500 − 5P, $Q_{s}$ = 10P − 100, $P_{w}$ = 20. Khi chuyển từ không có thương mại sang thương mại tự do, CS và PS thay đổi thế nào?",
+          "dap_an": [
+            "CS tăng 7.000, PS giảm 4.000",
+            "CS tăng 4.000, PS giảm 7.000",
+            "CS tăng 7.000, PS giảm 3.000",
+            "CS tăng 3.000, PS giảm 4.000"
+          ],
+          "giai_thich": "Giá giảm từ 40 xuống 20. ΔCS = ½(300 + 400) × 20 = 7.000; ΔPS = −½(300 + 100) × 20 = −4.000; lợi ích ròng 3.000.",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-34",
+          "hoi": "Canada: $Q_{d}$ = 500 − 5P, $Q_{s}$ = 10P − 100, $P_{w}$ = 20, thuế nhập khẩu 10 USD/đôi. Giá và lượng nhập khẩu sau thuế là bao nhiêu?",
+          "dap_an": [
+            "Giá 30 USD, nhập khẩu 150 đôi",
+            "Giá 30 USD, nhập khẩu 300 đôi",
+            "Giá 20 USD, nhập khẩu 150 đôi",
+            "Giá 30 USD, nhập khẩu 200 đôi"
+          ],
+          "giai_thich": "Giá trong nước = 20 + 10 = 30. Cầu = 350, cung = 200, nhập khẩu = 150. 200 là lượng sản xuất trong nước.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-35",
+          "hoi": "Canada: $Q_{d}$ = 500 − 5P, $Q_{s}$ = 10P − 100, $P_{w}$ = 20, thuế 10 USD/đôi. So với thương mại tự do, CS và PS thay đổi thế nào?",
+          "dap_an": [
+            "CS giảm 3.750, PS tăng 1.500",
+            "CS giảm 1.500, PS tăng 3.750",
+            "CS giảm 3.750, PS tăng 2.000",
+            "CS giảm 4.000, PS tăng 1.500"
+          ],
+          "giai_thich": "ΔCS = −½(400 + 350) × 10 = −3.750; ΔPS = +½(100 + 200) × 10 = +1.500.",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-36",
+          "hoi": "Canada: $Q_{d}$ = 500 − 5P, $Q_{s}$ = 10P − 100, $P_{w}$ = 20, thuế 10 USD/đôi. Số thu ngân sách và tổn thất phúc lợi ròng là bao nhiêu?",
+          "dap_an": [
+            "Thu ngân sách 1.500, tổn thất ròng 750",
+            "Thu ngân sách 3.000, tổn thất ròng 750",
+            "Thu ngân sách 1.500, tổn thất ròng 500",
+            "Thu ngân sách 2.000, tổn thất ròng 250"
+          ],
+          "giai_thich": "Thu thuế = 10 × 150 = 1.500. Tổn thất ròng = 3.750 − 1.500 − 1.500 = 750, gồm b = ½ × 100 × 10 = 500 và d = ½ × 50 × 10 = 250.",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-37",
+          "hoi": "Canada: $Q_{d}$ = 500 − 5P, $Q_{s}$ = 10P − 100, $P_{w}$ = 20. Nếu thuế nhập khẩu là 22 USD/đôi, giá và lượng sản xuất trong nước là bao nhiêu?",
+          "dap_an": [
+            "Giá 40 USD, sản xuất 300 đôi",
+            "Giá 42 USD, sản xuất 320 đôi",
+            "Giá 42 USD, sản xuất 300 đôi",
+            "Giá 35 USD, sản xuất 250 đôi"
+          ],
+          "giai_thich": "$P_{w}$ + t = 42 vượt giá tự cung tự cấp 40, nên không còn nhập khẩu; giá trong nước dừng ở 40, sản xuất 300. Thuế 15 USD mới cho giá 35 và sản xuất 250.",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-38",
+          "hoi": "Canada: $Q_{d}$ = 500 − 5P, $Q_{s}$ = 10P − 100, $P_{w}$ = 20. Mức thuế nhập khẩu tối thiểu để ngăn hoàn toàn nhập khẩu là bao nhiêu?",
+          "dap_an": [
+            "20 USD/đôi",
+            "10 USD/đôi",
+            "40 USD/đôi",
+            "30 USD/đôi"
+          ],
+          "giai_thich": "Nhập khẩu bằng 0 khi giá trong nước đạt giá tự cung tự cấp 40, nên t = 40 − 20 = 20 USD.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-39",
+          "hoi": "Canada (nước nhỏ) đang áp thuế nhập khẩu giày. Nếu cầu trong nước tăng (đường cầu dịch phải), điều gì xảy ra?",
+          "dap_an": [
+            "Giá không đổi, tiêu dùng tăng, sản xuất không đổi, nhập khẩu tăng",
+            "Giá tăng, tiêu dùng tăng, sản xuất tăng, nhập khẩu không đổi",
+            "Giá không đổi, tiêu dùng tăng, sản xuất tăng, nhập khẩu giảm",
+            "Giá tăng, tiêu dùng không đổi, sản xuất tăng, nhập khẩu giảm"
+          ],
+          "giai_thich": "Với thuế, giá trong nước cố định ở $P_{w}$ + t. Cầu tăng chỉ làm lượng tiêu dùng tăng, cung không đổi nên phần tăng được bù bằng nhập khẩu. Giá tăng mà nhập khẩu không đổi là trường hợp hạn ngạch.",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần III bài 1; file bài tập ktqt, Chương 3 bài 1"
+        },
+        {
+          "id": "c3-40",
+          "hoi": "Sản phẩm A: giá thế giới 400 USD, nguyên liệu nhập 300 USD; thuế A là 30%, thuế nguyên liệu 10%. Tỷ lệ bảo hộ hiệu quả là bao nhiêu?",
+          "dap_an": [
+            "90%",
+            "30%",
+            "20%",
+            "190%"
+          ],
+          "giai_thich": "V = 400 − 300 = 100. Có thuế: giá A = 520, nguyên liệu = 330, V′ = 190. ERP = (190 − 100)/100 = 90%.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần III bài 2; file bài tập ktqt, Chương 3 bài 2"
+        },
+        {
+          "id": "c3-41",
+          "hoi": "Sản phẩm A: giá thế giới 400 USD, nguyên liệu nhập 300 USD, thuế A là 30%. Nếu thuế nguyên liệu tăng lên 40% và 50%, ERP lần lượt là bao nhiêu?",
+          "dap_an": [
+            "0% và −30%",
+            "30% và 0%",
+            "10% và −20%",
+            "0% và −10%"
+          ],
+          "giai_thich": "Giá A = 520. Thuế 40%: nguyên liệu 420, V′ = 100, ERP = 0%. Thuế 50%: nguyên liệu 450, V′ = 70, ERP = −30%. Ở hai mức này nhà sản xuất không được hưởng lợi.",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần III bài 2; file bài tập ktqt, Chương 3 bài 2"
+        },
+        {
+          "id": "c3-42",
+          "hoi": "Cao su Malaysia (nước nhỏ): $Q_{d}$ = 100 − 15P, $Q_{s}$ = 25P − 10, giá thế giới 5 USD. Khi thương mại tự do, sản lượng, tiêu dùng và xuất khẩu là bao nhiêu?",
+          "dap_an": [
+            "Sản xuất 115, tiêu dùng 25, xuất khẩu 90",
+            "Sản xuất 90, tiêu dùng 40, xuất khẩu 50",
+            "Sản xuất 115, tiêu dùng 25, xuất khẩu 140",
+            "Sản xuất 58,75, tiêu dùng 58,75, xuất khẩu 0"
+          ],
+          "giai_thich": "Tại P = 5: cung = 125 − 10 = 115, cầu = 100 − 75 = 25, xuất khẩu = 90. Khi chưa có thương mại P = 2,75 và Q = 58,75.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần III bài 3; file bài tập ktqt, Chương 3 bài 3"
+        },
+        {
+          "id": "c3-43",
+          "hoi": "Malaysia: $Q_{d}$ = 100 − 15P, $Q_{s}$ = 25P − 10, $P_{w}$ = 5, thuế xuất khẩu 1 USD/đơn vị. Giá trong nước và lượng xuất khẩu là bao nhiêu?",
+          "dap_an": [
+            "Giá 4 USD, xuất khẩu 50",
+            "Giá 6 USD, xuất khẩu 130",
+            "Giá 4 USD, xuất khẩu 90",
+            "Giá 5 USD, xuất khẩu 50"
+          ],
+          "giai_thich": "Thuế xuất khẩu làm giá trong nước = 5 − 1 = 4. Cung = 90, cầu = 40, xuất khẩu = 50.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần III bài 3; file bài tập ktqt, Chương 3 bài 3"
+        },
+        {
+          "id": "c3-44",
+          "hoi": "Malaysia: $Q_{d}$ = 100 − 15P, $Q_{s}$ = 25P − 10, $P_{w}$ = 5, thuế xuất khẩu 1 USD. Thay đổi PS, CS, thu ngân sách và tổn thất ròng là bao nhiêu?",
+          "dap_an": [
+            "PS −102,5; CS +32,5; thu 50; tổn thất 20",
+            "PS −102,5; CS +32,5; thu 90; tổn thất 20",
+            "PS −32,5; CS +102,5; thu 50; tổn thất 20",
+            "PS −102,5; CS +32,5; thu 50; tổn thất 12,5"
+          ],
+          "giai_thich": "ΔPS = −½(115 + 90) × 1 = −102,5; ΔCS = +½(25 + 40) × 1 = +32,5; thu thuế = 1 × 50 = 50; tổn thất ròng = 102,5 − 32,5 − 50 = 20 (b = 7,5; d = 12,5).",
+          "kho": true,
+          "nguon": "TT Chương 3, Phần III bài 3; file bài tập ktqt, Chương 3 bài 3"
+        },
+        {
+          "id": "c3-45",
+          "hoi": "Malaysia (nước nhỏ) đang có thuế xuất khẩu cao su. Nếu cầu trong nước tăng, điều gì xảy ra?",
+          "dap_an": [
+            "Giá không đổi, tiêu dùng tăng, sản xuất không đổi, xuất khẩu giảm",
+            "Giá tăng, tiêu dùng tăng, sản xuất tăng, xuất khẩu không đổi",
+            "Giá không đổi, tiêu dùng tăng, sản xuất tăng, xuất khẩu tăng",
+            "Giá giảm, tiêu dùng tăng, sản xuất giảm, xuất khẩu giảm"
+          ],
+          "giai_thich": "Giá trong nước cố định ở $P_{w}$ − t vì nước nhỏ. Cầu tăng làm tiêu dùng tăng trong khi sản xuất không đổi, nên phần để xuất khẩu giảm.",
+          "kho": false,
+          "nguon": "TT Chương 3, Phần III bài 3; file bài tập ktqt, Chương 3 bài 3"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "nhom": "Bài giảng",
+      "ten": "Chương 4 - Hàng rào phi thuế quan và chủ nghĩa bảo hộ mới",
+      "cau": [
+        {
+          "id": "c4-01",
+          "hoi": "Theo slide, vì sao thuế quan bị xem là công cụ “quá thô sơ” so với công cụ phi thuế quan?",
+          "dap_an": [
+            "Vì thuế chỉ thay đổi giá, không nhắm được chất lượng, an toàn hay an ninh",
+            "Vì thuế không tạo ra được nguồn thu đáng kể cho ngân sách nhà nước",
+            "Vì thuế không làm thay đổi được giá của hàng nhập khẩu ở trong nước",
+            "Vì thuế luôn bị WTO cấm áp dụng đối với mọi loại nông sản còn tươi"
+          ],
+          "giai_thich": "Thuế quan là công cụ giá cả: nó làm hàng đắt hơn nhưng không kiểm soát được chất lượng, an toàn, môi trường hay ai dùng công nghệ. Đó là lý do các nước dùng thêm công cụ phi thuế quan.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 1; slide Chương 4, trang 5"
+        },
+        {
+          "id": "c4-02",
+          "hoi": "Xoài, nhãn tươi của Việt Nam vào Nhật, Mỹ, EU phải qua kiểm dịch thực vật. Vì sao thuế quan không thay thế được biện pháp này?",
+          "dap_an": [
+            "Thuế không thể diệt sâu bệnh hay xác minh an toàn sinh học của lô hàng",
+            "Thuế làm giá trái cây tăng quá cao khiến người tiêu dùng không mua",
+            "Thuế với nông sản tươi đã được các hiệp định FTA xóa bỏ hoàn toàn",
+            "Thuế chỉ áp dụng được cho hàng công nghiệp chứ không cho nông sản"
+          ],
+          "giai_thich": "Dù thuế 5% hay 50%, thuế vẫn chỉ là giá cả, không phải tiêu chuẩn an toàn. SPS mới yêu cầu vườn trồng đăng ký, xử lý khử trùng/lạnh, chứng nhận kiểm dịch và kiểm tra biên giới.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 1; slide Chương 4, trang 6"
+        },
+        {
+          "id": "c4-03",
+          "hoi": "Trong kiểm soát chip Mỹ–Trung, quy tắc FDPR có tác dụng gì?",
+          "dap_an": [
+            "Mở rộng kiểm soát của Mỹ tới sản phẩm làm ở nước ngoài dùng công nghệ Mỹ",
+            "Giảm thuế nhập khẩu chip cho các doanh nghiệp có nhà máy đặt tại Mỹ",
+            "Cấm mọi doanh nghiệp nước ngoài mua cổ phần của công ty chip Mỹ",
+            "Áp hạn ngạch cố định cho lượng chip Trung Quốc được bán vào Mỹ"
+          ],
+          "giai_thich": "Bộ công cụ gồm cấp phép xuất khẩu, kiểm soát người dùng cuối, Danh sách thực thể và quy tắc FDPR mở rộng kiểm soát tới sản phẩm sản xuất ở nước ngoài có dùng công nghệ hoặc sở hữu trí tuệ của Mỹ.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 1; slide Chương 4, trang 7"
+        },
+        {
+          "id": "c4-04",
+          "hoi": "Hạn ngạch (quota) trong thương mại quốc tế là gì?",
+          "dap_an": [
+            "Giới hạn số lượng hoặc giá trị hàng được nhập hay xuất trong một thời gian",
+            "Thuế tính theo phần trăm giá trị hàng hóa khi hàng vượt qua biên giới",
+            "Khoản tiền chính phủ trả cho nhà xuất khẩu trên mỗi đơn vị hàng bán ra",
+            "Tiêu chuẩn kỹ thuật mà hàng hóa phải đáp ứng trước khi được lưu thông"
+          ],
+          "giai_thich": "Hạn ngạch là biện pháp chính phủ áp đặt giới hạn lượng hoặc giá trị hàng nhập khẩu hay xuất khẩu trong một khoảng thời gian nhất định.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Chương 4, trang 8"
+        },
+        {
+          "id": "c4-05",
+          "hoi": "Trong phân tích hạn ngạch nhập khẩu, “tô hạn ngạch” (vùng c) bằng gì?",
+          "dap_an": [
+            "Chênh lệch giữa giá trong nước và giá thế giới nhân với lượng hạn ngạch",
+            "Chênh lệch giữa giá thế giới và chi phí sản xuất trong nước nhân lượng cầu",
+            "Phần thặng dư tiêu dùng mất đi do giá trong nước tăng lên",
+            "Phần thặng dư sản xuất tăng thêm do giá trong nước tăng lên"
+          ],
+          "giai_thich": "Người có giấy phép mua hàng với giá thế giới và bán với giá trong nước cao hơn, nên tô hạn ngạch = (P − $P_{w}$) × lượng hạn ngạch. Ai nhận phần này tùy cách phân bổ giấy phép.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Chương 4, trang 11"
+        },
+        {
+          "id": "c4-06",
+          "hoi": "Nếu chính phủ đấu giá giấy phép nhập khẩu theo hạn ngạch, tô hạn ngạch thuộc về ai?",
+          "dap_an": [
+            "Chính phủ, giống như khoản thu thuế nhập khẩu",
+            "Các doanh nghiệp nội địa được cấp phép miễn phí",
+            "Các nhà xuất khẩu nước ngoài nắm giữ giấy phép",
+            "Người tiêu dùng trong nước nhờ giá hàng giảm xuống"
+          ],
+          "giai_thich": "Đấu giá giấy phép chuyển tô hạn ngạch thành thu ngân sách, như thuế quan. Cấp phép miễn phí thì doanh nghiệp nội địa hưởng; nước ngoài nắm giữ thì tô chảy ra nước ngoài.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Chương 4, trang 12"
+        },
+        {
+          "id": "c4-07",
+          "hoi": "Khi tô hạn ngạch rơi vào tay nước ngoài, tác động đối với nước nhập khẩu là gì?",
+          "dap_an": [
+            "Tổn thất phúc lợi tổng thể lớn hơn vì mất thêm phần tô hạn ngạch",
+            "Tổn thất phúc lợi tổng thể nhỏ hơn vì giá trong nước không tăng",
+            "Phúc lợi không đổi vì tô hạn ngạch chỉ là chuyển giao trong nước",
+            "Phúc lợi tăng vì điều kiện thương mại của nước nhập khẩu cải thiện"
+          ],
+          "giai_thich": "Nếu nước ngoài nắm tô hạn ngạch, vùng c không ở lại trong nước: nước nhập khẩu mất cả (b + d) lẫn c, điều kiện thương mại xấu đi.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 2; slide Chương 4, trang 12"
+        },
+        {
+          "id": "c4-08",
+          "hoi": "Điểm khác biệt nào của hạn ngạch nhập khẩu so với thuế nhập khẩu được slide nhấn mạnh?",
+          "dap_an": [
+            "Hạn ngạch giới hạn nhập khẩu ở mức chắc chắn, thuế thì không chắc chắn",
+            "Hạn ngạch luôn tạo nguồn thu ngân sách lớn hơn so với thuế nhập khẩu",
+            "Hạn ngạch không làm tăng giá trong nước như thuế nhập khẩu vẫn làm",
+            "Hạn ngạch không gây tổn thất phúc lợi ròng như thuế nhập khẩu gây ra"
+          ],
+          "giai_thich": "Hạn ngạch cố định lượng nhập khẩu, trong khi lượng nhập khẩu dưới thuế phụ thuộc cung cầu. Nếu phí giấy phép bằng mức thuế thì tác động hai công cụ tương tự nhau, kể cả tăng giá và tổn thất ròng.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Chương 4, trang 12"
+        },
+        {
+          "id": "c4-09",
+          "hoi": "Với nước nhỏ, khi cầu trong nước tăng thì hạn ngạch nhập khẩu và thuế nhập khẩu khác nhau thế nào?",
+          "dap_an": [
+            "Dưới hạn ngạch giá tăng, nhập khẩu giữ nguyên; dưới thuế giá giữ nguyên, nhập khẩu tăng",
+            "Dưới hạn ngạch giá giữ nguyên, nhập khẩu tăng; dưới thuế giá tăng, nhập khẩu giữ nguyên",
+            "Dưới cả hai công cụ giá trong nước đều tăng và nhập khẩu đều giữ nguyên",
+            "Dưới cả hai công cụ giá trong nước giữ nguyên và nhập khẩu đều tăng lên"
+          ],
+          "giai_thich": "Thuế cố định giá trong nước ở $P_{w}$ + t nên cầu tăng được đáp ứng bằng nhập khẩu thêm. Hạn ngạch cố định lượng nhập, nên cầu tăng đẩy giá trong nước lên và nhà sản xuất trong nước cung thêm.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 2; slide Chương 4, trang 12"
+        },
+        {
+          "id": "c4-10",
+          "hoi": "Hạn ngạch xuất khẩu có tác động tương tự công cụ nào?",
+          "dap_an": [
+            "Thuế xuất khẩu",
+            "Trợ cấp xuất khẩu",
+            "Thuế nhập khẩu",
+            "Hạn ngạch nhập khẩu"
+          ],
+          "giai_thich": "Cả hạn ngạch xuất khẩu và thuế xuất khẩu đều làm giảm lượng xuất khẩu và tạo chênh lệch giữa giá trong nước (thấp hơn) và giá thế giới.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Chương 4, trang 13"
+        },
+        {
+          "id": "c4-11",
+          "hoi": "Hạn chế xuất khẩu tự nguyện (VER) là gì?",
+          "dap_an": [
+            "Nước nhập khẩu thuyết phục nước xuất khẩu tự giảm xuất khẩu dưới sức ép",
+            "Nước xuất khẩu tự áp thuế xuất khẩu để tăng nguồn thu cho ngân sách",
+            "Nước nhập khẩu đấu giá giấy phép nhập khẩu cho doanh nghiệp nội địa",
+            "Doanh nghiệp xuất khẩu tự hạ giá bán để giành thị phần ở nước ngoài"
+          ],
+          "giai_thich": "VER xảy ra khi nước nhập khẩu thuyết phục nước kia “tự nguyện” giảm xuất khẩu, dưới đe dọa áp các biện pháp hạn chế toàn diện hơn khi hàng xuất khẩu đó đe dọa ngành nội địa.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Chương 4, trang 13"
+        },
+        {
+          "id": "c4-12",
+          "hoi": "Dưới VER, tô hạn ngạch thuộc về ai?",
+          "dap_an": [
+            "Các nhà xuất khẩu nước ngoài",
+            "Chính phủ nước nhập khẩu",
+            "Các nhà sản xuất nội địa",
+            "Người tiêu dùng nước nhập khẩu"
+          ],
+          "giai_thich": "VER có mọi tác động kinh tế như hạn ngạch nhập khẩu, nhưng chính nhà xuất khẩu nước ngoài giới hạn lượng bán và hưởng giá cao, nên tô hạn ngạch thuộc về họ.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 3; slide Chương 4, trang 13"
+        },
+        {
+          "id": "c4-13",
+          "hoi": "Hệ quả nào sau đây xảy ra từ VER ô tô Mỹ–Nhật năm 1981?",
+          "dap_an": [
+            "Các hãng Nhật chuyển sang xe cao cấp và xây nhà máy tại Mỹ",
+            "Các hãng Nhật giảm giá xe để giữ thị phần tại thị trường Mỹ",
+            "Người tiêu dùng Mỹ được mua xe rẻ hơn nhờ cạnh tranh tăng",
+            "Mỹ áp thuế nhập khẩu cao với ô tô Nhật thay cho thỏa thuận"
+          ],
+          "giai_thich": "Nhật giới hạn 1,68 triệu xe/năm; khan hiếm làm giá xe tăng; hãng Nhật chuyển lên phân khúc cao cấp (Lexus, Acura, Infiniti) và đầu tư nhà máy tại Mỹ để vượt giới hạn. VER được dùng để tránh thuế quan trực tiếp.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Chương 4, trang 14"
+        },
+        {
+          "id": "c4-14",
+          "hoi": "Đâu KHÔNG phải là một hình thức trợ cấp xuất khẩu được slide nêu ra?",
+          "dap_an": [
+            "Đánh thuế cao vào hàng nhập khẩu cạnh tranh",
+            "Thanh toán tiền mặt trên mỗi đơn vị xuất khẩu",
+            "Cho vay ưu đãi đối với nhà xuất khẩu nội địa",
+            "Bảo hiểm tín dụng xuất khẩu dưới giá thị trường"
+          ],
+          "giai_thich": "Hình thức trợ cấp xuất khẩu: tiền mặt trên mỗi đơn vị, miễn giảm thuế thu nhập từ xuất khẩu, cho vay ưu đãi, tài trợ lãi suất thấp cho người mua nước ngoài, bảo hiểm tín dụng dưới giá thị trường. Thuế nhập khẩu là công cụ khác.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4; slide Chương 4, trang 15"
+        },
+        {
+          "id": "c4-15",
+          "hoi": "Theo slide, đặc điểm nổi bật của trợ cấp xuất khẩu về phúc lợi là gì?",
+          "dap_an": [
+            "Không có kịch bản nào mang lại lợi ích ròng cho nước thực hiện",
+            "Luôn mang lại lợi ích ròng nhờ xuất khẩu và sản lượng tăng",
+            "Có lợi ròng khi người tiêu dùng trong nước được mua rẻ hơn",
+            "Không gây tổn thất vì ngân sách chi ra chuyển cho nhà sản xuất"
+          ],
+          "giai_thich": "Trợ cấp làm giá trong nước tăng; người tiêu dùng thiệt (a + b), nhà sản xuất lợi (a + b + c), ngân sách chi (b + c + d). Phần b + d luôn mất, nên nước trợ cấp luôn thiệt ròng.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4; slide Chương 4, trang 16"
+        },
+        {
+          "id": "c4-16",
+          "hoi": "Bán phá giá (dumping) là gì?",
+          "dap_an": [
+            "Xuất khẩu với giá thấp hơn chi phí sản xuất hoặc thấp hơn giá bán trong nước",
+            "Xuất khẩu với giá cao hơn giá bán ở thị trường nội địa của nhà xuất khẩu",
+            "Nhập khẩu hàng giá rẻ rồi bán lại trong nước với giá cao hơn thị trường",
+            "Bán hàng trong nước thấp hơn giá thế giới nhờ được trợ cấp sản xuất"
+          ],
+          "giai_thich": "Bán phá giá xảy ra khi doanh nghiệp xuất khẩu với giá thấp hơn chi phí sản xuất hoặc bán ra nước ngoài thấp hơn giá bán tại thị trường nội địa.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 5; slide Chương 4, trang 17"
+        },
+        {
+          "id": "c4-17",
+          "hoi": "Biên độ phá giá (dumping margin) được hiểu là gì?",
+          "dap_an": [
+            "Mức giá trị thông thường vượt quá giá xuất khẩu",
+            "Mức giá xuất khẩu vượt quá chi phí sản xuất",
+            "Mức giá thế giới vượt quá giá trị thông thường",
+            "Mức thuế nhập khẩu vượt quá thuế danh nghĩa"
+          ],
+          "giai_thich": "Biên độ phá giá là phần giá trị thông thường (giá ở thị trường nội địa của nhà xuất khẩu hoặc nước thứ ba) cao hơn giá xuất khẩu; WTO cho đánh thuế chống bán phá giá bằng biên độ này nếu chứng minh được thiệt hại vật chất.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 5; slide Chương 4, trang 17"
+        },
+        {
+          "id": "c4-18",
+          "hoi": "Loại bán phá giá nào tạm thời bán dưới giá thành để đẩy đối thủ ra khỏi thị trường rồi tăng giá?",
+          "dap_an": [
+            "Bán phá giá cướp đoạt (predatory)",
+            "Bán phá giá tạm thời (sporadic)",
+            "Bán phá giá liên tục (persistent)",
+            "Bán phá giá ngược (reverse)"
+          ],
+          "giai_thich": "Bán phá giá cướp đoạt nhằm giành quyền lực thị trường; đây là loại đáng lo ngại nhất nhưng hiếm và khó chứng minh. Bán phá giá tạm thời là để giải phóng hàng tồn kho.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 5; slide Chương 4, trang 17"
+        },
+        {
+          "id": "c4-19",
+          "hoi": "Doanh nghiệp thường xuyên bán giá cao ở trong nước (cầu ít co giãn, được bảo hộ) và giá thấp ở nước ngoài (cạnh tranh mạnh). Đây là loại bán phá giá nào?",
+          "dap_an": [
+            "Bán phá giá liên tục (persistent)",
+            "Bán phá giá tạm thời (sporadic)",
+            "Bán phá giá cướp đoạt (predatory)",
+            "Bán phá giá chiến lược (strategic)"
+          ],
+          "giai_thich": "Bán phá giá liên tục là phân biệt giá quốc tế thường xuyên để tối đa hóa lợi nhuận, dựa vào quyền lực thị trường trong nước và cạnh tranh khốc liệt ở nước ngoài. Nó không nhằm loại đối thủ như loại cướp đoạt.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 5; slide Chương 4, trang 17"
+        },
+        {
+          "id": "c4-20",
+          "hoi": "Cơ chế CBAM của EU áp dụng trước hết cho nhóm ngành nào?",
+          "dap_an": [
+            "Sắt thép, nhôm, xi măng, phân bón, điện và hydro",
+            "Cà phê, cao su, gỗ, đậu nành, ca cao và dầu cọ",
+            "Trạm phát sóng 5G, camera giám sát và bán dẫn",
+            "Dệt may, thực phẩm và điện tử dùng bao bì nhựa"
+          ],
+          "giai_thich": "CBAM là cơ chế điều chỉnh biên giới carbon: nhà nhập khẩu khai báo phát thải và mua chứng chỉ carbon với sắt thép, nhôm, xi măng, phân bón, điện, hydro. Cà phê, cao su… là nhóm của EUDR.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Chương 4, trang 21"
+        },
+        {
+          "id": "c4-21",
+          "hoi": "Quy định chống phá rừng EUDR của EU yêu cầu điều gì?",
+          "dap_an": [
+            "Cung cấp tọa độ GPS mảnh đất trồng, chứng minh không phá rừng sau 31/12/2020",
+            "Khai báo lượng phát thải carbon và mua chứng chỉ carbon bù đắp tương ứng",
+            "Dùng tối thiểu 30% nhựa tái chế trong bao bì sản phẩm nhập khẩu vào EU",
+            "Chứng minh tiêu chuẩn chăn nuôi nhân đạo trong toàn bộ chuỗi cung ứng"
+          ],
+          "giai_thich": "EUDR yêu cầu 100% sản phẩm (cà phê, cao su, gỗ, đậu nành, ca cao, dầu cọ) có tọa độ GPS của mảnh đất, chứng minh không liên quan phá rừng sau 31/12/2020; thách thức lớn với nông dân nhỏ lẻ.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Chương 4, trang 22"
+        },
+        {
+          "id": "c4-22",
+          "hoi": "Nguyên tắc “khu vực hóa” (regionalization) trong kiểm dịch có nghĩa là gì?",
+          "dap_an": [
+            "Chỉ cấm nhập từ vùng có dịch, vùng sạch bệnh vẫn được xuất khẩu",
+            "Cấm nhập khẩu từ toàn bộ quốc gia có xuất hiện dịch bệnh",
+            "Chỉ cho nhập khẩu từ các nước trong cùng một khu vực địa lý",
+            "Cho phép mỗi khu vực trong nước tự đặt tiêu chuẩn kiểm dịch"
+          ],
+          "giai_thich": "Khu vực hóa không cấm cả nước mà chỉ cấm vùng có dịch; muốn được công nhận vùng an toàn, năng lực thú y quốc gia phải đủ mạnh để khoanh vùng và chứng minh với quốc tế.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Chương 4, trang 27"
+        },
+        {
+          "id": "c4-23",
+          "hoi": "Đặc điểm nào mô tả đúng “chủ nghĩa bảo hộ mới”?",
+          "dap_an": [
+            "Dùng tiêu chuẩn, thủ tục tinh vi nhân danh mục tiêu hợp pháp nên khó thách thức",
+            "Dùng thuế quan cao và công khai để bảo hộ toàn bộ các ngành sản xuất trong nước",
+            "Xóa bỏ hoàn toàn mọi rào cản để thúc đẩy thương mại tự do giữa các quốc gia",
+            "Chỉ áp dụng hạn ngạch nhập khẩu đối với hàng nông sản đến từ các nước nghèo"
+          ],
+          "giai_thich": "Khi các hiệp định đa phương hạ thuế, các nước dựa vào hạn ngạch, trợ cấp, tiêu chuẩn kỹ thuật, mua sắm, thủ tục hành chính; chúng nhân danh mục tiêu chính sách hợp pháp nên khó nhận diện và thách thức hơn rào cản truyền thống.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Chương 4, trang 19"
+        },
+        {
+          "id": "c4-24",
+          "hoi": "Nước nhỏ có S = 10P − 20, D = −10P + 80, $P_{w}$ = 3. Áp hạn ngạch nhập khẩu 20 đơn vị thì giá trong nước là bao nhiêu?",
+          "dap_an": [
+            "4 USD",
+            "3 USD",
+            "5 USD",
+            "3,5 USD"
+          ],
+          "giai_thich": "Cung tính cả hạn ngạch: S′ = 10P − 20 + 20 = 10P. Cho 10P = −10P + 80 được P = 4; khi đó cầu 40, cung trong nước 20, nhập khẩu 20.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần II dạng A; slide Chương 4, trang 10"
+        },
+        {
+          "id": "c4-25",
+          "hoi": "Nước nhỏ có S = 10P − 20, D = −10P + 80, $P_{w}$ = 3, hạn ngạch 20 đơn vị đẩy giá lên 4. Tô hạn ngạch bằng bao nhiêu?",
+          "dap_an": [
+            "20",
+            "40",
+            "10",
+            "15"
+          ],
+          "giai_thich": "Tô hạn ngạch = (P − $P_{w}$) × hạn ngạch = (4 − 3) × 20 = 20. Nó bằng đúng số thuế nếu dùng thuế 1 USD.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần II dạng A; slide Chương 4, trang 11"
+        },
+        {
+          "id": "c4-26",
+          "hoi": "Nước nhỏ có S = 10P − 20, D = −10P + 80, $P_{w}$ = 3, hạn ngạch 20 đơn vị. Thay đổi CS, PS và tổn thất ròng là bao nhiêu?",
+          "dap_an": [
+            "CS −45; PS +15; tổn thất ròng 10",
+            "CS −45; PS +15; tổn thất ròng 30",
+            "CS −40; PS +20; tổn thất ròng 10",
+            "CS −45; PS +20; tổn thất ròng 5"
+          ],
+          "giai_thich": "Giá tăng từ 3 lên 4. ΔCS = −½(50 + 40) = −45; ΔPS = +½(10 + 20) = +15; tô hạn ngạch 20; tổn thất ròng = 45 − 15 − 20 = 10.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần II dạng A; slide Chương 4, trang 11"
+        },
+        {
+          "id": "c4-27",
+          "hoi": "Nước nhỏ xuất khẩu có S = 20P − 20, D = −10P + 70, $P_{w}$ = 4. Khi thương mại tự do, lượng xuất khẩu là bao nhiêu?",
+          "dap_an": [
+            "30 đơn vị",
+            "60 đơn vị",
+            "40 đơn vị",
+            "20 đơn vị"
+          ],
+          "giai_thich": "Tại P = 4: cung 60, cầu 30, xuất khẩu 30. 60 là lượng xuất khẩu khi có trợ cấp 1 USD.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần II dạng B; slide Chương 4, trang 16"
+        },
+        {
+          "id": "c4-28",
+          "hoi": "Nước nhỏ có S = 20P − 20, D = −10P + 70, $P_{w}$ = 4, trợ cấp xuất khẩu 1 USD/đơn vị. Giá trong nước và lượng xuất khẩu là bao nhiêu?",
+          "dap_an": [
+            "Giá 5 USD, xuất khẩu 60",
+            "Giá 3 USD, xuất khẩu 60",
+            "Giá 5 USD, xuất khẩu 80",
+            "Giá 4 USD, xuất khẩu 30"
+          ],
+          "giai_thich": "Nhà sản xuất nhận 4 + 1 = 5 khi xuất khẩu nên giá trong nước cũng lên 5. Cung 80, cầu 20, xuất khẩu 60.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần II dạng B; slide Chương 4, trang 16"
+        },
+        {
+          "id": "c4-29",
+          "hoi": "Nước nhỏ có S = 20P − 20, D = −10P + 70, $P_{w}$ = 4, trợ cấp xuất khẩu 1 USD/đơn vị. Chi ngân sách và tổn thất ròng là bao nhiêu?",
+          "dap_an": [
+            "Chi ngân sách 60, tổn thất ròng 15",
+            "Chi ngân sách 30, tổn thất ròng 15",
+            "Chi ngân sách 60, tổn thất ròng 25",
+            "Chi ngân sách 80, tổn thất ròng 10"
+          ],
+          "giai_thich": "Chi = 1 × 60 = 60. ΔCS = −½(30 + 20) = −25; ΔPS = +½(60 + 80) = +70. Tổn thất ròng = 25 + 60 − 70 = 15 (b = 5; d = 10).",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần II dạng B; slide Chương 4, trang 16"
+        },
+        {
+          "id": "c4-30",
+          "hoi": "Giá trị thông thường của một sản phẩm là 100 USD, nhà xuất khẩu bán sang nước B với giá 80 USD và ngành của B chứng minh được thiệt hại vật chất. Theo WTO, B được đánh thuế chống bán phá giá tối đa bao nhiêu?",
+          "dap_an": [
+            "20 USD mỗi đơn vị, bằng biên độ phá giá",
+            "80 USD mỗi đơn vị, bằng giá xuất khẩu",
+            "100 USD mỗi đơn vị, bằng giá trị thông thường",
+            "25 USD mỗi đơn vị, bằng 25% giá xuất khẩu"
+          ],
+          "giai_thich": "Biên độ phá giá = giá trị thông thường − giá xuất khẩu = 100 − 80 = 20 USD; WTO cho đánh thuế bằng biên độ phá giá khi có thiệt hại vật chất.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 5; slide Chương 4, trang 17"
+        },
+        {
+          "id": "c4-31",
+          "hoi": "Một nước nhỏ có hạn ngạch nhập khẩu 500 đơn vị, giá thế giới 8 USD, giá trong nước 12 USD. Nếu giấy phép cấp miễn phí cho doanh nghiệp nội địa thì nhóm này nhận thêm bao nhiêu?",
+          "dap_an": [
+            "2.000 USD tô hạn ngạch",
+            "4.000 USD tô hạn ngạch",
+            "6.000 USD tô hạn ngạch",
+            "1.000 USD tô hạn ngạch"
+          ],
+          "giai_thich": "Tô hạn ngạch = (12 − 8) × 500 = 2.000 USD. Cấp phép miễn phí thì doanh nghiệp nội địa giữ phần này, làm thặng dư của họ tăng vượt vùng a.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Chương 4, trang 12"
+        },
+        {
+          "id": "c4-32",
+          "hoi": "Nước nhỏ có $Q_{d}$ = 180 − 30P, $Q_{s}$ = 20P − 20, giá thế giới 2 USD. Khi thương mại tự do, lượng nhập khẩu là bao nhiêu?",
+          "dap_an": [
+            "100 đơn vị",
+            "120 đơn vị",
+            "20 đơn vị",
+            "50 đơn vị"
+          ],
+          "giai_thich": "Tại P = 2: cầu 120, cung 20, nhập khẩu 100.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần III bài 1; file bài tập ktqt, Chương 4 bài 1"
+        },
+        {
+          "id": "c4-33",
+          "hoi": "Nước nhỏ có $Q_{d}$ = 180 − 30P, $Q_{s}$ = 20P − 20, $P_{w}$ = 2, áp hạn ngạch nhập khẩu 50 đơn vị. Giá, tiêu dùng và sản xuất trong nước là bao nhiêu?",
+          "dap_an": [
+            "Giá 3 USD, tiêu dùng 90, sản xuất 40",
+            "Giá 2 USD, tiêu dùng 120, sản xuất 20",
+            "Giá 3 USD, tiêu dùng 90, sản xuất 50",
+            "Giá 4 USD, tiêu dùng 60, sản xuất 60"
+          ],
+          "giai_thich": "Cho $Q_{d}$ − $Q_{s}$ = 50: (180 − 30P) − (20P − 20) = 50, nên 200 − 50P = 50, P = 3. Khi đó cầu 90, cung 40, nhập khẩu 50.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần III bài 1; file bài tập ktqt, Chương 4 bài 1"
+        },
+        {
+          "id": "c4-34",
+          "hoi": "Với $Q_{d}$ = 180 − 30P, $Q_{s}$ = 20P − 20, $P_{w}$ = 2 và hạn ngạch 50 đơn vị (giá trong nước 3 USD), mức thuế nhập khẩu tương đương hạn ngạch là bao nhiêu?",
+          "dap_an": [
+            "1 USD mỗi đơn vị",
+            "3 USD mỗi đơn vị",
+            "2 USD mỗi đơn vị",
+            "0,5 USD mỗi đơn vị"
+          ],
+          "giai_thich": "Thuế tương đương là mức thuế đưa giá trong nước lên đúng giá dưới hạn ngạch: t = 3 − 2 = 1 USD (tương đương 50% giá thế giới).",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần III bài 1; file bài tập ktqt, Chương 4 bài 1"
+        },
+        {
+          "id": "c4-35",
+          "hoi": "Với $Q_{d}$ = 180 − 30P, $Q_{s}$ = 20P − 20, $P_{w}$ = 2, hạn ngạch 50 đơn vị làm giá lên 3 USD. CS và PS thay đổi thế nào?",
+          "dap_an": [
+            "CS giảm 105, PS tăng 30",
+            "CS giảm 90, PS tăng 40",
+            "CS giảm 105, PS tăng 50",
+            "CS giảm 30, PS tăng 105"
+          ],
+          "giai_thich": "ΔCS = −½(120 + 90) × 1 = −105; ΔPS = +½(20 + 40) × 1 = +30.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III bài 1; file bài tập ktqt, Chương 4 bài 1"
+        },
+        {
+          "id": "c4-36",
+          "hoi": "Với $Q_{d}$ = 180 − 30P, $Q_{s}$ = 20P − 20, $P_{w}$ = 2, hạn ngạch 50 đơn vị (giá 3 USD). Nếu đấu giá giấy phép, chính phủ thu tối đa bao nhiêu và tổn thất ròng là bao nhiêu?",
+          "dap_an": [
+            "Thu tối đa 50, tổn thất ròng 25",
+            "Thu tối đa 100, tổn thất ròng 25",
+            "Thu tối đa 50, tổn thất ròng 75",
+            "Thu tối đa 150, tổn thất ròng 15"
+          ],
+          "giai_thich": "Thu tối đa = tô hạn ngạch = (3 − 2) × 50 = 50. Tổn thất ròng = 105 − 30 − 50 = 25.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III bài 1; file bài tập ktqt, Chương 4 bài 1"
+        },
+        {
+          "id": "c4-37",
+          "hoi": "Quốc gia ($Q_{d}$ = 180 − 30P, $Q_{s}$ = 20P − 20) đang có hạn ngạch 50 đơn vị, giá trong nước 3 USD. Nếu giá thế giới giảm từ 2 xuống 1,5 USD thì sao?",
+          "dap_an": [
+            "Giá trong nước vẫn 3 USD, các lượng không đổi, chỉ tô hạn ngạch tăng",
+            "Giá trong nước giảm còn 2,5 USD, nhập khẩu vẫn giữ nguyên ở mức 50",
+            "Giá trong nước giảm còn 1,5 USD, nhập khẩu tăng lên tới mức 165 đơn vị",
+            "Giá trong nước tăng lên 3,5 USD, sản xuất trong nước cũng tăng theo"
+          ],
+          "giai_thich": "Hạn ngạch vẫn ràng buộc (tự do sẽ nhập 165 > 50), nên giá trong nước do $Q_{d}$ − $Q_{s}$ = 50 quyết định và vẫn là 3. Tô hạn ngạch tăng từ 50 lên (3 − 1,5) × 50 = 75.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III bài 1; file bài tập ktqt, Chương 4 bài 1"
+        },
+        {
+          "id": "c4-38",
+          "hoi": "Quốc gia nhỏ đang áp hạn ngạch nhập khẩu. Nếu cầu trong nước tăng, điều gì xảy ra?",
+          "dap_an": [
+            "Giá tăng, sản xuất tăng, tiêu dùng tăng, nhập khẩu không đổi",
+            "Giá không đổi, sản xuất không đổi, tiêu dùng tăng, nhập khẩu tăng",
+            "Giá tăng, sản xuất tăng, tiêu dùng giảm, nhập khẩu giảm",
+            "Giá không đổi, sản xuất tăng, tiêu dùng tăng, nhập khẩu không đổi"
+          ],
+          "giai_thich": "Lượng nhập khẩu bị chặn ở mức hạn ngạch, nên cầu tăng làm giá trong nước tăng; nhà sản xuất cung thêm, tiêu dùng mới = cung trong nước + hạn ngạch cũng tăng.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III bài 1; file bài tập ktqt, Chương 4 bài 1"
+        },
+        {
+          "id": "c4-39",
+          "hoi": "Sữa Hoa Kỳ: $Q_{d}$ = 300 − 8P, $Q_{s}$ = 2P − 20. Hàm cầu nhập khẩu sữa của Hoa Kỳ là gì?",
+          "dap_an": [
+            "M = 320 − 10P",
+            "M = 280 − 6P",
+            "M = 320 − 6P",
+            "M = 280 − 10P"
+          ],
+          "giai_thich": "Cầu nhập khẩu = cầu − cung = (300 − 8P) − (2P − 20) = 320 − 10P.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần III bài 2; file bài tập ktqt, Chương 4 bài 2"
+        },
+        {
+          "id": "c4-40",
+          "hoi": "Hoa Kỳ có cầu nhập khẩu sữa M = 320 − 10P, cung nhập khẩu $Q_{f}$ = 18P − 100. Giá sữa và lượng nhập khẩu cân bằng là bao nhiêu?",
+          "dap_an": [
+            "Giá 15 USD, nhập khẩu 170",
+            "Giá 22 USD, nhập khẩu 100",
+            "Giá 15 USD, nhập khẩu 180",
+            "Giá 10 USD, nhập khẩu 220"
+          ],
+          "giai_thich": "Cho 320 − 10P = 18P − 100: 28P = 420, P = 15, nhập khẩu 170; khi đó sản xuất 10 và tiêu dùng 180.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần III bài 2; file bài tập ktqt, Chương 4 bài 2"
+        },
+        {
+          "id": "c4-41",
+          "hoi": "Hoa Kỳ: $Q_{d}$ = 300 − 8P, $Q_{s}$ = 2P − 20, áp hạn ngạch nhập khẩu sữa 100 đơn vị. Giá, tiêu dùng và sản xuất là bao nhiêu?",
+          "dap_an": [
+            "Giá 22 USD, tiêu dùng 124, sản xuất 24",
+            "Giá 15 USD, tiêu dùng 180, sản xuất 10",
+            "Giá 22 USD, tiêu dùng 100, sản xuất 24",
+            "Giá 20 USD, tiêu dùng 140, sản xuất 20"
+          ],
+          "giai_thich": "Cho cầu nhập khẩu bằng hạn ngạch: 320 − 10P = 100, P = 22. Tiêu dùng = 300 − 176 = 124, sản xuất = 44 − 20 = 24.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III bài 2; file bài tập ktqt, Chương 4 bài 2"
+        },
+        {
+          "id": "c4-42",
+          "hoi": "Hoa Kỳ: $Q_{d}$ = 300 − 8P, $Q_{s}$ = 2P − 20; hạn ngạch 100 đơn vị làm giá sữa tăng từ 15 lên 22 USD. CS và PS thay đổi thế nào?",
+          "dap_an": [
+            "CS giảm 1.064, PS tăng 119",
+            "CS giảm 1.260, PS tăng 119",
+            "CS giảm 1.064, PS tăng 168",
+            "CS giảm 868, PS tăng 70"
+          ],
+          "giai_thich": "ΔCS = −½(180 + 124) × 7 = −1.064; ΔPS = +½(10 + 24) × 7 = +119.",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III bài 2; file bài tập ktqt, Chương 4 bài 2"
+        },
+        {
+          "id": "c4-43",
+          "hoi": "Lúa mì Argentina: $Q_{d}$ = 75 − 10P, $Q_{s}$ = 40P − 45. Giá và lượng cân bằng khi chưa có thương mại là bao nhiêu?",
+          "dap_an": [
+            "P = 2,4 USD, Q = 51",
+            "P = 3 USD, Q = 45",
+            "P = 2,4 USD, Q = 75",
+            "P = 1,2 USD, Q = 63"
+          ],
+          "giai_thich": "Cho 75 − 10P = 40P − 45: 50P = 120, P = 2,4; Q = 75 − 24 = 51.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần III bài 3; file bài tập ktqt, Chương 4 bài 3"
+        },
+        {
+          "id": "c4-44",
+          "hoi": "Argentina (nước nhỏ): $Q_{d}$ = 75 − 10P, $Q_{s}$ = 40P − 45, giá thế giới 3 USD, trợ cấp xuất khẩu 1 USD/đơn vị. Giá trong nước và lượng xuất khẩu là bao nhiêu?",
+          "dap_an": [
+            "Giá 4 USD, xuất khẩu 80",
+            "Giá 3 USD, xuất khẩu 30",
+            "Giá 4 USD, xuất khẩu 115",
+            "Giá 2 USD, xuất khẩu 80"
+          ],
+          "giai_thich": "Giá trong nước = 3 + 1 = 4. Cung 115, cầu 35, xuất khẩu 80. Khi tự do (P = 3) chỉ xuất khẩu 30.",
+          "kho": false,
+          "nguon": "TT Chương 4, Phần III bài 3; file bài tập ktqt, Chương 4 bài 3"
+        },
+        {
+          "id": "c4-45",
+          "hoi": "Argentina: $Q_{d}$ = 75 − 10P, $Q_{s}$ = 40P − 45, $P_{w}$ = 3, trợ cấp xuất khẩu 1 USD. Thay đổi CS, PS, chi ngân sách và tổn thất ròng là bao nhiêu?",
+          "dap_an": [
+            "CS −40; PS +95; chi 80; tổn thất 25",
+            "CS −40; PS +95; chi 30; tổn thất 25",
+            "CS −40; PS +80; chi 80; tổn thất 40",
+            "CS +40; PS +95; chi 80; tổn thất 15"
+          ],
+          "giai_thich": "ΔCS = −½(45 + 35) × 1 = −40; ΔPS = +½(75 + 115) × 1 = +95; chi = 1 × 80 = 80; tổn thất ròng = 40 + 80 − 95 = 25 (b = 5; d = 20).",
+          "kho": true,
+          "nguon": "TT Chương 4, Phần III bài 3; file bài tập ktqt, Chương 4 bài 3"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "nhom": "Bài giảng",
+      "ten": "Chương 5 - Hội nhập kinh tế quốc tế",
+      "cau": [
+        {
+          "id": "c5-01",
+          "hoi": "Theo slide, vì sao các quốc gia tìm đến hội nhập kinh tế thay vì chỉ dùng hàng rào thương mại?",
+          "dap_an": [
+            "Bảo hộ chỉ hiệu quả ngắn hạn, dễ bị trả đũa và bị WTO hạn chế",
+            "Hàng rào thương mại luôn bị cấm hoàn toàn bởi các hiệp định WTO",
+            "Hội nhập cho phép các nước tăng thuế nhập khẩu với nhau dễ hơn",
+            "Hội nhập giúp các nước tránh phải mở cửa thị trường trong nước"
+          ],
+          "giai_thich": "Slide nêu ba hạn chế của rào cản thuế quan và phi thuế quan: bảo hộ ngắn hạn nhưng kém hiệu quả dài hạn, nguy cơ trả đũa thương mại, các hạn chế của WTO. Vì vậy các nước tìm hợp tác thay vì đối đầu.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Chương 5, trang 8"
+        },
+        {
+          "id": "c5-02",
+          "hoi": "Điều nào mô tả đúng nhất về Hiệp định thương mại ưu đãi (PTA)?",
+          "dap_an": [
+            "Giảm thuế quan cho một số hàng hóa nhất định giữa các nước tham gia",
+            "Xóa bỏ hoàn toàn thuế quan và hạn ngạch giữa các nước thành viên",
+            "Lập liên minh có thuế quan đối ngoại chung với các nước ngoài khối",
+            "Thiết lập tự do di chuyển lao động và vốn giữa các nước thành viên"
+          ],
+          "giai_thich": "PTA chỉ giảm thuế hoặc dành ưu đãi cho một số sản phẩm, không xóa toàn bộ rào cản; thường là bước đầu tiến tới FTA hay liên minh thuế quan. Đây là câu ôn tập trắc nghiệm trong slide.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 14"
+        },
+        {
+          "id": "c5-03",
+          "hoi": "Sự khác biệt chính giữa PTA và FTA là gì?",
+          "dap_an": [
+            "FTA xóa bỏ thuế quan với hầu hết hàng hóa, PTA chỉ giảm có chọn lọc",
+            "PTA xóa bỏ thuế quan với mọi hàng hóa, FTA chỉ giảm một số mặt hàng",
+            "FTA có thêm tự do di chuyển lao động, còn PTA thì không có điều này",
+            "FTA có thuế quan đối ngoại chung, còn PTA để mỗi nước tự đặt thuế"
+          ],
+          "giai_thich": "FTA nhằm loại bỏ thuế quan và hạn ngạch với hầu hết hàng hóa giữa các thành viên; PTA chỉ ưu đãi cho một số sản phẩm. Di chuyển lao động thuộc thị trường chung, thuế đối ngoại chung thuộc liên minh thuế quan.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 14"
+        },
+        {
+          "id": "c5-04",
+          "hoi": "Vì sao một quốc gia có thể ưu tiên ký PTA thay vì FTA?",
+          "dap_an": [
+            "Để giữ sự linh hoạt trong việc bảo hộ các ngành nhạy cảm",
+            "Để xóa bỏ ngay lập tức mọi rào cản thương mại với đối tác",
+            "Để hình thành liên minh thuế quan với tất cả các đối tác",
+            "Để hài hòa hóa chính sách tiền tệ giữa các nước thành viên"
+          ],
+          "giai_thich": "PTA chỉ mở cửa có chọn lọc nên quốc gia vẫn giữ được bảo hộ cho ngành nhạy cảm; đây là câu thảo luận trong slide với đáp án gợi ý tương ứng.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 15"
+        },
+        {
+          "id": "c5-05",
+          "hoi": "Đặc điểm nào phân biệt khu vực mậu dịch tự do (FTA) với liên minh thuế quan?",
+          "dap_an": [
+            "Trong FTA mỗi nước tự chọn chính sách thương mại với nước ngoài khối",
+            "Trong FTA các nước áp chung một mức thuế quan với mọi nước ngoài khối",
+            "Trong FTA lao động và vốn được tự do di chuyển giữa các nước thành viên",
+            "Trong FTA các nước dùng chung một đồng tiền và một ngân hàng trung ương"
+          ],
+          "giai_thich": "FTA: thương mại tự do giữa thành viên nhưng mỗi nước tự do chọn chính sách với đối tác ngoài khối. Liên minh thuế quan thêm thuế quan đối ngoại chung (CET).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 12"
+        },
+        {
+          "id": "c5-06",
+          "hoi": "Liên minh thuế quan có những đặc điểm nào?",
+          "dap_an": [
+            "Thương mại tự do nội khối và chính sách thương mại chung với bên ngoài",
+            "Thương mại tự do nội khối và tự do di chuyển lao động, vốn giữa các nước",
+            "Thuế quan chung với bên ngoài và một đồng tiền chung dùng trong nội khối",
+            "Giảm thuế có chọn lọc và mỗi nước tự đặt mức thuế riêng với bên ngoài"
+          ],
+          "giai_thich": "Liên minh thuế quan = FTA + chính sách thương mại chung (CET) với phần còn lại của thế giới; các yếu tố sản xuất chưa được tự do di chuyển. Ví dụ: EUCU, SACU.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 17"
+        },
+        {
+          "id": "c5-07",
+          "hoi": "Thị trường chung khác liên minh thuế quan ở điểm nào?",
+          "dap_an": [
+            "Có thêm tự do di chuyển các yếu tố sản xuất như lao động và vốn",
+            "Có thêm thuế quan đối ngoại chung áp dụng với các nước ngoài khối",
+            "Có thêm đồng tiền chung và một chính sách tiền tệ được thống nhất",
+            "Có thêm việc giảm thuế quan có chọn lọc cho một số mặt hàng nhất định"
+          ],
+          "giai_thich": "Thị trường chung = liên minh thuế quan + tự do di chuyển lao động và vốn. Thuế quan đối ngoại chung đã có ở liên minh thuế quan; đồng tiền chung thuộc liên minh kinh tế.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 19"
+        },
+        {
+          "id": "c5-08",
+          "hoi": "Vì sao CARICOM (CSME) được xếp là thị trường chung chứ chưa phải liên minh kinh tế?",
+          "dap_an": [
+            "Các nước vẫn giữ chính sách tài khóa, tiền tệ riêng và không có đồng tiền chung",
+            "Các nước chưa có thuế quan đối ngoại chung áp dụng với các nước ngoài khối",
+            "Lao động có tay nghề chưa được di chuyển tự do giữa các nước thành viên",
+            "Hàng hóa và dịch vụ chưa được trao đổi tự do giữa các quốc gia thành viên"
+          ],
+          "giai_thich": "CSME có thương mại tự do, tự do di chuyển lao động, vốn và CET, nên đã là thị trường chung; nhưng chưa thống nhất chính sách kinh tế, không có đồng tiền chung nên chưa là liên minh kinh tế.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 20"
+        },
+        {
+          "id": "c5-09",
+          "hoi": "Ví dụ nào được slide nêu là liên minh kinh tế tiên tiến nhất?",
+          "dap_an": [
+            "Liên minh Châu Âu (EU)",
+            "Thị trường chung CARICOM",
+            "Liên minh kinh tế Á-Âu (EAEU)",
+            "Hội đồng Hợp tác vùng Vịnh (GCC)"
+          ],
+          "giai_thich": "EU có thị trường chung, đồng euro (20 trong 27 nước), chính sách tiền tệ do ECB quản lý và các thể chế chung. EAEU và GCC vẫn đang phát triển hướng tới liên minh kinh tế; CARICOM là thị trường chung.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 22"
+        },
+        {
+          "id": "c5-10",
+          "hoi": "Thứ tự đúng của thang bậc hội nhập kinh tế từ thấp đến cao là gì?",
+          "dap_an": [
+            "PTA → FTA → liên minh thuế quan → thị trường chung → liên minh kinh tế",
+            "FTA → PTA → liên minh thuế quan → liên minh kinh tế → thị trường chung",
+            "PTA → liên minh thuế quan → FTA → thị trường chung → liên minh kinh tế",
+            "PTA → FTA → thị trường chung → liên minh thuế quan → liên minh kinh tế"
+          ],
+          "giai_thich": "Mỗi bậc thêm một nội dung: PTA ưu đãi chọn lọc; FTA tự do nội khối; liên minh thuế quan thêm CET; thị trường chung thêm tự do di chuyển yếu tố sản xuất; liên minh kinh tế thêm hài hòa chính sách và thể chế.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 43"
+        },
+        {
+          "id": "c5-11",
+          "hoi": "Tác động tĩnh và tác động động của liên minh thuế quan khác nhau thế nào?",
+          "dap_an": [
+            "Tác động tĩnh xuất hiện ngay khi thành lập, tác động động xảy ra muộn hơn",
+            "Tác động tĩnh chỉ ảnh hưởng nước ngoài khối, tác động động chỉ ảnh hưởng thành viên",
+            "Tác động tĩnh là chuyển hướng thương mại, tác động động là tạo lập thương mại",
+            "Tác động tĩnh tính bằng giá cả, tác động động tính bằng khối lượng thương mại"
+          ],
+          "giai_thich": "Theo slide, tác động tĩnh (tạo lập, chuyển hướng thương mại) xuất hiện ngay sau khi thành lập; tác động động (cạnh tranh, đầu tư, đổi mới, kinh tế theo quy mô) xảy ra muộn hơn cùng hoạt động của liên minh.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 26"
+        },
+        {
+          "id": "c5-12",
+          "hoi": "Tạo lập thương mại xảy ra khi nào?",
+          "dap_an": [
+            "Sản xuất trong nước chi phí cao được thay bằng nhập khẩu rẻ hơn từ thành viên",
+            "Nhập khẩu rẻ từ ngoài khối được thay bằng nhập khẩu đắt hơn từ thành viên",
+            "Xuất khẩu sang nước ngoài khối được chuyển sang các nước thành viên",
+            "Nhập khẩu từ thành viên được thay bằng hàng sản xuất trong nước"
+          ],
+          "giai_thich": "Tạo lập thương mại: một phần sản xuất trong nước của thành viên được thay bằng hàng nhập chi phí thấp hơn từ thành viên khác (ví dụ Anh nhập lúa mì Pháp sau khi vào EU). Thay nguồn ngoài khối rẻ bằng thành viên đắt hơn là chuyển hướng thương mại.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 27"
+        },
+        {
+          "id": "c5-13",
+          "hoi": "Trước khi lập liên minh thuế quan, Anh nhập lúa mì từ Mỹ; sau khi liên minh với Pháp, Anh nhập lúa mì Pháp dù chi phí sản xuất ở Pháp cao hơn. Đây là hiệu ứng gì?",
+          "dap_an": [
+            "Chuyển hướng thương mại",
+            "Tạo lập thương mại",
+            "Bán phá giá liên tục",
+            "Hiệu ứng bát mì spaghetti"
+          ],
+          "giai_thich": "Hàng nhập chi phí thấp từ ngoài khối (Mỹ) bị thay bằng hàng chi phí cao hơn từ thành viên (Pháp) chỉ vì được miễn thuế nội khối.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 33"
+        },
+        {
+          "id": "c5-14",
+          "hoi": "Nhận định nào về tạo lập thương mại là đúng theo slide?",
+          "dap_an": [
+            "Tạo lập thương mại luôn làm tăng phúc lợi",
+            "Tạo lập thương mại luôn làm giảm phúc lợi",
+            "Tạo lập thương mại chỉ có lợi cho nước ngoài khối",
+            "Tạo lập thương mại không ảnh hưởng đến người tiêu dùng"
+          ],
+          "giai_thich": "Tạo lập thương mại chuyển sản xuất từ nhà sản xuất trong nước kém hiệu quả sang nhà sản xuất hiệu quả hơn và giảm giá cho người tiêu dùng, nên luôn tăng phúc lợi.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 32"
+        },
+        {
+          "id": "c5-15",
+          "hoi": "Theo slide, tác động tạo lập thương mại của liên minh thuế quan càng lớn khi nào?",
+          "dap_an": [
+            "Thuế ban đầu càng cao và cung, cầu ở nước nhập khẩu càng co giãn",
+            "Thuế ban đầu càng thấp và cung, cầu ở nước nhập khẩu càng ít co giãn",
+            "Thuế đối ngoại chung càng cao với các nước nằm ngoài liên minh",
+            "Các nước thành viên càng xa nhau về địa lý và quy mô kinh tế"
+          ],
+          "giai_thich": "Thuế ban đầu cao thì xóa bỏ làm giá giảm nhiều; cung, cầu co giãn thì lượng sản xuất bị thay thế và tiêu dùng tăng thêm nhiều, nên các tam giác lợi ích lớn.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 32"
+        },
+        {
+          "id": "c5-16",
+          "hoi": "Chuyển hướng thương mại tác động thế nào đến phúc lợi của nước thành viên?",
+          "dap_an": [
+            "Có thể làm tăng hoặc giảm phúc lợi, tùy lợi ích và tổn thất bên nào lớn hơn",
+            "Luôn làm tăng phúc lợi vì người tiêu dùng được mua hàng với giá rẻ hơn",
+            "Luôn làm giảm phúc lợi vì toàn bộ thu thuế quan bị mất đi khỏi nền kinh tế",
+            "Không ảnh hưởng phúc lợi vì chỉ đổi nguồn nhập khẩu mà không đổi lượng"
+          ],
+          "giai_thich": "Chuyển hướng làm mất phần e (nhập từ nguồn đắt hơn) nhưng giá trong nước giảm vẫn tạo b + d. ΔW = (b + d) − e: dương thì tăng phúc lợi, âm thì giảm.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 37"
+        },
+        {
+          "id": "c5-17",
+          "hoi": "Điều kiện nào giúp liên minh thuế quan giảm nguy cơ chuyển hướng thương mại tốn kém?",
+          "dap_an": [
+            "Thuế quan đối ngoại chung (CET) thấp với các nước ngoài khối",
+            "Thuế quan đối ngoại chung (CET) cao với các nước ngoài khối",
+            "Số lượng thành viên của liên minh nhỏ và ít đa dạng",
+            "Thương mại giữa các thành viên trước khi lập liên minh nhỏ"
+          ],
+          "giai_thich": "CET thấp giúp các nước ngoài khối hiệu quả vẫn cạnh tranh được, nên hàng không bị chuyển sang thành viên đắt hơn. Liên minh lớn và thương mại trước liên minh lớn cũng giúp tạo lập chiếm ưu thế.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 4; slide Chương 5, trang 38"
+        },
+        {
+          "id": "c5-18",
+          "hoi": "Vì sao liên minh thuế quan lớn, nhiều thành viên có nhiều khả năng cải thiện phúc lợi?",
+          "dap_an": [
+            "Vì nhà sản xuất chi phí thấp nhất thế giới dễ nằm trong liên minh hơn",
+            "Vì liên minh lớn được phép đặt thuế đối ngoại chung cao hơn liên minh nhỏ",
+            "Vì liên minh lớn không cần quy tắc xuất xứ cho hàng hóa trao đổi nội khối",
+            "Vì liên minh lớn tự động trở thành một liên minh kinh tế đầy đủ về sau"
+          ],
+          "giai_thich": "Khi nhiều nước tham gia, xác suất nhà sản xuất rẻ nhất nằm trong khối cao hơn, nên ít bị chuyển hướng sang nguồn đắt.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Chương 5, trang 38"
+        },
+        {
+          "id": "c5-19",
+          "hoi": "Trong FTA thế hệ mới, điều khoản “WTO-X” là gì?",
+          "dap_an": [
+            "Cam kết trong các lĩnh vực WTO chưa điều chỉnh đầy đủ như lao động, môi trường",
+            "Cam kết sâu hơn trong lĩnh vực WTO đã điều chỉnh như xóa thuế nhanh hơn",
+            "Điều khoản cho phép thành viên rút khỏi WTO khi đã ký FTA thế hệ mới",
+            "Điều khoản loại trừ các mặt hàng nhạy cảm khỏi cam kết cắt giảm thuế"
+          ],
+          "giai_thich": "WTO+ là cam kết sâu hơn trong lĩnh vực WTO đã có (thuế, dịch vụ, hải quan, TBT, SPS); WTO-X là lĩnh vực WTO chưa điều chỉnh đầy đủ: lao động, môi trường, cạnh tranh, bảo hộ đầu tư, DNNN, thương mại điện tử, dữ liệu.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5; slide Chương 5, trang 40"
+        },
+        {
+          "id": "c5-20",
+          "hoi": "“Hiệu ứng bát mì spaghetti” (Bhagwati, 1995) chỉ điều gì?",
+          "dap_an": [
+            "FTA chồng chéo tạo nhiều quy tắc xuất xứ, làm tăng chi phí tuân thủ",
+            "FTA làm thương mại nội khối tăng nhanh như mì nở trong nước nóng",
+            "Hàng nhập khẩu giá rẻ tràn ngập làm nhà sản xuất nội địa phá sản",
+            "Các FTA thế hệ mới bao gồm quá nhiều lĩnh vực ngoài thương mại"
+          ],
+          "giai_thich": "Nhiều FTA chồng chéo đem lại nhiều quy tắc xuất xứ, biểu thuế và thủ tục chứng nhận khác nhau, làm tăng chi phí tuân thủ, nhất là với doanh nghiệp vừa và nhỏ.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5; slide Chương 5, trang 40"
+        },
+        {
+          "id": "c5-21",
+          "hoi": "So sánh CPTPP và RCEP theo slide, nhận định nào đúng?",
+          "dap_an": [
+            "CPTPP xóa khoảng 99% dòng thuế, RCEP khoảng 90% với mức độ hội nhập trung bình",
+            "RCEP xóa khoảng 99% dòng thuế, CPTPP khoảng 90% với mức độ hội nhập trung bình",
+            "CPTPP chiếm khoảng 30% GDP thế giới, RCEP chỉ khoảng 13% GDP thế giới",
+            "RCEP có cam kết lao động và môi trường ràng buộc, CPTPP thì không ràng buộc"
+          ],
+          "giai_thich": "CPTPP: 11 nước, ~13% GDP, rất sâu, ~99% dòng thuế, cam kết lao động – môi trường ràng buộc. RCEP: 15 nước, ~30% GDP, mức trung bình, ~90% dòng thuế, cam kết không ràng buộc.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5; slide Chương 5, trang 41"
+        },
+        {
+          "id": "c5-22",
+          "hoi": "Theo slide, đến năm 2025 Việt Nam đã ký kết và thực thi bao nhiêu FTA, gồm những FTA thế hệ mới nào?",
+          "dap_an": [
+            "17 FTA; thế hệ mới gồm CPTPP, EVFTA/EVIPA, RCEP",
+            "15 FTA; thế hệ mới gồm ATIGA, ACFTA, AKFTA",
+            "17 FTA; thế hệ mới gồm VJEPA, VKFTA, UKVFTA",
+            "11 FTA; thế hệ mới gồm CPTPP, AANZFTA, AIFTA"
+          ],
+          "giai_thich": "Slide: Việt Nam đã ký và thực thi 17 FTA, gồm các FTA ASEAN+, song phương (VJEPA, VKFTA, VCFTA, VN-EAEU, UKVFTA) và thế hệ mới (CPTPP, EVFTA/EVIPA, RCEP).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5; slide Chương 5, trang 42"
+        },
+        {
+          "id": "c5-23",
+          "hoi": "Đâu là một thách thức của Việt Nam trong mạng lưới FTA được slide nêu ra?",
+          "dap_an": [
+            "Doanh nghiệp vừa và nhỏ khó tận dụng ưu đãi và thủ tục C/O",
+            "Việt Nam chưa tham gia hiệp định thương mại tự do thế hệ mới",
+            "Các FTA buộc Việt Nam dùng chung đồng tiền với các đối tác",
+            "Các FTA cấm Việt Nam nhập khẩu hàng từ các nước ngoài khối"
+          ],
+          "giai_thich": "Thách thức: hiệu ứng bát mì spaghetti, năng lực hấp thụ của SMEs (ưu đãi, thủ tục C/O), áp lực cải cách thể chế, rủi ro chuyển hướng thương mại.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5; slide Chương 5, trang 42"
+        },
+        {
+          "id": "c5-24",
+          "hoi": "Liên minh kinh tế Á-Âu (EAEU) được thành lập năm nào?",
+          "dap_an": [
+            "Năm 2015",
+            "Năm 1995",
+            "Năm 2005",
+            "Năm 2020"
+          ],
+          "giai_thich": "Slide: EAEU thành lập năm 2015 gồm Nga, Belarus, Kazakhstan, Armenia và Kyrgyzstan, hướng tới thị trường chung và phối hợp chính sách kinh tế.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 23"
+        },
+        {
+          "id": "c5-25",
+          "hoi": "Việt Nam nhập khẩu giày trị giá 10 triệu USD từ khối APTA (thuế ưu đãi 10%). Thuế phải nộp là bao nhiêu và so với CPTPP (thuế 0) thì sao?",
+          "dap_an": [
+            "1 triệu USD; CPTPP tự do hóa lớn hơn",
+            "0,1 triệu USD; APTA tự do hóa lớn hơn",
+            "10 triệu USD; CPTPP tự do hóa lớn hơn",
+            "1 triệu USD; hai khối tự do hóa như nhau"
+          ],
+          "giai_thich": "Thuế = 10% × 10 triệu = 1 triệu USD; nhập từ CPTPP thuế 0. CPTPP (FTA) xóa thuế hoàn toàn nên tự do hóa lớn hơn.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Chương 5, trang 15"
+        },
+        {
+          "id": "c5-26",
+          "hoi": "C1 có S = 10P − 20, D = −10P + 80; giá X ở C2 là 3 USD, ở C3 là 3,5 USD. C1 đánh thuế 1 USD không phân biệt. C1 nhập từ đâu, lượng bao nhiêu?",
+          "dap_an": [
+            "Từ C2 với giá 4 USD, nhập 20 đơn vị",
+            "Từ C3 với giá 4,5 USD, nhập 15 đơn vị",
+            "Từ C2 với giá 3 USD, nhập 40 đơn vị",
+            "Từ C3 với giá 3,5 USD, nhập 30 đơn vị"
+          ],
+          "giai_thich": "Có thuế, hàng C2 giá 4, hàng C3 giá 4,5 nên C1 mua của C2 giá 4. Cầu 40, cung 20, nhập khẩu 20.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 30"
+        },
+        {
+          "id": "c5-27",
+          "hoi": "C1 (S = 10P − 20, D = −10P + 80) lập liên minh thuế quan với C2 (giá 3 USD), vẫn đánh thuế 1 USD với C3 (giá 3,5). Sau liên minh, giá và lượng nhập khẩu của C1 là bao nhiêu?",
+          "dap_an": [
+            "Giá 3 USD, nhập khẩu 40 đơn vị",
+            "Giá 4 USD, nhập khẩu 20 đơn vị",
+            "Giá 3,5 USD, nhập khẩu 30 đơn vị",
+            "Giá 3 USD, nhập khẩu 50 đơn vị"
+          ],
+          "giai_thich": "Hàng C2 không còn thuế nên giá 3 (rẻ hơn hàng C3 giá 4,5). Cầu 50, cung 10, nhập khẩu 40.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 30"
+        },
+        {
+          "id": "c5-28",
+          "hoi": "Trong ví dụ tạo lập thương mại (giá C1 giảm từ 4 xuống 3; cầu 40 → 50; cung 20 → 10; nhập khẩu trước liên minh 20), thặng dư tiêu dùng, sản xuất và thu thuế thay đổi thế nào?",
+          "dap_an": [
+            "CS +45; PS −15; thu thuế −20",
+            "CS +45; PS −15; thu thuế −40",
+            "CS +40; PS −20; thu thuế −20",
+            "CS +50; PS −10; thu thuế −20"
+          ],
+          "giai_thich": "ΔCS = +½(40 + 50) × 1 = 45; ΔPS = −½(20 + 10) × 1 = −15; thu thuế mất 1 × 20 = 20.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 31"
+        },
+        {
+          "id": "c5-29",
+          "hoi": "Trong ví dụ tạo lập thương mại có ΔCS = +45, ΔPS = −15, thu thuế giảm 20, lợi ích ròng của C1 là bao nhiêu và gồm những gì?",
+          "dap_an": [
+            "10, gồm b (tiết kiệm chi phí sản xuất) và d (tiêu dùng tăng)",
+            "45, gồm toàn bộ thặng dư tiêu dùng tăng thêm a + b + c + d",
+            "30, gồm phần thặng dư sản xuất và thu thuế bị mất đi",
+            "25, gồm thặng dư tiêu dùng trừ đi thu thuế bị mất đi"
+          ],
+          "giai_thich": "Lợi ích ròng = 45 − 15 − 20 = 10 = b + d, với b = ½ × 10 × 1 = 5 (thay sản xuất kém hiệu quả bằng nhập rẻ) và d = ½ × 10 × 1 = 5 (lợi từ tiêu dùng tăng).",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 31"
+        },
+        {
+          "id": "c5-30",
+          "hoi": "C1 (S = 10P − 20, D = −10P + 80) trước liên minh nhập hàng giá 3 USD chịu thuế 1 USD. Sau khi liên minh với nước có giá 3,5 USD (thuế 0), giá và lượng nhập khẩu của C1 là bao nhiêu?",
+          "dap_an": [
+            "Giá 3,5 USD, nhập khẩu 30 đơn vị",
+            "Giá 3 USD, nhập khẩu 40 đơn vị",
+            "Giá 4 USD, nhập khẩu 20 đơn vị",
+            "Giá 3,5 USD, nhập khẩu 45 đơn vị"
+          ],
+          "giai_thich": "Hàng thành viên giá 3,5 không thuế rẻ hơn hàng ngoài khối 3 + 1 = 4, nên C1 chuyển sang nhập từ thành viên. Tại P = 3,5: cầu 45, cung 15, nhập khẩu 30.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 34"
+        },
+        {
+          "id": "c5-31",
+          "hoi": "Trong ví dụ chuyển hướng thương mại, C1 trước đó nhập 20 đơn vị từ ngoài khối (giá 3, thuế 1) và nay nhập từ thành viên giá 3,5. Phần tổn thất e do chuyển hướng là bao nhiêu?",
+          "dap_an": [
+            "10",
+            "20",
+            "5",
+            "2,5"
+          ],
+          "giai_thich": "e là phần thu thuế mất đi do mua nguồn đắt hơn: (3,5 − 3) × 20 = 10. Tổng thu thuế mất là c + e = 1 × 20 = 20, trong đó c = (4 − 3,5) × 20 = 10 chuyển cho người tiêu dùng.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 35"
+        },
+        {
+          "id": "c5-32",
+          "hoi": "Trong ví dụ chuyển hướng thương mại: giá C1 giảm từ 4 xuống 3,5; cầu 40 → 45; cung 20 → 15; e = 10. Phúc lợi của C1 thay đổi bao nhiêu?",
+          "dap_an": [
+            "Giảm 7,5 vì b + d = 2,5 nhỏ hơn e = 10",
+            "Tăng 7,5 vì b + d = 10 lớn hơn e = 2,5",
+            "Giảm 10 vì toàn bộ thu thuế e bị mất đi",
+            "Tăng 2,5 vì người tiêu dùng được giá rẻ hơn"
+          ],
+          "giai_thich": "b = ½ × 5 × 0,5 = 1,25; d = ½ × 5 × 0,5 = 1,25; b + d = 2,5. ΔW = (b + d) − e = 2,5 − 10 = −7,5, nên C1 giảm phúc lợi.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 35"
+        },
+        {
+          "id": "c5-33",
+          "hoi": "Một liên minh thuế quan có lợi ích tạo lập thương mại (b + d) là 30 và tổn thất chuyển hướng thương mại (e) là 20. Kết luận nào đúng?",
+          "dap_an": [
+            "Phúc lợi ròng tăng 10",
+            "Phúc lợi ròng giảm 10",
+            "Phúc lợi ròng tăng 50",
+            "Phúc lợi không xác định"
+          ],
+          "giai_thich": "Tác động ròng = lợi ích tạo lập − tổn thất chuyển hướng = 30 − 20 = 10 > 0, nên liên minh cải thiện phúc lợi.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3–4; slide Chương 5, trang 37"
+        },
+        {
+          "id": "c5-34",
+          "hoi": "Lốp xe: chi phí ở Phần Lan 100 USD, Nga 80 USD, Ba Lan 60 USD. Phần Lan (nước nhỏ) đánh thuế nhập khẩu 60% không phân biệt. Phần Lan có nhập khẩu không?",
+          "dap_an": [
+            "Có, nhập từ Ba Lan với giá 96 USD",
+            "Có, nhập từ Nga với giá 128 USD",
+            "Không, vì tự sản xuất rẻ hơn",
+            "Có, nhập từ Ba Lan với giá 60 USD"
+          ],
+          "giai_thich": "Giá sau thuế: Nga 80 × 1,6 = 128; Ba Lan 60 × 1,6 = 96 < 100. Phần Lan nhập lốp Ba Lan với giá 96.",
+          "kho": false,
+          "nguon": "TT Chương 5, Phần III bài 1; file bài tập ktqt, Chương 5 bài 1"
+        },
+        {
+          "id": "c5-35",
+          "hoi": "Lốp xe: Phần Lan 100 USD, Nga 80 USD, Ba Lan 60 USD. Phần Lan lập liên minh thuế quan với Nga, đặt thuế đối ngoại chung 50%. Điều gì xảy ra?",
+          "dap_an": [
+            "Chuyển sang nhập từ Nga (80 USD): chuyển hướng thương mại",
+            "Vẫn nhập từ Ba Lan (90 USD): tạo lập thương mại thêm nữa",
+            "Chuyển sang tự sản xuất (100 USD): thương mại bị giảm đi",
+            "Chuyển sang nhập từ Nga (120 USD): tạo lập thương mại mới"
+          ],
+          "giai_thich": "Hàng Nga trong khối không chịu thuế: 80; hàng Ba Lan chịu 50%: 90. Phần Lan chuyển từ nguồn rẻ nhất (Ba Lan) sang thành viên đắt hơn (Nga), nên đây là liên minh gây chuyển hướng thương mại.",
+          "kho": false,
+          "nguon": "TT Chương 5, Phần III bài 1; file bài tập ktqt, Chương 5 bài 1"
+        },
+        {
+          "id": "c5-36",
+          "hoi": "Liên minh Phần Lan–Nga (lốp Nga 80 USD, Ba Lan 60 USD) giảm thuế đối ngoại chung xuống 40%. Hiệu ứng gì xảy ra?",
+          "dap_an": [
+            "Vẫn nhập từ Nga, chuyển hướng thương mại còn tiếp diễn",
+            "Quay lại nhập từ Ba Lan, hết chuyển hướng thương mại",
+            "Phần Lan chuyển sang tự sản xuất lốp xe trong nước",
+            "Nhập đồng thời từ Nga và Ba Lan với giá như nhau"
+          ],
+          "giai_thich": "Lốp Ba Lan sau thuế 40% là 60 × 1,4 = 84 > 80, nên lốp Nga vẫn rẻ hơn với Phần Lan; chuyển hướng thương mại vẫn tiếp tục.",
+          "kho": true,
+          "nguon": "TT Chương 5, Phần III bài 1; file bài tập ktqt, Chương 5 bài 1"
+        },
+        {
+          "id": "c5-37",
+          "hoi": "Liên minh Phần Lan–Nga (lốp Nga 80 USD, Ba Lan 60 USD) giảm thuế đối ngoại chung xuống 25%. Hiệu ứng gì xảy ra?",
+          "dap_an": [
+            "Quay lại nhập từ Ba Lan giá 75 USD, hết chuyển hướng",
+            "Vẫn nhập từ Nga giá 80 USD, chuyển hướng tiếp diễn",
+            "Quay lại nhập từ Ba Lan giá 60 USD, tạo lập thêm",
+            "Chuyển sang tự sản xuất giá 100 USD, không nhập nữa"
+          ],
+          "giai_thich": "Lốp Ba Lan sau thuế 25% là 60 × 1,25 = 75 < 80, nên Phần Lan quay về nguồn rẻ nhất ngoài khối; chuyển hướng thương mại chấm dứt, giá trong nước giảm từ 80 còn 75.",
+          "kho": true,
+          "nguon": "TT Chương 5, Phần III bài 1; file bài tập ktqt, Chương 5 bài 1"
+        },
+        {
+          "id": "c5-38",
+          "hoi": "Rượu vang: chi phí A 1,5; B 2,0; C 2,5; D 2,6 USD; thuế nhập khẩu A 25%, B 30%, C 100%, D 60%. Những nước nào nhập khẩu rượu vang?",
+          "dap_an": [
+            "B và D, cùng nhập từ A",
+            "C và D, cùng nhập từ A",
+            "B, C và D, cùng nhập từ A",
+            "Chỉ D, nhập từ B"
+          ],
+          "giai_thich": "Rượu A sau thuế: ở B 1,5 × 1,3 = 1,95 < 2,0; ở C 1,5 × 2 = 3,0 > 2,5; ở D 1,5 × 1,6 = 2,4 < 2,6. Vậy B và D nhập từ A, C tự sản xuất, A là nước xuất khẩu.",
+          "kho": false,
+          "nguon": "TT Chương 5, Phần III bài 2; file bài tập ktqt, Chương 5 bài 2"
+        },
+        {
+          "id": "c5-39",
+          "hoi": "Rượu vang: chi phí A 1,5; C 2,5; D 2,6 USD; thuế C 100%, D 60%. C và D lập FTA (bỏ thuế với nhau, giữ thuế riêng với nước khác). Kết quả là gì?",
+          "dap_an": [
+            "Mô hình không đổi: không tạo lập, không chuyển hướng",
+            "D chuyển sang nhập rượu từ C: chuyển hướng thương mại",
+            "C chuyển sang nhập rượu từ D: tạo lập thương mại mới",
+            "C chuyển sang nhập rượu từ A: tạo lập thương mại mới"
+          ],
+          "giai_thich": "Ở D, rượu C không thuế 2,5 vẫn đắt hơn rượu A sau thuế 2,4 nên D vẫn nhập từ A; ở C, rượu D 2,6 đắt hơn chi phí của C là 2,5 nên C vẫn tự làm. Chuyển hướng chưa xảy ra.",
+          "kho": true,
+          "nguon": "TT Chương 5, Phần III bài 2; file bài tập ktqt, Chương 5 bài 2"
+        },
+        {
+          "id": "c5-40",
+          "hoi": "Rượu vang: chi phí A 1,5; C 2,5; D 2,6 USD. C và D lập liên minh thuế quan với thuế đối ngoại chung 50%. Hiệu ứng chủ yếu là gì?",
+          "dap_an": [
+            "Tạo lập thương mại: C chuyển từ tự làm sang nhập từ A",
+            "Chuyển hướng thương mại: D chuyển sang nhập từ C",
+            "Chuyển hướng thương mại: C chuyển sang nhập từ D",
+            "Không đổi: C tự làm, D vẫn nhập từ A với giá 2,4"
+          ],
+          "giai_thich": "Với CET 50%, rượu A giá 2,25 ở cả C và D. C: 2,25 < 2,5 nên thay sản xuất trong nước bằng nhập khẩu rẻ hơn (tạo lập). D vẫn nhập từ A nhưng giá giảm từ 2,4 còn 2,25.",
+          "kho": true,
+          "nguon": "TT Chương 5, Phần III bài 2; file bài tập ktqt, Chương 5 bài 2"
+        },
+        {
+          "id": "c5-41",
+          "hoi": "Liên minh thuế quan C–D (CET 50%) đang nhập rượu A giá 2,25 USD. B (chi phí 2,0 USD) gia nhập liên minh. Điều gì xảy ra?",
+          "dap_an": [
+            "C và D chuyển sang nhập rượu B: chuyển hướng thương mại",
+            "C và D vẫn nhập rượu A như cũ: không có thay đổi nào",
+            "C và D chuyển sang nhập rượu B: tạo lập thương mại",
+            "B chuyển sang nhập rượu A của khối: tạo lập thương mại"
+          ],
+          "giai_thich": "Trong khối, rượu B không thuế 2,0 rẻ hơn rượu A sau thuế 2,25, nên C và D bỏ nguồn rẻ nhất thế giới (A) để mua của thành viên đắt hơn (B). B áp CET 50% với A nên tự sản xuất.",
+          "kho": true,
+          "nguon": "TT Chương 5, Phần III bài 2; file bài tập ktqt, Chương 5 bài 2"
+        },
+        {
+          "id": "c5-42",
+          "hoi": "Một nước nhập máy từ nước ngoài khối với chi phí 10 USD, chịu thuế 20%. Sau khi lập liên minh với đối tác có chi phí 11 USD (thuế 0), nước này nhập từ đâu và đó là hiệu ứng gì?",
+          "dap_an": [
+            "Từ đối tác giá 11 USD: chuyển hướng thương mại",
+            "Từ ngoài khối giá 12 USD: tạo lập thương mại",
+            "Từ đối tác giá 11 USD: tạo lập thương mại",
+            "Từ ngoài khối giá 10 USD: chuyển hướng thương mại"
+          ],
+          "giai_thich": "Hàng ngoài khối sau thuế là 12 USD, hàng đối tác không thuế là 11 USD nên nước này chuyển sang đối tác, dù chi phí sản xuất của đối tác cao hơn (11 > 10).",
+          "kho": false,
+          "nguon": "TT Chương 5, Phần II; slide Chương 5, trang 33"
+        },
+        {
+          "id": "c5-43",
+          "hoi": "Phần Lan (lốp xe 100 USD) đang đánh thuế 60% và nhập lốp Ba Lan (60 USD). Nếu Phần Lan giảm thuế xuống 50% với mọi nước, giá nhập khẩu thay đổi thế nào?",
+          "dap_an": [
+            "Giảm từ 96 USD xuống 90 USD, vẫn nhập từ Ba Lan",
+            "Giảm từ 96 USD xuống 80 USD, chuyển sang nhập từ Nga",
+            "Giữ nguyên 96 USD vì Ba Lan là nước lớn hơn Phần Lan",
+            "Tăng từ 90 USD lên 96 USD, giảm nhập khẩu từ Ba Lan"
+          ],
+          "giai_thich": "Thuế 50%: lốp Ba Lan 60 × 1,5 = 90, lốp Nga 120. Phần Lan vẫn nhập từ Ba Lan với giá thấp hơn; đây là cắt thuế không phân biệt nên không có chuyển hướng.",
+          "kho": false,
+          "nguon": "TT Chương 5, Phần III bài 1; file bài tập ktqt, Chương 5 bài 1"
+        },
+        {
+          "id": "c5-44",
+          "hoi": "Trong ví dụ tạo lập thương mại, C1 lập liên minh với C2 và nhập khẩu của C1 tăng từ 20 lên 40 đơn vị. C2 được tác động thế nào?",
+          "dap_an": [
+            "C2 có lợi ích tĩnh ròng nhờ xuất khẩu tăng thêm 20 đơn vị",
+            "C2 bị thiệt vì phải bán hàng không thuế cho C1 thấp hơn chi phí",
+            "C2 không bị ảnh hưởng vì chỉ có C1 thay đổi chính sách thuế",
+            "C2 mất thị phần vào tay C3 vì C3 vẫn bị đánh thuế 1 USD"
+          ],
+          "giai_thich": "Sau liên minh C1 mua toàn bộ hàng nhập khẩu (40 đơn vị) từ C2, gấp đôi trước đó; slide kết luận C2 nhận lợi ích tĩnh ròng nhờ khối lượng xuất khẩu tăng.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Chương 5, trang 31"
+        },
+        {
+          "id": "c5-45",
+          "hoi": "Rượu vang của A có chi phí 1,5 USD. Thuế nhập khẩu ở B là 30%, C là 100%, D là 60%. Giá rượu A khi vào B, C, D lần lượt là bao nhiêu?",
+          "dap_an": [
+            "1,95; 3,0 và 2,4 USD",
+            "1,8; 3,0 và 2,1 USD",
+            "1,95; 2,5 và 2,4 USD",
+            "2,0; 3,5 và 2,6 USD"
+          ],
+          "giai_thich": "Giá sau thuế = 1,5 × (1 + thuế suất): B 1,5 × 1,3 = 1,95; C 1,5 × 2 = 3,0; D 1,5 × 1,6 = 2,4. So với chi phí trong nước (B 2,0; C 2,5; D 2,6) thì B và D nhập, C tự làm.",
+          "kho": false,
+          "nguon": "TT Chương 5, Phần III bài 2; file bài tập ktqt, Chương 5 bài 2"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "nhom": "Bài giảng",
+      "ten": "Chương 6 - Di chuyển nguồn lực quốc tế",
+      "cau": [
+        {
+          "id": "c6-01",
+          "hoi": "Theo slide, vốn và lao động quốc tế có xu hướng di chuyển đến đâu?",
+          "dap_an": [
+            "Vốn đến nơi lợi nhuận cao hơn, lao động đến nơi lương cao hơn",
+            "Vốn đến nơi lãi suất thấp hơn, lao động đến nơi lương thấp hơn",
+            "Vốn đến nơi dư thừa vốn, lao động đến nơi dư thừa lao động",
+            "Vốn và lao động đều đến nơi có thuế nhập khẩu thấp nhất"
+          ],
+          "giai_thich": "Vốn chảy tới nơi lợi nhuận cao hơn, rủi ro thấp hơn, môi trường đầu tư thuận lợi; lao động tới nơi lương cao hơn, việc làm phù hợp, pháp lý thuận lợi.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 1; slide Chương 6, trang 9"
+        },
+        {
+          "id": "c6-02",
+          "hoi": "Vì sao doanh nghiệp đầu tư ra nước ngoài thay vì chỉ xuất khẩu?",
+          "dap_an": [
+            "Để tránh thuế quan, rào cản và tiếp cận trực tiếp lao động, thị trường",
+            "Để được hưởng trợ cấp xuất khẩu từ chính phủ của nước nhận đầu tư",
+            "Để giảm số lao động cần dùng vì sản xuất ở nước ngoài luôn tự động",
+            "Để tránh mọi tiêu chuẩn kỹ thuật và vệ sinh của nước nhận đầu tư"
+          ],
+          "giai_thich": "Slide nêu: đầu tư tại chỗ tránh thuế quan và rào cản, chi phí vận chuyển; tiếp cận lao động, tài nguyên, thị trường; giữ kiểm soát công nghệ, thương hiệu tốt hơn cấp phép.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 1; slide Chương 6, trang 10"
+        },
+        {
+          "id": "c6-03",
+          "hoi": "Đầu tư trực tiếp và đầu tư gián tiếp khác nhau ở điểm nào?",
+          "dap_an": [
+            "Đầu tư trực tiếp có quyền kiểm soát vốn, gián tiếp thì không",
+            "Đầu tư trực tiếp có thời hạn dưới 1 năm, gián tiếp thì trên 1 năm",
+            "Đầu tư trực tiếp do nhà nước cấp vốn, gián tiếp do tư nhân cấp vốn",
+            "Đầu tư trực tiếp chỉ vào hạ tầng, gián tiếp chỉ vào sản xuất"
+          ],
+          "giai_thich": "Phân loại theo hình thức: nhà đầu tư cấp vốn và có quyền kiểm soát là đầu tư trực tiếp; cấp vốn nhưng không có quyền kiểm soát là đầu tư gián tiếp. Thời hạn và nguồn vốn là các tiêu chí phân loại khác.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 14"
+        },
+        {
+          "id": "c6-04",
+          "hoi": "Theo thời hạn, dòng vốn đầu tư ngắn hạn là dòng vốn có thời hạn bao lâu?",
+          "dap_an": [
+            "Dưới 1 năm",
+            "Dưới 5 năm",
+            "Trên 1 năm",
+            "Dưới 3 tháng"
+          ],
+          "giai_thich": "Đầu tư trung và dài hạn có thời hạn vốn trên 1 năm; đầu tư ngắn hạn dưới 1 năm.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 14"
+        },
+        {
+          "id": "c6-05",
+          "hoi": "Theo quyền sở hữu, tín dụng nhà nước có nguồn từ đâu?",
+          "dap_an": [
+            "Ngân sách chính phủ và các định chế tài chính quốc tế",
+            "Doanh nghiệp tư nhân và ngân hàng thương mại",
+            "Tổ chức phi lợi nhuận và quỹ đầu tư cá nhân",
+            "Nhà đầu tư nắm trên 10% cổ phần doanh nghiệp"
+          ],
+          "giai_thich": "Tín dụng nhà nước lấy từ ngân sách chính phủ và các định chế tài chính quốc tế; tín dụng tư nhân đến từ doanh nghiệp tư nhân, ngân hàng thương mại, tổ chức phi lợi nhuận.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 14"
+        },
+        {
+          "id": "c6-06",
+          "hoi": "Trong mô hình VMPK, GDP của một nước được biểu diễn như thế nào?",
+          "dap_an": [
+            "Diện tích dưới đường VMPK ứng với lượng vốn được sử dụng",
+            "Diện tích trên đường VMPK và dưới mức lãi suất thị trường",
+            "Tích của lãi suất cân bằng với tổng lượng vốn của hai nước",
+            "Độ dốc của đường VMPK tại lượng vốn đang được sử dụng"
+          ],
+          "giai_thich": "VMPK là phần GDP tăng thêm khi thêm một đơn vị vốn; đường VMPK là đường cầu vốn. Cộng dồn các phần tăng thêm cho ra diện tích dưới đường VMPK đến lượng vốn đang dùng.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 15"
+        },
+        {
+          "id": "c6-07",
+          "hoi": "Khi vốn di chuyển từ nước dư vốn (C1) sang nước thiếu vốn (C2), GDP và GNP của C1 thay đổi thế nào?",
+          "dap_an": [
+            "GDP giảm, GNP tăng",
+            "GDP tăng, GNP giảm",
+            "GDP và GNP đều giảm",
+            "GDP và GNP đều tăng"
+          ],
+          "giai_thich": "Vốn rời đi nên sản lượng trong nước C1 (GDP) giảm từ OBMC còn OAIC; nhưng thu nhập từ vốn ở nước ngoài (a + b + c) chảy về nên GNP = OBMC + c, tăng thêm c.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 16"
+        },
+        {
+          "id": "c6-08",
+          "hoi": "Ở nước xuất khẩu vốn, ai được lợi và ai bị thiệt từ dòng vốn ra nước ngoài?",
+          "dap_an": [
+            "Chủ sở hữu vốn được lợi, người lao động bị thiệt",
+            "Người lao động được lợi, chủ sở hữu vốn bị thiệt",
+            "Cả chủ sở hữu vốn và người lao động đều được lợi",
+            "Cả chủ sở hữu vốn và người lao động đều bị thiệt"
+          ],
+          "giai_thich": "Ở C1, lợi suất vốn tăng (từ 2 lên 4) nên chủ vốn được lợi; vốn trong nước ít đi làm thu nhập của người lao động giảm. Ở C2 thì ngược lại.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 17"
+        },
+        {
+          "id": "c6-09",
+          "hoi": "Ở nước nhập khẩu vốn (C2), dòng vốn vào tác động thế nào đến lãi suất và người lao động?",
+          "dap_an": [
+            "Lãi suất giảm, thu nhập người lao động tăng",
+            "Lãi suất tăng, thu nhập người lao động giảm",
+            "Lãi suất giảm, thu nhập người lao động giảm",
+            "Lãi suất tăng, thu nhập người lao động tăng"
+          ],
+          "giai_thich": "Vốn đổ vào làm lợi suất vốn ở C2 giảm (từ 6 xuống 4) nên chủ vốn nội địa thiệt; có thêm vốn làm năng suất và thu nhập người lao động tăng.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 17"
+        },
+        {
+          "id": "c6-10",
+          "hoi": "Đầu tư trực tiếp nước ngoài (FDI) thường được xác định khi nhà đầu tư nắm ít nhất bao nhiêu cổ phần biểu quyết?",
+          "dap_an": [
+            "Khoảng 10% cổ phần biểu quyết",
+            "Khoảng 51% cổ phần biểu quyết",
+            "Khoảng 25% cổ phần biểu quyết",
+            "Khoảng 5% cổ phần biểu quyết"
+          ],
+          "giai_thich": "FDI là đầu tư nhằm quan hệ lâu dài và nắm quyền kiểm soát đáng kể, thường từ 10% cổ phần biểu quyết trở lên.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 3; slide Chương 6, trang 18"
+        },
+        {
+          "id": "c6-11",
+          "hoi": "Doanh nghiệp đặt nhà máy ở nước ngoài để giảm chi phí sản xuất, dùng lao động rẻ và tham gia chuỗi cung ứng khu vực. Đây là động cơ FDI nào?",
+          "dap_an": [
+            "Tìm kiếm hiệu quả",
+            "Tìm kiếm thị trường",
+            "Tìm kiếm tài nguyên",
+            "Tìm kiếm tài sản chiến lược"
+          ],
+          "giai_thich": "Bốn động cơ: tìm kiếm thị trường (phục vụ người tiêu dùng địa phương), tìm kiếm hiệu quả (giảm chi phí, tham gia chuỗi cung ứng), tìm kiếm tài nguyên, tìm kiếm tài sản chiến lược (công nghệ, thương hiệu).",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 3; slide Chương 6, trang 11"
+        },
+        {
+          "id": "c6-12",
+          "hoi": "Theo mô hình OLI của Dunning, FDI dễ xảy ra khi nào?",
+          "dap_an": [
+            "Có lợi thế sở hữu, địa điểm và nội hóa hiệu quả hơn cấp phép",
+            "Có lợi thế chi phí cơ hội thấp hơn so với nước nhận đầu tư",
+            "Có thuế nhập khẩu thấp và chi phí vận chuyển gần bằng không",
+            "Có lãi suất trong nước cao hơn lãi suất ở nước nhận đầu tư"
+          ],
+          "giai_thich": "OLI: doanh nghiệp có lợi thế Sở hữu (Ownership), nước chủ nhà có lợi thế Địa điểm (Location) và việc Nội hóa (Internalization) hiệu quả hơn cấp phép.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 3; slide Chương 6, trang 11"
+        },
+        {
+          "id": "c6-13",
+          "hoi": "Hình thức FDI nào mà hai bên hợp tác nhưng không thành lập pháp nhân mới và chia lợi nhuận theo hợp đồng?",
+          "dap_an": [
+            "Hợp đồng hợp tác kinh doanh",
+            "Liên doanh",
+            "Doanh nghiệp 100% vốn nước ngoài",
+            "Hợp đồng BOT"
+          ],
+          "giai_thich": "Liên doanh lập pháp nhân mới cùng góp vốn; doanh nghiệp 100% vốn nước ngoài do nhà đầu tư nắm toàn bộ; BOT là xây dựng – vận hành – chuyển giao hạ tầng. Hợp đồng hợp tác kinh doanh không lập pháp nhân mới.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 3; slide Chương 6, trang 19"
+        },
+        {
+          "id": "c6-14",
+          "hoi": "Hợp đồng BOT trong FDI có đặc điểm gì?",
+          "dap_an": [
+            "Nhà đầu tư xây dựng, vận hành công trình rồi chuyển giao cho nhà nước",
+            "Nhà đầu tư góp vốn cùng doanh nghiệp nhà nước lập công ty mới",
+            "Nhà đầu tư mua cổ phần dưới 10% của doanh nghiệp trong nước",
+            "Nhà đầu tư cho chính phủ vay vốn để xây dựng cơ sở hạ tầng"
+          ],
+          "giai_thich": "BOT (Xây dựng – Vận hành – Chuyển giao) dùng cho hạ tầng công cộng, kèm cam kết chuyển giao công trình cho nhà nước sau thời gian vận hành.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 3; slide Chương 6, trang 19"
+        },
+        {
+          "id": "c6-15",
+          "hoi": "Đâu là một rủi ro của FDI đối với nước nhận đầu tư theo slide?",
+          "dap_an": [
+            "Hạn chế hoạt động nghiên cứu và phát triển (R&D) trong nước",
+            "Làm giảm cơ hội việc làm cho người lao động trong nước",
+            "Làm xấu đi cán cân thanh toán ngay khi vốn được đưa vào",
+            "Làm giảm mức độ cạnh tranh có lợi cho nền kinh tế chung"
+          ],
+          "giai_thich": "Rủi ro: hạn chế R&D nội địa, vốn chảy ra ngoài, kìm hãm doanh nghiệp trong nước, xói mòn văn hóa, gián đoạn môi trường kinh doanh, can thiệp của chính phủ nước ngoài. Tạo việc làm, cải thiện cán cân thanh toán, tăng cạnh tranh là lợi ích.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 3; slide Chương 6, trang 20"
+        },
+        {
+          "id": "c6-16",
+          "hoi": "Một liên minh thuế quan mới áp tiêu chuẩn sản phẩm nghiêm ngặt nhưng minh bạch, nhà máy đặt trong liên minh đáp ứng dễ hơn nhà xuất khẩu bên ngoài; thuế trung bình không đổi. Kết quả nào dễ xảy ra nhất?",
+          "dap_an": [
+            "FDI vào tăng vì doanh nghiệp “nhảy rào” tiêu chuẩn",
+            "Nhập khẩu giảm, địa điểm đầu tư không thay đổi",
+            "Lãi suất trong nước phải tăng rồi vốn mới di chuyển",
+            "Di cư lao động tăng nhưng vốn không di chuyển"
+          ],
+          "giai_thich": "Tiêu chuẩn làm hàng xuất khẩu từ ngoài khối khó vào, nhưng nhà máy trong khối đáp ứng dễ, nên doanh nghiệp đặt nhà máy bên trong để phục vụ thị trường liên minh. Đây là bài tập tình huống trong slide.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 3; slide Chương 6, trang 13"
+        },
+        {
+          "id": "c6-17",
+          "hoi": "Động lực chính của di cư lao động quốc tế theo slide là gì?",
+          "dap_an": [
+            "Chênh lệch tiền lương giữa các quốc gia",
+            "Chênh lệch thuế quan giữa các quốc gia",
+            "Chênh lệch lãi suất giữa các quốc gia",
+            "Chênh lệch tỷ giá giữa các quốc gia"
+          ],
+          "giai_thich": "Nguyên nhân di cư: chênh lệch tiền lương (động lực chính), thiếu hụt lao động ở nước nhận, yếu tố nhân khẩu học, chính sách và hiệp định lao động song phương.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 22"
+        },
+        {
+          "id": "c6-18",
+          "hoi": "Yếu tố nhân khẩu học nào tạo ra cầu lao động nhập khẩu ở các nước phát triển?",
+          "dap_an": [
+            "Dân số già hóa",
+            "Dân số trẻ hóa",
+            "Tỷ lệ sinh tăng",
+            "Đô thị hóa chậm"
+          ],
+          "giai_thich": "Dân số già hóa ở nước phát triển làm thiếu lao động, tạo cầu nhập khẩu lao động.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 22"
+        },
+        {
+          "id": "c6-19",
+          "hoi": "Theo slide, năm 2024 thị trường nào tiếp nhận nhiều lao động Việt Nam đi làm việc ở nước ngoài nhất?",
+          "dap_an": [
+            "Nhật Bản, khoảng 71.518 người",
+            "Đài Loan, khoảng 71.518 người",
+            "Nhật Bản, khoảng 62.282 người",
+            "Hàn Quốc, khoảng 158.588 người"
+          ],
+          "giai_thich": "Năm 2024 Việt Nam đưa 158.588 lao động ra nước ngoài; Nhật Bản dẫn đầu với 71.518 (45,1%), tiếp theo là Đài Loan 62.282 (39,3%).",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 23"
+        },
+        {
+          "id": "c6-20",
+          "hoi": "Trong mô hình VMPL, khi lao động di cư từ C1 sang C2, người sử dụng lao động ở C1 bị ảnh hưởng thế nào?",
+          "dap_an": [
+            "Thu nhập giảm vì chi phí lao động trong nước tăng",
+            "Thu nhập tăng vì chi phí lao động trong nước giảm",
+            "Thu nhập tăng vì đưa thêm vốn nhàn rỗi vào sử dụng",
+            "Không đổi vì chỉ người lao động bị ảnh hưởng"
+          ],
+          "giai_thich": "Lao động rời C1 làm lương ở C1 tăng (2 lên 4), nên người sử dụng lao động mất −[(e) + (b)]. Thu nhập tăng nhờ chi phí lao động giảm là người sử dụng lao động ở C2.",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 26"
+        },
+        {
+          "id": "c6-21",
+          "hoi": "Trong mô hình VMPL, người lao động trong nước ở nước nhập khẩu lao động (C2) bị ảnh hưởng thế nào?",
+          "dap_an": [
+            "Thu nhập giảm (phần f) vì tiền lương giảm",
+            "Thu nhập tăng (phần e) vì tiền lương tăng",
+            "Thu nhập tăng (phần d) vì có thêm vốn",
+            "Thu nhập không đổi vì lương cố định"
+          ],
+          "giai_thich": "Lao động nhập cư làm lương ở C2 giảm (6 xuống 4), nên lao động trong nước mất phần f, chuyển sang người sử dụng lao động (được f + d).",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 26"
+        },
+        {
+          "id": "c6-22",
+          "hoi": "Theo slide, di chuyển nguồn lực quốc tế bổ sung gì cho lý thuyết thương mại?",
+          "dap_an": [
+            "Giải thích sản xuất diễn ra ở đâu và ai hưởng thu nhập",
+            "Giải thích hàng hóa nào được trao đổi giữa các nước",
+            "Giải thích vì sao thuế quan luôn làm giảm phúc lợi",
+            "Giải thích vì sao tỷ giá hối đoái biến động mạnh"
+          ],
+          "giai_thich": "Thương mại hàng hóa giải thích cái gì được trao đổi; di chuyển nguồn lực giải thích sản xuất và thu nhập ở đâu, ai hưởng thành quả tăng trưởng.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 1; slide Chương 6, trang 12"
+        },
+        {
+          "id": "c6-23",
+          "hoi": "Lương theo giờ là 3 USD ở nước O và 7 USD ở nước D; chi phí di cư tương đương 2 USD/giờ; di cư nhỏ lẻ không làm đổi lương. Nhận định nào đúng?",
+          "dap_an": [
+            "Di cư xảy ra vì lợi ích ròng là 2 USD/giờ",
+            "Di cư không xảy ra vì 7 − 3 nhỏ hơn 2",
+            "Di cư xảy ra vì lợi ích ròng là 4 USD/giờ",
+            "Di cư chỉ xảy ra nếu D giảm thuế quan"
+          ],
+          "giai_thich": "Lợi ích ròng = lương nơi đến − chi phí di cư − lương nơi đi = 7 − 2 − 3 = 2 USD/giờ > 0. 4 USD là chênh lệch lương khi chưa trừ chi phí.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 21"
+        },
+        {
+          "id": "c6-24",
+          "hoi": "Lương là 4 USD/giờ ở nước O và 8 USD/giờ ở nước D. Nếu chi phí di cư là 5 USD/giờ thì sao?",
+          "dap_an": [
+            "Không di cư vì lợi ích ròng là −1 USD/giờ",
+            "Di cư vì lợi ích ròng là 4 USD/giờ",
+            "Di cư vì lợi ích ròng là 1 USD/giờ",
+            "Không di cư vì lợi ích ròng là −5 USD/giờ"
+          ],
+          "giai_thich": "Lợi ích ròng = 8 − 5 − 4 = −1 < 0 nên người lao động không di cư dù lương nơi đến cao gấp đôi.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 21"
+        },
+        {
+          "id": "c6-25",
+          "hoi": "Hai nước có cầu vốn $Q_{K1}$ = −8r + 72 và $Q_{K2}$ = −2r + 46 (tỷ USD, r tính bằng %); lượng vốn ban đầu QG 1 là 48, QG 2 là 30. Lãi suất ban đầu ở hai nước là bao nhiêu và vốn chảy theo hướng nào?",
+          "dap_an": [
+            "r1 = 3%, r2 = 8%; vốn chảy từ QG 1 sang QG 2",
+            "r1 = 8%, r2 = 3%; vốn chảy từ QG 2 sang QG 1",
+            "r1 = 3%, r2 = 8%; vốn chảy từ QG 2 sang QG 1",
+            "r1 = 6%, r2 = 15%; vốn chảy từ QG 1 sang QG 2"
+          ],
+          "giai_thich": "Thay lượng vốn vào hàm cầu: 48 = −8r + 72 nên r1 = 3; 30 = −2r + 46 nên r2 = 8. Vốn chảy từ nơi lãi suất thấp (QG 1) sang nơi cao (QG 2).",
+          "kho": false,
+          "nguon": "TT Chương 6, Phần III bài 1; file bài tập ktqt, Chương 6 bài 1"
+        },
+        {
+          "id": "c6-26",
+          "hoi": "Hai nước có cầu vốn $Q_{K1}$ = −8r + 72 và $Q_{K2}$ = −2r + 46 (tỷ USD, r tính bằng %); lượng vốn ban đầu QG 1 là 48, QG 2 là 30. Nếu lãi suất cân bằng sau đầu tư quốc tế là 4%, lượng vốn đầu tư quốc tế là bao nhiêu?",
+          "dap_an": [
+            "8 tỷ USD",
+            "40 tỷ USD",
+            "10 tỷ USD",
+            "6 tỷ USD"
+          ],
+          "giai_thich": "Tại r = 4: cầu vốn QG 1 = −32 + 72 = 40, nên 48 − 40 = 8 tỷ USD đi ra; cầu vốn QG 2 = −8 + 46 = 38 = 30 + 8, khớp.",
+          "kho": false,
+          "nguon": "TT Chương 6, Phần III bài 1; file bài tập ktqt, Chương 6 bài 1"
+        },
+        {
+          "id": "c6-27",
+          "hoi": "Hai nước có cầu vốn $Q_{K1}$ = −8r + 72 và $Q_{K2}$ = −2r + 46 (tỷ USD, r tính bằng %); lượng vốn ban đầu QG 1 là 48, QG 2 là 30. Vốn di chuyển 8 tỷ USD, lãi suất cân bằng 4%. GDP của QG 1 thay đổi bao nhiêu (diện tích tính theo tỷ USD × điểm %)?",
+          "dap_an": [
+            "Giảm 28, tức khoảng 0,28 tỷ USD",
+            "Giảm 32, tức khoảng 0,32 tỷ USD",
+            "Giảm 24, tức khoảng 0,24 tỷ USD",
+            "Tăng 4, tức khoảng 0,04 tỷ USD"
+          ],
+          "giai_thich": "GDP mất là diện tích hình thang dưới đường cầu vốn QG 1 từ 40 đến 48: ½(3 + 4) × 8 = 28. 32 là thu nhập từ vốn ở nước ngoài, 4 là phần GNP tăng.",
+          "kho": true,
+          "nguon": "TT Chương 6, Phần III bài 1; file bài tập ktqt, Chương 6 bài 1"
+        },
+        {
+          "id": "c6-28",
+          "hoi": "Hai nước có cầu vốn $Q_{K1}$ = −8r + 72 và $Q_{K2}$ = −2r + 46 (tỷ USD, r tính bằng %); lượng vốn ban đầu QG 1 là 48, QG 2 là 30. Vốn di chuyển 8 tỷ USD, lãi suất cân bằng 4%. GNP của QG 1 thay đổi bao nhiêu (tỷ USD × điểm %)?",
+          "dap_an": [
+            "Tăng 4, vì thu về 32 nhưng GDP mất 28",
+            "Giảm 28, vì GDP trong nước mất 28",
+            "Tăng 32, vì thu về toàn bộ 32",
+            "Tăng 16, vì thu về 32 mà mất 16"
+          ],
+          "giai_thich": "GNP = GDP + thu nhập từ vốn ở nước ngoài. Thu nhập vốn = 4 × 8 = 32; GDP giảm 28; GNP tăng 32 − 28 = 4 (khoảng 0,04 tỷ USD), đúng bằng tam giác c.",
+          "kho": true,
+          "nguon": "TT Chương 6, Phần III bài 1; file bài tập ktqt, Chương 6 bài 1"
+        },
+        {
+          "id": "c6-29",
+          "hoi": "Hai nước có cầu vốn $Q_{K1}$ = −8r + 72 và $Q_{K2}$ = −2r + 46 (tỷ USD, r tính bằng %); lượng vốn ban đầu QG 1 là 48, QG 2 là 30. Vốn di chuyển 8 tỷ USD, lãi suất cân bằng 4%. GDP và GNP của QG 2 thay đổi bao nhiêu (tỷ USD × điểm %)?",
+          "dap_an": [
+            "GDP tăng 48, GNP tăng 16",
+            "GDP tăng 48, GNP tăng 48",
+            "GDP tăng 32, GNP tăng 16",
+            "GDP tăng 48, GNP tăng 4"
+          ],
+          "giai_thich": "GDP tăng = ½(8 + 4) × 8 = 48; trả cho QG 1 4 × 8 = 32; GNP tăng 48 − 32 = 16 (khoảng 0,16 tỷ USD), là tam giác d.",
+          "kho": true,
+          "nguon": "TT Chương 6, Phần III bài 1; file bài tập ktqt, Chương 6 bài 1"
+        },
+        {
+          "id": "c6-30",
+          "hoi": "Hai nước có cầu vốn $Q_{K1}$ = −8r + 72 và $Q_{K2}$ = −2r + 46 (tỷ USD, r tính bằng %); lượng vốn ban đầu QG 1 là 48, QG 2 là 30. Sau khi vốn di chuyển đến lãi suất chung 4%, sản lượng thế giới tăng bao nhiêu (tỷ USD × điểm %)?",
+          "dap_an": [
+            "Tăng 20",
+            "Tăng 4",
+            "Tăng 76",
+            "Tăng 48"
+          ],
+          "giai_thich": "Lợi ích thế giới = GNP QG 1 tăng 4 + GNP QG 2 tăng 16 = 20, cũng bằng tam giác ½(8 − 3) × 8.",
+          "kho": true,
+          "nguon": "TT Chương 6, Phần III bài 1; file bài tập ktqt, Chương 6 bài 1"
+        },
+        {
+          "id": "c6-31",
+          "hoi": "Hai nước có cùng cầu lao động $Q_{L}$ = −5w + 82 (nghìn người, w tính bằng USD/giờ); lao động ban đầu QG 1 là 72 nghìn, QG 2 là 42 nghìn. Tiền lương ban đầu ở hai nước là bao nhiêu?",
+          "dap_an": [
+            "QG 1: 2 USD/giờ; QG 2: 8 USD/giờ",
+            "QG 1: 8 USD/giờ; QG 2: 2 USD/giờ",
+            "QG 1: 2 USD/giờ; QG 2: 6 USD/giờ",
+            "QG 1: 14,4 USD/giờ; QG 2: 8,4 USD/giờ"
+          ],
+          "giai_thich": "Từ $Q_{L}$ = −5w + 82 ta có w = (82 − L)/5. QG 1: (82 − 72)/5 = 2; QG 2: (82 − 42)/5 = 8. Lao động sẽ di chuyển từ QG 1 sang QG 2.",
+          "kho": false,
+          "nguon": "TT Chương 6, Phần III bài 2; file bài tập ktqt, Chương 6 bài 2"
+        },
+        {
+          "id": "c6-32",
+          "hoi": "Hai nước có cùng cầu lao động $Q_{L}$ = −5w + 82 (nghìn người, w tính bằng USD/giờ); lao động ban đầu QG 1 là 72 nghìn, QG 2 là 42 nghìn. Mức lương nào làm lao động ngừng di chuyển và bao nhiêu lao động đã chuyển đi?",
+          "dap_an": [
+            "5 USD/giờ; 15 nghìn người chuyển đi",
+            "4 USD/giờ; 10 nghìn người chuyển đi",
+            "5 USD/giờ; 30 nghìn người chuyển đi",
+            "6 USD/giờ; 15 nghìn người chuyển đi"
+          ],
+          "giai_thich": "Lao động di chuyển đến khi lương bằng nhau. Tổng lao động 114 nghìn chia đều 57 – 57 (cùng hàm cầu), w = (82 − 57)/5 = 5; số người đi = 72 − 57 = 15 nghìn.",
+          "kho": false,
+          "nguon": "TT Chương 6, Phần III bài 2; file bài tập ktqt, Chương 6 bài 2"
+        },
+        {
+          "id": "c6-33",
+          "hoi": "Hai nước có cùng cầu lao động $Q_{L}$ = −5w + 82 (nghìn người, w tính bằng USD/giờ); lao động ban đầu QG 1 là 72 nghìn, QG 2 là 42 nghìn. Để lương ở QG 1 tăng lên 3 USD/giờ thì cần bao nhiêu lao động rời đi, và lương ở QG 2 khi đó là bao nhiêu?",
+          "dap_an": [
+            "5 nghìn người; lương QG 2 còn 7 USD/giờ",
+            "5 nghìn người; lương QG 2 cũng là 3 USD/giờ",
+            "25 nghìn người; lương QG 2 còn 3 USD/giờ",
+            "15 nghìn người; lương QG 2 còn 5 USD/giờ"
+          ],
+          "giai_thich": "w = 3 thì cầu lao động QG 1 = −15 + 82 = 67, nên 72 − 67 = 5 nghìn người rời đi. QG 2 có 42 + 5 = 47 nghìn, lương = (82 − 47)/5 = 7. Hai nước chỉ cùng một mức lương khi w = 5.",
+          "kho": true,
+          "nguon": "TT Chương 6, Phần III bài 2; file bài tập ktqt, Chương 6 bài 2"
+        },
+        {
+          "id": "c6-34",
+          "hoi": "Hai nước có cùng cầu lao động $Q_{L}$ = −5w + 82 (nghìn người, w tính bằng USD/giờ); lao động ban đầu QG 1 là 72 nghìn, QG 2 là 42 nghìn. Để lương ở QG 1 đạt 4 USD/giờ thì bao nhiêu lao động phải di chuyển sang QG 2?",
+          "dap_an": [
+            "10 nghìn người",
+            "5 nghìn người",
+            "15 nghìn người",
+            "20 nghìn người"
+          ],
+          "giai_thich": "w = 4 thì cầu lao động QG 1 = −20 + 82 = 62, nên 72 − 62 = 10 nghìn người đi; QG 2 khi đó có 52 nghìn, lương 6.",
+          "kho": false,
+          "nguon": "TT Chương 6, Phần III bài 2; file bài tập ktqt, Chương 6 bài 2"
+        },
+        {
+          "id": "c6-35",
+          "hoi": "Hai nước có cùng cầu lao động $Q_{L}$ = −5w + 82 (nghìn người, w tính bằng USD/giờ); lao động ban đầu QG 1 là 72 nghìn, QG 2 là 42 nghìn. Lao động di chuyển đến khi lương bằng nhau ở 5 USD/giờ (15 nghìn người đi). GDP và GNP của QG 1 thay đổi bao nhiêu (nghìn USD/giờ)?",
+          "dap_an": [
+            "GDP giảm 52,5; GNP tăng 22,5",
+            "GDP giảm 75; GNP tăng 22,5",
+            "GDP giảm 52,5; GNP tăng 75",
+            "GDP giảm 45; GNP tăng 30"
+          ],
+          "giai_thich": "GDP mất = ½(2 + 5) × 15 = 52,5. Người di cư nhận 5 × 15 = 75 gửi về được tính vào GNP, nên GNP tăng 75 − 52,5 = 22,5.",
+          "kho": true,
+          "nguon": "TT Chương 6, Phần III bài 2; file bài tập ktqt, Chương 6 bài 2"
+        },
+        {
+          "id": "c6-36",
+          "hoi": "Hai nước có cùng cầu lao động $Q_{L}$ = −5w + 82 (nghìn người, w tính bằng USD/giờ); lao động ban đầu QG 1 là 72 nghìn, QG 2 là 42 nghìn. Lao động di chuyển đến khi lương bằng nhau ở 5 USD/giờ (15 nghìn người). GDP và GNP của QG 2 thay đổi bao nhiêu (nghìn USD/giờ)?",
+          "dap_an": [
+            "GDP tăng 97,5; GNP tăng 22,5",
+            "GDP tăng 75; GNP tăng 22,5",
+            "GDP tăng 97,5; GNP tăng 97,5",
+            "GDP tăng 52,5; GNP tăng 45"
+          ],
+          "giai_thich": "GDP tăng = ½(8 + 5) × 15 = 97,5; trả lương người nhập cư 75; GNP tăng 97,5 − 75 = 22,5. Thế giới tăng 45 = ½(8 − 2) × 15.",
+          "kho": true,
+          "nguon": "TT Chương 6, Phần III bài 2; file bài tập ktqt, Chương 6 bài 2"
+        },
+        {
+          "id": "c6-37",
+          "hoi": "Trong ví dụ VMPK của slide, lợi suất vốn ở C1 và C2 trước khi vốn di chuyển lần lượt là 2 và 6. Sau khi vốn di chuyển, lợi suất ở hai nước là bao nhiêu?",
+          "dap_an": [
+            "Cùng bằng 4: C1 tăng từ 2, C2 giảm từ 6",
+            "Cùng bằng 4: C1 giảm từ 6, C2 tăng từ 2",
+            "C1 bằng 6, C2 bằng 2 vì vốn đổi chỗ",
+            "Không đổi vì giá vốn do thế giới quyết định"
+          ],
+          "giai_thich": "Vốn chảy từ C1 sang C2 tới khi VMPK hai nước bằng nhau tại điểm I (lợi suất 4): lợi suất C1 tăng từ 2 lên 4, C2 giảm từ 6 xuống 4.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 17"
+        },
+        {
+          "id": "c6-38",
+          "hoi": "Trong mô hình VMPK, sau khi đầu tư GNP của C1 = OAIC + (a + b + c) = OBMC + c. Phần GNP tăng thêm của C1 là gì?",
+          "dap_an": [
+            "Tam giác c",
+            "Hình a + b",
+            "Tam giác d",
+            "Hình a + b + c"
+          ],
+          "giai_thich": "Trước đầu tư GNP = OBMC; sau đầu tư GNP = OBMC + c, nên C1 tăng đúng phần c. (a + b + c) là thu nhập từ vốn ở C2 chuyển về, d là phần tăng của C2.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 2; slide Chương 6, trang 16"
+        },
+        {
+          "id": "c6-39",
+          "hoi": "Trong mô hình VMPL, thu nhập người lao động C1 tăng (e) + (b) + (c), thu nhập người sử dụng lao động C1 giảm (e) + (b). Thu nhập ròng của C1 thay đổi bao nhiêu?",
+          "dap_an": [
+            "Tăng phần (c)",
+            "Tăng phần (e)",
+            "Tăng phần (e) + (b)",
+            "Giảm phần (b)"
+          ],
+          "giai_thich": "Thu nhập ròng C1 = [(e) + (b) + (c)] − [(e) + (b)] = (c). Tương tự, C2 tăng ròng (d).",
+          "kho": true,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 26"
+        },
+        {
+          "id": "c6-40",
+          "hoi": "Trong mô hình VMPL, thu nhập người sử dụng lao động ở C2 tăng (f) + (d), thu nhập lao động trong nước C2 giảm (f). Thu nhập ròng của C2 thay đổi bao nhiêu?",
+          "dap_an": [
+            "Tăng phần (d)",
+            "Tăng phần (f)",
+            "Tăng phần (f) + (d)",
+            "Giảm phần (f)"
+          ],
+          "giai_thich": "Thu nhập ròng C2 = [(f) + (d)] − (f) = (d); (f) chỉ là phần chuyển từ người lao động sang người sử dụng lao động trong C2.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 4; slide Chương 6, trang 26"
+        },
+        {
+          "id": "c6-41",
+          "hoi": "Nhà đầu tư Hàn Quốc mua 8% cổ phần biểu quyết của một công ty Việt Nam để hưởng cổ tức, không tham gia điều hành. Khoản đầu tư này thường được xếp vào loại nào?",
+          "dap_an": [
+            "Đầu tư gián tiếp, vì chưa có quyền kiểm soát đáng kể",
+            "Đầu tư trực tiếp, vì nhà đầu tư đến từ nước ngoài",
+            "Tín dụng nhà nước, vì vốn đến từ quốc gia khác",
+            "Đầu tư trực tiếp, vì thời hạn đầu tư trên 1 năm"
+          ],
+          "giai_thich": "FDI đòi hỏi quan hệ lâu dài và quyền kiểm soát đáng kể, thường từ 10% cổ phần biểu quyết. 8% và không điều hành là đầu tư gián tiếp.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 2–3; slide Chương 6, trang 18"
+        },
+        {
+          "id": "c6-42",
+          "hoi": "Hai nước có cầu vốn $Q_{K1}$ = −8r + 72 và $Q_{K2}$ = −2r + 46 (tỷ USD, r tính bằng %); lượng vốn ban đầu QG 1 là 48, QG 2 là 30. Sau khi vốn di chuyển đến lãi suất chung 4%, lượng vốn sử dụng ở QG 2 là bao nhiêu?",
+          "dap_an": [
+            "38 tỷ USD",
+            "30 tỷ USD",
+            "40 tỷ USD",
+            "46 tỷ USD"
+          ],
+          "giai_thich": "Tại r = 4, cầu vốn QG 2 = −2 × 4 + 46 = 38 = 30 vốn trong nước + 8 vốn từ QG 1. 40 là lượng vốn còn lại ở QG 1.",
+          "kho": false,
+          "nguon": "TT Chương 6, Phần III bài 1; file bài tập ktqt, Chương 6 bài 1"
+        },
+        {
+          "id": "c6-43",
+          "hoi": "Hai nước có cùng cầu lao động $Q_{L}$ = −5w + 82 (nghìn người, w tính bằng USD/giờ); lao động ban đầu QG 1 là 72 nghìn, QG 2 là 42 nghìn. Khi lương hai nước bằng nhau, mỗi nước sử dụng bao nhiêu lao động?",
+          "dap_an": [
+            "Mỗi nước 57 nghìn người",
+            "QG 1 có 72, QG 2 có 42 nghìn",
+            "QG 1 có 62, QG 2 có 52 nghìn",
+            "Mỗi nước 82 nghìn người"
+          ],
+          "giai_thich": "Hai nước cùng hàm cầu nên lương bằng nhau khi lượng lao động bằng nhau: (72 + 42)/2 = 57 nghìn mỗi nước, lương (82 − 57)/5 = 5 USD/giờ.",
+          "kho": false,
+          "nguon": "TT Chương 6, Phần III bài 2; file bài tập ktqt, Chương 6 bài 2"
+        },
+        {
+          "id": "c6-44",
+          "hoi": "Một tập đoàn mua lại công ty nước ngoài để có công nghệ, thương hiệu và mạng lưới phân phối của công ty đó. Đây là động cơ FDI nào?",
+          "dap_an": [
+            "Tìm kiếm tài sản chiến lược",
+            "Tìm kiếm hiệu quả",
+            "Tìm kiếm tài nguyên",
+            "Tìm kiếm thị trường"
+          ],
+          "giai_thich": "Tìm kiếm tài sản chiến lược là thâu tóm công nghệ, thương hiệu, mạng lưới phân phối, bí quyết quản lý hoặc năng lực đổi mới mà doanh nghiệp chưa có.",
+          "kho": false,
+          "nguon": "TT Chương 6, mục 3; slide Chương 6, trang 11"
+        },
+        {
+          "id": "c6-45",
+          "hoi": "Hai nước có cùng cầu lao động $Q_{L}$ = −5w + 82 (nghìn người, w tính bằng USD/giờ); lao động ban đầu QG 1 là 72 nghìn, QG 2 là 42 nghìn. Khi lao động di chuyển đến lương chung 5 USD/giờ, tổng thu nhập (sản lượng) của hai nước tăng bao nhiêu (nghìn USD/giờ)?",
+          "dap_an": [
+            "Tăng 45",
+            "Tăng 22,5",
+            "Tăng 97,5",
+            "Tăng 150"
+          ],
+          "giai_thich": "Mỗi nước tăng GNP 22,5 nên tổng tăng 45; cũng bằng tam giác ½ × (8 − 2) × 15 = 45 do lao động chuyển từ nơi năng suất biên thấp sang nơi cao.",
+          "kho": true,
+          "nguon": "TT Chương 6, Phần III bài 2; file bài tập ktqt, Chương 6 bài 2"
+        }
+      ]
+    }
+  ]
+}

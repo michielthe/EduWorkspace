@@ -5,66 +5,79 @@
       "ma_mon": "mang-may-tinh",
       "ten": "Mạng máy tính",
       "khu": "hien-tai",
+      "icon": "hinh/mon/mang-may-tinh.svg",
       "file_cau_hoi": "du-lieu/mang-may-tinh.json",
       "tai_lieu": [
         {
           "ten": "Chương 1 - Tổng quan mạng máy tính",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/mang-may-tinh/chuong-01-tong-quan-mang-may-tinh.pdf"
         },
         {
           "ten": "Chương 2 - IP và chia subnet",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/mang-may-tinh/chuong-02-ip-va-chia-subnet.pdf"
         },
         {
           "ten": "Chương 3 - DHCP và DNS",
           "loai": "Tóm tắt",
+          "chuong": "c3",
           "file": "tai-lieu/mang-may-tinh/chuong-03-dhcp-va-dns.pdf"
         },
         {
           "ten": "Chương 4 - Mô hình OSI và TCP-IP",
           "loai": "Tóm tắt",
+          "chuong": "c4",
           "file": "tai-lieu/mang-may-tinh/chuong-04-mo-hinh-osi-va-tcp-ip.pdf"
         },
         {
           "ten": "Chương 5 - Tầng ứng dụng",
           "loai": "Tóm tắt",
+          "chuong": "c5",
           "file": "tai-lieu/mang-may-tinh/chuong-05-tang-ung-dung.pdf"
         },
         {
           "ten": "Chương 6 - Tầng vận chuyển",
           "loai": "Tóm tắt",
+          "chuong": "c6",
           "file": "tai-lieu/mang-may-tinh/chuong-06-tang-van-chuyen.pdf"
         },
         {
           "ten": "Chương 7 - Tầng mạng",
           "loai": "Tóm tắt",
+          "chuong": "c7",
           "file": "tai-lieu/mang-may-tinh/chuong-07-tang-mang.pdf"
         },
         {
           "ten": "Chương 8 - Tầng liên kết dữ liệu",
           "loai": "Tóm tắt",
+          "chuong": "c8",
           "file": "tai-lieu/mang-may-tinh/chuong-08-tang-lien-ket-du-lieu.pdf"
         },
         {
           "ten": "Chương 9 - Phương tiện truyền dẫn",
           "loai": "Tóm tắt",
+          "chuong": "c9",
           "file": "tai-lieu/mang-may-tinh/chuong-09-phuong-tien-truyen-dan.pdf"
         },
         {
           "ten": "Chương 10 - Thiết bị mạng",
           "loai": "Tóm tắt",
+          "chuong": "c10",
           "file": "tai-lieu/mang-may-tinh/chuong-10-thiet-bi-mang.pdf"
         },
         {
           "ten": "PerfectEN - Chương 1 - Network Control Plane",
           "loai": "Tóm tắt",
+          "chuong": "pe1",
           "file": "tai-lieu/mang-may-tinh/perfecten-1-network-control-plane.pdf"
         },
         {
           "ten": "PerfectEN - Chương 2 - Data Plane nâng cao",
           "loai": "Tóm tắt",
+          "chuong": "pe2",
           "file": "tai-lieu/mang-may-tinh/perfecten-2-data-plane-nang-cao.pdf"
         }
       ]
@@ -73,21 +86,25 @@
       "ma_mon": "xac-suat-thong-ke",
       "ten": "Xác suất thống kê",
       "khu": "hien-tai",
+      "icon": "hinh/mon/xac-suat-thong-ke.svg",
       "file_cau_hoi": "du-lieu/xac-suat-thong-ke.json",
       "tai_lieu": [
         {
           "ten": "Chương 1 - Đại cương về xác suất",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/xac-suat-thong-ke/tt-chuong-01-dai-cuong-ve-xac-suat.pdf"
         },
         {
           "ten": "Chương 2 BNN - Biến ngẫu nhiên",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/xac-suat-thong-ke/tt-chuong-02-bnn-bien-ngau-nhien.pdf"
         },
         {
           "ten": "Chương 2 PP - Các phân phối xác suất thường dùng",
           "loai": "Tóm tắt",
+          "chuong": "c3",
           "file": "tai-lieu/xac-suat-thong-ke/tt-chuong-02-pp-cac-phan-phoi-xac-suat-thuong-dung.pdf"
         }
       ]
@@ -96,16 +113,19 @@
       "ma_mon": "vat-ly-dai-cuong-2",
       "ten": "Vật lý đại cương 2",
       "khu": "hien-tai",
+      "icon": "hinh/mon/vat-ly-dai-cuong-2.svg",
       "file_cau_hoi": "du-lieu/vat-ly-dai-cuong-2.json",
       "tai_lieu": [
         {
           "ten": "Chương 1 - Tĩnh điện trường trong chân không",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/vat-ly-dai-cuong-2/tt-chuong-01-tinh-dien-truong-trong-chan-khong.pdf"
         },
         {
           "ten": "Chương 2 - Vật dẫn trong tĩnh điện trường",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/vat-ly-dai-cuong-2/tt-chuong-02-vat-dan-trong-tinh-dien-truong.pdf"
         }
       ]
@@ -114,36 +134,43 @@
       "ma_mon": "toan-hoc-to-hop",
       "ten": "Toán học tổ hợp",
       "khu": "hien-tai",
+      "icon": "hinh/mon/toan-hoc-to-hop.svg",
       "file_cau_hoi": "du-lieu/toan-hoc-to-hop.json",
       "tai_lieu": [
         {
           "ten": "Tuần 1 - Tổng quan, phương pháp chứng minh, tập hợp và ánh xạ",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/toan-hoc-to-hop/tt-tuan-01-tong-quan-phuong-phap-chung-minh-tap-hop-va-anh-xa.pdf"
         },
         {
           "ten": "Tuần 2 - Các quy tắc đếm cơ bản",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/toan-hoc-to-hop/tt-tuan-02-cac-quy-tac-dem-co-ban.pdf"
         },
         {
           "ten": "Tuần 3 - Nguyên lý bù trừ, Dirichlet, đếm bằng 2 cách",
           "loai": "Tóm tắt",
+          "chuong": "c3",
           "file": "tai-lieu/toan-hoc-to-hop/tt-tuan-03-nguyen-ly-bu-tru-dirichlet-dem-bang-2-cach.pdf"
         },
         {
           "ten": "Tuần 4 - Tổng sai phân và hệ thức đệ quy",
           "loai": "Tóm tắt",
+          "chuong": "c4",
           "file": "tai-lieu/toan-hoc-to-hop/tt-tuan-04-tong-sai-phan-va-he-thuc-de-quy.pdf"
         },
         {
           "ten": "Tuần 5 - Hàm sinh và ứng dụng trong các bài toán đếm",
           "loai": "Tóm tắt",
+          "chuong": "c5",
           "file": "tai-lieu/toan-hoc-to-hop/tt-tuan-05-ham-sinh-va-ung-dung-trong-cac-bai-toan-dem.pdf"
         },
         {
           "ten": "Tuần 6 - Giới thiệu về đồ thị",
           "loai": "Tóm tắt",
+          "chuong": "c6",
           "file": "tai-lieu/toan-hoc-to-hop/tt-tuan-06-gioi-thieu-ve-do-thi.pdf"
         }
       ]
@@ -152,6 +179,7 @@
       "ma_mon": "oop",
       "ten": "OOP",
       "khu": "hien-tai",
+      "icon": "hinh/mon/oop.svg",
       "file_cau_hoi": "du-lieu/oop.json",
       "tai_lieu": []
     },
@@ -159,41 +187,49 @@
       "ma_mon": "vi-sinh",
       "ten": "Vi sinh vật học",
       "khu": "tong",
+      "icon": "hinh/mon/vi-sinh.svg",
       "file_cau_hoi": "du-lieu/vi-sinh.json",
       "tai_lieu": [
         {
           "ten": "Chương 1 - Mở đầu Vi sinh vật học",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/vi-sinh/tt-chuong-01-mo-dau-vi-sinh-vat-hoc.pdf"
         },
         {
           "ten": "Chương 2 - Tế bào vi sinh vật",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/vi-sinh/tt-chuong-02-te-bao-vi-sinh-vat.pdf"
         },
         {
           "ten": "Chương 3 - Sinh lý vi sinh vật",
           "loai": "Tóm tắt",
+          "chuong": "c3",
           "file": "tai-lieu/vi-sinh/tt-chuong-03-sinh-ly-vi-sinh-vat.pdf"
         },
         {
           "ten": "Chương 4-1 - Di truyền học vi sinh vật",
           "loai": "Tóm tắt",
+          "chuong": "c41",
           "file": "tai-lieu/vi-sinh/tt-chuong-04-1-di-truyen-hoc-vi-sinh-vat.pdf"
         },
         {
           "ten": "Chương 4-2 - Kỹ thuật di truyền",
           "loai": "Tóm tắt",
+          "chuong": "c42",
           "file": "tai-lieu/vi-sinh/tt-chuong-04-2-ky-thuat-di-truyen.pdf"
         },
         {
           "ten": "Chương 4-2 - Virus",
           "loai": "Tóm tắt",
+          "chuong": "c43",
           "file": "tai-lieu/vi-sinh/tt-chuong-04-2-virus.pdf"
         },
         {
           "ten": "Thực tập - Vi sinh cơ sở",
           "loai": "Tóm tắt",
+          "chuong": "ctt",
           "file": "tai-lieu/vi-sinh/tt-thuc-tap-vi-sinh-co-so.pdf"
         }
       ]
@@ -202,21 +238,25 @@
       "ma_mon": "triet-hoc",
       "ten": "Triết học Mác - Lênin",
       "khu": "tong",
+      "icon": "hinh/mon/triet-hoc.svg",
       "file_cau_hoi": "du-lieu/triet-hoc.json",
       "tai_lieu": [
         {
           "ten": "Chương 1 - Khái luận về triết học và triết học Mác - Lênin",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/triet-hoc/tt-chuong-01-khai-luan-ve-triet-hoc-va-triet-hoc-mac-lenin.pdf"
         },
         {
           "ten": "Chương 2 - Chủ nghĩa duy vật biện chứng",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/triet-hoc/tt-chuong-02-chu-nghia-duy-vat-bien-chung.pdf"
         },
         {
           "ten": "Chương 3 - Chủ nghĩa duy vật lịch sử",
           "loai": "Tóm tắt",
+          "chuong": "c3",
           "file": "tai-lieu/triet-hoc/tt-chuong-03-chu-nghia-duy-vat-lich-su.pdf"
         }
       ]
@@ -225,36 +265,43 @@
       "ma_mon": "hoa-dai-cuong-2",
       "ten": "Hóa đại cương 2",
       "khu": "tong",
+      "icon": "hinh/mon/hoa-dai-cuong-2.svg",
       "file_cau_hoi": "du-lieu/hoa-dai-cuong-2.json",
       "tai_lieu": [
         {
           "ten": "Chương 1 - Nhiệt hóa học",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-01-nhiet-hoa-hoc.pdf"
         },
         {
           "ten": "Chương 2 - Entropy và năng lượng tự do Gibbs",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-02-entropy-va-nang-luong-tu-do-gibbs.pdf"
         },
         {
           "ten": "Chương 3 - Động hóa học",
           "loai": "Tóm tắt",
+          "chuong": "c3",
           "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-03-dong-hoa-hoc.pdf"
         },
         {
           "ten": "Chương 4 - Cân bằng hóa học",
           "loai": "Tóm tắt",
+          "chuong": "c4",
           "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-04-can-bang-hoa-hoc.pdf"
         },
         {
           "ten": "Chương 5 - Cân bằng ion trong dung dịch (acid-base)",
           "loai": "Tóm tắt",
+          "chuong": "c5",
           "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-05-can-bang-ion-trong-dung-dich-acid-base.pdf"
         },
         {
           "ten": "Chương 6 - Điện hóa học",
           "loai": "Tóm tắt",
+          "chuong": "c6",
           "file": "tai-lieu/hoa-dai-cuong-2/tt-chuong-06-dien-hoa-hoc.pdf"
         }
       ]
@@ -263,41 +310,49 @@
       "ma_mon": "sinh-hoa-co-so",
       "ten": "Sinh hóa cơ sở",
       "khu": "tong",
+      "icon": "hinh/mon/sinh-hoa-co-so.svg",
       "file_cau_hoi": "du-lieu/sinh-hoa-co-so.json",
       "tai_lieu": [
         {
           "ten": "Chương 1 - Nước và dung dịch đệm",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-01-nuoc-va-dung-dich-dem.pdf"
         },
         {
           "ten": "Chương 2 - Amino acid, protein và enzyme",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-02-amino-acid-protein-va-enzyme.pdf"
         },
         {
           "ten": "Chương 3 - Carbohydrate",
           "loai": "Tóm tắt",
+          "chuong": "c3",
           "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-03-carbohydrate.pdf"
         },
         {
           "ten": "Chương 4 - Lipid",
           "loai": "Tóm tắt",
+          "chuong": "c4",
           "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-04-lipid.pdf"
         },
         {
           "ten": "Chương 5 - Trao đổi chất và năng lượng sinh học",
           "loai": "Tóm tắt",
+          "chuong": "c5",
           "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-05-trao-doi-chat-va-nang-luong-sinh-hoc.pdf"
         },
         {
           "ten": "Chương 6 - Chuyển hóa carbohydrate",
           "loai": "Tóm tắt",
+          "chuong": "c6",
           "file": "tai-lieu/sinh-hoa-co-so/tt-chuong-06-chuyen-hoa-carbohydrate.pdf"
         },
         {
           "ten": "Bài tập ôn Chương 1-4",
           "loai": "Tóm tắt",
+          "chuong": "c7",
           "file": "tai-lieu/sinh-hoa-co-so/tt-bai-tap-on-chuong-01-04.pdf"
         }
       ]
@@ -306,21 +361,25 @@
       "ma_mon": "sinh-hoc-phan-tu",
       "ten": "Sinh học phân tử đại cương",
       "khu": "tong",
+      "icon": "hinh/mon/sinh-hoc-phan-tu.svg",
       "file_cau_hoi": "du-lieu/sinh-hoc-phan-tu.json",
       "tai_lieu": [
         {
           "ten": "Chương 1 - Đại phân tử sinh học và liên kết, tương tác hóa học",
           "loai": "Tóm tắt",
+          "chuong": "c1",
           "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-01-dai-phan-tu-sinh-hoc-va-lien-ket-tuong-tac-hoa-hoc.pdf"
         },
         {
           "ten": "Chương 2 - Tính ổn định DNA - Sao chép và sửa sai",
           "loai": "Tóm tắt",
+          "chuong": "c2",
           "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-02-tinh-on-dinh-dna-sao-chep-va-sua-sai.pdf"
         },
         {
           "ten": "Chương 3 - Tính biến động DNA - Tái tổ hợp, chuyển vị, plasmid",
           "loai": "Tóm tắt",
+          "chuong": "c3",
           "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-03-tinh-bien-dong-dna-tai-to-hop-chuyen-vi-plasmid.pdf"
         }
       ]

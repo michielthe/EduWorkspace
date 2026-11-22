@@ -1,6 +1,22 @@
-Cập nhật 2026-11-17 19:50 - Sinh hóa cơ sở: thêm Bài tập ôn Chương 1-4
-- du-lieu/sinh-hoa-co-so.json (phiên bản 2): thêm "Bài tập ôn Chương 1-4" (nhóm "Bài tập", 151 câu, 44 câu khó); tổng 369 câu. 218 câu cũ không đổi.
-- du-lieu/danh-sach-mon.json: thêm tài liệu "Bài tập ôn Chương 1-4" cho Sinh hóa cơ sở (file đủ 10 môn).
-- tai-lieu/sinh-hoa-co-so/tt-bai-tap-on-chuong-01-04.pdf: file tóm tắt mới.
-- giao-dien/app.js: chương nhóm "Bài tập" hiện nhãn "BT".
-Đưa nội dung thư mục này lên GitHub (giữ nguyên cấu trúc), đợi 1-2 phút rồi Ctrl+F5.
+Cập nhật lớn 2026-11-22 - MichielEdu
+Đưa NGUYÊN nội dung thư mục này lên GitHub (giữ cấu trúc, ghi đè file cũ), đợi 1-2 phút rồi Ctrl+F5.
+
+Đổi gì:
+- Tên web: MichielEdu. Logo mũ tốt nghiệp (hinh/logo.svg), cũng là biểu tượng tab trình duyệt.
+- Bảng màu mới tông xanh công nghệ (xanh than, xanh dương, xanh ngọc), dịu mắt; có nút chuyển nền sáng/tối.
+- Trang chủ mới kiểu portfolio: giới thiệu web, người làm (ảnh, thẻ thông tin, Facebook), lý do làm, các môn.
+- Thanh điều hướng 6 mục: thêm Sổ ôn tập và Lịch sử. Trên điện thoại khi làm bài, thanh thu vào nút bên trái.
+- Thi thử theo môn: chọn chương, số câu, thời gian; nửa câu thường nửa câu khó; chế độ Luyện tập và Thi thật (đếm giờ, thoát ra thì dừng giờ).
+- Sổ ôn tập: lưu câu bằng trái tim (vàng), câu sai từ 2 lần trở lên; xóa theo câu/chương/môn/toàn bộ (chờ 3 giây).
+- Lịch sử làm bài: các lần làm đã xong.
+- Nút “Tóm tắt” cạnh từng chương; tab Tài liệu chọn môn trước rồi mới hiện PDF.
+- Tổ hợp hiện theo kiểu Việt Nam C_n^k.
+- Biểu tượng cho từng môn (hinh/mon/).
+
+File trong thư mục này:
+- index.html, README.md
+- giao-dien/app.js, giao-dien/style.css
+- du-lieu/danh-sach-mon.json (thêm trường "chuong" cho tài liệu và "icon" cho môn; đủ 10 môn)
+- hinh/logo.svg, hinh/mon/*.svg (10 file)
+- images/anh-dai-dien.jpg
+Không đổi: các file câu hỏi du-lieu/<môn>.json, tai-lieu/, thu-vien/.

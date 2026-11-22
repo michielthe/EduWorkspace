@@ -1,68 +1,36 @@
-# Web học tập - Học kỳ 3 (26-27)
+# MichielEdu - web ôn tập bằng trắc nghiệm
 
-Website ôn tập gồm 4 mục: Trang chủ, Trắc nghiệm (môn của mình), Trắc nghiệm Tổng (môn học khác), Tài liệu môn học.
-Đưa nguyên thư mục này lên GitHub (GitHub Pages) để chạy. Tên file và thư mục không dấu, phân biệt chữ hoa/thường.
+Dự án học tập phi lợi nhuận của Nguyễn Xuân Tùng. Web tĩnh chạy trên GitHub Pages: đưa nguyên thư mục này lên GitHub là chạy. Tên file và thư mục không dấu, phân biệt chữ hoa/thường.
+
+Các mục: Trang chủ, Trắc nghiệm, Trắc nghiệm Tổng, Tài liệu, Sổ ôn tập, Lịch sử.
 
 ## Cấu trúc
 
 ```
 web-hoc-tap/
-├─ index.html              trang web duy nhất (4 mục)
+├─ index.html              trang web duy nhất
 ├─ giao-dien/
-│  ├─ style.css            giao diện dùng chung      
+│  ├─ style.css            giao diện dùng chung (có nền sáng và tối)
 │  └─ app.js               code dùng chung cho mọi môn
 ├─ du-lieu/
 │  ├─ danh-sach-mon.json   danh sách môn học
 │  └─ <ma-mon>.json        câu hỏi của từng môn (vd: mang-may-tinh.json)
-├─ thu-vien/katex/         thư viện hiển thị công thức (KaTeX)
-└─ tai-lieu/
-   └─ <ma-mon>/            file PDF tóm tắt của môn đó (chỉ tóm tắt tự làm)
+├─ tai-lieu/<ma-mon>/      file PDF tóm tắt của môn đó
+├─ hinh/
+│  ├─ logo.svg             logo MichielEdu (biểu tượng tab trình duyệt)
+│  └─ mon/<ma-mon>.svg     biểu tượng của từng môn
+├─ images/                 ảnh cá nhân dùng ở trang chủ (anh-dai-dien.jpg)
+└─ thu-vien/katex/         thư viện vẽ công thức toán (không cần mạng)
 ```
 
 ## Thêm hoặc sửa nội dung
-- Sửa câu hỏi: sửa file `du-lieu/<ma-mon>.json`, kiểm tra bằng một trang "JSON validator" rồi đưa lên lại.
-- Mỗi môn có trường `khu`: `"hien-tai"` (hiện ở Trắc nghiệm, mặc định nếu thiếu) hoặc `"tong"` (môn học khác, hiện ở Trắc nghiệm Tổng).
-- Thêm môn có câu hỏi: đặt file `<ma-mon>.json` vào `du-lieu/`, rồi điền `file_cau_hoi` của môn đó trong `danh-sach-mon.json`.
-- Thêm tài liệu: chép PDF vào `tai-lieu/<ma-mon>/`, rồi thêm một dòng vào mảng `tai_lieu` của môn đó, dạng
-  `{ "ten": "Chương 1 - Tổng quan mạng máy tính", "loai": "Tóm tắt", "file": "tai-lieu/mang-may-tinh/chuong-01-tong-quan-mang-may-tinh.pdf" }`.
-  Nên đổi tên PDF sang không dấu khi chép vào đây.
-
-## Định dạng file câu hỏi (<ma-mon>.json)
-```json
-{
-  "mon": "Mạng máy tính",
-  "ma_mon": "mang-may-tinh",
-  "phien_ban": 1,
-  "chuong": [
-    {
-      "id": "c1",
-      "nhom": "Bài giảng",
-      "ten": "Chương 1 - Tổng quan mạng máy tính",
-      "cau": [
-        {
-          "id": "c1-01",
-          "hoi": "Nội dung câu hỏi",
-          "dap_an": ["ĐÁP ÁN ĐÚNG luôn đặt đầu tiên", "sai 1", "sai 2", "sai 3"],
-          "giai_thich": "Giải thích",
-          "kho": false,
-          "nguon": "Chương 1, mục 3.4 (slide-vi 01)"
-        }
-      ]
-    }
-  ]
-}
-```
-- `id` câu không trùng và không đổi khi sửa (tính năng "làm tiếp" ghi nhớ theo id).
-- Website tự đảo thứ tự đáp án khi hiển thị.
-
-## Công thức toán
-Trong `hoi`, `dap_an`, `giai_thich` có thể viết công thức bằng LaTeX, hiển thị bằng KaTeX (bản chép sẵn trong `thu-vien/katex/`, không cần mạng).
-- Trong dòng: `$...$`. Riêng một dòng: `$$...$$` (chỉ nên dùng trong `hoi` và `giai_thich`).
-- Trong file JSON phải viết hai dấu gạch ngược, ví dụ `"Tính $\\sum_{k=0}^{5}\\binom{5}{k}^2$"`.
-- Dấu đô la thật viết là `\\$`. Chuỗi có `$` mà không đóng cặp thì hiện nguyên chữ. Công thức lỗi hiện mã màu đỏ.
-- Câu không có dấu `$` hiển thị y như cũ.
+- Sửa câu hỏi: sửa file `du-lieu/<ma-mon>.json`, giữ nguyên `id` câu, tăng `phien_ban`.
+- Thêm môn: đặt `<ma-mon>.json` vào `du-lieu/`, khai báo trong `danh-sach-mon.json` (`ma_mon`, `ten`, `khu`, `file_cau_hoi`, `icon`, `tai_lieu`).
+- Thêm tài liệu: chép PDF vào `tai-lieu/<ma-mon>/`, thêm một dòng vào `tai_lieu` của môn, dạng
+  `{ "ten": "Chương 1 - ...", "loai": "Tóm tắt", "chuong": "c1", "file": "tai-lieu/<ma-mon>/tt-chuong-01-....pdf" }`.
+  `chuong` là id chương để hiện nút “Tóm tắt” cạnh chương đó.
+- Biểu tượng môn: hình SVG nét một màu trong `hinh/mon/`, web tự tô màu. Chi tiết trong “Quy định tổng cho website”.
 
 ## Lưu ý
 - Mở `index.html` bằng cách bấm đúp sẽ KHÔNG đọc được file .json (trình duyệt chặn). Xem trên GitHub Pages hoặc chạy server nhỏ (vd: VS Code + Live Server).
-- Các file `.gitkeep` (nếu còn) đã hết tác dụng vì thư mục đã có file; xóa được.
-- Tiến độ "làm tiếp", điểm lần trước và công tắc xáo trộn chỉ lưu trong trình duyệt của từng máy.
+- Tiến độ, điểm, Sổ ôn tập, lịch sử và lựa chọn sáng/tối chỉ lưu trong trình duyệt của từng máy.

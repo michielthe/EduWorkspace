@@ -127,6 +127,12 @@
           "loai": "Tóm tắt",
           "chuong": "c2",
           "file": "tai-lieu/vat-ly-dai-cuong-2/tt-chuong-02-vat-dan-trong-tinh-dien-truong.pdf"
+        },
+        {
+          "ten": "Chương 3 - Từ trường tĩnh trong chân không",
+          "loai": "Tóm tắt",
+          "chuong": "c3",
+          "file": "tai-lieu/vat-ly-dai-cuong-2/tt-chuong-03-tu-truong-tinh-trong-chan-khong.pdf"
         }
       ]
     },
@@ -381,6 +387,18 @@
           "loai": "Tóm tắt",
           "chuong": "c3",
           "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-03-tinh-bien-dong-dna-tai-to-hop-chuyen-vi-plasmid.pdf"
+        },
+        {
+          "ten": "Chương 4 - RNA - Phiên mã và biến đổi sau phiên mã",
+          "loai": "Tóm tắt",
+          "chuong": "c4",
+          "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-04-rna-phien-ma-va-bien-doi-sau-phien-ma.pdf"
+        },
+        {
+          "ten": "Chương 5 - Protein - Dịch mã và biến đổi sau dịch mã",
+          "loai": "Tóm tắt",
+          "chuong": "c5",
+          "file": "tai-lieu/sinh-hoc-phan-tu/tt-chuong-05-protein-dich-ma-va-bien-doi-sau-dich-ma.pdf"
         }
       ]
     },

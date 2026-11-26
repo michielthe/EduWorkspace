@@ -1,11 +1,13 @@
-Cập nhật 2026-11-22 22:20 - Thêm môn Kinh tế quốc tế
-Đưa nội dung thư mục này lên GitHub (giữ cấu trúc, ghi đè), đợi 1-2 phút rồi Ctrl+F5.
-Không cần đưa file danh-sach-thay-doi.txt này lên.
+Cập nhật 2026-11-26 22:10 - Sinh học phân tử (chương 4, 5) và Vật lý đại cương 2 (chương 3)
 
-- du-lieu/kinh-te-quoc-te.json: môn mới, 5 chương (1, 3, 4, 5, 6), 225 câu, 70 câu khó. Nằm ở mục Trắc nghiệm Tổng.
-- du-lieu/danh-sach-mon.json: thêm môn Kinh tế quốc tế (biểu tượng quả địa cầu, 5 tài liệu gắn theo chương). Đủ 11 môn.
-- hinh/mon/kinh-te-quoc-te.svg: biểu tượng môn.
-- tai-lieu/kinh-te-quoc-te/: 5 PDF tóm tắt.
-- giao-dien/app.js: trang chủ chia đều ô môn theo số môn (6 môn = 2 hàng x 3).
-- giao-dien/style.css: sửa thanh điều hướng bị tràn ở bề ngang 600-880px (máy tính bảng, cửa sổ hẹp); thanh rộng tối đa 1040px.
-- index.html: thêm số phiên bản vào đường dẫn style.css và app.js (?v=20261122b) để trình duyệt tải bản mới, không bị lẫn bản cũ.
+Cách đưa lên: kéo NỘI DUNG BÊN TRONG thư mục này (du-lieu, tai-lieu) lên repo GitHub, ghi đè. KHÔNG cần tải file danh-sach-thay-doi.txt. Chờ 1-2 phút rồi bấm Ctrl+F5.
+
+File thay đổi:
+- du-lieu/sinh-hoc-phan-tu.json   : thêm chương 4, 5 (tổng 5 chương, 276 câu)
+- du-lieu/vat-ly-dai-cuong-2.json : thêm chương 3 (tổng 3 chương, 115 câu)
+- du-lieu/danh-sach-mon.json      : gắn 3 PDF tóm tắt mới vào chương tương ứng (lấy từ bản mới nhất trên máy, chỉ thêm 3 dòng tai_lieu)
+- tai-lieu/sinh-hoc-phan-tu/tt-chuong-04-rna-phien-ma-va-bien-doi-sau-phien-ma.pdf   (mới)
+- tai-lieu/sinh-hoc-phan-tu/tt-chuong-05-protein-dich-ma-va-bien-doi-sau-dich-ma.pdf (mới)
+- tai-lieu/vat-ly-dai-cuong-2/tt-chuong-03-tu-truong-tinh-trong-chan-khong.pdf       (mới)
+
+Không đổi code (app.js, style.css, index.html).

@@ -1,7 +1,7 @@
 {
   "mon": "Sinh học phân tử đại cương",
   "ma_mon": "sinh-hoc-phan-tu",
-  "phien_ban": 1,
+  "phien_ban": 2,
   "chuong": [
     {
       "id": "c1",
@@ -2114,6 +2114,1515 @@
           "giai_thich": "Khả năng này là điều kiện của quá trình biến nạp.",
           "kho": true,
           "nguon": "TT Chương 3, mục 6; slide 72"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "nhom": "Bài giảng",
+      "ten": "Bài 4 - RNA: phiên mã và biến đổi sau phiên mã",
+      "cau": [
+        {
+          "id": "c4-01",
+          "hoi": "Phiên mã (transcription) là quá trình gì?",
+          "dap_an": [
+            "Sinh tổng hợp RNA theo chiều 5’→3’ nhờ RNA polymerase",
+            "Sinh tổng hợp DNA theo chiều 5’→3’ nhờ DNA polymerase",
+            "Sinh tổng hợp polypeptide theo chiều N→C nhờ ribosome",
+            "Sinh tổng hợp RNA theo chiều 3’→5’ nhờ RNA polymerase"
+          ],
+          "giai_thich": "Phiên mã tạo RNA theo chiều 5’→3’; enzyme chính là RNA polymerase. Tổng hợp DNA là sao chép, tổng hợp polypeptide là dịch mã.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 1; slide Bài 4, trang 3"
+        },
+        {
+          "id": "c4-02",
+          "hoi": "Một đơn vị phiên mã (transcription unit) gồm những phần nào?",
+          "dap_an": [
+            "Promoter + vùng mã hóa cho RNA + terminator",
+            "Promoter + vùng mã hóa cho RNA + vùng ori",
+            "Operator + vùng mã hóa protein + đuôi poly(A)",
+            "Enhancer + intron + exon + vùng terminator"
+          ],
+          "giai_thich": "Đơn vị phiên mã là vùng DNA được phiên mã, gồm trình tự khởi đầu (promoter), vùng mã hóa cho RNA và trình tự kết thúc (terminator).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 1; slide Bài 4, trang 3"
+        },
+        {
+          "id": "c4-03",
+          "hoi": "Vị trí [−1] trên đơn vị phiên mã có đặc điểm gì?",
+          "dap_an": [
+            "Là nu ngay trước [+1] và không được phiên mã",
+            "Là nu đầu tiên được phiên mã thành phân tử RNA",
+            "Là nu cuối cùng thuộc vùng terminator của gen",
+            "Là nu ngay sau [+1] và vẫn được phiên mã"
+          ],
+          "giai_thich": "[+1] là nu đầu tiên được phiên mã; [−1] là nu đứng trước [+1] và không được phiên mã (thuộc vùng upstream).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 1; slide Bài 4, trang 3"
+        },
+        {
+          "id": "c4-04",
+          "hoi": "Mạch DNA được dùng làm khuôn trong phiên mã còn được gọi là gì?",
+          "dap_an": [
+            "ssDNA(−), antisense strand, mạch đối mã",
+            "ssDNA(+), sense strand, mạch mang mã",
+            "ssDNA(−), sense strand, mạch mang mã",
+            "ssDNA(+), antisense strand, mạch đối mã"
+          ],
+          "giai_thich": "Mạch khuôn là ssDNA(−)/antisense/mạch đối mã; mạch còn lại có trình tự giống RNA (T thay U) là mạch (+)/sense/mạch mang mã.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 1; slide Bài 4, trang 4"
+        },
+        {
+          "id": "c4-05",
+          "hoi": "Mạch mang mã (sense strand) có trình tự như thế nào so với RNA được phiên mã?",
+          "dap_an": [
+            "Giống RNA, chỉ khác T thay cho U",
+            "Bổ sung hoàn toàn với RNA được tạo ra",
+            "Giống RNA, chỉ khác U thay cho T",
+            "Đảo ngược hoàn toàn so với trình tự RNA"
+          ],
+          "giai_thich": "RNA được tổng hợp bổ sung với mạch khuôn (−), nên giống mạch (+) về trình tự, chỉ khác T của DNA thay cho U của RNA.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 1; slide Bài 4, trang 4"
+        },
+        {
+          "id": "c4-06",
+          "hoi": "Yếu tố nào trên DNA xác định mạch nào được dùng làm khuôn trong phiên mã?",
+          "dap_an": [
+            "Chiều của promoter",
+            "Vị trí của terminator",
+            "Độ dài của vùng mã hóa",
+            "Hàm lượng GC của gen"
+          ],
+          "giai_thich": "Slide: chiều promoter cho phép hệ thống phiên mã xác định mạch DNA làm khuôn. Các gen khác nhau có thể dùng khuôn là mạch khác nhau.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 1; slide Bài 4, trang 4"
+        },
+        {
+          "id": "c4-07",
+          "hoi": "Trên cùng một phân tử DNA, các gen khác nhau được phiên mã như thế nào?",
+          "dap_an": [
+            "Có thể dùng mạch khuôn khác nhau tùy chiều promoter của từng gen",
+            "Luôn dùng chung một mạch khuôn cho mọi gen trên cùng phân tử DNA",
+            "Luôn phiên mã đồng thời cả hai mạch DNA cho mỗi gen trên phân tử",
+            "Chỉ phiên mã mạch (+) vì mạch này có trình tự giống với phân tử RNA"
+          ],
+          "giai_thich": "Hình slide 4: gen a và c được phiên mã từ mạch (+) làm khuôn, gen b từ mạch (−); mạch khuôn của mỗi gen do chiều promoter quyết định.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 1; slide Bài 4, trang 4"
+        },
+        {
+          "id": "c4-08",
+          "hoi": "Cấu trúc lõi của promoter ở E. coli gồm những vùng nào?",
+          "dap_an": [
+            "Vùng [−35] .. spacer .. vùng [−10]",
+            "Vùng [−10] .. spacer .. vùng [+10]",
+            "TATA box .. spacer .. Inr",
+            "Vùng [−35] .. spacer .. vùng [+1]"
+          ],
+          "giai_thich": "Promoter E. coli có 2 vùng lõi quan trọng là [−35] và [−10], cách nhau bởi spacer; sự sắp xếp này tạo chiều promoter.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 5"
+        },
+        {
+          "id": "c4-09",
+          "hoi": "Trình tự bảo tồn (consensus) của vùng [−10] ở promoter E. coli là gì?",
+          "dap_an": [
+            "TATAAT",
+            "TTGACA",
+            "AAUAAA",
+            "TATAAA"
+          ],
+          "giai_thich": "Vùng [−35] có consensus TTGACA, vùng [−10] có TATAAT; hai vùng cách nhau 15–17 bp. AAUAAA là tín hiệu polyA trên pre-mRNA.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 5"
+        },
+        {
+          "id": "c4-10",
+          "hoi": "Vì sao vùng [−10] của promoter E. coli là nơi khởi phát tách mạch DNA?",
+          "dap_an": [
+            "Vì giàu AT, liên kết giữa hai mạch yếu hơn nên dễ tách",
+            "Vì giàu GC, liên kết giữa hai mạch mạnh nên giữ khuôn",
+            "Vì chứa trình tự rut để protein Rho bám vào và tách",
+            "Vì là nơi nhân tố σ cắt đứt mạch đôi DNA thành hai"
+          ],
+          "giai_thich": "Vùng [−10] chứa trình tự bảo tồn giàu AT; cặp A=T chỉ có 2 liên kết H nên tách mạch dễ hơn vùng giàu GC.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 5"
+        },
+        {
+          "id": "c4-11",
+          "hoi": "Khoảng cách (spacer) giữa vùng [−35] và [−10] ở promoter E. coli là bao nhiêu?",
+          "dap_an": [
+            "15–17 bp",
+            "3–9 bp",
+            "25–30 bp",
+            "8–10 bp"
+          ],
+          "giai_thich": "Hình slide 5: −35 (TTGACA) – 15–17 bp – −10 (TATAAT). 3–9 bases là khoảng cách giữa Shine-Dalgarno và AUG ở mRNA vi khuẩn.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 5"
+        },
+        {
+          "id": "c4-12",
+          "hoi": "Thành phần core enzyme RNA polymerase của E. coli là gì?",
+          "dap_an": [
+            "2αββ’ω",
+            "2αββ’ωσ",
+            "αββ’σ",
+            "2α2β2ω"
+          ],
+          "giai_thich": "Core enzyme = 2αββ’ω. Khi gắn thêm σ thành holoenzyme (2αββ’ω + σ).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 6"
+        },
+        {
+          "id": "c4-13",
+          "hoi": "Trong RNA polymerase E. coli, tiểu phần nào tạo trung tâm xúc tác tổng hợp RNA?",
+          "dap_an": [
+            "β và β’",
+            "α-CTD",
+            "ω",
+            "σ"
+          ],
+          "giai_thich": "ββ’ tạo trung tâm xúc tác (tách mạch, tổng hợp RNA); α-CTD nhận diện promoter (trình tự UP); ω gắn kết; σ giúp nhận diện promoter đặc hiệu.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 6"
+        },
+        {
+          "id": "c4-14",
+          "hoi": "Đặc điểm nào phân biệt RNA polymerase với DNA polymerase trong khởi mào tổng hợp?",
+          "dap_an": [
+            "RNA polymerase không cần đầu 3’OH tự do để khởi mào",
+            "RNA polymerase cần một mồi RNA có đầu 3’OH tự do",
+            "RNA polymerase chỉ dùng dNTPs làm nguyên liệu tổng hợp",
+            "RNA polymerase không cần mạch DNA nào để làm khuôn"
+          ],
+          "giai_thich": "RNA pol dùng ssDNA(−) làm khuôn, rNTPs làm nguyên liệu, Mg2+ làm co-factor và không cần 3’OH tự do để khởi mào; DNA polymerase cần mồi.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 6"
+        },
+        {
+          "id": "c4-15",
+          "hoi": "Ion nào làm co-factor cho phản ứng tổng hợp mạch của RNA polymerase theo hình slide?",
+          "dap_an": [
+            "Mg2+",
+            "Ca2+",
+            "Zn2+",
+            "Fe2+"
+          ],
+          "giai_thich": "Slide: ion ++ làm nhân tố đồng hoạt động; hình RNA pol ghi Mg2+ tại vị trí hoạt động (active site).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 6"
+        },
+        {
+          "id": "c4-16",
+          "hoi": "Vai trò của nhân tố σ (sigma) ở E. coli là gì?",
+          "dap_an": [
+            "Giúp RNA pol nhận diện, gắn promoter đặc hiệu để khởi sự phiên mã",
+            "Giúp RNA pol nhận diện terminator để kết thúc phiên mã đúng chỗ",
+            "Giúp RNA pol thủy giải ATP để tách RNA khỏi mạch khuôn",
+            "Giúp RNA pol sửa sai các nucleotide gắn nhầm vào RNA"
+          ],
+          "giai_thich": "σ tương tác với RNA pol tạo holoenzyme, giúp nhận diện/gắn promoter đặc hiệu → khởi sự phiên mã gen/cụm gen một cách chuyên biệt.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 7"
+        },
+        {
+          "id": "c4-17",
+          "hoi": "Vì sao E. coli biểu hiện nhiều nhóm nhân tố σ khác nhau?",
+          "dap_an": [
+            "Mỗi nhóm σ nhận diện promoter có trình tự lõi khác nhau, giúp phiên mã chuyên biệt từng nhóm gen",
+            "Mỗi nhóm σ dùng một loại rNTP riêng biệt, giúp tăng tốc độ tổng hợp RNA chung của cả tế bào",
+            "Mỗi nhóm σ thay thế một tiểu phần β’ bị hỏng, giúp duy trì hoạt động của core enzyme lâu hơn",
+            "Mỗi nhóm σ kết thúc phiên mã ở một kiểu terminator riêng, giúp tách RNA của từng nhóm gen"
+          ],
+          "giai_thich": "Các promoter có trình tự lõi khác nhau; σ có nhiều domain tương tác đặc hiệu với trình tự lõi, nên mỗi nhóm σ (σ chính nhóm 1, σ thay thế nhóm 2–4) cho phép phiên mã chuyên biệt các gen khác nhau.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 7–8"
+        },
+        {
+          "id": "c4-18",
+          "hoi": "α-CTD của RNA polymerase E. coli nhận diện phần nào của promoter?",
+          "dap_an": [
+            "Trình tự UP nằm phía trước vùng [−35]",
+            "Vùng [−10] giàu AT nằm ngay trước +1",
+            "Vùng kẹp tóc nằm cuối đơn vị phiên mã",
+            "Trình tự Shine-Dalgarno trên mRNA"
+          ],
+          "giai_thich": "Slide 8: CTD của 2 tiểu phần α nhận diện gắn với trình tự UP của promoter; σ tương tác với các trình tự lõi (−35, −10).",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 2; slide Bài 4, trang 8"
+        },
+        {
+          "id": "c4-19",
+          "hoi": "Ba giai đoạn của phiên mã là gì?",
+          "dap_an": [
+            "Khởi sự, tổng hợp RNA (kéo dài), kết thúc",
+            "Hoạt hóa, chuyển vị ribosome, kết thúc",
+            "Khởi sự, cắt-ghép exon, gắn đuôi polyA",
+            "Tháo xoắn, sao chép mạch, nối Okazaki"
+          ],
+          "giai_thich": "Khởi sự (promoter, RNA pol, nhân tố hỗ trợ), tổng hợp RNA (RNA pol, rNTPs, ssDNA, ion), kết thúc (terminator, nhân tố kết thúc).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 9"
+        },
+        {
+          "id": "c4-20",
+          "hoi": "Khi nào khởi sự phiên mã ở E. coli được xem là thành công?",
+          "dap_an": [
+            "Khi đã có oligo-RNA ổn định và RNA pol rời khỏi nhân tố σ",
+            "Khi RNA pol vừa gắn được vào vùng [−35] của promoter",
+            "Khi RNA pol gặp tín hiệu kết thúc ở vùng terminator",
+            "Khi σ gắn thêm vào core enzyme tạo thành holoenzyme"
+          ],
+          "giai_thich": "Sau tách mạch ở [−10], rNTPs được dùng từ +1 tạo oligo-RNA ổn định; RNA pol rời σ, ổn định mạch và tiếp tục kéo dài RNA ở đầu 3’.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 10"
+        },
+        {
+          "id": "c4-21",
+          "hoi": "Trong phiên mã, rNTPs bắt đầu được sử dụng từ vị trí nào trên ssDNA(−)?",
+          "dap_an": [
+            "Vị trí +1",
+            "Vị trí −10",
+            "Vị trí −35",
+            "Vị trí −1"
+          ],
+          "giai_thich": "Phiên mã bắt đầu từ +1; vùng −10 là nơi tách mạch, −35 là vùng nhận diện, −1 không được phiên mã.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 10"
+        },
+        {
+          "id": "c4-22",
+          "hoi": "Trong giai đoạn kéo dài, liên kết nào được hình thành giữa các rNu của RNA?",
+          "dap_an": [
+            "Liên kết phosphodiester, kéo dài ở đầu 3’",
+            "Liên kết peptide, kéo dài RNA ở đầu 5’",
+            "Liên kết hydrogen, kéo dài RNA ở đầu 3’",
+            "Liên kết glycoside, kéo dài RNA ở đầu 5’"
+          ],
+          "giai_thich": "rNTPs bắt cặp với ssDNA(−) theo A=U, G≡C và được nối bằng liên kết phosphodiester, kéo dài RNA ở đầu 3’.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 11"
+        },
+        {
+          "id": "c4-23",
+          "hoi": "rNu ở đầu 5’ của RNA mới phiên mã (trước khi biến đổi) ở trạng thái nào?",
+          "dap_an": [
+            "Còn 3 nhóm phosphate (PPP)",
+            "Còn 1 nhóm phosphate (P)",
+            "Có đầu 5’OH tự do",
+            "Đã gắn mũ m7G"
+          ],
+          "giai_thich": "Slide 11: rNu đầu mạch 5’-RNA ở trạng thái PPP (triphosphate); mũ m7G chỉ có ở mRNA Eukaryote sau biến đổi.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 11"
+        },
+        {
+          "id": "c4-24",
+          "hoi": "Theo hình slide, bóng phiên mã của E. coli có đặc điểm định lượng nào?",
+          "dap_an": [
+            "Tháo xoắn ~17 bp, lai RNA–DNA ~8 bp, ~50 nt/giây",
+            "Tháo xoắn ~8 bp, lai RNA–DNA ~17 bp, ~50 nt/giây",
+            "Tháo xoắn ~17 bp, lai RNA–DNA ~8 bp, ~500 nt/giây",
+            "Tháo xoắn ~50 bp, lai RNA–DNA ~17 bp, ~8 nt/giây"
+          ],
+          "giai_thich": "Hình slide 11: vùng tháo xoắn ~17 bp, vùng lai RNA–DNA ~8 bp, RNA pol di chuyển ~50 nt/giây, sai ~1/10^4 nucleotide.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 11"
+        },
+        {
+          "id": "c4-25",
+          "hoi": "Kết thúc phiên mã phụ thuộc protein Rho (ρ) diễn ra thế nào?",
+          "dap_an": [
+            "Rho gắn trình tự rut trên RNA, dùng ATP tách RNA khỏi mạch khuôn",
+            "Rho gắn vùng [−10] của promoter, ngăn RNA pol khởi sự thêm lần nữa",
+            "Rho cắt RNA tại tín hiệu AAUAAA rồi gắn đuôi polyA vào đầu 3’",
+            "Rho tạo kẹp tóc trên RNA, làm đứt liên kết A–U ở vùng lai"
+          ],
+          "giai_thich": "RNA pol phiên mã terminator tạo trình tự rut ở RNA-3’; protein Rho (hexamer) gắn rut, dùng ATP tách RNA khỏi khuôn/bóng phiên mã.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 12–13"
+        },
+        {
+          "id": "c4-26",
+          "hoi": "Kết thúc phiên mã không phụ thuộc Rho dựa vào cấu trúc nào trên RNA?",
+          "dap_an": [
+            "Kẹp tóc (hairpin) theo sau là polyU",
+            "Trình tự rut để protein Rho bám vào",
+            "Đuôi polyA dài gắn ở đầu 3’ RNA",
+            "Mũ m7G gắn ở đầu 5’ của RNA"
+          ],
+          "giai_thich": "Terminator có 2 trình tự lặp lại ngược chiều + vùng giàu A; RNA tạo kẹp tóc rồi polyU ở 3’ → RNA rời khuôn.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 14"
+        },
+        {
+          "id": "c4-27",
+          "hoi": "Vì sao chuỗi polyU sau kẹp tóc giúp RNA dễ rời khỏi mạch DNA khuôn?",
+          "dap_an": [
+            "Cặp A–U chỉ có 2 liên kết H nên vùng lai RNA:DNA yếu, dễ tách",
+            "Cặp A–U có 3 liên kết H nên giữ RNA quá chặt, enzyme phải cắt",
+            "PolyU được protein Rho nhận diện và kéo RNA ra khỏi DNA khuôn",
+            "PolyU bị RNA pol thủy giải thành rNMP làm đứt mạch RNA"
+          ],
+          "giai_thich": "Kẹp tóc làm RNA pol dừng; vùng lai còn lại là polyU (RNA) – polyA (DNA) chỉ có liên kết H A–U yếu, mất tương tác nên RNA rời mạch DNA(−).",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 14"
+        },
+        {
+          "id": "c4-28",
+          "hoi": "Đặc điểm của terminator kiểu không phụ thuộc Rho trên DNA là gì?",
+          "dap_an": [
+            "2 trình tự lặp lại ngược chiều và vùng giàu A liền kề",
+            "2 trình tự lặp lại cùng chiều và vùng giàu GC liền kề",
+            "Trình tự TATAAT nằm ngay sau vùng mã hóa RNA",
+            "Trình tự rut giàu C và nghèo G trên mạch mang mã"
+          ],
+          "giai_thich": "Hai trình tự lặp lại ngược chiều có khả năng bắt cặp bổ sung khi ở mạch đơn (tạo kẹp tóc); vùng giàu A trên khuôn cho polyU trên RNA.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 3; slide Bài 4, trang 14"
+        },
+        {
+          "id": "c4-29",
+          "hoi": "Motif nào ở promoter Eukaryote giàu AT, là vị trí tách mạch khởi phát phiên mã?",
+          "dap_an": [
+            "TATA box, nằm trước +1",
+            "Inr, nằm ngay quanh +1",
+            "DPE, nằm sau +1",
+            "BRE, nằm trước TATA box"
+          ],
+          "giai_thich": "TATA box (−31 đến −26) giàu AT là vị trí tách mạch khởi phát phiên mã, phân bố trước vị trí +1.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 15"
+        },
+        {
+          "id": "c4-30",
+          "hoi": "Theo bảng slide, motif promoter phổ biến nhất ở gen người là gì?",
+          "dap_an": [
+            "Inr (khoảng 50%)",
+            "TATA box (khoảng 50%)",
+            "BRE (khoảng 50%)",
+            "DPE (khoảng 50%)"
+          ],
+          "giai_thich": "Bảng slide 15: Inr ~50%, BRE ~25%, DPE ~12%, TATA ~12%. TATA box tuy kinh điển nhưng chỉ có ở khoảng 12% promoter người.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 15"
+        },
+        {
+          "id": "c4-31",
+          "hoi": "Ba loại RNA polymerase ở Eukaryote phiên mã các nhóm gen nào?",
+          "dap_an": [
+            "Pol I – rRNA; pol II – mRNA; pol III – tRNA",
+            "Pol I – mRNA; pol II – rRNA; pol III – tRNA",
+            "Pol I – tRNA; pol II – mRNA; pol III – rRNA",
+            "Pol I – rRNA; pol II – tRNA; pol III – mRNA"
+          ],
+          "giai_thich": "Slide 16: RNA pol I/II/III phiên mã 3 nhóm gen mã hóa cho rRNA/mRNA/tRNA.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 16"
+        },
+        {
+          "id": "c4-32",
+          "hoi": "RNA polymerase Eukaryote nhận diện promoter như thế nào?",
+          "dap_an": [
+            "Không gắn trực tiếp, cần các nhân tố phiên mã cơ bản (TFs) gắn trước",
+            "Gắn trực tiếp vùng [−35] và [−10] nhờ tiểu phần σ luôn đi kèm enzyme",
+            "Gắn trực tiếp vào TATA box nhờ đuôi CTD đã phosphoryl hóa của enzyme",
+            "Nhận diện cap 5’ trên một RNA mồi có sẵn trong nhân để bắt đầu phiên mã"
+          ],
+          "giai_thich": "RNA pol I/II/III không tương tác trực tiếp với promoter mà cần nhân tố phiên mã cơ bản (TFIs/TFIIs/TFIIIs) nhận diện trình tự lõi rồi lôi kéo RNA pol.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 16"
+        },
+        {
+          "id": "c4-33",
+          "hoi": "Trong khởi sự phiên mã của RNA pol II, nhân tố nào chứa TBP gắn vào TATA box đầu tiên?",
+          "dap_an": [
+            "TFIID",
+            "TFIIH",
+            "TFIIF",
+            "TFIIE"
+          ],
+          "giai_thich": "Hình slide 17: TFIID (có TBP) gắn TATA box, rồi TFIIA, TFIIB; TFIIF đi cùng RNA pol II; TFIIE, TFIIH vào sau cùng.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 17"
+        },
+        {
+          "id": "c4-34",
+          "hoi": "Sự kiện nào giúp RNA pol II rời phức hợp tiền khởi sự để bắt đầu phiên mã?",
+          "dap_an": [
+            "Phosphoryl hóa đuôi CTD của RNA pol II",
+            "Gắn nhân tố σ vào tiểu phần β’",
+            "Methyl hóa TATA box trên mạch khuôn",
+            "Gắn đuôi polyA vào đầu 3’ RNA mới"
+          ],
+          "giai_thich": "Chú thích hình slide 17: pol II rời phức hợp khi có rNTPs và sau khi các serine trên đuôi CTD (lặp heptapeptide Tyr-Ser-Pro-Thr-Ser-Pro-Ser) được phosphoryl hóa.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 17"
+        },
+        {
+          "id": "c4-35",
+          "hoi": "Điểm khác nhau cơ bản giữa nhân tố σ (E. coli) và nhân tố phiên mã cơ bản (Eukaryote) là gì?",
+          "dap_an": [
+            "σ gắn vào RNA pol tạo holoenzyme; TFs gắn promoter trước rồi lôi kéo RNA pol",
+            "σ gắn promoter trước rồi lôi kéo RNA pol; TFs gắn vào RNA pol tạo holoenzyme",
+            "σ chỉ tham gia kết thúc phiên mã; TFs chỉ tham gia khởi sự phiên mã",
+            "σ chỉ có một loại duy nhất; TFs chỉ có một loại duy nhất cho mọi gen"
+          ],
+          "giai_thich": "Cả hai đều giúp nhận diện promoter đặc hiệu. Ở E. coli σ gắn với core enzyme thành holoenzyme; ở Eukaryote TFs (TFIID…) gắn trình tự lõi trước rồi lôi kéo RNA pol II.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 7, 16–17"
+        },
+        {
+          "id": "c4-36",
+          "hoi": "Loại RNA nào có chức năng làm “adaptor” giữa mRNA và amino acid?",
+          "dap_an": [
+            "tRNA",
+            "snRNA",
+            "miRNA",
+            "snoRNA"
+          ],
+          "giai_thich": "Slide 19: mRNA mã hóa protein; tRNA làm adaptor giữa mRNA và amino acid; snRNA xử lý trong nhân (cắt-nối); snoRNA biến đổi hóa học RNA; miRNA điều hòa biểu hiện gen.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 19"
+        },
+        {
+          "id": "c4-37",
+          "hoi": "Loại RNA nào tham gia các quá trình trong nhân như cắt-nối (splicing)?",
+          "dap_an": [
+            "snRNA",
+            "siRNA",
+            "lncRNA",
+            "rRNA"
+          ],
+          "giai_thich": "snRNA hoạt động trong nhân (ví dụ splicing, là thành phần các snRNP U1, U2, U4, U5, U6); siRNA làm im lặng gen; lncRNA điều hòa; rRNA tạo ribosome.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 4; slide Bài 4, trang 19, 28"
+        },
+        {
+          "id": "c4-38",
+          "hoi": "Ba hoạt động biến đổi sau phiên mã tạo tRNA trưởng thành là gì?",
+          "dap_an": [
+            "Cắt-nối pre-tRNA, gắn CCA ở đầu 3’, biến đổi base đặc biệt",
+            "Gắn mũ 5’, cắt-ghép exon, gắn thêm đuôi polyA ở đầu 3’",
+            "Methyl hóa base, cắt pre-tRNA thành 18S, 5.8S và 28S",
+            "Gắn amino acid, gắn anticodon, gắn tRNA vào ribosome"
+          ],
+          "giai_thich": "Pre-tRNA được cắt-nối loại vùng không cần, tổng hợp CCA ở 3’ và biến đổi base (ribothymidine, pseudouridine…) để ổn định cấu hình.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 5; slide Bài 4, trang 22"
+        },
+        {
+          "id": "c4-39",
+          "hoi": "Mục đích của việc biến đổi base ở một số rNu đặc biệt của tRNA là gì?",
+          "dap_an": [
+            "Ổn định cấu hình không gian của tRNA",
+            "Tạo trình tự CCA để gắn amino acid",
+            "Tạo liên kết peptide với amino acid",
+            "Loại bỏ intron khỏi pre-tRNA"
+          ],
+          "giai_thich": "Slide 22: biến đổi base tại một số rNu đặc biệt → ổn định cấu hình không gian. CCA được tổng hợp riêng ở 3’; intron được loại bằng cắt-nối.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 5; slide Bài 4, trang 22"
+        },
+        {
+          "id": "c4-40",
+          "hoi": "Pre-rRNA 45S ở Eukaryote được xử lý thành những rRNA nào?",
+          "dap_an": [
+            "18S, 5.8S và 28S",
+            "16S, 23S và 5S",
+            "18S, 23S và 5S",
+            "16S, 5.8S và 28S"
+          ],
+          "giai_thich": "Pre-rRNA 45S (~13.000 nu) → 18S, 5.8S, 28S; 5S rRNA được phiên mã riêng. 16S, 23S, 5S là rRNA của Prokaryote (từ pre-rRNA 30S).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 5; slide Bài 4, trang 23–24"
+        },
+        {
+          "id": "c4-41",
+          "hoi": "Điểm khác biệt về rRNA 5S giữa Eukaryote và Prokaryote theo slide là gì?",
+          "dap_an": [
+            "Ở Eukaryote 5S phiên mã riêng, ở Prokaryote 5S nằm trong pre-rRNA 30S",
+            "Ở Eukaryote 5S nằm trong pre-rRNA 45S, ở Prokaryote 5S phiên mã riêng",
+            "Ở cả hai, 5S đều được cắt ra từ cùng một pre-rRNA chung với tRNA",
+            "Ở cả hai, 5S đều do RNA pol II phiên mã cùng với các mRNA khác"
+          ],
+          "giai_thich": "Hình slide 24: pre-rRNA 30S của Prokaryote cho 16S, tRNA, 23S, 5S; Eukaryote 45S cho 18S, 5.8S, 28S và 5S rRNA được phiên mã riêng từ gen khác.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 5; slide Bài 4, trang 24"
+        },
+        {
+          "id": "c4-42",
+          "hoi": "Bước đầu tiên trong xử lý pre-rRNA (cả Prokaryote và Eukaryote) là gì?",
+          "dap_an": [
+            "Methyl hóa base và C-2’ của một số ribose",
+            "Gắn trình tự CCA vào đầu 3’ của pre-rRNA",
+            "Gắn mũ m7G vào đầu 5’ của pre-rRNA",
+            "Gắn đuôi polyA vào đầu 3’ của pre-rRNA"
+          ],
+          "giai_thich": "Hình slide 24: methyl được gắn vào base và C-2’ ribose (đánh dấu vùng giữ lại), sau đó pre-rRNA được cắt và tỉa để tạo rRNA trưởng thành.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 5; slide Bài 4, trang 24"
+        },
+        {
+          "id": "c4-43",
+          "hoi": "Ba hoạt động biến đổi pre-mRNA thành mRNA ở Eukaryote là gì?",
+          "dap_an": [
+            "Gắn cap 5’, cắt-ghép exon, tổng hợp polyA 3’",
+            "Gắn CCA 3’, cắt-ghép exon, biến đổi base",
+            "Gắn cap 5’, methyl hóa 45S, gắn CCA 3’",
+            "Cắt-ghép exon, gắn amino acid, gắn polyA"
+          ],
+          "giai_thich": "Slide 26: methyl hóa đầu 5’-pre-mRNA (cap), cắt-ghép exon (splicing), tổng hợp polyA đầu 3’; CTD của RNA pol II kiểm soát các hoạt động này.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 26"
+        },
+        {
+          "id": "c4-44",
+          "hoi": "Mũ (cap) 5’ được nối với đầu pre-mRNA bằng liên kết gì?",
+          "dap_an": [
+            "Liên kết 5’-5’ triphosphate",
+            "Liên kết 3’-5’ phosphodiester",
+            "Liên kết 2’-5’ phosphodiester",
+            "Liên kết 5’-3’ triphosphate"
+          ],
+          "giai_thich": "rGuanine được gắn với rNu đầu 5’ của pre-mRNA bằng liên kết 5’-5’ triphosphate, sau đó G mới và vài rNu kế tiếp được methyl hóa.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 27"
+        },
+        {
+          "id": "c4-45",
+          "hoi": "Thành phần nào của RNA pol II kiểm soát các hoạt động biến đổi sau phiên mã của pre-mRNA?",
+          "dap_an": [
+            "Đuôi CTD (carboxyl-terminal domain)",
+            "Tiểu phần σ gắn kèm với enzyme",
+            "Trung tâm xúc tác ββ’ của enzyme",
+            "Tiểu phần ω giữ gắn kết enzyme"
+          ],
+          "giai_thich": "Slide 26: CTD của RNA pol II mang các nhân tố gắn cap, splicing và xử lý đầu 3’, kiểm soát biến đổi pre-mRNA. σ, ββ’, ω là tiểu phần RNA pol của E. coli.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 26"
+        },
+        {
+          "id": "c4-46",
+          "hoi": "Chức năng nào sau đây KHÔNG phải của mũ 5’ trên mRNA theo slide?",
+          "dap_an": [
+            "Làm khuôn để gắn trình tự CCA cho tRNA",
+            "Tham gia vận chuyển mRNA ra khỏi nhân",
+            "Bảo vệ mRNA khỏi bị enzyme phân hủy",
+            "Kiểm soát hoạt động khởi sự dịch mã"
+          ],
+          "giai_thich": "Slide 25: cap-5’ giúp vận chuyển mRNA, bảo vệ mRNA, kiểm soát khởi sự dịch mã. CCA là biến đổi của tRNA, không liên quan cap.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 25"
+        },
+        {
+          "id": "c4-47",
+          "hoi": "Vai trò chính của đuôi poly(A) ở đầu 3’ mRNA là gì?",
+          "dap_an": [
+            "Quyết định “tuổi thọ” mRNA và kiểm soát hiệu quả dịch mã",
+            "Mang thông tin mã hóa cho các amino acid ở cuối chuỗi",
+            "Gắn ribosome nhờ bắt cặp bổ sung với rRNA 16S của 30S",
+            "Đánh dấu vị trí cắt 5’ của intron trong quá trình splicing"
+          ],
+          "giai_thich": "Slide 25: mRNA-3’-poly(A) liên quan “tuổi thọ” mRNA và kiểm soát hiệu quả dịch mã; polyA nằm sau CDS nên không mã hóa amino acid.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 25"
+        },
+        {
+          "id": "c4-48",
+          "hoi": "Ba vị trí nhận biết cơ bản trên intron trong cắt-ghép exon là gì?",
+          "dap_an": [
+            "Vị trí cắt 5’, A nhánh, vị trí cắt 3’",
+            "TATA box, Inr và DPE trên pre-mRNA",
+            "Vùng −35, vùng −10 và vị trí +1",
+            "Cap 5’, trình tự AAUAAA và đuôi polyA"
+          ],
+          "giai_thich": "Slide 28: 3 vị trí nhận biết trên intron/pre-mRNA là vị trí cắt 5’ (GU…), vị trí A nhánh và vị trí cắt 3’ (…AG).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 28"
+        },
+        {
+          "id": "c4-49",
+          "hoi": "Spliceosome gồm những snRNP nào?",
+          "dap_an": [
+            "U1, U2, U4, U5, U6",
+            "U1, U2, U3, U4, U5",
+            "U2, U3, U4, U6, U7",
+            "U1, U3, U5, U6, U7"
+          ],
+          "giai_thich": "Phức hợp cắt-nối gồm U1, U2, U4, U5, U6; mỗi cái là snRNP (snRNA + protein).",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 28"
+        },
+        {
+          "id": "c4-50",
+          "hoi": "Trong splicing, snRNP nào gắn lên vị trí cắt 5’ và A nhánh của intron?",
+          "dap_an": [
+            "U1 gắn vị trí cắt 5’, U2 gắn A nhánh",
+            "U2 gắn vị trí cắt 5’, U1 gắn A nhánh",
+            "U4 gắn vị trí cắt 5’, U6 gắn A nhánh",
+            "U5 gắn vị trí cắt 5’, U4 gắn A nhánh"
+          ],
+          "giai_thich": "U1, U2 nhận diện – gắn lên vị trí cắt 5’ và A nhánh; sau đó U4/U5/U6 vào, U1 và U4 rời đi.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 30"
+        },
+        {
+          "id": "c4-51",
+          "hoi": "Trong splicing, những snRNP nào rời khỏi phức hợp trước khi phản ứng cắt-nối xảy ra?",
+          "dap_an": [
+            "U1 và U4",
+            "U2 và U6",
+            "U5 và U6",
+            "U2 và U5"
+          ],
+          "giai_thich": "Slide 30: U4/U5/U6 tương tác U1/U2; sau đó U1 rời đi, U4 rời đi; U6 giữ 5’-intron gần A nhánh, U5 giữ hai exon gần nhau.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 30"
+        },
+        {
+          "id": "c4-52",
+          "hoi": "Vai trò của U5 trong cắt-ghép exon là gì?",
+          "dap_an": [
+            "Giữ đầu 3’ exon 1 và 5’ exon 2 gần nhau để nối",
+            "Gắn vị trí cắt 5’ của intron ở bước đầu tiên",
+            "Giữ đầu 5’ intron gần vị trí A nhánh để cắt",
+            "Gắn trình tự AAUAAA để cắt đầu 3’ pre-mRNA"
+          ],
+          "giai_thich": "U5 liên kết với trình tự 3’AG của exon 1 và 5’G của exon 2 → đưa hai đầu exon gần nhau; U6 mới là snRNP giữ 5’-intron gần A nhánh; U1 gắn vị trí cắt 5’.",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 30"
+        },
+        {
+          "id": "c4-53",
+          "hoi": "Sản phẩm phụ của phản ứng cắt-ghép exon có dạng gì?",
+          "dap_an": [
+            "Intron dạng thòng lọng (lariat) nối 5’-intron với rA nhánh",
+            "Intron dạng thẳng có thêm đuôi polyA dài gắn ở đầu 3’",
+            "Intron dạng vòng kín nối đầu 5’-intron với đầu 3’-intron",
+            "Exon dạng thòng lọng nối đầu 5’-exon với rA nhánh của intron"
+          ],
+          "giai_thich": "Đầu 5’ intron được cắt và nối với rA nhánh tạo cấu trúc thòng lọng (intron lariat); hai exon được nối với nhau (spliced exons).",
+          "kho": true,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 28, 30"
+        },
+        {
+          "id": "c4-54",
+          "hoi": "Tín hiệu polyA (polyA site) trên pre-mRNA là trình tự nào?",
+          "dap_an": [
+            "AAUAAA … G/U",
+            "TATAAT … GC",
+            "UUGACA … AU",
+            "AUG … UAA"
+          ],
+          "giai_thich": "Slide 31: tín hiệu AAUAAA … G/U; endonuclease cắt cách AAUAAA ~20 rNu về phía 3’.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 31"
+        },
+        {
+          "id": "c4-55",
+          "hoi": "Đặc điểm nào đúng với poly(A) polymerase?",
+          "dap_an": [
+            "Là RNA polymerase tổng hợp poly-rA mà không cần ssDNA làm khuôn",
+            "Là DNA polymerase tổng hợp polyT dựa trên mạch khuôn của gen",
+            "Là RNA polymerase cần mạch khuôn polyT trên DNA để tổng hợp",
+            "Là endonuclease cắt pre-mRNA cách trình tự AAUAAA khoảng 20 rNu"
+          ],
+          "giai_thich": "Poly(A) polymerase gắn ≥ 200–250 rA vào đầu 3’ pre-mRNA (dùng ATP) và không cần ssDNA làm khuôn; việc cắt do endonuclease thực hiện.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 31"
+        },
+        {
+          "id": "c4-56",
+          "hoi": "Hoạt động cắt pre-mRNA tại vị trí polyA còn có ý nghĩa gì đối với phiên mã?",
+          "dap_an": [
+            "Đồng thời cho phép kết thúc phiên mã",
+            "Đồng thời khởi sự một đơn vị phiên mã mới",
+            "Đồng thời loại bỏ toàn bộ các intron",
+            "Đồng thời gắn mũ m7G vào đầu 5’"
+          ],
+          "giai_thich": "Slide 31: endonuclease cắt pre-mRNA cách AAUAAA ~20 rNu về hướng 3’; hoạt động này đồng thời cho phép kết thúc phiên mã.",
+          "kho": false,
+          "nguon": "TT Chương 4, mục 6; slide Bài 4, trang 31"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "nhom": "Bài giảng",
+      "ten": "Bài 5 - Protein: dịch mã và biến đổi sau dịch mã",
+      "cau": [
+        {
+          "id": "c5-01",
+          "hoi": "Mã di truyền (genetic code) được định nghĩa là gì?",
+          "dap_an": [
+            "Bộ 3 nucleotide (codon) tương ứng 1 amino acid hoặc tín hiệu kết thúc",
+            "Bộ 2 nucleotide (doublet) tương ứng 1 amino acid hoặc tín hiệu mở đầu",
+            "Bộ 3 amino acid tương ứng 1 nucleotide trên mạch mang mã của gen",
+            "Bộ 4 nucleotide tương ứng 1 amino acid hoặc tín hiệu kết thúc"
+          ],
+          "giai_thich": "Mã di truyền là bộ ba nucleotide (codon); mỗi codon tương ứng 1 amino acid hoặc tín hiệu kết thúc (stop codon, *).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 3"
+        },
+        {
+          "id": "c5-02",
+          "hoi": "Tính “suy thoái” của mã di truyền có nghĩa là gì?",
+          "dap_an": [
+            "1 amino acid có thể được mã hóa bởi nhiều codon",
+            "1 codon có thể mã hóa cho nhiều amino acid",
+            "Một hệ thống mã dùng chung cho toàn bộ sinh giới",
+            "Mã được đọc liên tục, không trùng lắp"
+          ],
+          "giai_thich": "Ba tính chất: phổ quát (dùng chung cho sinh giới), suy thoái (1 a.a – nhiều codon), đặc hiệu (1 codon – chỉ 1 a.a).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 3"
+        },
+        {
+          "id": "c5-03",
+          "hoi": "Tính “đặc hiệu” của mã di truyền có nghĩa là gì?",
+          "dap_an": [
+            "1 codon chỉ mã hóa cho 1 amino acid",
+            "1 amino acid chỉ có 1 codon duy nhất",
+            "Mỗi loài có một bảng mã riêng biệt",
+            "Codon chỉ được đọc theo chiều 3’→5’"
+          ],
+          "giai_thich": "Đặc hiệu: 1 codon chỉ mã hóa 1 a.a. “1 a.a chỉ có 1 codon” chỉ đúng với vài ngoại lệ như Met, Trp.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 3"
+        },
+        {
+          "id": "c5-04",
+          "hoi": "Phát biểu nào đúng với “luật” đọc mã di truyền?",
+          "dap_an": [
+            "Đọc theo chiều 5’→3’ mRNA, liên tục, từ mã mở đầu đến mã kết thúc",
+            "Đọc theo chiều 3’→5’ mRNA, liên tục, từ mã kết thúc đến mã mở đầu",
+            "Đọc theo chiều 5’→3’ mRNA, các bộ ba gối lên nhau một nucleotide",
+            "Đọc theo chiều 5’→3’ mRNA, bỏ qua một nucleotide giữa hai bộ ba"
+          ],
+          "giai_thich": "Luật đọc: (1) chiều 5’→3’ mRNA; (2) đọc liên tục, không trùng lắp, không ngắt quãng; (3) bắt đầu từ mã mở đầu, kết thúc ở mã kết thúc.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 3"
+        },
+        {
+          "id": "c5-05",
+          "hoi": "Đột biến làm codon của một amino acid đổi thành codon kết thúc gọi là gì?",
+          "dap_an": [
+            "Đột biến vô nghĩa (nonsense)",
+            "Đột biến sai nghĩa (missense)",
+            "Đột biến lệch khung (frameshift)",
+            "Đột biến đồng nghĩa (silent)"
+          ],
+          "giai_thich": "Vô nghĩa (nonsense/stop): codon a.a → codon kết thúc. Sai nghĩa: a.a này → a.a khác. Lệch khung: mất/thêm nucleotide làm lệch khung đọc.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 4"
+        },
+        {
+          "id": "c5-06",
+          "hoi": "Mất 1 nucleotide trong vùng mã hóa thường gây dạng đột biến nào?",
+          "dap_an": [
+            "Đột biến lệch khung, làm thay đổi các codon phía sau",
+            "Đột biến sai nghĩa, chỉ thay đổi đúng một amino acid",
+            "Đột biến vô nghĩa, luôn tạo ngay một codon kết thúc",
+            "Không gây ảnh hưởng do mã di truyền có tính suy thoái"
+          ],
+          "giai_thich": "Mất/thêm một hoặc vài nucleotide (không phải bội số 3) làm lệch khung đọc, các codon từ chỗ đột biến về sau đều bị đọc khác.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 4"
+        },
+        {
+          "id": "c5-07",
+          "hoi": "Amino acid nào sau đây là ngoại lệ của tính suy thoái (chỉ có 1 codon)?",
+          "dap_an": [
+            "Met (AUG) và Trp (UGG)",
+            "Leu (UUA) và Ser (UCU)",
+            "Gly (GGA) và Ala (GCA)",
+            "Arg (AGA) và Ile (AUA)"
+          ],
+          "giai_thich": "Slide 5: một số mã không thể hiện tính suy thoái như Met (AUG), Trp (UGG). Leu, Ser, Arg có 6 codon.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 5"
+        },
+        {
+          "id": "c5-08",
+          "hoi": "Theo bảng ngoại lệ trong slide, codon UGA ở ty thể của nhiều loài được đọc thành gì?",
+          "dap_an": [
+            "Tryptophan (Trp)",
+            "Tín hiệu kết thúc (Stop)",
+            "Methionine (Met)",
+            "Arginine (Arg)"
+          ],
+          "giai_thich": "Bảng slide 5: UGA là Stop ở mã chung nhưng mã hóa Trp ở Mycoplasma, Spiroplasma và ty thể nhiều loài.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 5"
+        },
+        {
+          "id": "c5-09",
+          "hoi": "Ở ty thể động vật có vú, codon AUA được đọc thành amino acid nào theo bảng slide?",
+          "dap_an": [
+            "Methionine (Met)",
+            "Isoleucine (Ile)",
+            "Leucine (Leu)",
+            "Threonine (Thr)"
+          ],
+          "giai_thich": "Mã chung: AUA là Ile; bảng slide 5 ghi AUA là Met ở ty thể động vật có vú.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 5"
+        },
+        {
+          "id": "c5-10",
+          "hoi": "Khi biểu hiện gen người (như insulin) trong E. coli, cần lưu ý ngoại lệ nào của mã di truyền?",
+          "dap_an": [
+            "Ngoại lệ của tính phổ quát: một số codon được đọc khác giữa các hệ thống dịch",
+            "Ngoại lệ của tính đặc hiệu: một codon mã hóa cho nhiều amino acid khác nhau",
+            "Ngoại lệ của luật đọc: E. coli đọc mã di truyền theo chiều 3’→5’ của mRNA",
+            "Ngoại lệ của khung đọc: E. coli đọc mã theo từng bộ hai nucleotide liên tiếp"
+          ],
+          "giai_thich": "Câu hỏi slide 9 gắn với mục ngoại lệ: một số codon được hệ thống dịch của một số loài/ty thể/lục lạp đọc khác bảng mã chung, nên phải kiểm tra trình tự trước khi chuyển sang hệ thống khác.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 1; slide Bài 5, trang 5, 9"
+        },
+        {
+          "id": "c5-11",
+          "hoi": "Theo thuyết Wobble, vị trí bắt cặp nào không hoàn toàn tuân theo A=U, G≡C?",
+          "dap_an": [
+            "rNu thứ 3 của codon với rNu thứ 1 của anticodon",
+            "rNu thứ 1 của codon với rNu thứ 3 của anticodon",
+            "rNu thứ 2 của codon với rNu thứ 2 của anticodon",
+            "rNu thứ 1 của codon với rNu thứ 1 của anticodon"
+          ],
+          "giai_thich": "Wobble (Crick): bắt cặp giữa rNu 3 của codon (đầu 3’) và rNu 1 của anticodon (đầu 5’) linh hoạt; hai vị trí còn lại bắt cặp chuẩn.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 6"
+        },
+        {
+          "id": "c5-12",
+          "hoi": "Theo thuyết Wobble, các codon được đọc bởi cùng 1 anticodon có đặc điểm gì?",
+          "dap_an": [
+            "Giống nhau ở 2 rNu đầu",
+            "Giống nhau ở 2 rNu cuối",
+            "Giống nhau ở rNu giữa",
+            "Khác nhau ở cả 3 rNu"
+          ],
+          "giai_thich": "1 anticodon đọc được nhiều codon giống nhau ở 2 rNu đầu (khác ở vị trí 3 – vị trí wobble).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 6"
+        },
+        {
+          "id": "c5-13",
+          "hoi": "Số loại tRNA tham gia dịch mã trong tế bào theo slide là bao nhiêu?",
+          "dap_an": [
+            "Hơn 20 và ít hơn 61 loại",
+            "Đúng 20 loại, mỗi loại một amino acid",
+            "Đúng 61 loại, mỗi loại một codon",
+            "Đúng 64 loại, kể cả codon kết thúc"
+          ],
+          "giai_thich": "Nhờ wobble, 1 tRNA đọc được nhiều codon nên tế bào không cần 61 loại tRNA, nhưng cần nhiều hơn 20 vì một số a.a có codon khác nhau ở 2 rNu đầu.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 6"
+        },
+        {
+          "id": "c5-14",
+          "hoi": "Theo bảng wobble của slide, inosine (I) ở vị trí 1 của anticodon có thể bắt cặp với những base nào ở vị trí 3 của codon?",
+          "dap_an": [
+            "U, C hoặc A",
+            "Chỉ base G",
+            "C hoặc U",
+            "A hoặc G"
+          ],
+          "giai_thich": "Bảng slide 6: anticodon vị trí 1 là I đọc U, C hoặc A; G đọc C hoặc U; U đọc A hoặc G; C chỉ đọc G; A chỉ đọc U.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 6"
+        },
+        {
+          "id": "c5-15",
+          "hoi": "Theo bảng wobble, anticodon có U ở vị trí 1 đọc được codon có base nào ở vị trí 3?",
+          "dap_an": [
+            "A hoặc G",
+            "C hoặc U",
+            "U, C hoặc A",
+            "Chỉ A"
+          ],
+          "giai_thich": "Bảng slide 6: U ở vị trí 1 (wobble) của anticodon bắt cặp được với A hoặc G ở vị trí 3 của codon.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 6"
+        },
+        {
+          "id": "c5-16",
+          "hoi": "Leucine có 6 codon: UUA, UUG, CUU, CUC, CUA, CUG. Dựa vào bảng wobble trên slide, tế bào cần tối thiểu bao nhiêu loại tRNA để đọc hết?",
+          "dap_an": [
+            "3 loại tRNA",
+            "2 loại tRNA",
+            "6 loại tRNA",
+            "4 loại tRNA"
+          ],
+          "giai_thich": "UUA/UUG cùng 2 rNu đầu nên 1 anticodon có U ở vị trí 1 đọc cả hai. CUU, CUC, CUA đọc bằng anticodon có I. CUG cần thêm 1 anticodon (C hoặc U ở vị trí 1). Hai nhóm UU- và CU- khác rNu đầu nên không dùng chung tRNA. Tổng 3 (đáp số tự suy từ bảng slide).",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 6, 9"
+        },
+        {
+          "id": "c5-17",
+          "hoi": "Một mạch nucleic acid có bao nhiêu khung đọc (reading frame) theo chiều 5’→3’?",
+          "dap_an": [
+            "3 khung đọc",
+            "1 khung đọc",
+            "6 khung đọc",
+            "64 khung đọc"
+          ],
+          "giai_thich": "Mỗi mạch có 3 khung đọc, tùy bắt đầu đọc bộ ba từ nu thứ 1, 2 hay 3. (6 khung là khi xét cả hai mạch.)",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 7"
+        },
+        {
+          "id": "c5-18",
+          "hoi": "Khung đọc mở (ORF) là gì?",
+          "dap_an": [
+            "Khung đọc có [bộ ba mở đầu … bộ ba kết thúc]",
+            "Khung đọc không chứa bất kỳ bộ ba kết thúc nào",
+            "Vùng 5’UTR nằm trước bộ ba mở đầu của mRNA",
+            "Khung đọc chỉ gồm toàn các bộ ba kết thúc"
+          ],
+          "giai_thich": "ORF là khung đọc xuất hiện [bộ ba mở đầu … bộ ba kết thúc]; ORF có thể thành 1 CDS/mRNA và được dịch thành polypeptide.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 7"
+        },
+        {
+          "id": "c5-19",
+          "hoi": "Điểm khác biệt giữa ORF và CDS theo slide là gì?",
+          "dap_an": [
+            "Cùng cấu trúc mở đầu…kết thúc, nhưng ORF chỉ là dự đoán, CDS là vùng thật sự được dịch",
+            "ORF chứa cả intron và các vùng UTR, còn CDS chỉ gồm các exon đã được ghép lại với nhau",
+            "ORF chỉ có ở tế bào Prokaryote, còn CDS chỉ có ở mRNA trưởng thành của tế bào Eukaryote",
+            "ORF được đọc theo chiều 3’→5’, còn CDS được đọc theo chiều 5’→3’ trên phân tử mRNA"
+          ],
+          "giai_thich": "Về cấu trúc ORF = CDS = codon mở đầu … codon kết thúc; dùng “ORF” mang tính dự đoán tiềm năng trở thành vùng CDS trên mRNA.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 7"
+        },
+        {
+          "id": "c5-20",
+          "hoi": "Việc tìm ORF trên một trình tự DNA chưa xác định KHÔNG cho phép dự đoán điều nào?",
+          "dap_an": [
+            "Thời điểm và mức độ biểu hiện gen trong tế bào",
+            "Trình tự có khả năng là gen hoặc một phần của gen",
+            "Vùng mang mã (CDS) của gen",
+            "Trình tự amino acid của protein được mã hóa"
+          ],
+          "giai_thich": "Slide 8: tìm ORF cho phép dự đoán trình tự có thể là gen, vùng CDS và trình tự a.a của polypeptide; không cho biết gen biểu hiện khi nào, mạnh yếu ra sao.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 2; slide Bài 5, trang 8"
+        },
+        {
+          "id": "c5-21",
+          "hoi": "“Cistron” chỉ vùng nào trên RNA?",
+          "dap_an": [
+            "Vùng trình tự được dịch mã (~CDS ~ORF)",
+            "Vùng 5’UTR không được dịch mã thành protein",
+            "Vùng intron bị cắt bỏ trong quá trình splicing",
+            "Vùng đuôi polyA gắn ở đầu 3’ của mRNA"
+          ],
+          "giai_thich": "Slide 11: cistron chỉ vùng trình tự trên RNA được dịch mã → cistron ~ CDS ~ ORF.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 11"
+        },
+        {
+          "id": "c5-22",
+          "hoi": "Đặc điểm mRNA của Prokaryote và Eukaryote khác nhau thế nào?",
+          "dap_an": [
+            "Prokaryote thường polycistron, Eukaryote monocistron",
+            "Prokaryote monocistron, Eukaryote thường polycistron",
+            "Cả hai đều polycistron, phiên mã từ operon",
+            "Cả hai đều monocistron, có mũ 5’ và polyA"
+          ],
+          "giai_thich": "mRNA Prokaryote thường polycistron (phiên mã từ operon, nhiều CDS mỗi CDS có RBS); mRNA Eukaryote là monocistron.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 11"
+        },
+        {
+          "id": "c5-23",
+          "hoi": "Ribosome Prokaryote (70S) gồm những tiểu phần nào?",
+          "dap_an": [
+            "30S (16S rRNA) và 50S (23S, 5S rRNA)",
+            "40S (18S rRNA) và 60S (28S, 5.8S, 5S rRNA)",
+            "30S (23S rRNA) và 50S (16S, 5S rRNA)",
+            "40S (16S rRNA) và 50S (23S, 5S rRNA)"
+          ],
+          "giai_thich": "Slide 12: Prokaryote 30S = 16S rRNA + 21 protein; 50S = 23S + 5S rRNA + 34 protein. Eukaryote 40S + 60S = 80S.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 12"
+        },
+        {
+          "id": "c5-24",
+          "hoi": "Tiểu phần 40S của ribosome Eukaryote chứa rRNA nào?",
+          "dap_an": [
+            "18S rRNA",
+            "16S rRNA",
+            "28S rRNA",
+            "5.8S rRNA"
+          ],
+          "giai_thich": "Slide 12: 40S = 18S rRNA + 33 protein; 60S = 28S, 5.8S, 5S rRNA + 50 protein.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 12"
+        },
+        {
+          "id": "c5-25",
+          "hoi": "Hai tiểu phần ribosome ở trạng thái nào khi không tham gia dịch mã?",
+          "dap_an": [
+            "Tách rời nhau",
+            "Sáp nhập thành 70S/80S",
+            "Gắn sẵn trên mRNA",
+            "Gắn sẵn với RF1"
+          ],
+          "giai_thich": "Slide 12: 2 tiểu phần tách rời khi không dịch mã, sáp nhập khi tham gia dịch mã.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 12"
+        },
+        {
+          "id": "c5-26",
+          "hoi": "Vị trí P trên ribosome chứa gì trong giai đoạn kéo dài?",
+          "dap_an": [
+            "tRNA-polypeptidyl (tRNA mang chuỗi đang kéo dài)",
+            "tRNA-amino acid mới đến cùng với nhân tố EF-Tu",
+            "tRNA đã mất amino acid và sắp rời khỏi ribosome",
+            "Nhân tố RF1 đang nhận diện codon kết thúc"
+          ],
+          "giai_thich": "Vị trí A: tRNA-a.a + nhân tố dịch mã; P: tRNA-polypeptidyl; E: tRNA không còn liên kết a.a, sẽ rời Rb.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 13"
+        },
+        {
+          "id": "c5-27",
+          "hoi": "Trung tâm peptidyl transferase (PTC) có bản chất gì?",
+          "dap_an": [
+            "Ribozyme – domain của 23S rRNA (28S rRNA ở Eukaryote)",
+            "Enzyme protein nằm ở tiểu phần nhỏ 30S của ribosome",
+            "Một nhân tố kéo dài EF-G gắn vào tiểu phần lớn",
+            "Ribozyme – domain của 16S rRNA (18S rRNA ở Eukaryote)"
+          ],
+          "giai_thich": "PTC nằm ở tiểu phần lớn, giữa A và P; là ribozyme domain của 23S rRNA (Prokaryote) hay 28S rRNA (Eukaryote).",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 13"
+        },
+        {
+          "id": "c5-28",
+          "hoi": "“Factor-binding center” (FBC) trên ribosome có chức năng gì?",
+          "dap_an": [
+            "Chứa nhân tố dịch mã (EFs, RFs) và xúc tác thủy giải",
+            "Xúc tác hình thành liên kết peptide giữa hai amino acid",
+            "Gắn trình tự Shine-Dalgarno của mRNA vi khuẩn",
+            "Chứa tRNA đã mất amino acid trước khi rời ribosome"
+          ],
+          "giai_thich": "Slide 13: FBC chứa EFs, RFs và xúc tác thủy giải (GTP); liên kết peptide do PTC xúc tác; 16S rRNA gắn Shine-Dalgarno.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 13"
+        },
+        {
+          "id": "c5-29",
+          "hoi": "Peptidyl transferase thực hiện những phản ứng nào?",
+          "dap_an": [
+            "Cắt a.a cuối chuỗi khỏi tRNA ở P, nối đầu C của nó với đầu N của a.a-tRNA ở A (hoặc với nước)",
+            "Cắt a.a khỏi tRNA ở A, nối đầu N của nó với đầu C của chuỗi polypeptide đang nằm ở vị trí E",
+            "Gắn amino acid vào đầu 3’ CCA của tRNA nhờ năng lượng từ ATP trước khi tRNA vào ribosome",
+            "Thủy giải GTP của EF-G để làm ribosome dịch chuyển sang bộ ba kế tiếp trên phân tử mRNA"
+          ],
+          "giai_thich": "Slide 23: (1) cắt liên kết giữa a.a cuối chuỗi với tRNA ở P; (2) chuyển đầu C của a.a cuối chuỗi liên kết với đầu N của a.a-tRNA ở A (kéo dài) hoặc với nước (kết thúc).",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 23"
+        },
+        {
+          "id": "c5-30",
+          "hoi": "Có bao nhiêu loại aminoacyl-tRNA synthetase trong tế bào theo slide?",
+          "dap_an": [
+            "20 loại, mỗi loại gắn chuyên biệt 1 amino acid",
+            "61 loại, mỗi loại gắn chuyên biệt cho 1 codon",
+            "1 loại duy nhất, gắn được cho cả 20 amino acid",
+            "64 loại, mỗi loại ứng với 1 codon kể cả stop"
+          ],
+          "giai_thich": "Slide 15: 20 loại aminoacyl-tRNA synthetase gắn chuyên biệt 20 loại amino acid lên tRNA.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 15"
+        },
+        {
+          "id": "c5-31",
+          "hoi": "Hai bước hoạt hóa amino acid gắn lên tRNA là gì?",
+          "dap_an": [
+            "Tạo a.a–AMP từ ATP, rồi chuyển a.a vào 3’OH của CCA-tRNA",
+            "Tạo a.a–GTP từ GTP, rồi chuyển a.a vào 5’P của tRNA",
+            "Tạo a.a–AMP từ ATP, rồi chuyển a.a vào anticodon tRNA",
+            "Tạo a.a–ADP từ ATP, rồi chuyển a.a vào 2’OH của tRNA"
+          ],
+          "giai_thich": "(a) Loại 2P của ATP, gắn AMP vào đầu COO⁻ của a.a → a.a–AMP; (b) loại AMP, nối COO⁻ của a.a vào đầu tRNA-CCA-3’OH.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 15"
+        },
+        {
+          "id": "c5-32",
+          "hoi": "EF-Tu thuộc nhóm nhân tố dịch mã nào ở Prokaryote?",
+          "dap_an": [
+            "Nhóm nhân tố kéo dài (EFs)",
+            "Nhóm nhân tố khởi sự (IFs)",
+            "Nhóm nhân tố kết thúc (RFs)",
+            "Nhóm nhân tố giải phóng Rb (RRF)"
+          ],
+          "giai_thich": "Bảng slide 16: IFs (IF1, IF2, IF3) – khởi sự; EFs (EF-Tu, EF-Ts, EF-G) – kéo dài; RFs (RF1, 2, 3) – kết thúc.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 3; slide Bài 5, trang 16"
+        },
+        {
+          "id": "c5-33",
+          "hoi": "Ở Prokaryote, rRNA nào bắt cặp với trình tự Shine-Dalgarno (RBS) trên mRNA?",
+          "dap_an": [
+            "16S rRNA của tiểu phần 30S",
+            "23S rRNA của tiểu phần 50S",
+            "18S rRNA của tiểu phần 40S",
+            "5S rRNA của tiểu phần 50S"
+          ],
+          "giai_thich": "Slide 19: RBS/Shine-Dalgarno ở 5’UTR-mRNA tương tác với 16S rRNA/30S Rb.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 19"
+        },
+        {
+          "id": "c5-34",
+          "hoi": "Nhân tố nào đưa fMet-tRNA vào khớp với codon mở đầu ở vị trí P/30S?",
+          "dap_an": [
+            "IF2-GTP",
+            "IF3",
+            "EF-Tu-GTP",
+            "EF-G-GTP"
+          ],
+          "giai_thich": "IF2-GTP gắn fMet-tRNA, khớp anticodon với codon mở đầu ở P/30S. EF-Tu-GTP đưa tRNA-a.a vào vị trí A trong giai đoạn kéo dài.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 19"
+        },
+        {
+          "id": "c5-35",
+          "hoi": "Trong khởi sự dịch mã ở Prokaryote, sự kiện nào xảy ra khi 30S thay đổi cấu hình?",
+          "dap_an": [
+            "IF3 rời khỏi 30S",
+            "IF2 gắn thêm GTP",
+            "50S tách khỏi 30S",
+            "RF1 vào vị trí A"
+          ],
+          "giai_thich": "Sau khi fMet-tRNA khớp codon mở đầu, 30S thay đổi cấu hình → IF3 rời; sau đó IF2 thủy giải GTP, IF1, IF2 rời và 50S sáp nhập.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 19"
+        },
+        {
+          "id": "c5-36",
+          "hoi": "Phức hợp khởi sự 70S ở Prokaryote có đặc điểm gì?",
+          "dap_an": [
+            "Vị trí A, E trống; vị trí P có fMet-tRNA",
+            "Vị trí A có fMet-tRNA; vị trí P và E trống",
+            "Vị trí P, E trống; vị trí A có nhân tố IF2",
+            "Cả ba vị trí A, P, E đều đang chứa tRNA"
+          ],
+          "giai_thich": "Slide 19: 50S sáp nhập với 30S → phức hợp khởi sự 70S (A, E trống; P có fMet-tRNA).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 19"
+        },
+        {
+          "id": "c5-37",
+          "hoi": "Trong kéo dài dịch mã, tRNA-amino acid được đưa vào vị trí A nhờ nhân tố nào?",
+          "dap_an": [
+            "EF-Tu-GTP",
+            "EF-G-GTP",
+            "IF2-GTP",
+            "RF3-GTP"
+          ],
+          "giai_thich": "tRNA-a.a gắn với EF-Tu-GTP đến Rb (A-FBC). EF-G-GTP làm dịch chuyển ribosome; IF2 dùng cho khởi sự; RF3 cho kết thúc.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 20"
+        },
+        {
+          "id": "c5-38",
+          "hoi": "Điều gì xảy ra với EF-Tu-GTP khi codon và anticodon bắt cặp đúng?",
+          "dap_an": [
+            "Được thủy giải thành EF-Tu-GDP, không gắn tRNA-a.a và rời ribosome",
+            "Được gắn thêm GTP thành EF-Tu-GTP-GTP và giữ chặt tRNA ở vị trí A",
+            "Được chuyển sang vị trí P cùng với tRNA-a.a và chuỗi polypeptide",
+            "Được thủy giải thành EF-Tu-GDP và chuyển tRNA sang vị trí E"
+          ],
+          "giai_thich": "Slide 20: codon-anticodon đúng → tại FBC, EF-Tu-GTP thủy giải thành EF-Tu-GDP, không gắn tRNA-a.a và rời FBC/Rb; tRNA xoay đầu 3’ mang a.a vào PTC.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 20"
+        },
+        {
+          "id": "c5-39",
+          "hoi": "Vai trò của EF-G-GTP trong kéo dài dịch mã là gì?",
+          "dap_an": [
+            "Thủy giải GTP làm ribosome dịch chuyển sang bộ ba kế tiếp",
+            "Đưa tRNA-amino acid mới vào vị trí A của ribosome đang trống",
+            "Xúc tác hình thành liên kết peptide tại trung tâm PTC",
+            "Nhận diện codon kết thúc và giải phóng chuỗi polypeptide"
+          ],
+          "giai_thich": "EF-G-GTP đến FBC, thủy giải thành EF-G-GDP làm dịch chuyển: tRNA-polypeptide từ A sang P, tRNA từ P sang E; A trống chứa codon tiếp theo.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 20"
+        },
+        {
+          "id": "c5-40",
+          "hoi": "Sau khi EF-G làm ribosome dịch chuyển, các tRNA thay đổi vị trí thế nào?",
+          "dap_an": [
+            "tRNA-polypeptide từ A sang P, tRNA rỗng từ P sang E",
+            "tRNA-polypeptide từ P sang A, tRNA rỗng từ E sang P",
+            "tRNA-polypeptide từ P sang E, tRNA rỗng từ A sang P",
+            "tRNA-polypeptide ở yên P, tRNA rỗng từ A sang E"
+          ],
+          "giai_thich": "Slide 20: dịch chuyển đến mã bộ ba kế tiếp: tRNA-polypeptide từ A sang P, tRNA từ P sang E; vị trí A trống chờ codon mới.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 20"
+        },
+        {
+          "id": "c5-41",
+          "hoi": "Codon kết thúc UGA được nhận diện bởi nhân tố kết thúc nào ở Prokaryote?",
+          "dap_an": [
+            "RF2",
+            "RF1",
+            "RF3",
+            "RRF"
+          ],
+          "giai_thich": "Slide 21: UAG – RF1; UAA – RF1/RF2; UGA – RF2. RF3 không nhận diện codon; RRF giải phóng ribosome.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 21"
+        },
+        {
+          "id": "c5-42",
+          "hoi": "Codon kết thúc nào được cả RF1 và RF2 nhận diện?",
+          "dap_an": [
+            "UAA",
+            "UAG",
+            "UGA",
+            "AUG"
+          ],
+          "giai_thich": "UAG chỉ RF1, UGA chỉ RF2, UAA cả RF1 và RF2. AUG là codon mở đầu.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 21"
+        },
+        {
+          "id": "c5-43",
+          "hoi": "Motif GGQ của RF1/RF2 có vai trò gì trong kết thúc dịch mã?",
+          "dap_an": [
+            "Hướng vào PTC để nối –COOH cuối chuỗi với H2O, giải phóng polypeptide",
+            "Nhận diện codon kết thúc trên mRNA bằng bắt cặp base như anticodon",
+            "Thủy giải GTP tại FBC để tách 70S thành hai tiểu phần 50S và 30S",
+            "Gắn vào 16S rRNA để giữ mRNA ở đúng vị trí trên ribosome"
+          ],
+          "giai_thich": "RF1/2 có “peptide anticodon” nhận diện codon kết thúc ở A; motif GGQ hướng vào PTC, tại đó liên kết của –COOH cuối chuỗi được hình thành với H2O → giải phóng polypeptide.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 22"
+        },
+        {
+          "id": "c5-44",
+          "hoi": "Trong kết thúc dịch mã, RF1/2 đóng vai trò gì đối với RF3?",
+          "dap_an": [
+            "Là “GTP-exchange factor”, giúp RF3 nhả GDP và gắn GTP",
+            "Là “GTPase”, giúp RF3 thủy giải GTP thành GDP và Pi",
+            "Là chất ức chế, ngăn RF3 gắn vào FBC của ribosome",
+            "Là chất mang, đưa RF3 vào vị trí P của ribosome"
+          ],
+          "giai_thich": "RF1/2 lôi kéo RF3-GDP vào FBC và kích hoạt RF3 giải phóng GDP, gắn GTP → RF3-GTP; lúc này RF1/2 là GTP-exchange factor. Sau đó FBC thủy giải RF3-GTP, giải phóng RF1/2 và RF3-GDP.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 22"
+        },
+        {
+          "id": "c5-45",
+          "hoi": "Những thành phần nào tham gia giải phóng ribosome (ribosome recycling) ở Prokaryote?",
+          "dap_an": [
+            "RRF và EF-G-GTP, sau đó IF3 gắn lên 30S",
+            "RF1 và EF-Tu-GTP, sau đó IF2 gắn lên 50S",
+            "RF3 và IF2-GTP, sau đó EF-G gắn lên 30S",
+            "RRF và EF-Tu-GTP, sau đó IF1 gắn lên 50S"
+          ],
+          "giai_thich": "Slide 24: RRF vào A trống; EF-G-GTP vào FBC, tạo EF-G-GDP, dịch RRF từ A qua P, giải phóng tRNA; RRF tách 70S thành 50S và 30S; IF3 gắn lên 30S.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 4; slide Bài 5, trang 24"
+        },
+        {
+          "id": "c5-46",
+          "hoi": "Phức hợp tiền khởi sự 43S ở Eukaryote gồm những thành phần chính nào?",
+          "dap_an": [
+            "40S + eIFs + eIF2-GTP/tRNA-Met(i)",
+            "60S + eIFs + eIF4s/mRNA-cap",
+            "40S + 60S + fMet-tRNA",
+            "30S + IF1, IF2, IF3 + fMet-tRNA"
+          ],
+          "giai_thich": "Slide 27: 43S preinitiation complex = 40S + eIFs (… + eIF2-GTP/tRNA-Met(i)). 5’UTR-mRNA + eIF4s tạo cấu trúc nhận diện khởi sự.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5; slide Bài 5, trang 27"
+        },
+        {
+          "id": "c5-47",
+          "hoi": "Ở Eukaryote, codon mở đầu được tìm như thế nào?",
+          "dap_an": [
+            "tRNA-Met(i) ở P/43S dò tìm (scanning) codon mở đầu đầu tiên trên mRNA",
+            "16S rRNA bắt cặp với trình tự Shine-Dalgarno ngay trước codon mở đầu",
+            "Ribosome 80S gắn ngẫu nhiên vào bất kỳ codon AUG nào trên mRNA",
+            "eIF2 nhận diện codon mở đầu cuối cùng gần đuôi polyA của mRNA"
+          ],
+          "giai_thich": "Slide 28: anticodon tRNA-Met(i) tại vị trí P/43S dò tìm (scanning) codon mở đầu đầu tiên; sau đó eIFs tách ra và 60S sáp nhập tạo 80S.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5; slide Bài 5, trang 28"
+        },
+        {
+          "id": "c5-48",
+          "hoi": "Nhóm nhân tố nào cho phép phức hợp 43S nhận diện và tương tác với 5’UTR-mRNA?",
+          "dap_an": [
+            "eIF4s",
+            "eIF2",
+            "eEF1A",
+            "eRF1"
+          ],
+          "giai_thich": "Slide 27: 5’UTR-mRNA + eIFs (… + eIF4s) → cấu trúc nhận diện khởi sự; eIF4s cho phép 43S nhận diện và tương tác với 5’UTR-mRNA (eIF4E gắn cap 5’).",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5; slide Bài 5, trang 26–27"
+        },
+        {
+          "id": "c5-49",
+          "hoi": "Điểm khác biệt nào giữa khởi sự dịch mã Eukaryote và Prokaryote là đúng?",
+          "dap_an": [
+            "Eukaryote dùng cap 5’ và scanning; Prokaryote dùng Shine-Dalgarno",
+            "Eukaryote dùng Shine-Dalgarno; Prokaryote dùng cap 5’ và scanning",
+            "Eukaryote có ít nhân tố khởi sự hơn so với Prokaryote",
+            "Eukaryote tạo phức hợp khởi sự 70S, Prokaryote tạo 80S"
+          ],
+          "giai_thich": "Prokaryote: 16S rRNA bắt cặp Shine-Dalgarno, tạo 70S. Eukaryote: eIF4s nhận diện 5’UTR/cap, 43S scanning tìm AUG đầu tiên, tạo 80S; hệ eIFs phức tạp hơn nhiều.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5; slide Bài 5, trang 19, 26–28"
+        },
+        {
+          "id": "c5-50",
+          "hoi": "Hiện tượng polysome là gì?",
+          "dap_an": [
+            "Nhiều ribosome cùng dịch mã trên một phân tử mRNA",
+            "Một ribosome dịch mã đồng thời nhiều phân tử mRNA",
+            "Nhiều mRNA nối lại thành một phân tử dài",
+            "Một tRNA mang đồng thời nhiều amino acid"
+          ],
+          "giai_thich": "Polysome (polyribosome): nhiều ribosome đang dịch mã trên 1 mRNA → bảo vệ mRNA, ổn định dịch mã, tạo nhiều polypeptide cùng loại (monocistronic) hay khác loại (polycistronic).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5; slide Bài 5, trang 29"
+        },
+        {
+          "id": "c5-51",
+          "hoi": "Một số aminoacyl-tRNA synthetase hạn chế gắn nhầm amino acid bằng cách nào?",
+          "dap_an": [
+            "Có thêm vị trí chỉnh sửa (editing site) bên cạnh vị trí hoạt hóa",
+            "Kiểm tra codon trên mRNA trước khi gắn amino acid vào tRNA",
+            "Dùng GTP thay cho ATP để tăng độ chính xác khi gắn amino acid",
+            "Gắn amino acid vào anticodon thay vì vào đầu 3’ CCA của tRNA"
+          ],
+          "giai_thich": "Slide 31: một số synthetase có editing site cùng synthetic site để hạn chế gắn/hoạt hóa nhầm a.a lên tRNA.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 5; slide Bài 5, trang 31"
+        },
+        {
+          "id": "c5-52",
+          "hoi": "Với Ile-tRNA synthetase, vì sao Val bị loại bỏ dù vào được vị trí hoạt hóa?",
+          "dap_an": [
+            "Val nhỏ, vừa vị trí chỉnh sửa nên bị chuyển sang đó và loại bỏ",
+            "Val lớn hơn Ile nên không vào được vị trí hoạt hóa của enzyme",
+            "Val không có nhóm COO⁻ nên không tạo được a.a–AMP với ATP",
+            "Val gắn được vào tRNA nhưng bị ribosome nhận diện và loại bỏ"
+          ],
+          "giai_thich": "Hình slide 31: Leu quá lớn, không vào synthetic site; Ile vừa synthetic site nhưng không vừa editing site (nhỏ hơn); Val vừa cả hai nên đi từ synthetic site sang editing site và bị loại.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5; slide Bài 5, trang 31"
+        },
+        {
+          "id": "c5-53",
+          "hoi": "Khi anticodon:codon bắt cặp đúng, cơ chế nào giúp hạn chế sai sót trong dịch mã?",
+          "dap_an": [
+            "rNu 2–3 của anticodon tương tác với 16S rRNA, ổn định cặp và giúp EF-Tu thủy giải",
+            "Peptidyl transferase kiểm tra lại amino acid trước khi tạo liên kết peptide mới",
+            "RF1 nhận diện cặp bắt sai rồi cắt bỏ tRNA đó ra khỏi vị trí A của ribosome",
+            "EF-G thủy giải GTP hai lần liên tiếp để đẩy tRNA sai ra khỏi ribosome"
+          ],
+          "giai_thich": "Slide 32: cặp đúng → (a) rNu2–rNu3/anticodon tương tác với rNu/16S rRNA; (b) EF-Tu-GTP vào FBC thủy giải; (c) cặp được giữ ổn định khi tRNA xoay a.a vào PTC.",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 5; slide Bài 5, trang 32"
+        },
+        {
+          "id": "c5-54",
+          "hoi": "Mục đích của các hoạt động biến đổi sau dịch mã là gì?",
+          "dap_an": [
+            "Tạo protein ổn định, định vị đúng và hoạt động chức năng",
+            "Tạo mRNA bền hơn để được dịch mã nhiều lần hơn nữa",
+            "Sửa các amino acid bị sai do đột biến xảy ra trên gen",
+            "Chuyển protein trở lại thành chuỗi amino acid tự do"
+          ],
+          "giai_thich": "Slide 34: biến đổi sau dịch mã tạo protein → ổn định / định vị / hoạt động chức năng.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 6; slide Bài 5, trang 34"
+        },
+        {
+          "id": "c5-55",
+          "hoi": "Ví dụ nào thuộc nhóm “thêm protein kích thước nhỏ/peptide” trong biến đổi sau dịch mã?",
+          "dap_an": [
+            "Sumoyl hóa, ubiquitin hóa",
+            "Deamin hóa, citrullin hóa",
+            "Tạo cầu nối disulfide",
+            "Phosphoryl hóa Ser, Thr, Tyr"
+          ],
+          "giai_thich": "Slide 34: thêm protein nhỏ/peptide (sumoyl hóa, ubiquitin hóa); biến đổi a.a (deamin hóa, citrullin hóa); biến đổi liên kết cộng hóa trị (disulfide); thêm nhóm chức (phosphate…).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 6; slide Bài 5, trang 34"
+        },
+        {
+          "id": "c5-56",
+          "hoi": "Cầu nối disulfide trong protein được tạo giữa các amino acid nào?",
+          "dap_an": [
+            "Hai Cysteine (Cys)",
+            "Hai Serine (Ser)",
+            "Lysine và Arginine",
+            "Proline và Lysine"
+          ],
+          "giai_thich": "Hình slide 33: disulfide cross-linking – hai Cys tạo liên kết disulfide. Phosphate gắn Ser/Thr/Tyr; methyl gắn Lys/Arg; hydroxyl gắn Pro/Lys.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 6; slide Bài 5, trang 33"
+        },
+        {
+          "id": "c5-57",
+          "hoi": "Phân biệt co-translational và post-translational modification?",
+          "dap_an": [
+            "Co- diễn ra trong khi dịch mã, post- diễn ra sau khi dịch mã hoàn tất",
+            "Co- diễn ra sau khi dịch mã, post- diễn ra trước khi dịch mã bắt đầu",
+            "Co- chỉ có ở Prokaryote, post- chỉ có ở Eukaryote",
+            "Co- xảy ra trên mRNA, post- xảy ra trên polypeptide"
+          ],
+          "giai_thich": "Slide 34: các biến đổi có thể diễn ra khi dịch mã đang diễn ra (co-translational) hoặc sau khi dịch mã hoàn tất (post-translational).",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 6; slide Bài 5, trang 34"
+        },
+        {
+          "id": "c5-58",
+          "hoi": "Thứ tự đúng của quá trình tạo insulin ở tế bào beta tụy là gì?",
+          "dap_an": [
+            "Preproinsulin → cắt peptide tín hiệu → proinsulin → tạo disulfide → cắt chuỗi C → insulin",
+            "Proinsulin → cắt chuỗi C → preproinsulin → tạo disulfide → cắt peptide tín hiệu → insulin",
+            "Preproinsulin → cắt chuỗi C → proinsulin → cắt peptide tín hiệu → tạo disulfide → insulin",
+            "Preproinsulin → tạo disulfide → cắt chuỗi A → proinsulin → cắt chuỗi B → insulin"
+          ],
+          "giai_thich": "Hình slide 35: preproinsulin (peptide tín hiệu – B – C – A) → bỏ peptide tín hiệu → proinsulin → tạo cầu disulfide → bỏ chuỗi C → insulin (A + B).",
+          "kho": true,
+          "nguon": "TT Chương 5, mục 6; slide Bài 5, trang 35"
+        },
+        {
+          "id": "c5-59",
+          "hoi": "Phân tử insulin trưởng thành gồm những phần nào?",
+          "dap_an": [
+            "Chuỗi A và chuỗi B nối bằng cầu disulfide",
+            "Chuỗi A, chuỗi B và chuỗi C nối liên tục",
+            "Chuỗi C và peptide tín hiệu nối với nhau",
+            "Chuỗi B và chuỗi C nối bằng cầu disulfide"
+          ],
+          "giai_thich": "Chuỗi C (C-peptide) và peptide tín hiệu bị cắt bỏ; insulin còn chuỗi A và B liên kết bằng cầu disulfide.",
+          "kho": false,
+          "nguon": "TT Chương 5, mục 6; slide Bài 5, trang 35"
         }
       ]
     }

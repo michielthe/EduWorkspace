@@ -1,7 +1,7 @@
 {
   "mon": "Vật lý đại cương 2",
   "ma_mon": "vat-ly-dai-cuong-2",
-  "phien_ban": 1,
+  "phien_ban": 2,
   "chuong": [
     {
       "id": "c1",
@@ -989,6 +989,533 @@
           "giai_thich": "Vật dẫn là vật đẳng thế: điện thế ở tâm bằng điện thế mặt $V = kQ/R = 9 \\cdot 10^{9} \\cdot 5 \\cdot 10^{-5}/0{,}5 = 9 \\cdot 10^{5}\\ \\mathrm{V}$, dù $E = 0$ ở tâm.",
           "kho": false,
           "nguon": "TT Chương 2, Phần II, mục 2.1; slide Chương 2, trang 31"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "nhom": "Bài giảng",
+      "ten": "Chương 3 - Từ trường tĩnh trong chân không",
+      "cau": [
+        {
+          "id": "c3-01",
+          "hoi": "Đơn vị của cảm ứng từ $B$ trong hệ SI là gì?",
+          "dap_an": [
+            "Tesla ($\\mathrm{T}$), với $1\\ \\mathrm{T} = 1\\ \\mathrm{N/(A \\cdot m)}$",
+            "Ampe trên mét ($\\mathrm{A/m}$), với $1\\ \\mathrm{A/m} = 1\\ \\mathrm{N/A}$",
+            "Weber ($\\mathrm{Wb}$), với $1\\ \\mathrm{Wb} = 1\\ \\mathrm{N/(A \\cdot m)}$",
+            "Henry trên mét ($\\mathrm{H/m}$), với $1\\ \\mathrm{H/m} = 1\\ \\mathrm{N/A^2}$"
+          ],
+          "giai_thich": "$B$ đo bằng tesla: $1\\ \\mathrm{T} = 1\\ \\mathrm{N/(A \\cdot m)} = 1\\ \\mathrm{Wb/m^2}$. $\\mathrm{A/m}$ là đơn vị của cường độ từ trường $H$, $\\mathrm{Wb}$ là của từ thông, $\\mathrm{H/m}$ là của $\\mu_0$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 0; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 22"
+        },
+        {
+          "id": "c3-02",
+          "hoi": "Liên hệ giữa cảm ứng từ $B$ và cường độ từ trường $H$ trong chân không là gì?",
+          "dap_an": [
+            "$B = \\mu_0 H$, nên $H = B/\\mu_0$",
+            "$H = \\mu_0 B$, nên $B = H/\\mu_0$",
+            "$B = H/(4\\pi)$, nên $H = 4\\pi B$",
+            "$B = 2\\pi\\mu_0 H$, nên $H = B/(2\\pi\\mu_0)$"
+          ],
+          "giai_thich": "Trong chân không $B = \\mu_0 H$ với $\\mu_0 = 4\\pi \\cdot 10^{-7}\\ \\mathrm{H/m}$; $H$ (đơn vị $\\mathrm{A/m}$) không phụ thuộc môi trường. Đề cho $H$ thì phải nhân $\\mu_0$ trước khi tính lực.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 0; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 22"
+        },
+        {
+          "id": "c3-03",
+          "hoi": "Theo định luật Biot–Savart, vectơ $d\\vec{B}$ do phần tử dòng điện $I\\,d\\vec{l}$ gây ra tại $M$ có phương như thế nào?",
+          "dap_an": [
+            "Vuông góc với mặt phẳng chứa $d\\vec{l}$ và $\\vec{r}$",
+            "Song song với phần tử dòng điện $d\\vec{l}$",
+            "Song song với vectơ $\\vec{r}$ nối tới điểm $M$",
+            "Nằm trong mặt phẳng chứa $d\\vec{l}$ và $\\vec{r}$"
+          ],
+          "giai_thich": "$d\\vec{B} = \\dfrac{\\mu_0}{4\\pi}\\dfrac{I\\,d\\vec{l} \\times \\vec{r}}{r^3}$ là tích có hướng nên vuông góc với cả $d\\vec{l}$ và $\\vec{r}$; độ lớn $dB = \\dfrac{\\mu_0 I\\,dl\\sin\\theta}{4\\pi r^2}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 1; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 22–23"
+        },
+        {
+          "id": "c3-04",
+          "hoi": "Điểm $M$ nằm trên đường thẳng kéo dài của một đoạn dây thẳng có dòng điện. Cảm ứng từ do đoạn dây đó gây ra tại $M$ bằng bao nhiêu?",
+          "dap_an": [
+            "Bằng $0$",
+            "Bằng $\\dfrac{\\mu_0 I}{2\\pi h}$",
+            "Bằng $\\dfrac{\\mu_0 I}{4\\pi h}$",
+            "Lớn nhất so với mọi điểm khác"
+          ],
+          "giai_thich": "Với mọi phần tử của đoạn dây, $d\\vec{l}$ song song với $\\vec{r}$ nên $\\sin\\theta = 0$ và $dB = 0$. Đây là bước đầu tiên khi xét dây gấp khúc: loại các đoạn có $M$ nằm trên đường kéo dài.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24"
+        },
+        {
+          "id": "c3-05",
+          "hoi": "Đoạn dây thẳng nửa vô hạn có một đầu nằm đúng tại chân đường vuông góc hạ từ $M$ (cách $M$ khoảng $h$). Cảm ứng từ tại $M$ là bao nhiêu?",
+          "dap_an": [
+            "$\\dfrac{\\mu_0 I}{4\\pi h}$",
+            "$\\dfrac{\\mu_0 I}{2\\pi h}$",
+            "$\\dfrac{\\mu_0 I}{2h}$",
+            "$\\dfrac{\\mu_0 I}{8\\pi h}$"
+          ],
+          "giai_thich": "Dùng $B = \\dfrac{\\mu_0 I}{4\\pi h}(\\sin\\alpha_1 + \\sin\\alpha_2)$ với $\\alpha_1 = 0$, $\\alpha_2 = 90^\\circ$ nên $B = \\dfrac{\\mu_0 I}{4\\pi h}$, bằng một nửa của dây vô hạn $\\dfrac{\\mu_0 I}{2\\pi h}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24–25"
+        },
+        {
+          "id": "c3-06",
+          "hoi": "Cảm ứng từ tại tâm của cung tròn bán kính $R$, góc ở tâm $\\beta = \\pi/2$ (một phần tư vòng), có dòng $I$ là bao nhiêu?",
+          "dap_an": [
+            "$\\dfrac{\\mu_0 I}{8R}$",
+            "$\\dfrac{\\mu_0 I}{4R}$",
+            "$\\dfrac{\\mu_0 I}{2R}$",
+            "$\\dfrac{\\mu_0 I}{8\\pi R}$"
+          ],
+          "giai_thich": "Cung tròn: $B_O = \\dfrac{\\mu_0 I}{2R}\\cdot\\dfrac{\\beta}{2\\pi}$. Với $\\beta = \\pi/2$ được $\\dfrac{\\mu_0 I}{8R}$; nửa vòng ($\\beta = \\pi$) mới là $\\dfrac{\\mu_0 I}{4R}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 26"
+        },
+        {
+          "id": "c3-07",
+          "hoi": "Cảm ứng từ trên trục của vòng dây tròn bán kính $R$, tại điểm cách tâm một khoảng $h$, được tính bằng công thức nào?",
+          "dap_an": [
+            "$B = \\dfrac{\\mu_0 I R^2}{2(R^2 + h^2)^{3/2}}$",
+            "$B = \\dfrac{\\mu_0 I R}{2(R^2 + h^2)^{3/2}}$",
+            "$B = \\dfrac{\\mu_0 I R^2}{2(R^2 + h^2)^{1/2}}$",
+            "$B = \\dfrac{\\mu_0 I}{2\\pi(R^2 + h^2)^{1/2}}$"
+          ],
+          "giai_thich": "Trên trục, thành phần ngang triệt tiêu, chỉ còn thành phần dọc trục: $B = \\dfrac{\\mu_0 I R^2}{2(R^2 + h^2)^{3/2}}$. Kiểm tra: với $h = 0$ được lại $\\dfrac{\\mu_0 I}{2R}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 26–27"
+        },
+        {
+          "id": "c3-08",
+          "hoi": "Phát biểu nào đúng về đường sức từ?",
+          "dap_an": [
+            "Đường sức từ là đường cong khép kín, không có điểm đầu và điểm cuối",
+            "Đường sức từ xuất phát từ điện tích dương và kết thúc ở điện tích âm",
+            "Đường sức từ luôn là các đường thẳng song song cách đều nhau",
+            "Đường sức từ có thể cắt nhau tại nơi từ trường mạnh nhất"
+          ],
+          "giai_thich": "Tiếp tuyến tại mỗi điểm của đường sức cùng phương $\\vec{B}$, mật độ đường sức thể hiện độ lớn $B$; đường sức từ khép kín. Bắt đầu ở điện tích dương là đặc điểm của đường sức điện trường tĩnh.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 29"
+        },
+        {
+          "id": "c3-09",
+          "hoi": "Định lý Gauss cho từ trường khẳng định điều gì?",
+          "dap_an": [
+            "Từ thông qua một mặt kín bất kỳ luôn bằng $0$",
+            "Từ thông qua mặt kín bằng $\\mu_0$ nhân tổng dòng điện bên trong",
+            "Từ thông qua mặt kín bằng tổng điện tích bên trong chia $\\varepsilon_0$",
+            "Từ thông qua mặt kín tỉ lệ với diện tích của mặt kín đó"
+          ],
+          "giai_thich": "Đường sức từ khép kín nên số đường đi vào mặt kín bằng số đường đi ra: $\\oint \\vec{B}\\cdot d\\vec{S} = 0$. Tổng điện tích chia $\\varepsilon_0$ là định lý Gauss cho điện trường; $\\mu_0\\sum I$ là định lý Ampère cho lưu số.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 30"
+        },
+        {
+          "id": "c3-10",
+          "hoi": "Từ thông qua mặt phẳng diện tích $S$ đặt trong từ trường đều $B$ được tính bằng $\\Phi = BS\\cos\\alpha$. Góc $\\alpha$ là góc nào?",
+          "dap_an": [
+            "Góc giữa $\\vec{B}$ và pháp tuyến $\\vec{n}$ của mặt",
+            "Góc giữa $\\vec{B}$ và chính mặt phẳng đó",
+            "Góc giữa pháp tuyến $\\vec{n}$ và dòng điện",
+            "Góc giữa $\\vec{B}$ và trục quay của khung"
+          ],
+          "giai_thich": "$\\alpha$ là góc giữa $\\vec{B}$ và pháp tuyến. Nếu đề cho góc giữa $\\vec{B}$ và mặt phẳng là $\\gamma$ thì $\\alpha = 90^\\circ - \\gamma$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 29"
+        },
+        {
+          "id": "c3-11",
+          "hoi": "Định lý Ampère (định lý dòng toàn phần) phát biểu gì về lưu số của $\\vec{B}$ dọc đường cong kín $C$?",
+          "dap_an": [
+            "Bằng $\\mu_0$ nhân tổng đại số các dòng điện xuyên qua mặt giới hạn bởi $C$",
+            "Luôn bằng $0$ như lưu số của điện trường tĩnh dọc mọi đường cong kín",
+            "Bằng tổng điện tích nằm trong $C$ chia cho hằng số điện $\\varepsilon_0$",
+            "Bằng $\\mu_0$ nhân tổng các dòng điện nằm bên ngoài đường cong $C$"
+          ],
+          "giai_thich": "$\\oint_C \\vec{B}\\cdot d\\vec{l} = \\mu_0\\sum I_i$; dòng điện có chiều theo quy tắc nắm tay phải với chiều đi trên $C$ mang dấu dương. Lưu số điện trường tĩnh mới bằng $0$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 32"
+        },
+        {
+          "id": "c3-12",
+          "hoi": "Cảm ứng từ bên trong cuộn xuyến (toroid) có $N$ vòng, dòng $I$, tại điểm cách tâm $r$ là bao nhiêu?",
+          "dap_an": [
+            "$B = \\dfrac{\\mu_0 N I}{2\\pi r}$",
+            "$B = \\dfrac{\\mu_0 N I}{2r}$",
+            "$B = \\mu_0 N I$",
+            "$B = \\dfrac{\\mu_0 I}{2\\pi r N}$"
+          ],
+          "giai_thich": "Chọn $C$ là vòng tròn bán kính $r$ trong lòng cuộn, $C$ bị $N$ vòng dây xuyên qua: $B \\cdot 2\\pi r = \\mu_0 N I$. Ống dây dài coi như toroid bán kính rất lớn: $B = \\mu_0 n I$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 36–38"
+        },
+        {
+          "id": "c3-13",
+          "hoi": "Với ống dây solenoid dài, đường kính nhỏ, từ trường bên trong và bên ngoài ống như thế nào?",
+          "dap_an": [
+            "Bên trong đều, $B = \\mu_0 n I$; bên ngoài $B \\approx 0$",
+            "Bên trong đều, $B = \\mu_0 n I$; bên ngoài cũng bằng $\\mu_0 n I$",
+            "Bên trong bằng $0$; bên ngoài đều với $B = \\mu_0 n I$",
+            "Bên trong giảm dần theo $1/r$ từ trục ra thành ống"
+          ],
+          "giai_thich": "Ống dài coi như toroid bán kính rất lớn: trong lòng ống từ trường đều $B = \\mu_0 n I$ với $n = N/\\ell$, bên ngoài $B \\approx 0$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 38–39"
+        },
+        {
+          "id": "c3-14",
+          "hoi": "Hai dây dẫn thẳng song song có dòng điện ngược chiều nhau thì tương tác như thế nào?",
+          "dap_an": [
+            "Đẩy nhau, lực trên mỗi mét là $\\dfrac{\\mu_0 I_1 I_2}{2\\pi d}$",
+            "Hút nhau, lực trên mỗi mét là $\\dfrac{\\mu_0 I_1 I_2}{2\\pi d}$",
+            "Đẩy nhau, lực trên mỗi mét là $\\dfrac{\\mu_0 I_1 I_2}{4\\pi d}$",
+            "Không tương tác vì hai từ trường triệt tiêu nhau"
+          ],
+          "giai_thich": "Dây 1 tạo $B_1 = \\dfrac{\\mu_0 I_1}{2\\pi d}$ tại dây 2, dây 2 chịu $F = I_2 \\ell B_1$. Cùng chiều thì hút, ngược chiều thì đẩy.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 7; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 44"
+        },
+        {
+          "id": "c3-15",
+          "hoi": "Một khung dây kín có dòng điện đặt trong từ trường đều. Phát biểu nào đúng?",
+          "dap_an": [
+            "Tổng lực từ bằng $0$ nhưng có mômen làm khung quay về vị trí $\\vec{p}_m$ cùng chiều $\\vec{B}$",
+            "Tổng lực từ khác $0$ nên khung chuyển động tịnh tiến theo chiều của $\\vec{B}$",
+            "Tổng lực từ bằng $0$ và mômen lực cũng luôn bằng $0$ ở mọi vị trí của khung",
+            "Mômen lực làm khung quay về vị trí $\\vec{p}_m$ ngược chiều với $\\vec{B}$"
+          ],
+          "giai_thich": "Trong từ trường đều các lực trên các cạnh triệt tiêu nên khung không tịnh tiến, nhưng ngẫu lực tạo mômen $\\vec{M} = \\vec{p}_m \\times \\vec{B}$ kéo khung về $\\alpha = 0$ (cân bằng bền).",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 8; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 45–47"
+        },
+        {
+          "id": "c3-16",
+          "hoi": "Vì sao lực Lorentz không sinh công trên hạt mang điện chuyển động trong từ trường?",
+          "dap_an": [
+            "Vì lực luôn vuông góc với vận tốc, chỉ đổi hướng chứ không đổi tốc độ",
+            "Vì lực luôn song song với vận tốc nên không làm hạt dịch chuyển thêm",
+            "Vì lực Lorentz luôn bằng $0$ khi hạt chuyển động thẳng đều trong từ trường",
+            "Vì lực luôn cùng chiều với $\\vec{B}$ nên vuông góc với quỹ đạo của hạt"
+          ],
+          "giai_thich": "$\\vec{F} = q\\vec{v}\\times\\vec{B}$ vuông góc với $\\vec{v}$, nên công suất $\\vec{F}\\cdot\\vec{v} = 0$: tốc độ và động năng không đổi, hạt chỉ đổi hướng.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 9; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 52"
+        },
+        {
+          "id": "c3-17",
+          "hoi": "Chu kỳ quay của hạt mang điện chuyển động tròn trong từ trường đều ($\\vec{v} \\perp \\vec{B}$) phụ thuộc vào những đại lượng nào?",
+          "dap_an": [
+            "Chỉ phụ thuộc $m$, $|q|$ và $B$: $T = \\dfrac{2\\pi m}{|q|B}$",
+            "Phụ thuộc cả vận tốc $v$: $T = \\dfrac{2\\pi m v}{|q|B}$",
+            "Phụ thuộc bán kính $R$: $T = \\dfrac{2\\pi R}{|q|B}$",
+            "Chỉ phụ thuộc $B$: $T = \\dfrac{2\\pi}{B}$"
+          ],
+          "giai_thich": "$T = \\dfrac{2\\pi R}{v}$ với $R = \\dfrac{mv}{|q|B}$ nên $T = \\dfrac{2\\pi m}{|q|B}$: không phụ thuộc $v$ hay $R$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 9; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 53–55"
+        },
+        {
+          "id": "c3-18",
+          "hoi": "Một electron và một proton bay cùng vận tốc vào cùng một từ trường đều (vuông góc đường sức). Nhận định nào đúng về lực Lorentz?",
+          "dap_an": [
+            "Hai lực cùng độ lớn nhưng ngược chiều nhau",
+            "Hai lực cùng độ lớn và cùng chiều nhau",
+            "Lực lên electron lớn hơn vì khối lượng nhỏ",
+            "Lực lên proton bằng $0$ vì hạt mang điện dương"
+          ],
+          "giai_thich": "$F = |q|vB\\sin\\alpha$ chỉ phụ thuộc độ lớn điện tích ($e$ như nhau); $q < 0$ thì lực ngược chiều $\\vec{v}\\times\\vec{B}$. Khối lượng chỉ ảnh hưởng bán kính quỹ đạo, không ảnh hưởng lực.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 9; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 52"
+        },
+        {
+          "id": "c3-19",
+          "hoi": "Công của lực từ khi một mạch điện có dòng không đổi $I$ di chuyển trong từ trường được tính bằng công thức nào?",
+          "dap_an": [
+            "$A = I\\,\\Delta\\Phi = I(\\Phi_2 - \\Phi_1)$",
+            "$A = I\\,\\Phi_1\\Phi_2$",
+            "$A = \\Delta\\Phi / I$",
+            "$A = I^2(\\Phi_2 - \\Phi_1)$"
+          ],
+          "giai_thich": "Công của lực từ bằng cường độ dòng điện nhân độ biến thiên từ thông qua mạch: $A_{12} = I(\\Phi_{m2} - \\Phi_{m1})$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 8; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 44, 48"
+        },
+        {
+          "id": "c3-20",
+          "hoi": "Khung dây tròn bán kính $10\\ \\mathrm{cm}$ gồm $100$ vòng, dòng mỗi vòng $1\\ \\mathrm{A}$, đặt trong không khí. Cảm ứng từ tại tâm khung là bao nhiêu?",
+          "dap_an": [
+            "$6{,}28 \\cdot 10^{-4}\\ \\mathrm{T}$",
+            "$6{,}28 \\cdot 10^{-6}\\ \\mathrm{T}$",
+            "$2 \\cdot 10^{-4}\\ \\mathrm{T}$",
+            "$3{,}14 \\cdot 10^{-4}\\ \\mathrm{T}$"
+          ],
+          "giai_thich": "$B = \\dfrac{\\mu_0 N I}{2R} = \\dfrac{4\\pi \\cdot 10^{-7} \\cdot 100 \\cdot 1}{2 \\cdot 0{,}1} = 6{,}28 \\cdot 10^{-4}\\ \\mathrm{T}$. Quên $N$ cho $6{,}28 \\cdot 10^{-6}$; dùng nhầm $\\mu_0 NI/(2\\pi R)$ cho $2 \\cdot 10^{-4}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 26; bài tập Chương 3, câu 1"
+        },
+        {
+          "id": "c3-21",
+          "hoi": "Dây dẫn mảnh uốn thành hình vuông cạnh $a$, có dòng $I$, đặt trong chân không. Cảm ứng từ tại tâm hình vuông là bao nhiêu?",
+          "dap_an": [
+            "$\\dfrac{2\\sqrt{2}\\,\\mu_0 I}{\\pi a}$",
+            "$\\dfrac{\\sqrt{2}\\,\\mu_0 I}{2\\pi a}$",
+            "$\\dfrac{2\\mu_0 I}{\\pi a}$",
+            "$\\dfrac{4\\mu_0 I}{\\pi a}$"
+          ],
+          "giai_thich": "Mỗi cạnh: $h = a/2$, $\\alpha_1 = \\alpha_2 = 45^\\circ$ nên $B_1 = \\dfrac{\\mu_0 I}{4\\pi (a/2)}\\cdot 2\\sin 45^\\circ = \\dfrac{\\sqrt{2}\\,\\mu_0 I}{2\\pi a}$. Bốn cạnh cho $\\vec{B}$ cùng chiều: $B = 4B_1 = \\dfrac{2\\sqrt{2}\\,\\mu_0 I}{\\pi a}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2, 4; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24–25; bài tập Chương 3, câu 2"
+        },
+        {
+          "id": "c3-22",
+          "hoi": "Dòng $10\\ \\mathrm{A}$ chạy qua dây rất dài gồm hai nửa đường thẳng $Ax$ và $Ay$ vuông góc (hình 6.4), $M$ nằm trên đường kéo dài của $xA$ với $AM = 5\\ \\mathrm{cm}$. Cảm ứng từ tại $M$ là bao nhiêu?",
+          "dap_an": [
+            "$2 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$4 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$1 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$0\\ \\mathrm{T}$"
+          ],
+          "giai_thich": "Đoạn $xA$ có $M$ trên đường kéo dài nên $B_1 = 0$. Đoạn $Ay$ nửa vô hạn, chân vuông góc từ $M$ là $A$: $B_2 = \\dfrac{\\mu_0 I}{4\\pi h} = \\dfrac{10^{-7} \\cdot 10}{0{,}05} = 2 \\cdot 10^{-5}\\ \\mathrm{T}$. Dùng nhầm công thức dây vô hạn cho $4 \\cdot 10^{-5}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24–25; bài tập Chương 3, câu 3"
+        },
+        {
+          "id": "c3-23",
+          "hoi": "Ống dây solenoid dài $50\\ \\mathrm{cm}$ quấn $5000$ vòng, có dòng $5\\ \\mathrm{A}$. Cảm ứng từ trong lòng ống là bao nhiêu?",
+          "dap_an": [
+            "$6{,}28 \\cdot 10^{-2}\\ \\mathrm{T}$",
+            "$3{,}14 \\cdot 10^{-2}\\ \\mathrm{T}$",
+            "$6{,}28 \\cdot 10^{-4}\\ \\mathrm{T}$",
+            "$1{,}26 \\cdot 10^{-1}\\ \\mathrm{T}$"
+          ],
+          "giai_thich": "$n = N/\\ell = 5000/0{,}5 = 10^4$ vòng/m; $B = \\mu_0 n I = 4\\pi \\cdot 10^{-7} \\cdot 10^4 \\cdot 5 = 6{,}28 \\cdot 10^{-2}\\ \\mathrm{T}$. Quên đổi $50\\ \\mathrm{cm}$ sang $\\mathrm{m}$ sẽ ra kết quả sai hai bậc.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 6; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 38–39; bài tập Chương 3, câu 4"
+        },
+        {
+          "id": "c3-24",
+          "hoi": "Đoạn dây thẳng $AB = 20\\ \\mathrm{cm}$ có dòng $20\\ \\mathrm{A}$. Điểm $M$ trên trung trực của $AB$ nhìn $AB$ dưới góc $60^\\circ$. Cảm ứng từ tại $M$ là bao nhiêu?",
+          "dap_an": [
+            "$1{,}15 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$2{,}31 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$2 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$3{,}46 \\cdot 10^{-5}\\ \\mathrm{T}$"
+          ],
+          "giai_thich": "$\\alpha_1 = \\alpha_2 = 30^\\circ$; $h = 10/\\tan 30^\\circ = 17{,}3\\ \\mathrm{cm}$. $B = \\dfrac{10^{-7} \\cdot 20}{0{,}173}(\\sin 30^\\circ + \\sin 30^\\circ) = 1{,}15 \\cdot 10^{-5}\\ \\mathrm{T}$. Lấy nhầm $h = 10\\ \\mathrm{cm}$ cho $2 \\cdot 10^{-5}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24–25; bài tập Chương 3, câu 5"
+        },
+        {
+          "id": "c3-25",
+          "hoi": "Dây rất dài, $I = 10\\ \\mathrm{A}$, uốn thành 3 phần như hình 6.7: đoạn thẳng đứng, cung $1/4$ đường tròn tâm $O$ bán kính $5\\ \\mathrm{cm}$, đoạn nằm ngang. Cảm ứng từ tại $O$ là bao nhiêu?",
+          "dap_an": [
+            "$3{,}14 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$6{,}28 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$1{,}26 \\cdot 10^{-4}\\ \\mathrm{T}$",
+            "$7{,}14 \\cdot 10^{-5}\\ \\mathrm{T}$"
+          ],
+          "giai_thich": "Hai đoạn thẳng có đường kéo dài đi qua $O$ nên cho $B = 0$. Chỉ còn cung $1/4$: $B = \\dfrac{\\mu_0 I}{8R} = \\dfrac{4\\pi \\cdot 10^{-7} \\cdot 10}{8 \\cdot 0{,}05} = 3{,}14 \\cdot 10^{-5}\\ \\mathrm{T}$, hướng vào trang.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 3, 4; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 26; bài tập Chương 3, câu 7"
+        },
+        {
+          "id": "c3-26",
+          "hoi": "Dòng $10\\ \\mathrm{A}$ chạy qua đoạn dây $AB$ (hình 6.8); $M$ cách $AB$ khoảng $h = 10\\ \\mathrm{cm}$, góc trong tam giác tại $A$ và $B$ là $\\theta_1 = 30^\\circ$, $\\theta_2 = 60^\\circ$. Cường độ từ trường $H$ tại $M$ là bao nhiêu?",
+          "dap_an": [
+            "Khoảng $10{,}9\\ \\mathrm{A/m}$",
+            "Khoảng $1{,}37 \\cdot 10^{-5}\\ \\mathrm{A/m}$",
+            "Khoảng $15{,}9\\ \\mathrm{A/m}$",
+            "Khoảng $21{,}7\\ \\mathrm{A/m}$"
+          ],
+          "giai_thich": "Góc tại $M$: $\\alpha_1 = 90^\\circ - 30^\\circ = 60^\\circ$, $\\alpha_2 = 30^\\circ$. $B = \\dfrac{10^{-7} \\cdot 10}{0{,}1}(\\sin 60^\\circ + \\sin 30^\\circ) = 1{,}37 \\cdot 10^{-5}\\ \\mathrm{T}$, rồi $H = B/\\mu_0 \\approx 10{,}9\\ \\mathrm{A/m}$. Đề hỏi $H$ nên phải chia $\\mu_0$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 2; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24–25; bài tập Chương 3, câu 8"
+        },
+        {
+          "id": "c3-27",
+          "hoi": "Hai dây thẳng dài vô hạn cách nhau $10\\ \\mathrm{cm}$, $I_1 = I_2 = 10\\ \\mathrm{A}$ cùng chiều. Cảm ứng từ tại $M$ cách hai dây $8\\ \\mathrm{cm}$ và $6\\ \\mathrm{cm}$ là bao nhiêu?",
+          "dap_an": [
+            "$4{,}17 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$5{,}83 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$0{,}83 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$2{,}92 \\cdot 10^{-5}\\ \\mathrm{T}$"
+          ],
+          "giai_thich": "$B_1 = \\dfrac{2 \\cdot 10^{-7} \\cdot 10}{0{,}08} = 2{,}5 \\cdot 10^{-5}$, $B_2 = \\dfrac{2 \\cdot 10^{-7} \\cdot 10}{0{,}06} = 3{,}33 \\cdot 10^{-5}\\ \\mathrm{T}$. Vì $6^2 + 8^2 = 10^2$ nên $O_1M \\perp O_2M$, suy ra $\\vec{B}_1 \\perp \\vec{B}_2$: $B = \\sqrt{B_1^2 + B_2^2} = 4{,}17 \\cdot 10^{-5}\\ \\mathrm{T}$. Cộng hoặc trừ đại số là sai.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24–25; bài tập Chương 3, câu 9"
+        },
+        {
+          "id": "c3-28",
+          "hoi": "Dây rất dài bẻ gấp khúc $45^\\circ$ như hình 6.11, $I = 10\\ \\mathrm{A}$, $AM = BM = 5\\ \\mathrm{cm}$. Độ lớn cảm ứng từ tại $M$ là bao nhiêu?",
+          "dap_an": [
+            "$6 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$4 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$2 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "$8 \\cdot 10^{-5}\\ \\mathrm{T}$"
+          ],
+          "giai_thich": "Nửa đường thẳng bên trái có $M$ trên đường kéo dài: $B_1 = 0$. Đoạn xiên $AB$: $h = 5\\sin 45^\\circ = 3{,}54\\ \\mathrm{cm}$, $\\alpha_1 = \\alpha_2 = 45^\\circ$, $B_2 = 4 \\cdot 10^{-5}\\ \\mathrm{T}$. Nửa đường thẳng từ $B$: $B_3 = \\dfrac{\\mu_0 I}{4\\pi \\cdot BM} = 2 \\cdot 10^{-5}\\ \\mathrm{T}$. Hai vectơ cùng chiều: $B = 6 \\cdot 10^{-5}\\ \\mathrm{T}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 4; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24–25; bài tập Chương 3, câu 11"
+        },
+        {
+          "id": "c3-29",
+          "hoi": "Đoạn dây thẳng dài $5\\ \\mathrm{cm}$, có dòng $4\\ \\mathrm{A}$, đặt trong từ trường đều $B = 10^{-2}\\ \\mathrm{T}$, hợp với đường sức góc $30^\\circ$. Lực từ tác dụng lên đoạn dây là bao nhiêu?",
+          "dap_an": [
+            "$10^{-3}\\ \\mathrm{N}$",
+            "$1{,}73 \\cdot 10^{-3}\\ \\mathrm{N}$",
+            "$2 \\cdot 10^{-3}\\ \\mathrm{N}$",
+            "$0{,}1\\ \\mathrm{N}$"
+          ],
+          "giai_thich": "$F = I\\ell B\\sin\\alpha = 4 \\cdot 0{,}05 \\cdot 10^{-2} \\cdot \\sin 30^\\circ = 10^{-3}\\ \\mathrm{N}$. Dùng $\\cos 30^\\circ$ cho $1{,}73 \\cdot 10^{-3}$; quên đổi $5\\ \\mathrm{cm}$ cho $0{,}1$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 7; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 40–42; bài tập Chương 3, câu 12"
+        },
+        {
+          "id": "c3-30",
+          "hoi": "Hai dây thẳng song song cách nhau $20\\ \\mathrm{cm}$, $I_1 = 2\\ \\mathrm{A}$, $I_2 = 5\\ \\mathrm{A}$ cùng chiều. Lực tương tác trên mỗi mét chiều dài là bao nhiêu và có tính chất gì?",
+          "dap_an": [
+            "$10^{-5}\\ \\mathrm{N/m}$, lực hút",
+            "$10^{-5}\\ \\mathrm{N/m}$, lực đẩy",
+            "$2 \\cdot 10^{-5}\\ \\mathrm{N/m}$, lực hút",
+            "$5 \\cdot 10^{-6}\\ \\mathrm{N/m}$, lực hút"
+          ],
+          "giai_thich": "$\\dfrac{F}{\\ell} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi d} = \\dfrac{2 \\cdot 10^{-7} \\cdot 2 \\cdot 5}{0{,}2} = 10^{-5}\\ \\mathrm{N/m}$. Hai dòng cùng chiều nên hút nhau.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 7; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 44; bài tập Chương 3, câu 13"
+        },
+        {
+          "id": "c3-31",
+          "hoi": "Khung dây diện tích $100\\ \\mathrm{cm^2}$ quay đều $5$ vòng/giây trong từ trường đều $B = 0{,}1\\ \\mathrm{T}$, trục quay vuông góc đường sức; lúc $t = 0$ pháp tuyến cùng chiều $\\vec{B}$. Từ thông qua khung là gì?",
+          "dap_an": [
+            "$\\Phi = 10^{-3}\\cos(10\\pi t)\\ \\mathrm{Wb}$",
+            "$\\Phi = 10^{-3}\\sin(10\\pi t)\\ \\mathrm{Wb}$",
+            "$\\Phi = 10^{-3}\\cos(5t)\\ \\mathrm{Wb}$",
+            "$\\Phi = 10\\cos(10\\pi t)\\ \\mathrm{Wb}$"
+          ],
+          "giai_thich": "$S = 10^{-2}\\ \\mathrm{m^2}$, $\\omega = 2\\pi \\cdot 5 = 10\\pi\\ \\mathrm{rad/s}$; lúc $t = 0$ thì $\\alpha = 0$ nên $\\alpha = \\omega t$ và $\\Phi = BS\\cos\\alpha = 10^{-3}\\cos(10\\pi t)\\ \\mathrm{Wb}$. Dùng $\\sin$ là sai vì ban đầu từ thông cực đại.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 29; bài tập Chương 3, câu 14"
+        },
+        {
+          "id": "c3-32",
+          "hoi": "Khung chữ nhật dài $b$, rộng $a$, đồng phẳng với dây thẳng vô hạn có dòng $I$; cạnh $b$ song song với dây, cạnh gần cách dây $x$ (hình 7.7). Từ thông qua khung là gì?",
+          "dap_an": [
+            "$\\Phi = \\dfrac{\\mu_0 I b}{2\\pi}\\ln\\dfrac{x + a}{x}$",
+            "$\\Phi = \\dfrac{\\mu_0 I a b}{2\\pi x}$",
+            "$\\Phi = \\dfrac{\\mu_0 I a}{2\\pi}\\ln\\dfrac{x + b}{x}$",
+            "$\\Phi = \\dfrac{\\mu_0 I b}{2\\pi}\\cdot\\dfrac{a}{x + a}$"
+          ],
+          "giai_thich": "$B = \\dfrac{\\mu_0 I}{2\\pi r}$ không đều trên khung, phải chia dải rộng $dr$, dài $b$: $d\\Phi = \\dfrac{\\mu_0 I}{2\\pi r} b\\,dr$; tích phân từ $x$ đến $x + a$ cho $\\dfrac{\\mu_0 I b}{2\\pi}\\ln\\dfrac{x + a}{x}$. Dùng $\\Phi = BS$ với $B$ tại cạnh gần là sai.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 29–30; bài tập Chương 3, câu 15"
+        },
+        {
+          "id": "c3-33",
+          "hoi": "Electron bay vào từ trường đều hợp với đường sức góc $30^\\circ$, cường độ từ trường $10\\ \\mathrm{A/m}$, vận tốc $4 \\cdot 10^3\\ \\mathrm{m/s}$. Lực Lorentz có độ lớn bao nhiêu?",
+          "dap_an": [
+            "Khoảng $4{,}0 \\cdot 10^{-21}\\ \\mathrm{N}$",
+            "Khoảng $3{,}2 \\cdot 10^{-15}\\ \\mathrm{N}$",
+            "Khoảng $7{,}0 \\cdot 10^{-21}\\ \\mathrm{N}$",
+            "Khoảng $8{,}0 \\cdot 10^{-21}\\ \\mathrm{N}$"
+          ],
+          "giai_thich": "Đổi $B = \\mu_0 H = 1{,}26 \\cdot 10^{-5}\\ \\mathrm{T}$. $F = evB\\sin 30^\\circ = 1{,}6 \\cdot 10^{-19} \\cdot 4 \\cdot 10^3 \\cdot 1{,}26 \\cdot 10^{-5} \\cdot 0{,}5 \\approx 4{,}0 \\cdot 10^{-21}\\ \\mathrm{N}$. Dùng thẳng $H$ làm $B$ cho $3{,}2 \\cdot 10^{-15}$; dùng $\\cos$ cho $7{,}0 \\cdot 10^{-21}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 9; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 52; bài tập Chương 3, câu 16"
+        },
+        {
+          "id": "c3-34",
+          "hoi": "Electron bay vuông góc vào từ trường đều $B = 10^{-5}\\ \\mathrm{T}$ với vận tốc $1{,}6 \\cdot 10^6\\ \\mathrm{m/s}$. Bán kính quỹ đạo là bao nhiêu?",
+          "dap_an": [
+            "Khoảng $0{,}91\\ \\mathrm{m}$",
+            "Khoảng $9{,}1\\ \\mathrm{m}$",
+            "Khoảng $0{,}091\\ \\mathrm{m}$",
+            "Khoảng $1{,}82\\ \\mathrm{m}$"
+          ],
+          "giai_thich": "$R = \\dfrac{mv}{eB} = \\dfrac{9{,}11 \\cdot 10^{-31} \\cdot 1{,}6 \\cdot 10^6}{1{,}6 \\cdot 10^{-19} \\cdot 10^{-5}} = 0{,}911\\ \\mathrm{m}$ (khoảng $91\\ \\mathrm{cm}$).",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 9; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 53; bài tập Chương 3, câu 17"
+        },
+        {
+          "id": "c3-35",
+          "hoi": "Electron chuyển động tròn trong từ trường đều $B = 10^{-5}\\ \\mathrm{T}$ với bán kính $91\\ \\mathrm{cm}$. Chu kỳ quay là bao nhiêu?",
+          "dap_an": [
+            "Khoảng $3{,}58 \\cdot 10^{-6}\\ \\mathrm{s}$",
+            "Khoảng $5{,}69 \\cdot 10^{-7}\\ \\mathrm{s}$",
+            "Khoảng $3{,}58 \\cdot 10^{-4}\\ \\mathrm{s}$",
+            "Khoảng $1{,}79 \\cdot 10^{-6}\\ \\mathrm{s}$"
+          ],
+          "giai_thich": "$T = \\dfrac{2\\pi m}{eB} = \\dfrac{2\\pi \\cdot 9{,}11 \\cdot 10^{-31}}{1{,}6 \\cdot 10^{-19} \\cdot 10^{-5}} = 3{,}58 \\cdot 10^{-6}\\ \\mathrm{s}$; không cần dùng $R$. Quên $2\\pi$ cho $5{,}69 \\cdot 10^{-7}$; dùng $\\pi$ thay $2\\pi$ cho $1{,}79 \\cdot 10^{-6}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 9; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 53; bài tập Chương 3, câu 18"
+        },
+        {
+          "id": "c3-36",
+          "hoi": "Electron được gia tốc từ nghỉ bởi hiệu điện thế $3\\ \\mathrm{V}$, rồi chuyển động song song với dây thẳng dài có dòng $5\\ \\mathrm{A}$, cách dây $4\\ \\mathrm{cm}$. Lực từ tác dụng lên electron là bao nhiêu?",
+          "dap_an": [
+            "Khoảng $4{,}1 \\cdot 10^{-18}\\ \\mathrm{N}$",
+            "Khoảng $2{,}1 \\cdot 10^{-18}\\ \\mathrm{N}$",
+            "Khoảng $4{,}1 \\cdot 10^{-20}\\ \\mathrm{N}$",
+            "Khoảng $1{,}6 \\cdot 10^{-17}\\ \\mathrm{N}$"
+          ],
+          "giai_thich": "$v = \\sqrt{2eU/m} = 1{,}03 \\cdot 10^6\\ \\mathrm{m/s}$; $B = \\dfrac{2 \\cdot 10^{-7} \\cdot 5}{0{,}04} = 2{,}5 \\cdot 10^{-5}\\ \\mathrm{T}$; $\\vec{v} \\perp \\vec{B}$ nên $F = evB = 4{,}1 \\cdot 10^{-18}\\ \\mathrm{N}$. Dùng $B$ của nửa dây ($\\mu_0 I/4\\pi a$) cho $2{,}1 \\cdot 10^{-18}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 9; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 52; bài tập Chương 3, câu 19"
+        },
+        {
+          "id": "c3-37",
+          "hoi": "Hạt $\\alpha$ ($q = 2e$, $m = 6{,}6 \\cdot 10^{-27}\\ \\mathrm{kg}$) có động năng $500\\ \\mathrm{eV}$ bay vuông góc vào từ trường đều $0{,}01\\ \\mathrm{T}$. Bán kính quỹ đạo là bao nhiêu?",
+          "dap_an": [
+            "Khoảng $0{,}32\\ \\mathrm{m}$",
+            "Khoảng $0{,}64\\ \\mathrm{m}$",
+            "Khoảng $0{,}23\\ \\mathrm{m}$",
+            "Khoảng $3{,}2\\ \\mathrm{m}$"
+          ],
+          "giai_thich": "$W = 500 \\cdot 1{,}6 \\cdot 10^{-19} = 8 \\cdot 10^{-17}\\ \\mathrm{J}$; $R = \\dfrac{\\sqrt{2mW}}{qB} = \\dfrac{\\sqrt{2 \\cdot 6{,}6 \\cdot 10^{-27} \\cdot 8 \\cdot 10^{-17}}}{3{,}2 \\cdot 10^{-19} \\cdot 0{,}01} \\approx 0{,}32\\ \\mathrm{m}$. Lấy nhầm $q = e$ cho $0{,}64\\ \\mathrm{m}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 9; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 53; bài tập Chương 3, câu 20"
+        },
+        {
+          "id": "c3-38",
+          "hoi": "Hai dây thẳng vô hạn song song cách nhau $30\\ \\mathrm{cm}$, $I_1 = 10\\ \\mathrm{A}$, $I_2 = 20\\ \\mathrm{A}$ cùng chiều. Khung vuông $100\\ \\mathrm{cm^2}$ đặt chính giữa, đồng phẳng. Từ thông của hai dòng qua khung là bao nhiêu?",
+          "dap_an": [
+            "Khoảng $1{,}39 \\cdot 10^{-7}\\ \\mathrm{Wb}$",
+            "Khoảng $4{,}16 \\cdot 10^{-7}\\ \\mathrm{Wb}$",
+            "Khoảng $2{,}77 \\cdot 10^{-7}\\ \\mathrm{Wb}$",
+            "Bằng $0$ vì khung nằm chính giữa"
+          ],
+          "giai_thich": "Khung cạnh $10\\ \\mathrm{cm}$, cách mỗi dây từ $10$ đến $20\\ \\mathrm{cm}$. $\\Phi_1 = \\dfrac{\\mu_0 I_1 b}{2\\pi}\\ln 2 = 1{,}39 \\cdot 10^{-7}$, $\\Phi_2 = 2{,}77 \\cdot 10^{-7}\\ \\mathrm{Wb}$. Cùng chiều thì giữa hai dây $\\vec{B}$ ngược nhau: $\\Phi = \\Phi_2 - \\Phi_1 = 1{,}39 \\cdot 10^{-7}\\ \\mathrm{Wb}$. Ngược chiều mới cộng thành $4{,}16 \\cdot 10^{-7}$.",
+          "kho": true,
+          "nguon": "TT Chương 3, mục 5; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 29–30; bài tập Chương 3, câu 21"
+        },
+        {
+          "id": "c3-39",
+          "hoi": "Đoạn dây thẳng có dòng $5\\ \\mathrm{A}$. Điểm $M$ trên trung trực, cách dây $3\\ \\mathrm{cm}$, nhìn đoạn dây dưới góc $120^\\circ$. Cảm ứng từ tại $M$ là bao nhiêu?",
+          "dap_an": [
+            "Khoảng $2{,}89 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "Khoảng $1{,}67 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "Khoảng $3{,}33 \\cdot 10^{-5}\\ \\mathrm{T}$",
+            "Khoảng $1{,}44 \\cdot 10^{-5}\\ \\mathrm{T}$"
+          ],
+          "giai_thich": "$\\alpha_1 = \\alpha_2 = 60^\\circ$, $h = 0{,}03\\ \\mathrm{m}$: $B = \\dfrac{10^{-7} \\cdot 5}{0{,}03}\\cdot 2\\sin 60^\\circ = 2{,}89 \\cdot 10^{-5}\\ \\mathrm{T}$. Dùng $\\sin 30^\\circ$ cho $1{,}67 \\cdot 10^{-5}$; dây vô hạn cho $3{,}33 \\cdot 10^{-5}$.",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 2; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 24–25; bài tập Chương 3, câu 22"
+        },
+        {
+          "id": "c3-40",
+          "hoi": "Khung dây $5\\ \\mathrm{cm} \\times 4\\ \\mathrm{cm}$ có dòng $2\\ \\mathrm{A}$, đặt trong từ trường đều $0{,}1\\ \\mathrm{T}$, pháp tuyến hợp với $\\vec{B}$ góc $30^\\circ$. Mômen lực tác dụng lên khung là bao nhiêu?",
+          "dap_an": [
+            "$2 \\cdot 10^{-4}\\ \\mathrm{N \\cdot m}$",
+            "$3{,}46 \\cdot 10^{-4}\\ \\mathrm{N \\cdot m}$",
+            "$4 \\cdot 10^{-4}\\ \\mathrm{N \\cdot m}$",
+            "$2 \\cdot 10^{-2}\\ \\mathrm{N \\cdot m}$"
+          ],
+          "giai_thich": "$p_m = IS = 2 \\cdot 0{,}05 \\cdot 0{,}04 = 4 \\cdot 10^{-3}\\ \\mathrm{A \\cdot m^2}$; $M = p_m B\\sin\\alpha = 4 \\cdot 10^{-3} \\cdot 0{,}1 \\cdot 0{,}5 = 2 \\cdot 10^{-4}\\ \\mathrm{N \\cdot m}$. Dùng $\\cos$ cho $3{,}46 \\cdot 10^{-4}$; bỏ $\\sin\\alpha$ cho $4 \\cdot 10^{-4}$. (Ví dụ do bản tóm tắt tự đặt.)",
+          "kho": false,
+          "nguon": "TT Chương 3, mục 8; slide Chương 3 (file chương 4 – từ trường tĩnh), trang 45–47"
         }
       ]
     }
